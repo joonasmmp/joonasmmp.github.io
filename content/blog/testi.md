@@ -6,3 +6,4 @@ type: post
 ---
 
 Sellasta että miten se nyt oli
+Voisko nyt oikeasti toimia saatana????
