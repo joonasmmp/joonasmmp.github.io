@@ -12,7 +12,7 @@ canonifyURLs = true
 
 [params]
   # Sets the meta tag description
-  description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
+  description          = PJMM - Englannin materiaalia"
   # Sets the navbarTitle that appears in the top left of the navigation bar
   navbarTitle          = "PJMM"
   # Sets where "View More Posts" links
@@ -20,7 +20,7 @@ canonifyURLs = true
 
 # Optional Params
   # Sets navbarTitle to match the section of the website
-  dynamicTitles        = true
+  dynamicTitles        = false
   # Sets Categories to sort by number of posts instead of alphabetical
   categoriesByCount    = true
   # set to show or to hide categories in the sidebar
