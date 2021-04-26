@@ -12,7 +12,7 @@ canonifyURLs = true
 
 [params]
   # Sets the meta tag description
-  description          = PJMM - Englannin materiaalia"
+  description          = "PJMM - Englannin materiaalia"
   # Sets the navbarTitle that appears in the top left of the navigation bar
   navbarTitle          = "PJMM"
   # Sets where "View More Posts" links
