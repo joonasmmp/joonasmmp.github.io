@@ -19,7 +19,7 @@ jobs:
       - name: Build
         # remove --minify tag if you do not need it
         # docs: https://gohugo.io/hugo-pipes/minification/
-        run: hugo
+        run: hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
@@ -27,7 +27,7 @@ jobs:
           personal_token: ${{ secrets.TOKEN }}
           external_repository: joonasmmp/joonasmmp.github.io
           publish_dir: ./public
-          #   keep_files: true
+          keep_files: true
           user_name: joonasmmp
           user_email: joonaspp@gmail.com
           publish_branch: master
