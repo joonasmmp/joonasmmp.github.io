@@ -30,19 +30,9 @@ layout: tehtava
         </div>
 	</div>
 	</body>
+	
         <style>
 	
-#modal {
-  display: none;
-  position: absolute;
-  top: 0;
-  height: 100%;
-  left: 0;
-  width: 100%;
-  background-color: white;
-  text-align: center;
-}
-
 #btn0, #btn1, #btn2, #btn3 {
   color: white;
   width: 100px;
