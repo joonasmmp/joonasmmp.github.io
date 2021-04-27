@@ -8,8 +8,6 @@ layout: tehtava
 
 <!-- raw html -->
 {{< rawhtml >}}
-<html>
-<body>
  <h1>
     Perfekti: have vai has?
     </h1> 
@@ -22,11 +20,8 @@ layout: tehtava
         </div>
       </div>
     </div>
-    </body>
-</html>
-{{< /rawhtml >}}
 
-    {{ `<script>
+<script>
 function Quiz(questions) {
   this.score = 0;
   this.questions = questions;
@@ -159,4 +154,4 @@ var quiz = new Quiz(questions);
 
 // display quiz
 populate();
-</script>` | safeJS }}
+{{< /rawhtml >}}
