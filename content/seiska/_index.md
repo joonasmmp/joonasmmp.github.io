@@ -1,1 +1,0 @@
-wfwdfqwfqwdf ja sellasta
