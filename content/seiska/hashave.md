@@ -13,18 +13,13 @@ wwwwwwqqqwqwqwqw
  <h1>
     Perfekti: have vai has?
     </h1> 
-    <hr style="height:1px;width:390px;color:black;background-color:gray">
- 
-            <p id="question"></p>
- 
-            <div class="buttons">
+ 	
+	<p id="question"></p>
+	 <div class="buttons">
           <button id="btn0"><span id="choice0"></span></button> 
           <button id="btn1"><span id="choice1"></span></button>
         
         </div>
-
-
-
       </div>
     </div>
     </body>
