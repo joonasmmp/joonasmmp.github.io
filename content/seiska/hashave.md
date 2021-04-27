@@ -33,6 +33,7 @@ layout: tehtava
         <style>
 	
 #modal {
+  @include 'bootstrap.min.css';
   display: none;
   position: absolute;
   top: 0;
@@ -47,6 +48,7 @@ layout: tehtava
   color: white;
   width: 100px;
   font-size: 18px;
+  font-family: 'Times New Roman', serif;
   background: #eb5615;
   padding: 0px;
   border: 1px solid #000000;
