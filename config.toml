@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "PJMM - Englannin materiaalia"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
-paginate = 4
+paginate = 5
 googleAnalytics = ""
 pluralizeListTitles = false
 # Set the followings to true as part of your site SEO
@@ -17,7 +17,6 @@ canonifyURLs = true
   navbarTitle          = "PJMM"
   # Sets where "View More Posts" links
   viewMorePostLink     = "/blog/"
-  search = false
 
 # Optional Params
   # Sets navbarTitle to match the section of the website
@@ -76,26 +75,26 @@ canonifyURLs = true
   weight = 1
 
 [[menu.main]]
-  name = "About"
-  url = "/about/"
+  name = "Blogi"
+  url = "/blog/"
   identifier = "fa fa-id-card-o"
   weight = 2
 
 [[menu.main]]
-  name = "Blog"
-  url = "/blog/"
+  name = "Seiska"
+  url = "/seiska/"
   identifier = "fa fa-newspaper-o"
   weight = 3
 
 [[menu.main]]
-  name = "Itemized"
-  url = "/itemized/"
+  name = "8. luokka"
+  url = "/ysi/"
   identifier = "fa fa-list"
   weight = 4
 
 [[menu.main]]
-  name = "Categories"
-  url = "/categories/"
+  name = "9. luokka"
+  url = "/ysi/"
   identifier = "fa fa-sitemap"
   weight = 5
 
