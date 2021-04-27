@@ -7,6 +7,7 @@ layout: tehtava
 ---
 
 <!-- raw html -->
+{{< rawhtml >}}
 <html>
 <body>
  <h1>
@@ -25,7 +26,8 @@ layout: tehtava
 </html>
 {{< /rawhtml >}}
 
-    <script>function Quiz(questions) {
+    {{ `<script>
+function Quiz(questions) {
   this.score = 0;
   this.questions = questions;
   this.questionIndex = 0;
@@ -157,4 +159,4 @@ var quiz = new Quiz(questions);
 
 // display quiz
 populate();
-</script>
+</script>` | safeJS }}
