@@ -6,7 +6,7 @@ date = "2014-04-09"
 Alla löydät Seitsemännen luokan tehtäviä
 
 ## Kielioppia
-{{< relref "seiska_hashave.md" >}}
+{{< ref "seiska_hashave.md" >}}
 
 ## Sanastoa
 aaaa
