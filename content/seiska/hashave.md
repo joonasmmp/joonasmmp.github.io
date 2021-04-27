@@ -8,6 +8,7 @@ layout: tehtava
 
 <!-- raw html -->
 {{< rawhtml >}}
+
  <h1>
     Perfekti: have vai has?
     </h1> 
@@ -16,7 +17,6 @@ layout: tehtava
 	 <div class="buttons">
           <button id="btn0"><span id="choice0"></span></button> 
           <button id="btn1"><span id="choice1"></span></button>
-        
         </div>
 
 <script>
@@ -133,9 +133,7 @@ var questions = [
 	new Question("He _____ created this exercise so I can pass the test.", ["have", "has"], "has"),
 	new Question("_____ you already learned when to use 'have' and 'has?'", ["have", "has"], "have"),
 	new Question("Yes I _____. This is question #31 after all.", ["have", "has"], "have"),
-	new Question("Milloin tulee 'has'?", ["yksikön kolmas", "joku muu"], "yksikön kolmas"),
-        
-  
+	new Question("Milloin tulee 'has'?", ["yksikön kolmas", "joku muu"], "yksikön kolmas"),  
 ];
 
 $('.reset').click(startOver);
