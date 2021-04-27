@@ -18,8 +18,6 @@ layout: tehtava
           <button id="btn1"><span id="choice1"></span></button>
         
         </div>
-      </div>
-    </div>
 
 <script>
 function Quiz(questions) {
