@@ -30,7 +30,7 @@ layout: tehtava
         <button id="resetbutton" class="reset" value="reset">Takaisin alkuun</button>
         
         <style>
-		#modal {
+#modal {
   display: none;
   position: absolute;
   top: 0;
@@ -41,34 +41,13 @@ layout: tehtava
   text-align: center;
 }
 
-.grid #question {
-    font-family: 'Times New Roman', serif;
-    font-size: 22px;
-    color: #000000;
-    
-    }
-
 #btn0, #btn1, #btn2, #btn3 {
   width: 75 px;
   color: white;
   border: 1px solid #000000;
   margin-top: 4px;
 }
-
-#resetbutton{
-  background: white;
-  border: 0px;
-}
-
-#resetbutton2{
-  background: white;
-  border: 0px;
-}
 </style>
-        
-  </body>
-
-</html>
 
 <head>
   <title>Bootstrap Example</title>
