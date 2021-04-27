@@ -33,7 +33,6 @@ layout: tehtava
         <style>
 	
 #modal {
-  @include 'bootstrap.min.css';
   display: none;
   position: absolute;
   top: 0;
@@ -62,8 +61,9 @@ layout: tehtava
 </style>
 
 <div class="modal fade" id="modal" role="dialog">
+<style scoped>
   <div class="modal-dialog">
-
+        @import "bootstrap.min.css.";
     <div class="modal-content">
       <div class="modal-header">
         <h4 class="modal-title">Oh dear!</h4>
@@ -80,6 +80,7 @@ layout: tehtava
       </div>
     </div>
   </div>
+    </style>
 </div>
 
 <script>
