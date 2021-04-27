@@ -9,7 +9,8 @@ layout: tehtava
 <!-- raw html -->
 {{< rawhtml >}}
 <body>
-	
+<div class="grid">
+<div id="quiz">
     <h2>
     Perfekti: have vai has?
     </h2> 
@@ -21,7 +22,8 @@ layout: tehtava
           <button id="btn1"><span id="choice1"></span></button>
         
         </div>
-        
+        </div>
+	</body>
         <style>
 #modal {
   display: none;
