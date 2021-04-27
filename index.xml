@@ -5,4 +5,5 @@ Quiz.prototype.guess = function(answer) { if (this.getQuestionIndex().isCorrectA
 }
 this.questionIndex++; }
 Quiz.prototype.isEnded = function() { return this.questionIndex === this.questions.length; }
-function startOver() { location.reload(true); }</description></item><item><title>Testisivu</title><link>/blog/toimisko/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>/blog/toimisko/</guid><description>&lt;p>Juu että testataan että voisko toimia? Testataan niin että tässä on näin.&lt;/p></description></item></channel></rss>
+function startOver() { location.reload(true); }
+function Question(text, choices, answer) { this.</description></item><item><title>Testisivu</title><link>/blog/toimisko/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>/blog/toimisko/</guid><description>&lt;p>Juu että testataan että voisko toimia? Testataan niin että tässä on näin.&lt;/p></description></item></channel></rss>

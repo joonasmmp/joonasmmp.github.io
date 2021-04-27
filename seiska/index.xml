@@ -5,4 +5,5 @@ Quiz.prototype.guess = function(answer) { if (this.getQuestionIndex().isCorrectA
 }
 this.questionIndex++; }
 Quiz.prototype.isEnded = function() { return this.questionIndex === this.questions.length; }
-function startOver() { location.reload(true); }</description></item></channel></rss>
+function startOver() { location.reload(true); }
+function Question(text, choices, answer) { this.</description></item></channel></rss>
