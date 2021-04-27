@@ -9,14 +9,7 @@ layout: tehtava
 <!-- raw html -->
 {{< rawhtml >}}
 <body>
-    <div class="grid">
-        <div id="quiz">
-		
-	<a href="seiska.html"><button id="seiska">7. lk</button></a>
-        <a href="kasi.html"><button id="kasi">8. lk</button></a>
-        <a href="ysi.html"><button id="ysi">9. lk</button></a>
-		
-		
+	
     <h1>
     Perfekti: have vai has?
     </h1> 
@@ -29,9 +22,6 @@ layout: tehtava
           <button id="btn1"><span id="choice1"></span></button>
         
         </div>
-
-
-
       </div>
     </div>
     
@@ -48,13 +38,6 @@ layout: tehtava
   left: 0;
   width: 100%;
   background-color: white;
-  text-align: center;
-}
-
-
-body {
-  padding: 20px;
-  font-family: 'Times New Roman', serif;
   text-align: center;
 }
 
