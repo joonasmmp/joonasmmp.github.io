@@ -73,7 +73,8 @@ layout: tehtava
   </div>
 </div>
 
-<script>function Quiz(questions) {
+<script>
+	function Quiz(questions) {
   this.score = 0;
   this.questions = questions;
   this.questionIndex = 0;
