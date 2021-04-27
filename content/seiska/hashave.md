@@ -4,7 +4,6 @@ date: 2021-04-26
 draft: false
 type: page
 layout: tehtava
-js: https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
 js: https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js
 ---
 
