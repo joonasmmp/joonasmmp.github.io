@@ -1,9 +1,10 @@
-+++
-title = "Seitsemännen luokan tehtäviä"
-date = "2014-04-09"
-type: "page"
-layout: "tehtava"
-+++
+---
+title: "Seiskatehtäviä"
+date: 2021-04-26
+draft: false
+type: page
+layout: tehtava
+---
 
 Alla löydät Seitsemännen luokan tehtäviä
 
