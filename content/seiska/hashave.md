@@ -32,6 +32,15 @@ layout: tehtava
 	</body>
 	
         <style>
+  #modal {
+  display: none;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
 	
 #btn0, #btn1, #btn2, #btn3 {
   color: white;
@@ -51,9 +60,7 @@ layout: tehtava
 </style>
 
 <div class="modal fade" id="modal" role="dialog">
-<style scoped>
   <div class="modal-dialog">
-        @import "bootstrap.min.css.";
     <div class="modal-content">
       <div class="modal-header">
         <h4 class="modal-title">Oh dear!</h4>
@@ -70,7 +77,6 @@ layout: tehtava
       </div>
     </div>
   </div>
-    </style>
 </div>
 
 <script>
