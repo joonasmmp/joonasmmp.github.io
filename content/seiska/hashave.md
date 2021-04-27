@@ -44,11 +44,13 @@ layout: tehtava
 }
 
 #btn0, #btn1, #btn2, #btn3 {
-  width: 75 px;
   color: white;
+  width: 100px;
+  font-size: 18px;
+  background: #eb5615;
+  padding: 0px;
   border: 1px solid #000000;
-  margin-top: 4px;
-  background-color: orange;
+  border-radius: 3px;
 }
 </style>
 
