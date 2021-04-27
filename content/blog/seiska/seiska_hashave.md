@@ -1,1 +1,0 @@
-Sellasta näin
