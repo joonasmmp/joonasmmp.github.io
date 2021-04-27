@@ -20,7 +20,7 @@ layout: tehtava
     Perfekti: have vai has?
     </h2> 
  
-            <h3><p id="question"></p></h3>
+            <h4><p id="question"></p></h4>
  
             <div class="buttons">
           <button id="btn0"><span id="choice0"></span></button> 
@@ -51,6 +51,11 @@ layout: tehtava
   padding: 0px;
   border: 1px solid #000000;
   border-radius: 3px;
+  text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
 }
 </style>
 
