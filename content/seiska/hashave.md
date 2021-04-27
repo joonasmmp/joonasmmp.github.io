@@ -23,8 +23,10 @@ layout: tehtava
         
         </div>
         </div>
+	</div>
 	</body>
         <style>
+	
 #modal {
   display: none;
   position: absolute;
@@ -41,6 +43,7 @@ layout: tehtava
   color: white;
   border: 1px solid #000000;
   margin-top: 4px;
+  background-color: orange;
 }
 </style>
 
