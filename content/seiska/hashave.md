@@ -10,10 +10,9 @@ layout: tehtava
 {{< rawhtml >}}
 <body>
 	
-    <h1>
+    <h2>
     Perfekti: have vai has?
-    </h1> 
-    <hr style="height:1px;width:390px;color:black;background-color:gray">
+    </h2> 
  
             <p id="question"></p>
  
@@ -22,12 +21,6 @@ layout: tehtava
           <button id="btn1"><span id="choice1"></span></button>
         
         </div>
-      </div>
-    </div>
-    
-            <hr style="height:1px;width:390px;color:black;background-color:gray">
-
-        <button id="resetbutton" class="reset" value="reset">Takaisin alkuun</button>
         
         <style>
 #modal {
@@ -50,9 +43,6 @@ layout: tehtava
 </style>
 
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
