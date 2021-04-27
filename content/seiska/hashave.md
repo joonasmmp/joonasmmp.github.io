@@ -48,55 +48,11 @@ layout: tehtava
     
     }
 
-.grid h1 {
-  font-size: 20px;
-  font-family: 'Times New Roman', serif;
-  color: #eb5615;
-}
-
-.grid button {
-  color: white;
-  width: 75px;
-  font-size: 18px;
-  font-family: 'Times New Roman', serif;
-  background: #eb5615;
-  padding: 0px;
-  border: 1px solid #000000;
-  border-radius: 3px;
-}
-
 #btn0, #btn1, #btn2, #btn3 {
   width: 75 px;
   color: white;
   border: 1px solid #000000;
   margin-top: 4px;
-}
-
-#seiska {
-  color: white;
-  width: 100px;
-  font-size: 14px;
-  background: #eb5615;
-  border: 1px solid #000000;
-  border-radius: 3px;
-}
-
-#kasi {
-  color: white;
-  width: 100px;
-  font-size: 14px;
-  background: #00abc3;
-  border: 1px solid #000000;
-  border-radius: 3px;
-}
-
-#ysi {
-  color: white;
-  width: 100px;
-  font-size: 14px;
-  background: #ea0083;
-  border: 1px solid #000000;
-  border-radius: 3px;
 }
 
 #resetbutton{
@@ -118,7 +74,6 @@ layout: tehtava
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
