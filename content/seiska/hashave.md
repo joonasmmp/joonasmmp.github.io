@@ -6,8 +6,7 @@ type: page
 layout: tehtava
 ---
 
-Has vai have?
-wwwwwwqqqwqwqwqw
+<!-- raw html -->
 <html>
 <body>
  <h1>
@@ -24,6 +23,7 @@ wwwwwwqqqwqwqwqw
     </div>
     </body>
 </html>
+{{< /rawhtml >}}
 
     <script>function Quiz(questions) {
   this.score = 0;
