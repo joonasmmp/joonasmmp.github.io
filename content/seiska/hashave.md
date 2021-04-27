@@ -8,7 +8,8 @@ layout: tehtava
 
 Has vai have?
 wwwwwwqqqwqwqwqw
-
+<html>
+<body>
  <h1>
     Perfekti: have vai has?
     </h1> 
@@ -26,7 +27,9 @@ wwwwwwqqqwqwqwqw
 
       </div>
     </div>
-    
+    </body>
+</html>
+
     <script>function Quiz(questions) {
   this.score = 0;
   this.questions = questions;
