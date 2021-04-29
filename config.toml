@@ -1,4 +1,4 @@
-baseurl = "/blog/"
+baseurl = ""
 languageCode = "en-us"
 title = "PJMM - Englannin materiaalia"
 theme = "hugo-future-imperfect"
@@ -58,7 +58,7 @@ canonifyURLs = true
 
 [params.postAmount]
 # Sets the number of recent posts to show in the sidebar. The default value is 5.
-    sidebar = 5
+    sidebar = 3
 
 # Sets the menu items in the navigation bar
 # Identifier prepends a Font Awesome icon to the menu item
