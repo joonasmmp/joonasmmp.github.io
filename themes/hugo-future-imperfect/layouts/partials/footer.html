@@ -29,7 +29,6 @@
       <script src="{{ "js/main.js" | relURL }}"></script>
       <script src="{{ "js/backToTop.js" | relURL }}"></script>
     {{ end }}
-    {{ end }}
 
     {{ if ne ($.Scratch.Get "jsFiles") false }}
       {{ range $.Scratch.Get "jsFiles" }}
