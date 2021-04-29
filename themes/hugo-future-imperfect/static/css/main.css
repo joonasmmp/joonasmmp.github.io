@@ -929,6 +929,7 @@
 
 			ul.actions.pagination .next {
 				text-decoration: none;
+				box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
 			}
 
 				ul.actions.pagination .next:after {
@@ -947,6 +948,7 @@
 
 			ul.actions.pagination .previous {
 				text-decoration: none;
+				box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
 			}
 
 				ul.actions.pagination .previous:before {
@@ -971,6 +973,7 @@
 
 					ul.actions.pagination .next, ul.actions.pagination .previous {
 						min-width: 20em;
+						box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
 					}
 
 			}
@@ -979,6 +982,7 @@
 
 				ul.actions.pagination .next, ul.actions.pagination .previous {
 					min-width: 18em;
+					box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
 				}
 
 			}
