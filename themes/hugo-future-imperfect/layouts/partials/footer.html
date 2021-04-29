@@ -1,38 +1,4 @@
-<head>
-    {{ if isset .Site.Params "customcss" }}
-            {{ $.Scratch.Set "cssFiles" .Site.Params.customCSS }}
-        {{ else }}
-            {{ $.Scratch.Set "cssFiles" false }}
-        {{ end }}
-
-        <!-- If the value "default" is passed into the param then we will first
-             load the standard css files associated with the theme -->
-        {{ if or (in ($.Scratch.Get "cssFiles") "default") (eq ($.Scratch.Get "cssFiles") false) }}
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-            <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
-            <link rel="stylesheet" href="{{ "css/academicons.min.css" | relURL }}">
-        {{ end }}
-
-                {{ if ne ($.Scratch.Get "cssFiles") false }}
-            {{ range $.Scratch.Get "cssFiles" }}
-                {{ if ne . "default" }}
-                    <link rel="stylesheet" href="{{ . | relURL }}">
-                {{ end }}
-            {{ end }}
-        {{ end }}
-        
-        
-
-{{ if (not .Params.disable_highlight) }}
-  {{ $highTheme := .Site.Params.highlightjsTheme }}
-    {{ with .Site.Params.highlightjsVersion }}
-    <link href='{{ $.Site.Params.highlightjsCDN | default "//cdn.bootcss.com" }}/highlight.js/{{ . }}/styles/{{ $highTheme }}.min.css' rel='stylesheet' type='text/css' />
-  {{ end }}
-{{ end }}
-
-      {{ template "_internal/google_analytics.html" . }}
-</head>
-
+    </div>
     <!-- Scripts -->
 
     {{ if isset .Site.Params "customjs" }}
@@ -62,6 +28,7 @@
       <script src="{{ "js/util.js" | relURL }}"></script>
       <script src="{{ "js/main.js" | relURL }}"></script>
       <script src="{{ "js/backToTop.js" | relURL }}"></script>
+    {{ end }}
     {{ end }}
 
     {{ if ne ($.Scratch.Get "jsFiles") false }}
