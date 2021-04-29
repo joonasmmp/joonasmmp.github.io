@@ -1,16 +1,9 @@
 <html>
     <head>
-        {{ partial "seo_schema" . }}
-        {{ with $.Scratch.Get "generalTitle" }}
-            <title>{{ . }}</title>
-        {{ else }}
-            {{ with .Title }}
-                <title>{{ . }}</title>
-            {{ else }}
-                <title>{{ .Site.Title }}</title>
-            {{ end }}
-        {{ end }}
+            <title>{{PJMM}}</title>
 
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
 
       <!-- Wrapper -->
