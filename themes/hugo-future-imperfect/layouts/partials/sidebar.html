@@ -3,30 +3,7 @@
 
   <!-- Intro -->
   <section id="intro">
-    {{ $pic := .Site.Params.intro.pic }}
-    {{ with $pic.src }}
-      {{ if $pic.circle }}
-        <a href='{{"/" | relURL}}'><img src="{{ . | relURL }}" class="intro-circle" width="{{ $pic.width }}" alt="{{ $pic.alt }}" /></a>
-      {{ else if $pic.imperfect }}
-        <a href='{{"/" | relURL}}' class="logo"><img src="{{ . | relURL }}" alt="{{ $pic.alt }}" /></a>
-      {{ else }}
-        <a href='{{"/" | relURL}}'><img src="{{ . | relURL }}" width="{{ $pic.width }}" alt="{{ $pic.alt }}" /></a>
-      {{ end }}
-    {{ end }}
-    {{ with .Site.Params.intro }}
-      <header>
-        <h2>{{ .header }}</h2>
-        <p>{{ .paragraph | safeHTML }}</p>
-      </header>
-    {{ end }}
-    {{ if .Site.Params.socialAppearAtTop }}
-      <ul class="icons">
-        {{ if .Site.Params.rssAppearAtTop }}
-          {{ partial "rss-icon" . }}
-        {{ end }}
-        {{ partial "social" . }}
-      </ul>
-    {{ end }}
+    <h1>PJMM</h1>
   </section>
 
   <!-- Posts List -->
