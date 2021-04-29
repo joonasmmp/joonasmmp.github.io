@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "/blog/"
 languageCode = "en-us"
 title = "PJMM - Englannin materiaalia"
 theme = "hugo-future-imperfect"
