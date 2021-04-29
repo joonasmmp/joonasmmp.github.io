@@ -2000,7 +2000,7 @@
 
 		table > tbody > tr:nth-child(even) > td,
 		table > tbody > tr:nth-child(even) > th {
-			background-color: #f4f4f4;
+			background-color: #fcf8e3;
 		}
 	}
 
