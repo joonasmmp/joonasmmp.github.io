@@ -16,18 +16,18 @@
                             <h3>
                                 <i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}
                             </h3>
+                </li>
+                <li>
                   {{ if .HasChildren }}
                       <a class="dropdown" href="#">{{ .Name }}</a>
                       <ul class="dropdown-content">
                         {{ range .Children }}
-                          <li><a href="{{ .URL }}"><i class="<h3>{{ .Identifier }}">&nbsp;</i>{{ .Name }}</h3></a></li>
+                          <li><a href="{{ .URL }}"><h3><i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}</a></li></h3>
                         {{ end }}
                       </ul>
                   {{ else }}
-        <a href="{{ .URL }}"><i class="<h3>{{ .Identifier }}">&nbsp;</i>{{ .Name }}</h3></a>
+                    <a href="{{ .URL }}"><h3><i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}</a><h3>
                   {{ end  }}
-                </li>
-            {{ end }}
         </ul>
     </nav>
     <nav class="main">
