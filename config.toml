@@ -70,22 +70,32 @@ canonifyURLs = true
   weight = 1
 
 [[menu.main]]
+  name = "Tehtävät"
+  url = "/seiska/"
+  identifier = "dropdown"
+  weight = 2
+  hasChildren = true
+
+[[menu.main]]
   name = "Seiska"
   url = "/seiska/"
-  identifier = "fa fa-newspaper-o"
-  weight = 2
-
-[[menu.main]]
-  name = "8. luokka"
-  url = "/ysi/"
   identifier = "fa fa-list"
-  weight = 3
+  weight = 2
+  parent = "tehtävät"
+  
+[[menu.main]]
+  name = "Kasi"
+  url = "/Kasi/"
+  identifier = "fa fa-sitemap"
+   weight = 2
+  parent = "tehtävät"
 
 [[menu.main]]
-  name = "9. luokka"
+  name = "Ysi"
   url = "/ysi/"
   identifier = "fa fa-sitemap"
-  weight = 4
+   weight = 2
+  parent = "tehtävät"
 
 [[menu.main]]
   name = "Contact"
