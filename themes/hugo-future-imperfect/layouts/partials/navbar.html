@@ -9,14 +9,6 @@
     {{ end }}
 
     <nav class="links">
-        <ul>
-            {{ range .Site.Menus.main }}
-                <li>
-                    <a href="{{ .URL }}">
-                            <i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}
-                    </a>
-                </li>
-            {{ end }}
     <nav class="main">
         <ul>
             {{ if $.Scratch.Get "shareNav" }}
