@@ -8,15 +8,16 @@
       <h1><a href="{{ "/" | relURL }}">{{ .Title }}</a></h1>
     {{ end }}
 
-    <nav class="links">
+   <nav class="links">
         <ul>
             {{ range .Site.Menus.main }}
-                <li>
+                <!-- <li>
                     <a href="{{ .URL }}">
                             <i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}
                     </a>
-                </li>
-                      <li>{{ if .HasChildren }}
+                </li> -->
+                <li>
+                  {{ if .HasChildren }}
                       <a class="dropdown" href="#">{{ .Name }}</a>
                       <ul class="dropdown-content">
                         {{ range .Children }}
@@ -26,6 +27,7 @@
                   {{ else }}
                     <a href="{{ .URL }}"><i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}</a>
                   {{ end  }}
+                </li>
             {{ end }}
         </ul>
     </nav>
@@ -36,33 +38,51 @@
                 <a class="fa-share-alt" href="#share-menu">Share</a>
             </li>
             {{ end }}
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="as_sitesearch" value="{{ .Site.BaseURL }}">
+                </form>
+            </li>
             <li class="menu">
                 <a class="fa-bars" href="#menu">Menu</a>
             </li>
         </ul>
     </nav>
-</header>
-
-<!-- Menu -->
+</header><!-- Menu -->
 <section id="menu">
 
     <!-- Links -->
         <section>
             <ul class="links">
                 {{ range .Site.Menus.main }}
-                    <li>
-                        <a href="{{ .URL }}">
+                <li>
+                  {{ if .HasChildren }}
+                      <a class="dropdown" href="#">{{ .Name }}</a>
+                      <ul class="dropdown-content">
+                        {{ range .Children }}
+                                                  <a href="{{ .URL }}">
                             <h3>
                                 <i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}
                             </h3>
                         </a>
-                    </li>
+                        {{ end }}
+                      </ul>
+                  {{ else }}
+                                            <a href="{{ .URL }}">
+                            <h3>
+                                <i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}
+                            </h3>
+                        </a>
+                  {{ end  }}
+                </li>
                 {{ end }}
             </ul>
         </section>
 
     <!-- Posts List -->
-        <section class="recent-posts">
+        <section id="recent-posts">
             <div class="mini-posts">
                 <header>
                     <h3>Recent Posts</h3>
@@ -78,7 +98,7 @@
                 {{ range first ($.Scratch.Get "postLimit") (where ($.Scratch.Get "recentPosts") "Type" "post") }}
                         <article class="mini-post">
                             <header>
-                                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                                <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
                                 {{ $.Scratch.Set "dateType" .Date }}
                                 <time class="published" datetime=
                                     '{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'>
