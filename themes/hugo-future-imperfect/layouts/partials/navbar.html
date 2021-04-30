@@ -59,11 +59,11 @@
                 {{ range .Site.Menus.main }}
                 <li>
                   {{ if .HasChildren }}
-                      <a class="dropdown" href="#">{{ .Name }}</a>
+                      <a class="dropdown" href="#"><h3>{{ .Name }}</a></h3>
                       <ul class="dropdown-content">
-                        {{ range .Children }}
-                                                  <a href="{{ .URL }}">
-                            <h3>
+                     {{ range .Children }}
+                                              <h3>    <a href="{{ .URL }}">
+                           
                                 <i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}
                             </h3>
                         </a>
