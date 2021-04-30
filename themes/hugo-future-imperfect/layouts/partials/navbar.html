@@ -12,16 +12,17 @@
         <ul>
             {{ range .Site.Menus.main }}
                 <!-- <li>
-                    <a href="{{ .URL }}">
-                            <i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}
-                    </a>
+                        <a href="{{ .URL }}">
+                            <h3>
+                                <i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}
+                            </h3>
                 </li> -->
                 <li>
                   {{ if .HasChildren }}
                       <a class="dropdown" href="#">{{ .Name }}</a>
                       <ul class="dropdown-content">
                         {{ range .Children }}
-                          <li><a href="{{ .URL }}"><i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}</a></li>
+                          <li><a href="{{ .URL }}"><h3><i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}</a></li></h3>
                         {{ end }}
                       </ul>
                   {{ else }}
