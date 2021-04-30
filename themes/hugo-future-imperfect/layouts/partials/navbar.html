@@ -38,13 +38,6 @@
                 <a class="fa-share-alt" href="#share-menu">Share</a>
             </li>
             {{ end }}
-            <li class="search">
-                <a class="fa-search" href="#search">Search</a>
-                <form id="search" method="get" action="//google.com/search">
-                    <input type="text" name="q" placeholder="Search" />
-                    <input type="hidden" name="as_sitesearch" value="{{ .Site.BaseURL }}">
-                </form>
-            </li>
             <li class="menu">
                 <a class="fa-bars" href="#menu">Menu</a>
             </li>
@@ -59,7 +52,7 @@
                 {{ range .Site.Menus.main }}
                 <li>
                   {{ if .HasChildren }}
-                      <i class="dropdown" href="#"><h3>{{ .Name }}</i></h3>
+                      <I class="dropdown" a href="#"><h3>{{ .Identifier }}">&nbsp;</i>{{ .Name }}</h3>
                       <ul class="dropdown-content">
                      {{ range .Children }}
                                               <h3>    <a href="{{ .URL }}">
