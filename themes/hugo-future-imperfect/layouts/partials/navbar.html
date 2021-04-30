@@ -53,7 +53,13 @@
         <section>
             <ul class="links">
                 {{ range .Site.Menus.main }}
-                <li>
+                 <li>
+                        <a href="{{ .URL }}">
+                            <h3>
+                                <i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}
+                            </h3>
+                        </a>
+                    </li>
                   {{ if .HasChildren }}
                       <a class="dropdown" href="#">
                       <ul class="dropdown-content">
