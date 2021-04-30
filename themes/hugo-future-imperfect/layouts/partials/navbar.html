@@ -46,6 +46,14 @@
                             </h3>
                         </a>
                     </li>
+                
+                    {{ if .HasChildren }}
+        <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+                <span>{{ .Name }}</span>
+            <ul class="sub-menu">
+            {{ range .Children }}
+            ...
+        </li>
                 {{ end }}
             </ul>
         </section>
