@@ -70,31 +70,25 @@ canonifyURLs = true
   weight = 1
 
 [[menu.main]]
-  name = "Blogi"
-  url = "/blog/"
-  identifier = "fa fa-id-card-o"
-  weight = 2
-
-[[menu.main]]
   name = "Seiska"
   url = "/seiska/"
   identifier = "fa fa-newspaper-o"
-  weight = 3
+  weight = 2
 
 [[menu.main]]
   name = "8. luokka"
   url = "/ysi/"
   identifier = "fa fa-list"
-  weight = 4
+  weight = 3
 
 [[menu.main]]
   name = "9. luokka"
   url = "/ysi/"
   identifier = "fa fa-sitemap"
-  weight = 5
+  weight = 4
 
 [[menu.main]]
   name = "Contact"
   url = "/contact/"
   identifier = "fa fa-envelope-o"
-  weight = 6
+  weight = 5
