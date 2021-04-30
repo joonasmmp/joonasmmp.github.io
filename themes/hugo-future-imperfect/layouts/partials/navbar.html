@@ -1,33 +1,32 @@
 <!-- Header -->
 <header id="header">
-    {{ if .IsHome }}
-      <h1><a href="/">{{ .Site.Params.navbarTitle }}</a></h1>
+    {{ if or .IsHome (not .Site.Params.DynamicTitles) }}
+      <h1><a href="{{ "/" | relURL }}">{{ .Site.Params.navbarTitle }}</a></h1>
     {{ else if ne .Section "" }}
-      <h1><a href="/">{{ .Section }}</a></h1>
+      <h1><a href="{{ "/" | relURL }}">{{ .Section }}</a></h1>
     {{ else }}
-      <h1><a href="/">{{ .Title }}</a></h1>
+      <h1><a href="{{ "/" | relURL }}">{{ .Title }}</a></h1>
     {{ end }}
 
     <nav class="links">
         <ul>
             {{ range .Site.Menus.main }}
-                                  <li>
-                        <a href="{{ .URL }}">
-                            <h3>
-                                <i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}
-                            </h3>
-                </li>
                 <li>
-                  {{ if .HasChildren }}
+                    <a href="{{ .URL }}">
+                            <i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}
+                    </a>
+                </li>
+                      <li>{{ if .HasChildren }}
                       <a class="dropdown" href="#">{{ .Name }}</a>
                       <ul class="dropdown-content">
                         {{ range .Children }}
-                          <li><a href="{{ .URL }}"><h3><i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}</a></li></h3>
+                          <li><a href="{{ .URL }}"><i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}</a></li>
                         {{ end }}
                       </ul>
                   {{ else }}
-                    <a href="{{ .URL }}"><h3><i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}</a><h3>
+                    <a href="{{ .URL }}"><i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}</a>
                   {{ end  }}
+            {{ end }}
         </ul>
     </nav>
     <nav class="main">
@@ -51,30 +50,19 @@
         <section>
             <ul class="links">
                 {{ range .Site.Menus.main }}
-                 <li>
+                    <li>
                         <a href="{{ .URL }}">
                             <h3>
                                 <i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}
                             </h3>
                         </a>
                     </li>
-                  {{ if .HasChildren }}
-                      <a class="dropdown" href="#">
-                      <ul class="dropdown-content">
-                        {{ range .Children }}
-                          <li><a href="{{ .URL }}"><h3><i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}</h3>
-                        {{ end }}
-                      </ul>
-                  {{ else }}
-                    <a href="{{ .URL }}">{{ .Name }}</a>
-                  {{ end  }}
-                </li>
                 {{ end }}
             </ul>
         </section>
 
     <!-- Posts List -->
-        <section id="recent-posts">
+        <section class="recent-posts">
             <div class="mini-posts">
                 <header>
                     <h3>Recent Posts</h3>
@@ -90,7 +78,7 @@
                 {{ range first ($.Scratch.Get "postLimit") (where ($.Scratch.Get "recentPosts") "Type" "post") }}
                         <article class="mini-post">
                             <header>
-                                <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
                                 {{ $.Scratch.Set "dateType" .Date }}
                                 <time class="published" datetime=
                                     '{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'>
@@ -112,12 +100,4 @@
             </div>
         </section>
 
-    <!-- Actions -->
-        <!--
-        <section>
-            <ul class="actions vertical">
-                <li><a href="#" class="button big fit">Log In</a></li>
-            </ul>
-        </section>
-        -->
 </section>
