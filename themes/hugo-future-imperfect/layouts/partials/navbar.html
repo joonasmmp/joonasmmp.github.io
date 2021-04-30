@@ -11,13 +11,9 @@
     <nav class="links">
         <ul>
             {{ range .Site.Menus.main }}
-                <!-- <li>
-                        <a href="{{ .URL }}">
-                            <h3>
-                                <i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}
-                            </h3>
-                </li> -->
+                <li><a href="{{ .URL }}"><h3><i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}</h3></li>
                 <li>
+                    
                   {{ if .HasChildren }}
                       <a class="dropdown" href="#">{{ .Name }}</a>
                       <ul class="dropdown-content">
