@@ -21,11 +21,11 @@
                       <a class="dropdown" href="#">{{ .Name }}</a>
                       <ul class="dropdown-content">
                         {{ range .Children }}
-                          <li><a href="{{ .URL }}"><i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}</a></li>
+                          <li><a href="{{ .URL }}"><i class="{{ .Identifier }}"></i>{{ .Name }}</a></li>
                         {{ end }}
                       </ul>
                   {{ else }}
-                    <a href="{{ .URL }}"><i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}</a>
+                    <a href="{{ .URL }}"><i class="{{ .Identifier }}"></i>{{ .Name }}</a>
                   {{ end  }}
                 </li>
             {{ end }}
