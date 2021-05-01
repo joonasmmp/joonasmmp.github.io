@@ -43,7 +43,8 @@
             </li>
         </ul>
     </nav>
-</header><!-- Menu -->
+</header>
+<!-- Menu -->
 <section id="menu">
 
     <!-- Links -->
@@ -52,12 +53,12 @@
                 {{ range .Site.Menus.main }}
                 <li>
                   {{ if .HasChildren }}
-                      <I class="dropdown" a href="#"><h3>{{ .Identifier }}">&nbsp;</i>{{ .Name }}</h3>
+                      <I class="dropdown" a href="#"><h3>{{ .Identifier }}"></i>{{ .Name }}</h3>
                       <ul class="dropdown-content">
                      {{ range .Children }}
                                               <h3>    <a href="{{ .URL }}">
                            
-                                <i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}
+                                <i class="{{ .Identifier }}"></i>{{ .Name }}
                             </h3>
                         </a>
                         {{ end }}
