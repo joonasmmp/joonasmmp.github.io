@@ -28,8 +28,9 @@
                     <a href="{{ .URL }}"><i class="{{ .Identifier }}"></i>{{ .Name }}</a>
                   {{ end  }}
                 </li>
+ </ul>
             {{ end }}
-</ul>
+
     </nav>
     <nav class="main">
         <ul>
@@ -62,13 +63,13 @@
                             </h3>
                         </a>
                         {{ end }}
-                                                  </ul>
                   {{ else }}
                                             <a href="{{ .URL }}">
                             <h3>
                                 <i class="{{ .Identifier }}">{{ .Name }}</i>
                             </h3>
                         </a>
+                                                  </ul>
                   {{ end  }}
                 </li>
 </ul>
