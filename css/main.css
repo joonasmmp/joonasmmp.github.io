@@ -2777,6 +2777,17 @@
 		#menu .links {
 			list-style: none;
 			padding: 0;
+			    font: inherit;
+    vertical-align: baseline;
+    color: #3c3b3b;
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.25em;
+    line-height: 1.65;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+    transition: color 0.2s ease;
+    font-size: 0.7em;
 		}
 
 				#menu .links > li > ul {
