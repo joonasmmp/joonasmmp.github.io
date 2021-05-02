@@ -3,7 +3,7 @@ title: "Ysitehtäviä"
 date: 2021-04-23
 draft: false
 type: tehtavavalikko
-layout: tehtava
+layout: tehtavavalikkosivu
 ---
 
 Alla löydät yhdeksännen luokan tehtäviä
