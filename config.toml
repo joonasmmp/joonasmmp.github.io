@@ -74,7 +74,7 @@ canonifyURLs = true
   name = "Tehtävät"
   url = ""
   identifier = "Tehtävät"
-  Pre = "fa fa-pencil-alt"
+  Pre = "fas fa-pencil-alt"
   weight = 2
   hasChildren = true
 
@@ -90,7 +90,7 @@ canonifyURLs = true
   name = "Kasi"
   url = "/Kasi/"
   identifier = "kasi"
-  Pre = "fa fa-sitemap"
+  Pre = "fas fa-pencil-alt"
    weight = 2
   parent = "Tehtävät"
 
