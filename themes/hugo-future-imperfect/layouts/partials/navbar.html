@@ -18,14 +18,14 @@
                 </li> -->
 <li>
       {{ if .HasChildren }}
-        <a class="dropdown" href="{{ .URL }}"><i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}</a>
+        <a class="dropdown" href="{{ .URL }}"><i class="{{ .Pre }}">&nbsp;</i>{{ .Name }}</a>
                         <ul class="dropdown-content">
                                  {{ range .Children }}
-                                         <li><a href="{{ .URL }}"><i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}</a></li>
+                                         <li><a href="{{ .URL }}"><i class="{{ .Pre }}">&nbsp;</i>{{ .Name }}</a></li>
                                  {{ end }}
                          </ul>
        {{ else }}
-            <a href="{{ .URL }}"><i class="{{ .Identifier }}">{{ .Name }}</a>
+            <a href="{{ .URL }}"><i class="{{ .Pre}}">&nbsp;</i>{{ .Name }}</a>
                   {{ end  }}
                 </li>
             {{ end }}
@@ -53,14 +53,14 @@
                 {{ range .Site.Menus.main }}
 <li>
       {{ if .HasChildren }}
-        <a class="dropdown" href="{{ .URL }}"><i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}</a>
+        <a class="dropdown" href="{{ .URL }}"><i class="{{ .Pre }}">&nbsp;</i>{{ .Name }}</a>
                         <ul class="dropdown-content">
                                  {{ range .Children }}
-                                         <li><a href="{{ .URL }}"><i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}</a></li>
+                                         <li><a href="{{ .URL }}"><i class="{{ .Pre }}">&nbsp;</i>{{ .Name }}</a></li>
                                  {{ end }}
                          </ul>
        {{ else }}
-            <a href="{{ .URL }}"><i class="{{ .Identifier }}">{{ .Name }}</a>
+            <a href="{{ .URL }}"><i class="{{ .Pre}}">&nbsp;</i>{{ .Name }}</a>
        {{ end  }}
 </li>
                 {{ end }}
