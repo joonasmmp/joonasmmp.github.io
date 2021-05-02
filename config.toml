@@ -83,7 +83,7 @@ canonifyURLs = true
   url = "/seiska/"
   identifier = "seiska"
   Pre = "fa fa-book"
-  weight = 2
+  weight = 3
   parent = "Tehtävät"
   
 [[menu.main]]
@@ -91,18 +91,18 @@ canonifyURLs = true
   url = "/Kasi/"
   identifier = "kasi"
   Pre = "fas fa-pencil-alt"
-   weight = 2
+   weight = 4
   parent = "Tehtävät"
 
 [[menu.main]]
   name = "Ysi"
   url = "/ysi/"
   identifier = "fas fa-sitemap"
-  weight = 2
+  weight = 5
   parent = "Tehtävät"
 
 [[menu.main]]
-  name = "Contact"
-  url = "/contact/"
+  name = "Tietoja"
+  url = "/about/"
   identifier = "fa fa-envelope-o"
-  weight = 5
+  weight = 6
