@@ -89,13 +89,13 @@ canonifyURLs = true
   name = "8. luokka"
   url = "/Kasi/"
   identifier = "kasi"
-   weight = 4
+  weight = 4
   parent = "Tehtävät"
 
 [[menu.main]]
   name = "9. luokka"
   url = "/ysi/"
-  identifier: ysi
+  identifier: "ysi"
   weight = 5
   parent = "Tehtävät"
 
