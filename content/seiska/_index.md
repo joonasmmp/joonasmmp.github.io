@@ -5,7 +5,7 @@ draft: false
 type: tehtavavalikko
 layout: tehtavavalikkosivu
 ---
-![Example image](/img/2021/05/otg1.jpg)
+![Example image](/img/sivukuvat/otg1.jpg)
 
 Alla löydät Seitsemännen luokan tehtäviä
 
