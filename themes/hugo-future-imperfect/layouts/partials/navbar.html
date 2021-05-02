@@ -39,7 +39,7 @@
             </li>
             {{ end }}
             <li class="menu">
-                <a class="fas fa-bars" href="#menu">Menu</a>
+                <a class="fa fa-bars" href="#menu">Menu</a>
             </li>
         </ul>
     </nav>
@@ -56,11 +56,11 @@
         <a class="dropdown" href="{{ .URL }}"><i class="{{ .Pre }}">&nbsp;</i>{{ .Name }}</a>
                         <ul class="dropdown-content">
                                  {{ range .Children }}
-                                         <h3><li><a href="{{ .URL }}"><i class="{{ .Pre }}">&nbsp;</i>{{ .Name }}</a></li></h3>
+                                         <li><a href="{{ .URL }}"><i class="{{ .Pre }}">&nbsp;</i><h3>{{ .Name }}</h3></a></li>
                                  {{ end }}
                          </ul>
        {{ else }}
-   <h3><a href="{{ .URL }}"><i class="{{ .Pre}}">&nbsp;</i>{{ .Name }}</a></h3>
+  <a href="{{ .URL }}"><i class="{{ .Pre}}">&nbsp;</i><h3>{{ .Name }}</h3></a>
        {{ end  }}
 </li>
                 {{ end }}
