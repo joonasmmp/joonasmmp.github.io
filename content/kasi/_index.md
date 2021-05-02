@@ -3,7 +3,7 @@ title: "Kasitehtäviä"
 date: 2021-04-25
 draft: false
 type: tehtavavalikko
-layout: tehtava
+layout: tehtavavalikkosivu
 ---
 
 Alla löydät kahdeksannen luokan tehtäviä
