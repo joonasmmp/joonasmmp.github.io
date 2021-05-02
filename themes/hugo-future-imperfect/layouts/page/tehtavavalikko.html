@@ -6,7 +6,6 @@
     <div id="main">
 <article class="post">
         {{range where .Site.Pages "Type" "=" "tehtavavalikko"}} 
-        {{ .Render "header" }}
             <div id="content">
 {{ .Content }} 
 {{ end }}
