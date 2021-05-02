@@ -74,7 +74,7 @@ canonifyURLs = true
   name = "Tehtävät"
   url = ""
   identifier = "Tehtävät"
-  Pre = "fas fa-school"
+  Pre = "fa fa-pencil-alt"
   weight = 2
   hasChildren = true
 
