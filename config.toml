@@ -74,13 +74,14 @@ canonifyURLs = true
   name = "Tehtävät"
   url = ""
   identifier = "Tehtävät"
+  Pre = "fa fa-school"
   weight = 2
   hasChildren = true
 
 [[menu.main]]
   name = "Seiska"
   url = "/seiska/"
-  identifier = "fa fa-list"
+  identifier = "<i class="fas fa-book"  style="color:orange"></i>"
   weight = 2
   parent = "Tehtävät"
   
