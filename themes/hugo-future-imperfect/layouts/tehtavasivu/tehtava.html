@@ -6,12 +6,9 @@
     <div id="main">
         <article class="post">
             <div id="content">
-{{range where .Site.Pages "Type" "=" "page"}} 
-{{ .Content }} 
-{{ end }}
+                {{ .Content }}
             </div>
         </article>
     </div>
     {{ partial "sidebar" . }}
 {{ partial "footer" . }}
-
