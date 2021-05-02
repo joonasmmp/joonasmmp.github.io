@@ -16,21 +16,20 @@
                             <i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}
                     </a>
                 </li> -->
-                <li>
-                  {{ if .HasChildren }}
-                      <a class="dropdown" href="#">{{ .Name }}</a>
-                      <ul class="dropdown-content">
-                        {{ range .Children }}
-                          <li><a href="{{ .URL }}"><i class="{{ .Identifier }}"></i>{{ .Name }}</a></li>
-                        {{ end }}
-                      </ul>
-                  {{ else }}
-                    <a href="{{ .URL }}"><i class="{{ .Identifier }}"></i>{{ .Name }}</a>
+<li>
+      {{ if .HasChildren }}
+        <a class="dropdown" href="{{ .URL }}"><i class="{{ .Pre }}">&nbsp;</i>{{ .Name }}</a>
+                        <ul class="dropdown-content">
+                                 {{ range .Children }}
+                                         <li><a href="{{ .URL }}"><i class="{{ .Pre }}">&nbsp;</i>{{ .Name }}</a></li>
+                                 {{ end }}
+                         </ul>
+       {{ else }}
+            <a href="{{ .URL }}"><i class="{{ .Pre}}">&nbsp;</i>{{ .Name }}</a>
                   {{ end  }}
                 </li>
- </ul>
             {{ end }}
-
+        </ul>
     </nav>
     <nav class="main">
         <ul>
@@ -52,28 +51,20 @@
         <section>
             <ul class="links">
                 {{ range .Site.Menus.main }}
-                <li>
-                  {{ if .HasChildren }}
-                      <I class="dropdown" a href="#"><h3>{{ .Identifier }}"></i>{{ .Name }}</h3>
-                      <ul class="dropdown-content">
-                     {{ range .Children }}
-                                              <h3>    <a href="{{ .URL }}">
-                           
-                                <i class="{{ .Identifier }}">{{ .Name }}
-                            </h3>
-                        </a>
-                        {{ end }}
-                  {{ else }}
-                                            <a href="{{ .URL }}">
-                            <h3>
-                                <i class="{{ .Identifier }}">{{ .Name }}</i>
-                            </h3>
-                        </a>
-                                                  </ul>
-                  {{ end  }}
-                </li>
-</ul>
+<li>
+      {{ if .HasChildren }}
+        <a class="dropdown" href="{{ .URL }}"><i class="{{ .Pre }}">&nbsp;</i>{{ .Name }}</a>
+                        <ul class="dropdown-content">
+                                 {{ range .Children }}
+                                         <li><a href="{{ .URL }}"><i class="{{ .Pre }}">&nbsp;</i>{{ .Name }}</a></li>
+                                 {{ end }}
+                         </ul>
+       {{ else }}
+            <a href="{{ .URL }}"><i class="{{ .Pre}}">&nbsp;</i>{{ .Name }}</a>
+       {{ end  }}
+</li>
                 {{ end }}
+            </ul>
         </section>
 
     <!-- Posts List -->
