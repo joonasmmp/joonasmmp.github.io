@@ -81,7 +81,7 @@ canonifyURLs = true
 [[menu.main]]
   name = "Seiska"
   url = "/seiska/"
-  identifier = "<i class="fas fa-book"  style="color:orange"></i>"
+  identifier = "<i class="fa fa-book"  style="color:orange"></i>"
   weight = 2
   parent = "Tehtävät"
   
