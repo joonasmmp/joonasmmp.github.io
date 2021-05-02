@@ -103,5 +103,5 @@ canonifyURLs = true
   name = "Tietoja"
   url = "/about/"
   pre = "fas fa-question"
-  identifier "about"
+  identifier = "about"
   weight = 6
