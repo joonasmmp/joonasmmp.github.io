@@ -95,7 +95,7 @@ canonifyURLs = true
 [[menu.main]]
   name = "9. luokka"
   url = "/ysi/"
-  identifier: "ysi"
+  identifier = "ysi"
   weight = 5
   parent = "Tehtävät"
 
