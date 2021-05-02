@@ -1,0 +1,16 @@
+{{ partial "general-title" . }}
+
+{{ partial "header" . }}
+    {{ partial "navbar" . }}
+    <!-- Main -->
+    <div id="main">
+        <article class="post">
+            <div id="content">
+{{range where .Site.Pages "Type" "=" "page"}} 
+{{ .Content }} 
+{{ end }}
+            </div>
+        </article>
+    </div>
+    {{ partial "sidebar" . }}
+{{ partial "footer" . }}
