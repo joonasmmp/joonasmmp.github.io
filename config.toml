@@ -79,30 +79,28 @@ canonifyURLs = true
   hasChildren = true
 
 [[menu.main]]
-  name = "Seiska"
+  name = "7. luokka"
   url = "/seiska/"
   identifier = "seiska"
-  Pre = "fa fa-book"
   weight = 3
   parent = "Tehtävät"
   
 [[menu.main]]
-  name = "Kasi"
+  name = "8. luokka"
   url = "/Kasi/"
   identifier = "kasi"
-  Pre = "fas fa-pencil-alt"
    weight = 4
   parent = "Tehtävät"
 
 [[menu.main]]
-  name = "Ysi"
+  name = "9. luokka"
   url = "/ysi/"
-  identifier = "fas fa-sitemap"
+  identifier: ysi
   weight = 5
   parent = "Tehtävät"
 
 [[menu.main]]
   name = "Tietoja"
   url = "/about/"
-  identifier = "fa fa-envelope-o"
+  identifier = "fas fa-question"
   weight = 6
