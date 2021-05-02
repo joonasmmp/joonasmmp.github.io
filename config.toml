@@ -67,6 +67,7 @@ canonifyURLs = true
   name = "Home"
   url = "/"
   identifier = "fa fa-home"
+  Pre  = "fa fa-home"
   weight = 1
 
 [[menu.main]]
