@@ -5,7 +5,7 @@ draft: false
 type: tehtavavalikko
 layout: tehtavavalikkosivu
 ---
-![Example image](/img/2021/05/otg3.jpg)
+![Example image](/img/sivukuvat/otg3.jpg)
 Alla löydät yhdeksännen luokan tehtäviä
 
 ## Kielioppia
