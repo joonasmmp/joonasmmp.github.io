@@ -5,6 +5,7 @@ draft: false
 type: page
 layout: tehtava
 ---
+![luola](/img/sivukuvat/luokka.jpg)
 
 Sivujen ylläpito: github pages (linkki)
 
