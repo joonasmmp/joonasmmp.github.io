@@ -2779,6 +2779,15 @@
 			padding: 0;
 		}
 
+				#menu .links > li > ul {
+						-moz-transition: color 0.2s ease;
+						-webkit-transition: color 0.2s ease;
+						-ms-transition: color 0.2s ease;
+						transition: color 0.2s ease;
+						font-size: 0.7em;
+					list-style: none;
+				}
+
 			#menu .links > li {
 				border: 0;
 				border-top: dotted 1px rgba(160, 160, 160, 0.3);
