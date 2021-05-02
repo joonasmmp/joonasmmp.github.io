@@ -4,7 +4,7 @@ date: 2021-04-26
 draft: false
 type: post
 ---
-{{< img-post path="/img/2021/05" file="otg2.jpg" alt="" type="center" >}}
+![Example image](/static/2021/05/otg1.jpg)
 
 Juu että testataan että voisko toimia? Testataan niin että tässä on näin.
 
