@@ -1,5 +1,11 @@
+{{ partial "general-title" . }}
+
+{{ partial "header" . }}
+    {{ partial "navbar" . }}
 <div>
 {{range where .Site.Pages "Type" "=" "page"}} 
 {{ .Content }} 
 {{ end }}
 </div>
+    {{ partial "sidebar" . }}
+{{ partial "footer" . }}
