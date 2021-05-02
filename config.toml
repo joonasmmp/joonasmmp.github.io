@@ -87,7 +87,7 @@ canonifyURLs = true
   
 [[menu.main]]
   name = "8. luokka"
-  url = "/Kasi/"
+  url = "/kasi/"
   identifier = "kasi"
   weight = 4
   parent = "Tehtävät"
@@ -102,5 +102,6 @@ canonifyURLs = true
 [[menu.main]]
   name = "Tietoja"
   url = "/about/"
-  identifier = "fas fa-question"
+  pre = "fas fa-question"
+  identifier "about"
   weight = 6
