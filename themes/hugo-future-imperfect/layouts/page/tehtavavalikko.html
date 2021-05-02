@@ -5,9 +5,9 @@
     <!-- Main -->
     <div id="main">
         <article class="post">
-                        {{ .Render "header" }}
             <div id="content">
 {{range where .Site.Pages "Type" "=" "tehtavavalikko"}} 
+{{ .Render "header" }}
 {{ .Content }} 
 {{ end }}
             </div>
