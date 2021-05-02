@@ -5,7 +5,7 @@ draft: false
 type: tehtavavalikko
 layout: tehtavavalikkosivu
 ---
-![Example image](/img/2021/05/otg1.jpg)
+![Example image](/img/2021/05/otg2.jpg)
 
 Alla löydät kahdeksannen luokan tehtäviä
 
