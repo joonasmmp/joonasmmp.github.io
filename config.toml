@@ -64,7 +64,7 @@ canonifyURLs = true
 # Sets the menu items in the navigation bar
 # Identifier prepends a Font Awesome icon to the menu item
 [[menu.main]]
-  name = "<style="color:red;">Kot</style>"
+  name = "<p style="color:red;">I am red</p>"
   url = "/"
   identifier = "home"
   Pre  = "fa fa-home"
