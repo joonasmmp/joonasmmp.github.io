@@ -5,7 +5,7 @@ draft: false
 type: tehtavavalikko
 layout: tehtavavalikkosivu
 ---
-{{< img-post path="/img/2021/05" file="otg1.jpg" alt="" type="center" >}}
+![Example image](/img/2021/05/otg1.jpg)
 
 Alla löydät Seitsemännen luokan tehtäviä
 
