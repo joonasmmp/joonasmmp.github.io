@@ -81,14 +81,16 @@ canonifyURLs = true
 [[menu.main]]
   name = "Seiska"
   url = "/seiska/"
-  identifier = "fa fa-book"
+  identifier = "seiska"
+  Pre = "fa fa-book"
   weight = 2
   parent = "Tehtävät"
   
 [[menu.main]]
   name = "Kasi"
   url = "/Kasi/"
-  identifier = "fa fa-sitemap"
+  identifier = "kasi"
+  Pre = "fa fa-sitemap"
    weight = 2
   parent = "Tehtävät"
 
