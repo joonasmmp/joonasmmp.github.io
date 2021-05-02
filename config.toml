@@ -72,7 +72,7 @@ canonifyURLs = true
 
 [[menu.main]]
   name = "Tehtävät"
-  url = "tehtavat"
+  url = "/tehtavat/"
   identifier = "Tehtävät"
   Pre = "fas fa-pencil-alt"
   weight = 2
