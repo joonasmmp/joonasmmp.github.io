@@ -1,0 +1,3 @@
+{{range where .Site.Pages "Type" "=" "tehtavasivu8"}} 
+{{ .Content }} 
+{{ end }}
