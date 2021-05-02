@@ -64,7 +64,7 @@ canonifyURLs = true
 # Sets the menu items in the navigation bar
 # Identifier prepends a Font Awesome icon to the menu item
 [[menu.main]]
-  name = "<p style="color:red;">I am red</p>"
+  name = "Etusivu"
   url = "/"
   identifier = "home"
   Pre  = "fa fa-home"
@@ -97,7 +97,7 @@ canonifyURLs = true
 [[menu.main]]
   name = "Ysi"
   url = "/ysi/"
-  identifier = "fa fa-sitemap"
+  identifier = "fas fa-sitemap"
   weight = 2
   parent = "Tehtävät"
 
