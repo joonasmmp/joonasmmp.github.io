@@ -67,7 +67,7 @@ canonifyURLs = true
   name = "Kotsivu"
   url = "/"
   identifier = "home"
-  Pre  = "fa fa-home style="color:orange""
+  Pre  = <i class="fas fa-ellipsis-v fa-2x" style="color:red !important"></i>
   weight = 1
 
 [[menu.main]]
