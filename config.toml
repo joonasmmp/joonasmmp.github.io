@@ -72,8 +72,8 @@ canonifyURLs = true
 
 [[menu.main]]
   name = "Tehtävät"
-  url = "/seiska/"
-  identifier = "dropdown"
+  url = ""
+  identifier = "Tehtävät"
   weight = 2
   hasChildren = true
 
@@ -82,21 +82,21 @@ canonifyURLs = true
   url = "/seiska/"
   identifier = "fa fa-list"
   weight = 2
-  parent = "tehtävät"
+  parent = "Tehtävät"
   
 [[menu.main]]
   name = "Kasi"
   url = "/Kasi/"
   identifier = "fa fa-sitemap"
    weight = 2
-  parent = "tehtävät"
+  parent = "Tehtävät"
 
 [[menu.main]]
   name = "Ysi"
   url = "/ysi/"
   identifier = "fa fa-sitemap"
-   weight = 2
-  parent = "tehtävät"
+  weight = 2
+  parent = "Tehtävät"
 
 [[menu.main]]
   name = "Contact"
