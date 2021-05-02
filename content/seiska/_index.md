@@ -5,7 +5,7 @@ draft: false
 type: tehtavavalikko
 layout: tehtavavalikkosivu
 ---
-
+{{< img-post path="05-2021" file="otg1.jpg" alt="Alt Text" type="center" >}}
 Alla löydät Seitsemännen luokan tehtäviä
 
 ## Kielioppia
