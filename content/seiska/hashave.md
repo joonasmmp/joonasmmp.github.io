@@ -16,7 +16,7 @@ layout: tehtava
     Perfekti: have vai has?
     </h2> 
  
-            <h4><p id="question"></p></h4>
+            <p id="question"></p>
  
             <div class="buttons">
           <button id="btn0"><span id="choice0"></span></button> 
@@ -178,20 +178,62 @@ layout: tehtava
 
 	
 #btn0, #btn1, #btn2, #btn3 {
-  color: white;
-  width: 100px;
-  font-size: 18px;
-  font-family: 'Times New Roman', serif;
-  background: #eb5615;
-  padding: 0px;
-  border: 1px solid #000000;
-  border-radius: 3px;
-  text-shadow:
-        0.07em 0 black,
-        0 0.07em black,
-        -0.07em 0 black,
-        0 -0.07em black;
-}
+     -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: inherit;
+    text-transform: none;
+    -webkit-appearance: button;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    line-height: 1.5;
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem !important;
+    padding: 12px 16px;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: #ec8f6a;
+    border-color: #ec8f6a;
+    color: #fff;
 </style>
 
 <div class="modal fade" id="modal" role="dialog">
