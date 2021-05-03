@@ -30,36 +30,40 @@ layout: tehtava
         <style>
 	
 .modal {
-  width:350px;
-  height:300px;
-  background: #fff;
-  border-radius:5%;
-  display:none;
-  justify-content: center;
-  align-items:center;
-  flex-direction: column;
-}
+                  width: 100%;
+                  height: 100%;
+                  background: #fff;
+                  border-radius: 5%;
+                  display: none;
+                  justify-content: center;
+                  align-items: center;
+                  flex-direction: column;
+                  position: fixed;
+                    display: none;
+    left: 0;
+    top: 0;
+                }
 
-.showModal{
-  opacity:1;
-    z-index:2;
-  animation: show .2s;
-  
-transform: scale(1);
-}
-@keyframes show {
-  from{
-    
-transform: scale(0);
-    opacity:0;
-      z-index:-1;
-  } to{
-    
-transform: scale(1);
-    opacity: 1;
-      z-index:2;
-  }
-}
+                .showModal {
+                  opacity: 1;
+                  z-index: 2;
+                  animation: show .2s;
+                  transform: scale(1);
+                }
+
+                @keyframes show {
+                  from {
+                    transform: scale(0);
+                    opacity: 0;
+                    z-index: -1;
+                  }
+
+                  to {
+                    transform: scale(1);
+                    opacity: 1;
+                    z-index: 2;
+                  }
+                }
 	
 #btn0, #btn1, #btn2, #btn3 {
   color: white;
