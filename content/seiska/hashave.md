@@ -28,19 +28,26 @@ layout: tehtava
 	</body>
 	
         <style>
-  #modal {
-  display: none;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color: white;
-  text-align: center;
-  transform: scale(0.9);
-  transition: all .2s linear;
-  
-  #modal.show {
-    opacity: 1;
+.modal.fade .modal-dialog {
+     -webkit-transform: scale(0.1);
+     -moz-transform: scale(0.1);
+     -ms-transform: scale(0.1);
+     transform: scale(0.1);
+     top: 300px;
+     opacity: 0;
+     -webkit-transition: all 0.3s;
+     -moz-transition: all 0.3s;
+     transition: all 0.3s;
+}
+
+.modal.fade.in .modal-dialog {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
     transform: scale(1);
+    -webkit-transform: translate3d(0, -300px, 0);
+    transform: translate3d(0, -300px, 0);
+    opacity: 1;
 }
 	
 #btn0, #btn1, #btn2, #btn3 {
