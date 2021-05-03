@@ -77,7 +77,7 @@ layout: tehtava
 
      <script>
   
-$(function() {
+$(document).ready(function() {
 
 function Quiz(questions) {
   this.score = 0;
@@ -212,7 +212,7 @@ var quiz = new Quiz(questions);
 // display quiz
 populate();
 
-});
+}
 </script>
 
 {{< /rawhtml >}}
