@@ -75,8 +75,12 @@ layout: tehtava
   </div>
 </div>
 
-<script>
-  function Quiz(questions) {
+     <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+
+function Quiz(questions) {
   this.score = 0;
   this.questions = questions;
   this.questionIndex = 0;
@@ -209,4 +213,5 @@ var quiz = new Quiz(questions);
 // display quiz
 populate();
 </script>
+
 {{< /rawhtml >}}
