@@ -30,15 +30,26 @@ layout: tehtava
         <style>
 	
 .modal {
-    position:absolute;
-    display: none;
-    border:solid 1px black;
-    padding:8px;
-    background-color:white;
-    width:100%;
-    height:100%;
-    text-align:center;
-   }
+  position: fixed;
+        max-width: 500px;
+        top: 25%;
+        left: 50%;
+        margin-left: -250px;
+        padding: 1em;
+        background: #fff;
+        z-index: 100;
+        opacity: 0;
+        pointer-events: none;
+        -webkit-transition: all 0.25s ease-out;
+        -moz-transition: all 0.25s ease-out;
+        -ms-transition: all 0.25s ease-out;
+        -o-transition: all 0.25s ease-out;
+        transition: all 0.25s ease-out;
+}
+.modal.show {
+  opacity: 1;
+        pointer-events: auto;
+}
 	
 #btn0, #btn1, #btn2, #btn3 {
   color: white;
