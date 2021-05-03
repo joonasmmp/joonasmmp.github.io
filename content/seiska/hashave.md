@@ -29,43 +29,14 @@ layout: tehtava
 	
         <style>
   #modal {
-     transform:scale(1);
-    .modal-background {
-      background:rgba(0,0,0,.0);
-      animation: fadeIn .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
-      .modal {
-        background-color:transparent;
-        animation: modalFadeIn .5s .8s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
-        h2,p {
-          opacity:0;
-          position:relative;
-          animation: modalContentFadeIn .5s 1s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
-        }
-        .modal-svg {
-          rect {
-            animation: sketchIn .5s .3s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
-          }
-        }
-      }
-    }
-    &.out {
-      animation: quickScaleDown 0s .5s linear forwards;
-      .modal-background {
-        animation: fadeOut .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
-        .modal {
-          animation: modalFadeOut .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
-          h2,p {
-            animation: modalContentFadeOut .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
-          }
-          .modal-svg {
-            rect {
-              animation: sketchOut .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
-            }
-          }
-        }
-      }
-    }
-  }
+  display: none;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
 	
 #btn0, #btn1, #btn2, #btn3 {
   color: white;
