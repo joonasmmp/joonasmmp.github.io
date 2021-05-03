@@ -38,6 +38,7 @@ layout: tehtava
   width: 100%;
   background-color: white;
   text-align: center;
+   }
   
 .modal.fade .modal-dialog {
      -webkit-transform: scale(0.1);
