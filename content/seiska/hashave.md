@@ -75,7 +75,7 @@ layout: tehtava
   </div>
 </div>
 
-<script defer>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" defer>
 	function Quiz(questions) {
   this.score = 0;
   this.questions = questions;
