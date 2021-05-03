@@ -30,11 +30,7 @@ layout: tehtava
         <style>
 	
 .modal {
-  display: none;
-  position: absolute;
-  top: 0;
   height: 100%;
-  left: 0;
   width: 100%;
   background-color: white;
   text-align: center;
@@ -45,7 +41,6 @@ layout: tehtava
      -moz-transform: scale(0.1);
      -ms-transform: scale(0.1);
      transform: scale(0.1);
-     top: 300px;
      opacity: 0;
      -webkit-transition: all 0.3s;
      -moz-transition: all 0.3s;
