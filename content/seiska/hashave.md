@@ -31,23 +31,14 @@ layout: tehtava
 	
 .modal {
     position:absolute;
-display: none;
+    display: none;
     border:solid 1px black;
     padding:8px;
     background-color:white;
-    width:80%;
-height:100%;
+    width:100%;
+    height:100%;
     text-align:center;
    }
-   
-   .modal.fade{
-  opacity:1;
-}
-.modal.fade .modal-dialog {
-   -webkit-transform: translate(0);
-   -moz-transform: translate(0);
-   transform: translate(0);
-}
 	
 #btn0, #btn1, #btn2, #btn3 {
   color: white;
