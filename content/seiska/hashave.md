@@ -31,16 +31,12 @@ layout: tehtava
   #modal {
   display: none;
   position: absolute;
-  top: 0;
   height: 100%;
-  left: 0;
   width: 100%;
   background-color: white;
   text-align: center;
   transform: scale(0.9);
-  opacity: 0;
   transition: all .2s linear;
-  display: block !important;
   
   #modal.show {
     opacity: 1;
