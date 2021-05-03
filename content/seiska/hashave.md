@@ -30,26 +30,36 @@ layout: tehtava
         <style>
 	
 .modal {
-  position: fixed;
-	display: none;
-        max-width: 500px;
-        top: 25%;
-        left: 50%;
-        margin-left: -250px;
-        padding: 1em;
-        background: #fff;
-        z-index: 100;
-        opacity: 0;
-        pointer-events: none;
-        -webkit-transition: all 0.25s ease-out;
-        -moz-transition: all 0.25s ease-out;
-        -ms-transition: all 0.25s ease-out;
-        -o-transition: all 0.25s ease-out;
-        transition: all 0.25s ease-out;
+ .main-modal{
+  width:350px;
+  height:300px;
+  background: #fff;
+  border-radius:5%;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
 }
-.modal.fade {
-  opacity: 1;
-        pointer-events: auto;
+
+.showModal{
+  opacity:1;
+    z-index:2;
+  animation: show .2s;
+  
+transform: scale(1);
+}
+@keyframes show {
+  from{
+    
+transform: scale(0);
+    opacity:0;
+      z-index:-1;
+  } to{
+    
+transform: scale(1);
+    opacity: 1;
+      z-index:2;
+  }
 }
 	
 #btn0, #btn1, #btn2, #btn3 {
@@ -106,6 +116,7 @@ Quiz.prototype.guess = function(answer) {
     this.score++;
   } else {
     $("#modal").modal("show")
+	modal.classList.add("showModal");
 
   }
 
