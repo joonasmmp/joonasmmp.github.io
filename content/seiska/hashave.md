@@ -29,13 +29,13 @@ layout: tehtava
 	
         <style>
 	
-.modal {
- .main-modal{
+#modal {
+ .modal{
   width:350px;
   height:300px;
   background: #fff;
   border-radius:5%;
-  display:none;
+  display:flex;
   justify-content: center;
   align-items:center;
   flex-direction: column;
