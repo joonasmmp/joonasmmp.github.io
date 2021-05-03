@@ -1,6 +1,7 @@
     </div>
     <!-- Scripts -->
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     {{ if isset .Site.Params "customjs" }}
       {{ $.Scratch.Set "jsFiles" .Site.Params.customJS }}
     {{ else }}
@@ -22,10 +23,6 @@
     <!-- If the value "default" is passed into the param then we will first
      load the standard js files associated with the theme -->
     {{ if or (in ($.Scratch.Get "jsFiles") "default") (eq ($.Scratch.Get "jsFiles") false) }}
-      <script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
       <script src="{{ "js/util.js" | relURL }}"></script>
