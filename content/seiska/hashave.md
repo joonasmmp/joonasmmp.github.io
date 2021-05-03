@@ -31,6 +31,7 @@ layout: tehtava
 	
 .modal {
   position: fixed;
+	display: none;
         max-width: 500px;
         top: 25%;
         left: 50%;
