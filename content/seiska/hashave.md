@@ -28,7 +28,7 @@ layout: tehtava
 	</body>
 	
         <style>
-  #modal {
+  .modal {
   display: none;
   position: absolute;
   top: 0;
@@ -37,6 +37,15 @@ layout: tehtava
   width: 100%;
   background-color: white;
   text-align: center;
+  transform: scale(0.9);
+  opacity: 0;
+  transition: all .2s linear;
+  display: block !important;
+  
+  .modal.show {
+    opacity: 1;
+    transform: scale(1);
+}
 	
 #btn0, #btn1, #btn2, #btn3 {
   color: white;
