@@ -29,7 +29,7 @@ layout: tehtava
 	
         <style>
 	
-	#modal
+.modal {
   display: none;
   position: absolute;
   top: 0;
