@@ -28,7 +28,7 @@ layout: tehtava
 	</body>
 	
         <style>
-  .modal {
+  #modal {
   display: none;
   position: absolute;
   top: 0;
@@ -42,7 +42,7 @@ layout: tehtava
   transition: all .2s linear;
   display: block !important;
   
-  .modal.show {
+  #modal.show {
     opacity: 1;
     transform: scale(1);
 }
