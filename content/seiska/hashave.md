@@ -46,7 +46,7 @@ layout: tehtava
         -o-transition: all 0.25s ease-out;
         transition: all 0.25s ease-out;
 }
-.modal.show {
+.modal.fade {
   opacity: 1;
         pointer-events: auto;
 }
