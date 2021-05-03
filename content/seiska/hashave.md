@@ -75,10 +75,8 @@ layout: tehtava
   </div>
 </div>
 
-     <script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript" defer="defer">
   
-$(document).ready(function() {
-
 function Quiz(questions) {
   this.score = 0;
   this.questions = questions;
@@ -212,7 +210,6 @@ var quiz = new Quiz(questions);
 // display quiz
 populate();
 
-});
 </script>
 
 {{< /rawhtml >}}
