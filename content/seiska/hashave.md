@@ -34,7 +34,7 @@ layout: tehtava
   height:300px;
   background: #fff;
   border-radius:5%;
-  display:flex;
+  display:none;
   justify-content: center;
   align-items:center;
   flex-direction: column;
