@@ -29,8 +29,7 @@ layout: tehtava
 	
         <style>
 	
-#modal {
- .modal{
+.modal {
   width:350px;
   height:300px;
   background: #fff;
