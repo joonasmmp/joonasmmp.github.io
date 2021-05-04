@@ -246,11 +246,7 @@ layout: tehtava
       </div>
       <div class="modal-body">
         <p>Väärä vastaus</p>
-        <p>"Has" jos yksikön kolmas (hän, se). Muuten aina "have".</p>
-        <p>
-      Kokeile uudestaan.
-        </p>
-      </div>
+	      <p>Nyt ei menny ihan niinku piti, mutta koita uudestaan!</p>
       <div class="modal-footer">
         <button id="resetbutton2" class="reset" value="reset">Takaisin alkuun</button>
       </div>
