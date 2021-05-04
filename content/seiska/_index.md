@@ -10,8 +10,8 @@ layout: tehtavavalikkosivu
 Alla löydät Seitsemännen luokan tehtäviä
 
 ## Kielioppia
-[Verbit: has vai have?]({{< ref "seiska_hashave.mdt" >}}
-[Verbit: epäsäännölliset verbit a-e]{{<ref "seiska_epaverbitae.mdt" >}}
+[Verbit: has vai have?]({{< ref "seiska_hashave.mdt" >}})
+[Verbit: epäsäännölliset verbit a-e]{{<ref "seiska_epaverbitae.mdt" >}})
 
 ## Sanastoa
 aaaa
