@@ -10,7 +10,7 @@ layout: tehtavavalikkosivu
 Alla löydät Seitsemännen luokan tehtäviä
 
 ## Kielioppia
-[About]({{< ref "hashave.mdt" >}} "About Us")
+[Verbit: has vai have?]({{< ref "seiska_hashave.mdt" >}}
 
 ## Sanastoa
 aaaa
