@@ -1,18 +1,17 @@
 ---
-title: "Seiskatehtäviä"
+title: "ena01tehtavat"
 date: 2021-04-26
 draft: false
 type: tehtavavalikko
 layout: tehtavavalikkosivu
 ---
-![On the Go 1](/img/sivukuvat/otg1.jpg)
 
-Alla löydät Seitsemännen luokan tehtäviä
+Alla löydät tehtäviä ENA01-kurssille
 
 ## Kielioppia
-[Verbit: has vai have?]({{< ref "seiska_hashave.mdt" >}})
+[Verbit: has vai have?]({{< ref "ena01_hashave.mdt" >}})
 
-[Verbit: epäsäännölliset verbit a-e]({{<ref "seiska_epaverbitae.mdt" >}})
+[Verbit: epäsäännölliset verbit a-e]({{<ref "ena01_epaverbitae.mdt" >}})
 
 ## Sanastoa
 aaaa
