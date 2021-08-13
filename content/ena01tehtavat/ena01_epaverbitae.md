@@ -257,7 +257,7 @@ layout: tehtava
 </div>
 
 <script>
-  
+
 function Quiz(questions) {
   this.score = 0;
   this.questions = questions;
@@ -273,7 +273,7 @@ Quiz.prototype.guess = function(answer) {
     this.score++;
   } else {
     $("#modal").modal("show")
-	modal.classList.add("showModal");
+	sleep(2000);
 
   }
 
@@ -341,28 +341,25 @@ function showScores() {
 
 // kysymykset tähän
 var questions = [
-  new Question("olla: be, was/were, _____", ["was", "be", "been", "were" ], "been"),
-  new Question("lyödä, voittaa: beat, beat, _____", ["beat", "beated", "beaten", "bote" ], "beaten"),
-  new Question("tulla joksikin: become, became, _____", ["become", "became", "becamed", "becomed"], "become"),
-  new Question("alkaa: begin, began, _____", ["begin", "began", "begun", "begon" ], "begun"),
-  new Question("lyödä vetoa: bet, bet, _____", ["bet", "bat", "betted", "bot" ], "bet"),
-  new Question("purra: bite, bit, _____", ["bit", "bite", "bitted", "bitten" ], "bitten"),
-  new Question("puhaltaa, tuulla: blow, blew, _____", ["blow", "blew", "blown", "blewn"], "blown"),
-  new Question("rikkoa, särkyä: break, broke, _____", ["break", "broke", "broken", "broked" ], "broken"),
-  new Question("tuoda: bring, brought, _____", ["bring", "brought", "brang", "brung" ], "brought"),
-  new Question("rakentaa: build, built, _____", ["build", "built", "builded", "builted" ], "built"),
-  new Question("ostaa: buy, bought, _____", ["buy", "buyed", "bought", "boughted" ], "bought"),
-  new Question("saada/ottaa kiinni: catch, caught, _____", ["catch", "caught", "caughted", "catched" ], "caught"),
-  new Question("valita: choose, chose, _____", ["choose", "chose", "chosed", "chosen" ], "chosen"),
-  new Question("tulla: come, came, _____", ["come", "came", "comed", "camed" ], "come"),
-  new Question("maksaa, olla hintana: cost, cost, _____", ["cost", "costed", "cast", "casted" ], "cost"),
-  new Question("leikata: cut, cut, _____", ["cut", "cutted", "cat", "catted" ], "cut"),
-  new Question("jakaa: deal, dealt, _____", ["deal", "dealt", "dealed", "dealted" ], "dealt"),
-	new Question("tehdä: do, did, _____", ["do", "did", "done", "donned" ], "done"),
-	new Question("vetää, piirtää: draw, drew, _____", ["draw", "drew", "drown", "drawn" ], "drawn"),
-	new Question("juoda: drink, drank, _____", ["drink", "drank", "drunk", "dranked" ], "drunk"),
-	new Question("ajaa: drive, drove, _____", ["drive", "drove", "drawn", "driven" ], "driven"),
-	new Question("syödä: eat, ate, _____", ["eat", "ate", "eated", "eaten" ], "eaten"),
+  new Question("olen", ["preesens", "imperfekti", "perfekti", "pluskvamperfekti"], "preesens"),
+  new Question("olin", ["preesens", "imperfekti", "perfekti", "pluskvamperfekti"], "imperfekti"),
+  new Question("olen ollut", ["preesens", "imperfekti", "perfekti", "pluskvamperfekti"], "perfekti"),
+  new Question("decide", ["preesens", "imperfekti", "perfekti", "pluskvamperfekti"], "preesens"),
+  new Question("have decided", ["preesens", "imperfekti", "perfekti", "pluskvamperfekti"], "perfekti"),
+  new Question("doesn't do", ["preesens", "imperfekti", "perfekti", "pluskvamperfekti"], "preesens"),
+  new Question("hasn't seen", ["preesens", "imperfekti", "perfekti", "pluskvamperfekti"], "perfekti"),
+  new Question("eats", ["preesens", "imperfekti", "perfekti", "pluskvamperfekti"], "preesens"),
+  new Question("spoke", ["preesens", "imperfekti", "perfekti", "pluskvamperfekti"], "imperfekti"),
+  new Question("on tuonut", ["preesens", "imperfekti", "perfekti", "pluskvamperfekti"], "perfekti"),
+  new Question("ei ole syönyt", ["preesens", "imperfekti", "perfekti", "pluskvamperfekti"], "perfekti"),
+  new Question("didn't do", ["preesens", "imperfekti", "perfekti", "pluskvamperfekti"], "imperfekti"),
+  new Question("do", ["preesens", "imperfekti", "perfekti", "pluskvamperfekti"], "preesens"),
+  new Question("has done", ["preesens", "imperfekti", "perfekti", "pluskvamperfekti"], "perfekti"),
+  new Question("löi", ["preesens", "imperfekti", "perfekti", "pluskvamperfekti"], "imperfekti"),
+  new Question("lyön", ["preesens", "imperfekti", "perfekti", "pluskvamperfekti"], "preesens"),
+  new Question("olen lyönyt", ["preesens", "imperfekti", "perfekti", "pluskvamperfekti"], "perfekti"),
+	new Question("löitkö?", ["preesens", "imperfekti", "perfekti", "pluskvamperfekti"], "imperfekti"),
+	new Question("en lyönyt", ["preesens", "imperfekti", "perfekti", "pluskvamperfekti"], "imperfekti"),
   
 ];
 
@@ -380,7 +377,6 @@ var quiz = new Quiz(questions);
 
 // display quiz
 populate();
-
 </script>
 
 {{< /rawhtml >}}
