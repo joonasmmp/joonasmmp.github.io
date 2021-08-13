@@ -13,7 +13,7 @@ layout: tehtava
 <div class="grid">
 <div id="quiz">
     <h2>
-    Tunnista aikamuoto?
+    Tunnista aikamuoto
     </h2> 
  
             <p id="question"></p>
