@@ -79,7 +79,7 @@ canonifyURLs = true
   hasChildren = true
 
 [[menu.main]]
-  name = "7. luokka"
+  name = "ENA01"
   url = "/ena01tehtavat/"
   identifier = "ena01tehtavat"
   weight = 3
