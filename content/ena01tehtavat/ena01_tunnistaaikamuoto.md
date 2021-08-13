@@ -1,6 +1,6 @@
 ---
-title: "Has vai have?"
-date: 2021-04-26
+title: "Tunnista aikamuoto"
+date: 2021-08-13
 draft: false
 type: page
 layout: tehtava
@@ -13,7 +13,7 @@ layout: tehtava
 <div class="grid">
 <div id="quiz">
     <h2>
-    Perfekti: have vai has?
+    Tunnista aikamuoto?
     </h2> 
  
             <p id="question"></p>
