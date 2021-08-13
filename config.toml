@@ -80,23 +80,9 @@ canonifyURLs = true
 
 [[menu.main]]
   name = "7. luokka"
-  url = "/seiska/"
-  identifier = "seiska"
+  url = "/ena01tehtavat/"
+  identifier = "ena01tehtavat"
   weight = 3
-  parent = "Tehtävät"
-  
-[[menu.main]]
-  name = "8. luokka"
-  url = "/kasi/"
-  identifier = "kasi"
-  weight = 4
-  parent = "Tehtävät"
-
-[[menu.main]]
-  name = "9. luokka"
-  url = "/ysi/"
-  identifier = "ysi"
-  weight = 5
   parent = "Tehtävät"
 
 [[menu.main]]
