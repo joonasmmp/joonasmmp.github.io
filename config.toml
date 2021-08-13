@@ -79,7 +79,7 @@ canonifyURLs = true
   hasChildren = true
 
 [[menu.main]]
-  name = "ENA01"
+  name = "ENA 01"
   url = "/ena01tehtavat/"
   identifier = "ena01tehtavat"
   weight = 3
