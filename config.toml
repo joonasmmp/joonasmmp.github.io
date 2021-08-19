@@ -55,7 +55,7 @@ canonifyURLs = true
 
   paragraph = "Jep"
 
-  about     = "Kaikkea paskaa"
+  about     = "asdsadsadsasdasda"
 
 [params.postAmount]
 # Sets the number of recent posts to show in the sidebar. The default value is 5.
@@ -63,6 +63,7 @@ canonifyURLs = true
 
 # Sets the menu items in the navigation bar
 # Identifier prepends a Font Awesome icon to the menu item
+
 [[menu.main]]
   name = "Etusivu"
   url = "/"
@@ -82,7 +83,7 @@ canonifyURLs = true
   name = "ENA 01"
   url = "/ena01tehtavat/"
   identifier = "ena01tehtavat"
-  weight = 2
+  weight = 3
   parent = "Tehtävät"
 
 [[menu.main]]
