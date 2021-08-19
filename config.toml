@@ -86,21 +86,7 @@ canonifyURLs = true
   weight = 3
   parent = "Tehtävät"
 
-[[menu.main]]
-  name = "YO-kokeet"
-  url = "/tehtavat/"
-  identifier = "YO-kokeet"
-  Pre = "fa fa-puzzle-piece"
-  weight = 4
-  hasChildren = true
 
-[[menu.main]]
-  name = "Kuuntelukoe"
-  url = "/ena01tehtavat/"
-  identifier = "ena01tehtavat"
-  Pre = "fa fa-headphones"
-  weight = 5
-  parent = "YO-kokeet"
 
 [[menu.main]]
   name = "Tietoja"
