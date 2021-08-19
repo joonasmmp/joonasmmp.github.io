@@ -83,7 +83,7 @@ canonifyURLs = true
   name = "ENA 01"
   url = "/ena01tehtavat/"
   identifier = "ena01tehtavat"
-  weight = 3
+  weight = 1
   parent = "Tehtävät"
   
 [[menu.main]]
@@ -91,15 +91,15 @@ canonifyURLs = true
   url = "/tehtavat/"
   identifier = "YO-kokeet"
   Pre = "fa fa-puzzle-piece"
-  weight = 4
+  weight = 3
   hasChildren = true
   
 [[menu.main]]
   name = "Kuuntelukoe"
   url = "/ena01tehtavat/"
-  identifier = "ena01tehtavat"
+  identifier = "kuuntelukoe"
   Pre = "fa fa-headphones"
-  weight = 5
+  weight = 1
   parent = "YO-kokeet"
 
 [[menu.main]]
