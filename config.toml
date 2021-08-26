@@ -88,7 +88,7 @@ canonifyURLs = true
   
 [[menu.main]]
   name = "YO-kokeet"
-  url = "/tehtavat/"
+  url = "/yo-kokeet/"
   identifier = "YO-kokeet"
   Pre = "fa fa-puzzle-piece"
   weight = 3
