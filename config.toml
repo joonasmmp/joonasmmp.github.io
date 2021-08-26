@@ -81,7 +81,7 @@ canonifyURLs = true
 
 [[menu.main]]
   name = "ENA 01"
-  url = "tehtavat/ena01tehtavat/"
+  url = "ena01tehtavat/"
   identifier = "ena01tehtavat"
   weight = 1
   parent = "Tehtävät"
