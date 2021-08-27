@@ -1927,7 +1927,7 @@
 	    article.post h2,
 	    article.post h3,
 	    article.post h4 {
-	        color: #333333;
+	        color: #000000;
 	        /* Theoretically for IE 8 & 9 (more valid) */
 	        /* ...but not required as filter works too */
 	        /* should come BEFORE filter */
@@ -1938,7 +1938,7 @@
 	        filter: alpha(opacity=87);
 
 	        /* Modern Browsers */
-	        opacity: 0.87;
+	        opacity: 1;
 	    }
 
 /* Table */
