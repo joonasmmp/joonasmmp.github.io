@@ -4,11 +4,7 @@
     {{ partial "navbar" . }}
     <!-- Main -->
     <div id="main">
-{{ $pages := .Pages }}
-{{ if .IsHome }}
-{{ $pages = .Site.RegularPages }}
-{{ end }}
-{{ $paginator := .Paginate $pages }}
+        {{ $paginator := .Paginate .Data.Pages }}
         {{ range .Paginator.Pages }}
             {{ .Render "content-list" }}
         {{ end }}
