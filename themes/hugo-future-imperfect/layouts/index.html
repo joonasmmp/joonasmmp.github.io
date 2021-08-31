@@ -9,7 +9,7 @@
 {{ $pages = .Site.RegularPages }}
 {{ end }}
 {{ $paginator := .Paginate $pages }}
-        {{ range ( where .Site.RegularPages "Type" "posts" | first 3 ) }}
+        {{ range .Site.RegularPages }}
             {{ .Render "content-list" }}
         {{ end }}
 
