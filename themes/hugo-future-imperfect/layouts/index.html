@@ -6,8 +6,10 @@
     <div id="main">
 {{ $pages := .Pages }}
 {{ if .IsHome }}
+{{ $pages = .Site.RegularPages }}
+{{ end }}
 {{ $paginator := .Paginate $pages }}
-        {{ range .Paginator.Pages }}
+        {{ range ( where .Site.RegularPages "Type" "posts" | first 3 ) }}
             {{ .Render "content-list" }}
         {{ end }}
 
