@@ -2279,7 +2279,7 @@
 					filter: alpha(opacity=65);
 
 					/* Modern Browsers */
-					opacity: 0.65;
+					opacity: 1;
 			}
 
 			#header .links ul li {
