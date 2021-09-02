@@ -103,9 +103,9 @@ canonifyURLs = true
   parent = "YO-kokeet"
   
   [[menu.main]]
-  name = "Luetunymmärrys"
-  url = "/yo-kokeet/luetunymmarrys/"
-  identifier = "luetunymmarrys"
+  name = "Luetunymmärtäminen"
+  url = "/yo-kokeet/luetunymmartaminen/"
+  identifier = "luetunymmartäminen"
   Pre = "fas fa-book-reader"
   weight = 2
   parent = "YO-kokeet"
