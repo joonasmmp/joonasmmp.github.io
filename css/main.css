@@ -2781,9 +2781,9 @@
     vertical-align: baseline;
     color: #3c3b3b;
     font-family: "Raleway", Helvetica, sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: 0.25em;
-    line-height: 1.65;
+    line-height: 1.45;
     margin: 0 0 1em 0;
     text-transform: uppercase;
     transition: color 0.2s ease;
@@ -2795,6 +2795,7 @@
 						-ms-transition: color 0.2s ease;
 						transition: color 0.2s ease;
 					list-style: none;
+					font-size: 10pt;
 				}
 
 			#menu .links > li {
