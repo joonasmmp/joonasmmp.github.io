@@ -58,7 +58,7 @@
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-size: 0.7em;
 		font-weight: 400;
-		letter-spacing: 0.25em;
+		letter-spacing: 0.1em;
 		line-height: 2.5;
 		margin: -1em 1em 0;
 		text-transform: uppercase;
@@ -197,7 +197,7 @@
 		color: #3c3b3b;
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-weight: 800;
-		letter-spacing: 0.25em;
+		letter-spacing: 0.1em;
 		line-height: 1.65;
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
@@ -1919,7 +1919,7 @@
 	    filter: alpha(opacity=70);
 
 	    /* Modern Browsers */
-	    opacity: 0.70;
+	    opacity: 1;
 	}
 
 	    article.post p,
