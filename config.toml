@@ -101,6 +101,30 @@ canonifyURLs = true
   Pre = "fa fa-headphones"
   weight = 1
   parent = "YO-kokeet"
+  
+  [[menu.main]]
+  name = "Luetunymmärrys"
+  url = "/yo-kokeet/luetunymmarrys/"
+  identifier = "luetunymmarrys"
+  Pre = "fas fa-book-reader"
+  weight = 2
+  parent = "YO-kokeet"
+  
+  [[menu.main]]
+  name = "Rakenneosio"
+  url = "/yo-kokeet/rakenneosio/"
+  identifier = "rakenneosio"
+  Pre = "fas fa-clipboard-list"
+  weight = 3
+  parent = "YO-kokeet"
+  
+  [[menu.main]]
+  name = "Kirjoitelma"
+  url = "/yo-kokeet/kirjoitelma/"
+  identifier = "kirjoitelma"
+  Pre = "far fa-keyboard"
+  weight = 4
+  parent = "YO-kokeet"
 
 [[menu.main]]
   name = "Tietoja"
