@@ -83,7 +83,72 @@ canonifyURLs = true
   name = "ENA 01"
   url = "/tehtavat/ena01tehtavat/"
   identifier = "ena01tehtavat"
+  Pre = "fas fa-globe-europe"
   weight = 1
+  parent = "Tehtävät"
+  
+[[menu.main]]
+  name = "ENA 02"
+  url = "/tehtavat/ena02tehtavat/"
+  identifier = "ena02tehtavat"
+  Pre = "fas fa-wifi"
+  weight = 2
+  parent = "Tehtävät"
+  
+[[menu.main]]
+  name = "ENA 03"
+  url = "/tehtavat/ena03tehtavat/"
+  identifier = "ena03tehtavat"
+  Pre = "fas fa-paint-brush"
+  weight = 3
+  parent = "Tehtävät"
+  
+ [[menu.main]]
+  name = "ENA 04"
+  url = "/tehtavat/ena04tehtavat/"
+  identifier = "ena04tehtavat"
+  Pre = "fas fa-balance-scale"
+  weight = 4
+  parent = "Tehtävät"
+  
+ [[menu.main]]
+  name = "ENA 05"
+  url = "/tehtavat/ena05tehtavat/"
+  identifier = "ena05tehtavat"
+  Pre = "fas fa-flask"
+  weight = 5
+  parent = "Tehtävät"
+  
+[[menu.main]]
+  name = "ENA 06"
+  url = "/tehtavat/ena06tehtavat/"
+  identifier = "ena06tehtavat"
+  Pre = "fas fa-user-graduate"
+  weight = 6
+  parent = "Tehtävät"
+  
+[[menu.main]]
+  name = "ENA 07"
+  url = "/tehtavat/ena07tehtavat/"
+  identifier = "ena07tehtavat"
+  Pre = "fab fa-pagelines"
+  weight = 7
+  parent = "Tehtävät"
+  
+[[menu.main]]
+  name = "ENA 08"
+  url = "/tehtavat/ena08tehtavat/"
+  identifier = "ena08tehtavat"
+  Pre = "far fa-comments"
+  weight = 8
+  parent = "Tehtävät"
+  
+[[menu.main]]
+  name = "ENA 09"
+  url = "/tehtavat/ena09tehtavat/"
+  identifier = "ena09tehtavat"
+  Pre = "fas fa-italic"
+  weight = 9
   parent = "Tehtävät"
   
 [[menu.main]]
