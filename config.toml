@@ -163,7 +163,7 @@ canonifyURLs = true
   name = "Kuuntelukoe"
   url = "/yo-kokeet/kuuntelukoe/"
   identifier = "kuuntelukoe"
-  Pre = "fa fa-headphones"
+  Pre = "fa fa-headphones fa-fw"
   weight = 1
   parent = "YO-kokeet"
   
@@ -171,7 +171,7 @@ canonifyURLs = true
   name = "Luetunymmärtäminen"
   url = "/yo-kokeet/luetunymmartaminen/"
   identifier = "luetunymmartäminen"
-  Pre = "fas fa-book-reader"
+  Pre = "fas fa-book-reader fa-fw"
   weight = 2
   parent = "YO-kokeet"
   
@@ -179,14 +179,14 @@ canonifyURLs = true
   name = "Rakenneosio"
   url = "/yo-kokeet/rakenneosio/"
   identifier = "rakenneosio"
-  Pre = "fas fa-clipboard-list"
+  Pre = "fas fa-clipboard-list fa-fw"
   weight = 3
   parent = "YO-kokeet"
   
   [[menu.main]]
   name = "Kirjoitelma"
   url = "/yo-kokeet/kirjoitelma/"
-  identifier = "kirjoitelma"
+  identifier = "kirjoitelma fa-fw"
   Pre = "far fa-keyboard"
   weight = 4
   parent = "YO-kokeet"
