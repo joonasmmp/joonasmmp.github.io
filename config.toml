@@ -83,7 +83,7 @@ canonifyURLs = true
   name = "ENA 01"
   url = "/kurssit/ena01tehtavat/"
   identifier = "ena01tehtavat"
-  Pre = "fas fa-globe-europe"
+  Pre = "fas fa-globe-europe fa-fw"
   weight = 1
   parent = "kurssit"
   
@@ -91,7 +91,7 @@ canonifyURLs = true
   name = "ENA 02"
   url = "/kurssit/ena02tehtavat/"
   identifier = "ena02tehtavat"
-  Pre = "fas fa-wifi"
+  Pre = "fas fa-wifi fa-fw"
   weight = 2
   parent = "kurssit"
   
@@ -99,7 +99,7 @@ canonifyURLs = true
   name = "ENA 03"
   url = "/kurssit/ena03tehtavat/"
   identifier = "ena03tehtavat"
-  Pre = "fas fa-paint-brush"
+  Pre = "fas fa-paint-brush fa-fw"
   weight = 3
   parent = "kurssit"
   
@@ -107,7 +107,7 @@ canonifyURLs = true
   name = "ENA 04"
   url = "/kurssit/ena04tehtavat/"
   identifier = "ena04tehtavat"
-  Pre = "fas fa-balance-scale"
+  Pre = "fas fa-balance-scale fa-fw"
   weight = 4
   parent = "kurssit"
   
@@ -115,7 +115,7 @@ canonifyURLs = true
   name = "ENA 05"
   url = "/kurssit/ena05tehtavat/"
   identifier = "ena05tehtavat"
-  Pre = "fas fa-flask"
+  Pre = "fas fa-flask fa-fw"
   weight = 5
   parent = "kurssit"
   
@@ -123,7 +123,7 @@ canonifyURLs = true
   name = "ENA 06"
   url = "/kurssit/ena06tehtavat/"
   identifier = "ena06tehtavat"
-  Pre = "fas fa-user-graduate"
+  Pre = "fas fa-user-graduate fa-fw"
   weight = 6
   parent = "kurssit"
   
@@ -131,7 +131,7 @@ canonifyURLs = true
   name = "ENA 07"
   url = "/kurssit/ena07tehtavat/"
   identifier = "ena07tehtavat"
-  Pre = "fab fa-pagelines"
+  Pre = "fab fa-pagelines fa-fw"
   weight = 7
   parent = "kurssit"
   
@@ -139,7 +139,7 @@ canonifyURLs = true
   name = "ENA 08"
   url = "/kurssit/ena08tehtavat/"
   identifier = "ena08tehtavat"
-  Pre = "far fa-comments"
+  Pre = "far fa-comments fa-fw"
   weight = 8
   parent = "kurssit"
   
@@ -147,7 +147,7 @@ canonifyURLs = true
   name = "ENA 09"
   url = "/kurssit/ena09tehtavat/"
   identifier = "ena09tehtavat"
-  Pre = "fas fa-italic"
+  Pre = "fas fa-italic fa-fw"
   weight = 9
   parent = "kurssit"
   
