@@ -5,14 +5,13 @@ draft: false
 type: page
 layout: tehtava
 ---
+## Kirjoitelma
+
 Tässä osiossa esiintyvät linkit:
-
-
-##Kirjoitelma
 
 Tässä osiossa löydät ohjeita ja materiaalia liittyen ylioppilaskirjoitusten kirjoitelmaan. Kirjoitelmasta annettava pistemäärä on 0-99, eli kolmasosa koko kokeen pistemäärästä. Kaikki osaa kirjoittaa jotakin, toivottavasti, mutta ymmärtämällä kirjoitelman arvosteluun ja rakenteeseen liittyvät asiat saat helposti kasvatettua pistemäärääsi kymmenillä pisteillä.
 
-#Toimiikohan alaotsikko tällä tavalla?
+# Toimiikohan alaotsikko tällä tavalla?
 
 Kuten varmasti olet huomannut, kieliopin ja sanaston sisältävä "rakenneosio" on typistynyt vuosien saatossa aika säälittävän merkityksettömäksi. Jatkuvat kielioppitehtävät aikamuotoineen ja indefiniittipronomineineen antavat mahdollisuuden ansaita ylioppilaskokeesta sen 20-40 pistettä, eli noin 15 prosenttia kokeen kokonaispistemäärästä. Syy siihen on se, että kielioppiasiat ja sanastoasiat on niin vahvasti integroituna muihin kokeen osioihin, erityisesti kirjoitelmaosioon. 
 
