@@ -1350,7 +1350,6 @@
     }
 
     #content p a,
-	text-align: justify;
 	#content ul li a {
         border-bottom: dotted 2px rgba(160,160,160,.65);
     }
@@ -1929,6 +1928,7 @@
 	    article.post h3,
 	    article.post h4 {
 	        color: #000000;
+		text-align: justify;
 	        /* Theoretically for IE 8 & 9 (more valid) */
 	        /* ...but not required as filter works too */
 	        /* should come BEFORE filter */
