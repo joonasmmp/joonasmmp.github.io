@@ -1350,7 +1350,8 @@
     }
 
     #content p a,
-		#content ul li a {
+	text-align: justify;
+	#content ul li a {
         border-bottom: dotted 2px rgba(160,160,160,.65);
     }
 
