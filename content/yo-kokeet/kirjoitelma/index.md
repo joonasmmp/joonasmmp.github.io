@@ -39,7 +39,7 @@ Tässä kategoriassa esitetyt aiheet ovat monesti myös hyvin arkipäiväisiä, 
 
 "Write a blog post" on tuttu virke lähes jokaisen kokeen tehtävänannossa. Näistä aiheista on helppo luoda hyvä teksti, jos sinulla on asiasta tietotaitoa ja järkeviä mielipiteitä. Mikäli kumpaakaan ei löydy, kannattaa suhtautua varauksella. Usein tehtävänannon ja kirjoitelman tueksi on annettu dataa joko kokeen aiemmasta osasta, tai sitten ihan vaan kirjoitelmaotsikon yhteydessä, kuten alla esitetyssä kevään 2021 kirjoitelma-aiheessa _Reading habits are dying - or are they?_
 
-![Kevät 2021 - Lähde: YLE ABitreenit](/static/img/sivukuvat/kirjoitelmaohje_data.jpg)
+![Kevät 2021 - Lähde: YLE abitreenit](/img/sivukuvat/kirjoitelmaohje_data.jpg)
 
 - Opinion piece on military service
 - Are youth sports becoming too serious?
