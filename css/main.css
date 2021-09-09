@@ -1928,7 +1928,6 @@
 	    article.post h3,
 	    article.post h4 {
 	        color: #000000;
-		text-align: justify;
 	        /* Theoretically for IE 8 & 9 (more valid) */
 	        /* ...but not required as filter works too */
 	        /* should come BEFORE filter */
