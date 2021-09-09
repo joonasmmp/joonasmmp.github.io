@@ -25,10 +25,23 @@ Tämä ei kuitenkaan tarkoita sitä, että kirjoituskokeeseen olisi mahdotonta v
 
 1. Kertova ja/tai kuvaileva teksti. 
 
-Näissä aineissa pitää yleensä joko kertoa jostakin elämäsi osa-alueesta, tai vaihtoehtoisesti kuvailla esimerkiksi hypoteettista tilannetta. Nämä aiheet ovat yleensä suosituimpia aiheita kirjoittajien keskuudessa, sillä ne vaikuttavat päältä päin helpoimmalta. Varoituksen sana kuitenkin esimierkiksi _It was a dark and stormy night_ sekä _Once upon a time_-otsikoista, slllä antaessaan vapaat kädet kirjoittajalle, kirjoittaja valitettavan usein menee siitä mistä aita on matalin. Esimerkiksi Lukion englannin opettajille osoitetussa Facebook-ryhmässä oltiin suorastaan raivon vallasta siitä, kuinka jokainen kirjoitelma noudatti aivan täysin samaa kaavaa. Oli synkkä ja myrskyinen yö ja pimeä hahmo ilmestyi näkökenttään puun takaa. Lisäksi aiheet ovat monesti myös hyvin arkipäiväisiä, mikä tarkoittaa sitä, että niistä on helppo keksiä kirjoitettavaa. Onko kuitenkaan mahdollista erottua joukosta kirjoittamalla hyvin arkipäiväisistä asioista? Esimerkiksi jokainen meistä pitää musiikista, ja musiikkityli on ehdottoman subjektiivista, mutta eroaako lukiolaisten musiikin kuuntelu loppujen lopuksi kovinkaan paljoa keskiarvosta? Edes sen vertaa, että muutama kahdeksastakymmenestä samanlaisesta aiheesta eroittuisi edes jonkin verran joukosta? Tästä haastavasta tilanteesta lisää myöhemmin.
+Näissä aineissa pitää yleensä joko kertoa jostakin elämäsi osa-alueesta, tai vaihtoehtoisesti kuvailla esimerkiksi hypoteettista tilannetta. Nämä aiheet ovat yleensä suosituimpia aiheita kirjoittajien keskuudessa, sillä ne vaikuttavat päältä päin helpoimmalta. Varoituksen sana kuitenkin esimierkiksi _It was a dark and stormy night_ sekä _Once upon a time_-otsikoista, slllä antaessaan vapaat kädet kirjoittajalle, kirjoittaja valitettavan usein menee siitä mistä aita on matalin. Esimerkiksi lukion englannin opettajille osoitetussa Facebook-ryhmässä oli kokeen jälkeen turhautunutta puhetta siitä kuinka jokainen kirjoitelma noudatti aivan täysin samaa kaavaa. Oli synkkä ja myrskyinen yö ja pimeä hahmo ilmestyi näkökenttään puun takaa. Tarinat ylipäänsä noudattavat yleensä samaa kaavaa, sillä ihmiset ovat tottuneita tarinankerronnallisiin elementteihin ja muihin rakenteisiin. Näiden aiheiden mahdollisuus piilee siinä, että voit rikkoa tätä kaavaa tai vaihtoehtoisesti pyrkiä osoittamaan osaamisesi deskriptiivisen kielenkäytön avulla. Valitettavasti ne jotka menevät siitä mistä aita on matalin eivät hallitse esimerkiksi vaadittavaa sanastollista laajuutta vaan käyttävät yksinkertaisia lauserakenteita, yksinkertaisia sanamuotoja, yksinkertaisia adjektiiveja. Esteettisempien adjektiivisynonyymien avulla näihin aineisiin saataisiin huomattavasti enemmän sitä jotain mitä näidenkaltaisissa otsikoissa kaivattaisiin kaikista eniten. Tästä aiheesta lisää osiossa 3. 
+
+Tässä kategoriassa esitetyt aiheet ovat monesti myös hyvin arkipäiväisiä, mikä tarkoittaa sitä, että niistä on helppo keksiä kirjoitettavaa. Onko kuitenkaan mahdollista erottua joukosta kirjoittamalla hyvin arkipäiväisistä asioista? Hyvänä esimerkkinä voidaan pitää syksyn 2019 aihetta _What does music do to you?_. Jokainen meistä pitää musiikista, ja musiikkityli on ehdottoman subjektiivista, mutta eroaako lukiolaisten musiikin kuuntelu loppujen lopuksi kovinkaan paljoa keskiarvosta, edes sen vertaa, että muutama kahdeksastakymmenestä samanlaisesta aiheesta eroittuisi edes jonkin verran joukosta? Aiheiden jakaminen ns. helppoihin ja vaikeisiin aiheisiin ei mielestäni ole reilua, sillä myös helpoista aiheista voi kirjoittaa erinomaisia kirjoitelmia, ja vice versa. Helpoimmat aiheet kuitenkin erottuvat yleensä joukosta ja nimenomaan tässä kategoriassa. Tästä haastavasta tilanteesta lisää myöhemmin. 
 
 - Me as a winner of the Nobel Prize, Oscar or Olympic Games
 - What does music do to you? (s2019)
 - The tools from school
 - It was a dark and stormy night
 - Once upon a time 
+
+2. Kantaaottava/väittelevä teksti
+
+"Write a blog post" on tuttu virke lähes jokaisen kokeen tehtävänannossa. Näistä aiheista on helppo luoda hyvä teksti, jos sinulla on asiasta tietotaitoa ja järkeviä mielipiteitä. Mikäli kumpaakaan ei löydy, kannattaa suhtautua varauksella. Usein tehtävänannon ja kirjoitelman tueksi on annettu dataa joko kokeen aiemmasta osasta, tai sitten ihan vaan kirjoitelmaotsikon yhteydessä, kuten alla esitetyssä kevään 2021 kirjoitelma-aiheessa _Reading habits are dying - or are they?_
+
+![Kevät 2021 - Lähde: YLE ABitreenit](/static/img/sivukuvat/kirjoitelmaohje_data.jpg)
+
+- Opinion piece on military service
+- Are youth sports becoming too serious?
+- Reading habits are dying – or are they? 
+
