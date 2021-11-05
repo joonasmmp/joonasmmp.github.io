@@ -2499,8 +2499,8 @@
 		margin: 0 auto;
 		max-width: 100%;
 		opacity: 1;
-		padding: 4.5em;
-		width: 90em;
+		padding: 1.5em;
+		width: 95em;
 		overflow: hidden;
 	}
 
@@ -2511,7 +2511,7 @@
 		@media screen and (max-width: 1680px) {
 
 			#wrapper {
-				padding: 3em;
+				padding: 1.5em;
 			}
 
 		}
@@ -2527,7 +2527,7 @@
 		@media screen and (max-width: 736px) {
 
 			#wrapper {
-				padding: 1.5em;
+				padding: 0.75em;
 			}
 
 		}
