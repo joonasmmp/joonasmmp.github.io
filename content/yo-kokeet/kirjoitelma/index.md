@@ -38,7 +38,7 @@ Esimerkkiaiheita aiemmista kokeista:
 
 2. Kantaaottava/väittelevä teksti
 
-"Write a blog post" ja "write a speech" on tuttu virke lähes jokaisen kokeen tehtävänannossa. Näistä aiheista on helppo luoda hyvä teksti, jos sinulla on asiasta tietotaitoa ja järkeviä mielipiteitä. Mikäli kumpaakaan ei löydy, kannattaa suhtautua varauksella. Usein tehtävänannon ja kirjoitelman tueksi on annettu dataa joko kokeen aiemmasta osasta, tai sitten ihan vaan kirjoitelmaotsikon yhteydessä, kuten alla esitetyssä kevään 2021 kirjoitelma-aiheessa _Reading habits are dying - or are they?_
+"Write a blog post" on tuttu virke lähes jokaisen kokeen tehtävänannossa. Näistä aiheista on helppo luoda hyvä teksti, jos sinulla on asiasta tietotaitoa ja järkeviä mielipiteitä. Mikäli kumpaakaan ei löydy, kannattaa suhtautua varauksella. Usein tehtävänannon ja kirjoitelman tueksi on annettu dataa joko kokeen aiemmasta osasta, tai sitten ihan vaan kirjoitelmaotsikon yhteydessä, kuten alla esitetyssä kevään 2021 kirjoitelma-aiheessa _Reading habits are dying - or are they?_
 
 ![Kevät 2021 - Lähde: YLE abitreenit](/img/sivukuvat/kirjoitelmaohje_data.jpg)
 
@@ -51,4 +51,7 @@ Kantaaottavan aiheen vahvuus piilee siinä, että siitä kirjoittaessa on helppo
 - Reading habits are dying – or are they? 
 
 Toinen kantaaottavan tekstin vahvuus on siinä, että voit opetella kirjoittamaan vakuuttavan mielipidetekstin jo etukäteen. Esimerkkinä lähipiiristäni tapaus, jossa kirjoitettiin englannista M vaikka osaaminen oli jotain aivan muuta. Kuuntelut meni aivan miten sattuu, mutta kirjoitelmasta yli 99 pistettä sillä, että osattiin ennakoida se, että siellä tulee olemaan kantaaottava aihe. Sitten opeteltiin ottamaan kantaa oppikirjan mukaan opettelemalla tilanteeseen sopivia fraaseja, esimerkiksi _for instance, on the other hand, contrary to, in my opinion, however, what's more_ ja niiin edelleen. Konjunktioista lisää myöhemmin, mutta tässä elävä esimerkki siitä kuinka valmistautuminen palkitsee käytännössä.
+
+3. Jotain tiettyä tekstityyppiä vaativa aihe (puhe, blogikirjotus, kirje)
+Kirje, puhe tai blogikirjoitus voivat olla yhdistettynä johonkin toiseen aihetyyppiin, sillä hyvin tyypillisesti kirje voi olla kantaaottava (esim. letter to the editor) tai puhe on tarkoitettu pidettäväksi konferenssissa jossa tehtävänäsi on vakuuttaa yleisö johonkin ajankohtaiseen tai mielipiteitä jakavaan aiheeseen liittyen. Näissä kirjoitelmissa tärkeintä on muotoseikat, jotka luettelen tässä alla:
 
