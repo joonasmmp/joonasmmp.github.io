@@ -16,7 +16,7 @@
     {{$paginator:=(.Scratch.Get "Paginator")}}
     {{ range $paginator.Pages }}
     <a href="{{.RelPermalink}}">
-      {{ .Render "summary" }}
+      {{ .Render "content-list" }}
     </a>
     {{ end }}
     {{ partial "paginator.html" . }}
