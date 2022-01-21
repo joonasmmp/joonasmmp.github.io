@@ -1,199 +1,115 @@
-baseurl = ""
-languageCode = "en-us"
-title = "PJMM - Englannin materiaalia"
-theme = "hugo-future-imperfect"
-preserveTaxonomyNames = true
-paginate = 5
-googleAnalytics = "G-735JW4B10W"
-pluralizeListTitles = false
-# Set the followings to true as part of your site SEO
+baseURL = "https://joonasmmp.github.io/"
+title = PJMM - Englannin materiaalia
+author = PJMM
+languageCode = "fi"
+DefaultContentLanguage = "fi"
+enableInlineShortcodes = true
+theme = "Blonde"
 enableRobotsTXT = true
-canonifyURLs = true
+
+# Please enable this feature if the site is available in Japanese, Chinese or Korean.
+#hasCJKLanguage = true
+
+# If you're using Google Analytics, you can enable this feature.
+#googleAnalytics = "G-1234567890"
+
+# Disqus Comment System
+#disqusShortname = ""
 
 [params]
-  # Sets the meta tag description
-  description          = "PJMM"
-  # Sets the navbarTitle that appears in the top left of the navigation bar
-  navbarTitle          = "PJMM"
-  # Sets where "View More Posts" links
-  viewMorePostLink     = "/blog/"
-  mainSections = ["blog"]
+# Base color of the website.
+# https://tailwindcss.com/docs/background-color
+base_color = "bg-gray-800"
 
-# Optional Params
-  # Sets navbarTitle to match the section of the website
-  dynamicTitles        = false
-  # Sets Categories to sort by number of posts instead of alphabetical
-  categoriesByCount    = true
-  # set to show or to hide categories in the sidebar
-  showSidebarCategories = true
+#Site description
+description = "Blonde theme for Hugo."
 
-  # Load custom CSS or JavaScript files. The variable is an array so that you
-  # can load multiple files if necessary. You can also load the standard theme
-  # files by adding the value, "default".
-  # customCSS            = ["default", "/path/to/file"]
-  # customJS             = ["default", "/path/to/file"]
-  customCSS            = ["default"]
-  customJS             = ["default"]
+# The number of articles to be displayed on a single page.
+paginator_pages = "5"
 
-  # options for highlight.js (version, additional languages, and theme)
-  disable_highlight = false # set to true to disable Highlight
-  highlightjsVersion = "9.11.0"
-  highlightjsCDN = "//cdn.bootcss.com"
-  highlightjsLang = ["r", "yaml", "css"]
-  highlightjsTheme = "github"
-  MathJaxCDN = "//cdn.bootcss.com"
-  MathJaxVersion = "2.7.1"
+# Enable this if you want the archive list to be in a drop-down format.
+archive_dropdown = "false"
 
-  [params.staticman.recaptcha]
-    sitekey = "SITE_KEY"
-    secret  = "ENCRYPTED_SECRET"
+# Number of tags to be displayed.
+tagsLimit = 20
 
-  # These are optional params related to the sidebar. They are recommended, but not
-  # required for proper functionality. HTML is supported within the params.
-[params.intro]
-  header    = "PJMM"
+# Dark mode by default : dark
+# Light mode by default : light
+darkmode = "light"
 
-  paragraph = "Jep"
+  [params.post]
+    # Show thumbnails
+    thumbnail = true
 
-  about     = "asdsadsadsasdasda"
+    # Disable the "NO IMAGE" image.
+    noimage = true
 
-[params.postAmount]
-# Sets the number of recent posts to show in the sidebar. The default value is 5.
-    sidebar = 3
+    # See the Tailwind CSS documentation to set it up.
+    # Recommended settings are h-32 to h-48.
+    # https://tailwindcss.com/docs/height
+    thumbnail_height = "lg:h-44"
 
-# Sets the menu items in the navigation bar
-# Identifier prepends a Font Awesome icon to the menu item
+    # https://tailwindcss.com/docs/width
+    thumbnail_width = "lg:w-auto"
 
-[[menu.main]]
-  name = "Etusivu"
-  url = "/"
-  identifier = "home"
-  Pre  = "fa fa-home"
-  weight = 1
+    # Number of characters in description
+    description = "130"
 
-[[menu.main]]
-  name = "Kurssimateriaalit"
-  url = "/kurssit/"
-  identifier = "kurssit"
-  Pre = "fas fa-pencil-alt"
-  weight = 2
-  hasChildren = true
+  [params.widgets]
+    # Display widgets
+    display = true
 
-[[menu.main]]
-  name = "ENA 01"
-  url = "/kurssit/ena01tehtavat/"
-  identifier = "ena01tehtavat"
-  Pre = "fas fa-globe-europe fa-fw"
-  weight = 1
-  parent = "kurssit"
-  
-[[menu.main]]
-  name = "ENA 02"
-  url = "/kurssit/ena02tehtavat/"
-  identifier = "ena02tehtavat"
-  Pre = "fas fa-wifi fa-fw"
-  weight = 2
-  parent = "kurssit"
-  
-[[menu.main]]
-  name = "ENA 03"
-  url = "/kurssit/ena03tehtavat/"
-  identifier = "ena03tehtavat"
-  Pre = "fas fa-paint-brush fa-fw"
-  weight = 3
-  parent = "kurssit"
-  
- [[menu.main]]
-  name = "ENA 04"
-  url = "/kurssit/ena04tehtavat/"
-  identifier = "ena04tehtavat"
-  Pre = "fas fa-balance-scale fa-fw"
-  weight = 4
-  parent = "kurssit"
-  
- [[menu.main]]
-  name = "ENA 05"
-  url = "/kurssit/ena05tehtavat/"
-  identifier = "ena05tehtavat"
-  Pre = "fas fa-flask fa-fw"
-  weight = 5
-  parent = "kurssit"
-  
-[[menu.main]]
-  name = "ENA 06"
-  url = "/kurssit/ena06tehtavat/"
-  identifier = "ena06tehtavat"
-  Pre = "fas fa-user-graduate fa-fw"
-  weight = 6
-  parent = "kurssit"
-  
-[[menu.main]]
-  name = "ENA 07"
-  url = "/kurssit/ena07tehtavat/"
-  identifier = "ena07tehtavat"
-  Pre = "fab fa-pagelines fa-fw"
-  weight = 7
-  parent = "kurssit"
-  
-[[menu.main]]
-  name = "ENA 08"
-  url = "/kurssit/ena08tehtavat/"
-  identifier = "ena08tehtavat"
-  Pre = "far fa-comments fa-fw"
-  weight = 8
-  parent = "kurssit"
-  
-[[menu.main]]
-  name = "ENA 09"
-  url = "/kurssit/ena09tehtavat/"
-  identifier = "ena09tehtavat"
-  Pre = "fas fa-italic fa-fw"
-  weight = 9
-  parent = "kurssit"
-  
-[[menu.main]]
-  name = "YO-kokeet"
-  url = "/yo-kokeet/"
-  identifier = "YO-kokeet"
-  Pre = "fa fa-puzzle-piece"
-  weight = 3
-  hasChildren = true
-  
-[[menu.main]]
-  name = "Kuuntelukoe"
-  url = "/yo-kokeet/kuuntelukoe/"
-  identifier = "kuuntelukoe"
-  Pre = "fa fa-headphones fa-fw"
-  weight = 1
-  parent = "YO-kokeet"
-  
+    # Order of widgets to display
+    widgets = ["search", "archive", "category", "tags", "recent"]
+
+[menu]
+
   [[menu.main]]
-  name = "Luetunymmärtäminen"
-  url = "/yo-kokeet/luetunymmartaminen/"
-  identifier = "luetunymmartäminen"
-  Pre = "fas fa-book-reader fa-fw"
-  weight = 2
-  parent = "YO-kokeet"
-  
-  [[menu.main]]
-  name = "Rakenneosio"
-  url = "/yo-kokeet/rakenneosio/"
-  identifier = "rakenneosio"
-  Pre = "fas fa-clipboard-list fa-fw"
-  weight = 3
-  parent = "YO-kokeet"
-  
-  [[menu.main]]
-  name = "Kirjoitelma"
-  url = "/yo-kokeet/kirjoitelma/"
-  identifier = "kirjoitelma fa-fw"
-  Pre = "far fa-keyboard"
-  weight = 4
-  parent = "YO-kokeet"
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
 
-[[menu.main]]
-  name = "Tietoja"
-  url = "/about/"
-  pre = "fas fa-question"
-  identifier = "about"
-  weight = 6
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 3
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+archive = "archives"
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
