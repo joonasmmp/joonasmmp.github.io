@@ -11,7 +11,7 @@ enableRobotsTXT = true
 #hasCJKLanguage = true
 
 # If you're using Google Analytics, you can enable this feature.
-#googleAnalytics = "G-1234567890"
+#googleAnalytics = "G-735JW4B10W"
 
 # Disqus Comment System
 #disqusShortname = ""
@@ -65,22 +65,138 @@ darkmode = "light"
 [menu]
 
   [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 1
+  name = "Etusivu"
+  url = "/"
+  identifier = "home"
+  Pre  = "fa fa-home"
+  weight = 1
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 2
+[[menu.main]]
+  name = "Kurssimateriaalit"
+  url = "/kurssit/"
+  identifier = "kurssit"
+  Pre = "fas fa-pencil-alt"
+  weight = 2
+  hasChildren = true
 
+[[menu.main]]
+  name = "ENA 01"
+  url = "/kurssit/ena01tehtavat/"
+  identifier = "ena01tehtavat"
+  Pre = "fas fa-globe-europe fa-fw"
+  weight = 1
+  parent = "kurssit"
+  
+[[menu.main]]
+  name = "ENA 02"
+  url = "/kurssit/ena02tehtavat/"
+  identifier = "ena02tehtavat"
+  Pre = "fas fa-wifi fa-fw"
+  weight = 2
+  parent = "kurssit"
+  
+[[menu.main]]
+  name = "ENA 03"
+  url = "/kurssit/ena03tehtavat/"
+  identifier = "ena03tehtavat"
+  Pre = "fas fa-paint-brush fa-fw"
+  weight = 3
+  parent = "kurssit"
+  
+ [[menu.main]]
+  name = "ENA 04"
+  url = "/kurssit/ena04tehtavat/"
+  identifier = "ena04tehtavat"
+  Pre = "fas fa-balance-scale fa-fw"
+  weight = 4
+  parent = "kurssit"
+  
+ [[menu.main]]
+  name = "ENA 05"
+  url = "/kurssit/ena05tehtavat/"
+  identifier = "ena05tehtavat"
+  Pre = "fas fa-flask fa-fw"
+  weight = 5
+  parent = "kurssit"
+  
+[[menu.main]]
+  name = "ENA 06"
+  url = "/kurssit/ena06tehtavat/"
+  identifier = "ena06tehtavat"
+  Pre = "fas fa-user-graduate fa-fw"
+  weight = 6
+  parent = "kurssit"
+  
+[[menu.main]]
+  name = "ENA 07"
+  url = "/kurssit/ena07tehtavat/"
+  identifier = "ena07tehtavat"
+  Pre = "fab fa-pagelines fa-fw"
+  weight = 7
+  parent = "kurssit"
+  
+[[menu.main]]
+  name = "ENA 08"
+  url = "/kurssit/ena08tehtavat/"
+  identifier = "ena08tehtavat"
+  Pre = "far fa-comments fa-fw"
+  weight = 8
+  parent = "kurssit"
+  
+[[menu.main]]
+  name = "ENA 09"
+  url = "/kurssit/ena09tehtavat/"
+  identifier = "ena09tehtavat"
+  Pre = "fas fa-italic fa-fw"
+  weight = 9
+  parent = "kurssit"
+  
+[[menu.main]]
+  name = "YO-kokeet"
+  url = "/yo-kokeet/"
+  identifier = "YO-kokeet"
+  Pre = "fa fa-puzzle-piece"
+  weight = 3
+  hasChildren = true
+  
+[[menu.main]]
+  name = "Kuuntelukoe"
+  url = "/yo-kokeet/kuuntelukoe/"
+  identifier = "kuuntelukoe"
+  Pre = "fa fa-headphones fa-fw"
+  weight = 1
+  parent = "YO-kokeet"
+  
   [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 3
+  name = "Luetunymmärtäminen"
+  url = "/yo-kokeet/luetunymmartaminen/"
+  identifier = "luetunymmartäminen"
+  Pre = "fas fa-book-reader fa-fw"
+  weight = 2
+  parent = "YO-kokeet"
+  
+  [[menu.main]]
+  name = "Rakenneosio"
+  url = "/yo-kokeet/rakenneosio/"
+  identifier = "rakenneosio"
+  Pre = "fas fa-clipboard-list fa-fw"
+  weight = 3
+  parent = "YO-kokeet"
+  
+  [[menu.main]]
+  name = "Kirjoitelma"
+  url = "/yo-kokeet/kirjoitelma/"
+  identifier = "kirjoitelma fa-fw"
+  Pre = "far fa-keyboard"
+  weight = 4
+  parent = "YO-kokeet"
+
+[[menu.main]]
+  name = "Tietoja"
+  url = "/about/"
+  pre = "fas fa-question"
+  identifier = "about"
+  weight = 6
 
 [taxonomies]
 category = "categories"
