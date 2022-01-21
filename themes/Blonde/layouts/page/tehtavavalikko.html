@@ -1,0 +1,27 @@
+{{ define "header_css" }}{{ end }}
+
+{{ define "main" }}
+<div class="grid grid-cols-3 gap-4">
+    {{ if .Site.Params.widgets.display }}
+    <div class="bg-white col-span-3 lg:col-span-2 p-5 dark:bg-warmgray-900 dark:text-white">
+    {{ else }}
+    <div class="bg-white col-span-3 p-5 dark:bg-warmgray-900 dark:text-white">
+    {{ end }}
+    <div id="main">
+        <article class="post">
+                {{range where .Site.Pages "Type" "=" "tehtavavalikko"}} 
+                    <div id="content">
+        {{ .Content }} 
+        {{ end }}
+    </div>
+    {{ if .Site.Params.widgets.display }}
+    <div class="hidden lg:block lg:col-span-1">
+        {{ partial "widgets/search.html" . }}
+        {{ partial "widgets/archive.html" . }}
+        {{ partial "widgets/category.html" . }}
+        {{ partial "widgets/tags.html" . }}
+        {{ partial "widgets/recent.html" . }}
+    </div>
+    {{ end }}
+</div>
+{{ end }}
