@@ -8,7 +8,7 @@ theme = "Blonde"
 enableRobotsTXT = true
 
 # Please enable this feature if the site is available in Japanese, Chinese or Korean.
-#hasCJKLanguage = true
+#hasCJKLanguage = false
 
 # If you're using Google Analytics, you can enable this feature.
 #googleAnalytics = "G-735JW4B10W"
@@ -28,7 +28,7 @@ description = "Blonde theme for Hugo."
 paginator_pages = "5"
 
 # Enable this if you want the archive list to be in a drop-down format.
-archive_dropdown = "false"
+archive_dropdown = true
 
 # Number of tags to be displayed.
 tagsLimit = 20
