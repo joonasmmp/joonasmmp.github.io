@@ -1,5 +1,5 @@
 baseURL = "https://joonasmmp.github.io/"
-title = "PJMM - Englannin materiaalia
+title = "PJMM - Englannin materiaalia"
 author = "PJMM"
 languageCode = "fi"
 DefaultContentLanguage = "fi"
@@ -42,7 +42,7 @@ darkmode = "light"
     thumbnail = true
 
     # Disable the "NO IMAGE" image.
-    noimage = true
+    noimage = false
 
     # See the Tailwind CSS documentation to set it up.
     # Recommended settings are h-32 to h-48.
