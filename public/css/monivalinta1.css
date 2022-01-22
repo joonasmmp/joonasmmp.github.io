@@ -184,7 +184,6 @@
       text-transform: none;
       -webkit-appearance: button;
       text-align: center;
-      vertical-align: middle;
       user-select: none;
       border: 1px solid transparent;
       line-height: 1.5;
@@ -201,7 +200,7 @@
       position: relative;
       transition: all 0.3s ease;
       cursor: pointer;
-      background: ##051D29;
-      border-color: ##051D29;
-      color: #fff;
-  </style>
+      background: #051D29;
+      border-color: #051D29;
+      color: #ffffff;
+  }
