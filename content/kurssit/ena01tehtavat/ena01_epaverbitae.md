@@ -10,7 +10,7 @@ layout: tehtava
 {{< rawhtml >}}
 
 <head>
-  <link rel="stylesheet" href="css/monivalinta1.css">
+  <link rel="stylesheet" href="/css/monivalinta1.css">
 </head>
 
 <body>
