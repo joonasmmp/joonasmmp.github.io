@@ -8,11 +8,7 @@ layout: tehtava
 
 <!-- raw html -->
 {{< rawhtml >}}
-
-<head>
-  <link rel="stylesheet" href="/css/monivalinta1.css">
-</head>
-
+<link rel="stylesheet" href="/css/monivalinta1.css">
 <body>
 <div class="grid">
 <div id="quiz">
