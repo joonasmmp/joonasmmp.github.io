@@ -8,7 +8,7 @@ layout: tehtava
 
 <!-- raw html -->
 {{< rawhtml >}}
-<link rel="stylesheet" href="/css/monivalinta1.css">
+<link rel="stylesheet" type="text/css" href="/css/monivalinta1.css"/>
 <body>
 <div class="grid">
 <div id="quiz">
@@ -27,8 +27,6 @@ layout: tehtava
 	
 	<br>
 	</body>
-	
-        <style>
 
 <div class="modal fade" id="modal" role="dialog">
   <div class="modal-dialog">
