@@ -49,7 +49,7 @@
                     {{ with .PrevInSection }}
                     <a class="previous lg" href="{{.Permalink}}">
                         <div
-                            class="transition-colors duration-300 border border-gray-600 hover:border-black h-auto m-3 text-center py-3 lg:py-1 content-center">
+                            class="transition-colors duration-300 border w-full border-gray-600 hover:border-black h-auto m-3 text-center py-3 lg:py-1 content-center">
                             <span class="icon-keyboard_arrow_left"></span> {{.Title}}
                         </div>
                     </a>
@@ -59,7 +59,7 @@
                 {{ with .NextInSection }}
                 <a class="next" href="{{.Permalink}}">
                     <div
-                        class="transition-colors duration-300 col-span-1 border border-gray-600 hover:border-black h-auto m-3 text-center py-3 lg:py-1 content-center">
+                        class="transition-colors duration-300 col-span-1 w-full border border-gray-600 hover:border-black h-auto m-3 text-center py-3 lg:py-1 content-center">
                         {{.Title}} <span class="icon-keyboard_arrow_right"></span>
                     </div>
                 </a>
