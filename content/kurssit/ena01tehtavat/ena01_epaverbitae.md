@@ -1,5 +1,5 @@
 ---
-title: "Epäsäännölliset verbit a-e?"
+title: "Epäsäännölliset verbit a-e"
 date: 2021-8-13
 draft: false
 type: page
@@ -14,7 +14,7 @@ layout: tehtava
 <div id="quiz">
 
             <p id="question"></p>
- 
+ <p></p>
             <div class="buttons">
           <button id="btn0"><span id="choice0"></span></button> 
           <button id="btn1"><span id="choice1"></span></button>
@@ -24,9 +24,7 @@ layout: tehtava
         </div>
         </div>
 	</div>
-	
-	<br>
-	</body>
+		</body>
 
 <div class="modal fade" id="modal" role="dialog">
   <div class="modal-dialog">
