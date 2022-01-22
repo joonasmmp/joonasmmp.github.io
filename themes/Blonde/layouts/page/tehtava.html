@@ -44,7 +44,7 @@
             </aside>
             </div>
         <div class="bg-white dark:bg-warmgray-900 p-5 my-4">
-            <div class="grid grid-cols-2">
+            <div class="grid grid-cols-1">
                 <div class="col-span-1">
                     {{ with .PrevInSection }}
                     <a class="previous lg" href="{{.Permalink}}">
@@ -53,9 +53,12 @@
                             <span class="icon-keyboard_arrow_left"></span> {{.Title}}
                         </div>
                     </a>
+                    </div>
                     {{ end }}
                 </div>
                 <p></p>
+                <div class="grid grid-cols-1">
+                    <div class="col-span-1">
                 {{ with .NextInSection }}
                 <a class="next" href="{{.Permalink}}">
                     <div
@@ -63,6 +66,7 @@
                         {{.Title}} <span class="icon-keyboard_arrow_right"></span>
                     </div>
                 </a>
+                </div>
                 {{ end }}
             </div>
         </div>
