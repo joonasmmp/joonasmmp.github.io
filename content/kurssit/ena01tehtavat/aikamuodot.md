@@ -3,7 +3,7 @@ title: "Perusaikamuodot?"
 date: 2021-10-15
 draft: false
 type: page
-layout: tehtava
+layout: ohje
 ---
 
 Englannin perusaikamuodot on kaikista kielioppiin millään tavalla liittyvistä asioista ehdottomasti tärkein. Heti engannin opiskelun alettua aletaan jo katsomaan preesensiä ja viimemistään kolmosluokalla imperfektiä. Sitä seuraa vitosluokalla (joskus vasta seiskalla) preesens, kasilla pluskvamperfekti ja futuuri. Ysillä ne kaikki kerrataan koska ne pitäisi osata kun peruskoulusta päästään. Lukiossa ne kerrataan joko peruskoulusta lukioon-kurssilla ja/tai ykkösmoduulissa. Huomioi sana kerrataan, koska ne pitäisi osata jo. Mikäli perusaikamuodot tuottavat sinulle vaikeuksia lukion alkaessa, tulevat ne tuottamaan ongelmia myös jatkossa. Oletuksenahan on että osaat jo käyttää niitä. Tällä sivulla yritän selittää perusaikamuotojen käytön mahdollimman yksinkertaisesti ja esimerkkein varusteltuna. 
