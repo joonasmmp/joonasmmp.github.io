@@ -44,26 +44,31 @@
                 {{ end }}
             </aside>
             </div>
-        <div class="bg-white dark:bg-warmgray-900 p-5 my-4">
-            <div class="grid grid-cols-2">
-                <div class="col-span-1">
-                    {{ with .PrevInSection }}
-                    <a class="previous lg:text-2xl" href="{{.Permalink}}">
+            <div class="bg-white dark:bg-warmgray-900 p-5 my-4">
+                <div class="grid grid-cols-1">
+                    <div class="col-span-1">
+                        {{ with .PrevInSection }}
+                        <a class="previous lg" href="{{.Permalink}}">
+                            <div
+                                class="transition-colors duration-300 border border-gray-600 hover:border-black h-auto m-3 text-center py-3 lg:py-1 content-center">
+                                <span class="icon-keyboard_arrow_left"></span> {{.Title}}
+                            </div>
+                        </a>
+                        </div>
+                        {{ end }}
+                    </div>
+                    <p></p>
+                    <div class="grid grid-cols-1">
+                        <div class="col-span-1">
+                    {{ with .NextInSection }}
+                    <a class="next" href="{{.Permalink}}">
                         <div
-                            class="transition-colors duration-300 border border-gray-600 hover:border-black h-auto m-3 text-center py-3 lg:py-1">
-                            <span class="icon-keyboard_arrow_left"></span> {{.Title}}
+                            class="transition-colors duration-300 col-span-1 border border-gray-600 hover:border-black h-auto m-3 text-center py-3 lg:py-1 content-center">
+                            {{.Title}} <span class="icon-keyboard_arrow_right"></span>
                         </div>
                     </a>
-                    {{ end }}
-                </div>
-                {{ with .NextInSection }}
-                <a class="next lg:text-2xl" href="{{.Permalink}}">
-                    <div
-                        class="transition-colors duration-300 col-span-1 border border-gray-600 hover:border-black h-auto m-3 text-center py-3 lg:py-1">
-                        {{.Title}} <span class="icon-keyboard_arrow_right"></span>
                     </div>
-                </a>
-                {{ end }}
+                    {{ end }}
             </div>
         </div>
     </div>
