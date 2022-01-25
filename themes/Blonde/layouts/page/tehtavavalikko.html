@@ -31,24 +31,11 @@
                             <div id="content">
                 {{ .Content }} 
                 {{ end }}
-            <aside id="meta">
-                {{ with .Params.categories }}
-                <hr class="py-2">
-                <div id="categories">
-                    <span class="icon-folder text-xl mr-1"></span>
-                    {{ range . }}
-                    <span
-                        class="inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-200 justify-center h-8 px-3 text-blue-500 duration-200 hover:text-black dark:bg-warmgray-800"><a
-                            href="{{ "categories" | absURL}}/{{ . | urlize }}">{{ . }}</a></span>
-                    {{ end }}
-                </div>
-                {{ end }}
-            </aside>
             </div>
             </div>
         </div>
         </div>
-    </div>
+    </div></div>
     {{ if .Site.Params.widgets.display }}
     <div class="hidden lg:block lg:col-span-1">
         {{ partial "widgets/search.html" . }}
