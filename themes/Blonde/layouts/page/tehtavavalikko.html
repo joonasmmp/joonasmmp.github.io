@@ -19,7 +19,6 @@
             </div>
         </div>
         </div>
-    </div>
     {{ if .Site.Params.widgets.display }}
     <div class="hidden lg:block lg:col-span-1">
         {{ partial "widgets/search.html" . }}
@@ -27,7 +26,7 @@
         {{ partial "widgets/category.html" . }}
         {{ partial "widgets/tags.html" . }}
         {{ partial "widgets/recent.html" . }}
-    </div></div>
+    </div>
     {{ end }}
 </div>
 {{ end }}
