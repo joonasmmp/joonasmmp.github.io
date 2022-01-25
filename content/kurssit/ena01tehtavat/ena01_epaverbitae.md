@@ -25,12 +25,6 @@ layout: tehtava
         </div>
 	</div>
 		</body>
-
-    {{ if .Site.Params.widgets.display }}
-    <div class="dark:text-white">
-    {{ else }}
-    <div class="dark:text-white">
-    {{ end }}
 <div class="modal fade" id="modal" role="dialog">
   <div class="modal-dialog">
     <div class="modal-content">
