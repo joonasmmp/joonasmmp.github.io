@@ -32,6 +32,7 @@ layout: tehtava
       <div class="modal-body">
         <p>Väärä vastaus</p>
 	      <p>Nyt ei menny ihan niinku piti, mutta koita uudestaan!</p>
+      </div>
       <div class="modal-footer">
         <button id="resetbutton2" class="reset" value="reset">Takaisin alkuun</button>
       </div>
