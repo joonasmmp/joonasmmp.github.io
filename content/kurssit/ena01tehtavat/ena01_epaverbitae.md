@@ -10,7 +10,6 @@ layout: tehtava
 {{< rawhtml >}}
 <link rel="stylesheet" type="text/css" href="/css/monivalinta1.css"/>
 <body>
-<div class="grid">
 <div id="quiz">
 
             <p id="question"></p>
@@ -21,9 +20,8 @@ layout: tehtava
 	  <button id="btn2"><span id="choice2"></span></button> 
           <button id="btn3"><span id="choice3"></span></button>
         
-        </div>
-        </div>
-	</div>
+</div>
+</div>
 		</body>
 <div class="modal fade" id="modal" role="dialog">
   <div class="modal-dialog">
