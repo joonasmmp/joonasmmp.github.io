@@ -21,7 +21,6 @@ layout: tehtava
             <button id="btn3"><span id="choice3"></span></button>     
 </div>
 </div>
-</body>
 
 <div class="modal fade" id="modal" role="dialog">
   <div class="modal-dialog">
@@ -39,6 +38,7 @@ layout: tehtava
     </div>
   </div>
 </div>
+</body>
 
 <script>
 
