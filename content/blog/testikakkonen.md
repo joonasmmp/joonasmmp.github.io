@@ -1,12 +1,10 @@
-+++
-author = "Theme author"
-categories = ["testausta"]
-tags = ["tutorial"]
-date = "2021-04-2"
-description = "Tähän selitys siitä hei"
-title = "testausta vaan"
-type = "post"
-
-+++
+---
+title: "Image Test"
+draft: false
+date: 2022-26-1
+description: "Image Test"
+tags: ["themes"]
+archives: ["2022/01"]
+---
 
 Juu tähän sisätlötää twpiejt ioawjetioa aawet 

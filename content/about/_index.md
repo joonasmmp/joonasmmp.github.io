@@ -3,7 +3,7 @@ title: "Tietoja sivusta"
 date: 2021-05-2
 draft: false
 type: page
-layout: tehtava
+layout: ohje
 ---
 
 Sivujen palvelin: [github pages](https://pages.github.com/)
