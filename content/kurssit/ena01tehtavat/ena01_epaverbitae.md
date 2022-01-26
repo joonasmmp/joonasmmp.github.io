@@ -15,14 +15,14 @@ layout: tehtava
             <p id="question"></p>
  <p></p>
             <div class="buttons">
-          <button id="btn0"><span id="choice0"></span></button> 
-          <button id="btn1"><span id="choice1"></span></button>
-	  <button id="btn2"><span id="choice2"></span></button> 
-          <button id="btn3"><span id="choice3"></span></button>
-        
+            <button id="btn0"><span id="choice0"></span></button> 
+            <button id="btn1"><span id="choice1"></span></button>
+	          <button id="btn2"><span id="choice2"></span></button> 
+            <button id="btn3"><span id="choice3"></span></button>     
 </div>
 </div>
-		</body>
+</body>
+
 <div class="modal fade" id="modal" role="dialog">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -32,6 +32,7 @@ layout: tehtava
       <div class="modal-body">
         <p>Väärä vastaus</p>
 	      <p>Nyt ei menny ihan niinku piti, mutta koita uudestaan!</p>
+      </div>
       <div class="modal-footer">
         <button id="resetbutton2" class="reset" value="reset">Takaisin alkuun</button>
       </div>
