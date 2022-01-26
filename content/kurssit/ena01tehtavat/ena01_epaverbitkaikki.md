@@ -23,6 +23,21 @@ layout: tehtava
 </div>
 </body>
 	
+<div class="modal fade" id="modal" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Oh dear!</h4>
+      </div>
+      <div class="modal-body">
+        <p>Väärä vastaus</p>
+	      <p>Nyt ei menny ihan niinku piti, mutta koita uudestaan!</p>
+      <div class="modal-footer">
+        <button id="resetbutton2" class="reset" value="reset">Takaisin alkuun</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <script>
 
