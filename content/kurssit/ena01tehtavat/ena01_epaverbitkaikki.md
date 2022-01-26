@@ -8,7 +8,7 @@ layout: tehtava
 
 <!-- raw html -->
 {{< rawhtml >}}
-
+<link rel="stylesheet" type="text/css" href="/css/monivalinta1.css"/>
 <body>
 <div id="quiz">
 
