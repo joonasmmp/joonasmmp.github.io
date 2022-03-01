@@ -22,7 +22,7 @@ layout: tehtava
 </div>
 </div>
 
-<div class="modal fade" id="modal" role="dialog">
+<div class="modal fade bg-white dark:bg-warmgray-900" id="modal" role="dialog">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
