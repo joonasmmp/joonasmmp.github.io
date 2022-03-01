@@ -19,7 +19,7 @@
                 <div class="grid grid-cols-1">
                     <div class="col-span-1">
                         {{ with .PrevInSection }}
-                        <a class="previous lg:text-2xl" href="{{.Permalink}}">
+                        <a class="previous lg:text-1xl" href="{{.Permalink}}">
                             <div
                                 class="transition-colors duration-300 border border-gray-600 hover:border-black h-auto m-3 text-center py-3 lg:py-1">
                                 <span class="icon-keyboard_arrow_left"></span> {{.Title}}
@@ -28,7 +28,7 @@
                         {{ end }}
                     </div>
                     {{ with .NextInSection }}
-                    <a class="next lg:text-2xl" href="{{.Permalink}}">
+                    <a class="next lg:text-1xl" href="{{.Permalink}}">
                         <div
                             class="transition-colors duration-300 col-span-1 border border-gray-600 hover:border-black h-auto m-3 text-center py-3 lg:py-1">
                             {{.Title}} <span class="icon-keyboard_arrow_right"></span>
