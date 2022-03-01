@@ -68,7 +68,7 @@
   }
   
   .modal-backdrop.fade {
-    filter: alpha(opacity=100);
+    filter: alpha(opacity=0);
     opacity: 0
   }
   
