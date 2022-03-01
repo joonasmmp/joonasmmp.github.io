@@ -57,19 +57,6 @@
                     {{ end }}
                 </div>
                 <p></p>
-                <div class="grid grid-cols-1">
-                    <div class="col-span-1">
-                {{ with .NextInSection }}
-                <a class="next" href="{{.Permalink}}">
-                    <div
-                        class="transition-colors duration-300 col-span-1 border border-gray-600 hover:border-black h-auto m-3 text-center py-3 lg:py-1 content-center">
-                        {{.Title}} <span class="icon-keyboard_arrow_right"></span>
-                    </div>
-                </a>
-                </div>
-                </div>
-                {{ end }}
-            </div>
         </div>
     </div>
     {{ if .Site.Params.widgets.display }}
