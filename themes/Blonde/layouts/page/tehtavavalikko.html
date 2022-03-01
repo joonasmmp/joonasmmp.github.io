@@ -9,7 +9,9 @@
             {{ end }}
             <div class="bg-white dark:bg-warmgray-900 p-5 my-4">
                 <h1 class="mb-2 text-4xl font-bold">{{.Title}}</h1>
-                <div class="prose md:prose-lg lg:prose-xl max-w-none dark:prose-invert mt-5">{{range where .Site.Pages "Type" "=" "tehtavavalikko"}} {{.Content}}</div>
+                <div class="prose md:prose-lg lg:prose-xl max-w-none dark:prose-invert mt-5" id="content">
+                    {{range where .Site.Pages "Type" "=" "tehtavavalikko"}} 
+                    {{.Content}}</div>
             </div>
         </div>
         {{ if .Site.Params.widgets.display }}
