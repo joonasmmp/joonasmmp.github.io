@@ -22,18 +22,18 @@ layout: tehtava
 </div>
 </div>
 
-<div class="modal fade bg-primary text-primary" id="modal" role="dialog">
+<div class="modal fade" id="modal" role="dialog">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <h4 class="modal-title">Oh dear!</h4>
       </div>
       <div class="modal-body">
-        <p>Väärä vastaus</p>
-	      <p>Nyt ei menny ihan niinku piti, mutta yritä uudestaan!</p>
+        <p style="text-black;">Väärä vastaus</p>
+	      <p style="text-black;">Nyt ei menny ihan niinku piti, mutta yritä uudestaan!</p>
       </div>
       <div class="modal-footer">
-        <button id="resetbutton2" class="reset" value="reset">Takaisin alkuun</button>
+        <button id="resetbutton2" class="reset" value="reset" style="text-black;">Takaisin alkuun</button>
       </div>
     </div>
   </div>
