@@ -4,28 +4,22 @@
 <div class="grid grid-cols-3 gap-4">
     {{ if .Site.Params.widgets.display }}
     <div class="col-span-3 lg:col-span-2 dark:text-white">
-    {{ else }}
-    <div class="col-span-3 dark:text-white">
-    {{ end }}
-        <div class="bg-white dark:bg-warmgray-900 p-5 my-4">
-            <h1 class="title text-4xl">{{.Title}}</h1>
-            <hr class="my-2">
-                <article class="post">
-                        {{range where .Site.Pages "Type" "=" "tehtavavalikko"}} 
-                            <div id="content">
-                {{ .Content }} 
-                {{ end }}
-            </div>
+        {{ else }}
+        <div class="col-span-3 dark:text-white">
+            {{ end }}
+            <div class="bg-white dark:bg-warmgray-900 p-5 my-4">
+                <h1 class="mb-2 text-4xl font-bold">{{.Title}}</h1>
+                <div class="prose md:prose-lg lg:prose-xl max-w-none dark:prose-invert mt-5">{{range where .Site.Pages "Type" "=" "tehtavavalikko"}} {{.Content}}</div>
             </div>
         </div>
-    {{ if .Site.Params.widgets.display }}
-    <div class="hidden lg:block lg:col-span-1">
-        {{ partial "widgets/search.html" . }}
-        {{ partial "widgets/archive.html" . }}
-        {{ partial "widgets/category.html" . }}
-        {{ partial "widgets/tags.html" . }}
-        {{ partial "widgets/recent.html" . }}
+        {{ if .Site.Params.widgets.display }}
+        <div class="hidden lg:block lg:col-span-1">
+            {{ partial "widgets/search.html" . }}
+            {{ partial "widgets/archive.html" . }}
+            {{ partial "widgets/category.html" . }}
+            {{ partial "widgets/tags.html" . }}
+            {{ partial "widgets/recent.html" . }}
+        </div>
+        {{ end }}
     </div>
     {{ end }}
-</div>
-{{ end }}
