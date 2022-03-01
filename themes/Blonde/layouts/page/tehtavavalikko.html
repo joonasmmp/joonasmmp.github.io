@@ -9,9 +9,23 @@
             {{ end }}
             <div class="bg-white dark:bg-warmgray-900 p-5 my-4">
                 <h1 class="mb-2 text-4xl font-bold">{{.Title}}</h1>
-                <div class="prose md:prose-lg lg:prose-xl max-w-none dark:prose-invert mt-5" id="content">
-                    {{range where .Site.Pages "Type" "=" "tehtavavalikko"}} 
-                    {{.Content}}</div>
+                {{ if .Params.image }}
+                <img class="py-4" src="{{ .Params.image | absURL }}">
+                {{ end }}
+                <div class="prose md:prose-lg lg:prose-xl max-w-none dark:prose-invert mt-5">{{.Content}}</div>
+                <aside id="meta">
+                    {{ with .Params.categories }}
+                    <hr class="py-2">
+                    <div id="categories">
+                        <span class="icon-folder text-xl mr-1"></span>
+                        {{ range . }}
+                        <span
+                            class="inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-200 justify-center h-8 px-3 text-blue-500 duration-200 hover:text-black dark:bg-warmgray-800"><a
+                                href='{{ "categories" | absURL}}/{{ . | urlize }}'>{{ . }}</a></span>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </aside>
             </div>
         </div>
         {{ if .Site.Params.widgets.display }}
