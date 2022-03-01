@@ -73,8 +73,8 @@
   }
   
   .modal-backdrop.in {
-    filter: alpha(opacity=50);
-    opacity: .5
+    filter: alpha(opacity=0);
+    opacity: 0
   }
   
   .modal-header {
