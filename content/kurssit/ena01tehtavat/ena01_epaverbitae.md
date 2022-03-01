@@ -29,11 +29,11 @@ layout: tehtava
         <h4 class="modal-title">Oh dear!</h4>
       </div>
       <div class="modal-body">
-        <p style="text-black;">Väärä vastaus</p>
-	      <p style="text-black;">Nyt ei menny ihan niinku piti, mutta yritä uudestaan!</p>
+        <p>Väärä vastaus</p>
+	      <p>Nyt ei menny ihan niinku piti, mutta yritä uudestaan!</p>
       </div>
       <div class="modal-footer">
-        <button id="resetbutton2" class="reset" value="reset" style="text-black;">Takaisin alkuun</button>
+        <button id="resetbutton2" class="reset" value="reset">Takaisin alkuun</button>
       </div>
     </div>
   </div>
