@@ -28,7 +28,7 @@
             <span class="drop-icon" for="{{ .Name }}">▾</span>
             <ul class="sub-menu">
                 {{ range .Children }}
-                <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+                <li>
                     <span>{{ .Name }}</span>
                 </li>
                 {{ end }}
