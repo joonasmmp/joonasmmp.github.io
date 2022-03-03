@@ -23,6 +23,7 @@
                         class="no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4">
                         {{ .Name }}
                     </a>
+                    {{ end }}
                     {{ if .HasChildren }}
             <span class="drop-icon" for="{{ .Name }}">▾</span>
             <ul class="sub-menu">
@@ -31,7 +32,6 @@
                     <span>{{ .Name }}</span>
                 </li>
                 {{ end }}
-                    {{ end }}
                 </div>
                 <div class="text-white invisible md:visible">
                     <span>|</span>
