@@ -19,24 +19,18 @@
                 </div>
                 <div class="navmenu">
                              {{ range .Site.Menus.main }}
-                <!-- <li>
-                    <a href="{{ .URL }}">
-                            <i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}
-                    </a>
-                </li> -->
-                <li>
-                  {{ if .HasChildren }}
-                      <a class="dropdown" href="#">{{ .Name }}</a>
-                      <ul class="dropdown-content">
-                        {{ range .Children }}
-                          <li><a href="{{ .URL }}"><i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}</a></li>
-                        {{ end }}
-                      </ul>
-                  {{ else }}
-                    <a href="{{ .URL }}"><i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}</a>
-                  {{ end  }}
-                </li>
-            {{ end }}
+                             <li>
+                                {{ if .HasChildren }}
+                                    <a class="dropdown" href="#">{{ .Name }}</a>
+                                    <ul class="dropdown-content">
+                                      {{ range .Children }}
+                                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                                      {{ end }}
+                                    </ul>
+                                {{ else }}
+                                  <a href="{{ .URL }}">{{ .Name }}</a>
+                                {{ end  }}
+                              </li>
                 </div>
                 <div class="text-white invisible md:visible">
                     <span>|</span>
