@@ -24,11 +24,11 @@
                             <a class="dropdown" href="#" class="no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4">{{ .Name }}</a>
                             <ul class="dropdown-content">
                               {{ range .Children }}
-                                <li><a href="{{ .URL }}" class="no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4"><i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}</a></li>
+                                <li><a href="{{ .URL }}" class="no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4"><i class="{{ .Identifier }}"></i>{{ .Name }}</a></li>
                               {{ end }}
                             </ul>
                         {{ else }}
-                          <a href="{{ .URL }} " class="no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4><i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}</a>
+                          <a href="{{ .URL }} " class="no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4"><i class="{{ .Identifier }}"></i>{{ .Name }}</a>
                         {{ end  }}
                       </li>
                     {{ end }}
@@ -57,11 +57,3 @@
         mobileMenu.classList.toggle('active');
     });
 </script>
-
-
-{{ range .Site.Menus.main }}
-<a href="{{ .URL }}"
-    class="no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4">
-    {{ .Name }}
-</a>
-{{ end }}
