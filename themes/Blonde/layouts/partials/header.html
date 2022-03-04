@@ -18,7 +18,7 @@
                 <div class="text-sm lg:flex-grow">
                 </div>
                 <div class="navmenu">
-                    <ul class="navmenu">
+                    <ul class="links">
                     {{ range .Site.Menus.main }}
                     <li>
                         {{ if .HasChildren }}
@@ -48,6 +48,32 @@
     .active {
         display: block;
     }
+    
+#mobilemenu .links li ul.dropdown-content li {
+  padding-left: 0.5em !important;
+  padding-right: 0.5em !important;
+  display: none;
+}
+
+#mobilemenu .links ul li ul li {
+  display: flex;
+  width: inherit;
+  float:none !important;
+  height:auto;
+  line-height:40px;
+  text-align: left;
+  margin-left: 0;
+  border-left: none;
+}
+
+#mobilemenu .links ul li ul li:first-child {
+  padding-top: 1em;
+}
+
+#mobilemenu .links ul li:hover > ul.dropdown-content li {
+    display: flex;
+    flex-direction: column;
+}
 </style>
 
 <script>
