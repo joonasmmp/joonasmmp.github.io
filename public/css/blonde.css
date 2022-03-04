@@ -192,3 +192,8 @@ input,
 textarea {
   -webkit-appearance: none;
 }
+
+#submenu ul li:hover > ul.sub li {
+  display: flex;
+  flex-direction: column;
+}
