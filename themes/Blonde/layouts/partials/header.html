@@ -18,6 +18,7 @@
                 <div class="text-sm lg:flex-grow">
                 </div>
                 <div class="navmenu">
+                    {{ $currentPage := . }}
                     {{ range .Site.Menus.main }}
                         {{ if .HasChildren }}                    
                       <li class="sub-menu{{if $currentPage.HasMenuCurrent "main" . }} active{{end}}">
