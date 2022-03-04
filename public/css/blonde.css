@@ -193,13 +193,13 @@ textarea {
   -webkit-appearance: none;
 }
 
-.navmenu li ul.dropdown-content li {
+.links li ul.dropdown-content li {
   padding-left: 0.5em !important;
   padding-right: 0.5em !important;
   display: none;
 }
 
-.navmenu ul li ul li {
+.links ul li ul li {
   display: flex;
   width: inherit;
   float:none !important;
@@ -210,11 +210,11 @@ textarea {
   border-left: none;
 }
 
-.navmenu ul li ul li:first-child {
+.links ul li ul li:first-child {
   padding-top: 1em;
 }
 
-.navmenu ul li:hover > ul.dropdown-content li {
+.links ul li:hover > ul.dropdown-content li {
     display: flex;
     flex-direction: column;
 }

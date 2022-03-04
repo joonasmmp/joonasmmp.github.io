@@ -17,7 +17,8 @@
             <div class="hidden w-full md:flex md:flex-row sm:items-center md:w-auto" id="mobileMenu">
                 <div class="text-sm lg:flex-grow">
                 </div>
-                <div class="navmenu" id="navmenu">
+                <div class="navmenu">
+                    <ul class="navmenu">
                     {{ range .Site.Menus.main }}
                     <li>
                         {{ if .HasChildren }}
@@ -32,6 +33,7 @@
                         {{ end  }}
                       </li>
                     {{ end }}
+                </ul>
                 </div>
                 <div class="text-white invisible md:visible">
                     <span>|</span>
