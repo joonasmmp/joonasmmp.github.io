@@ -20,8 +20,9 @@
                 <div class="navmenu">
                     {{ $currentPage := . }}
                     {{ range .Site.Menus.main }}
+                       <class="no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4">
                         {{ if .HasChildren }}
-          
+                    
                       <li class="sub-menu{{if $currentPage.HasMenuCurrent "main" . }} active{{end}}">
                       <a href="javascript:;" class="">
                           {{ .Pre }}
@@ -67,3 +68,4 @@
         mobileMenu.classList.toggle('active');
     });
 </script>
+
