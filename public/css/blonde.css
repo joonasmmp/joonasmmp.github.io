@@ -193,7 +193,21 @@ textarea {
   -webkit-appearance: none;
 }
 
-#submenu ul li:hover > ul.sub li {
+#header .links ul li ul li {
   display: flex;
-  flex-direction: column;
+  width: inherit;
+  float:none !important;
+  height:auto;
+  line-height:40px;
+  text-align: left;
+  margin-left: 0;
+  border-left: none;
+}
+#header .links ul li ul li:first-child {
+  padding-top: 1em;
+
+}
+#header .links ul li:hover > ul.dropdown-content li {
+    display: flex;
+    flex-direction: column;
 }
