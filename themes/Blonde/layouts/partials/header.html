@@ -22,7 +22,7 @@
                     {{ range .Site.Menus.main }}
                     <li>
                         {{ if .HasChildren }}
-                            <a class="dropdown" href="#" class="no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4">{{ .Name }}</a>
+                            <a class="dropdown no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4" href="#">{{ .Name }}</a>
                             <ul class="dropdown-content">
                               {{ range .Children }}
                                 <li><a href="{{ .URL }}" class="no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4">{{ .Name }}</a></li>
@@ -65,6 +65,11 @@
   display: none;
 }
 
+.links li{
+    display: inline-block;
+    padding: 3px;
+}
+
 .links ul li ul li {
   display: flex;
   width: inherit;
@@ -74,7 +79,7 @@
   text-align: left;
   margin-left: 0;
   border-left: none;
-  list-style-type: none;
+  
 }
 
 .links ul li ul li:first-child {
