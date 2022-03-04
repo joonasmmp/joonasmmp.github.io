@@ -18,10 +18,8 @@
                 <div class="text-sm lg:flex-grow">
                 </div>
                 <div class="navmenu">
-                    {{ $currentPage := . }}
                     {{ range .Site.Menus.main }}
-                        {{ if .HasChildren }}
-                    
+                        {{ if .HasChildren }}                    
                       <li class="sub-menu{{if $currentPage.HasMenuCurrent "main" . }} active{{end}}">
                       <a href="javascript:;" class="no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4"></a>">
                           {{ .Pre }}
@@ -35,7 +33,7 @@
                       </ul>
                     {{else}}
                       <li>
-                      <a href="{{.URL}}">
+                      <a href="{{.URL}}"  class="no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4">
                           {{ .Pre }}
                           <span>{{ .Name }}</span>
                       </a>
