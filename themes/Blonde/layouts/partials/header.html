@@ -22,7 +22,7 @@
                     {{ range .Site.Menus.main }}
                         {{ if .HasChildren }}                    
                       <li class="sub-menu{{if $currentPage.HasMenuCurrent "main" . }} active{{end}}">
-                      <a href="javascript:;" class="no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4"></a>
+                      <a href="javascript:;" class="no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4">
                           <span>{{ .Name }}</span>
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
@@ -33,7 +33,7 @@
                       </ul>
                     {{else}}
                       <li>
-                      <a href="{{.URL}}"  class="no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4"></a>
+                      <a href="{{.URL}}"  class="no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4">
                           <span>{{ .Name }}</span>
                       </a>
                     {{end}}
