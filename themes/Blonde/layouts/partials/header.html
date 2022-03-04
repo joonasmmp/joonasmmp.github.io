@@ -21,7 +21,7 @@
                     {{ range .Site.Menus.main }}
                     <li>
                         {{ if .HasChildren }}
-                            <a class="dropdown" href="#" class="no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4">{{ .Name }}</a>
+                            <a class="dropdown" href="#">{{ .Name }}</a>
                             <ul class="dropdown-content">
                               {{ range .Children }}
                                 <li><a href="{{ .URL }}" class="no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4">{{ .Name }}</a></li>
