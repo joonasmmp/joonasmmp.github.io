@@ -193,7 +193,7 @@ textarea {
   -webkit-appearance: none;
 }
 
-.navmenu ul li ul li {
+.mobilemenu ul li ul li {
   display: flex;
   width: inherit;
   float:none !important;
@@ -204,12 +204,12 @@ textarea {
   border-left: none;
 }
 
-.navmenu ul li ul li:first-child {
+.mobilemenu ul li ul li:first-child {
   padding-top: 1em;
 
 }
 
-.navmenu ul li:hover > ul.dropdown-content li {
+.mobilemenu ul li:hover > ul.dropdown-content li {
     display: flex;
     flex-direction: column;
 }
