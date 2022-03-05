@@ -18,7 +18,7 @@
                         {{ with .Params.tags }}
                         <div id="tags">
                             {{ range . }}
-                            <a class="inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-200 justify-center h-8 px-2 text-black duration-200 hover:text-black dark:bg-warmgray-800 rounded-md" href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
+                            <a class="inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-200 justify-center h-8 px-2 text-black duration-200 hover:text-blue-500 dark:bg-warmgray-800 rounded-md" href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
                             {{ end }}
                         </div>
                         {{ end }}
@@ -34,7 +34,7 @@
                     <div id="categories">
                         {{ range . }}
                         <span
-                            class="inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-200 justify-center h-8 px-3 text-black duration-200 hover:text-black dark:bg-warmgray-800"><a
+                            class="inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-200 justify-center h-8 px-3 text-black duration-200 hover:text-blue-500 dark:bg-warmgray-800"><a
                                 href='{{ "categories" | absURL}}/{{ . | urlize }}'>{{ . }}</a></span>
                         {{ end }}
                     </div>
@@ -62,8 +62,6 @@
                     </a>
                     {{ end }}
                 </div>
-            </div>
-            <div class="bg-white dark:bg-warmgray-900 p-5 my-4">
             </div>
         </div>
         {{ if .Site.Params.widgets.display }}
