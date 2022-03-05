@@ -106,7 +106,7 @@ darkmode = "light"
   parent = "kurssit"
   
  [[menu.main]]
-  name = "ENA 05  Tiede & tulevaisuus"
+  name = "ENA 05 - Tiede & tulevaisuus"
   url = "/kurssit/ena05tehtavat/"
   identifier = "ena05tehtavat"
   weight = 5
