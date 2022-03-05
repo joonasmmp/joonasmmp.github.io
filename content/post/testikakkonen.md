@@ -1,27 +1,21 @@
----
-author: "church"
-title: "Easter Service Times"
-image: "img/easterimg.jpg"
-draft: false
-date: 2022-03-01
-description: "Easter Service Times"
++++
+author = "PJMM"
+title = "Markdown Syntax Guide"
+date = "2022-03-01"
+description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+tags = [
+    "markdown",
+    "css",
+    "html",
+    "themes",
+]
+categories = [
+    "themes",
+    "syntax",
+]
+series = ["Themes Guide"]
+aliases = ["migrate-from-jekyl"]
+archives = ["2022/03"]
++++
 
-seo: 
-    description: "This is the contact page for St Alban's Church and St Augustine's Church Toowoomba"
-    canonical: "http://toowoombawest.org/post/easter"
-
----
-
-**Easter Service Times**
-
-**14th April**
-The Maundy Thursday meal & service will be at St Alban's commencing at 6pm
-
-**15th April**
-Good Friday service will be a one Parish service, at St Alban's commencing at 8am
-
-**16th April**
-Easter Eve Vigil service will be at St Augustine's commencing at 6.30pm
-
-**17th April**
-Easter Day service will also be a one Parish Service, at St Alban's commencing at 9am.
+This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
