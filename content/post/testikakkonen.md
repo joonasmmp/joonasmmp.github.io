@@ -2,6 +2,7 @@
 author = "PJMM"
 title = "Markdown Syntax Guide"
 date = "2022-03-01"
+type: "post"
 description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
 tags = [
     "markdown",
