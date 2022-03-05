@@ -45,9 +45,50 @@
     </div>
 </div>
 <style>
-    .active {
+.active {
         display: block;
     }
+
+.links li ul.dropdown-content {
+	margin-left: -1em;
+	position: absolute;
+	background-color: #1F2937;
+	width: inherit;
+	padding-left: 0.5em !important;
+	padding-right: 0.5em !important;
+	margin-left: none !important;
+}
+
+.links li ul.dropdown-content li {
+  padding-left: 0.5em !important;
+  padding-right: 0.5em !important;
+  display: none;
+}
+
+.links ul li ul li {
+  display: flex;
+  width: inherit;
+  float:none !important;
+  height:auto;
+  line-height:40px;
+  text-align: left;
+  margin-left: 0;
+  border-left: none;
+}
+
+.links ul li ul li:first-child {
+  padding-top: 1em;
+}
+
+.links li:hover > ul.dropdown-content li {
+    display: flex;
+    flex-direction: column;
+}
+
+.links > li > ul {
+					text-decoration: none;
+					list-style: none;
+				}
     
  @media only screen and (min-width: 768px) {
     .links li ul.dropdown-content {
