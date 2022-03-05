@@ -12,13 +12,13 @@
                 <aside id="meta">
                     <div>
                         <section>
-                            <h4 id="date">{{ .Date.Format "January 02, 2006" }}
+                            <h4 style="padding-bottom: 6px" id="date">{{ .Date.Format "January 02, 2006" }}
                             </h4>
                         </section>
                         {{ with .Params.tags }}
                         <div id="tags">
                             {{ range . }}
-                            <a href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{ . }}</a> -
+                            <a class="inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-200 justify-center h-8 px-2 text-black duration-200 hover:text-black dark:bg-warmgray-800 rounded-md" href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
                             {{ end }}
                         </div>
                         {{ end }}
