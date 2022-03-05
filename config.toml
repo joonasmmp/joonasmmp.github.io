@@ -60,7 +60,7 @@ darkmode = "light"
     display = true
 
     # Order of widgets to display
-    widgets = ["category", "tags", "recent"]
+    widgets = ["palkki","category", "tags", "recent"]
 
 [menu]
 
