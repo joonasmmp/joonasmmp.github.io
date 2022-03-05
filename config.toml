@@ -60,7 +60,7 @@ darkmode = "light"
     display = true
 
     # Order of widgets to display
-    widgets = ["search", "archive", "category", "tags", "recent"]
+    widgets = ["category", "tags", "recent"]
 
 [menu]
 
@@ -78,70 +78,70 @@ darkmode = "light"
   hasChildren = true
 
 [[menu.main]]
-  name = "ENA 01"
+  name = "ENA 01 - Kielitaito & vuorovaikutus"
   url = "/kurssit/ena01tehtavat/"
   identifier = "ena01tehtavat"
   weight = 1
   parent = "kurssit"
   
 [[menu.main]]
-  name = "ENA 02"
+  name = "ENA 02 - Globaali kieli"
   url = "/kurssit/ena02tehtavat/"
   identifier = "ena02tehtavat"
   weight = 2
   parent = "kurssit"
   
 [[menu.main]]
-  name = "ENA 03"
+  name = "ENA 03 - Kieli & kulttuuri"
   url = "/kurssit/ena03tehtavat/"
   identifier = "ena03tehtavat"
   weight = 3
   parent = "kurssit"
   
  [[menu.main]]
-  name = "ENA 04"
+  name = "ENA 04 - Yhteiskunta & vaikuttaminen"
   url = "/kurssit/ena04tehtavat/"
   identifier = "ena04tehtavat"
   weight = 4
   parent = "kurssit"
   
  [[menu.main]]
-  name = "ENA 05"
+  name = "ENA 05  Tiede & tulevaisuus"
   url = "/kurssit/ena05tehtavat/"
   identifier = "ena05tehtavat"
   weight = 5
   parent = "kurssit"
   
 [[menu.main]]
-  name = "ENA 06"
+  name = "ENA 06 - Jatko-opinnot & työelämä"
   url = "/kurssit/ena06tehtavat/"
   identifier = "ena06tehtavat"
   weight = 6
   parent = "kurssit"
   
 [[menu.main]]
-  name = "ENA 07"
+  name = "ENA 07 - Ympäristö & kestävä elämäntapa"
   url = "/kurssit/ena07tehtavat/"
   identifier = "ena07tehtavat"
   weight = 7
   parent = "kurssit"
   
 [[menu.main]]
-  name = "ENA 08"
+  name = "ENA 08 - Suullinen viestintä"
   url = "/kurssit/ena08tehtavat/"
   identifier = "ena08tehtavat"
   weight = 8
   parent = "kurssit"
   
 [[menu.main]]
-  name = "ENA 09"
+  name = "ENA 09 - Abikurssi"
   url = "/kurssit/ena09tehtavat/"
   identifier = "ena09tehtavat"
   weight = 9
   parent = "kurssit"
   
 [[menu.main]]
-  name = "YO-kokeet"
+  name = "Ylioppilaskoe"
   url = "/yo-kokeet/"
   identifier = "YO-kokeet"
   weight = 3
