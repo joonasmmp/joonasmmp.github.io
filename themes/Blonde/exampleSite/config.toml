@@ -60,7 +60,7 @@ darkmode = "light"
     display = true
 
     # Order of widgets to display
-    widgets = ["search", "archive", "category", "tags", "recent"]
+    widgets = ["search", "archive", "palkki", "category", "tags", "recent"]
 
 # If you're using Yandex.Metrica, you can enable this feature.
 #[params.analytics.yandexmetrica]
