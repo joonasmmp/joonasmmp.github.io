@@ -10,11 +10,13 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 ## Aikamuotoja ja verbioppia:
 * [Verbit: tunnista aikamuoto]({{<ref "ena01_tunnistaaikamuoto.mdt" >}})
 
-Johdanto aikamuotohin: tunnista suomen- ja englanninkielisten sanojen aikamuoto
+Johdanto aikamuotohin: tunnista suomen- ja englanninkielisten sanojen aikamuoto. Mikäli aikamuodot eivät tule luonnostaan, kannattaa termit opetella huolella.
+
 
 * [Perfekti: has vai have?]({{< ref "ena01_hashave.mdt" >}})
 
-Perfektin opettelun ongelmia: kuinka apuverbi taipuikaan?
+Perfekti tökkii jos apuverbi on väärin, ja monesti se tuntuu olevan.
+
 
 * [Verbit: epäsäännölliset verbit: a-e]({{<ref "ena01_epaverbitae.mdt" >}})
 * [Verbit: epäsäännölliset verbit: f-k]({{<ref "ena01_epaverbitfk.mdt" >}})
