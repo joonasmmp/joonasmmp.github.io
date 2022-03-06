@@ -68,7 +68,7 @@
   margin-bottom: 3em;
 }
 .content li {
-  font-size: 1.1em;
+  font-size: 1.0em;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
@@ -81,7 +81,7 @@
 .content p {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-  font-size: 1.1em;
+  font-size: 1.0em;
   letter-spacing: 0.03em;
 }
 .content h1,.content h2,.content h3,.content h4,.content h5,.content h6 {
