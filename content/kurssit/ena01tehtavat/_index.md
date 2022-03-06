@@ -8,7 +8,7 @@ layout: ohje
 Alla löydät tehtäviä ENA01-kurssille
 
 ## Aikamuotoja ja verbioppia:
-[Verbit: tunnista aikamuoto]({{<ref "ena01_tunnistaaikamuoto.mdt" >}})
+###[Verbit: tunnista aikamuoto]({{<ref "ena01_tunnistaaikamuoto.mdt" >}})
 
 [Verbit: has vai have?]({{< ref "ena01_hashave.mdt" >}})
 
@@ -24,18 +24,3 @@ Alla löydät tehtäviä ENA01-kurssille
 
 ## Sanastoa
 No ei ole vielä mittään
-
-### sellasta
-aaa
-
-#### testiä
-aaa
-
-##### että
-aaa
-
-###### näin
-aaa
-
-# iso
-teksti
