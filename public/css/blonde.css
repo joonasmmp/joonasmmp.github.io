@@ -193,7 +193,7 @@ textarea {
   -webkit-appearance: none;
 }
 
-.sisalto a {
+div#sisalto a {
     color: #6699CC;
     background-image: linear-gradient(transparent calc(100% - 2px),#6699CC 1px);
     text-decoration: none;
@@ -203,7 +203,7 @@ textarea {
     background-repeat: no-repeat;
     transition: all .2s;
     }
-    
-    a:hover {
+  
+div#sisalto a:hover {
       background-size: 0 100%;
     }
