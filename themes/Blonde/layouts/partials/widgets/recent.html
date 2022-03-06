@@ -2,7 +2,7 @@
 {{ $relatedPosts := shuffle $filteredPosts | first 5 }}
 {{- if $relatedPosts }}
 <div class="bg-white panel mb-3 pb-5 dark:bg-warmgray-900">
-    <p class="text-xl text-center text-gray-700 py-5 dark:text-gray-300">Recent Posts</p>
+    <p class="text-xl text-center text-gray-700 py-5 dark:text-gray-300">Uusimmat artikkelit</p>
     <div class="mx-6">
         {{ range $relatedPosts }}
         <a href="{{ .RelPermalink }}" class="">
@@ -10,7 +10,7 @@
                 <div class="px-2">
                     <div class="text-gray-900 font-bold text-xl dark:text-white">{{.Title}}</div>
                     <p class="text-sm text-gray-600 flex items-center pb-1 dark:text-gray-400">
-                        <time><span class="icon-access_time mr-1"></span>{{.Date.Format "January 02, 2006"}}</time>
+                        <time>{{.Date.Format "January 02, 2006"}}</time>
                     </p>
                 </div>
             </div>
