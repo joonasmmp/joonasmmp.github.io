@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./layouts/**/*.html', './content/**/*.md']
+  content: ["./**/*.html", "config.toml"],
   darkMode: "class",
   theme: {
     extend: {
