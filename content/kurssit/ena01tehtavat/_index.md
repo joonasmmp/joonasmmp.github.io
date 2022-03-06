@@ -5,15 +5,16 @@ draft: false
 type: page
 layout: ohje
 ---
-Alla löydät tehtäviä ENA01-kurssille
+Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. 
 
 ## Aikamuotoja ja verbioppia:
+####
 *[Verbit: tunnista aikamuoto]({{<ref "ena01_tunnistaaikamuoto.mdt" >}})
 Johdanto aikamuotohin: tunnista suomen- ja englanninkielisten sanojen aikamuoto
-
+####
 *[Perfekti: has vai have?]({{< ref "ena01_hashave.mdt" >}})
 Perfektin opettelun ongelmia: kuinka apuverbi taipuikaan?
-
+####
 *[Verbit: epäsäännölliset verbit: a-e]({{<ref "ena01_epaverbitae.mdt" >}})
 *[Verbit: epäsäännölliset verbit: f-k]({{<ref "ena01_epaverbitfk.mdt" >}})
 *[Verbit: epäsäännölliset verbit: l-r]({{<ref "ena01_epaverbitlr.mdt" >}})
