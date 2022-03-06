@@ -7,12 +7,12 @@
         {{ else }}
         <div class="col-span-3 dark:text-white">
             {{ end }}
-            <div class="bg-white dark:bg-warmgray-900 p-5 my-4" id="sisalto">
+            <div class="bg-white dark:bg-warmgray-900 p-5 my-4">
                 <h1 class="mb-2 text-4xl">{{.Title}}</h1>
                 {{ if .Params.image }}
                 <img class="py-4" src="{{ .Params.image | absURL }}">
                 {{ end }}
-                <div class="prose md:prose-lg lg:prose-xl max-w-none dark:prose-invert mt-5">{{.Content}}</div>
+                <div class="prose md:prose-lg lg:prose-xl max-w-none dark:prose-invert mt-5" id="sisalto"">{{.Content}}</div>
                 <aside id="meta">
                     {{ with .Params.categories }}
                     <hr class="py-2">
