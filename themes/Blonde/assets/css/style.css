@@ -569,7 +569,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .prose :where(ul):not(:where([class~="not-prose"] *)) {
   list-style-type: disc;
-  padding-left: 1.625em;
+  padding-left: 0 em;
 }
 
 .prose :where(ol > li):not(:where([class~="not-prose"] *))::marker {
@@ -1022,7 +1022,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .mr-2 {
-  margin-right: 0.5rem;
+  margin-right: 2.5rem;
 }
 
 .mt-3 {
