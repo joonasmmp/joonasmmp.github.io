@@ -55,6 +55,9 @@ darkmode = "light"
     # Number of characters in description
     description = "130"
 
+    # Mainsections
+    mainSections = ['post']
+
   [params.widgets]
     # Display widgets
     display = true
