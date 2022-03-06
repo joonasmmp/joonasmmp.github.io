@@ -13,6 +13,7 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 Johdanto aikamuotohin: tunnista suomen- ja englanninkielisten sanojen aikamuoto
 
 * [Perfekti: has vai have?]({{< ref "ena01_hashave.mdt" >}})
+
 Perfektin opettelun ongelmia: kuinka apuverbi taipuikaan?
 
 * [Verbit: epäsäännölliset verbit: a-e]({{<ref "ena01_epaverbitae.mdt" >}})
