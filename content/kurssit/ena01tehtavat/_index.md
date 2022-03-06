@@ -2,7 +2,8 @@
 title: "ena01tehtavat"
 date: 2021-04-26
 draft: false
-type: ohje
+type: page
+layout: ohje
 ---
 
 Alla löydät tehtäviä ENA01-kurssille
