@@ -56,7 +56,7 @@ darkmode = "light"
     description = "130"
 
     # Mainsections
-    mainSections = ['post']
+    mainSections = ["post"]
 
   [params.widgets]
     # Display widgets
