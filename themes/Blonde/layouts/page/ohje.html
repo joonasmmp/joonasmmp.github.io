@@ -12,7 +12,7 @@
                 {{ if .Params.image }}
                 <img class="py-4" src="{{ .Params.image | absURL }}">
                 {{ end }}
-                <div class="prose md:prose-lg lg:prose-xl max-w-none dark:prose-invert mt-5" id="sisalto"">{{.Content}}</div>
+                <div class="prose md:prose-lg lg:prose-xl max-w-none dark:prose-invert mt-5" id="sisalto">{{.Content}}</div>
                 <aside id="meta">
                     {{ with .Params.categories }}
                     <hr class="py-2">
