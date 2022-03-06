@@ -1,1 +1,26 @@
-what u doing
+{{ define "header_css" }}{{ end }}
+
+{{ define "main" }}
+<div class="grid grid-cols-3 gap-4">
+    {{ if .Site.Params.widgets.display }}
+    <div class="col-span-3 lg:col-span-2 dark:text-white">
+        {{ else }}
+        <div class="col-span-3 dark:text-white">
+            {{ end }}
+            <div class="bg-white dark:bg-warmgray-900 p-5 my-4" id="sisalto">
+                <h1 class="mb-2 text-4xl">404</h1>
+                <aside id="meta">
+                    <div>
+                       <p>Juu elikkäs joko linkki on rikki tai teit itse jotain väärin.</p>
+                </div>
+            </div>
+        </div>
+        {{ if .Site.Params.widgets.display }}
+        <div class="hidden lg:block lg:col-span-1">
+            {{ partial "widgets/category.html" . }}
+            {{ partial "widgets/tags.html" . }}
+            {{ partial "widgets/recent.html" . }}
+        </div>
+        {{ end }}
+    </div>
+    {{ end }}
