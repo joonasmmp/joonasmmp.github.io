@@ -8,7 +8,7 @@
         {{- if le ($.Scratch.Get "myLimit") ($.Site.Param `tagslimit`) }}
         <a href="{{ "/tags/" | relLangURL }}{{ $termName | urlize }}">
             <span
-                class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-black hover:text-blue-500 dark:bg-warmgray-800">
+                class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-black hover:text-blue-500 dark:bg-warmgray-800 dark:text-white">
                 {{ $termName }}
             </span></a>
         {{- end }}
