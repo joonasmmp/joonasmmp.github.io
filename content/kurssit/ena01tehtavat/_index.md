@@ -13,8 +13,6 @@ Alla löydät tehtäviä ENA01-kurssille
 
 [Verbit: has vai have?]({{< ref "ena01_hashave.mdt" >}})
 
-***
-
 [Verbit: epäsäännölliset verbit: a-e]({{<ref "ena01_epaverbitae.mdt" >}})
 
 [Verbit: epäsäännölliset verbit: f-k]({{<ref "ena01_epaverbitfk.mdt" >}})
@@ -24,8 +22,6 @@ Alla löydät tehtäviä ENA01-kurssille
 [Verbit: epäsäännölliset verbit: s-w]({{<ref "ena01_epaverbitsw.mdt" >}})
 
 [Verbit: epäsäännölliset verbit: kaikki]({{<ref "ena01_epaverbitkaikki.mdt" >}})
-
-***
 
 ## Sanastoa
 No ei ole vielä mittään
