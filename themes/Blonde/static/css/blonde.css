@@ -206,3 +206,12 @@ div#sisalto a {
 div#sisalto a:hover {
     background-size: 0 100%;
   }
+
+.prose :where(ul):not(:where([class~=not-prose] *)) {
+    list-style-type: disc;
+    padding-left: 0.5em;
+}
+
+.mb2 {
+  margin-bottom:2.5rem
+}
