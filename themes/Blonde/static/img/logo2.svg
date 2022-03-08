@@ -1,1 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="205" height="317" viewBox="0 0 205 317"><g><g><g><text dominant-baseline="text-before-edge" style="line-height:116.66666px" fill="#fff" font-family="'D-DIN','D-DIN-Bold'" font-size="291.67" font-style="none" font-weight="700"><tspan style="font-kerning:normal" letter-spacing="-23.33">PJ</tspan><tspan style="font-kerning:normal" font-size="150" letter-spacing="3">MM</tspan></text></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="270" height="319" viewBox="0 0 270 319">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 291.667px;
+        fill: #fff;
+        text-anchor: middle;
+        font-family: D-DIN-Bold, D-DIN;
+      }
+
+      .cls-2 {
+        font-size: 150px;
+      }
+    </style>
+  </defs>
+  <text id="PJ_MM" data-name="PJ MM" class="cls-1" x="140.841" y="201.5"><tspan x="140.841">PJ</tspan><tspan class="cls-2" x="140.841" dy="180">MM</tspan></text>
+</svg>
