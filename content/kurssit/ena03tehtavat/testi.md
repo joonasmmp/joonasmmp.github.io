@@ -6,6 +6,7 @@ type: page
 layout: tehtava
 ---
 
+{{< rawhtml >}}
 <div id="emc-score"></div>
 <div class="wrap">
   <div class="row">
@@ -411,3 +412,4 @@ input[type="radio"]:checked + label:before {
 $(document).emc({
   key: ["2","1","2","2","2","2","1", "1"]
 });</script>
+{{< /rawhtml >}}
