@@ -14,6 +14,7 @@ layout: ohje
 <header>
   <small>Multiple Choice Quiz | jQuery</small>
 </header>
+
 <div id="emc-score"></div>
 <div class="wrap">
   <div class="row">
@@ -67,6 +68,8 @@ layout: ohje
     </div>
   </section>
   </div>
+
+  
   <div class="submit">
   <button id="emc-submit">Submit Answers</button>
   </div>
