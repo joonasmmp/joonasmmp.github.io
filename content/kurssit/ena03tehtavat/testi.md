@@ -116,10 +116,10 @@ code {
   border-bottom: 1px solid #eeeeee;
 }
 
-section {
+#row .section {
   position: relative;
   padding: 30px 20px;
-  width: 50%;
+  width: 100%;
   min-height: 12em;
   float: left;
   background: #fafafa;
@@ -298,16 +298,6 @@ input[type="radio"]:checked + label:before {
   left: 0;
   text-align: center;
   color: #ff5c00;
-}
-
-footer {
-  position: fixed;
-  width: 40px;
-  height: 100%;
-  background: rgba(251, 251, 251, 0.85);
-  bottom: 0;
-  left: 0;
-  padding: 25px 12px 10px;
 }
 
 .attrib {
