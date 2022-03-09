@@ -6,12 +6,6 @@ type: page
 layout: tehtava
 ---
 
-<body>
-
-<header>
-  <small>Multiple Choice Quiz | jQuery</small>
-</header>
-
 <div id="emc-score"></div>
 <div class="wrap">
   <div class="row">
@@ -71,12 +65,6 @@ layout: tehtava
   <button id="emc-submit">Submit Answers</button>
   </div>
 </div>
- 
-<footer>
-<div id="emc-progress"></div>
-</footer>
- 
-
  
 
 <style>
@@ -433,4 +421,3 @@ footer {
 $(document).emc({
   key: ["2","1","2","2","2","2","1", "1"]
 });</script>
-</body>
