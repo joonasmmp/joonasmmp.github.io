@@ -96,7 +96,7 @@ layout: tehtava
   box-sizing: border-box;
 }
 
-body {
+div#wrap body {
   background: #fff;
   font-family: 'Raleway';
   line-height: 1.55;
@@ -116,18 +116,6 @@ code {
   background: #fff;
   color: #999999;
   padding: 2px 8px;
-}
-
-header {
-  position: relative;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ff5c00;
-  border-bottom: 1px solid dareken(#2dceb1, 15%);
-  letter-spacing: 4px;
-  padding: 12px 0;
-  background: #fafafa;
-  border-bottom: 1px solid #eeeeee;
 }
 
 .wrap {
