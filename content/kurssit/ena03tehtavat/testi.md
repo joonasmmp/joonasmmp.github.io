@@ -133,12 +133,12 @@ header {
   border-bottom: 1px solid #eeeeee;
 }
 
-.info {
+.info p {
     display: none;
     text-align: center;
 }
 
-.info.item-incorrect{
+.info p.item-incorrect{
     display: flex;
     text-align: center;
 }
