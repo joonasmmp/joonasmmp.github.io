@@ -1,9 +1,9 @@
 ---
-title: "ENA03 - Kieli & kulttuuri"
-date: 2021-04-26
+title: "Epäsäännölliset verbit s-w?"
+date: 2021-8-13
 draft: false
 type: page
-layout: ohje
+layout: tehtava
 ---
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
@@ -69,7 +69,7 @@ layout: ohje
   </section>
   </div>
 
-  
+
   <div class="submit">
   <button id="emc-submit">Submit Answers</button>
   </div>
@@ -79,7 +79,7 @@ layout: ohje
 <div id="emc-progress"></div>
 </footer>
  
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
  
 
 <style>
