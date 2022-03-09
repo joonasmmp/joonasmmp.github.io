@@ -1,14 +1,11 @@
 ---
-title: "Epäsäännölliset verbit s-w?"
+title: "Testi, testi, testi"
 date: 2021-8-13
 draft: false
 type: page
 layout: tehtava
 ---
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
-</head>
 <body>
  
 <header>
@@ -83,7 +80,6 @@ layout: tehtava
  
 
 <style>
-    @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 .row:after {
   clear: both;
   content: "";
