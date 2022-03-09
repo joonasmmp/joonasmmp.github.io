@@ -8,17 +8,7 @@ layout: tehtava
 
 {{< rawhtml >}}
 <!-- Code By Webdevtrick ( https://webdevtrick.com ) -->
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>jQuery Quiz Program | Webdevtrick.com</title>
- 
-</head>
 <body>
- 
-<header>
-  <small>Multiple Choice Quiz | jQuery</small>
-</header>
 <div id="emc-score"></div>
 <div class="wrap">
   <div class="row">
@@ -74,11 +64,7 @@ layout: tehtava
   </div>
 </div>
  
-<footer>
-<div id="emc-progress"></div>
-</footer>
- 
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
  
 </body>
 </html>
@@ -100,19 +86,21 @@ layout: tehtava
   box-sizing: border-box;
 }
 
-body {
+.wrap body {
   background: #fff;
   font-family: 'Raleway';
   line-height: 1.55;
   color: #737373;
   font-weight: 400;
 }
-body a {
+
+.wrap body a {
   color: #27b198;
   text-decoration: none;
   border-bottom: 2px solid #fff;
 }
-body a:hover {
+
+.wrap body a:hover {
   border-color: #eeeeee;
 }
 
@@ -147,7 +135,7 @@ header {
 section {
   position: relative;
   padding: 30px 20px;
-  width: 50%;
+  width: 100%;
   min-height: 12em;
   float: left;
   background: #fafafa;
@@ -326,16 +314,6 @@ input[type="radio"]:checked + label:before {
   left: 0;
   text-align: center;
   color: #ff5c00;
-}
-
-footer {
-  position: fixed;
-  width: 40px;
-  height: 100%;
-  background: rgba(251, 251, 251, 0.85);
-  bottom: 0;
-  left: 0;
-  padding: 25px 12px 10px;
 }
 
 .attrib {
