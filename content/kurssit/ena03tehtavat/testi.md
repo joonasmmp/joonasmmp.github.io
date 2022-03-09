@@ -15,6 +15,7 @@ layout: tehtava
   <section data-quiz-item>
     <div class="question">Are CSS property names case-sensitive?<br>Ex: <code>baCkgRouNd: #333;</code></div>
     <div class="choices" data-choices='["Yes","No"]'>
+    <p class="info">VITUIKSI MENI</p>
     </div>
   </section>
   <section data-quiz-item>
@@ -132,6 +133,16 @@ header {
   border-bottom: 1px solid #eeeeee;
 }
 
+.info {
+    display: none;
+    text-align: center;
+}
+
+.info.item-incorrect{
+    display: flex;
+    text-align: center;
+}
+
 section {
   position: relative;
   padding: 30px 20px;
@@ -226,7 +237,6 @@ input[type="radio"]:checked + label:before {
 }
 
 .question {
-  font-weight: bold;
 }
 
 .submit {
