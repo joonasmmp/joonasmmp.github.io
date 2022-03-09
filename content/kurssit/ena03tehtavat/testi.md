@@ -6,13 +6,8 @@ type: page
 layout: ohje
 ---
 
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>jQuery Quiz Program | Webdevtrick.com</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" href="./style.css">
- 
+
 </head>
 <body>
  
@@ -82,10 +77,7 @@ layout: ohje
 </footer>
  
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  <script  src="./script.js"></script>
  
-</body>
-</html>
 
 <style>
     @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
