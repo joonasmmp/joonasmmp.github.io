@@ -7,7 +7,7 @@ layout: tehtava
 ---
 
 <body>
- 
+
 <header>
   <small>Multiple Choice Quiz | jQuery</small>
 </header>
@@ -96,7 +96,7 @@ layout: tehtava
   box-sizing: border-box;
 }
 
-div#wrap body {
+body {
   background: #fff;
   font-family: 'Raleway';
   line-height: 1.55;
@@ -433,3 +433,4 @@ footer {
 $(document).emc({
   key: ["2","1","2","2","2","2","1", "1"]
 });</script>
+</body>
