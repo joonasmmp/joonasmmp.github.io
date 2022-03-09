@@ -7,6 +7,18 @@ layout: tehtava
 ---
 
 {{< rawhtml >}}
+<!-- Code By Webdevtrick ( https://webdevtrick.com ) -->
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>jQuery Quiz Program | Webdevtrick.com</title>
+ 
+</head>
+<body>
+ 
+<header>
+  <small>Multiple Choice Quiz | jQuery</small>
+</header>
 <div id="emc-score"></div>
 <div class="wrap">
   <div class="row">
@@ -54,19 +66,22 @@ layout: tehtava
    <section data-quiz-item>
     <div class="question">The formula context/target = result is useful when building responsive layouts.</div>
     <div class="choices" data-choices='["True","False"]'>
-        <div class="display:none;item-incorrect:display:inline-block">
-    VÄÄRIN MENI
-    </div>
     </div>
   </section>
   </div>
-
-
   <div class="submit">
   <button id="emc-submit">Submit Answers</button>
   </div>
 </div>
  
+<footer>
+<div id="emc-progress"></div>
+</footer>
+ 
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+ 
+</body>
+</html>
 
 <style>
 .row:after {
@@ -107,6 +122,18 @@ code {
   padding: 2px 8px;
 }
 
+header {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ff5c00;
+  border-bottom: 1px solid dareken(#2dceb1, 15%);
+  letter-spacing: 4px;
+  padding: 12px 0;
+  background: #fafafa;
+  border-bottom: 1px solid #eeeeee;
+}
+
 .wrap {
   max-width: 48em;
   margin: 0 auto;
@@ -117,10 +144,10 @@ code {
   border-bottom: 1px solid #eeeeee;
 }
 
-#row .section {
+section {
   position: relative;
   padding: 30px 20px;
-  width: 100%;
+  width: 50%;
   min-height: 12em;
   float: left;
   background: #fafafa;
@@ -299,6 +326,16 @@ input[type="radio"]:checked + label:before {
   left: 0;
   text-align: center;
   color: #ff5c00;
+}
+
+footer {
+  position: fixed;
+  width: 40px;
+  height: 100%;
+  background: rgba(251, 251, 251, 0.85);
+  bottom: 0;
+  left: 0;
+  padding: 25px 12px 10px;
 }
 
 .attrib {
