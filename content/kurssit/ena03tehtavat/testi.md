@@ -8,7 +8,6 @@ layout: tehtava
 
 {{< rawhtml >}}
 <body class="dark:bg-warmgray-900">
-<div id="emc-score"></div>
 <div class="wrap">
   <div class="row">
   <section data-quiz-item>
@@ -59,6 +58,7 @@ layout: tehtava
     </div>
   </section>
   </div>
+  <div id="emc-score"></div>
   <div class="submit">
   <button id="emc-submit">Vastaa</button>
   </div>
@@ -320,8 +320,7 @@ input[type="radio"]:checked + label:before {
   background: #1F2937;
   color: #fff;
   border: none;
-  border-bottom: 2px solid #ff5c00;
-  box-shadow: 0 1px 1px rgba(68, 68, 68, 0.2);
+    box-shadow: 0 1px 1px rgba(68, 68, 68, 0.2);
   -webkit-transform: rotateX(360deg);
   -moz-transform: rotateX(360deg);
   -ms-transform: rotateX(360deg);
@@ -468,7 +467,6 @@ input[type="radio"]:checked + label:before {
       
       score = ((itemCount - wrong.length) / itemCount).toFixed(2) * 100 + "%";
       $scoreEl.text("Vastauksista oikein: "+score).addClass('new-score');
-      $('html,body').animate({scrollTop: 0}, 50);
     }
  
   }
