@@ -131,8 +131,10 @@ header {
   border-bottom: 1px solid #eeeeee;
 }
 
-section.dark {
+.dark section {
   background: #1f2937;
+  color: #FFFFFF;
+
 }
 
 section {
