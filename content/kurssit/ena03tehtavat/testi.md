@@ -16,7 +16,7 @@ layout: tehtava
     <div class="question">Are CSS property names case-sensitive?<br>Ex: <code>baCkgRouNd: #333;</code></div>
     <div class="choices" data-choices='["Yes","No"]'>
     </div>
-        <p class="info">VITUIKSI MENI</p>
+        <div class="info">VITUIKSI MENI</div>
      </section>
   <section data-quiz-item>
     <div class="question">Does setting <code>margin-top:</code> and <code>margin-bottom:</code> have an affect on an inline element?</div>
@@ -150,12 +150,16 @@ section.item-incorrect {
   background: #f6f6f6;
 }
 
-.info p {
+.info.item-correct {
     display: none;
 }
 
-section.item-incorrect p {
-  display: flex;
+.info {
+  display: none;
+}
+
+.info.item-incorrect {
+  display: flex
 }
 
 section.item-incorrect:before {
