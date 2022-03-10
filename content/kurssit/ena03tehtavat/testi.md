@@ -229,7 +229,6 @@ input[type="radio"] {
   visibility: hidden;
   padding-left: 1em;
   padding-right: 1em;
-  width: 100%;
 }
 
 input[type="radio"] + label {
@@ -241,7 +240,9 @@ input[type="radio"] + label {
   -webkit-transition: all 0.1s linear;
   -moz-transition: all 0.1s linear;
   transition: all 0.1s linear;
+  width: 100%;
 }
+
 input[type="radio"] + label:before {
   font-family: 'fontawesome';
   margin-right: 7px;
