@@ -441,7 +441,7 @@ input[type="radio"]:checked + label:before {
       });
       
       score = ((itemCount - wrong.length) / itemCount).toFixed(2) * 100 + "%";
-      $scoreEl.text("Vastasit "+score oikein.).addClass('new-score');
+      $scoreEl.text("Vastasit "+score.).addClass('new-score');
       $('html,body').animate({scrollTop: 0}, 50);
     }
  
