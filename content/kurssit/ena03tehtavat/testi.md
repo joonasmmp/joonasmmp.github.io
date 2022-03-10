@@ -337,34 +337,6 @@ input[type="radio"]:checked + label:before {
   border-bottom: none;
 }
 
-#emc-progress {
-  height: 100%;
-  border: 1px solid #1F2937;
-  background: #fd9d08;
-}
-
-#emc-progress_inner {
-  width: 100%;
-  height: 0;
-  background: #ff5c00;
-  -webkit-transition: height 0.33s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  -moz-transition: height 0.33s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  transition: height 0.33s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-#emc-progress_ind {
-  position: absolute;
-  display: block;
-  width: 100%;
-  font-size: .7em;
-  font-weight: bold;
-  padding: 7px 5px 5px;
-  top: 0;
-  left: 0;
-  text-align: center;
-  color: #ff5c00;
-}
-
 .attrib {
   padding: 10px 0;
   text-align: center;
