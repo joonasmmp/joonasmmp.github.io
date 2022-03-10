@@ -59,7 +59,7 @@ layout: tehtava
   </section>
   </div>
   <div class="submit">
-  <button id="emc-submit">Submit Answers</button>
+  <button id="emc-submit">Vastaa</button>
   </div>
 </div>
  
@@ -164,11 +164,11 @@ section p {
   display:none;
 }
 
-section p.item-correct {
+section.item-correct p {
   display: none;
 }
 
-section p.item-incorrect {
+section.item-incorrect p {
   display: flex;
 }
 
@@ -441,7 +441,7 @@ input[type="radio"]:checked + label:before {
       });
       
       score = ((itemCount - wrong.length) / itemCount).toFixed(2) * 100 + "%";
-      $scoreEl.text("You scored a "+score).addClass('new-score');
+      $scoreEl.text("Vastasit "+score oikein.).addClass('new-score');
       $('html,body').animate({scrollTop: 0}, 50);
     }
  
