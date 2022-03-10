@@ -240,7 +240,7 @@ input[type="radio"] + label {
   -webkit-transition: all 0.1s linear;
   -moz-transition: all 0.1s linear;
   transition: all 0.1s linear;
-  width: 100%;
+  width: 85%;
 }
 
 input[type="radio"] + label:before {
