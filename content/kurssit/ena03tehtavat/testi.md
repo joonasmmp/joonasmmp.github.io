@@ -228,7 +228,10 @@ section.item-correct:after {
 input[type="radio"] {
   position: absolute;
   visibility: hidden;
+  padding-left: 1em;
+  padding-right: 1em;
 }
+
 input[type="radio"] + label {
   background: #fff;
   display: inline-block;
@@ -253,7 +256,7 @@ input[type="radio"]:checked + label {
   color: #FFFFFF;
 }
 
-input[type="radio"]:checked.item-incorrect + label {
+input.item-incorrect[type="radio"]:checked + label {
   background: #ff383e;
   color: #FFFFFF;
 }
@@ -261,6 +264,14 @@ input[type="radio"]:checked.item-incorrect + label {
 input[type="radio"]:checked + label:before {
   content: "\f192";
   color: #FFFFFF;
+}
+
+.item-incorrect input[type=radio]:checked+label {
+    background-color: #ff383e;
+}
+
+.item-correct input[type=radio]:checked+label {
+    background-color: #2dceb1;
 }
 
 .question {
