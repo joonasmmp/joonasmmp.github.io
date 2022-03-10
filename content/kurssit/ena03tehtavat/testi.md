@@ -12,49 +12,50 @@ layout: tehtava
 <div class="wrap">
   <div class="row">
   <section data-quiz-item>
-    <div class="question">Are CSS property names case-sensitive?<br>Ex: <code>baCkgRouNd: #333;</code></div>
-    <div class="choices" data-choices='["Yes","No"]'>    </div>
-        <p class="info">VITUIKSI MENI</p>
+    <div class="question">Kuka on Severin isä?</code></div>
+    <div class="choices" data-choices='["Aaro","Eero", "Uuro", "Iiro"]'>    </div>
+        <p class="info">Aaro kylläkin väittää olevansa koska on HULLU</p>
      </section>
   <section data-quiz-item>
-    <div class="question">Does setting <code>margin-top:</code> and <code>margin-bottom:</code> have an affect on an inline element?</div>
-    <div class="choices" data-choices='["Yes","No"]'>
+    <div class="question">Ressu Redford on nähty Salkkareissa, mutta missä?</div>
+    <div class="choices" data-choices='["Lentokoneessa","Junassa","Laivalla","Bussissa"]'>
+           <p class="info">Junassa kun Salla lähti sarjasta pois niin Ressu istui viereen ja laulaa luikautti</p>
     </div>
   </section>
   </div>
   <div class="row">
   <section data-quiz-item>
-    <div class="question">The <code>translate()</code> function can move the position of an element on the z-axis.</div>
-    <div class="choices" data-choices='["True","False"]'>
+    <div class="question">Mihin Linda muutti?</div>
+    <div class="choices" data-choices='["Marseille","Tampere","New York","Lyon"]'>
+    <p class="info">Interpolin hommiin Ranskan Lyoniin </p>
     </div>
   </section>
    <section data-quiz-item>
-     <div class="question">The pseudo class <code>:checked</code> will select inputs with type radio or checkbox, but not option elements.</div>
-    <div class="choices" data-choices='["True","False"]'>
+     <div class="question">Lassen uusin heila Joanna on poliisi.</div>
+    <div class="choices" data-choices='["Totta","Tarua"]'>
+    <p class="info">Mikin työpari ja Lindan korvaaja</p>
     </div>
   </section>
   </div>
    <div class="row">
   <section data-quiz-item>
-    <div class="question">Does setting <code>padding-top:</code> and <code>padding-bottom:</code> on an inline element add to its dimensions?</div>
-    <div class="choices" data-choices='["Yes","No"]'>
+    <div class="question">Anu Sinisalo näytteli kenen äitiä?=</div>
+    <div class="choices" data-choices='["Romeo","Tale","Taneli","Sofia"]'>
+        <p class="info">Talen äiti on Elina, Sofian äiti oli Hanna Salin</p>
     </div>
   </section>
    <section data-quiz-item>
-     <div class="question">If you have a <code>p</code> element with <code>font-size: 10rem;</code>, will the text be responsive when the user resizes / drags the browser window?</div>
-    <div class="choices" data-choices='["Yes","No"]'>
+     <div class="question">Onko Salkkarit hyvä ohjelma?</div>
+    <div class="choices" data-choices='["Kyllä","Ei"]'>
+        <p class="info">Syö paskaa</p>
     </div>
   </section>
   </div>
    <div class="row last">
   <section data-quiz-item>
-    <div class="question">In a HTML document, the pseudo class <code>:root</code> always refers to the html element.</div>
-    <div class="choices" data-choices='["True","False"]'>
-    </div>
-  </section>
-   <section data-quiz-item>
-    <div class="question">The formula context/target = result is useful when building responsive layouts.</div>
-    <div class="choices" data-choices='["True","False"]'>
+    <div class="question">Löytyykö bugeja?</div>
+    <div class="choices" data-choices='["Kyllä","Ei"]'>
+        <p class="info">Ainakin dark mode on vituiillaan mut korjaan sen.</p>
     </div>
   </section>
   </div>
@@ -165,6 +166,11 @@ section.item-incorrect {
 
 .info.item-incorrect {
   display: flex
+}
+
+p.info {
+    color: #ff5c61;
+    font-size: .8em;
 }
 
 section p {
@@ -311,7 +317,7 @@ input[type="radio"]:checked + label:before {
   transition: all 0.33s ease;
 }
 #emc-submit.ready-show {
-  background: #ff8000;
+  background: #1F2937;
   color: #fff;
   border: none;
   border-bottom: 2px solid #ff5c00;
@@ -334,7 +340,7 @@ input[type="radio"]:checked + label:before {
 
 #emc-progress {
   height: 100%;
-  border: 1px solid #ff8000;
+  border: 1px solid #1F2937;
   background: #fd9d08;
 }
 
@@ -461,7 +467,7 @@ input[type="radio"]:checked + label:before {
       });
       
       score = ((itemCount - wrong.length) / itemCount).toFixed(2) * 100 + "%";
-      $scoreEl.text("You scored a "+score).addClass('new-score');
+      $scoreEl.text("Vastauksista oikein: "+score).addClass('new-score');
       $('html,body').animate({scrollTop: 0}, 50);
     }
  
@@ -470,6 +476,6 @@ input[type="radio"]:checked + label:before {
  
  
 $(document).emc({
-  key: ["2","1","2","2","2","2","1", "1"]
+  key: ["2","2","4","1","3","2","2"]
 });</script>
 {{< /rawhtml >}}
