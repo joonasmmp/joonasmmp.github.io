@@ -252,6 +252,12 @@ input[type="radio"]:checked + label {
   background: #00ABC3;
   color: #FFFFFF;
 }
+
+input[type="radio"]:checked.item-incorrect + label {
+  background: #ff383e;
+  color: #FFFFFF;
+}
+
 input[type="radio"]:checked + label:before {
   content: "\f192";
   color: #FFFFFF;
