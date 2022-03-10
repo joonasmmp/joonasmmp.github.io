@@ -12,50 +12,45 @@ layout: tehtava
   <div class="row">
   <section data-quiz-item>
     <div class="question">Kuka on Severin isä?</code></div>
-    <div class="choices" data-choices='["Aaro","Eero", "Uuro", "Iiro"]'>    </div>
-        <p class="info">Aaro kylläkin väittää olevansa koska on HULLU</p>
+    <div class="choices" data-choices='["Aaro","Eero", "Uuro", "Iiro"]'></div>
+    <p class="info">Aaro kylläkin väittää olevansa koska on HULLU</p>
      </section>
   <section data-quiz-item>
     <div class="question">Ressu Redford on nähty Salkkareissa, mutta missä?</div>
-    <div class="choices" data-choices='["Lentokoneessa","Junassa","Laivalla","Bussissa"]'>
-           <p class="info">Junassa kun Salla lähti sarjasta pois niin Ressu istui viereen ja laulaa luikautti</p>
-    </div>
-  </section>
+    <div class="choices" data-choices='["Lentokoneessa","Junassa","Laivalla","Bussissa"]'></div>
+    <p class="info">Junassa kun Salla lähti sarjasta pois niin Ressu istui viereen ja laulaa luikautti</p>
+   </section>
   </div>
   <div class="row">
   <section data-quiz-item>
     <div class="question">Mihin Linda muutti?</div>
-    <div class="choices" data-choices='["Marseille","Tampere","New York","Lyon"]'>
+    <div class="choices" data-choices='["Marseille","Tampere","New York","Lyon"]'></div>
     <p class="info">Interpolin hommiin Ranskan Lyoniin </p>
-    </div>
+
   </section>
    <section data-quiz-item>
-     <div class="question">Lassen uusin heila Joanna on poliisi.</div>
-    <div class="choices" data-choices='["Totta","Tarua"]'>
+    <div class="question">Lassen uusin heila Joanna on poliisi.</div> 
+    <div class="choices" data-choices='["Totta","Tarua"]'></div>
     <p class="info">Mikin työpari ja Lindan korvaaja</p>
-    </div>
   </section>
   </div>
    <div class="row">
   <section data-quiz-item>
     <div class="question">Anu Sinisalo näytteli kenen äitiä?</div>
-    <div class="choices" data-choices='["Romeo","Tale","Taneli","Sofia"]'>
-        <p class="info">Talen äiti on Elina, Sofian äiti oli Hanna Salin</p>
-    </div>
+    <div class="choices" data-choices='["Romeo","Tale","Taneli","Sofia"]'></div>
+    <p class="info">Talen äiti on Elina, Sofian äiti oli Hanna Salin</p>
   </section>
    <section data-quiz-item>
-     <div class="question">Onko Salkkarit hyvä ohjelma?</div>
-    <div class="choices" data-choices='["Kyllä","Ei"]'>
-        <p class="info">Syö paskaa</p>
-    </div>
+    <div class="question">Onko Salkkarit hyvä ohjelma?</div>
+    <div class="choices" data-choices='["Kyllä","Ei"]'></div>
+    <p class="info">Syö paskaa</p>
   </section>
   </div>
    <div class="row last">
   <section data-quiz-item>
     <div class="question">Löytyykö bugeja?</div>
-    <div class="choices" data-choices='["Kyllä","Ei"]'>
-        <p class="info">Ainakin dark mode on vituiillaan mut korjaan sen.</p>
-    </div>
+    <div class="choices" data-choices='["Kyllä","Ei"]'></div>
+    <p class="info">Ainakin dark mode on vituiillaan mut korjaan sen.</p>
   </section>
   </div>
   <div id="emc-score"></div>
@@ -234,6 +229,7 @@ input[type="radio"] {
   visibility: hidden;
   padding-left: 1em;
   padding-right: 1em;
+  width: 100%;
 }
 
 input[type="radio"] + label {
