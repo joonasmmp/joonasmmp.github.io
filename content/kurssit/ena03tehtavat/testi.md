@@ -7,16 +7,14 @@ layout: tehtava
 ---
 
 {{< rawhtml >}}
-<!-- Code By Webdevtrick ( https://webdevtrick.com ) -->
 <body>
 <div id="emc-score"></div>
 <div class="wrap">
   <div class="row">
   <section data-quiz-item>
     <div class="question">Are CSS property names case-sensitive?<br>Ex: <code>baCkgRouNd: #333;</code></div>
-    <div class="choices" data-choices='["Yes","No"]'>
-    </div>
-        <div class="info">VITUIKSI MENI</div>
+    <div class="choices" data-choices='["Yes","No"]'>    </div>
+        <p class="info">VITUIKSI MENI</p>
      </section>
   <section data-quiz-item>
     <div class="question">Does setting <code>margin-top:</code> and <code>margin-bottom:</code> have an affect on an inline element?</div>
@@ -160,6 +158,18 @@ section.item-incorrect {
 
 .info.item-incorrect {
   display: flex
+}
+
+section p {
+  display:none;
+}
+
+section p.item-correct {
+  display: none;
+}
+
+section p.item-incorrect {
+  display: flex;
 }
 
 section.item-incorrect:before {
@@ -341,6 +351,7 @@ input[type="radio"]:checked + label:before {
 </style>
 
 <script>
+  
     (function($) {
   $.fn.emc = function(options) {
     
