@@ -7,7 +7,7 @@ layout: tehtava
 ---
 
 {{< rawhtml >}}
-<body>
+<body class="dark:bg-warmgray-900">
 <div id="emc-score"></div>
 <div class="wrap">
   <div class="row">
@@ -131,11 +131,15 @@ header {
   border-bottom: 1px solid #eeeeee;
 }
 
+section.dark {
+  background: #1f2937;
+}
+
 section {
   position: relative;
   padding: 30px 20px;
   width: 100%;
-  min-height: 12em;
+  min-height: 8em;
   float: left;
   background: #fafafa;
   border-top: 1px solid #eeeeee;
