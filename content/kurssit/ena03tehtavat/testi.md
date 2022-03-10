@@ -476,6 +476,6 @@ input[type="radio"]:checked + label:before {
  
  
 $(document).emc({
-  key: ["2","2","4","1","3","2","2"]
+  key: ["2","2","4","1","3","1","2"]
 });</script>
 {{< /rawhtml >}}
