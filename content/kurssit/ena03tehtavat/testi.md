@@ -195,7 +195,6 @@ section.item-incorrect:after {
   position: absolute;
   z-index: 499;
   font-family: 'fontawesome';
-  content: "";
   bottom: 0;
   right: 7px;
   font-size: 1.9em;
@@ -218,7 +217,6 @@ section.item-correct:after {
   position: absolute;
   z-index: 499;
   font-family: 'fontawesome';
-  content: "";
   bottom: 0;
   right: 7px;
   font-size: 1.9em;
@@ -243,7 +241,6 @@ input[type="radio"] + label {
   transition: all 0.1s linear;
 }
 input[type="radio"] + label:before {
-  content: "\f10c";
   font-family: 'fontawesome';
   margin-right: 7px;
   color: #FFFFFF;
@@ -262,7 +259,6 @@ input.item-incorrect[type="radio"]:checked + label {
 }
 
 input[type="radio"]:checked + label:before {
-  content: "\f192";
   color: #FFFFFF;
 }
 
