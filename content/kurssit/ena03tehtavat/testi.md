@@ -441,7 +441,7 @@ input[type="radio"]:checked + label:before {
       });
       
       score = ((itemCount - wrong.length) / itemCount).toFixed(2) * 100 + "%";
-      $scoreEl.text("Vastasit "+score.).addClass('new-score');
+      $scoreEl.text("You scored a "+score).addClass('new-score');
       $('html,body').animate({scrollTop: 0}, 50);
     }
  
