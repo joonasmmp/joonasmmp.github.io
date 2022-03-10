@@ -39,7 +39,7 @@ layout: tehtava
   </div>
    <div class="row">
   <section data-quiz-item>
-    <div class="question">Anu Sinisalo näytteli kenen äitiä?=</div>
+    <div class="question">Anu Sinisalo näytteli kenen äitiä?</div>
     <div class="choices" data-choices='["Romeo","Tale","Taneli","Sofia"]'>
         <p class="info">Talen äiti on Elina, Sofian äiti oli Hanna Salin</p>
     </div>
