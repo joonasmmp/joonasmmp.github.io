@@ -134,8 +134,9 @@ header {
 .dark section {
   background: #1f2937;
   color: #FFFFFF;
-
 }
+
+
 
 section {
   position: relative;
@@ -242,18 +243,18 @@ input[type="radio"] + label:before {
   content: "\f10c";
   font-family: 'fontawesome';
   margin-right: 7px;
-  color: #ff5c00;
+  color: #FFFFFF;
 }
 input[type="radio"] + label:hover {
   cursor: pointer;
 }
 input[type="radio"]:checked + label {
-  background: #fd9d08;
-  color: #ff5c00;
+  background: #00ABC3;
+  color: #FFFFFF;
 }
 input[type="radio"]:checked + label:before {
   content: "\f192";
-  color: #ff5c00;
+  color: #FFFFFF;
 }
 
 .question {
