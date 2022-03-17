@@ -13,7 +13,7 @@ layout: tehtava
   <section data-quiz-item>
     <div class="question">Kuka on Severin isä?</code></div>
     <div class="choices" data-choices='["Aaro","Eero", "Uuro", "Iiro"]'></div>
-    <p class="info">Aaro kylläkin väittää olevansa koska on HULLU</p>
+    <p class="info">Aaro kylläkin väittää olevansa koska on AAAA HULLU</p>
      </section>
   <section data-quiz-item>
     <div class="question">Ressu Redford on nähty Salkkareissa, mutta missä?</div>
