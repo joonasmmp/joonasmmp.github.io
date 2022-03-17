@@ -128,8 +128,8 @@ header {
 }
 
 .dark section {
-  background: #1f2937;
-  color: #FFFFFF;
+  background: #181a1b;
+   color: #FFFFFF;
 }
 
 
@@ -222,6 +222,10 @@ section.item-correct:after {
   right: 7px;
   font-size: 1.9em;
   color: #2dceb1;
+}
+
+.dark input[type="radio"] + label {
+   background: #1f2937;
 }
 
 input[type="radio"] {
