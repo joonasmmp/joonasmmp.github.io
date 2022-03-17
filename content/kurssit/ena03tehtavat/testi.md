@@ -151,7 +151,7 @@ section.item-incorrect {
   background: #f6f6f6;
 }
 
-.dark section item.incorrect {
+.dark section.item.incorrect {
    background: #181a1b;
 }
 
