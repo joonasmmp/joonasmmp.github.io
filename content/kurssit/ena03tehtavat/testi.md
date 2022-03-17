@@ -151,9 +151,14 @@ section.item-incorrect {
   background: #f6f6f6;
 }
 
-.dark section.item.incorrect {
-   background: #181a1b;
+.dark section{
+  border: 1px solid #000000;
 }
+
+.dark section.item-incorrect {
+  background: #181a1b;
+}
+
 
 .info.item-correct {
     display: none;
