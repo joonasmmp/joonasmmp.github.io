@@ -230,6 +230,7 @@ section.item-correct:after {
 
 .dark input[type="radio"] + label {
    background: #1f2937;
+   border: 1px solid #000000;
 }
 
 input[type="radio"] {
@@ -313,6 +314,10 @@ input[type="radio"]:checked + label:before {
   background: #2dceb1;
   color: #fbfbfb;
   padding: 20px;
+}
+
+.dark #emc-submit {
+  background: #000000
 }
 
 #emc-submit {
