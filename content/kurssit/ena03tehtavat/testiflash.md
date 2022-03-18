@@ -88,16 +88,16 @@ layout: tehtava
 
  loadDB();
 
- function loadDB(){
-  $.getJSON("database/testi.json", function(data) {
-   for(i=0;i<data.questionlist.length;i++){
-    qbank[i]=[];
-    qbank[i][0]=data.questionlist[i].cardfront;
-    qbank[i][1]=data.questionlist[i].cardback;
-   }//for
-   beginActivity();
-  })//gtjson
- }//loadDB
+function loadDB(){
+ $.getJSON("../database/testi.json", function(data) {
+  for(i=0;i<data.questionlist.length;i++){
+   qbank[i]=[];
+   qbank[i][0]=data.questionlist[i].cardfront;
+   qbank[i][1]=data.questionlist[i].cardback;
+  }//for
+  beginActivity();
+ })//gtjson
+}//loadDB
 
  function beginActivity(){
   cardState=0;
@@ -138,6 +138,6 @@ layout: tehtava
   $("#cardArea").empty();
   $("#cardArea").append('<div id="finalMessage">You have finished the activity.</div>');
  }//final message
-
 });</script>
+
 {{< /rawhtml >}}
