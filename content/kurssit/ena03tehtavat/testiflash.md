@@ -124,11 +124,11 @@ function loadDB(){
  }//beginactivity
 
  function togglePosition(){
-  if($("#card1").position().top==-300){$("#card1").css("top","200px");};
+  if($("#card1").position().top==-300){$("#card1").css("top","300px");};
  }//toggle
 
  function togglePosition2(){
-  if($("#card2").position().top==-300){$("#card2").css("top","200px");};
+  if($("#card2").position().top==-300){$("#card2").css("top","300px");};
  }//toggle2
 
  function displayFinalMessage(){
