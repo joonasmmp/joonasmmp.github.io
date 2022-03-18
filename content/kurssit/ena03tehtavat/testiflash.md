@@ -105,13 +105,13 @@ function loadDB(){
   $("#cardArea").append('<div id="card2" class="card">' + qbank[currentQuestion][1] + '</div>');
   $("#card1").css("background-color",color1);
   $("#card2").css("background-color","#34495E");
-  $("#card2").css("top","200px");
+  $("#card2").css("top","300px");
   $("#cardArea").on("click",function(){
    if(cardState!=1){
     cardState=1;
     //togglePosition();
-    $("#card1").animate({top: "-=200"}, 150, function() {cardState=0;togglePosition();});
-    $("#card2").animate({top: "-=200"}, 150, function() {togglePosition2();});
+    $("#card1").animate({top: "-=300"}, 150, function() {cardState=0;togglePosition();});
+    $("#card2").animate({top: "-=300"}, 150, function() {togglePosition2();});
    }//if
   });//click function
   currentQuestion++;
@@ -124,17 +124,17 @@ function loadDB(){
  }//beginactivity
 
  function togglePosition(){
-  if($("#card1").position().top==-200){$("#card1").css("top","200px");};
+  if($("#card1").position().top==-300){$("#card1").css("top","200px");};
  }//toggle
 
  function togglePosition2(){
-  if($("#card2").position().top==-200){$("#card2").css("top","200px");};
+  if($("#card2").position().top==-300){$("#card2").css("top","200px");};
  }//toggle2
 
  function displayFinalMessage(){
   $("#buttonArea").empty();
   $("#cardArea").empty();
-  $("#cardArea").append('<div id="finalMessage">You have finished the activity.</div>');
+  $("#cardArea").append('<div id="finalMessage">U done bro</div>');
  }//final message
 });</script>
 
