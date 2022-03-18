@@ -8,9 +8,6 @@ layout: tehtava
 
 {{< rawhtml >}}
 <!DOCTYPE html>
- <head>
- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
- </head>
  <body>
   <div id="activityTitle">English/Spanish Flashcards</div>
   <div id="cardArea"></div>
@@ -92,7 +89,7 @@ layout: tehtava
  loadDB();
 
  function loadDB(){
-  $.getJSON("./database/testi.json", function(data) {
+  $.getJSON("database/testi.json", function(data) {
    for(i=0;i<data.questionlist.length;i++){
     qbank[i]=[];
     qbank[i][0]=data.questionlist[i].cardfront;
