@@ -16,21 +16,19 @@ layout: tehtava
 </html>
 
 <style>
-    html, body {
+
+html, body {
  margin: 0;
  padding: 0;
  -webkit-user-select: none;
  -moz-user-select: none;
  user-select: none;
 }
-@font-face {
- font-family: Montserrat;
- src: url('Montserrat-Medium.ttf');
-}
+
 #activityTitle{
  text-align:center;
  font-size:38px;
- font-family:Montserrat,Arial;
+ font-family:Arial;
  margin-top:50px;
 }
 #cardArea{
@@ -44,14 +42,14 @@ layout: tehtava
  overflow:hidden;
 }
 .card{
- width: 80%;
+ width: 100%;
  height: 300px;
  position:absolute;
  text-align:center;
  line-height:200px;
  font-size:45px;
  color:#efefef;
- font-family:Montserrat,Arial;
+ font-family:Arial;
  cursor:pointer;
 }
 #nextButton{
@@ -66,7 +64,7 @@ layout: tehtava
  background-color:#019875;
  border: 2px solid #1E824C;
  border-radius:5px;
- font-family:Montserrat,Arial;
+ font-family:Arial;
 }
 #nextButton:hover{
  opacity:.6;
@@ -75,7 +73,7 @@ layout: tehtava
  text-align:center;
  font-size:30px;
  margin-top:30px;
- font-family:Montserrat,Arial;
+ font-family:Arial;
 }
 </style>
 
