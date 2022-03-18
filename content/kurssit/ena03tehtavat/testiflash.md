@@ -34,8 +34,8 @@ layout: tehtava
  margin-top:50px;
 }
 #cardArea{
- width:300px;
- height:200px;
+ width: 80%;
+ height: 300px;
  margin:auto;
  margin-top:80px;
  border:3px solid #ABB7B7;
@@ -44,8 +44,8 @@ layout: tehtava
  overflow:hidden;
 }
 .card{
- width:300px;
- height:200px;
+ width: 80%;
+ height: 300px;
  position:absolute;
  text-align:center;
  line-height:200px;
