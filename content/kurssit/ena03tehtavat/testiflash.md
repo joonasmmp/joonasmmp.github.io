@@ -15,7 +15,6 @@ layout: tehtava
   <div id="activityTitle">English/Spanish Flashcards</div>
   <div id="cardArea"></div>
   <div id="buttonArea"></div>
-  </div>
  </body>
 </html>
 
@@ -93,7 +92,7 @@ layout: tehtava
  loadDB();
 
  function loadDB(){
-  $.getJSON("database/testi.json", function(data) {
+  $.getJSON("./database/testi.json", function(data) {
    for(i=0;i<data.questionlist.length;i++){
     qbank[i]=[];
     qbank[i][0]=data.questionlist[i].cardfront;
