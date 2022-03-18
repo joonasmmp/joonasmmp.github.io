@@ -9,7 +9,7 @@ layout: tehtava
 {{< rawhtml >}}
 <!DOCTYPE html>
  <head>
-  <script src="jquery.min.js"></script>
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
  </head>
  <body>
   <div id="activityTitle">English/Spanish Flashcards</div>
