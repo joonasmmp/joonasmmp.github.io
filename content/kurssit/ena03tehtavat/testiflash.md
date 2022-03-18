@@ -45,6 +45,7 @@ html, body {
  font-family:Arial;
  cursor:pointer;
 }
+
 #nextButton{
  width:80px;
  text-align:center;
@@ -59,7 +60,28 @@ html, body {
  border-radius:5px;
  font-family:Arial;
 }
+
 #nextButton:hover{
+ opacity:.6;
+}
+
+
+#prevButton{
+ width:80px;
+ text-align:center;
+ font-size:20px;
+ padding:10px;
+ cursor:pointer;
+ color:#efefef;
+ margin:auto;
+ margin-top:30px;
+ background-color:#019875;
+ border: 2px solid #1E824C;
+ border-radius:5px;
+ font-family:Arial;
+}
+
+#prevButton:hover{
  opacity:.6;
 }
 #finalMessage{
