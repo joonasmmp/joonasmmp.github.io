@@ -9,9 +9,8 @@ layout: tehtava
 {{< rawhtml >}}
 <!DOCTYPE html>
  <body>
-  <div id="activityTitle">English/Spanish Flashcards</div>
   <div id="cardArea"></div>
-  <div id="buttonArea"></div>
+  <div id="buttonArea" class="grid grid-cols-2"></div>
  </body>
 </html>
 
@@ -25,12 +24,6 @@ html, body {
  user-select: none;
 }
 
-#activityTitle{
- text-align:center;
- font-size:1.5rem;
- font-family:Arial;
- margin-top:50px;
-}
 #cardArea{
  width: 80%;
  height: 300px;
@@ -109,6 +102,7 @@ function beginActivity(){
  });//click function
  currentQuestion++;
  $("#buttonArea").empty();
+ $("#buttonArea").append('<div id="prevButton">PREV</div>');
  $("#buttonArea").append('<div id="nextButton">NEXT</div>');
  $("#nextButton").on("click",function(){
   if(currentQuestion<qbank.length){beginActivity();}
