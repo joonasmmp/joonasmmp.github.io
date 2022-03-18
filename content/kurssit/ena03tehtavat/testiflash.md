@@ -27,7 +27,7 @@ html, body {
 
 #activityTitle{
  text-align:center;
- font-size:38px;
+ font-size:1.5rem;
  font-family:Arial;
  margin-top:50px;
 }
@@ -77,65 +77,61 @@ html, body {
 }
 </style>
 
-<script> $(document).ready(function () {
+<script> 
 
- var colorArray=["#019875","#1E8BC3","#D91E18","#D35400","#8E44AD","#C0392B"];
- var cardState;
- var currentQuestion=0;
- var qbank=new Array;
+$(document).ready(function () {
 
- loadDB();
+var colorArray=["#019875","#1E8BC3","#D91E18","#D35400","#8E44AD","#C0392B"];
+var cardState;
+var currentQuestion=0;
+var qbank=[["CAT","GATO"],["DOG","PERRO"],["HORSE","CABALLO"],["RABBIT","CONEJO"],["TIGER","TIGRE"],["KANGAROO","CANGURO"]];
 
-function loadDB(){
- $.getJSON("../database/testi.json", function(data) {
-  for(i=0;i<data.questionlist.length;i++){
-   qbank[i]=[];
-   qbank[i][0]=data.questionlist[i].cardfront;
-   qbank[i][1]=data.questionlist[i].cardback;
-  }//for
+
   beginActivity();
- })//gtjson
-}//loadDB
+ 
 
- function beginActivity(){
-  cardState=0;
-  var color1=colorArray[Math.floor(Math.random()*colorArray.length)];
-  $("#cardArea").empty();
-  $("#cardArea").append('<div id="card1" class="card">' + qbank[currentQuestion][0] + '</div>');
-  $("#cardArea").append('<div id="card2" class="card">' + qbank[currentQuestion][1] + '</div>');
-  $("#card1").css("background-color",color1);
-  $("#card2").css("background-color","#34495E");
-  $("#card2").css("top","300px");
-  $("#cardArea").on("click",function(){
-   if(cardState!=1){
-    cardState=1;
-    //togglePosition();
-    $("#card1").animate({top: "-=300"}, 150, function() {cardState=0;togglePosition();});
-    $("#card2").animate({top: "-=300"}, 150, function() {togglePosition2();});
-   }//if
-  });//click function
-  currentQuestion++;
-  $("#buttonArea").empty();
-  $("#buttonArea").append('<div id="nextButton">NEXT</div>');
-  $("#nextButton").on("click",function(){
-   if(currentQuestion<qbank.length){beginActivity();}
-   else{displayFinalMessage();}
-  });//click function
- }//beginactivity
+function beginActivity(){
+ cardState=0;
+ var color1=colorArray[Math.floor(Math.random()*colorArray.length)];
+ $("#cardArea").empty();
+ $("#cardArea").append('<div id="card1" class="card">' + qbank[currentQuestion][0] + '</div>');
+ $("#cardArea").append('<div id="card2" class="card">' + qbank[currentQuestion][1] + '</div>');
+ $("#card1").css("background-color",color1);
+ $("#card2").css("background-color","#34495E");
+ $("#card2").css("top","300px");
+ $("#cardArea").on("click",function(){
+  if(cardState!=1){
+   cardState=1;
+   //togglePosition();
+   $("#card1").animate({top: "-=300"}, 150, function() {cardState=0;togglePosition();});
+   $("#card2").animate({top: "-=300"}, 150, function() {togglePosition2();});
+  }//if
+ });//click function
+ currentQuestion++;
+ $("#buttonArea").empty();
+ $("#buttonArea").append('<div id="nextButton">NEXT</div>');
+ $("#nextButton").on("click",function(){
+  if(currentQuestion<qbank.length){beginActivity();}
+  else{displayFinalMessage();}
+ });//click function
+}//beginactivity
 
- function togglePosition(){
-  if($("#card1").position().top==-300){$("#card1").css("top","300px");};
- }//toggle
+function togglePosition(){
+ if($("#card1").position().top==-300){$("#card1").css("top","300px");};
+}//toggle
 
- function togglePosition2(){
-  if($("#card2").position().top==-300){$("#card2").css("top","300px");};
- }//toggle2
+function togglePosition2(){
+ if($("#card2").position().top==-300){$("#card2").css("top","300px");};
+}//toggle2
 
- function displayFinalMessage(){
-  $("#buttonArea").empty();
-  $("#cardArea").empty();
-  $("#cardArea").append('<div id="finalMessage">U done bro</div>');
- }//final message
-});</script>
+function displayFinalMessage(){
+ $("#buttonArea").empty();
+ $("#cardArea").empty();
+ $("#cardArea").append('<div id="finalMessage">You have finished the activity.</div>');
+}//final message
+
+});
+
+</script>
 
 {{< /rawhtml >}}
