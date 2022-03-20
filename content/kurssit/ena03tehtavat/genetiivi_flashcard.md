@@ -94,8 +94,8 @@ $(document).ready(function() {
     ["Et saa ottaa muiden lasten leluja kysymättä.","Et saa ottaa muiden lasten leluja kysymättä.<br>= You are not allowed to take other children’s toys / the toys of other children without asking."],
     ["Naisten maajoukkue voitti Tanskan.","Naisten maajoukkue voitti Tanskan.<br>= The women’s national football team beat Denmark."],
     ["Eläintenhoitaja laittoi ruokaa kaikkien eläinten häkkeihin.","Eläintenhoitaja laittoi ruokaa kaikkien eläinten häkkeihin.<br>= The animal keeper put food in all the animals’ cages / the cages of all the animals."],
-    ["Kesäloman ensimmäinen päivä on opiskelijoiden vuoden suosikkipäivä.", "Kesäloman ensimmäinen päivä on opiskelijoiden vuoden suosikkipäivä.<br>=The first day of the summer holiday is the students’ favourite day of the year."],
-    ["Tuo on lankoni uusi iPad.","Tuo on lankoni uusi iPad.<br>=That is my brother-in-law’s new iPad."],
+    ["Kesäloman ensimmäinen päivä on opiskelijoiden vuoden suosikkipäivä.", "Kesäloman ensimmäinen päivä on opiskelijoiden vuoden suosikkipäivä.<br>= The first day of the summer holiday is the students’ favourite day of the year."],
+    ["Tuo on lankoni uusi iPad.","Tuo on lankoni uusi iPad.<br>= That is my brother-in-law’s new iPad."],
     ["New York Cityn taksien väri on keltainen.","New York Cityn taksien väri on keltainen.<br>= The colour of New York City cabs is yellow."],
     ["Minun mielestäni Mona Lisa on maailman kaunein maalaus.", "Minun mielestäni Mona Lisa on maailman kaunein maalaus.<br>= I think that Mona Lisa is the most beautiful painting in the world / the world’s most beautiful painting."],
     ["Kaikkien koulujen rehtoreilla oli kokous.", "Kaikkien koulujen rehtoreilla oli kokous.<br>=  The principals of all the schools had a meeting."],
@@ -107,7 +107,7 @@ $(document).ready(function() {
     ["Uskotko todellakin tuon hänen tarinansa?", "Uskotko todellakin tuon hänen tarinansa?<br>= Do you really believe that story of hers?"],
     ["Kuka tahansa Nickin ystävä on myös minun ystäväni.", "Kuka tahansa Nickin ystävä on myös minun ystäväni.<br>= Any friend of Nick’s is also a friend of mine."],
     ["Voittaja saa sadan euron arvosta kirjoja.", "Voittaja saa sadan euron arvosta kirjoja.<br>= The winner will get/receive a hundred euros’ worth of books."],
-    ["Näin sen tämän päivän lehdestä.", "Näin sen tämän päivän lehdestä.<br> =I saw it in today’s newspaper."],
+    ["Näin sen tämän päivän lehdestä.", "Näin sen tämän päivän lehdestä.<br> = I saw it in today’s newspaper."],
     ["Sinun täytyy todellakin tulla ensi perjantain juhliin!", "Sinun täytyy todellakin tulla ensi perjantain juhliin!<br>= You really must come to next Friday’s party!"],
     ["Se on kolmen tunnin matka.", "Se on kolmen tunnin matka.<br>= It is a three hours’ journey / a journey of three hours."],
     ["West Ham Unitedin pelaajat ovat pelaamassa Saksassa.", "West Ham Unitedin pelaajat ovat pelaamassa Saksassa.<br>= West Ham United’s players / The players of West Ham United are playing in Germany."],
@@ -117,7 +117,7 @@ $(document).ready(function() {
     ["Tämä on minun puhelimeni ja tuo on Samin.", "Tämä on minun puhelimeni ja tuo on Samin.<br>= This is my phone and that is Sam’s."],
     ["Lautanen on liian lähellä pöydän reunaa.", "Lautanen on liian lähellä pöydän reunaa.<br>= The plate is too close to the edge of the table."],
     ["Kuka tuo on? – Se on vain eräs Maudin ystävä.", "Kuka tuo on? – Se on vain eräs Maudin ystävä.<br>= Who’s that? – It’s just a friend of Maud’s."],
-    ["Tämä on Sally, parhaan ystäväni sisaren poikaystävän veljen tyttöystävä.", "Tämä on Sally, parhaan ystäväni sisaren poikaystävän veljen tyttöystävä.<br>= This is Sally, my best friend’s sister’s boyfriend’s brother’s girlfriend / the girlfriend of the brother of the boyfriend of the sister of my best friend / the girlfriend of my best friend’s sister’s boyfriend’s brother(‘s) /…"],
+    ["Tämä on Sally, parhaan ystäväni sisaren poikaystävän veljen tyttöystävä.", "Tämä on Sally, parhaan ystäväni sisaren poikaystävän veljen tyttöystävä.<br>= This is Sally, my best friend’s sister’s boyfriend’s brother’s girlfriend / the girlfriend of the brother of the boyfriend of the sister of my best friend / …"],
   ];
 
 beginActivity();

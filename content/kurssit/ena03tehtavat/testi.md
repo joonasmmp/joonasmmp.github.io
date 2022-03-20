@@ -29,7 +29,7 @@ layout: tehtava
 
   </section>
    <section data-quiz-item>
-    <div class="question">Lassen uusin heila Joanna on poliisi.</div> 
+    <div class="question">Lassen uusin tyttöystävä Joanna on poliisi.</div> 
     <div class="choices" data-choices='["Totta","Tarua"]'></div>
     <p class="info">Mikin työpari ja Lindan korvaaja</p>
   </section>
@@ -43,14 +43,14 @@ layout: tehtava
    <section data-quiz-item>
     <div class="question">Onko Salkkarit hyvä ohjelma?</div>
     <div class="choices" data-choices='["Kyllä","Ei"]'></div>
-    <p class="info">Syö paskaa</p>
+    <p class="info">>:(</p>
   </section>
   </div>
    <div class="row last">
   <section data-quiz-item>
     <div class="question">Löytyykö bugeja?</div>
     <div class="choices" data-choices='["Kyllä","Ei"]'></div>
-    <p class="info">Ainakin dark mode on vituiillaan mut korjaan sen.</p>
+    <p class="info">No ainahan niitä jostain löytyy.</p>
   </section>
   </div>
   <div id="emc-score"></div>
@@ -120,7 +120,6 @@ header {
 .wrap {
   max-width: 48em;
   margin: 0 auto;
-  padding: 2.5em 0 4em;
 }
 
 .row.last {
