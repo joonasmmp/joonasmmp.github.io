@@ -138,7 +138,7 @@ beginActivity();
         if (parentDiv.contains(childDiv)) {
         $("#cardArea").empty()
         $("#cardArea").append('<div id="card2" class="card">' + qbank[currentQuestion][1] + '</div>')
-        $("#card2").css("background-color", "#00ABC3")
+        $("#card2").css("background-color", "#00473c")
       	} else {
         $("#cardArea").empty()
         $("#cardArea").append('<div id="card1" class="card">' + qbank[currentQuestion][0] + '</div>')
