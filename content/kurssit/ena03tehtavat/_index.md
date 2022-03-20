@@ -7,8 +7,10 @@ layout: ohje
 ---
 Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta tai ääh emmä tiiä.
 
-## Rakenteita
-No en oo ehtiny vielä
+## Genetiivi
+* [Genetiivi: flashcard]({{<ref "genetiivi_flashcard.mdt" >}})
+
+Kortteja genetiivilauseista. Muodosta englanninkielinen vastine. 
 
 ## Sanastoa
 No ei ole vielä mittään
