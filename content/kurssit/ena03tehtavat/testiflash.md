@@ -26,7 +26,7 @@ html, body {
 }
 
 #cardArea{
- width: 80%;
+ width: 95%;
  height: 300px;
  margin:auto;
  margin-top:80px;
