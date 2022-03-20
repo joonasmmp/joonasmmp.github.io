@@ -94,6 +94,34 @@ $(document).ready(function() {
     ["Et saa ottaa muiden lasten leluja kysymättä.","Et saa ottaa muiden lasten leluja kysymättä.<br>=You are not allowed to take other children’s toys / the toys of other children without asking."],
     ["Naisten maajoukkue voitti Tanskan.","Naisten maajoukkue voitti Tanskan.<br>=The women’s national football team beat Denmark."],
     ["Eläintenhoitaja laittoi ruokaa kaikkien eläinten häkkeihin.","Eläintenhoitaja laittoi ruokaa kaikkien eläinten häkkeihin.<br>= The animal keeper put food in all the animals’ cages / the cages of all the animals."],
+    ["Kesäloman ensimmäinen päivä on opiskelijoiden vuoden suosikkipäivä.", "Kesäloman ensimmäinen päivä on opiskelijoiden vuoden suosikkipäivä.<br>=The first day of the summer holiday is the students’ favourite day of the year."],
+    ["Tuo on lankoni uusi iPad.","Tuo on lankoni uusi iPad.<br>=That is my brother-in-law’s new iPad."],
+    ["New York Cityn taksien väri on keltainen.","New York Cityn taksien väri on keltainen.<br>= The colour of New York City cabs is yellow."],
+    ["Minun mielestäni Mona Lisa on maailman kaunein maalaus.", "Minun mielestäni Mona Lisa on maailman kaunein maalaus.<br>= I think that Mona Lisa is the most beautiful painting in the world / the world’s most beautiful painting."],
+    ["Kaikkien koulujen rehtoreilla oli kokous.", "Kaikkien koulujen rehtoreilla oli kokous.<br>=  The principals of all the schools had a meeting."],
+    ["Mennään Julialle!", "Mennään Julialle!<br>= Let’s go to Julia’s (place)"],
+    ["Minä jään Thomasille tänä yönä.", "Minä jään Thomasille tänä yönä.<br>= I’m staying at Thomas’(s) (place) tonight."]
+    ["Hän on Smitheillä tänään.", "Hän on Smitheillä tänään.<br>= He’s staying at the Smiths’ today."],
+    ["He asuvat vain kivenheiton päässä.". "He asuvat vain kivenheiton päässä.<br>= They only live a stone’s throw away."]
+    ["He nimesivät kissansa erään isänsä ystävän mukaan.", "He nimesivät kissansa erään isänsä ystävän mukaan.<br>= They named the cat after a friend of their father(‘s)."],
+    ["Uskotko todellakin tuon hänen tarinansa?", "Uskotko todellakin tuon hänen tarinansa?<br>= Do you really believe that story of hers?"],
+    ["Kuka tahansa Nickin ystävä on myös minun ystäväni.", "Kuka tahansa Nickin ystävä on myös minun ystäväni.<br>= Any friend of Nick’s is also a friend of mine."],
+    ["Voittaja saa sadan euron arvosta kirjoja.", "Voittaja saa sadan euron arvosta kirjoja.<br>= The winner will get/receive a hundred euros’ worth of books."],
+    ["Näin sen tämän päivän lehdestä.", "Näin sen tämän päivän lehdestä.<br> =I saw it in today’s newspaper."],
+    ["Sinun täytyy todellakin tulla ensi perjantain juhliin!", "Sinun täytyy todellakin tulla ensi perjantain juhliin!<br>= You really must come to next Friday’s party!"],
+    ["Se on kolmen tunnin matka.", "Se on kolmen tunnin matka.<br>= It is a three hours’ journey / a journey of three hours."],
+    ["West Ham Unitedin pelaajat ovat pelaamassa Saksassa.", "West Ham Unitedin pelaajat ovat pelaamassa Saksassa.<br>= West Ham United’s players / The players of West Ham United are playing in Germany."],
+    ["Kuulimme Applen suunnitelmista konferenssissa.", "Kuulimme Applen suunnitelmista konferenssissa.<br>= We heard about Apple’s plans / the plans of Apple in the conference."],
+    ["Sarvikuonon poikanen on erittäin suloinen.", "Sarvikuonon poikanen on erittäin suloinen.<br>= The rhinoceros’s baby / The baby of the rhinoceros is very cute."],
+    ["Onko tuo Miriamin läppäri? – Ei, se on Harryn.", "Onko tuo Miriamin läppäri? – Ei, se on Harryn.<br>= Is that Miriam’s laptop? – No, that’s Harry’s."].
+    ["Tämä on minun puhelimeni ja tuo on Samin.", "Tämä on minun puhelimeni ja tuo on Samin.<br>= This is my phone and that is Sam’s."]
+
+
+
+
+
+
+
 
   ];
 
