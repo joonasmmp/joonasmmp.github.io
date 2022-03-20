@@ -103,6 +103,7 @@ $(document).ready(function() {
     var korttia = document.createElement('div')
     	korttia.innerHTML = currentQuestion + 1 + " / " + qbank.length;
     	document.getElementById('lukumaara').appendChild(korttia);
+   }   
       
     $("#cardArea").on("click", function() {
         var parentDiv = document.getElementById("cardArea");
@@ -134,7 +135,7 @@ $(document).ready(function() {
       }
     }); //click function
   } //beginactivity
-});
+);
 </script>
 
 {{< /rawhtml >}}
