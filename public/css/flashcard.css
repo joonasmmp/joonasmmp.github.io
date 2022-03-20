@@ -1,11 +1,12 @@
    #cardArea{
     width: 95%;
     height: 300px;
-    margin:auto;
-    margin-top:20px;
-    position:relative;
-    overflow:hidden;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
    }
+
    .card{
     width: 100%;
     height: 300px;
@@ -22,27 +23,27 @@
    
    #nextButton{
     width:90%;
-    text-align:center;
+    text-align: center;
     font-size: 1em;
     padding:10px;
-    cursor:pointer;
-    color:#efefef;
-    margin:auto;
-    background-color:#1F2937;
-    border: 1px solid #000000;
+    cursor: pointer;
+    color: #efefef;
+    margin: auto;
+    background-color: #1F2937;
+    border: 1px solid  #000000;
     font: inherit;
    }
    
    #prevButton{
-    width:90%;
-    text-align:center;
+    width: 90%;
+    text-align: center;
     font-size: 1em;
-    padding:10px;
-    cursor:pointer;
-    color:#efefef;
-    margin:auto;
-    background-color:#1F2937;
-    border: 1px solid #000000;
+    padding: 10px;
+    cursor: pointer;
+    color: #efefef;
+    margin: auto;
+    background-color: #1F2937;
+    border: 1px solid  #000000;
     font: inherit;
    }
    
