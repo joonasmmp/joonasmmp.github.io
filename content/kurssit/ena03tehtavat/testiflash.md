@@ -25,7 +25,7 @@ html, body {
 }
 
 #cardArea{
- width: 80%;
+ width: 95%;
  height: 300px;
  margin:auto;
  margin-top:80px;
@@ -44,7 +44,7 @@ html, body {
 }
 
 #nextButton{
- width:40%;
+ width:90%;
  text-align:center;
  font-size: 1em;
  padding:10px;
@@ -57,7 +57,7 @@ html, body {
 }
 
 #prevButton{
- width:40%;
+ width:90%;
  text-align:center;
  font-size: 1em;
  padding:10px;
@@ -70,7 +70,8 @@ html, body {
 }
 
 #lukumaara{
-  padding-top: 1em;
+  padding-top: .7em;
+  padding-bottom: .7em;
   text-align: center;
   font-size: 1em;
 }
