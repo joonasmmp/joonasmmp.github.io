@@ -100,9 +100,9 @@ $(document).ready(function() {
     ["Minun mielestäni Mona Lisa on maailman kaunein maalaus.", "Minun mielestäni Mona Lisa on maailman kaunein maalaus.<br>= I think that Mona Lisa is the most beautiful painting in the world / the world’s most beautiful painting."],
     ["Kaikkien koulujen rehtoreilla oli kokous.", "Kaikkien koulujen rehtoreilla oli kokous.<br>=  The principals of all the schools had a meeting."],
     ["Mennään Julialle!", "Mennään Julialle!<br>= Let’s go to Julia’s (place)"],
-    ["Minä jään Thomasille tänä yönä.", "Minä jään Thomasille tänä yönä.<br>= I’m staying at Thomas’(s) (place) tonight."]
+    ["Minä jään Thomasille tänä yönä.", "Minä jään Thomasille tänä yönä.<br>= I’m staying at Thomas’(s) (place) tonight."],
     ["Hän on Smitheillä tänään.", "Hän on Smitheillä tänään.<br>= He’s staying at the Smiths’ today."],
-    ["He asuvat vain kivenheiton päässä.". "He asuvat vain kivenheiton päässä.<br>= They only live a stone’s throw away."]
+    ["He asuvat vain kivenheiton päässä.", "He asuvat vain kivenheiton päässä.<br>= They only live a stone’s throw away."],
     ["He nimesivät kissansa erään isänsä ystävän mukaan.", "He nimesivät kissansa erään isänsä ystävän mukaan.<br>= They named the cat after a friend of their father(‘s)."],
     ["Uskotko todellakin tuon hänen tarinansa?", "Uskotko todellakin tuon hänen tarinansa?<br>= Do you really believe that story of hers?"],
     ["Kuka tahansa Nickin ystävä on myös minun ystäväni.", "Kuka tahansa Nickin ystävä on myös minun ystäväni.<br>= Any friend of Nick’s is also a friend of mine."],
@@ -115,14 +115,9 @@ $(document).ready(function() {
     ["Sarvikuonon poikanen on erittäin suloinen.", "Sarvikuonon poikanen on erittäin suloinen.<br>= The rhinoceros’s baby / The baby of the rhinoceros is very cute."],
     ["Onko tuo Miriamin läppäri? – Ei, se on Harryn.", "Onko tuo Miriamin läppäri? – Ei, se on Harryn.<br>= Is that Miriam’s laptop? – No, that’s Harry’s."],
     ["Tämä on minun puhelimeni ja tuo on Samin.", "Tämä on minun puhelimeni ja tuo on Samin.<br>= This is my phone and that is Sam’s."],
-
-
-
-
-
-
-
-
+    ["Lautanen on liian lähellä pöydän reunaa.", "Lautanen on liian lähellä pöydän reunaa.<br>= The plate is too close to the edge of the table."],
+    ["Kuka tuo on? – Se on vain eräs Maudin ystävä.", "Kuka tuo on? – Se on vain eräs Maudin ystävä.<br>= Who’s that? – It’s just a friend of Maud’s."],
+    ["Tämä on Sally, parhaan ystäväni sisaren poikaystävän veljen tyttöystävä.", "Tämä on Sally, parhaan ystäväni sisaren poikaystävän veljen tyttöystävä.<br>= This is Sally, my best friend’s sister’s boyfriend’s brother’s girlfriend / the girlfriend of the brother of the boyfriend of the sister of my best friend / the girlfriend of my best friend’s sister’s boyfriend’s brother(‘s) /…"],
   ];
 
 beginActivity();
