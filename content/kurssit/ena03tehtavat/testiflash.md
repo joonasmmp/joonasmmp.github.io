@@ -1,7 +1,7 @@
 ---
 title: "Testi, testi, flashcard"
 date: 2021-8-13
-draft: false
+draft: true
 type: page
 layout: tehtava
 ---

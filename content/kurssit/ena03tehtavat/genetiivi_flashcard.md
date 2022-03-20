@@ -85,10 +85,10 @@ $(document).ready(function() {
 
   var currentQuestion = 0;
   var qbank = [
-    ['Tämä on Travisin uusi Jaguar.', "Tämä on Travisin uusi Jaguar.'<br>'This is Travis'(s) new Jaguar."],
+    ['Tämä on Travisin uusi Jaguar.', "Tämä on Travisin uusi Jaguar.<br>This is Travis'(s) new Jaguar."],
     ['Auton vaihdelaatikko on rikki.', 'Auton vaihdelaatikko on rikki.<br>The gearbox of this car is broken.'],
     ['Se on tämän auton uusi malli.', 'Se on tämän auton uusi malli.<br>It is the newest model of this car.'],
-    ["RABBIT", "CONEJO"],
+    ["Joten Travis ja Jack käyttävät Jackin äidin autoa", "Joten Travis ja Jack käyttävät Jackin äidin autoa<br>So Travis and Jack are using / use Jack's mother's car / the car of Jack's mother"],
     ["TIGER", "TIGRE"],
     ["KANGAROO", "CANGURO"],
   ];
