@@ -8,7 +8,7 @@ layout: ohje
 Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta tai ääh emmä tiiä.
 
 ## Genetiivi
-* [Genetiivi: flashcard]({{<ref "genetiivi_flashcard.mdt" >}})
+* [Genetiivi: Flashcard]({{<ref "genetiivi_flashcard.mdt" >}})
 
 Kortteja genetiivilauseista. Muodosta englanninkielinen vastine. 
 
