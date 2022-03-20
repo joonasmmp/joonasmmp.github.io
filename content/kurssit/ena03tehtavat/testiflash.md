@@ -42,35 +42,32 @@ html, body {
  line-height:200px;
  font-size:45px;
  color:#efefef;
- font-family:Arial;
  cursor:pointer;
 }
 
 #nextButton{
- width:80px;
+ width:40%;
  text-align:center;
  font-size: 1em;
  padding:10px;
  cursor:pointer;
  color:#efefef;
  margin:auto;
- margin-top:30px;
- background-color:#019875;
+ background-color:#1F2937;
  border: 2px solid #1E824C;
  border-radius:5px;
  font: inherit;
 }
 
 #prevButton{
- width:80px;
+ width:40%;
  text-align:center;
  font-size: 1em;
  padding:10px;
  cursor:pointer;
  color:#efefef;
  margin:auto;
- margin-top:30px;
- background-color:#019875;
+ background-color:#1F2937;
  border: 2px solid #1E824C;
  border-radius:5px;
  font: inherit;
