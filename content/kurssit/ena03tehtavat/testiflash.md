@@ -40,6 +40,10 @@ html, body {
  font-size: 1.3em;
  color: #efefef;
  cursor: pointer;
+ padding: 1em;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 #nextButton{
