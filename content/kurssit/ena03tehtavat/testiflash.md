@@ -7,9 +7,10 @@ layout: tehtava
 ---
 
 {{< rawhtml >}}
-<!DOCTYPE html>
+<html>
  <body>
   <div id="cardArea"></div>
+  <div id="lukumaara"></div>
   <div id="buttonArea" class="grid grid-cols-2"></div>
  </body>
 </html>
@@ -102,39 +103,31 @@ $(document).ready(function() {
     ["HORSE", "CABALLO"],
     ["RABBIT", "CONEJO"],
     ["TIGER", "TIGRE"],
-    ["KANGAROO", "CANGURO"]
+    ["KANGAROO", "CANGURO"],
   ];
 
+beginActivity();
 
-  beginActivity();
-
+ var korttia = document.createElement('div')
+		korttia.innerHTML = currentQuestion+1 + " kautta " + qbank.length;
+		document.getElementById('lukumaara').appendChild(korttia);
 
   function beginActivity() {
     cardState = 0;
     $("#cardArea").empty();
     $("#cardArea").append('<div id="card1" class="card">' + qbank[currentQuestion][0] + '</div>');
-    $("#cardArea").append('<div id="card2" class="card">' + qbank[currentQuestion][1] + '</div>');
     $("#card1").css("background-color", "#1F2937");
     $("#card2").css("background-color", "#00ABC3");
     $("#card2").css("top", "300px");
     $("#cardArea").on("click", function() {
-      if (cardState != 1) {
-        cardState = 1;
-        //togglePosition();
-        $("#card1").animate({
-          top: "-=300"
-        }, 150, function() {
-          cardState = 0;
-          togglePosition();
-        });
-        $("#card2").animate({
-          top: "-=300"
-        }, 150, function() {
-          togglePosition2();
-        });
+          cardState = 0
+          $("#cardArea").empty()
+          $("#cardArea").append('<div id="card2" class="card">' + qbank[currentQuestion][1] + '</div>')
+          $("#card2").css("background-color", "#00ABC3")
+       
       } //if
-    }); //click function
-    
+    ); //click function
+
     $("#buttonArea").empty();
     $("#buttonArea").append('<div id="prevButton">PREV</div>');
     $("#prevButton").on("click", function() {
@@ -146,38 +139,26 @@ $(document).ready(function() {
     $("#buttonArea").append('<div id="nextButton">NEXT</div>');
     $("#nextButton").on("click", function() {
       if (currentQuestion < qbank.length - 1) {
-      	currentQuestion++;
+        currentQuestion++;
         beginActivity();
+    $("#lukumaara").empty();
+    $("#lukumaara").append(korttia);
       } else {
         displayFinalMessage();
       }
     }); //click function
   } //beginactivity
 
-  function togglePosition() {
-    if ($("#card1").position().top == -300) {
-      $("#card1").css("top", "300px");
-    };
-  } //toggle
-
-  function togglePosition2() {
-    if ($("#card2").position().top == -300) {
-      $("#card2").css("top", "300px");
-    };
-  } //toggle2
-
   function displayFinalMessage() {
     $("#cardArea").empty();
     $("#buttonArea").empty();
     $("#buttonArea").append('<div id="prevButton">PREV</div>');
     $("#prevButton").on("click", function() {
-        currentQuestion[currentQuestion-1];
-        beginActivity()
-      }
-    )
+      currentQuestion[currentQuestion - 1];
+      beginActivity()
+    })
     $("#cardArea").append('<div id="finalMessage">Kortit loppus</div>');
   } //final message
-
 });
 
 </script>
