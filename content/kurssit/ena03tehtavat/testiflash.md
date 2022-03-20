@@ -26,7 +26,7 @@ html, body {
 
 #cardArea{
  width: 80%;
- height: 30vw;
+ height: 300px;
  margin:auto;
  margin-top:80px;
  border:3px solid #ABB7B7;
@@ -36,7 +36,7 @@ html, body {
 }
 .card{
  width: 100%;
- height: 30vw;
+ height: 300px;
  position:absolute;
  text-align:center;
  line-height:200px;
@@ -116,19 +116,19 @@ $(document).ready(function() {
     $("#cardArea").append('<div id="card2" class="card">' + qbank[currentQuestion][1] + '</div>');
     $("#card1").css("background-color", "#1F2937");
     $("#card2").css("background-color", "#00ABC3");
-    $("#card2").css("top", "30vw");
+    $("#card2").css("top", "300px");
     $("#cardArea").on("click", function() {
       if (cardState != 1) {
         cardState = 1;
         //togglePosition();
         $("#card1").animate({
-          top: "-=30vw"
+          top: "-=300"
         }, 150, function() {
           cardState = 0;
           togglePosition();
         });
         $("#card2").animate({
-          top: "-=30vw"
+          top: "-=300"
         }, 150, function() {
           togglePosition2();
         });
@@ -155,14 +155,14 @@ $(document).ready(function() {
   } //beginactivity
 
   function togglePosition() {
-    if ($("#card1").position().top == -3030vw0) {
-      $("#card1").css("top", "30vw");
+    if ($("#card1").position().top == -300) {
+      $("#card1").css("top", "300px");
     };
   } //toggle
 
   function togglePosition2() {
-    if ($("#card2").position().top == -30vw) {
-      $("#card2").css("top", "30vw");
+    if ($("#card2").position().top == -300) {
+      $("#card2").css("top", "300px");
     };
   } //toggle2
 
