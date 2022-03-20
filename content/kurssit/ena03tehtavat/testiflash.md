@@ -54,8 +54,7 @@ html, body {
  color:#efefef;
  margin:auto;
  background-color:#1F2937;
- border: 2px solid #1E824C;
- border-radius:5px;
+ border: 1px solid #000000;
  font: inherit;
 }
 
@@ -68,8 +67,7 @@ html, body {
  color:#efefef;
  margin:auto;
  background-color:#1F2937;
- border: 2px solid #1E824C;
- border-radius:5px;
+ border: 1px solid #000000;
  font: inherit;
 }
 
