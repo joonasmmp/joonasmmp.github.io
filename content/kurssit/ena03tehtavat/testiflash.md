@@ -28,19 +28,18 @@ html, body {
  width: 95%;
  height: 300px;
  margin:auto;
- margin-top:80px;
+ margin-top:20px;
  position:relative;
  overflow:hidden;
 }
 .card{
  width: 100%;
  height: 300px;
- position:absolute;
- text-align:center;
- line-height:200px;
- font-size:45px;
- color:#efefef;
- cursor:pointer;
+ position: absolute;
+ text-align: center;
+ font-size: 1.3em;
+ color: #efefef;
+ cursor: pointer;
 }
 
 #nextButton{
