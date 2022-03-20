@@ -113,8 +113,8 @@ $(document).ready(function() {
     ["West Ham Unitedin pelaajat ovat pelaamassa Saksassa.", "West Ham Unitedin pelaajat ovat pelaamassa Saksassa.<br>= West Ham United’s players / The players of West Ham United are playing in Germany."],
     ["Kuulimme Applen suunnitelmista konferenssissa.", "Kuulimme Applen suunnitelmista konferenssissa.<br>= We heard about Apple’s plans / the plans of Apple in the conference."],
     ["Sarvikuonon poikanen on erittäin suloinen.", "Sarvikuonon poikanen on erittäin suloinen.<br>= The rhinoceros’s baby / The baby of the rhinoceros is very cute."],
-    ["Onko tuo Miriamin läppäri? – Ei, se on Harryn.", "Onko tuo Miriamin läppäri? – Ei, se on Harryn.<br>= Is that Miriam’s laptop? – No, that’s Harry’s."].
-    ["Tämä on minun puhelimeni ja tuo on Samin.", "Tämä on minun puhelimeni ja tuo on Samin.<br>= This is my phone and that is Sam’s."]
+    ["Onko tuo Miriamin läppäri? – Ei, se on Harryn.", "Onko tuo Miriamin läppäri? – Ei, se on Harryn.<br>= Is that Miriam’s laptop? – No, that’s Harry’s."],
+    ["Tämä on minun puhelimeni ja tuo on Samin.", "Tämä on minun puhelimeni ja tuo on Samin.<br>= This is my phone and that is Sam’s."],
 
 
 
