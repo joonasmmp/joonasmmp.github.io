@@ -83,10 +83,9 @@ html, body {
 <script> 
 $(document).ready(function() {
 
-  var cardState;
   var currentQuestion = 0;
   var qbank = [
-    ["CAT", "GATO"],
+    ['koira<br>koira', "GATO"],
     ["DOG", "PERRO"],
     ["HORSE", "CABALLO"],
     ["RABBIT", "CONEJO"],
@@ -97,31 +96,34 @@ $(document).ready(function() {
   beginActivity();
 
   function beginActivity() {
-    cardState = 0;
     $("#cardArea").empty();
     $("#cardArea").append('<div id="card1" class="card">' + qbank[currentQuestion][0] + '</div>');
     $("#card1").css("background-color", "#1F2937");
-    $("#card2").css("background-color", "#00ABC3");
-    $("#card2").css("top", "300px");
     $("#lukumaara").empty();
     var korttia = document.createElement('div')
     	korttia.innerHTML = currentQuestion + 1 + " / " + qbank.length;
     	document.getElementById('lukumaara').appendChild(korttia);
+      
     $("#cardArea").on("click", function() {
-        cardState = 0
+        var parentDiv = document.getElementById("cardArea");
+        var childDiv = document.getElementById("card1");
+        if (parentDiv.contains(childDiv)) {
         $("#cardArea").empty()
         $("#cardArea").append('<div id="card2" class="card">' + qbank[currentQuestion][1] + '</div>')
         $("#card2").css("background-color", "#00ABC3")
-
-      } //if
-    ); //click function
+      	} else {
+        $("#cardArea").empty()
+        $("#cardArea").append('<div id="card1" class="card">' + qbank[currentQuestion][0] + '</div>')
+        $("#card1").css("background-color", "#1F2937")
+      }
+      })
 
     $("#buttonArea").empty();
     $("#buttonArea").append('<div id="prevButton">Edellinen</div>');
     $("#prevButton").on("click", function() {
       if (currentQuestion > 0) {
         currentQuestion--;
-        beginActivity()
+        beginActivity();
       }
     })
     $("#buttonArea").append('<div id="nextButton">Seuraava</div>');
