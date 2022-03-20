@@ -29,8 +29,6 @@ html, body {
  height: 300px;
  margin:auto;
  margin-top:80px;
- border:3px solid #ABB7B7;
- border-radius:5px;
  position:relative;
  overflow:hidden;
 }
