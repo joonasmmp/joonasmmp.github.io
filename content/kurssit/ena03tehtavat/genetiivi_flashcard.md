@@ -9,7 +9,7 @@ layout: tehtava
 {{< rawhtml >}}
 <html>
  <body>
- <link rel="stylesheet" type="text/css" href="/css/flashcard.css"/>
+ <link rel="stylesheet" type="text/css" href="/css/flashcard1.css"/>
   <div id="cardArea"></div>
   <div id="lukumaara"></div>
   <div id="buttonArea" class="grid grid-cols-2"></div>
