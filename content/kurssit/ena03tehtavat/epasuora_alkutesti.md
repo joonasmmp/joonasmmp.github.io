@@ -5,7 +5,7 @@ draft: false
 type: page
 layout: tehtava
 ---
-
+Muunna lauseet epäsuoraan kerrontaan sopiviksi.
 {{< rawhtml >}}
 <link rel="stylesheet" type="text/css" href="/css/monivalinta2.css"/>
 <body class="dark:bg-warmgray-900">
@@ -27,25 +27,42 @@ layout: tehtava
     <p class="info">Johtolauseen verbi vaatii menneen aikamuodon, joten perfekti -> pluskvamperfekti.</p>
   </section>
    <section data-quiz-item>
-    <div class="question">Pokémon won't be on TV tomorrow.</div> 
+    <div class="question">"Pokémon won't be on TV tomorrow."</div> 
     <div class="choices" data-choices='["My father told me Pokémon is not on TV tomorrow.","My father told me Pokémon will not be on TV tomorrow.", "My father told me Pokémon would not be on TV tomorrow."]'></div>
     <p class="info">Won't = Will not = futuuri, joten johtolauseen verbi vaatii menneen aikamuodon, joten futuuri = konditionaali.</p>
   </section>
   </div>
    <div class="row">
   <section data-quiz-item>
-    <div class="question">Anu Sinisalo näytteli kenen äitiä?</div>
-    <div class="choices" data-choices='["Romeo","Tale","Taneli","Sofia"]'></div>
-    <p class="info">Talen äiti on Elina, Sofian äiti oli Hanna Salin</p>
+    <div class="question">It may be too late to start studying.</div>
+    <div class="choices" data-choices='["My mother told me it is too late to start studying.","My mother told me it was too late to start studying.","My mother told me it may be too late to start studying.","My mother told me it might be too late to start studying."]'></div>
+    <p class="info">Modaaliapuverbeissä myös muutoksia, tässä tapauksesssa may -> might</p>
   </section>
    <section data-quiz-item>
-    <div class="question">Onko Salkkarit hyvä ohjelma?</div>
-    <div class="choices" data-choices='["Kyllä","Ei"]'></div>
-    <p class="info">>:(</p>
+    <div class="question">"I put them here yesterday!"</div>
+    <div class="choices" data-choices='["Peter told me he put them here yesterday.","Peter told me he put them there yesterday.", "Peter told me he put them here the day before.", "Peter told me he put them there the day before.".]'></div>
+    <p class="info">Tarkkana demonstratiivipronominien ja ajan ja paikan ilmaisujen kanssa! Here -> there koska paikka ei ole sama. Yesterday -> the day before koska eihän päiväkään ole välttämättä sama.</p>
+  </section>
+  </div>
+   <div class="row">
+  <section data-quiz-item>
+    <div class="question">"What do you think of this shirt?"</div>
+    <div class="choices" data-choices='["Chantel asked me what do you think of that shirt", "Chantel asked me what I think of that shirt", "Chantel asked me what I thought of this shirt", "Chantel asked me what did I think of that shirt"]'></div>
+    <p class="info">This -> that, lisäksi do-apuverbi katoaa muissa kuin kielteisissä kysymyksissä. Pääverbi muuttuu imperfektiksi.</p>
+  </section>
+   <section data-quiz-item>
+    <div class="question">"Your expectations are too high!"</div>
+    <div class="choices" data-choices='["I pointed ouf that your expectations are too high.", "I pointed out that their expectations are too high.", "I pointed out that their expectations were too high.", "I pointed out that your expectations were too high."]'></div>
+    <p class="info">Pronominit muuttuvat eli myöhemmin kerrottuna YOU ei ole enää YOU vaan THEY. Verbi muuttuu myös tietty imperfektiksi.</p>
   </section>
   </div>
    <div class="row last">
   <section data-quiz-item>
+    <div class="question">Löytyykö bugeja?</div>
+    <div class="choices" data-choices='["Kyllä","Ei"]'></div>
+    <p class="info">No ainahan niitä jostain löytyy.</p>
+  </section>
+   <section data-quiz-item>
     <div class="question">Löytyykö bugeja?</div>
     <div class="choices" data-choices='["Kyllä","Ei"]'></div>
     <p class="info">No ainahan niitä jostain löytyy.</p>
