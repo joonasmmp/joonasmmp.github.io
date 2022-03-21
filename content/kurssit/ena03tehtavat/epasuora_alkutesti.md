@@ -40,7 +40,7 @@ Muunna lauseet epäsuoraan kerrontaan sopiviksi.
   </section>
    <section data-quiz-item>
     <div class="question">"I put them here yesterday!"</div>
-    <div class="choices" data-choices='["Peter told me he put them here yesterday.","Peter told me he put them there yesterday.", "Peter told me he put them here the day before.", "Peter told me he put them there the day before.".]'></div>
+    <div class="choices" data-choices='["Peter told me he put them here yesterday.", "Peter told me he put them there yesterday.", "Peter told me he put them here the day before.", "Peter told me he put them there the day before."]'></div>
     <p class="info">Tarkkana demonstratiivipronominien ja ajan ja paikan ilmaisujen kanssa! Here -> there koska paikka ei ole sama. Yesterday -> the day before koska eihän päiväkään ole välttämättä sama.</p>
   </section>
   </div>
