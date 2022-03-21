@@ -165,7 +165,7 @@
     -webkit-transition: all 0.1s linear;
     -moz-transition: all 0.1s linear;
     transition: all 0.1s linear;
-    width: 95%;
+    width: 100%;
   }
   
   input[type="radio"] + label:before {
