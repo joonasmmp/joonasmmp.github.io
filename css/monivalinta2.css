@@ -181,6 +181,11 @@
     color: #FFFFFF;
   }
   
+.dark input[type="radio"]:checked + label {
+  background: #00ABC3;
+  color: #FFFFFF;
+}
+
   input.item-incorrect[type="radio"]:checked + label {
     background: #ff383e;
     color: #FFFFFF;
