@@ -29,7 +29,7 @@ $(document).ready(function() {
     ['"Do you know Batman\'s real name?" Commissioner Gordon asked us...', '"Do you know Batman\'s real name?" Commissioner Gordon asked us if we knew Batman\'s real name.'],
     ['"Leave your coats here." The waiter asked us....', '"Leave your coats here." The waiter asked us to leave our coats there.'],
     ['"Don\'t stop me now" Freddie ordered me...', '"Don\'t stop me now" Freddie ordered me not to stop him now.'],
-    ['"Never come here again!" She told me...., '"Never come here again!" She told me never to come there again.'],
+    ['"Never come here again!" She told me...', '"Never come here again!" She told me never to come there again.'],
     ['"You are being ridiculous!" Emma told me....', '"You are being ridiculous!" Emma told me I was being ridiculous.'],
   ];
 
