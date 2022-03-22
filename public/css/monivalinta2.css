@@ -177,7 +177,7 @@
     cursor: pointer;
   }
   input[type="radio"]:checked + label {
-    background: #00ABC3;
+    background: #1F2937;
     color: #FFFFFF;
   }
   
