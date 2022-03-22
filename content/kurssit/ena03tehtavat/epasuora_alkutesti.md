@@ -47,7 +47,7 @@ Muunna lauseet epäsuoraan kerrontaan sopiviksi.
    <div class="row">
   <section data-quiz-item>
     <div class="question">"What do you think of this shirt?"</div>
-    <div class="choices" data-choices='["Chantel asked me what do you think of that shirt", "Chantel asked me what I think of that shirt", "Chantel asked me what I thought of this shirt", "Chantel asked me what did I think of that shirt"]'></div>
+    <div class="choices" data-choices='["Chantel asked me what do you think of that shirt", "Chantel asked me what I think of that shirt", "Chantel asked me what I thought of that shirt", "Chantel asked me what did I think of this shirt"]'></div>
     <p class="info">This -> that, lisäksi do-apuverbi katoaa muissa kuin kielteisissä kysymyksissä. Pääverbi muuttuu imperfektiksi.</p>
   </section>
    <section data-quiz-item>
@@ -178,6 +178,6 @@ Muunna lauseet epäsuoraan kerrontaan sopiviksi.
  
  
 $(document).emc({
-  key: ["2","1","3","3","4","4","3","3","4","1"]
+  key: ["2","1","4","3","4","4","3","3","4","1"]
 });</script>
 {{< /rawhtml >}}
