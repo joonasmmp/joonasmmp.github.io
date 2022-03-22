@@ -21,16 +21,16 @@ $(document).ready(function() {
 
   var currentQuestion = 0;
   var qbank = [
-    [""What will my parents think?" My wife wondered...", ""What will my parents think?" My wife wondered what her parents would think."],
-    [""I don't like these pants" Jack told me...", ""I don't like these pants" Jack told me he didn't like the pants."],
-    [""I can't wait any longer" She complained...", ""I can't wait any longer" She complained she couldn't wait any longer."],
-    [""What can I do for you?" The waiter asked Timothy...", ""What can I do for you?" The waiter asked Timothy what she could do for him."],
-    [""If Tim is short for Timothy, is Jim short for Jimothy?" Bob asked us...", ""If Tim is short for Timothy, is Jim short for Jimothy?" Bob asked us that if Tim was short for Timothy, was Jim short for Jimothy?"],
-    [""Do you know Batman's real name?" Commissioner Gordon asked us...", ""Do you know Batman's real name?" Commissioner Gordon asked us if we knew Batrmans' real name."],
-    [""Leave your coats here." The waiter asked us....", ""Leave your coats here." The waiter asked us to leave our coats there."],
-    [""Don't stop me now" Freddie ordered me...", ""Don't stop me now" Freddie ordered me not to stop him now."],
-    [""Never come here again!" She told me...., "Never come here again!" She told me never to come there again."],
-    [""You are being ridiculous!" Emma told me....", "You are being ridiculous!" Emma told me I was being ridiculous."],
+    ['"What will my parents think?" My wife wondered...", '"What will my parents think?" My wife wondered what her parents would think.'],
+    ['"I don't like these pants" Jack told me...", '"I don't like these pants" Jack told me he didn't like the pants.'],
+    ['"I can't wait any longer" She complained...", '"I can't wait any longer" She complained she couldn't wait any longer.'],
+    ['"What can I do for you?" The waiter asked Timothy...", '"What can I do for you?" The waiter asked Timothy what she could do for him.'],
+    ['"If Tim is short for Timothy, is Jim short for Jimothy?" Bob asked us...", '"If Tim is short for Timothy, is Jim short for Jimothy?" Bob asked us that if Tim was short for Timothy, was Jim short for Jimothy?'],
+    ['"Do you know Batman's real name?" Commissioner Gordon asked us...", '"Do you know Batman's real name?" Commissioner Gordon asked us if we knew Batrmans' real name.'],
+    ['"Leave your coats here." The waiter asked us....', '"Leave your coats here." The waiter asked us to leave our coats there.'],
+    ['"Don't stop me now" Freddie ordered me...', '"Don't stop me now" Freddie ordered me not to stop him now.'],
+    ['"Never come here again!" She told me...., '"Never come here again!" She told me never to come there again.'],
+    ['"You are being ridiculous!" Emma told me....', '"You are being ridiculous!" Emma told me I was being ridiculous.'],
   ];
 
   beginActivity();
