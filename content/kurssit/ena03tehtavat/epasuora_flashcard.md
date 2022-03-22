@@ -22,7 +22,7 @@ $(document).ready(function() {
   var currentQuestion = 0;
   var qbank = [
     ['"What will my parents think?" My wife wondered...', '"What will my parents think?" My wife wondered what her parents would think.'],
-    ['"I don't like these pants" Jack told me...', '"I don't like these pants" Jack told me he didn't like the pants.'],
+    ['"I don't like these pants" Jack told me...', '"I don't like these pants" Jack told me he didn&apos;t like the pants.'],
     ['"I can't wait any longer" She complained...', '"I can't wait any longer" She complained she couldn't wait any longer.'],
     ['"What can I do for you?" The waiter asked Timothy...', '"What can I do for you?" The waiter asked Timothy what she could do for him.'],
     ['"If Tim is short for Timothy, is Jim short for Jimothy?" Bob asked us...', '"If Tim is short for Timothy, is Jim short for Jimothy?" Bob asked us that if Tim was short for Timothy, was Jim short for Jimothy?'],
