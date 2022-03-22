@@ -28,8 +28,8 @@ Muunna lauseet epäsuoraan kerrontaan sopiviksi.
   </section>
    <section data-quiz-item>
     <div class="question">"Pokémon won't be on TV tomorrow."</div> 
-    <div class="choices" data-choices='["My father told me Pokémon is not on TV tomorrow.","My father told me Pokémon will not be on TV tomorrow.", "My father told me Pokémon would not be on TV tomorrow."]'></div>
-    <p class="info">Won't = Will not = futuuri, joten johtolauseen verbi vaatii menneen aikamuodon, joten futuuri = konditionaali.</p>
+    <div class="choices" data-choices='["My father told me Pokémon is not on TV the following day.","My father told me Pokémon will not be on TV the following day.", "My father told me Pokémon would not be on TV the following day."]'></div>
+    <p class="info">Won't = Will not = futuuri, joten johtolauseen verbi vaatii menneen aikamuodon, joten futuuri = konditionaali. Today muuttuu muotoon the day after tai the next/following day. 3 </p>
   </section>
   </div>
    <div class="row">
@@ -58,14 +58,14 @@ Muunna lauseet epäsuoraan kerrontaan sopiviksi.
   </div>
    <div class="row last">
   <section data-quiz-item>
-    <div class="question">Löytyykö bugeja?</div>
-    <div class="choices" data-choices='["Kyllä","Ei"]'></div>
-    <p class="info">No ainahan niitä jostain löytyy.</p>
+    <div class="question">"What is your biggest weakness?"</div>
+    <div class="choices" data-choices='["They wanted to know what is my biggest weakness.","They wanted to know what was my biggest weakness.", "They wanted to know what my biggest weakness is.", "They wanted to know what my biggest weakness was."]'></div>
+    <p class="info">What-alkuisessa kysymyksessä kysymyssana säilyy. AIkamuoto johtolauseen mukaan imperfektiksi ja sanajärjestys kääntyy suoraksi. </p>
   </section>
    <section data-quiz-item>
-    <div class="question">Löytyykö bugeja?</div>
-    <div class="choices" data-choices='["Kyllä","Ei"]'></div>
-    <p class="info">No ainahan niitä jostain löytyy.</p>
+    <div class="question">"Do you have any questions?</div>
+    <div class="choices" data-choices='["The teacher asked if we had any questions.","The teacher asked do we have any questions.", "The teacher asked if we do have any questions.", "The teacher asked did we have any questions."]'></div>
+    <p class="info">Mikäli kysymys alkaa verbillä, vaaditaan alkuun joko if tai whether. Do-verbi jää pois muissa kuin kielteisissä kysymyksissä. </p>
   </section>
   </div>
   <div id="emc-score"></div>
@@ -178,6 +178,6 @@ Muunna lauseet epäsuoraan kerrontaan sopiviksi.
  
  
 $(document).emc({
-  key: ["2","1","4","3","3","1","1"]
+  key: ["2","1","3","3","4","4","3","3","4","1"]
 });</script>
 {{< /rawhtml >}}

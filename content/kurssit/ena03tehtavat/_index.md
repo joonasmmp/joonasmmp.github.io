@@ -12,5 +12,12 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 
 Kortteja genetiivilauseista. Muodosta englanninkielinen vastine. 
 
+## Epäsuora kerronta
+* [Epäsuora kerronta: Alkutesti]({{<ref "epasuora_alkutesti.mdt" >}})
+
+Monivalintatehtävä epäsuoran esityksen perusasioista. Ota säännöt haltuun.
+
+
+
 ## Sanastoa
 No ei ole vielä mittään
