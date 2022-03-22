@@ -29,14 +29,14 @@ Muunna lauseet epäsuoraan kerrontaan sopiviksi.
    <section data-quiz-item>
     <div class="question">4. "Pokémon won't be on TV tomorrow."</div> 
     <div class="choices" data-choices='["My father told me Pokémon is not on TV the following day.","My father told me Pokémon will not be on TV the following day.", "My father told me Pokémon would not be on TV the following day."]'></div>
-    <p class="info">Won't = Will not = futuuri, joten johtolauseen verbi vaatii menneen aikamuodon, joten futuuri = konditionaali. Today muuttuu muotoon the day after tai the next/following day. 3 </p>
+    <p class="info">Won't = will not = futuuri, joten johtolauseen verbi vaatii menneen aikamuodon, joten futuuri -> konditionaali. Today muuttuu muotoon the day after tai the next/following day.</p>
   </section>
   </div>
    <div class="row">
   <section data-quiz-item>
     <div class="question">5. It may be too late to start studying.</div>
     <div class="choices" data-choices='["My mother told me it is too late to start studying.","My mother told me it was too late to start studying.","My mother told me it may be too late to start studying.","My mother told me it might be too late to start studying."]'></div>
-    <p class="info">Modaaliapuverbeissä myös muutoksia, tässä tapauksesssa may -> might</p>
+    <p class="info">Modaaliapuverbeissä myös muutoksia, tässä tapauksesssa may -> might.</p>
   </section>
    <section data-quiz-item>
     <div class="question">6. "I put them here yesterday!"</div>
