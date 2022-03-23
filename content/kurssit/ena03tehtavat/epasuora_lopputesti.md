@@ -114,12 +114,12 @@ function displayFinalMessage() {
 
 // kysymykset tähän
 var questions = [
-  new Question('"He will come tomorrow."<br>He told me that he ________ tomorrow.', ['is coming', 'will come', 'would come'], 'would come'),
-  new Question("lyödä, voittaa: beat, beat, _____", ["beat", "beated", "beaten", "bote" ], "beaten"),
-  new Question("tulla joksikin: become, became, _____", ["become", "became", "becamed", "becomed"], "become"),
-  new Question("alkaa: begin, began, _____", ["begin", "began", "begun", "begon" ], "begun"),
-  new Question("lyödä vetoa: bet, bet, _____", ["bet", "bat", "betted", "bot" ], "bet"),
-  new Question("purra: bite, bit, _____", ["bit", "bite", "bitted", "bitten" ], "bitten"),
+  new Question('"He will come tomorrow."<br>He told me that he ________ the following day.', ['is coming', 'will come', 'would come', 'was coming'], 'would come'),
+  new Question('"I have been there before"<br>She said she _______ there before.', ['was','had been','has been', 'were'], 'had been'),
+  new Question('"My hobbies are taking all my time"<br>He mentioned that his hobbies ______ all his time.', ['are taking', 'was taking', 'were taking', 'had been taking'], 'were taking'),
+  new Question('"I am flying to Kemi tomorrow"<br>She said she _______ to Kemi the following day.', ['are flying', 'were flying', 'was flying', 'have been flying'], 'was flying'),
+  new Question('"We went there last year as well"<br>She also said they ______ there the previous year as well', ['went', 'had been', 'had gone', 'were'], 'had gone'),
+  new Question('She said, "Shall we begin?"<br>She asked __________', ['should we start?', 'shall we start?', 'if we should start', 'if we shall start'], 'if we should start'),
   new Question("puhaltaa, tuulla: blow, blew, _____", ["blow", "blew", "blown", "blewn"], "blown"),
   new Question("rikkoa, särkyä: break, broke, _____", ["break", "broke", "broken", "broked" ], "broken"),
   new Question("tuoda: bring, brought, _____", ["bring", "brought", "brang", "brung" ], "brought"),
