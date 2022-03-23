@@ -104,6 +104,14 @@ function showScores() {
   element.innerHTML = gameOverHTML;
 }
 
+function displayFinalMessage() {
+  $("#buttons").empty();
+  $("#quiz").empty();
+  $("#quiz").append('<div id="finalMessage">Nyt meni väärin niin että heilahti.<br>Mutta ei se haittaa, kokeile uudestaan!</div>');
+  $("#quiz").append('<button id="resetbutton">Takaisin alkuun</button>')
+  document.getElementById("resetbutton").onclick = (startOver);
+ }
+
 // kysymykset tähän
 var questions = [
   new Question("olla: be, was/were, _____", ["was", "be", "been", "were" ], "been"),
@@ -141,14 +149,6 @@ $(document).ready(function() {
 });
 
 var quiz = new Quiz(questions);
-
-function displayFinalMessage(){
-  $("#buttons").empty();
-  $("#quiz").empty();
-  $("#quiz").append('<div id="finalMessage">Nyt meni väärin niin että heilahti.<br>Mutta ei se haittaa, kokeile uudestaan!</div>');
-  $("#quiz").append('<button id="resetbutton">Takaisin alkuun</button>')
-  document.getElementById("resetbutton").onclick = (startOver);
- }
 
 populate();
 </script>
