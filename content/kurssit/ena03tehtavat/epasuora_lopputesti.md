@@ -114,7 +114,7 @@ function displayFinalMessage() {
 
 // kysymykset tähän
 var questions = [
-  new Question('"He will come tomorrow."<br>He told me that he ________ tomorrow.'], ['is coming', 'will come', 'would come'], 'would come'),
+  new Question('"He will come tomorrow."<br>He told me that he ________ tomorrow.', ['is coming', 'will come', 'would come'], 'would come'),
   new Question("lyödä, voittaa: beat, beat, _____", ["beat", "beated", "beaten", "bote" ], "beaten"),
   new Question("tulla joksikin: become, became, _____", ["become", "became", "becamed", "becomed"], "become"),
   new Question("alkaa: begin, began, _____", ["begin", "began", "begun", "begon" ], "begun"),
