@@ -71,7 +71,7 @@
   #finalMessage {
     background: white;
     color: black;
-    padding: 2em;
+    padding-bottom: 2em;
     }
 
   .dark #finalMessage {
