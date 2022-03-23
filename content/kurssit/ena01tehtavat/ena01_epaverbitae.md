@@ -107,7 +107,7 @@ function showScores() {
 function displayFinalMessage() {
   $("#buttons").empty();
   $("#quiz").empty();
-  $("#quiz").append('<div id="finalMessage">Nyt meni väärin niin että heilahti.<br>Mutta ei se haittaa, kokeile uudestaan!</div>');
+  $("#quiz").append('<div id="finalMessage">Oh dear!<br><br>Nyt meni väärin niin että heilahti.<br>Mutta ei se haittaa, kokeile uudestaan!</div>');
   $("#quiz").append('<button id="resetbutton">Takaisin alkuun</button>')
   document.getElementById("resetbutton").onclick = (startOver);
  }
@@ -140,13 +140,6 @@ var questions = [
 ];
 
 $('.reset').click(startOver);
-
-$(document).ready(function() {
-  $("#modal").modal({
-    show: false,
-    backdrop: 'static'
-  });
-});
 
 var quiz = new Quiz(questions);
 

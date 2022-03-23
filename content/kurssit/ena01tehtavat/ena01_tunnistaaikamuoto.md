@@ -137,13 +137,6 @@ var questions = [
 
 $('.reset').click(startOver);
 
-$(document).ready(function() {
-  $("#modal").modal({
-    show: false,
-    backdrop: 'static'
-  });
-});
-
 // create quiz
 var quiz = new Quiz(questions);
 
