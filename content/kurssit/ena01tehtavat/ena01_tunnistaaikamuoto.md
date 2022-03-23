@@ -10,9 +10,8 @@ layout: tehtava
 {{< rawhtml >}}
 <link rel="stylesheet" type="text/css" href="/css/monivalinta1.css"/>
 <body>
-<div id="quiz">
-
             <p id="question"></p>
+<div id="quiz">
  <br>
             <div class="buttons">
             <button id="btn0"><span id="choice0"></span></button> 
@@ -104,6 +103,14 @@ function showScores() {
   element.innerHTML = gameOverHTML;
 }
 
+ function displayFinalMessage(){
+  $("#buttons").empty();
+  $("#quiz").empty();
+  $("#quiz").append('<div id="finalMessage">Nyt meni väärin niin että heilahti.<br>Mutta ei se haittaa, kokeile uudestaan!</div>');
+  $("#quiz").append('<button id="resetbutton">Takaisin alkuun</button>')
+  document.getElementById("resetbutton").onclick = (startOver);
+ }
+
 // kysymykset tähän
 var questions = [
   new Question("olen", ["preesens", "imperfekti", "perfekti", "pluskvamperfekti"], "preesens"),
@@ -139,14 +146,6 @@ $(document).ready(function() {
 
 // create quiz
 var quiz = new Quiz(questions);
-
- function displayFinalMessage(){
-  $("#buttons").empty();
-  $("#quiz").empty();
-  $("#quiz").append('<div id="finalMessage">Nyt meni väärin niin että heilahti.<br>Mutta ei se haittaa, kokeile uudestaan!</div>');
-  $("#quiz").append('<button id="resetbutton">Takaisin alkuun</button>')
-  document.getElementById("resetbutton").onclick = (startOver);
- }
 
 // display quiz
 populate();
