@@ -99,7 +99,7 @@ function showProgress() {
 
 function showScores() {
   var gameOverHTML = "Aivan mahtavaa!!";
-  gameOverHTML += "Sait kaikki " + quiz.score + " kohtaa oikein!"
+  gameOverHTML += "<br>Sait kaikki " + quiz.score + " kohtaa oikein!"
   var element = document.getElementById("quiz");
   element.innerHTML = gameOverHTML;
 }
