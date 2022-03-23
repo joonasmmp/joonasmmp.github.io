@@ -36,7 +36,7 @@ $(document).ready(function() {
     ['"You are being ridiculous!"<br>Emma told me....', '"You are being ridiculous!"<br>Emma told me I was being ridiculous.'],
     ['Ystäväni kysyi haluaisinko opiskella hänen kanssaan.', 'Ystäväni kysyi haluaisinko opiskella hänen kanssaan.<br>= My friend asked me if I wanted/would like to study with him/her.'],
     ['Opettaja halusi tietää kuinka paljon tiedämme maantieteestä.', 'Opettaja halusi tietää kuinka paljon tiedämme maantieteestä.<br>= The teacher wanted to know how much we knew about geography.'],
-    ['Hän kysyi meiltä mikä Kroatian pääkaupunki oli.','Hän kysyi meiltä mikä Kroatian pääkaupunki oli.<br>= He asked us what the capital of Croatia was.'],
+    ['Hän kysyi meiltä mikä Kroatian pääkaupunki on.','Hän kysyi meiltä mikä Kroatian pääkaupunki on.<br>= He asked us what the capital of Croatia is/was.'],
   ];
 
   beginActivity();
