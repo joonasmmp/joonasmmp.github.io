@@ -21,6 +21,9 @@ $(document).ready(function() {
 
   var currentQuestion = 0;
   var qbank = [
+    ['"I have been studying English for years."<br>She told me...', '"I have been studying English for years."<br>She told me she had been studying English for years.'],
+    ['"Now I know reported speech rules very well."<br>He explained that...', '"Now I know reported speech rules very well."<br>He explained that then he knew reported speech rules very well.'],
+    ['"Me and all my friends will ace the exam."<br>He declared that...', '"Me and all my friends will ace the exam."<br>He declared that he and his friends would ace the exam.'],
     ['"What will my parents think?"<br>My wife wondered...', '"What will my parents think?"<br>My wife wondered what her parents would think.'],
     ['"I don&apos;t like these pants."<br>Jack told me...', '"I don&apos;t like these pants."<br>Jack told me he didn&apos;t like the pants.'],
     ['"I can&apos;t wait any longer."<br>She complained...', '"I can&apos;t wait any longer."<br>She complained she couldn&apos; wait any longer.'],
@@ -31,6 +34,9 @@ $(document).ready(function() {
     ['"Don&apos;t stop me now!"<br>Freddie ordered me...', '"Don&apos;t stop me now!"<br>Freddie ordered me not to stop him now.'],
     ['"Never come here again!"<br>She told me...', '"Never come here again!"<br>She told me never to come there again.'],
     ['"You are being ridiculous!"<br>Emma told me....', '"You are being ridiculous!"<br>Emma told me I was being ridiculous.'],
+    ['Käännä englanniksi: Ystäväni kysyi haluaisinko opiskella hänen kanssaan.', 'Käännä englanniksi: Ystäväni kysyi haluaisinko opiskella hänen kanssaan.<br>= My friend asked me if I wanted/would like to study with him/her.'],
+    ['Käännä englanniksi: Opettaja halusi tietää kuinka paljon tiedämme maantieteestä.', 'Käännä englanniksi: Opettaja halusi tietää kuinka paljon tiedämme maantieteestä.<br>= The teacher wanted to know how much we knew about geography.'],
+    ['Käännä englanniksi: Hän kysyi meiltä mikä Kroatian pääkaupunki oli.', Käännä englanniksi: Hän kysyi meiltä mikä Kroatian pääkaupunki oli.<br>= He asked us what the capital of Croatia was.'],
   ];
 
   beginActivity();
