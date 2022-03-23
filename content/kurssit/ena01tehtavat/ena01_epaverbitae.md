@@ -22,22 +22,6 @@ layout: tehtava
 </div>
 </div>
 
-<div class="modal fade" id="modal" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content bg-white dark:bg-warmgray-900">
-      <div class="modal-header">
-        <h4 class="modal-title">Oh dear!</h4>
-      </div>
-      <div class="modal-body">
-        <p>Väärä vastaus</p>
-	      <p>Nyt ei menny ihan niinku piti, mutta yritä uudestaan!</p>
-      </div>
-      <div class="modal-footer">
-        <button id="resetbutton2" class="reset" value="reset">Takaisin alkuun</button>
-      </div>
-    </div>
-  </div>
-</div>
 </body>
 
 <script>
@@ -56,10 +40,7 @@ Quiz.prototype.guess = function(answer) {
   if (this.getQuestionIndex().isCorrectAnswer(answer)) {
     this.score++;
   } else {
-    $("#modal").modal("show")
-	sleep(2000);
-
-  }
+  displayFinalMessage();}
 
   this.questionIndex++;
 }
