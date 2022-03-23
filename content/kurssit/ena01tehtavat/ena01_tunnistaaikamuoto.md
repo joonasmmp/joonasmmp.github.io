@@ -10,8 +10,8 @@ layout: tehtava
 {{< rawhtml >}}
 <link rel="stylesheet" type="text/css" href="/css/monivalinta1.css"/>
 <body>
-            <p id="question"></p>
 <div id="quiz">
+            <p id="question"></p>
  <br>
             <div class="buttons">
             <button id="btn0"><span id="choice0"></span></button> 
@@ -106,7 +106,7 @@ function showScores() {
  function displayFinalMessage(){
   $("#buttons").empty();
   $("#quiz").empty();
-  $("#quiz").append('<div id="finalMessage">Nyt meni väärin niin että heilahti.<br>Mutta ei se haittaa, kokeile uudestaan!</div>');
+  $("#quiz").append('<div id="finalMessage">Oh dear!<br><br>Nyt meni väärin niin että heilahti.<br>Mutta ei se haittaa, kokeile uudestaan!</div>');
   $("#quiz").append('<button id="resetbutton">Takaisin alkuun</button>')
   document.getElementById("resetbutton").onclick = (startOver);
  }
