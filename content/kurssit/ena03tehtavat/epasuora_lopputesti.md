@@ -122,7 +122,7 @@ var questions = [
   new Question('She said, "Shall we begin?"<br>She asked _____________', ['should we begin?', 'shall we begin?', 'if we should begin.', 'if we shall begin.'], 'if we should begin.'),
   new Question('"Who are you?"<br>The officer asked ___________', ["who he was", "me who he was", "me who he was", "who I was"], "who I was"),
   new Question('"We saw the Snow Castle when we went to Kemi"<br>She told me she _____ the Snow Castle when she _____ to Kemi',  ["saw, went", "saw, had gone", "had seen, went", "had seen, had gone" ], "had seen, had gone"),
-  new Question('"Why didn&apos;t you send me a postcard?"<br>He asked me why  _______ him a postcard.', ["didn't I send", "hadn't I sent", "I didn't send", "I hadn't sent" ], "hadn't I sent"),
+  new Question('"Why didn&apos;t you send me a postcard?"<br>He asked me why  _______ him a postcard.', ["didn't I send", "hadn't I sent", "I didn't send", "I hadn't sent" ], "I hadn't sent"),
   new Question('"I am going to school."<br>My brother says he ____________ to school.', ["went", "had gone", "was going", "is going" ], "is going"),
   new Question('"How long will it take to walk from Helsinki to Berlin?"<br>Johnny asked how long it ________ from Helsinki to Berlin.', ["takes", "will take", "would take", "took" ], "would take"),
   new Question('I told him __________ do it', ["don't", "to don't", "to not", "not to" ], "not to"),
