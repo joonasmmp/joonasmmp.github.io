@@ -17,6 +17,13 @@ Kortteja genetiivilauseista. Muodosta englanninkielinen vastine.
 
 Monivalintatehtävä epäsuoran esityksen perusasioista. Ota säännöt haltuun.
 
+* [Epäsuora kerronta: Flashcard]({{<ref "epasuora_flashcard.mdt" >}})
+
+Kortteja epäsuoraan kerrontaan liittyen. Muunna epäsuoraan kerrontaan tai käännä englanniksi.
+
+* [Epäsuora kerronta: Lopputesti]({{<ref "epasuora_lopputesti.mdt" >}})
+
+Monivalintakysymyksiä epäsuorasta kerronnasta. Älä vastaa väärin.
 
 
 ## Sanastoa

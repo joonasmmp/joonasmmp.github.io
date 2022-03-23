@@ -1,6 +1,6 @@
 ---
-title: "Epäsäännölliset verbit a-e"
-date: 2021-8-13
+title: "Epäsuora kerronta: Lopputesti"
+date: 2021-8-23
 draft: false
 type: page
 layout: tehtava
@@ -114,7 +114,7 @@ function displayFinalMessage() {
 
 // kysymykset tähän
 var questions = [
-  new Question("olla: be, was/were, _____", ["was", "be", "been", "were" ], "been"),
+  new Question('"He will come tomorrow."<br>He told me that he ________ tomorrow.'], ['is coming', 'will come', 'would come'], 'would come'),
   new Question("lyödä, voittaa: beat, beat, _____", ["beat", "beated", "beaten", "bote" ], "beaten"),
   new Question("tulla joksikin: become, became, _____", ["become", "became", "becamed", "becomed"], "become"),
   new Question("alkaa: begin, began, _____", ["begin", "began", "begun", "begon" ], "begun"),
@@ -147,3 +147,5 @@ populate();
 </script>
 
 {{< /rawhtml >}}
+
+
