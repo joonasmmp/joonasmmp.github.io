@@ -5,7 +5,7 @@ draft: false
 type: page
 layout: tehtava
 ---
-
+Muodosta epäsuora kerronta korteissa 1-13. Käännä kortit 14-16 englanniksi.
 {{< rawhtml >}}
 <link rel="stylesheet" type="text/css" href="/css/flashcard1.css"/>
 <html>
@@ -34,9 +34,9 @@ $(document).ready(function() {
     ['"Don&apos;t stop me now!"<br>Freddie ordered me...', '"Don&apos;t stop me now!"<br>Freddie ordered me not to stop him now.'],
     ['"Never come here again!"<br>She told me...', '"Never come here again!"<br>She told me never to come there again.'],
     ['"You are being ridiculous!"<br>Emma told me....', '"You are being ridiculous!"<br>Emma told me I was being ridiculous.'],
-    ['Käännä englanniksi\\: Ystäväni kysyi haluaisinko opiskella hänen kanssaan.', 'Käännä englanniksi\\: Ystäväni kysyi haluaisinko opiskella hänen kanssaan.<br>= My friend asked me if I wanted/would like to study with him/her.'],
-    ['Käännä englanniksi\\: Opettaja halusi tietää kuinka paljon tiedämme maantieteestä.', 'Käännä englanniksi\\:; Opettaja halusi tietää kuinka paljon tiedämme maantieteestä.<br>= The teacher wanted to know how much we knew about geography.'],
-    ['Käännä englanniksi\\: Hän kysyi meiltä mikä Kroatian pääkaupunki oli.', Käännä englanniksi\\: Hän kysyi meiltä mikä Kroatian pääkaupunki oli.<br>= He asked us what the capital of Croatia was.'],
+    ['Ystäväni kysyi haluaisinko opiskella hänen kanssaan.', 'Ystäväni kysyi haluaisinko opiskella hänen kanssaan.<br>= My friend asked me if I wanted/would like to study with him/her.'],
+    ['Opettaja halusi tietää kuinka paljon tiedämme maantieteestä.', 'Opettaja halusi tietää kuinka paljon tiedämme maantieteestä.<br>= The teacher wanted to know how much we knew about geography.'],
+    ['Hän kysyi meiltä mikä Kroatian pääkaupunki oli.','Hän kysyi meiltä mikä Kroatian pääkaupunki oli.<br>= He asked us what the capital of Croatia was.'],
   ];
 
   beginActivity();
