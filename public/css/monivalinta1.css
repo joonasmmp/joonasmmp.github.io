@@ -63,7 +63,7 @@
   }
 
   .dark #resetbutton {
-    background: black;
+    background: #181A1B;
     border: 0px;
     color: white,
   }
@@ -75,7 +75,7 @@
     }
 
   .dark #finalMessage {
-    background: black;
+    background: #181A1B;
     color:white;
-    padding: 2em;
+    padding-bottom: 2em;
   }
