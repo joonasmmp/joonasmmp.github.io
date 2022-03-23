@@ -65,7 +65,8 @@
   .dark #resetbutton {
     background: #181A1B;
     border: 0px;
-    color: white,
+    color: white;
+
   }
   
   #finalMessage {
