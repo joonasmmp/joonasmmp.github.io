@@ -134,7 +134,7 @@ $('.reset').click(startOver);
 var quiz = new Quiz(questions);
 
 populate();
-</script>
+</script> 
 
 {{< /rawhtml >}}
 
