@@ -368,6 +368,14 @@ $(document).ready(function() {
         beginActivity();
       }
     })
+
+    $("#buttonArea").append('<div id="random">Satunnainen</div>');
+    $("#random").on("click", function() {
+	  var randomNumber = Math.floor(Math.random()*qbank.length);
+      currentQuestion = randomNumber;
+			beginActivity();
+})
+
     $("#teema1").on("click", function(){
     currentQuestion = 0;
     beginActivity();
