@@ -46,7 +46,20 @@
     border: 1px solid  #000000;
     font: inherit;
    }
-   
+
+   #random{
+    width:90%;
+    text-align:center;
+    font-size: 1em;
+    padding:10px;
+    cursor:pointer;
+    color:#efefef;
+    margin:auto;
+    background-color:#1F2937;
+    border: 1px solid #000000;
+    font: inherit;
+   }
+  
    #lukumaara{
      padding-top: .7em;
      padding-bottom: .7em;
