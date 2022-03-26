@@ -9,6 +9,9 @@ layout: tehtava
 <link rel="stylesheet" type="text/css" href="/css/flashcard1.css"/>
 <html>
  <body>
+  <div id=valikko>
+  <button id="teema1">Teema 1</button>  <button id="teema2">Teema 2</button>   <button id="teema3">Teema 3</button>   <button id="teema4">Teema 4</button>
+ </div>
   <div id="cardArea"></div>
   <div id="lukumaara"></div>
   <div id="buttonArea" class="grid grid-cols-2"></div>
@@ -364,6 +367,10 @@ $(document).ready(function() {
         currentQuestion--;
         beginActivity();
       }
+    })
+    $("#teema1").on("click", function(){
+    currentQuestion = 4;
+    beginActivity();
     })
     $("#buttonArea").append('<div id="nextButton">Seuraava</div>');
     $("#nextButton").on("click", function() {
