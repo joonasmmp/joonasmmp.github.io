@@ -11,7 +11,7 @@ layout: tehtava
  <body>
  <div id="cardArea"></div>
 <div id=valikko>
-<button id="teema1">Teema 1</button>  <button id="teema2">Teema 2</button>   <button id="teema3">Teema 3</button>   <button id="teema4">Teema 4</button>
+<button id="teema1">Music & Dance</button>  <button id="teema2">Narratives</button>   <button id="teema3">Films & TV</button>   <button id="teema4">Visual Arts</button>
 </div>
   <div id="lukumaara"></div>
   <div id="buttonArea" class="grid grid-cols-3"></div>
