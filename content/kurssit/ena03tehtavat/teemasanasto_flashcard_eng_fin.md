@@ -369,7 +369,19 @@ $(document).ready(function() {
       }
     })
     $("#teema1").on("click", function(){
-    currentQuestion = 4;
+    currentQuestion = 0;
+    beginActivity();
+    })
+    $("#teema2").on("click", function(){
+    currentQuestion = 46;
+    beginActivity();
+    })
+    $("#teema3").on("click", function(){
+    currentQuestion = 114;
+    beginActivity();
+    })
+    $("#teema4").on("click", function(){
+    currentQuestion = 224;
     beginActivity();
     })
     $("#buttonArea").append('<div id="nextButton">Seuraava</div>');
