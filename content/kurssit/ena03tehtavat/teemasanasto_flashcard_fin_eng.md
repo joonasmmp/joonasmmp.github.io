@@ -369,7 +369,7 @@ $(document).ready(function() {
       }
     })
 
-    $("#buttonArea").append('<div id="random">Satunnainen</div>');
+    $("#buttonArea").append('<div id="random">Random</div>');
     $("#random").on("click", function() {
 	  var randomNumber = Math.floor(Math.random()*qbank.length);
       currentQuestion = randomNumber;
