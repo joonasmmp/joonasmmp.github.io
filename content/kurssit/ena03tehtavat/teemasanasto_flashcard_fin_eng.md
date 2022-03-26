@@ -1,5 +1,5 @@
 ---
-title: "Epäsuora esitys: Flashcard"
+title: "Teemasanasto: FIN-ENG"
 date: 2022-3-26
 draft: false
 type: page
@@ -9,10 +9,10 @@ layout: tehtava
 <link rel="stylesheet" type="text/css" href="/css/flashcard1.css"/>
 <html>
  <body>
-  <div id=valikko>
-  <button id="teema1">Teema 1</button>  <button id="teema2">Teema 2</button>   <button id="teema3">Teema 3</button>   <button id="teema4">Teema 4</button>
- </div>
-  <div id="cardArea"></div>
+ <div id="cardArea"></div>
+<div id=valikko>
+<button id="teema1">Teema 1</button>  <button id="teema2">Teema 2</button>   <button id="teema3">Teema 3</button>   <button id="teema4">Teema 4</button>
+</div>
   <div id="lukumaara"></div>
   <div id="buttonArea" class="grid grid-cols-2"></div>
  </body>
@@ -381,7 +381,7 @@ $(document).ready(function() {
     beginActivity();
     })
     $("#teema4").on("click", function(){
-    currentQuestion = 224;
+    currentQuestion = 223;
     beginActivity();
     })
     $("#buttonArea").append('<div id="nextButton">Seuraava</div>');
