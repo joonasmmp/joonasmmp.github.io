@@ -1,5 +1,5 @@
 ---
-title: "Laskettavat ja ei-laskettavat sanat: Lopputesti"
+title: "Laskettavat ja ei-laskettavat substantiivit: Lopputesti"
 date: 2022-3-28
 draft: false
 type: page

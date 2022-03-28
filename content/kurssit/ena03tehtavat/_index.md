@@ -7,8 +7,8 @@ layout: ohje
 ---
 Kurssi kolme eli kieli ja kulttuuri ja tässä sisältöä siihen
 
-##
-* [Laskettavat ja ei-laskettavat sanat: Lopputesti]({{<ref "countable_lopputesti.mdt" >}})
+## Laskettavat ja ei-laskettavat substantiivit
+* [Laskettavat ja ei-laskettavat substantiivit: Lopputesti]({{<ref "countable_lopputesti.mdt" >}})
 Onko sana laskettava vai ei-laskettava? Älä vastaa väärin.
 
 ## Genetiivi
