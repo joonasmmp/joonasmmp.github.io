@@ -7,6 +7,10 @@ layout: ohje
 ---
 Kurssi kolme eli kieli ja kulttuuri ja tässä sisältöä siihen
 
+##
+* [Laskettavat ja ei-laskettavat sanat: Lopputesti]({{<ref "countable_lopputesti.mdt" >}})
+Onko sana laskettava vai ei-laskettava? Älä vastaa väärin.
+
 ## Genetiivi
 * [Genetiivi: Flashcard]({{<ref "genetiivi_flashcard.mdt" >}})
 
