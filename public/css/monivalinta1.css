@@ -81,7 +81,7 @@
     padding-bottom: 2em;
   }
 
- #question p {
+  p#question {
     margin-bottom: 0;
     font-size: 1.3em;
 }
