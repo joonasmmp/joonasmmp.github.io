@@ -80,3 +80,8 @@
     color:white;
     padding-bottom: 2em;
   }
+
+  .p #question {
+    margin-bottom: 0;
+    font-size: 1.3em;
+}
