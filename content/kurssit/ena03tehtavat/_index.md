@@ -16,6 +16,11 @@ Ota säännöt haltuun nopealla monivalinnalla.
 
 Onko sana laskettava vai ei-laskettava? Älä vastaa väärin.
 
+## Artikkelit
+* [Artikkelit: Lopputesti]({{<ref "artikkelit_lopputesti.mdt" >}})
+
+Jatkuvasti kasvava määrä tiukkoja artikkelikysymyksiä. Vastaa väärin ja aloita alusta!
+
 ## Genetiivi
 * [Genetiivi: Flashcard]({{<ref "genetiivi_flashcard.mdt" >}})
 
