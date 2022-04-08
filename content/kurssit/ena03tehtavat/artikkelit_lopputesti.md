@@ -143,7 +143,6 @@ var questions = [
   new Question('However, I must admit I despise ______ French! They are awful!', ['a', 'an', 'the', '-'], 'the'),
   new Question('Stop pretending, we know you are from _____ Netherlands.', ['a', 'an', 'the', '-'], 'the'),
   new Question('Originally he is from _____ European country, but I forgot which one.', ['a', 'an', 'the', '-'], 'a'),
-  new Question('I need _____ telephone right now!', ['a', 'an', 'the', '-'], 'a'),
   new Question("Do you have ______ driver's license?", ['a', 'an', 'the', '-'], 'a'),
   new Question('Of course! I am ______ adult after all.', ['a', 'an', 'the', '-'], 'an'),
   new Question('_____ computer on my desk belongs to my husband.', ['a', 'an', 'the', '-'], 'the'),
