@@ -136,7 +136,7 @@ var questions = [
   new Question('Oh lord are you having ______ heart attack?', ['a', 'an', 'the', '-'], 'a'),
   new Question('We love _____ South of England.', ['a', 'an', 'the', '-'], 'the'),
   new Question('_____ Weasleys are an odd family.', ['a', 'an', 'the', '-'], 'the'),
-  new Question('You are _____ wizard Harry!', ['a', 'an', 'the', '-'], 'a'),
+  new Question('You are _____ wizard, Harry!', ['a', 'an', 'the', '-'], 'a'),
   new Question('What can we do to help _____ blind?', ['a', 'an', 'the', '-'], 'the'),
   new Question('Can you speak ______ French?', ['a', 'an', 'the', '-'], '-'),
   new Question('Oui oui monsieur, I love ______ France!', ['a', 'an', 'the', '-'], '-'),

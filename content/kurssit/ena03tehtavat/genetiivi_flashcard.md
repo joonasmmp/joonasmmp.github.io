@@ -99,6 +99,24 @@ beginActivity();
     }); //click function
   } //beginactivity
 );
+
+ document.addEventListener('keydown', (event) => {
+    var name = event.key;
+    var code = event.code;
+    if (name === 'Space') {
+        var parentDiv = document.getElementById("cardArea");
+        var childDiv = document.getElementById("card1");
+        if (parentDiv.contains(childDiv)) {
+        $("#cardArea").empty()
+        $("#cardArea").append('<div id="card2" class="card">' + qbank[currentQuestion][1] + '</div>')
+        $("#card2").css("background-color", "#00473c")
+      	} else {
+        $("#cardArea").empty()
+        $("#cardArea").append('<div id="card1" class="card">' + qbank[currentQuestion][0] + '</div>')
+        $("#card1").css("background-color", "#1F2937")
+      }
+    }
+  }, false);
 </script>
 
 {{< /rawhtml >}}
