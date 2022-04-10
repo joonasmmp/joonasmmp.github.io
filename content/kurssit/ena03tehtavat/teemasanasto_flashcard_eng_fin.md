@@ -335,48 +335,12 @@ $(document).ready(function() {
   ];
 
   beginActivity();
+  edellinen();
+  random();
+  seuraava();
+  kortinVaihto();
 
-  function beginActivity() {
-    $("#cardArea").empty();
-    $("#cardArea").append('<div id="card1" class="card">' + qbank[currentQuestion][0] + '</div>');
-    $("#card1").css("background-color", "#1F2937");
-    $("#lukumaara").empty();
-    var korttia = document.createElement('div')
-    	korttia.innerHTML = currentQuestion + 1 + " / " + qbank.length;
-    	document.getElementById('lukumaara').appendChild(korttia);
-   }   
-      
-    $("#cardArea").on("click", function() {
-        var parentDiv = document.getElementById("cardArea");
-        var childDiv = document.getElementById("card1");
-        if (parentDiv.contains(childDiv)) {
-        $("#cardArea").empty()
-        $("#cardArea").append('<div id="card2" class="card">' + qbank[currentQuestion][1] + '</div>')
-        $("#card2").css("background-color", "#00473c")
-      	} else {
-        $("#cardArea").empty()
-        $("#cardArea").append('<div id="card1" class="card">' + qbank[currentQuestion][0] + '</div>')
-        $("#card1").css("background-color", "#1F2937")
-      }
-      })
-
-    $("#buttonArea").empty();
-    $("#buttonArea").append('<div id="prevButton">Edellinen</div>');
-    $("#prevButton").on("click", function() {
-      if (currentQuestion > 0) {
-        currentQuestion--;
-        beginActivity();
-      }
-    })
-
-    $("#buttonArea").append('<div id="random">Random</div>');
-    $("#random").on("click", function() {
-	  var randomNumber = Math.floor(Math.random()*qbank.length);
-      currentQuestion = randomNumber;
-			beginActivity();
-    })
-
-    $("#teema1").on("click", function(){
+  	$("#teema1").on("click", function(){
     currentQuestion = 0;
     beginActivity();
     })
@@ -392,15 +356,104 @@ $(document).ready(function() {
     currentQuestion = 223;
     beginActivity();
     })
+
+  window.addEventListener('keydown', (e) => {
+    if (e.keyCode === 32 && e.target === document.body) {
+      e.preventDefault();
+    }
+  });
+
+  document.body.onkeydown = function(event) {
+    event = event || window.event;
+    var keycode = event.charCode || event.keyCode;
+    if (keycode === 37 && currentQuestion > 0) {
+      currentQuestion--;
+      beginActivity();
+    }
+
+    if (keycode === 82) {
+      var randomNumber = Math.floor(Math.random() * qbank.length);
+      currentQuestion = randomNumber;
+      beginActivity();
+    }
+
+    if (keycode === 39 && currentQuestion < qbank.length - 1) {
+      currentQuestion++;
+      beginActivity();
+    }
+
+    if (keycode === 32) {
+      var parentDiv = document.getElementById("cardArea");
+      var childDiv = document.getElementById("card1");
+      if (parentDiv.contains(childDiv)) {
+        $("#cardArea").empty()
+        $("#cardArea").append('<div id="card2" class="card">' + qbank[currentQuestion][1] + '</div>')
+        $("#card2").css("background-color", "#00473c")
+      } else {
+        $("#cardArea").empty()
+        $("#cardArea").append('<div id="card1" class="card">' + qbank[currentQuestion][0] + '</div>')
+        $("#card1").css("background-color", "#1F2937")
+      }
+    }
+
+  }
+
+  function beginActivity() {
+    $("#cardArea").empty();
+    $("#cardArea").append('<div id="card1" class="card">' + qbank[currentQuestion][0] + '</div>');
+    $("#card1").css("background-color", "#1F2937");
+    $("#lukumaara").empty();
+    var korttia = document.createElement('div')
+    korttia.innerHTML = currentQuestion + 1 + " / " + qbank.length;
+    document.getElementById('lukumaara').appendChild(korttia);
+  }
+
+  function kortinVaihto() {
+    $("#cardArea").on("click", function() {
+      var parentDiv = document.getElementById("cardArea");
+      var childDiv = document.getElementById("card1");
+      if (parentDiv.contains(childDiv)) {
+        $("#cardArea").empty()
+        $("#cardArea").append('<div id="card2" class="card">' + qbank[currentQuestion][1] + '</div>')
+        $("#card2").css("background-color", "#00473c")
+      } else {
+        $("#cardArea").empty()
+        $("#cardArea").append('<div id="card1" class="card">' + qbank[currentQuestion][0] + '</div>')
+        $("#card1").css("background-color", "#1F2937")
+      }
+    })
+  }
+
+
+  function edellinen() {
+    $("#buttonArea").append('<div id="prevButton">Edellinen</div>');
+    $("#prevButton").on("click", function() {
+      if (currentQuestion > 0) {
+        currentQuestion--;
+        beginActivity();
+      }
+    })
+  }
+
+  function random() {
+    $("#buttonArea").append('<div id="random">Random</div>');
+    $("#random").on("click", function() {
+      var randomNumber = Math.floor(Math.random() * qbank.length);
+      currentQuestion = randomNumber;
+      beginActivity();
+    })
+  }
+
+  function seuraava() {
     $("#buttonArea").append('<div id="nextButton">Seuraava</div>');
     $("#nextButton").on("click", function() {
       if (currentQuestion < qbank.length - 1) {
         currentQuestion++;
         beginActivity();
       }
-    }); //click function
-  } //beginactivity
-);
+    })
+  }
+})
 </script>
 
 {{< /rawhtml >}}

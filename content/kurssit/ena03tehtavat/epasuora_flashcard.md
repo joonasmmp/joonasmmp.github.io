@@ -12,7 +12,7 @@ Muodosta epäsuora kerronta korteissa 1-13. Käännä kortit 14-16 englanniksi.
  <body>
   <div id="cardArea"></div>
   <div id="lukumaara"></div>
-  <div id="buttonArea" class="grid grid-cols-2"></div>
+  <div id="buttonArea" class="grid grid-cols-3"></div>
  </body>
 </html>
 
