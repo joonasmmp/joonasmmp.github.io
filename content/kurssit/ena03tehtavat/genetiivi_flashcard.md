@@ -12,12 +12,11 @@ layout: tehtava
  <link rel="stylesheet" type="text/css" href="/css/flashcard1.css"/>
   <div id="cardArea"></div>
   <div id="lukumaara"></div>
-  <div id="buttonArea" class="grid grid-cols-2"></div>
+  <div id="buttonArea" class="grid grid-cols-3"></div>
  </body>
 </html>
 
-<script> 
-$(document).ready(function() {
+<script> $(document).ready(function() {
 
   var currentQuestion = 0;
   var qbank = [
@@ -27,12 +26,12 @@ $(document).ready(function() {
     ["Joten Travis ja Jack käyttävät Jackin äidin autoa", "Joten Travis ja Jack käyttävät Jackin äidin autoa.<br>= So Travis and Jack are using / use Jack's mother's car / the car of Jack's mother"],
     ["Kahdella Sheilan ystävällä on syntymäpäivät samana päivänä", "Kahdella Sheilan ystävällä on syntymäpäivät samana päivänä.<br>= Two of Sheila's friends / Two friends of Sheila's have their birthdays on the same day"],
     ["Lauantaina he ajavat ystäviensä synttärijuhlille", "Lauantaina he ajavat ystäviensä synttärijuhlille.<br>= On Saturday they will drive to their friends' birthday party / the birthday party of their friends(')"],
-    ["Et saa ottaa muiden lasten leluja kysymättä.","Et saa ottaa muiden lasten leluja kysymättä.<br>= You are not allowed to take other children’s toys / the toys of other children without asking."],
-    ["Naisten maajoukkue voitti Tanskan.","Naisten maajoukkue voitti Tanskan.<br>= The women’s national football team beat Denmark."],
-    ["Eläintenhoitaja laittoi ruokaa kaikkien eläinten häkkeihin.","Eläintenhoitaja laittoi ruokaa kaikkien eläinten häkkeihin.<br>= The animal keeper put food in all the animals’ cages / the cages of all the animals."],
+    ["Et saa ottaa muiden lasten leluja kysymättä.", "Et saa ottaa muiden lasten leluja kysymättä.<br>= You are not allowed to take other children’s toys / the toys of other children without asking."],
+    ["Naisten maajoukkue voitti Tanskan.", "Naisten maajoukkue voitti Tanskan.<br>= The women’s national football team beat Denmark."],
+    ["Eläintenhoitaja laittoi ruokaa kaikkien eläinten häkkeihin.", "Eläintenhoitaja laittoi ruokaa kaikkien eläinten häkkeihin.<br>= The animal keeper put food in all the animals’ cages / the cages of all the animals."],
     ["Kesäloman ensimmäinen päivä on opiskelijoiden vuoden suosikkipäivä.", "Kesäloman ensimmäinen päivä on opiskelijoiden vuoden suosikkipäivä.<br>= The first day of the summer holiday is the students’ favourite day of the year."],
-    ["Tuo on lankoni uusi iPad.","Tuo on lankoni uusi iPad.<br>= That is my brother-in-law’s new iPad."],
-    ["New York Cityn taksien väri on keltainen.","New York Cityn taksien väri on keltainen.<br>= The colour of New York City cabs is yellow."],
+    ["Tuo on lankoni uusi iPad.", "Tuo on lankoni uusi iPad.<br>= That is my brother-in-law’s new iPad."],
+    ["New York Cityn taksien väri on keltainen.", "New York Cityn taksien väri on keltainen.<br>= The colour of New York City cabs is yellow."],
     ["Minun mielestäni Mona Lisa on maailman kaunein maalaus.", "Minun mielestäni Mona Lisa on maailman kaunein maalaus.<br>= I think that Mona Lisa is the most beautiful painting in the world / the world’s most beautiful painting."],
     ["Kaikkien koulujen rehtoreilla oli kokous.", "Kaikkien koulujen rehtoreilla oli kokous.<br>=  The principals of all the schools had a meeting."],
     ["Mennään Julialle!", "Mennään Julialle!<br>= Let’s go to Julia’s (place)"],
@@ -56,7 +55,52 @@ $(document).ready(function() {
     ["Tämä on Sally, parhaan ystäväni sisaren poikaystävän veljen tyttöystävä.", "Tämä on Sally, parhaan ystäväni sisaren poikaystävän veljen tyttöystävä.<br>= This is Sally, my best friend’s sister’s boyfriend’s brother’s girlfriend / the girlfriend of the brother of the boyfriend of the sister of my best friend / …"],
   ];
 
-beginActivity();
+  beginActivity();
+  edellinen();
+  seuraava();
+  random();
+  kortinVaihto();
+
+  window.addEventListener('keydown', (e) => {
+    if (e.keyCode === 32 && e.target === document.body) {
+      e.preventDefault();
+    }
+  });
+
+  document.body.onkeydown = function(event) {
+    event = event || window.event;
+    var keycode = event.charCode || event.keyCode;
+    if (keycode === 37 && currentQuestion > 0) {
+      currentQuestion--;
+      beginActivity();
+    }
+
+    if (keycode === 82) {
+      var randomNumber = Math.floor(Math.random() * qbank.length);
+      currentQuestion = randomNumber;
+      beginActivity();
+    }
+
+    if (keycode === 39 && currentQuestion < qbank.length - 1) {
+      currentQuestion++;
+      beginActivity();
+    }
+
+    if (keycode === 32) {
+      var parentDiv = document.getElementById("cardArea");
+      var childDiv = document.getElementById("card1");
+      if (parentDiv.contains(childDiv)) {
+        $("#cardArea").empty()
+        $("#cardArea").append('<div id="card2" class="card">' + qbank[currentQuestion][1] + '</div>')
+        $("#card2").css("background-color", "#00473c")
+      } else {
+        $("#cardArea").empty()
+        $("#cardArea").append('<div id="card1" class="card">' + qbank[currentQuestion][0] + '</div>')
+        $("#card1").css("background-color", "#1F2937")
+      }
+    }
+
+  }
 
   function beginActivity() {
     $("#cardArea").empty();
@@ -64,25 +108,28 @@ beginActivity();
     $("#card1").css("background-color", "#1F2937");
     $("#lukumaara").empty();
     var korttia = document.createElement('div')
-    	korttia.innerHTML = currentQuestion + 1 + " / " + qbank.length;
-    	document.getElementById('lukumaara').appendChild(korttia);
-   }   
-      
+    korttia.innerHTML = currentQuestion + 1 + " / " + qbank.length;
+    document.getElementById('lukumaara').appendChild(korttia);
+  }
+
+  function kortinVaihto() {
     $("#cardArea").on("click", function() {
-        var parentDiv = document.getElementById("cardArea");
-        var childDiv = document.getElementById("card1");
-        if (parentDiv.contains(childDiv)) {
+      var parentDiv = document.getElementById("cardArea");
+      var childDiv = document.getElementById("card1");
+      if (parentDiv.contains(childDiv)) {
         $("#cardArea").empty()
         $("#cardArea").append('<div id="card2" class="card">' + qbank[currentQuestion][1] + '</div>')
         $("#card2").css("background-color", "#00473c")
-      	} else {
+      } else {
         $("#cardArea").empty()
         $("#cardArea").append('<div id="card1" class="card">' + qbank[currentQuestion][0] + '</div>')
         $("#card1").css("background-color", "#1F2937")
       }
-      })
+    })
+  }
 
-    $("#buttonArea").empty();
+
+  function edellinen() {
     $("#buttonArea").append('<div id="prevButton">Edellinen</div>');
     $("#prevButton").on("click", function() {
       if (currentQuestion > 0) {
@@ -90,33 +137,27 @@ beginActivity();
         beginActivity();
       }
     })
+  }
+
+  function random() {
+    $("#buttonArea").append('<div id="random">Random</div>');
+    $("#random").on("click", function() {
+      var randomNumber = Math.floor(Math.random() * qbank.length);
+      currentQuestion = randomNumber;
+      beginActivity();
+    })
+  }
+
+  function seuraava() {
     $("#buttonArea").append('<div id="nextButton">Seuraava</div>');
     $("#nextButton").on("click", function() {
       if (currentQuestion < qbank.length - 1) {
         currentQuestion++;
         beginActivity();
       }
-    }); //click function
-  } //beginactivity
-);
-
- document.addEventListener('keydown', (event) => {
-    var name = event.key;
-    var code = event.code;
-    if (name === 'Space') {
-        var parentDiv = document.getElementById("cardArea");
-        var childDiv = document.getElementById("card1");
-        if (parentDiv.contains(childDiv)) {
-        $("#cardArea").empty()
-        $("#cardArea").append('<div id="card2" class="card">' + qbank[currentQuestion][1] + '</div>')
-        $("#card2").css("background-color", "#00473c")
-      	} else {
-        $("#cardArea").empty()
-        $("#cardArea").append('<div id="card1" class="card">' + qbank[currentQuestion][0] + '</div>')
-        $("#card1").css("background-color", "#1F2937")
-      }
-    }
-  }, false);
+    })
+  }
+})
 </script>
 
 {{< /rawhtml >}}
