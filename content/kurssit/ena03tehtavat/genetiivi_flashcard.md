@@ -57,8 +57,8 @@ layout: tehtava
 
   beginActivity();
   edellinen();
-  seuraava();
   random();
+  seuraava();
   kortinVaihto();
 
   window.addEventListener('keydown', (e) => {
