@@ -7,11 +7,9 @@ layout: tehtava
 ---
 
 {{< rawhtml >}}
-<div id="tehtava">
- <ul id="terms">
- </ul>
- <ul id="defs">
- </ul>
+<div id="tehtava" class="grid grid-cols-2">
+ <div><ul id="terms"> </ul></div>
+ <div><ul id="defs"> </ul></div>
 </div>
 
 <script>
@@ -21,44 +19,32 @@ window.onload = function() {
   //Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main file
   var data = {
     terms: [{
-        index: 0,
-        text: "SalesWay"
+        index: 0, text: "SalesWay"
       }, {
-        index: 1,
-        text: "Red Flags"
+        index: 1, text: "Red Flags"
       }, {
-        index: 2,
-        text: "Coach"
+        index: 2, text: "Coach"
       }, {
-        index: 3,
-        text: "Single Sales Objective"
+        index: 3, text: "Single Sales Objective"
       }, {
-        index: 4,
-        text: "Opportunity Plan"
+        index: 4, text: "Opportunity Plan"
       }, {
-        index: 5,
-        text: "Minimum Acceptable Action"
+        index: 5, text: "Minimum Acceptable Action"
       },
 
     ],
     definitions: [{
-        index: 0,
-        text: "SalesWay MSI Go-to-Customer Methodology"
+        index: 0, text: "SalesWay MSI Go-to-Customer Methodology"
       }, {
-        index: 1,
-        text: "Indicate unknowns or uncertainties"
+        index: 1, text: "Indicate unknowns or uncertainties"
       }, {
-        index: 2,
-        text: "Acts as a guide"
+        index: 2, text: "Acts as a guide"
       }, {
-        index: 3,
-        text: "Objective aligned to an opportunity"
+        index: 3, text: "Objective aligned to an opportunity"
       }, {
-        index: 4,
-        text: "Strategic in nature"
+        index: 4, text: "Strategic in nature"
       }, {
-        index: 5,
-        text: "Your walk away point"
+        index: 5, text: "Your walk away point"
       },
 
     ],
@@ -243,13 +229,12 @@ div#tehtava ul {
 }
 
 div#tehtava ul#terms {
-  left: 200px;
   display: flex;
   flex-direction: column;
 }
 
 div#tehtava ul#defs {
-  left: 500px;
+  left: 22em;
   display: flex;
   flex-direction: column;
 }
@@ -265,8 +250,8 @@ div#tehtava ul#defs li {
 
 div#tehtava li {
   float: left;
-  height: 65px;
-  width: 220px;
+  height: 4em;
+  width: 17em;
   margin: 10px;
   background: white;
   text-align: center;
@@ -298,7 +283,7 @@ div#tehtava div#counter {
 }
 
 div#tehtava ul li span {
-  width: 100px;
+  width: 80%;
   height: 100px;
   display: table-cell;
   vertical-align: middle;
