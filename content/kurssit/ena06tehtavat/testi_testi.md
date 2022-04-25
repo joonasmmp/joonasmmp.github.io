@@ -213,7 +213,7 @@ window.onload = function() {
 
 <style>
 div#tehtava {
-  position: fixed;
+  overflow: hidden;
 }
 
 div#tehtava ul {
@@ -230,7 +230,6 @@ div#tehtava ul#terms {
 }
 
 div#tehtava ul#defs {
-  left: 22em;
   display: flex;
   flex-direction: column;
 }
