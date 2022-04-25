@@ -277,13 +277,12 @@ div#tehtava div#counter {
 }
 
 div#tehtava ul li span {
-  width: 80%;
-  height: 100px;
+  width: 100%;
+  height: 100%;
   display: block;
   vertical-align: middle;
   text-align: center;
   padding: 10px;
-  padding-top: 0;
   transform: none;
   transition: opacity 0.2s ease-out;
 }
