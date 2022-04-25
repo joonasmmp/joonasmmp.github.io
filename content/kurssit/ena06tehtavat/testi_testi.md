@@ -218,9 +218,7 @@ div#tehtava {
 
 div#tehtava ul {
   list-style: none;
-  width: 240px;
   font-size: 0.75em;
-  padding: 10px;
 }
 
 div#tehtava ul#terms {
@@ -245,7 +243,6 @@ div#tehtava ul#defs li {
 div#tehtava li {
   float: left;
   height: 4em;
-  width: 17em;
   margin: 10px;
   background: white;
   text-align: center;
@@ -266,14 +263,6 @@ div#tehtava li[data-selected] {
   transform: scale(1.05, 1.05);
   box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.75);
   outline: 4px solid #00A0DF;
-}
-
-div#tehtava div#counter {
-  position: absolute;
-  left: 100px;
-  margin: 1rem;
-  font-size: 3em;
-  display: none;
 }
 
 div#tehtava ul li span {
