@@ -7,14 +7,12 @@ layout: tehtava
 ---
 
 {{< rawhtml >}}
-<body>
-<section>
+<section id="tehtava">
  <ul id="terms">
  </ul>
  <ul id="defs">
  </ul>
 </section>
-</body>
 
 <script>
     //Execute a JavaScript immediately after a page has been loaded
@@ -228,151 +226,7 @@ window.onload = function() {
 </script>
 
 <style>
-    /* https://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-
-body {
-  line-height: 1;
-}
-
-ol,
-ul {
-  list-style: none;
-}
-
-blockquote,
-q {
-  quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-/*style*/
-
-body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-  ackground: #1D1F20;
-  background: #1D1F20;
-}
-
-section {
+section#tehtava {
   position: relative;
   top: 100px;
   margin: 0 auto;
@@ -380,7 +234,7 @@ section {
   height: 420px;
 }
 
-ul {
+ul#tehtava {
   list-style: none;
   width: 240px;
   font-size: 0.75em;
@@ -409,7 +263,7 @@ ul#defs li {
   color: #808080
 }
 
-li {
+li#tehtava {
   float: left;
   height: 65px;
   width: 220px;
@@ -423,7 +277,7 @@ li {
   box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 1);
 }
 
-li:hover {
+li:hover#tehtava {
   transform: scale(1.05, 1.05);
   -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 1);
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 1);
@@ -459,7 +313,7 @@ span:hover {
   transform: none;
 }
 
-button {
+button#tehtava {
   position: absolute;
   padding: 0;
   margin: 0;
