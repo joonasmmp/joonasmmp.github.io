@@ -280,8 +280,6 @@ div#tehtava div#counter {
 
 div#tehtava ul li span {
   width: 80%;
-  height: 100px;
-  display: table-cell;
   vertical-align: middle;
   text-align: center;
   padding: 10px;
