@@ -19,32 +19,32 @@ window.onload = function() {
   //Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main file
   var data = {
     terms: [{
-        index: 0, text: "SalesWay"
+        index: 0, text: "Koira"
       }, {
-        index: 1, text: "Red Flags"
+        index: 1, text: "Gorilla"
       }, {
-        index: 2, text: "Coach"
+        index: 2, text: "Riisi"
       }, {
-        index: 3, text: "Single Sales Objective"
+        index: 3, text: "Metsuri"
       }, {
-        index: 4, text: "Opportunity Plan"
+        index: 4, text: "Papu"
       }, {
-        index: 5, text: "Minimum Acceptable Action"
+        index: 5, text: "Koivu"
       },
 
     ],
     definitions: [{
-        index: 0, text: "SalesWay MSI Go-to-Customer Methodology"
+        index: 0, text: "Dog"
       }, {
-        index: 1, text: "Indicate unknowns or uncertainties"
+        index: 1, text: "Gorilla"
       }, {
-        index: 2, text: "Acts as a guide"
+        index: 2, text: "Rice"
       }, {
-        index: 3, text: "Objective aligned to an opportunity"
+        index: 3, text: "Lumberjack"
       }, {
-        index: 4, text: "Strategic in nature"
+        index: 4, text: "Bean"
       }, {
-        index: 5, text: "Your walk away point"
+        index: 5, text: "Birch"
       },
 
     ],
@@ -279,7 +279,7 @@ div#tehtava div#counter {
 div#tehtava ul li span {
   width: 80%;
   height: 100px;
-  display: table-cell;
+  display: block;
   vertical-align: middle;
   text-align: center;
   padding: 10px;
