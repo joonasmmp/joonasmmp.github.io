@@ -7,12 +7,12 @@ layout: tehtava
 ---
 
 {{< rawhtml >}}
-<section id="tehtava">
+<div id="tehtava">
  <ul id="terms">
  </ul>
  <ul id="defs">
  </ul>
-</section>
+</div>
 
 <script>
     //Execute a JavaScript immediately after a page has been loaded
@@ -226,7 +226,7 @@ window.onload = function() {
 </script>
 
 <style>
-section#tehtava {
+div#tehtava {
   position: relative;
   top: 100px;
   margin: 0 auto;
@@ -234,7 +234,7 @@ section#tehtava {
   height: 420px;
 }
 
-ul#tehtava {
+div#tehtava .ul {
   list-style: none;
   width: 240px;
   font-size: 0.75em;
@@ -263,7 +263,7 @@ ul#defs li {
   color: #808080
 }
 
-li#tehtava {
+div#tehtava .li {
   float: left;
   height: 65px;
   width: 220px;
@@ -277,7 +277,7 @@ li#tehtava {
   box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 1);
 }
 
-li:hover#tehtava {
+li:hover {
   transform: scale(1.05, 1.05);
   -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 1);
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 1);
@@ -313,7 +313,7 @@ span:hover {
   transform: none;
 }
 
-button#tehtava {
+div#tehtava .button {
   position: absolute;
   padding: 0;
   margin: 0;
