@@ -220,7 +220,6 @@ div#tehtava ul {
   list-style: none;
   width: 240px;
   font-size: 0.75em;
-  position: absolute;
   padding: 10px;
 }
 
