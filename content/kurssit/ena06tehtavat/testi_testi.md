@@ -234,7 +234,7 @@ div#tehtava {
   height: 420px;
 }
 
-div#tehtava .ul {
+div#tehtava ul {
   list-style: none;
   width: 240px;
   font-size: 0.75em;
@@ -242,28 +242,28 @@ div#tehtava .ul {
   padding: 10px;
 }
 
-div#tehtava .ul#terms {
+div#tehtava ul#terms {
   left: 200px;
   display: flex;
   flex-direction: column;
 }
 
-div#tehtava .ul#defs {
+div#tehtava ul#defs {
   left: 500px;
   display: flex;
   flex-direction: column;
 }
 
-div#tehtava .ul#terms li {
+div#tehtava ul#terms li {
   background: #808080;
   color: #ffffff;
 }
 
-div#tehtava .ul#defs li {
+div#tehtava ul#defs li {
   color: #808080
 }
 
-div#tehtava .li {
+div#tehtava li {
   float: left;
   height: 65px;
   width: 220px;
@@ -277,19 +277,19 @@ div#tehtava .li {
   box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 1);
 }
 
-div#tehtava .li:hover {
+div#tehtava li:hover {
   transform: scale(1.05, 1.05);
   -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 1);
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 1);
 }
 
-div#tehtava .li[data-selected] {
+div#tehtava li[data-selected] {
   transform: scale(1.05, 1.05);
   box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.75);
   outline: 4px solid #00A0DF;
 }
 
-div#tehtava .div#counter {
+div#tehtava div#counter {
   position: absolute;
   left: 100px;
   margin: 1rem;
@@ -297,7 +297,7 @@ div#tehtava .div#counter {
   display: none;
 }
 
-div#tehtava .ul li span {
+div#tehtava ul li span {
   width: 100px;
   height: 100px;
   display: table-cell;
@@ -309,11 +309,11 @@ div#tehtava .ul li span {
   transition: opacity 0.2s ease-out;
 }
 
-div#tehtava .span:hover {
+div#tehtava span:hover {
   transform: none;
 }
 
-div#tehtava .button {
+div#tehtava button {
   position: absolute;
   padding: 0;
   margin: 0;
@@ -331,18 +331,18 @@ div#tehtava .button {
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 1);
 }
 
-div#tehtava .button:hover {
+div#tehtava button:hover {
   background-color: #30BCF3;
   cursor: pointer;
 }
 
-div#tehtava .button:active {
+div#tehtava button:active {
   box-shadow: none;
   outline: none;
   transform: scale(0.95, 0.95);
 }
 
-div#tehtava .button:focus {
+div#tehtava button:focus {
   outline: none;
 }
 
