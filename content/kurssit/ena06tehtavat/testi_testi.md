@@ -213,11 +213,7 @@ window.onload = function() {
 
 <style>
 div#tehtava {
-  position: relative;
-  top: 100px;
-  margin: 0 auto;
-  width: 960px;
-  height: 420px;
+  position: fixed;
 }
 
 div#tehtava ul {
