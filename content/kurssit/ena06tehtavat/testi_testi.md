@@ -153,6 +153,8 @@ window.onload = function() {
   function shuffle() {
     randomSort(data.terms)
     randomSort(data.definitions)
+    createListHTML(data.terms, termsContainer)
+    createListHTML(data.definitions, defsContainer)
   }
 
   function randomSort(array) {
@@ -218,7 +220,7 @@ div#tehtava ul#terms li {
 }
 
 div#tehtava ul#defs li {
-  color: #808080
+  color: #000000
 }
 
 div#tehtava li {
