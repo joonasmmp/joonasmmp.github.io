@@ -12,8 +12,7 @@ layout: tehtava
  <div><ul id="defs"> </ul></div>
 </div>
 
-<script>
-    //Execute a JavaScript immediately after a page has been loaded
+<script>    //Execute a JavaScript immediately after a page has been loaded
 window.onload = function() {
 
   //Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main file
@@ -140,7 +139,7 @@ window.onload = function() {
       //var def = document.querySelector("#defs [data-index='"+selectedDef+"']");
       var def = defsContainer.querySelector("[data-index='" + selectedDef + "']");
       if (isMatch(selectedTerm, selectedDef)) {
-
+        
         term.className = "score";
         def.className = "score";
       }
@@ -151,27 +150,9 @@ window.onload = function() {
     }
   })
 
-  function reset() {
-    var resetTerms = termsContainer.querySelectorAll("li");
-    var resetDefs = defsContainer.querySelectorAll("li");
-    for (var i = 0; i < resetTerms.length; i++) {
-      resetTerms[i].removeAttribute("class", "score");
-      resetTerms[i].removeAttribute("data-selected");
-    }
-    for (i = 0; i < resetDefs.length; i++) {
-      resetDefs[i].removeAttribute("class", "score");
-      resetDefs[i].removeAttribute("data-selected");
-    }
-
-    selectedTerm = null;
-    selectedDef = null;
-  }
-
   function shuffle() {
     randomSort(data.terms)
     randomSort(data.definitions)
-    createListHTML(data.terms, termsContainer)
-    createListHTML(data.definitions, defsContainer)
   }
 
   function randomSort(array) {
