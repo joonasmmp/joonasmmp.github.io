@@ -213,7 +213,7 @@ div#tehtava ul#defs {
 }
 
 div#tehtava ul#terms li {
-  background: #808080;
+  background: #1F2937;
   color: #ffffff;
 }
 
@@ -231,7 +231,7 @@ div#tehtava li {
   transition: all .2s ease-out;
   border-radius: 0;
   -webkit-box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 1);
-  box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 1);
+  box-shadow: 0 3px 5px 1px #000;
 }
 
 div#tehtava li:hover {
