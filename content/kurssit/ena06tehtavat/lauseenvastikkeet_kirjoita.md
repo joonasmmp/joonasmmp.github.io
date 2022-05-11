@@ -1,6 +1,6 @@
 ---
-title: "Genetiivi: Flashcard"
-date: 2022-3-20
+title: "Lauseenvastikkeet: Kirjoita"
+date: 2022-5-11
 draft: false
 type: page
 layout: tehtava
@@ -48,13 +48,10 @@ display: inline-block;
 align-content: center;
 }
 
-.tehtava {
-    font-size: 1.125 rem;
-}
-
 .tehtava ol {
 list-style: none;
 margin-left: 0;
+font-size: 1.125rem; !important
 }
 
 .oikein input[type=text] {
@@ -77,7 +74,7 @@ margin-left: 0;
     
 #submit {
   border: 0px;
-  align: center;
+  justify-content: center;
 }
 
 .tehtava #vastauspainike {
