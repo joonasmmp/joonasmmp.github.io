@@ -6,6 +6,8 @@ type: page
 layout: tehtava
 ---
 
+Muuta lauseenvastikkeiksi.
+
 {{< rawhtml >}}
 
 <div class="tehtava">
@@ -40,12 +42,6 @@ layout: tehtava
 
 <hr style="height:1px;width:360px;color:black;background-color:gray">
 
-  </body>
-</html>
-
-<p></p>  
-<a href="index.html">Palaa etusivulle</a>
-
 <style>
 li {
 display: inline-block;
@@ -57,20 +53,10 @@ list-style: none;
 padding-left: 3px;
 }
 
-form input {
-    width: 100px;
-    font-size: 10px;
-    outline: none;
-    border: none;
-    border-bottom: 1px solid black;
-    padding: 0px 1px 1px 1px;
-}
-
 .oikein input[type=text] {
     outline: none;
     border: none;
     border-bottom: 2px solid #299617;
-    background-image: url('https://joonasmmp.github.io/englantia/correct.jpg');
     background-size: 20px 20px;
     background-repeat: no-repeat;
     background-position: right;
@@ -92,11 +78,7 @@ form input {
     
 #submit {
   border: 0px;
-  background-color: white;
-  width: 150px;
-  font-family: 'Times New Roman', serif;
-  font-size: 12px;
-  margin-left: 105px;
+  align: center;
 }
 
 .tehtava h1 {
@@ -123,13 +105,14 @@ form input {
 }
 
 form {
-  text-align: justify;
-  font-size: 12px;
-  font-family: 'Times New Roman', serif;
   line-height: 2;
-  max-width: 360px;
-  margin: auto;
-  word-wrap: break-word;
+}
+
+form input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 0px 1px 1px 1px;
 }
 
 #resetbutton {
