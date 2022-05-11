@@ -16,7 +16,7 @@ Muuta lauseenvastikkeiksi.
   
 1. Before you apply for a job, you should consider the following things.
 <br>
-<li><input id="q1" type="text"/></li> for a job, you should consider the following things.
+= <li><input id="q1" type="text"/></li> for a job, you should consider the following things.
 <br>
 2. Over the years, many exciting stories about ducks <li><input id="q2" type="text"/></li>. <i>(on kirjoitettu)</i>
 <br>
@@ -48,9 +48,8 @@ display: inline-block;
 align-content: center;
 }
 
-ol {
+.tehtava ol {
 list-style: none;
-padding-left: 3px;
 }
 
 .oikein input[type=text] {
