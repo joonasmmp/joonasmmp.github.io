@@ -51,7 +51,7 @@ align-content: center;
 .tehtava ol {
 list-style: none;
 margin-left: 0;
-font-size: 1.125rem; !important
+font-size: 1.125rem !important;
 }
 
 .oikein input[type=text] {
