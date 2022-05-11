@@ -40,7 +40,7 @@ Muuta lauseenvastikkeiksi.
   <input type="submit" id="submit" value="Tarkista vastaukset" />
 </form>
 
-<hr style="height:1px;width:360px;color:black;background-color:gray">
+</div>
 
 <style>
 li {
@@ -48,10 +48,13 @@ display: inline-block;
 align-content: center;
 }
 
+.tehtava {
+    font-size: 1.125 rem;
+}
+
 .tehtava ol {
 list-style: none;
 margin-left: 0;
-font-size: 1.125 rem;
 }
 
 .oikein input[type=text] {
@@ -71,35 +74,12 @@ font-size: 1.125 rem;
     padding: 0px;
 }
 
-.tehtava body {
-  padding: 20px;
-  font-family: 'Times New Roman', serif;
-  text-align: center;
-}
     
 #submit {
   border: 0px;
   align: center;
 }
 
-.tehtava h1 {
-  font-size: 20px;
-  font-family: 'Times New Roman', serif;
-  color: #ea0083;
-  font-weight: normal;
-}
-
-.tehtava button {
-  color: white;
-  width: 90px;
-  font-size: 18px;
-  font-family: 'Times New Roman', serif;
-  background: #eb5615;
-  padding: 0px;
-  border: 1px solid #000000;
-  border-radius: 3px;
-}	
-	
 .tehtava #vastauspainike {
   text-align: center;
   margin: 0 auto;
