@@ -64,8 +64,9 @@ Muuta lauseenvastikkeiksi.
 
   </ol>
   
-  <br>
+<div id="buttonWrapper">
    <input type="submit" id="submit" value="Tarkista vastaukset" />
+   </div>
 </form>
 
 </div>
@@ -124,6 +125,7 @@ form input {
 .dark input {
   background-color: #181a1b;
   color: #FFFFFF;
+  border-bottom: 1px solid white;
 }
 
 .tehtava input[type="text"],
@@ -156,6 +158,12 @@ form input {
     background: #181a1b;
      color: #FFFFFF;
   }
+
+  #Buttonwrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 </style>
 
