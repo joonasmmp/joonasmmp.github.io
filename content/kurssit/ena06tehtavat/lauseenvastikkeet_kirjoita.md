@@ -146,7 +146,7 @@ const input = document.querySelector('input');
 const span = document.querySelector('span');
 
 document.querySelectorAll("input").forEach(elem => elem.addEventListener('input', function (event) {
-    span.innerHTML = this.value.replace(/\s/g, '_');
+    span.innerHTML = this.value.replace(/\s/g, '&nbsp;');
     this.style.width = span.offsetWidth + 'px';
 }));
 
