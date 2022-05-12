@@ -39,6 +39,7 @@ Muuta lauseenvastikkeiksi.
 </form>
 
 </div>
+
 <style>
 li {
 display: inline-block;
@@ -91,17 +92,17 @@ form input {
   border: 0px;
 }
 
-input[type="text"],
-span {
+.tehtava input[type="text"],
+.tehtava span {
     font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: inherit;
 }
 
-input[type="text"] {
+.tehtava input[type="text"] {
     width: 6em;
 }
 
-span {
+.tehtava span {
     position: absolute;
     left: -9999px;
     display: inline-block;
