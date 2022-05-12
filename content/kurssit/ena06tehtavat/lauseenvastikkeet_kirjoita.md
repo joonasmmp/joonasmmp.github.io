@@ -101,6 +101,10 @@ font-size: 1.125rem !important;
   justify-content: center;
 }
 
+.dark #submit {
+  color: #FFFFFF;
+}
+
 .tehtava #vastauspainike {
   text-align: center;
   margin: 0 auto;
@@ -119,7 +123,7 @@ form input {
 
 .dark input {
   background-color: #181a1b;
-  color: #000000;
+  color: #FFFFFF;
 }
 
 .tehtava input[type="text"],
