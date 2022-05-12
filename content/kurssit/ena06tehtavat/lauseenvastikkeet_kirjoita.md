@@ -14,17 +14,19 @@ Muuta lauseenvastikkeiksi.
   <ol>
   
 1. Before you apply for a visa, you should consider the following things.
+<br>= <li><input id="q1" type="text"/><span></span></li> for a visa, you should consider the following things.<br>
+2. As he was anxious to get away, he drove all through the night.
+<br>= <li><input id="q2" type="text"/><span></span></li>, he drove all through the night.
 <br>
-= <li><input id="q1" type="text"/><span></span></li> for a visa, you should consider the following things.
+3. In the morning he reached the cottage which stood by the lake.
+<br>= In the morning he reached the cottage <li><input id="q3" type="text"/><span></span></li>.<br>
+4. After Tim unpacked his luggage, he made himself a cup of tea.
+<br>=<li><input id="q4" type="text"/><span></span></li>, he made himself a cup of tea.<br>
+5. Though he felt tired, he decided to chop some wood.<br>
+<br>=<li><input id="q5" type="text"/><span></span></li>, he decided to chop some wood.
 <br>
-2. Over the years, many exciting stories about ducks <li><input id="q2" type="text"/><span></span></li>. <i>(on kirjoitettu)</i>
-<br>
-3. The use of renewable energy <li><input id="q3" type="text"/><span></span></li>. <i>(on lisätty)</i>
-<br>
-4. The cafeteria <li><input id="q4" type="text"/></li> at 10 am. <i>(avataan)</i>
-<br>
-5. Shooting ducks <li><input id="q5" type="text"/></li> outside hunting season. <i>(ei ole sallittua)</i>
-<br>6. Ducks <li><input id="q6" type="text"/></li> in cages, unless they get aggressive. <i>(ei pidetä)</i>
+6. Tomorrow he would start his work if it was possible.<br>
+<br>Tomorrow he would start his work<li><input id="q4" type="text"/><span></span></li>.
 <br>7. In the Middle Ages, ducks <li><input id="q7" type="text"/></li> very intelligent. <i>(pidettiin)</i>
 <br>8. New laws <li><input id="q8" type="text"/></li> to protect them from hungry villagers. <i>(tehtiin)</i>
 <br>9. In 1632, it <li><input id="q9" type="text"/></li> they were sacred animals in Ireland. <i>(päätettiin)</i>
@@ -35,6 +37,7 @@ Muuta lauseenvastikkeiksi.
 
   </ol>
   
+  <br>
    <input type="submit" id="submit" value="Tarkista vastaukset" />
 </form>
 
