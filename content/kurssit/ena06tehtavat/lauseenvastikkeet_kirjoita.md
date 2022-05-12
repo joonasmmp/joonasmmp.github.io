@@ -117,9 +117,9 @@ form input {
     font-size: inherit;
 }
 
-#resetbutton {
-  background: white;
-  border: 0px;
+.dark input {
+  background-color: #181a1b;
+  color: #000000;
 }
 
 .tehtava input[type="text"],
@@ -145,8 +145,7 @@ form input {
     width: 100%;
     float: left;
     background: #fafafa;
-    border-top: 1px solid #d4d4d4;
-    border-left: 1px solid #d4d4d4;
+    border: 1px solid #d4d4d4;
     }
 
 .dark section {
