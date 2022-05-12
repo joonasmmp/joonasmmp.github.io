@@ -30,13 +30,13 @@ Muuta lauseenvastikkeiksi.
 8. As the weather was pleasant, he stopped working and went for a walk.
 <br>=<li><input id="q8" type="text"/><span></span></li>, he stopped working and went for a walk.<br>
 9. After a while he spotted a house which has been built in the last century.
-<br>= After a while he spotted a house <li><input id="q9" type="text"/><span></span></li>.
+<br>= After a while he spotted a house <li><input id="q9" type="text"/><span></span></li>.<br>
 10. As I got a summer job, I could finally buy a house.
 <br>=<input id="q10" type="text"/><span></span></li>, I could finally buy a house.<br>
 11. If it isn't repaired at once, it might collapse.
-<br>=<input id="q11" type="text"/><span></span></li>, it might collapse.
+<br>=<input id="q11" type="text"/><span></span></li>, it might collapse.<br>
 12. As it was an old house, it didn't cost much.
-<br>=<input id="q12" type="text"/><span></span></li>, it didn't cost much.
+<br>=<input id="q12" type="text"/><span></span></li>, it didn't cost much.<br>
 
   </ol>
   
