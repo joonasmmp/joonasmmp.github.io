@@ -14,26 +14,29 @@ Muuta lauseenvastikkeiksi.
   <ol>
   
 1. Before you apply for a visa, you should consider the following things.
-<br>= <li><input id="q1" type="text"/><span></span></li> for a visa, you should consider the following things.<br>
+<br>= <li><input id="q1" type="text"/><span></span></li>&nbsp for a visa, you should consider the following things.<br>
 2. As he was anxious to get away, he drove all through the night.
-<br>= <li><input id="q2" type="text"/><span></span></li>, he drove all through the night.
-<br>
+<br>= <li><input id="q2" type="text"/><span></span></li>, he drove all through the night.<br>
 3. In the morning he reached the cottage which stood by the lake.
 <br>= In the morning he reached the cottage <li><input id="q3" type="text"/><span></span></li>.<br>
 4. After Tim unpacked his luggage, he made himself a cup of tea.
 <br>=<li><input id="q4" type="text"/><span></span></li>, he made himself a cup of tea.<br>
-5. Though he felt tired, he decided to chop some wood.<br>
-<br>=<li><input id="q5" type="text"/><span></span></li>, he decided to chop some wood.
-<br>
-6. Tomorrow he would start his work if it was possible.<br>
-<br>Tomorrow he would start his work<li><input id="q4" type="text"/><span></span></li>.
-<br>7. In the Middle Ages, ducks <li><input id="q7" type="text"/></li> very intelligent. <i>(pidettiin)</i>
-<br>8. New laws <li><input id="q8" type="text"/></li> to protect them from hungry villagers. <i>(tehtiin)</i>
-<br>9. In 1632, it <li><input id="q9" type="text"/></li> they were sacred animals in Ireland. <i>(päätettiin)</i>
-<br>10. New exercises that don't include ducks <li><input id="q10" type="text"/></li>. <i>(täytyy tehdä)</i>
-<br>11. Previous exercises <li><input id="q11" type="text"/></li> to make more sense. <i>(pitäisi muuttaa)</i>
-<br>12. The word 'duck' <li><input id="q12" type="text"/></li> with something more interesting. <i>(voitaisiin korvata)</i>
-<br>13. However, any changes <li><input id="q13" type="text"/></li>. <i>(ei tulla tekemään)</i>
+5. Though he felt tired, he decided to chop some wood.
+<br>=<li><input id="q5" type="text"/><span></span></li>, he decided to chop some wood.<br>
+6. Tomorrow he would start his work if it was possible.
+<br>= Tomorrow he would start his work<li><input id="q6" type="text"/><span></span></li>.<br>
+7. If he was lucky, he would be done by Christmas.
+<br>=<li><input id="q7" type="text"/><span></span></li>, he would be done by Christmas.<br>
+8. As the weather was pleasant, he stopped working and went for a walk.
+<br>=<li><input id="q8" type="text"/><span></span></li>, he stopped working and went for a walk.<br>
+9. After a while he spotted a house which has been built in the last century.
+<br>= After a while he spotted a house <li><input id="q9" type="text"/><span></span></li>.
+10. As I got a summer job, I could finally buy a house.
+<br>=<input id="q10" type="text"/><span></span></li>, I could finally buy a house.<br>
+11. If it isn't repaired at once, it might collapse.
+<br>=<input id="q11" type="text"/><span></span></li>, it might collapse.
+12. As it was an old house, it didn't cost much.
+<br>=<input id="q12" type="text"/><span></span></li>, it didn't cost much.
 
   </ol>
   
@@ -116,18 +119,17 @@ form input {
 <script>
 var answers = {
   "q1": ["before applying"],
-  "q2": ["have been written"],
-  "q3": ["has been increased", "has been grown"],
-  "q4": ["is opened"],
-  "q5": ["is not allowed", "is not permitted", "is prohibited", "isn't allowed", "isn't permitted"],
-  "q6": ["are not kept", "aren't kept"],
-  "q7": ["were considered", "were thought to be"],
-  "q8": ["were made", "were created"],
-  "q9": ["was decided"],
-  "q10": ["must be made", "must be created"],
-  "q11": ["should be changed"],
-  "q12": ["could be replaced"],
-  "q13": ["will not be made", "won't be made"],
+  "q2": ["anxious to get away"],
+  "q3": ["standing by the lake"],
+  "q4": ["after unpacking his luggage", "having unpacked", "having unpacked his luggage"],
+  "q5": ["though feeling tired"],
+  "q6": ["if possible", "were possible"],
+  "q7": ["if lucky"],
+  "q8": ["the weather being pleasant"],
+  "q9": ["built in the last century"],
+  "q10": ["getting a summer job"],
+  "q11": ["if not repaired at once", "not repaired at once"],
+  "q12": ["being an old house"],
 };
 
 function markAnswers() {
