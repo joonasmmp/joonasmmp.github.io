@@ -143,8 +143,8 @@ $("form").on("submit", function(e) {
   markAnswers();
 });
 
-const input = document.querySelector('input');
-const span = document.querySelector('span');
+const input = document.querySelector('.tehtava input');
+const span = document.querySelector('.tehtava span');
 
 document.querySelectorAll("input").forEach(elem => elem.addEventListener('input', function (event) {
     span.innerHTML = this.value.replace(/\s/g, '&nbsp;');
