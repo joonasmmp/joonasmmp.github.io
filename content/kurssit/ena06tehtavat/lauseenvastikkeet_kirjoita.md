@@ -51,6 +51,7 @@ align-content: center;
 .tehtava ol {
 list-style: none;
 margin-left: 0;
+padding-left: 5px;
 font-size: 1.125rem !important;
 }
 
@@ -91,6 +92,7 @@ form input {
     border: none;
     border-bottom: 1px solid black;
     padding: 0px 1px 1px 1px;
+    width: 9.375rem;
 }
 
 #resetbutton {
