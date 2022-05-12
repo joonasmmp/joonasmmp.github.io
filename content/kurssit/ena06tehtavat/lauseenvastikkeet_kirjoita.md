@@ -97,13 +97,15 @@ font-size: 1.125rem !important;
 }
 
     
-input #submit {
+#submit {
   border: 0px;
   padding-top: 1em;
 }
 
 .dark #submit {
   color: #FFFFFF;
+  border: 0px;
+  padding-top: 1em;
 }
 
 .tehtava #vastauspainike {
