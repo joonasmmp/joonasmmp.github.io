@@ -88,12 +88,14 @@ font-size: 1.125rem !important;
     outline: none;
     border: none;
     border-bottom: 2px solid #299617;
+    margin-bottom: -1px;
   }
   
 .vaarin input[type=text] {
     outline: none;
     border: none;
     border-bottom: 2px dashed #DA2C43;
+    margin-bottom: -1px;
 }
 
     
@@ -120,7 +122,7 @@ form {
 form input {
     outline: none;
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
     font-size: inherit;
     background-color: #fafafa;
 }
