@@ -14,7 +14,7 @@ Muuta lauseenvastikkeiksi.
   <ol>
   
 1. Before you apply for a visa, you should consider the following things.
-= <li><input id="q1" type="text"/><span></span></li>&nbsp for a visa, you should consider the following things.<br>
+<br>= <li><input id="q1" type="text"/><span></span></li>&nbsp for a visa, you should consider the following things.<br>
 2. As he was anxious to get away, he drove all through the night.
 <br>= <li><input id="q2" type="text"/><span></span></li>, he drove all through the night.<br>
 3. In the morning he reached the cottage which stood by the lake.
@@ -32,11 +32,11 @@ Muuta lauseenvastikkeiksi.
 9. After a while he spotted a house which has been built in the last century.
 <br>= After a while he spotted a house <li><input id="q9" type="text"/><span></span></li>.<br>
 10. As I got a summer job, I could finally buy a house.
-<br>= <input id="q10" type="text"/><span></span></li>, I could finally buy a house.<br>
+<br>= <li><input id="q10" type="text"/><span></span></li>, I could finally buy a house.<br>
 11. If it isn't repaired at once, it might collapse.
-<br>= <input id="q11" type="text"/><span></span></li>, it might collapse.<br>
+<br>= <li><input id="q11" type="text"/><span></span></li>, it might collapse.<br>
 12. As it was an old house, it didn't cost much.
-<br>= <input id="q12" type="text"/><span></span></li>, it didn't cost much.<br>
+<br>= <li><input id="q12" type="text"/><span></span></li>, it didn't cost much.<br>
 
   </ol>
   
