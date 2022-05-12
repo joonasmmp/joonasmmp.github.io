@@ -97,9 +97,9 @@ font-size: 1.125rem !important;
 }
 
     
-#submit {
+.input#submit {
   border: 0px;
-  justify-content: center;
+  padding-top: 1em;
 }
 
 .dark #submit {
