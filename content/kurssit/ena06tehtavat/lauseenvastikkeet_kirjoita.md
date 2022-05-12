@@ -22,7 +22,7 @@ Muuta lauseenvastikkeiksi.
 4. After Tim unpacked his luggage, he made himself a cup of tea.
 <br>=<li><input id="q4" type="text"/><span></span></li>, he made himself a cup of tea.<br>
 5. Though he felt tired, he decided to chop some wood.
-<br>=<li><input id="q5" type="text"/><span></span></li>, he decided to chop some wood.<br>
+<br>= <li><input id="q5" type="text"/><span></span></li>, he decided to chop some wood.<br>
 6. Tomorrow he would start his work if it was possible.
 <br>= Tomorrow he would start his work<li><input id="q6" type="text"/><span></span></li>.<br>
 7. If he was lucky, he would be done by Christmas.
@@ -32,11 +32,11 @@ Muuta lauseenvastikkeiksi.
 9. After a while he spotted a house which has been built in the last century.
 <br>= After a while he spotted a house <li><input id="q9" type="text"/><span></span></li>.<br>
 10. As I got a summer job, I could finally buy a house.
-<br>=<input id="q10" type="text"/><span></span></li>, I could finally buy a house.<br>
+<br>= <input id="q10" type="text"/><span></span></li>, I could finally buy a house.<br>
 11. If it isn't repaired at once, it might collapse.
-<br>=<input id="q11" type="text"/><span></span></li>, it might collapse.<br>
+<br>= <input id="q11" type="text"/><span></span></li>, it might collapse.<br>
 12. As it was an old house, it didn't cost much.
-<br>=<input id="q12" type="text"/><span></span></li>, it didn't cost much.<br>
+<br>= <input id="q12" type="text"/><span></span></li>, it didn't cost much.<br>
 
   </ol>
   
