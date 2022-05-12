@@ -1,5 +1,5 @@
 ---
-title: "Genetiivi: Flashcard"
+title: "Paritustehtävä joka ei toimi :("
 date: 2022-3-20
 draft: false
 type: page

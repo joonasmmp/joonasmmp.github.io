@@ -5,10 +5,12 @@ draft: false
 type: page
 layout: ohje
 ---
-Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta tai ääh emmä tiiä.
+Jatko-opintoja ja työelämää ja sellasta hei 
 
-## Rakenteita
-No en oo ehtiny vielä
+## Laskettavat ja ei-laskettavat substantiivit
+* ["Lauseenvastikkeet: Kirjoita"]({{<ref "lauseenvastikkeet_kirjoita.mdt" >}})
+
+Muuta lauseenvastikkeiksi
 
 ## Sanastoa
 No ei ole vielä mittään

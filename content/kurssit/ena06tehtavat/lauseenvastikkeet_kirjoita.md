@@ -145,15 +145,15 @@ form input {
     width: 100%;
     float: left;
     background: #fafafa;
-    border-top: 1px solid #eeeeee;
-    border-left: 1px solid #eeeeee;
+    border-top: 1px solid #d4d4d4;
+    border-left: 1px solid #d4d4d4;
     }
 
-.tehtava   .dark section {
+.dark section {
     background: #181a1b;
      color: #FFFFFF;
   }
-  
+
 </style>
 
 <script>
