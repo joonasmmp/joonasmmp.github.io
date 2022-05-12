@@ -120,7 +120,7 @@ form {
 form input {
     outline: none;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     font-size: inherit;
     background-color: #fafafa;
 }
