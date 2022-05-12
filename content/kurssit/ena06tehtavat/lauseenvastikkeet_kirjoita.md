@@ -120,6 +120,7 @@ form input {
     border: none;
     border-bottom: 1px solid black;
     font-size: inherit;
+    background-color: #fafafa;
 }
 
 .dark input {
