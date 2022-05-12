@@ -97,7 +97,7 @@ font-size: 1.125rem !important;
 }
 
     
-.input#submit {
+input #submit {
   border: 0px;
   padding-top: 1em;
 }
