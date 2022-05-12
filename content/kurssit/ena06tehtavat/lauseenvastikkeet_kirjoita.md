@@ -9,18 +9,17 @@ layout: tehtava
 Muuta lauseenvastikkeiksi.
 
 {{< rawhtml >}}
-
 <div class="tehtava">
 <form autocomplete="off">
   <ol>
   
 1. Before you apply for a visa, you should consider the following things.
 <br>
-= <li><input id="q1" type="text"/></li> for a visa, you should consider the following things.
+= <li><input id="q1" type="text"/><span></span></li> for a visa, you should consider the following things.
 <br>
-2. Over the years, many exciting stories about ducks <li><input id="q2" type="text"/></li>. <i>(on kirjoitettu)</i>
+2. Over the years, many exciting stories about ducks <li><input id="q2" type="text"/><span></span></li>. <i>(on kirjoitettu)</i>
 <br>
-3. The use of renewable energy <li><input id="q3" type="text"/></li>. <i>(on lisätty)</i>
+3. The use of renewable energy <li><input id="q3" type="text"/><span></span></li>. <i>(on lisätty)</i>
 <br>
 4. The cafeteria <li><input id="q4" type="text"/></li> at 10 am. <i>(avataan)</i>
 <br>
@@ -36,12 +35,10 @@ Muuta lauseenvastikkeiksi.
 
   </ol>
   
- 
-  <input type="submit" id="submit" value="Tarkista vastaukset" />
+   <input type="submit" id="submit" value="Tarkista vastaukset" />
 </form>
 
 </div>
-
 <style>
 li {
 display: inline-block;
@@ -59,17 +56,12 @@ font-size: 1.125rem !important;
     outline: none;
     border: none;
     border-bottom: 2px solid #299617;
-    background-size: 20px 20px;
-    background-repeat: no-repeat;
-    background-position: right;
-	padding: 0px;
   }
   
 .vaarin input[type=text] {
     outline: none;
     border: none;
     border-bottom: 2px dashed #DA2C43;
-    padding: 0px;
 }
 
     
@@ -91,14 +83,31 @@ form input {
     outline: none;
     border: none;
     border-bottom: 1px solid black;
-    padding: 0px 1px 1px 1px;
-    width: 9.375rem;
+    font-size: inherit;
 }
 
 #resetbutton {
   background: white;
   border: 0px;
-}</style>
+}
+
+input[type="text"],
+span {
+    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: inherit;
+}
+
+input[type="text"] {
+    width: 6em;
+}
+
+span {
+    position: absolute;
+    left: -9999px;
+    display: inline-block;
+    min-width: 6em;
+}
+</style>
 
 <script>
 var answers = {
@@ -132,6 +141,14 @@ $("form").on("submit", function(e) {
   e.preventDefault();
   markAnswers();
 });
+
+const input = document.querySelector('input');
+const span = document.querySelector('span');
+
+document.querySelectorAll("input").forEach(elem => elem.addEventListener('input', function (event) {
+    span.innerHTML = this.value.replace(/\s/g, '_');
+    this.style.width = span.offsetWidth + 'px';
+}));
 
 </script>
 </rawhtml>
