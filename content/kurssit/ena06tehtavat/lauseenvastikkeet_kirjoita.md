@@ -14,7 +14,7 @@ Muuta lauseenvastikkeiksi.
   <ol>
   
 1. Before you apply for a visa, you should consider the following things.
-<br>= <li><input id="q1" type="text"/><span></span></li>&nbsp for a visa, you should consider the following things.<br>
+= <li><input id="q1" type="text"/><span></span></li>&nbsp for a visa, you should consider the following things.<br>
 2. As he was anxious to get away, he drove all through the night.
 <br>= <li><input id="q2" type="text"/><span></span></li>, he drove all through the night.<br>
 3. In the morning he reached the cottage which stood by the lake.
