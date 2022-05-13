@@ -15,7 +15,7 @@ Muuta lauseenvastikkeiksi.
   
 <section>
 1. Before you apply for a visa, you should consider the following things.
-<br>= <li><input id="q1" type="text"/><span></span></li>&nbsp for a visa, you should consider the following things.
+<br>= <li><input id="q1" type="text"/><span></span></li>&nbsp; for a visa, you should consider the following things.
 </section>
 <section>
 2. As he was anxious to get away, he drove all through the night.
@@ -23,7 +23,7 @@ Muuta lauseenvastikkeiksi.
 </section>
 <section>
 3. In the morning he reached the cottage which stood by the lake.
-<br>= In the morning he reached the cottage <li><input id="q3" type="text"/><span></span></li>.
+<br>= In the morning he reached the cottage&nbsp;<li><input id="q3" type="text"/><span></span></li>.
 </section>
 <section>
 4. After Tim unpacked his luggage, he made himself a cup of tea.
@@ -35,7 +35,7 @@ Muuta lauseenvastikkeiksi.
 </section>
 <section>
 6. Tomorrow he would start his work if it was possible.
-<br>= Tomorrow he would start his work<li><input id="q6" type="text"/><span></span></li>.
+<br>= Tomorrow he would start his work&nbsp;<li><input id="q6" type="text"/><span></span></li>.
 </section>
 <section>
 7. If he was lucky, he would be done by Christmas.
@@ -47,7 +47,7 @@ Muuta lauseenvastikkeiksi.
 </section>
 <section>
 9. After a while he spotted a house which has been built in the last century.
-<br>= After a while he spotted a house <li><input id="q9" type="text"/><span></span></li>.
+<br>= After a while he spotted a house&nbsp;<li><input id="q9" type="text"/><span></span></li>.
 </section>
 <section>
 10. As I got a summer job, I could finally buy a house.
@@ -178,7 +178,7 @@ var answers = {
   "q1": ["before applying"],
   "q2": ["anxious to get away"],
   "q3": ["standing by the lake"],
-  "q4": ["after unpacking his luggage", "having unpacked", "having unpacked his luggage"],
+  "q4": ["after unpacking his luggage", "having unpacked", "having unpacked his luggage", "after unpacking"],
   "q5": ["though feeling tired"],
   "q6": ["if possible", "were possible"],
   "q7": ["if lucky"],
