@@ -11,7 +11,8 @@
             <div class="content prose md:prose-lg lg:prose-xl max-w-none dark:prose-invert py-1">{{.Content}}</div>
         </div>
         {{ if .Site.Params.widgets.display }}
-        <div class="hidden lg:block lg:col-span-1">
+        <div class="hidden lg:block lg:col-span-1" style="border-radius: 4px; border-color: #D3D6DA; box-shadow: 0 4px 10px rgb(128 128 128 / 10%); overflow: hidden; border: 1px solid #ccccca;
+        margin-bottom: 1.25em;"">
             {{ partial "widgets/palkki.html" . }}
             {{ partial "widgets/category.html" . }}
             {{ partial "widgets/tags.html" . }}
