@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        harmaa: '#edeff1',
+        'harmaa': '#edeff1',
         warmgray: {
           700: "#2f3335",
           800: "#1e2022",
