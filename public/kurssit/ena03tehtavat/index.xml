@@ -1,1 +1,103 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ENA03 - Kieli &amp; kulttuuri on PJMM - Englannin materiaalia</title><link>https://joonasmmp.github.io/kurssit/ena03tehtavat/</link><description>Recent content in ENA03 - Kieli &amp; kulttuuri on PJMM - Englannin materiaalia</description><generator>Hugo -- gohugo.io</generator><language>fi</language><lastBuildDate>Mon, 26 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://joonasmmp.github.io/kurssit/ena03tehtavat/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ENA03 - Kieli &amp; kulttuuri on PJMM - Englannin materiaalia</title>
+    <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/</link>
+    <description>Recent content in ENA03 - Kieli &amp; kulttuuri on PJMM - Englannin materiaalia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fi</language>
+    <lastBuildDate>Mon, 26 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://joonasmmp.github.io/kurssit/ena03tehtavat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Artikkelit: Lopputesti</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/artikkelit_lopputesti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/artikkelit_lopputesti/</guid>
+      <description>function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Epäsuora esitys: Flashcard</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/epasuora_flashcard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/epasuora_flashcard/</guid>
+      <description>Muodosta epäsuora kerronta korteissa 1-13. Käännä kortit 14-16 englanniksi.  $(document).ready(function() {var currentQuestion = 0;var qbank = [[&#39;&#34;I have been studying English for years.&#34;
+She told me...&#39;, &#39;&#34;I have been studying English for years.&#34;
+She told me she had been studying English for years.&#39;],[&#39;&#34;Now I know reported speech rules very well.&#34;
+He explained that...&#39;, &#39;&#34;Now I know reported speech rules very well.</description>
+    </item>
+    
+    <item>
+      <title>Epäsuora kerronta: Alkutesti</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/epasuora_alkutesti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/epasuora_alkutesti/</guid>
+      <description>Muunna lauseet epäsuoraan kerrontaan sopiviksi. &#34;1. I have the perfect daughter.&#34;Johtolauseen verbi vaatii imperfektin.
+2. The teacher is proud of his students.Johtolauseen verbi preesensissä ei vaadi aikamuotojen muutosta.
+3. &#34;I&#39;ve landed the job!&#34;Johtolauseen verbi vaatii menneen aikamuodon, joten perfekti - pluskvamperfekti.
+4. &#34;Pokémon won&#39;t be on TV tomorrow.&#34; Won&#39;t = will not = futuuri, joten johtolauseen verbi vaatii menneen aikamuodon, joten futuuri - konditionaali.</description>
+    </item>
+    
+    <item>
+      <title>Epäsuora kerronta: Lopputesti</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/epasuora_lopputesti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/epasuora_lopputesti/</guid>
+      <description>function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Genetiivi: Flashcard</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/genetiivi_flashcard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/genetiivi_flashcard/</guid>
+      <description>$(document).ready(function() {var currentQuestion = 0;var qbank = [[&#34;Tämä on Travisin uusi Jaguar.&#34;, &#34;Tämä on Travisin uusi Jaguar.
+= This is Travis&#39;(s) new Jaguar.&#34;],[&#34;Auton vaihdelaatikko on rikki.&#34;, &#34;Auton vaihdelaatikko on rikki.
+= The gearbox of this car is broken.&#34;],[&#34;Se on tämän auton uusi malli.&#34;, &#34;Se on tämän auton uusi malli.
+= It is the newest model of this car.</description>
+    </item>
+    
+    <item>
+      <title>Laskettavat ja ei-laskettavat substantiivit: Alkutesti</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/countable_alkutesti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/countable_alkutesti/</guid>
+      <description>WaterWater eli vesi on ainesana. Sitä ei voi laskea ilman mittayksikköä esim. a drop of water, a glass of water. A water yleensä tarkoittaa yhtä vesiannosta ravintolassa, mutta ei aina. PeoplePeople on monikko sanalle person. Ihmisiä voi laskea: one person, two people, jne.
+BreadLeipä tarvii myös mittayksikön, esim a slice of bread, a loaf of bread. Bread itsessään on leipää, sitä ainetta.</description>
+    </item>
+    
+    <item>
+      <title>Laskettavat ja ei-laskettavat substantiivit: Lopputesti</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/countable_lopputesti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/countable_lopputesti/</guid>
+      <description>Countable or uncountable?
+ function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Teemasanasto: ENG-FIN</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/teemasanasto_flashcard_eng_fin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/teemasanasto_flashcard_eng_fin/</guid>
+      <description>Music &amp; Dance Narratives &amp; Books Films &amp; TV Visual Arts $(document).ready(function() {var currentQuestion = 0;var qbank = [[&#34;acoustic&#34;, &#34;akustinen, ilman sähköisiä vahvistimia soitettu&#34;], [&#34;arrange&#34;, &#34;sovittaa&#34;], [&#34;brass band&#34;, &#34;(vaski)puhallinorkesteri&#34;], [&#34;choir&#34;, &#34;kuoro&#34;], [&#34;chord&#34;, &#34;sointu&#34;], [&#34;chorus, refrain&#34;, &#34;kertosäe&#34;], [&#34;compose&#34;, &#34;säveltää&#34;], [&#34;concert&#34;, &#34;konsertti&#34;], [&#34;conduct&#34;, &#34;johtaa orkesteria&#34;], [&#34;encore&#34;, &#34;ylimääräinen numero itse esityksen jälkeen&#34;], [&#34;gig&#34;, &#34;keikka&#34;], [&#34;headphones&#34;, &#34;kuulokkeet&#34;], [&#34;hymn&#34;, &#34;hymni, virsi&#34;], [&#34;instrument&#34;, &#34;</description>
+    </item>
+    
+    <item>
+      <title>Teemasanasto: FIN-ENG</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/teemasanasto_flashcard_fin_eng/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/teemasanasto_flashcard_fin_eng/</guid>
+      <description>Music &amp; Dance Narratives &amp; Books Films &amp; TV Visual Arts $(document).ready(function() {var currentQuestion = 0;var qbank = [[&#34;akustinen, ilman sähköisiä vahvistimia soitettu&#34;, &#34;acoustic&#34;], [&#34;sovittaa&#34;, &#34;arrange&#34;], [&#34;(vaski)puhallinorkesteri&#34;, &#34;brass band&#34;], [&#34;kuoro&#34;, &#34;choir&#34;], [&#34;sointu&#34;, &#34;chord&#34;], [&#34;kertosäe&#34;, &#34;chorus, refrain&#34;], [&#34;säveltää&#34;, &#34;compose&#34;], [&#34;konsertti&#34;, &#34;concert&#34;], [&#34;johtaa orkesteria&#34;, &#34;conduct&#34;], [&#34;ylimääräinen numero itse esityksen jälkeen&#34;, &#34;encore&#34;], [&#34;keikka&#34;, &#34;gig&#34;], [&#34;kuulokkeet&#34;, &#34;headphones&#34;], [&#34;hymni, virsi&#34;, &#34;hymn&#34;], [&#34;soitin, instrumentti&#34;</description>
+    </item>
+    
+  </channel>
+</rss>

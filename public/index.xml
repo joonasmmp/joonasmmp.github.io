@@ -1,155 +1,261 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PJMM - Englannin materiaalia</title><link>https://joonasmmp.github.io/</link><description>Recent content on PJMM - Englannin materiaalia</description><generator>Hugo -- gohugo.io</generator><language>fi</language><lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://joonasmmp.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Testi ykkönen</title><link>https://joonasmmp.github.io/post/testikakkonen/</link><pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate><guid>https://joonasmmp.github.io/post/testikakkonen/</guid><description>Blaa blaa ja niin edelleen</description></item><item><title>Testi ykkönen</title><link>https://joonasmmp.github.io/post/testiykkonen/</link><pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate><guid>https://joonasmmp.github.io/post/testiykkonen/</guid><description>JAAHAS</description></item><item><title>Perusaikamuodot?</title><link>https://joonasmmp.github.io/kielioppiteoria/aikamuodot/</link><pubDate>Fri, 15 Oct 2021 00:00:00 +0000</pubDate><guid>https://joonasmmp.github.io/kielioppiteoria/aikamuodot/</guid><description>Englannin perusaikamuodot on kaikista kielioppiin millään tavalla liittyvistä asioista ehdottomasti tärkein. Heti engannin opiskelun alettua aletaan jo katsomaan preesensiä ja viimemistään kolmosluokalla imperfektiä. Sitä seuraa vitosluokalla (joskus vasta seiskalla) preesens, kasilla pluskvamperfekti ja futuuri. Ysillä ne kaikki kerrataan koska ne pitäisi osata kun peruskoulusta päästään. Lukiossa ne kerrataan joko peruskoulusta lukioon-kurssilla ja/tai ykkösmoduulissa. Huomioi sana kerrataan, koska ne pitäisi osata jo. Mikäli perusaikamuodot tuottavat sinulle vaikeuksia lukion alkaessa, tulevat ne tuottamaan ongelmia myös jatkossa.</description></item><item><title>Kirjoitelma</title><link>https://joonasmmp.github.io/yo-kokeet/kirjoitelma/</link><pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate><guid>https://joonasmmp.github.io/yo-kokeet/kirjoitelma/</guid><description>epgkjapoewgk</description></item><item><title>Kuuntelukoe</title><link>https://joonasmmp.github.io/yo-kokeet/kuuntelukoe/</link><pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate><guid>https://joonasmmp.github.io/yo-kokeet/kuuntelukoe/</guid><description>Tähän sitten kuuntelujuttuja ja sitten tähän sisöltöä</description></item><item><title>Luetunymmärtäminen</title><link>https://joonasmmp.github.io/yo-kokeet/luetunymmartaminen/</link><pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate><guid>https://joonasmmp.github.io/yo-kokeet/luetunymmartaminen/</guid><description>Luetunymmärrys jne</description></item><item><title>Rakenneosio</title><link>https://joonasmmp.github.io/yo-kokeet/rakenneosio/</link><pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate><guid>https://joonasmmp.github.io/yo-kokeet/rakenneosio/</guid><description>Rakenneosiojuttuja tähän</description></item><item><title>Tunnista aikamuoto</title><link>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_tunnistaaikamuoto/</link><pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate><guid>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_tunnistaaikamuoto/</guid><description>Oh dear!
-Väärä vastaus
-Nyt ei menny ihan niinku piti, mutta yritä uudestaan!
-Takaisin alkuun
-function Quiz(questions) {
-this.score = 0;
-this.questions = questions;
-this.questionIndex = 0;
-}
-Quiz.prototype.getQuestionIndex = function() {
-return this.questions[this.questionIndex];
-}
-Quiz.prototype.guess = function(answer) {
-if (this.getQuestionIndex().isCorrectAnswer(answer)) {
-this.score++;
-} else {
-$("#modal").modal("show")
-sleep(2000);
-}
-this.questionIndex++;
-}
-Quiz.prototype.isEnded = function() {
-return this.</description></item><item><title>Has vai have?</title><link>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_hashave/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_hashave/</guid><description>Oh dear!
-Väärä vastaus
-Nyt ei menny ihan niinku piti, mutta yritä uudestaan!
-Takaisin alkuun
-function Quiz(questions) {
-this.score = 0;
-this.questions = questions;
-this.questionIndex = 0;
-}
-Quiz.prototype.getQuestionIndex = function() {
-return this.questions[this.questionIndex];
-}
-Quiz.prototype.guess = function(answer) {
-if (this.getQuestionIndex().isCorrectAnswer(answer)) {
-this.score++;
-} else {
-$("#modal").modal("show")
-modal.classList.add("showModal");
-}
-this.questionIndex++;
-}
-Quiz.prototype.isEnded = function() {
-return this.questionIndex === this.</description></item><item><title>Epäsäännölliset verbit a-e</title><link>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitae/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitae/</guid><description>Oh dear!
-Väärä vastaus
-Nyt ei menny ihan niinku piti, mutta yritä uudestaan!
-Takaisin alkuun
-function Quiz(questions) {
-this.score = 0;
-this.questions = questions;
-this.questionIndex = 0;
-}
-Quiz.prototype.getQuestionIndex = function() {
-return this.questions[this.questionIndex];
-}
-Quiz.prototype.guess = function(answer) {
-if (this.getQuestionIndex().isCorrectAnswer(answer)) {
-this.score++;
-} else {
-$("#modal").modal("show")
-sleep(2000);
-}
-this.questionIndex++;
-}
-Quiz.prototype.isEnded = function() {
-return this.</description></item><item><title>Epäsäännölliset verbit f-k?</title><link>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitfk/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitfk/</guid><description>Oh dear!
-Väärä vastaus
-Nyt ei menny ihan niinku piti, mutta yritä uudestaan!
-Takaisin alkuun
-function Quiz(questions) {
-this.score = 0;
-this.questions = questions;
-this.questionIndex = 0;
-}
-Quiz.prototype.getQuestionIndex = function() {
-return this.questions[this.questionIndex];
-}
-Quiz.prototype.guess = function(answer) {
-if (this.getQuestionIndex().isCorrectAnswer(answer)) {
-this.score++;
-} else {
-$("#modal").modal("show")
-sleep(2000);
-}
-this.questionIndex++;
-}
-Quiz.prototype.isEnded = function() {
-return this.</description></item><item><title>Epäsäännölliset verbit l-r?</title><link>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitlr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitlr/</guid><description>Oh dear!
-Väärä vastaus
-Nyt ei menny ihan niinku piti, mutta yritä uudestaan!
-Takaisin alkuun
-function Quiz(questions) {
-this.score = 0;
-this.questions = questions;
-this.questionIndex = 0;
-}
-Quiz.prototype.getQuestionIndex = function() {
-return this.questions[this.questionIndex];
-}
-Quiz.prototype.guess = function(answer) {
-if (this.getQuestionIndex().isCorrectAnswer(answer)) {
-this.score++;
-} else {
-$("#modal").modal("show")
-sleep(2000);
-}
-this.questionIndex++;
-}
-Quiz.prototype.isEnded = function() {
-return this.</description></item><item><title>Epäsäännölliset verbit s-w?</title><link>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitsw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitsw/</guid><description>Oh dear!
-Väärä vastaus
-Nyt ei menny ihan niinku piti, mutta yritä uudestaan!
-Takaisin alkuun
-function Quiz(questions) {
-this.score = 0;
-this.questions = questions;
-this.questionIndex = 0;
-}
-Quiz.prototype.getQuestionIndex = function() {
-return this.questions[this.questionIndex];
-}
-Quiz.prototype.guess = function(answer) {
-if (this.getQuestionIndex().isCorrectAnswer(answer)) {
-this.score++;
-} else {
-$("#modal").modal("show")
-sleep(2000);
-}
-this.questionIndex++;
-}
-Quiz.prototype.isEnded = function() {
-return this.</description></item><item><title>Epäsäännölliset verbit: kaikki</title><link>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitkaikki/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitkaikki/</guid><description>Oh dear!
-Väärä vastaus
-Nyt ei menny ihan niinku piti, mutta yritä uudestaan!
-Takaisin alkuun
-function Quiz(questions) {
-this.score = 0;
-this.questions = questions;
-this.questionIndex = 0;
-}
-Quiz.prototype.getQuestionIndex = function() {
-return this.questions[this.questionIndex];
-}
-Quiz.prototype.guess = function(answer) {
-if (this.getQuestionIndex().isCorrectAnswer(answer)) {
-this.score++;
-} else {
-$("#modal").modal("show")
-sleep(2000);
-}
-this.questionIndex++;
-}
-Quiz.prototype.isEnded = function() {
-return this.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PJMM - Englannin materiaalia</title>
+    <link>https://joonasmmp.github.io/</link>
+    <description>Recent content on PJMM - Englannin materiaalia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fi</language>
+    <lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://joonasmmp.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testi ykkönen</title>
+      <link>https://joonasmmp.github.io/post/testikakkonen/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/post/testikakkonen/</guid>
+      <description>Blaa blaa ja niin edelleen</description>
+    </item>
+    
+    <item>
+      <title>Perusaikamuodot?</title>
+      <link>https://joonasmmp.github.io/kielioppiteoria/aikamuodot/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kielioppiteoria/aikamuodot/</guid>
+      <description>Englannin perusaikamuodot on kaikista kielioppiin millään tavalla liittyvistä asioista ehdottomasti tärkein. Heti engannin opiskelun alettua aletaan jo katsomaan preesensiä ja viimemistään kolmosluokalla imperfektiä. Sitä seuraa vitosluokalla (joskus vasta seiskalla) preesens, kasilla pluskvamperfekti ja futuuri. Ysillä ne kaikki kerrataan koska ne pitäisi osata kun peruskoulusta päästään. Lukiossa ne kerrataan joko peruskoulusta lukioon-kurssilla ja/tai ykkösmoduulissa. Huomioi sana kerrataan, koska ne pitäisi osata jo. Mikäli perusaikamuodot tuottavat sinulle vaikeuksia lukion alkaessa, tulevat ne tuottamaan ongelmia myös jatkossa.</description>
+    </item>
+    
+    <item>
+      <title>Kirjoitelma</title>
+      <link>https://joonasmmp.github.io/yo-kokeet/kirjoitelma/</link>
+      <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/yo-kokeet/kirjoitelma/</guid>
+      <description>epgkjapoewgk</description>
+    </item>
+    
+    <item>
+      <title>Kuuntelukoe</title>
+      <link>https://joonasmmp.github.io/yo-kokeet/kuuntelukoe/</link>
+      <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/yo-kokeet/kuuntelukoe/</guid>
+      <description>Tähän sitten kuuntelujuttuja ja sitten tähän sisöltöä</description>
+    </item>
+    
+    <item>
+      <title>Luetunymmärtäminen</title>
+      <link>https://joonasmmp.github.io/yo-kokeet/luetunymmartaminen/</link>
+      <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/yo-kokeet/luetunymmartaminen/</guid>
+      <description>Luetunymmärrys jne</description>
+    </item>
+    
+    <item>
+      <title>Rakenneosio</title>
+      <link>https://joonasmmp.github.io/yo-kokeet/rakenneosio/</link>
+      <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/yo-kokeet/rakenneosio/</guid>
+      <description>Rakenneosiojuttuja tähän</description>
+    </item>
+    
+    <item>
+      <title>Tunnista aikamuoto</title>
+      <link>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_tunnistaaikamuoto/</link>
+      <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_tunnistaaikamuoto/</guid>
+      <description>function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Has vai have?</title>
+      <link>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_hashave/</link>
+      <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_hashave/</guid>
+      <description>function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Artikkelit: Lopputesti</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/artikkelit_lopputesti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/artikkelit_lopputesti/</guid>
+      <description>function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Epäsuora esitys: Flashcard</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/epasuora_flashcard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/epasuora_flashcard/</guid>
+      <description>Muodosta epäsuora kerronta korteissa 1-13. Käännä kortit 14-16 englanniksi.  $(document).ready(function() {var currentQuestion = 0;var qbank = [[&#39;&#34;I have been studying English for years.&#34;
+She told me...&#39;, &#39;&#34;I have been studying English for years.&#34;
+She told me she had been studying English for years.&#39;],[&#39;&#34;Now I know reported speech rules very well.&#34;
+He explained that...&#39;, &#39;&#34;Now I know reported speech rules very well.</description>
+    </item>
+    
+    <item>
+      <title>Epäsuora kerronta: Alkutesti</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/epasuora_alkutesti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/epasuora_alkutesti/</guid>
+      <description>Muunna lauseet epäsuoraan kerrontaan sopiviksi. &#34;1. I have the perfect daughter.&#34;Johtolauseen verbi vaatii imperfektin.
+2. The teacher is proud of his students.Johtolauseen verbi preesensissä ei vaadi aikamuotojen muutosta.
+3. &#34;I&#39;ve landed the job!&#34;Johtolauseen verbi vaatii menneen aikamuodon, joten perfekti - pluskvamperfekti.
+4. &#34;Pokémon won&#39;t be on TV tomorrow.&#34; Won&#39;t = will not = futuuri, joten johtolauseen verbi vaatii menneen aikamuodon, joten futuuri - konditionaali.</description>
+    </item>
+    
+    <item>
+      <title>Epäsuora kerronta: Lopputesti</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/epasuora_lopputesti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/epasuora_lopputesti/</guid>
+      <description>function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Epäsäännölliset verbit a-e</title>
+      <link>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitae/</guid>
+      <description>function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Epäsäännölliset verbit f-k?</title>
+      <link>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitfk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitfk/</guid>
+      <description>function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Epäsäännölliset verbit l-r?</title>
+      <link>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitlr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitlr/</guid>
+      <description>function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Epäsäännölliset verbit s-w?</title>
+      <link>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitsw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitsw/</guid>
+      <description>function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Epäsäännölliset verbit: kaikki</title>
+      <link>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitkaikki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitkaikki/</guid>
+      <description>function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Genetiivi: Flashcard</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/genetiivi_flashcard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/genetiivi_flashcard/</guid>
+      <description>$(document).ready(function() {var currentQuestion = 0;var qbank = [[&#34;Tämä on Travisin uusi Jaguar.&#34;, &#34;Tämä on Travisin uusi Jaguar.
+= This is Travis&#39;(s) new Jaguar.&#34;],[&#34;Auton vaihdelaatikko on rikki.&#34;, &#34;Auton vaihdelaatikko on rikki.
+= The gearbox of this car is broken.&#34;],[&#34;Se on tämän auton uusi malli.&#34;, &#34;Se on tämän auton uusi malli.
+= It is the newest model of this car.</description>
+    </item>
+    
+    <item>
+      <title>Laskettavat ja ei-laskettavat substantiivit: Alkutesti</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/countable_alkutesti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/countable_alkutesti/</guid>
+      <description>WaterWater eli vesi on ainesana. Sitä ei voi laskea ilman mittayksikköä esim. a drop of water, a glass of water. A water yleensä tarkoittaa yhtä vesiannosta ravintolassa, mutta ei aina. PeoplePeople on monikko sanalle person. Ihmisiä voi laskea: one person, two people, jne.
+BreadLeipä tarvii myös mittayksikön, esim a slice of bread, a loaf of bread. Bread itsessään on leipää, sitä ainetta.</description>
+    </item>
+    
+    <item>
+      <title>Laskettavat ja ei-laskettavat substantiivit: Lopputesti</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/countable_lopputesti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/countable_lopputesti/</guid>
+      <description>Countable or uncountable?
+ function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Lauseenvastikkeet: Kirjoita</title>
+      <link>https://joonasmmp.github.io/kurssit/ena06tehtavat/lauseenvastikkeet_kirjoita/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena06tehtavat/lauseenvastikkeet_kirjoita/</guid>
+      <description>Muuta lauseenvastikkeiksi.
+1. Before you apply for a visa, you should consider the following things.= &amp;nbsp; for a visa, you should consider the following things.2. As he was anxious to get away, he drove all through the night.= , he drove all through the night.3. In the morning he reached the cottage which stood by the lake.= In the morning he reached the cottage&amp;nbsp;.</description>
+    </item>
+    
+    <item>
+      <title>Paritustehtävä joka ei toimi :(</title>
+      <link>https://joonasmmp.github.io/kurssit/ena06tehtavat/testi_testi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena06tehtavat/testi_testi/</guid>
+      <description>//Execute a JavaScript immediately after a page has been loadedwindow.onload = function() {//Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main filevar data = {terms: [{index: 0, text: &#34;Koira&#34;}, {index: 1, text: &#34;Gorilla&#34;}, {index: 2, text: &#34;Riisi&#34;}, {index: 3, text: &#34;</description>
+    </item>
+    
+    <item>
+      <title>Teemasanasto: ENG-FIN</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/teemasanasto_flashcard_eng_fin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/teemasanasto_flashcard_eng_fin/</guid>
+      <description>Music &amp; Dance Narratives &amp; Books Films &amp; TV Visual Arts $(document).ready(function() {var currentQuestion = 0;var qbank = [[&#34;acoustic&#34;, &#34;akustinen, ilman sähköisiä vahvistimia soitettu&#34;], [&#34;arrange&#34;, &#34;sovittaa&#34;], [&#34;brass band&#34;, &#34;(vaski)puhallinorkesteri&#34;], [&#34;choir&#34;, &#34;kuoro&#34;], [&#34;chord&#34;, &#34;sointu&#34;], [&#34;chorus, refrain&#34;, &#34;kertosäe&#34;], [&#34;compose&#34;, &#34;säveltää&#34;], [&#34;concert&#34;, &#34;konsertti&#34;], [&#34;conduct&#34;, &#34;johtaa orkesteria&#34;], [&#34;encore&#34;, &#34;ylimääräinen numero itse esityksen jälkeen&#34;], [&#34;gig&#34;, &#34;keikka&#34;], [&#34;headphones&#34;, &#34;kuulokkeet&#34;], [&#34;hymn&#34;, &#34;hymni, virsi&#34;], [&#34;instrument&#34;, &#34;</description>
+    </item>
+    
+    <item>
+      <title>Teemasanasto: FIN-ENG</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/teemasanasto_flashcard_fin_eng/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/teemasanasto_flashcard_fin_eng/</guid>
+      <description>Music &amp; Dance Narratives &amp; Books Films &amp; TV Visual Arts $(document).ready(function() {var currentQuestion = 0;var qbank = [[&#34;akustinen, ilman sähköisiä vahvistimia soitettu&#34;, &#34;acoustic&#34;], [&#34;sovittaa&#34;, &#34;arrange&#34;], [&#34;(vaski)puhallinorkesteri&#34;, &#34;brass band&#34;], [&#34;kuoro&#34;, &#34;choir&#34;], [&#34;sointu&#34;, &#34;chord&#34;], [&#34;kertosäe&#34;, &#34;chorus, refrain&#34;], [&#34;säveltää&#34;, &#34;compose&#34;], [&#34;konsertti&#34;, &#34;concert&#34;], [&#34;johtaa orkesteria&#34;, &#34;conduct&#34;], [&#34;ylimääräinen numero itse esityksen jälkeen&#34;, &#34;encore&#34;], [&#34;keikka&#34;, &#34;gig&#34;], [&#34;kuulokkeet&#34;, &#34;headphones&#34;], [&#34;hymni, virsi&#34;, &#34;hymn&#34;], [&#34;soitin, instrumentti&#34;</description>
+    </item>
+    
+    <item>
+      <title>Testi, testi, flashcard</title>
+      <link>https://joonasmmp.github.io/kurssit/ena09tehtavat/testiflash/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena09tehtavat/testiflash/</guid>
+      <description>$(document).ready(function() {var currentQuestion = 0;var qbank = [[&#39;koira
+koira&#39;, &#34;GATO&#34;],[&#34;DOG&#34;, &#34;PERRO&#34;],[&#34;HORSE&#34;, &#34;CABALLO&#34;],[&#34;RABBIT&#34;, &#34;CONEJO&#34;],[&#34;TIGER&#34;, &#34;TIGRE&#34;],[&#34;KANGAROO&#34;, &#34;CANGURO&#34;],];beginActivity();function beginActivity() {$(&#34;#cardArea&#34;).empty();$(&#34;#cardArea&#34;).append(&#39;&#39; + qbank[currentQuestion][0] + &#39;&#39;);$(&#34;#card1&#34;).css(&#34;background-color&#34;, &#34;#1F2937&#34;);$(&#34;#lukumaara&#34;).empty();var korttia = document.createElement(&#39;div&#39;)korttia.innerHTML = currentQuestion + 1 + &#34; / &#34; + qbank.length;document.getElementById(&#39;lukumaara&#39;).appendChild(korttia);} $(&#34;#cardArea&#34;).on(&#34;click&#34;, function() {var parentDiv = document.getElementById(&#34;cardArea&#34;);var childDiv = document.</description>
+    </item>
+    
+    <item>
+      <title>Testi, testi, testi</title>
+      <link>https://joonasmmp.github.io/kurssit/ena09tehtavat/testi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena09tehtavat/testi/</guid>
+      <description>Kuka on Severin isä?Aaro kylläkin väittää olevansa koska on HULLU
+Ressu Redford on nähty Salkkareissa, mutta missä?Junassa kun Salla lähti sarjasta pois niin Ressu istui viereen ja laulaa luikautti
+Mihin Linda muutti?Interpolin hommiin Ranskan Lyoniin Lassen uusin tyttöystävä Joanna on poliisi. Mikin työpari ja Lindan korvaaja
+Anu Sinisalo näytteli kenen äitiä?Talen äiti on Elina, Sofian äiti oli Hanna Salin</description>
+    </item>
+    
+  </channel>
+</rss>
