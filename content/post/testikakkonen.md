@@ -1,15 +1,14 @@
 +++
 author = "PJMM"
-title = "Testi ykkönen"
-date = "2022-03-01"
+title = "Verkkosivun taustaa"
+date = "2022-08-05"
 type = "post"
-description = "Tässä on testiä siitä kuinka asioiden pitäisi toimia."
 tags = [
     "markdown",
     "testi",
     ]
 categories = [
-    "testausta",
+    "Verkkosivu",
 ]
 +++
 

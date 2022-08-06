@@ -9,7 +9,7 @@
             {{ end }}
             <div class="bg-white dark:bg-warmgray-900 p-5 my-4" style="border-radius: 4px; border-color: #D3D6DA; box-shadow: 0 4px 10px rgb(128 128 128 / 10%); overflow: hidden; border: 1px solid #ccccca;
             margin-bottom: 1.25em; height: fit-content;">
-                <h1 class="mb-2 text-2xl">{{.Title}}</h1>
+                <h1 class="mb-2 text-3xl" style="text-align: center">{{.Title}}</h1>
                 <aside id="meta">
                     <div>
                         <section>
@@ -17,7 +17,7 @@
                                 <hr class="py-2">
                                 <div id="categories">
                                     {{ range . }}
-                                    <h4 style="text-align:center; padding-bottom: 6px"><a href='{{ "categories" | absURL}}/{{ . | urlize }}' style="padding-left:2em">{{ . }}</a>
+                                    <h4 style="text-align:center; padding-bottom: 6px"><a href='{{ "categories" | absURL}}/{{ . | urlize }}'>&nbsp;&nbsp;&nbsp;{{ . }}</a>
                                     {{ end }}
                                 
                                 {{ end }}
