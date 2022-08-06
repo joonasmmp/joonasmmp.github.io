@@ -13,7 +13,7 @@
                 <aside id="meta">
                     <div>
                         <section>
-                            <h4 style="padding-bottom: 6px" id="date">{{ .Date.Format "January 02, 2006" }}
+                            <h4 style="padding-bottom: 6px" id="date">{{ with .Params.categories }} - {{ .Date.Format "January 02, 2006" }}
                             </h4>
                         </section>
                     </div>

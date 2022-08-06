@@ -19,7 +19,7 @@ googleAnalytics = "G-735JW4B10W"
 [params]
 # Base color of the website.
 # https://tailwindcss.com/docs/background-color
-base_color = "bg-gray-800"
+base_color = "bg-harmaa"
 
 #Site description
 description = "Blonde theme for Hugo."
