@@ -19,10 +19,10 @@
                                     {{ range . }}
                                     <h4 style="text-align:center; padding-bottom: 6px"><a href='{{ "categories" | absURL}}/{{ . | urlize }}'>{{ . }}</a></h4>
                                     {{ end }}
-                                </div>
+                                
                                 {{ end }}
-                            <h4 style="padding-bottom: 6px" id="date">{{ .Date.Format "January 02, 2006" }}
-                            </h4>
+                            {{ .Date.Format "January 02, 2006" }}
+                            </h4> </div>
                         </section>
                     </div>
                 </aside>
