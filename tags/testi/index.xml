@@ -1,2 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>testi on PJMM - Englannin materiaalia</title><link>https://joonasmmp.github.io/tags/testi/</link><description>Recent content in testi on PJMM - Englannin materiaalia</description><generator>Hugo -- gohugo.io</generator><language>fi</language><lastBuildDate>Fri, 05 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://joonasmmp.github.io/tags/testi/index.xml" rel="self" type="application/rss+xml"/><item><title>Verkkosivun taustaa</title><link>https://joonasmmp.github.io/post/testikakkonen/</link><pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate><guid>https://joonasmmp.github.io/post/testikakkonen/</guid><description>Tässä julkaisussa käsitellään tämän verkkosivun taustalla olevaa prosessia, joka on tietysti kokoajan kesken. Ehkä saat tästä inspiraatiota oman projektin luomiseen, tosin tuskin tämä kirjoitus kovin montaa ihmistä kiinnostaa. Oikea syy tämän kirjoituksen taustalla on selventää luomisprosesin kulkua, dokumentoida sen eri vaiheita ja harjoitella alustan toimintoja.
-Miksi? Taustalla on jo pitkään jatkunut halu tehdä jotain tietoteknistä näpertämistä, sillä kiinnostusta löytyy, mutta päämäärää ei. Työelämään astuessa tuli vastaan aito tarve luoda omia verkkotehtäviä, josta tämä projekti on saanut alkunsa.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>testi on PJMM - Englannin materiaalia</title>
+    <link>https://joonasmmp.github.io/tags/testi/</link>
+    <description>Recent content in testi on PJMM - Englannin materiaalia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fi</language>
+    <lastBuildDate>Fri, 05 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://joonasmmp.github.io/tags/testi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Verkkosivun taustaa</title>
+      <link>https://joonasmmp.github.io/post/testikakkonen/</link>
+      <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/post/testikakkonen/</guid>
+      <description>Tässä julkaisussa käsitellään tämän verkkosivun taustalla olevaa prosessia, joka on tietysti kokoajan kesken. Ehkä saat tästä inspiraatiota oman projektin luomiseen, tosin tuskin tämä kirjoitus kovin montaa ihmistä kiinnostaa. Oikea syy tämän kirjoituksen taustalla on selventää luomisprosesin kulkua, dokumentoida sen eri vaiheita ja harjoitella alustan toimintoja.</description>
+    </item>
+    
+  </channel>
+</rss>
