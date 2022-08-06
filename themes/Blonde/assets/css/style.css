@@ -1203,7 +1203,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-harmaa {
   --tw-bg-opacity: 1;
-  background-color: rgb(93 94 95 / var(--tw-bg-opacity));
+  background-color: rgb(237 239 241 / var(--tw-bg-opacity));
 }
 
 .bg-gray-200 {
