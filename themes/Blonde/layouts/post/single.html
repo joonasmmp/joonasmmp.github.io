@@ -36,7 +36,8 @@
                     <div id="tags">
                         {{ range . }}
                         <span
-                            class="inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-200 justify-center h-8 px-2 text-black duration-200 hover:text-blue-500 dark:bg-warmgray-800 rounded-md dark:text-white"><a
+                            class="inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-200 justify-center h-8 px-2 text-black duration-200 hover:text-blue-500 dark:bg-warmgray-800 rounded-md dark:text-white" style="border-radius: 4px; border-color: #D3D6DA; box-shadow: 0 4px 10px rgb(128 128 128 / 10%); overflow: hidden; border: 1px solid #ccccca;
+                            margin-bottom: 1.25em; height: fit-content;"><a
                                 href='{{ "tags" | absURL}}/{{ . | urlize }}'>{{ . }}</a></span>
                         {{ end }}
                     </div>
