@@ -1,22 +1,14 @@
 @font-face {
-  font-family: material-icons;
-  src: url(../fonts/material-icons.ttf?xdbxjz) format("truetype"),
-    url(../fonts/material-icons.woff?xdbxjz) format("woff"),
-    url(../fonts/material-icons.svg?xdbxjz#material-icons) format("svg");
-  font-weight: 400;
-  font-style: normal;
-  font-display: block;
-}
-[class*=" icon-"],
-[class^="icon-"] {
-  font-family: material-icons !important;
-  speak: never;
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  font-variant: normal;
-  text-transform: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  src: url('../fonts/open-sans-v29-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/open-sans-v29-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/open-sans-v29-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/open-sans-v29-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/open-sans-v29-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/open-sans-v29-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
 }
 .icon-email:before {
   content: "\e902";
