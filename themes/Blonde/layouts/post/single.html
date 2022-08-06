@@ -13,7 +13,17 @@
                 <aside id="meta">
                     <div>
                         <section>
-                            <h4 style="padding-bottom: 6px" id="categories">{{ with .Params.categories }}</h4>
+                                {{ with .Params.categories }}
+                                <hr class="py-2">
+                                <div id="categories">
+                                    <span class="icon-folder text-xl mr-1"></span>
+                                    {{ range . }}
+                                    <span
+                                        class="inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-200 justify-center h-8 px-3 text-blue-500 duration-200 hover:text-black dark:bg-warmgray-800"><a
+                                            href='{{ "categories" | absURL}}/{{ . | urlize }}'>{{ . }}</a></span>
+                                    {{ end }}
+                                </div>
+                                {{ end }}
                             <h4 style="padding-bottom: 6px" id="date">{{ .Date.Format "January 02, 2006" }}
                             </h4>
                         </section>
