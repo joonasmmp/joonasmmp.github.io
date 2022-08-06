@@ -32,4 +32,4 @@ Tarkoituksena oli luoda monivalintatehtäväketju, jossa piti valita annettuun k
 
 Koska Javascript-osaaminen oli nollassa, piti päätyä Googlen apuun. Googlesta löytyi nopea ohjeistus siitä miten tehdään Javascriptillä monivaiheinen monivalintehtävä, joten kopioin sen ja aloin muokkaamaan. Muokkaamisessa korvaamaton apu oli [jsfiddle](https://jsfiddle.net/). Rehellisesti sanottuna tein tuota ensimmäistä tehtävää noin yhdeksän tuntia, ja seuraavana päivänä saman verran kun korjasin virheet ja loin sen ympärille ulkoasun. Valmista tehtävää ja kaunista ulkoasua tuli ihasteltua pitkään, vaikka myöhemmin koko ulkoasu heitettiin menemään koska oli ruma ja epäkäytännöllinen ja Javascriptissä oli ihan naurettavia epäloogisuuksia jälkeenpäin tarkasteltua. Alla kuva jsfiddlen taulukosta jossain vaiheessa prosessia.
 
-![Kuvakaappaus jsfiddlestä](/img/taustat/ensimmainen_tehtava.jpg)
+{{< img src="/img/taustat/ensimmainen_tehtava.jpg" alt="Kuvakaappaus jsfiddlestä" >}}
