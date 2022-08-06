@@ -12,4 +12,5 @@ categories = [
 ]
 +++
 
-Blaa blaa ja niin edelleen
+Tässä julkaisussa käsitellään tämän verkkosivun taustalla olevaa prosessia, joka on tietysti kokoajan kesken. Ehkä saat tästä inspiraatiota oman projektin luomiseen, tosin tuskin tämä kirjoitus kovin montaa ihmistä kiinnostaa. Oikea syy tämän kirjoituksen taustalla on selventää luomisprosesin kulkua, dokumentoida sen eri vaiheita ja harjoitella alustan toimintoja. 
+
