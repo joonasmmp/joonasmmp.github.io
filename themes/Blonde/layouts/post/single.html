@@ -14,18 +14,18 @@
                     <div>
                         <section>
                                 {{ with .Params.categories }}
-                                <hr class="py-2">
-                                <div id="categories">
+                                                                <div id="categories">
                                     {{ range . }}
-                                    <h4 style="text-align:center; padding-bottom: 1.3em"><a style="margin-right:0.7em;" href='{{ "categories" | absURL}}/{{ . | urlize }}'>{{ . }}</a>-
+                                    <h4 style="text-align:center; padding-bottom: 1.3em"><a style="margin-right:0.6em; text-transform:uppercase" href='{{ "categories" | absURL}}/{{ . | urlize }}'>{{ . }}</a>-
                                     {{ end }}
                                 
                                 {{ end }}
-                            <section style="margin-left:0.7em">{{ .Date.Format "January 02, 2006" }}</section>
+                            <span style="margin-left:0.6em">{{ .Date.Format "January 02, 2006" }}</span>
                             </h4> </div>
                         </section>
                     </div>
                 </aside>
+                <hr class="py-2">
                 {{ if .Params.image }}
                 <img class="py-4" src="{{ .Params.image | absURL }}">
                 {{ end }}
