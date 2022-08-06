@@ -17,7 +17,7 @@
                                 <hr class="py-2">
                                 <div id="categories">
                                     {{ range . }}
-                                    <h4 style="text-align:center; padding-bottom: 6px"><a href='{{ "categories" | absURL}}/{{ . | urlize }}'>{{ . }}</a></h4>
+                                    <h4 style="text-align:center; padding-bottom: 6px"><a href='{{ "categories" | absURL}}/{{ . | urlize }}' style="padding-left:2em">{{ . }}</a>
                                     {{ end }}
                                 
                                 {{ end }}
