@@ -101,6 +101,7 @@
 }
 .content h1 {
   font-size: 2.25rem;
+  font-family: 'Open Sans' !important
 }
 .content h2 {
   padding-top: 0.55em;
