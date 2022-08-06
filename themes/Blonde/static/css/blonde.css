@@ -90,7 +90,7 @@
 .content p {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-  font-size: 0.9em;
+  font-size: 0.9em !important;
   letter-spacing: 0.03em;
 }
 .content h1,.content h2,.content h3,.content h4,.content h5,.content h6 {
