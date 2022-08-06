@@ -17,9 +17,7 @@
                                 <hr class="py-2">
                                 <div id="categories">
                                     {{ range . }}
-                                    <span
-                                        class="inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-200 justify-center h-8 px-3 text-blue-500 duration-200 hover:text-black dark:bg-warmgray-800"><a
-                                            href='{{ "categories" | absURL}}/{{ . | urlize }}'>{{ . }}</a></span>
+                                    <h4 style="text-align:center; padding-bottom: 6px"><a href='{{ "categories" | absURL}}/{{ . | urlize }}'>{{ . }}</a></h4>
                                     {{ end }}
                                 </div>
                                 {{ end }}
