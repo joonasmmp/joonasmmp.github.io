@@ -232,3 +232,10 @@ div#sisalto a:hover {
     list-style-type: disc;
     padding-left: 0.5em;
 }
+
+img.medium-zoom-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
