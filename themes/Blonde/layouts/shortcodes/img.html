@@ -1,6 +1,5 @@
 {{/* get file that matches the filename as specified as src="" in shortcode */}}
-{{ $srcUrl := .Get "src" | safeURL }}
-{{ $src := .Page.Resources.GetMatch (printf "%s" $srcUrl) }}
+{{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
 
 {{/* set image sizes, these are hardcoded for now, x dictates that images are resized to this width */}}
 
@@ -23,10 +22,11 @@
 {{ $medium := .Scratch.Get "medium" }}
 {{ $large := .Scratch.Get "large" }}
 
+{{/* only use images smaller than or equal to the src (original) image size, as Hugo will upscale small images */}}
+{{/* set the sizes attribute to (min-width: 35em) 1200px, 100vw unless overridden in shortcode */}}
 
-{{ if .Get "src" }}
-  <figure class="{{ with .Get "position"}}{{ . }}{{ else -}} left {{- end }}" >
-    <img {{ with .Get "sizes" }}sizes='{{.}}'{{ else }}sizes="(min-width: 35em) 1200px, 100vw"{{ end }}
+<img 
+  {{ with .Get "sizes" }}sizes='{{.}}'{{ else }}sizes="(min-width: 35em) 1200px, 100vw"{{ end }}
   srcset='
   {{ if ge $src.Width "500" }}
     {{ with $tiny.RelPermalink }}{{.}} 500w{{ end }}
@@ -41,14 +41,8 @@
     {{ with $large.RelPermalink }}, {{.}} 1500w {{ end }}
   {{ end }}'
   {{ if .Get (print $medium) }}
-    src="{{ $medium.RelPermalink }}"
+    src="{{ $medium.RelPermalink }}" 
   {{ else }}
-    src="{{ $src.RelPermalink }}"
+    src="{{ $src.RelPermalink }}" 
   {{ end }}
-
-{{ with .Get "alt" }} alt="{{ . | plainify }}" {{ end }} {{ with .Get "style" }} style="{{ . | safeCSS }}" {{ end }} />
-    {{ if .Get "caption" }}
-      <figcaption class="{{ with .Get "captionPosition"}}{{ . }}{{ else -}} center {{- end }}" {{ with .Get "captionStyle" }} style="{{ . | safeCSS }}" {{ end }}>{{ .Get "caption" }}</figcaption>
-    {{ end }}
-  </figure>
-{{ end }}
+  {{ with .Get "alt" }}alt="{{.}}"{{ else }}alt=""{{ end >}}
