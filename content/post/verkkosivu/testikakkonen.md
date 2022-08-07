@@ -34,5 +34,5 @@ Koska Javascript-osaaminen oli nollassa, piti googlettaa. Googlesta löytyi nope
 
 ![Kuvakaappaus jsfiddlestä](/img/taustat/ensimmainen_tehtava.jpg)
 
-{{< img src="images/ensimmainen_tehtava.jpg" alt="Screenshot of my terminal" >}}
+{{< img src="/images/ensimmainen_tehtava.jpg" alt="Screenshot of my terminal" >}}
 
