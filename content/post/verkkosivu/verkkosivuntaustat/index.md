@@ -50,7 +50,7 @@ Koodissa aiemmin auttanut henkilö mainitsi että hänellä oli myös oma verkko
 
 Kun Jekyll ei toiminut, heitin Googleen Jekyll alternatives. Sieltä tuli vastaan samalla periaattella toimiva [Hugo](https://gohugo.io/), joka on käytössä edelleen. Hugo toimii niin, että ohjelmisto luo valmiin verkkosivun sille syötetyistä palasista. Palaset voit tehdä itse tai sitten ladata valmiit palaset netistä. Omat palaseni hankin rakentamalla oman sivun [Future Imperfect](https://github.com/jpescador/hugo-future-imperfect) teeman ympärille. Se on yksi niistä html5up.net-teemoista, jonka jpescador-niminen käyttäjä on muokanut Hugo-yhteensopivaksi. Syksy meni verkkosivua rakentaessa ja ulkoasua hioessa, lukion ykkösten kanssa käytettiin epäsäännöllisten verbien harjoitteluun tarkoitettuja tehtäviä. Enimmäkseen hioin ulkoasua. Valmiiksihiotusta ulkoasusta ei ole valitettavasti laittaa kuvaa, sillä meni hermot ja poistin koko sivun koska en ole tyytyväinen mihinkään.
 
-{{<post-image image="hugobuild.jpg" />}}
+{{< img src="hugobuild.jpg" alt="Hugo" >}}
 
 Sivusto rakentuu helposti Hugolla. Rakentamisen voi automatisoida [GitHub Actionsin](https://github.com/features/actions) avulla, mutta jostain syystä tiettyjä css-muutoksia ei saa läpi ilman että antaa Hugon rakentaa sivun omalla koneella. Tämänkin asian selvittämiseen meni se viitisen tuntia. 
 
