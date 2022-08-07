@@ -32,6 +32,5 @@ Tarkoituksena oli luoda monivalintatehtäväketju, jossa piti valita annettuun l
 
 Koska Javascript-osaaminen oli nollassa, piti googlettaa. Googlesta löytyi nopea ohjeistus siitä miten tehdään Javascriptillä monivaiheinen monivalintehtävä, joten kopioin sen ja aloin muokkaamaan. Muokkaamisessa apun toimi [jsfiddle](https://jsfiddle.net/), jossa voit pyörittää HTML, JS ja CSS reaaliajassa. Rehellisesti sanottuna tein tuota ensimmäistä tehtävää noin yhdeksän tuntia, ja seuraavana päivänä saman verran kun korjasin virheet ja loin sen ympärille ulkoasun. Valmista tehtävää ja kaunista ulkoasua tuli ihasteltua pitkään, vaikka myöhemmin koko ulkoasu heitettiin menemään koska oli ruma ja epäkäytännöllinen ja Javascriptissä osa kohdista oli ihan järjettömiä. Alla kuva jsfiddlen taulukosta jossain vaiheessa prosessia.
 
-
-{{< img src="images/ensimmainen_tehtava.jpg" alt="Screenshot of my terminal" >}}
+![Kuvakaappaus jsfiddlestä](/img/ensimmainen_tehtava.jpg)
 
