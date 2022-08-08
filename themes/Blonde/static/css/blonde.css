@@ -239,3 +239,18 @@ img.medium-zoom-image {
   justify-content: center;
   margin: auto;
 }
+
+div#toc a {
+
+}
+
+div#toc ul {
+  list-style: none;
+}
+
+div#toc {
+  -webkit-padding-start: .5rem;
+  padding-bottom: .125rem;
+  padding-top: .125rem;
+  padding-inline-start: .5rem;
+}
