@@ -14,17 +14,20 @@ categories = [
 ]
 +++
 
+
+
+
 Tässä julkaisussa käsitellään tämän verkkosivun taustalla olevaa prosessia, joka on tietysti kokoajan kesken. Ehkä saat tästä inspiraatiota oman projektin luomiseen, tosin tuskin tämä kovin montaa ihmistä kiinnostaa. Oikeasti kirjoitan tätä koska harjoittelen alustan toimintoja ja formaatteja ja pääsen käymään läpi sivuston eri vaiheita.
 
-## Miksi?
+## Miksi teit sen?
 
 Taustalla on jo pitkään jatkunut halu tehdä jotain hyödyllistä tietoteknistä projektia, sillä kiinnostusta löytyy, mutta päämäärää ei. Töissä tuli vastaan aito tarve luoda omia verkkotehtäviä, jonka takia tämä projekti sai alkunsa. Lopulta syntyi tämä sivu. Tärkein syy kuitenkin on päästä viettämään aikaa omien kiinnostuksen kohteiden kanssa, minkä takia kaikki sisältö täällä ei välttämättä ole lukijan mielestä kovin hyödyllistä. Tämä sivu on tehty 95% itseäni varten, ja loput 5% teitä lukijoita varten, jos teitä edes on.
 
-## Koodaustausta
+## Oma koodaustausta
 
 Yläaste-lukioikäisenä tein nettisivut muistaakseni Microsoft Frontpagen avulla. Sivut laitettiin jollekkin ilmaispalvelimelle ja perään tietty .tk-domain. Sivustoja kertyi vuosien mittaan useita, mutta sisältöä ei ollut juurikaan. Ainakin yhdellä sivulla oli musta tausta, ja itse sivu toimi inline-framen avulla. Nykyistä sivua luodessa sain selville, että inline-framet ovat olleet vanhanaikaista koodia jo yli kymmenen vuotta, joten hyväksi koettu ulkoasu piti hylätä. Koodaustaustaa siis oli, mutta lähes olemattomasti. HTML ja CSS oli sillä tasolla että osasin hyvin lukea sitä, mutta tuottaminen vaati apukeinoja, sama siis kuin saksan kieli osaamiseni. Javascript-osaaminen käytännössä oli tasolla 0/5, nyt jo 1/5 jos pyöristää ylöspäin.
 
-## Alkuvaiheet
+## Sivun alkuvaiheet
 
 idea sivusta oli hautunut päässä jo hetken, mutta alkoi konkretisoitua uudenvuodenaaton aikoihin vuoden 2020 vaihtuessa vuoteen 2021, paikkana Utajärveläinen sauna. Kysyin koodausta työksi tekevältä ystävältä millä koodikielillä yksinkertaiset verkkokielioppitehtävät kannattaisi toteuttaa, ja vastaus oli HTML ja Javascript. Rehellisesti sanottuna odotin jotain hienompaa, mutta eipä niitä muita tarvita (paitsi tietysti CSS). Kotiin päästyäni latasin [Notepad++](https://notepad-plus-plus.org/), jolla koodia osaavat tekivät nettisivuja joskus aikoinaan. Palvelimeksi valikoitui [GitHub Pages](https://pages.github.com/), joka on alustana tälläkin hetkellä (tilanne v. 2022). 
 
@@ -42,7 +45,7 @@ Seuraavaksi tehtävätyypiksi tein avoimen aukkotehtävän (alla) käyttäen hyv
 
 Koulullamme oli myös liikkuvaan opiskeluun kannustava päivä, jolloin jokaisen opettajan tuli päivän aikana käyttää jotakin liikkuvaan opiskeluun kannustavaa menetelmää. Tein verkkotehtävän joka toimi suunnistuksen lailla. Opiskelijoille annettiin kysymys, ja tekstikenttään oikean vastauksen annettuaan he pääsivät seuraavaan vaiheeseen. Kysymyksistä osaan löytyi vastaus ainoastaan koulurakennuksen sisällä liikkuessa (esim. portaiden laskeminen) ja osa kysymyksistä oli kappaleen sanastoa.
 
-## Seuraava vaihe
+## Uusi alku, uusi alusta
 
 Lukuvuoden lähestyttyä loppua olin jo päättänyt että seuraavat lukuvuodet vietetään taas lukiossa. Sen takia en enää keskittynyt kesän aikana verkkosivun sisällön luomiseen, vaan aloin luomaan uutta käyttöjärjestelmää. Aiemmin jokainen sivu koostui omasta .html-tiedostosta, johon oli upotettu javascript ja css omien tägiensä sisään. Jos halusin liikuttaa jotain viivaa ulkoasussa, se piti tehdä manuaalisesti jokaisella sivulla erikseen. Siirsin ulkoasun omaan .css-tiedostoon, mutta sitten ei enää jaksanut, vaan aloin etsimään muita vaihtoehtoja. Lisäksi tarvittiin monipuolisempi käyttöliittymä, sillä yläkoulussa tehtäviä tehtiin puhelimella, mutta lukiossa käytössä on tietokoneet. Lisäksi lukiolaisille olisi mahdollisuus tuottaa myös muuta sisältöä, koska on oletus että ainakin muutamaa heistä voisi jopa kiinnostaa asia enemmän. 
 
@@ -52,9 +55,13 @@ Kun Jekyll ei toiminut, heitin Googleen Jekyll alternatives. Sieltä tuli vastaa
 
 ![](hugobuild.jpg)
 
-Sivusto rakentuu helposti Hugolla. Rakentamisen voi automatisoida [GitHub Actionsin](https://github.com/features/actions) avulla, mutta jostain syystä tiettyjä css-muutoksia ei saa läpi ilman että antaa Hugon rakentaa sivun omalla koneella. Tämänkin asian selvittämiseen meni se viitisen tuntia. 
+Sivusto rakentuu Hugolla. Rakentamisen voi automatisoida [GitHub Actionsin](https://github.com/features/actions) avulla, mutta jostain syystä tiettyjä css-muutoksia ei saa läpi ilman että antaa Hugon rakentaa sivun omalla koneella. Tämänkin asian selvittämiseen meni se viitisen tuntia. 
 
 
 ## Nykytilanne
 
-Reilun tauon jälkeen palasin sivuston pariin, sillä tehtäviä oli saatava. Ulkoasu meni kokonaan uusiksi, ja teemaksi valikoitui [Blonde](https://github.com/opera7133/Blonde). Uusia tehtävätyyppejä tuli, vanhojen tehtävien koodia parannettiin huomattavasti, sillä nyt oli jo sen verran ymmärrystä asian suhteen, että pystyi huomaamaan aiemmat järjettömyydet. Esimerkiksi väärästä vastauksesta aiempi tehtävä sammutettiin sleep();-komennolla, ja päälle tuli modal-ikkuna. Molemmat turhia. Ajasta kuitenkin 95% meni käyttöliittymän hiomiseen, sillä olen sellainen ihminen joka leikkaa reunoja täydellisen suoriksi niin kauan ettei leikattavaa ole enää jäljellä. Teemaan on lisätty esim. dropdown-valikot (meni monta päivää), uusi fontti (viitisen tuntia, en tiedä miksi) ja viimeisimpänä tätä kirjoitusta kirjoittaessa kuvien zoomaaminen klikkaamalla (meni myös viitisen tuntia koska en osaa lukea). 
+Reilun tauon jälkeen palasin sivuston pariin, sillä tehtäviä oli saatava. Ulkoasu meni kokonaan uusiksi, ja teemaksi valikoitui [Blonde](https://github.com/opera7133/Blonde). Uusia tehtävätyyppejä tuli, vanhojen tehtävien koodia parannettiin huomattavasti, sillä nyt oli jo sen verran ymmärrystä asian suhteen, että pystyi huomaamaan aiemmat järjettömyydet. Esimerkiksi väärästä vastauksesta aiempi tehtävä sammutettiin sleep();-komennolla, ja päälle tuli modal-ikkuna. Molemmat turhia. Ajasta kuitenkin 95% meni käyttöliittymän hiomiseen, sillä olen sellainen ihminen joka leikkaa reunoja täydellisen suoriksi niin kauan ettei leikattavaa ole enää jäljellä. 
+
+Teemaan on lisätty esim. dropdown-valikot (meni monta päivää), uusi fontti (viitisen tuntia, en tiedä miksi) ja viimeisimpänä tätä kirjoitusta kirjoittaessa kuvien zoomaaminen klikkaamalla (meni myös viitisen tuntia koska en osaa lukea). Silti se ei toimi kunnolla, sillä jostain syystä kuvasta tulee sumea vaikka kaiken pitäisi olla kunnossa. Odotan että asiasta ohjeen kirjoittanut random Israelilissa asuva venäläinen vastaa kun kysyin asiasta. Sillä välin rakensin tuohon oikealle Sisältö-laatikon, jossa voi siirtyä kirjoituksessa eteenpäin tai taaksepäin ja toivottavasti navigoida paremmin. Sisällysluettelon saa valmiiksi Hugolla tehtyä, ja yritin tehdä siitä widgetin sivupalkkiin kuten nuo muutkin osat tuolla. Jostain syystä se ei tietenkään toimi (minulla) erillisenä widgettinä, vaan se pitää laittaa sinne erikseen koodina kirjoituksen ulkoasukoodiin. En tiedä miksi. Alla kuva.
+
+![](toc_vsc.png)
