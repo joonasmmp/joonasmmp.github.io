@@ -240,17 +240,10 @@ img.medium-zoom-image {
   margin: auto;
 }
 
-div#tableofcontents a {
-
+div#toc a:hover {
+  color: #3B82F6;
 }
 
-div#tableofcontents ul {
+div#toc ul {
   list-style: none;
-}
-
-div#tableofcontents {
-  -webkit-padding-start: .5rem;
-  padding-bottom: .125rem;
-  padding-top: .125rem;
-  padding-inline-start: .5rem;
 }
