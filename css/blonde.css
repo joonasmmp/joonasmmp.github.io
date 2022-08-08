@@ -246,5 +246,9 @@ div#toc a:hover {
 
 div#toc ul {
   list-style: none;
-  font-size: 0.9em;
+  font-size: 1.1em;
+}
+
+div#toc li {
+  margin: 0.2em;
 }
