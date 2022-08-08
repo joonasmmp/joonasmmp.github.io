@@ -246,4 +246,5 @@ div#toc a:hover {
 
 div#toc ul {
   list-style: none;
+  text: size 0.9em;
 }
