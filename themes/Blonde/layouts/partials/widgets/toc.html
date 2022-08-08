@@ -1,8 +1,11 @@
 
 <div class="bg-white panel mb-3 pb-5 dark:bg-warmgray-900">
-            KULLI
+    {{ if and (gt .WordCount 400 ) (.Params.toc) }}
     <aside>
-        {{ .TableOfContents }}
+        <header>
+        <h2>{{.Title}}</h2>
+        </header>
+        {{.TableOfContents}}
     </aside>
-   
+    {{ end }}   
 </div>
