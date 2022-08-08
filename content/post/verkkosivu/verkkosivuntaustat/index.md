@@ -32,14 +32,12 @@ Tarkoituksena oli luoda monivalintatehtäväketju, jossa piti valita annettuun l
 
 Koska Javascript-osaamista ei ollut, piti googlettaa. Googlesta löytyi nopea ohjeistus siitä miten tehdään Javascriptillä monivaiheinen monivalintehtävä, joten kopioin sen ja aloin muokkaamaan. Muokkaamisessa apun toimi [jsfiddle](https://jsfiddle.net/), jossa voit pyörittää HTML, JS ja CSS reaaliajassa. Rehellisesti sanottuna tein tuota ensimmäistä tehtävää noin yhdeksän tuntia, ja seuraavana päivänä saman verran kun korjasin virheet ja loin sen ympärille ulkoasun. Valmista tehtävää ja kaunista ulkoasua tuli ihasteltua pitkään, vaikka myöhemmin koko ulkoasu heitettiin menemään koska oli ruma ja epäkäytännöllinen ja Javascriptissä osa kohdista oli ihan järjettömiä. Alla kuva jsfiddlestä valmiin tehtävän jälkeen.
 
-{{< img src="ensimmainen_tehtava.jpg" alt="Screenshot jsfiddlestä" >}}
 ![](ensimmainen_tehtava.jpg)
 
 Koodin kanssa auttaneet kaverit epäilivät koko tehtävän alusta asti alkamisen olevan bugi eikä toiminto jonka rakentamiseen olin käyttänyt monta tuntia. Tehtävää tunnilla hyödyntäessä paikalla ollut erityisopettaja kehui erityisesti sitä toimintoa, joten taas huomaa eron pedagogisten asiantuntijoiden ja tavallisten ihmisten välillä. Samanlaisia tehtäviä tuli tehtyä muutama ja niitä käytettyä esimerkiksi tukiopetuksen lopussa ja ennen koetta kerratessa. Tehtävässä oli myös havaittavissa pelillistämistä (joka on ehdottomasti pöhinäsana), sillä seiskaluokkalainen kuvaili erästä tehtävää että "tuo on aivan paska peli". 
 
 Seuraavaksi tehtävätyypiksi tein avoimen aukkotehtävän (alla) käyttäen hyvin pitkälti samoja menetelmiä kuin yllä.
 
-{{< img src="aukkotehtava.jpg" alt="Aukkotehtävä" >}}
 ![](aukkotehtava.jpg)
 
 Koulullamme oli myös liikkuvaan opiskeluun kannustava päivä, jolloin jokaisen opettajan tuli päivän aikana käyttää jotakin liikkuvaan opiskeluun kannustavaa menetelmää. Tein verkkotehtävän joka toimi suunnistuksen lailla. Opiskelijoille annettiin kysymys, ja tekstikenttään oikean vastauksen annettuaan he pääsivät seuraavaan vaiheeseen. Kysymyksistä osaan löytyi vastaus ainoastaan koulurakennuksen sisällä liikkuessa (esim. portaiden laskeminen) ja osa kysymyksistä oli kappaleen sanastoa.
@@ -52,7 +50,6 @@ Koodissa aiemmin auttanut henkilö mainitsi että hänellä oli myös oma verkko
 
 Kun Jekyll ei toiminut, heitin Googleen Jekyll alternatives. Sieltä tuli vastaan samalla periaattella toimiva [Hugo](https://gohugo.io/), joka on käytössä edelleen. Hugo toimii niin, että ohjelmisto luo valmiin verkkosivun sille syötetyistä palasista. Palaset voit tehdä itse tai sitten ladata valmiit palaset netistä. Omat palaseni hankin rakentamalla oman sivun [Future Imperfect](https://github.com/jpescador/hugo-future-imperfect) teeman ympärille. Se on yksi niistä html5up.net-teemoista, jonka jpescador-niminen käyttäjä on muokanut Hugo-yhteensopivaksi. Syksy meni verkkosivua rakentaessa ja ulkoasua hioessa, lukion ykkösten kanssa käytettiin epäsäännöllisten verbien harjoitteluun tarkoitettuja tehtäviä. Enimmäkseen hioin ulkoasua. Valmiiksihiotusta ulkoasusta ei ole valitettavasti laittaa kuvaa, sillä meni hermot ja poistin koko sivun koska en ole tyytyväinen mihinkään.
 
-{{< img src="hugobuild.jpg" alt="Hugo" >}}
 ![](hugobuild.jpg)
 
 Sivusto rakentuu helposti Hugolla. Rakentamisen voi automatisoida [GitHub Actionsin](https://github.com/features/actions) avulla, mutta jostain syystä tiettyjä css-muutoksia ei saa läpi ilman että antaa Hugon rakentaa sivun omalla koneella. Tämänkin asian selvittämiseen meni se viitisen tuntia. 
