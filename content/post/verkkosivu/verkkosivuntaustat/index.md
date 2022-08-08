@@ -33,6 +33,7 @@ Tarkoituksena oli luoda monivalintatehtäväketju, jossa piti valita annettuun l
 Koska Javascript-osaamista ei ollut, piti googlettaa. Googlesta löytyi nopea ohjeistus siitä miten tehdään Javascriptillä monivaiheinen monivalintehtävä, joten kopioin sen ja aloin muokkaamaan. Muokkaamisessa apun toimi [jsfiddle](https://jsfiddle.net/), jossa voit pyörittää HTML, JS ja CSS reaaliajassa. Rehellisesti sanottuna tein tuota ensimmäistä tehtävää noin yhdeksän tuntia, ja seuraavana päivänä saman verran kun korjasin virheet ja loin sen ympärille ulkoasun. Valmista tehtävää ja kaunista ulkoasua tuli ihasteltua pitkään, vaikka myöhemmin koko ulkoasu heitettiin menemään koska oli ruma ja epäkäytännöllinen ja Javascriptissä osa kohdista oli ihan järjettömiä. Alla kuva jsfiddlestä valmiin tehtävän jälkeen.
 
 {{< img src="ensimmainen_tehtava.jpg" alt="Screenshot jsfiddlestä" >}}
+![](ensimmainen_tehtava.jpg)
 
 Koodin kanssa auttaneet kaverit epäilivät koko tehtävän alusta asti alkamisen olevan bugi eikä toiminto jonka rakentamiseen olin käyttänyt monta tuntia. Tehtävää tunnilla hyödyntäessä paikalla ollut erityisopettaja kehui erityisesti sitä toimintoa, joten taas huomaa eron pedagogisten asiantuntijoiden ja tavallisten ihmisten välillä. Samanlaisia tehtäviä tuli tehtyä muutama ja niitä käytettyä esimerkiksi tukiopetuksen lopussa ja ennen koetta kerratessa. Tehtävässä oli myös havaittavissa pelillistämistä (joka on ehdottomasti pöhinäsana), sillä seiskaluokkalainen kuvaili erästä tehtävää että "tuo on aivan paska peli". 
 
