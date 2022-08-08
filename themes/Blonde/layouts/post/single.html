@@ -12,6 +12,10 @@
                 <h1 class="mb-1 text-4xl" style="text-align: center; text-transform: uppercase">{{.Title}}</h1>
                 <aside id="meta">
                     <div>
+
+                        <aside>
+                            {{ .TableOfContents }}
+                        </aside>
                         <section>
                                 {{ with .Params.categories }}
                                                                 <div id="categories">
