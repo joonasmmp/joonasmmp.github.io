@@ -39,6 +39,7 @@ Koodin kanssa auttaneet kaverit epäilivät koko tehtävän alusta asti alkamise
 Seuraavaksi tehtävätyypiksi tein avoimen aukkotehtävän (alla) käyttäen hyvin pitkälti samoja menetelmiä kuin yllä.
 
 {{< img src="aukkotehtava.jpg" alt="Aukkotehtävä" >}}
+![](aukkotehtava.jpg)
 
 Koulullamme oli myös liikkuvaan opiskeluun kannustava päivä, jolloin jokaisen opettajan tuli päivän aikana käyttää jotakin liikkuvaan opiskeluun kannustavaa menetelmää. Tein verkkotehtävän joka toimi suunnistuksen lailla. Opiskelijoille annettiin kysymys, ja tekstikenttään oikean vastauksen annettuaan he pääsivät seuraavaan vaiheeseen. Kysymyksistä osaan löytyi vastaus ainoastaan koulurakennuksen sisällä liikkuessa (esim. portaiden laskeminen) ja osa kysymyksistä oli kappaleen sanastoa.
 
