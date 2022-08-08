@@ -240,15 +240,15 @@ img.medium-zoom-image {
   margin: auto;
 }
 
-div#toc a {
+div#tableofcontents a {
 
 }
 
-div#toc ul {
+div#tableofcontents ul {
   list-style: none;
 }
 
-div#toc {
+div#tableofcontents {
   -webkit-padding-start: .5rem;
   padding-bottom: .125rem;
   padding-top: .125rem;
