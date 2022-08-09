@@ -6,7 +6,6 @@ DefaultContentLanguage = "fi"
 enableInlineShortcodes = true
 theme = "Blonde"
 enableRobotsTXT = true
-summarylength = 150
 
 # Please enable this feature if the site is available in Japanese, Chinese or Korean.
 #hasCJKLanguage = false
