@@ -255,6 +255,6 @@ div#toc li {
 
 @media (min-width: 768px) {
   .toc2 {
-    display: none;
+    display: block;
   }
 }
