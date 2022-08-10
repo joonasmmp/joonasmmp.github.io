@@ -3,6 +3,8 @@ author = "PJMM"
 title = "Verkkosivun taustaa"
 date = "2022-08-05"
 type = "post"
+image: "cover.png"
+
 tags = [
     "verkkosivu",
     "offtopic",
