@@ -18,6 +18,13 @@
         <div class="text-gray-900 font-bold text-xl mb-2 dark:text-white">{{ .Title }}</div>
         <p class="text-gray-700 text-base pb-5 dark:text-gray-300">{{ substr .Summary 0 300 | plainify | htmlUnescape
             }}...</p>
+            {{ with .Params.categories }}
+            <div id="categories">
+{{ range . }}
+<h4 style="text-align:right; padding-bottom: 1.3em"><a style="margin-right:0.6em; text-transform:uppercase" href='{{ "categories" | absURL}}/{{ . | urlize }}'>{{ . }}</a>-
+{{ end }}
+
+{{ end }}
         <p class="text-sm text-gray-600 absolute items-center right-0 bottom-0 dark:text-gray-400">
             <time>{{ .Date.Format "January 02, 2006" }}</time>
         </p>
