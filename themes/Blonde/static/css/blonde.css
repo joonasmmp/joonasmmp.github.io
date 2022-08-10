@@ -252,3 +252,9 @@ div#toc ul {
 div#toc li {
   margin: 0.2em;
 }
+
+@media (min-width: 768px) {
+  .toc2 {
+    display: none;
+  }
+}
