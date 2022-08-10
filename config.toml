@@ -47,13 +47,13 @@ darkmode = "light"
     # See the Tailwind CSS documentation to set it up.
     # Recommended settings are h-32 to h-48.
     # https://tailwindcss.com/docs/height
-    thumbnail_height = "lg:h-44"
+    thumbnail_height = "lg:h-55"
 
     # https://tailwindcss.com/docs/width
     thumbnail_width = "lg:w-auto"
 
     # Number of characters in description
-    description = "130"
+    description = "300"
 
     # Mainsections
     mainSections = ["post"]
