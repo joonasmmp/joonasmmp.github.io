@@ -29,7 +29,7 @@
                 {{ if .Params.image }}
                 <img class="py-4" src="{{ .Params.image | absURL }}">
                 {{ end }}
-                <div class="hidden lg:block bg-white panel mb-3 pb-5 dark:bg-warmgray-900" id="toc2">
+                <div class=".d-lg-none .d-xl-none bg-white panel mb-3 pb-5 dark:bg-warmgray-900" id="toc2">
                     <p class="text-xl text-center text-gray-700 py-5 dark:text-gray-300">Sisältö</p>
                     <aside class="px-5">
                         {{.TableOfContents}}

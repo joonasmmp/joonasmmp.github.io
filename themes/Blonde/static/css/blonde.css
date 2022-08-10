@@ -252,9 +252,3 @@ div#toc ul {
 div#toc li {
   margin: 0.2em;
 }
-
-@media (max-width: 1024px) {
-  .toc2 {
-    display: block;
-  }
-}
