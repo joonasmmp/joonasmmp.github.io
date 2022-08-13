@@ -8,37 +8,20 @@ layout: ohje
 Kurssi kolme eli kieli ja kulttuuri ja tässä sisältöä siihen
 
 ## Laskettavat ja ei-laskettavat substantiivit
-* [Laskettavat ja ei-laskettavat substantiivit: Alkutesti]({{<ref "countable_alkutesti.mdt" >}})
-
-Ota säännöt haltuun nopealla monivalinnalla.
-
-* [Laskettavat ja ei-laskettavat substantiivit: Lopputesti]({{<ref "countable_lopputesti.mdt" >}})
-
-Onko sana laskettava vai ei-laskettava? Älä vastaa väärin.
+* [Alkutesti]({{<ref "countable_alkutesti.mdt" >}})
+* [Lopputesti]({{<ref "countable_lopputesti.mdt" >}})
 
 ## Artikkelit
-* [Artikkelit: Lopputesti]({{<ref "artikkelit_lopputesti.mdt" >}})
-
-Jatkuvasti kasvava määrä tiukkoja artikkelikysymyksiä. Vastaa väärin ja aloita alusta!
+* [Lopputesti]({{<ref "artikkelit_lopputesti.mdt" >}})
 
 ## Genetiivi
-* [Genetiivi: Flashcard]({{<ref "genetiivi_flashcard.mdt" >}})
+* [Flashcard]({{<ref "genetiivi_flashcard.mdt" >}})
 
-Kortteja genetiivilauseista. Muodosta englanninkielinen vastine. 
 
 ## Epäsuora kerronta
-* [Epäsuora kerronta: Alkutesti]({{<ref "epasuora_alkutesti.mdt" >}})
-
-Monivalintatehtävä epäsuoran esityksen perusasioista. Ota säännöt haltuun.
-
-* [Epäsuora kerronta: Flashcard]({{<ref "epasuora_flashcard.mdt" >}})
-
-Kortteja epäsuoraan kerrontaan liittyen. Muunna epäsuoraan kerrontaan tai käännä englanniksi.
-
-* [Epäsuora kerronta: Lopputesti]({{<ref "epasuora_lopputesti.mdt" >}})
-
-Monivalintakysymyksiä epäsuorasta kerronnasta. Älä vastaa väärin.
-
+* [Alkutesti]({{<ref "epasuora_alkutesti.mdt" >}})
+* [Flashcard]({{<ref "epasuora_flashcard.mdt" >}})
+* [Lopputesti]({{<ref "epasuora_lopputesti.mdt" >}})
 
 ## Sanastoa
 * [Teemasanasto: ENG-FIN]({{<ref "teemasanasto_flashcard_eng_fin.mdt" >}})
