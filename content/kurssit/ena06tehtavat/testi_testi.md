@@ -12,7 +12,8 @@ layout: tehtava
  <div><ul id="defs"> </ul></div>
 </div>
 
-<script>    //Execute a JavaScript immediately after a page has been loaded
+<script> 
+   //Execute a JavaScript immediately after a page has been loaded
 window.onload = function() {
 
   //Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main file
@@ -58,6 +59,8 @@ window.onload = function() {
     }
   };
 
+
+
   var selectedTerm = null, //to make sure none is selected onload
     selectedDef = null,
     termsContainer = document.querySelector("#terms"), //list of terms
@@ -86,17 +89,17 @@ window.onload = function() {
     if (target.className === "score")
       return;
     var termIndex = Number(target.getAttribute("data-index"));
-    //warunek na to, że tylko jedno LI może być zaznaczone  
+    //the condition is that only one LI can be selected
     if (selectedTerm !== null && selectedTerm !== termIndex) {
       termsContainer.querySelector("li[data-index='" + selectedTerm + "']").removeAttribute("data-selected");
     }
 
-    //kasowanie odznaczenia  
+    //deletion of the decoration
     if (target.hasAttribute("data-selected")) {
       target.removeAttribute("data-selected");
       selectedTerm = null;
     }
-    //zaznaczanie na klikniecie    	
+    //selecting on click	
     else {
       target.setAttribute("data-selected", true);
       selectedTerm = termIndex;
@@ -106,16 +109,17 @@ window.onload = function() {
       var term = document.querySelector("#terms [data-index='" + selectedTerm + "']");
       var def = document.querySelector("#defs [data-index='" + selectedDef + "']");
       if (isMatch(selectedTerm, selectedDef)) {
-        term.className = "score";
+				term.className = "score";
         def.className = "score";
-      }
-
+  			numero++;
+   			term.style.order = (numero);
+   			def.style.order = (numero);
+            }
       selectedTerm = null;
       selectedDef = null;
       term.removeAttribute("data-selected");
       def.removeAttribute("data-selected");
-
-    }
+			    }
   })
 
   defsContainer.addEventListener("click", function(e) {
@@ -123,6 +127,7 @@ window.onload = function() {
     if (target.className === "score")
       return;
     var defIndex = Number(target.getAttribute("data-index"));
+    var defText = Number(target.getAttribute("data-index"))
 
     if (selectedDef !== null && selectedDef !== defIndex) {
       defsContainer.querySelector("li[data-index='" + selectedDef + "']").removeAttribute("data-selected");
@@ -139,12 +144,15 @@ window.onload = function() {
       //var def = document.querySelector("#defs [data-index='"+selectedDef+"']");
       var def = defsContainer.querySelector("[data-index='" + selectedDef + "']");
       if (isMatch(selectedTerm, selectedDef)) {
-        
-        term.className = "score";
+				term.className = "score";
         def.className = "score";
-      }
-      selectedTerm = null; //odznacz kliknięcie
-      selectedDef = null; //odznacz kliknięcie  
+  			numero++;
+   			term.style.order = (numero);
+   			def.style.order = (numero);
+       }
+      
+      selectedTerm = null; //poista napautusten valinta
+      selectedDef = null; //poista napautusten valinta
       term.removeAttribute("data-selected");
       def.removeAttribute("data-selected");
     }
@@ -162,6 +170,7 @@ window.onload = function() {
       temporaryValue, randomIndex;
 
     // While there remain elements to shuffle...
+
     while (currentIndex !== 0) {
 
       // Pick a remaining element...
@@ -192,6 +201,8 @@ window.onload = function() {
   });
 
 }
+
+var numero = 0;
 </script>
 
 <style>
@@ -302,7 +313,6 @@ div#tehtava button:focus {
   color: #fff!important;
   background: #00A0DF!important;
   border-radius: 15px;
-  order: 1;
 }
 
 .score:hover {
