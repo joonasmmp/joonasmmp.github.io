@@ -159,13 +159,12 @@ var answers = {
   "q2": ["as a result", "consequently"],
   "q3": ["still", "however", "nevertheless", "nonetheless"],
   "q4": ["besides", "on top of that", "in addition", "what's more", "moreover" "futhermore", "in addition to that"],
-  "q5": ["for all that","all the same", "even so"],
-  "q6": ["not that it matters"],
-  "q7": ["instead"],
-  "q8": ["both"],
-  "q9": ["and"],
-  "q10": ["as", "since"],
-  "q11": ["provided that", "providing that"],
+  "q5": ["not that it matters"],
+  "q6": ["instead"],
+  "q7": ["both"],
+  "q8": ["and"],
+  "q9": ["as", "since"],
+  "q10": ["provided that", "providing that"],
 };
 
 function markAnswers() {
