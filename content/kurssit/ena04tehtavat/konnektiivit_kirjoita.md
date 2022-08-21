@@ -113,7 +113,10 @@ form input {
   border-bottom: 1px solid white;
 }
 
-.tehtava input[type="text"],
+.tehtava input[type="text"] {
+  text-align: center;
+}
+
 .tehtava span {
     font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: inherit;
