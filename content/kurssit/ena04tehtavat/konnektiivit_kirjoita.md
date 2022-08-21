@@ -36,6 +36,7 @@ Muuta lauseenvastikkeiksi.
 </section>
 <section>
 <br>8. This is the only bike we have&nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; (jollei) you guys can get a second one right now.
+</section>
 <section>
 <br>9. I will find myself a new bike &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (jotta) we don't all crash and break our faces right before the wedding.
 </section>
