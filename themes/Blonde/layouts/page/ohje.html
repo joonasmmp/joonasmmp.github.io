@@ -32,6 +32,12 @@
         {{ if .Site.Params.widgets.display }}
         <div class="hidden lg:block lg:col-span-1" style="border-radius: 4px; border-color: #D3D6DA; box-shadow: 0 4px 10px rgb(128 128 128 / 10%); overflow: hidden; border: 1px solid #ccccca;
         margin-bottom: 1.25em; height: fit-content;">
+                <div class="bg-white panel mb-3 pb-5 dark:bg-warmgray-900" id="toc">
+                    <p class="text-center text-xl text-center text-gray-700 py-5 dark:text-gray-300">Sisältö</p>
+                    <aside class="px-5">
+                        {{.TableOfContents}}
+                    </aside>
+                </div>
             {{ partial "widgets/category.html" . }}
             {{ partial "widgets/tags.html" . }}
             {{ partial "widgets/recent.html" . }}
