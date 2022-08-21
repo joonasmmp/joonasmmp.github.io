@@ -1,12 +1,12 @@
 ---
-title: "Lauseenvastikkeet: Kirjoita"
+title: "Konnektiivit: Kirjoita 1"
 date: 2022-8-21
 draft: false
 type: page
 layout: tehtava
 ---
 
-Muuta lauseenvastikkeiksi.
+Täydennä linkkisanat annetun vihjeen mukaan.
 
 {{< rawhtml >}}
 <div class="tehtava">

@@ -1,5 +1,5 @@
 ---
-title: "Lauseenvastikkeet: Kirjoita"
+title: "Konnektiivit: Kirjoita 2"
 date: 2022-8-21
 draft: false
 type: page
@@ -163,7 +163,7 @@ var answers = {
   "q6": ["not that it matters"],
   "q7": ["both"],
   "q8": ["and"],
-  "q9": ["as", "since"],
+  "q9": ["as", "since", "because"],
   "q10": ["provided that", "providing that"],
 };
 
