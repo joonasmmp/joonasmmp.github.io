@@ -6,7 +6,7 @@ type: page
 layout: tehtava
 ---
 
-Muuta lauseenvastikkeiksi.
+Täydennä linkkisanat annetun vihjeen mukaan.
 
 {{< rawhtml >}}
 <div class="tehtava">

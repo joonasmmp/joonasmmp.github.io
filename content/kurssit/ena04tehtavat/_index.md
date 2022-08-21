@@ -9,7 +9,8 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 
 ## Rakenteita
 #### Konjunktiot ja konnektiivit
-[1. Kirjoita]({{<ref "konnektiivit_kirjoita.mdt" >}})
-[2. Kirjoita]({{<ref "konnektiivit_kirjoita2.mdt" >}})
+[1. Täydennä linkkisanat]({{<ref "konnektiivit_kirjoita.mdt" >}})
+
+[2. Täydennä linkkisanat]({{<ref "konnektiivit_kirjoita2.mdt" >}})
 ## Sanastoa
 No ei ole vielä mittään
