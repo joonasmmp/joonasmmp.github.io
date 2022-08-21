@@ -8,7 +8,8 @@ layout: ohje
 Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta tai ääh emmä tiiä.
 
 ## Rakenteita
-No en oo ehtiny vielä
+### Konjunktiot ja konnektiivit
+* [1. Kirjoita]({{<ref "konnektiivit_kirjoita.mdt" >}})
 
 ## Sanastoa
 No ei ole vielä mittään
