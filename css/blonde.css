@@ -106,18 +106,16 @@
   padding-top: 0.55em;
   padding-bottom: 0.5em;
   padding-left: 0.5em;
-  background-color: #f6f6f6;
-  font-size: 1.2em;
+  background-color: #f6f6f6b0;
+  font-size: 1.4em;
 }
 .dark .content h2 {
   background-color: #1d2021;
   border-left-color: #81786a;
 }
 .content h3 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   padding-bottom: 0.25em;
-  border-bottom: 2px solid #222;
-  font-weight: 700;
 }
 .dark .content h3 {
   border-bottom-color: #81786a;
@@ -246,11 +244,11 @@ div#toc a:hover {
 
 div#toc ul {
   list-style: none;
-  font-size: 1.1em;
 }
 
 div#toc li {
-  margin: 0.2em;
+  margin-left: 0.7em;
+  margin-bottom: 0.4em;
 }
 
 #divtoc2 {
