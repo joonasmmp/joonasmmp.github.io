@@ -14,34 +14,34 @@ Täydennä linkkisanat annetun vihjeen mukaan.
   <ol>
   
 <section>
-<br>1. Johnny does not play football&nbsp;<li><input id="q1" type="text"/><span></span></li>&nbsp; (vaikka) his brother plays in the Premier League.
+1. Johnny does not play football&nbsp;<li><input id="q1" type="text"/><span></span></li>&nbsp; (vaikka) his brother plays in the Premier League.
 </section>
 <section>
-<br>2. Jonathan takes cycling lessons &nbsp;<li><input id="q2" type="text"/><span></span></li>&nbsp; (kun taas) his sister is into show dance.
+2. Jonathan takes cycling lessons &nbsp;<li><input id="q2" type="text"/><span></span></li>&nbsp; (kun taas) his sister is into show dance.
 </section>
 <section>
-<br>3. Timothy started studying for his exams&nbsp;<li><input id="q3" type="text"/><span></span></li>&nbsp; (sen jälkeen kuin) he had taken his sister to school.
+3. Timothy started studying for his exams&nbsp;<li><input id="q3" type="text"/><span></span></li>&nbsp; (sen jälkeen kuin) he had taken his sister to school.
 </section>
 <section>
-<br>4. Jillian studies in the library&nbsp;<li><input id="q4" type="text"/><span></span></li>&nbsp; (aina kun) she can.
+4. Jillian studies in the library&nbsp;<li><input id="q4" type="text"/><span></span></li>&nbsp; (aina kun) she can.
 </section>
 <section>
-<br>5. She often studies very noisily,&nbsp;<li><input id="q5" type="text"/><span></span></li>&nbsp; (ikään kuin) she owns the place.
+5. She often studies very noisily,&nbsp;<li><input id="q5" type="text"/><span></span></li>&nbsp; (ikään kuin) she owns the place.
 </section>
 <section>
-<br>6. I would not study with her &nbsp;<li><input id="q6" type="text"/><span></span></li>&nbsp; (vaikka) she was the last study partner left in the world.
+6. I would not study with her &nbsp;<li><input id="q6" type="text"/><span></span></li>&nbsp; (vaikka) she was the last study partner left in the world.
 </section>
 <section>
-<br>7. You better have some bandaids ready&nbsp;<li><input id="q7" type="text"/><span></span></li>&nbsp; (siltä varalta että) we crash this bike!
+7. You better have some bandaids ready&nbsp;<li><input id="q7" type="text"/><span></span></li>&nbsp; (siltä varalta että) we crash this bike!
 </section>
 <section>
-<br>8. This is the only bike we have&nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; (jollei) you guys can get a second one right now.
+8. This is the only bike we have&nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; (jollei) you guys can get a second one right now.
 </section>
 <section>
-<br>9. I will find myself a new bike &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (jotta) we don't all crash and break our faces right before the wedding.
+9. I will find myself a new bike &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (jotta) we don't all crash and break our faces right before the wedding.
 </section>
 <section>
-<br>Instead of bikes we can go to town &nbsp;<li><input id="q10" type="text"/><span></span></li>&nbsp; by bus &nbsp;<input id="q11" type="text"/><span></span></li>&nbsp; by train. 
+Instead of bikes we can go to town &nbsp;<li><input id="q10" type="text"/><span></span></li>&nbsp; by bus &nbsp;<input id="q11" type="text"/><span></span></li>&nbsp; by train. 
   </ol>
   
 <div id="buttonWrapper">

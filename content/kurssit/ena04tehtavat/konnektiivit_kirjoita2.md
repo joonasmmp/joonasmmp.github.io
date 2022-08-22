@@ -14,31 +14,31 @@ Täydennä linkkisanat annetun vihjeen mukaan.
   <ol>
   
 <section>
-<br>1. I absolutely loved the movie. &nbsp;<li><input id="q1" type="text"/><span></span></li>&nbsp; (kaiken kaikkiaan), we had a lovely time. 
+1. I absolutely loved the movie. &nbsp;<li><input id="q1" type="text"/><span></span></li>&nbsp; (kaiken kaikkiaan), we had a lovely time. 
 </section>
 <section>
-<br>2. Jonathan lost his ticket. &nbsp;<li><input id="q2" type="text"/><span></span></li>&nbsp; (sen seurauksena) he had to buy a new one.
+2. Jonathan lost his ticket. &nbsp;<li><input id="q2" type="text"/><span></span></li>&nbsp; (sen seurauksena) he had to buy a new one.
 </section>
 <section>
-<br>3. The screening had been sold out. &nbsp;<li><input id="q3" type="text"/><span></span></li>&nbsp; (kuitenkin), we managed to get him a seat as someone decided not to show up.
+3. The screening had been sold out. &nbsp;<li><input id="q3" type="text"/><span></span></li>&nbsp; (kuitenkin), we managed to get him a seat as someone decided not to show up.
 </section>
 <section>
-<br>4. Jonathan had left his credit card at home. &nbsp;<li><input id="q4" type="text"/><span></span></li>&nbsp; (sen lisäksi), he did not have any cash with him either..
+4. Jonathan had left his credit card at home. &nbsp;<li><input id="q4" type="text"/><span></span></li>&nbsp; (sen lisäksi), he did not have any cash with him either..
 </section>
 <section>
-<br>5. The night was warm, so we did not call a taxi. &nbsp;<li><input id="q5" type="text"/><span></span></li>&nbsp; (sen sijaan) we decided to walk home.
+5. The night was warm, so we did not call a taxi. &nbsp;<li><input id="q5" type="text"/><span></span></li>&nbsp; (sen sijaan) we decided to walk home.
 </section>
 <section>
-<br>6. I hope Jonathan can pay me back - &nbsp;<li><input id="q6" type="text"/><span></span></li>&nbsp; (ei sillä että) it matters, I have owed him money before as well.
+6. I hope Jonathan can pay me back - &nbsp;<li><input id="q6" type="text"/><span></span></li>&nbsp; (ei sillä että) it matters, I have owed him money before as well.
 </section>
 <section>
-<br>7. &nbsp;<li><input id="q7" type="text"/><span></span></li>&nbsp; (sekä) Jonathan  &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; (että) Lucy managed to walk home.
+7. &nbsp;<li><input id="q7" type="text"/><span></span></li>&nbsp; (sekä) Jonathan  &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; (että) Lucy managed to walk home.
 </section>
 <section>
-<br>8. &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (koska) it was late, we decided to hit the sack right away.
+8. &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (koska) it was late, we decided to hit the sack right away.
 </section>
 <section>
-<br>9. We might go to the movies tomorrow as well, &nbsp;<li><input id="q10" type="text"/><span></span></li>&nbsp; (edellyttäen että) Jonathan does not mess everything up like today.
+9. We might go to the movies tomorrow as well, &nbsp;<li><input id="q10" type="text"/><span></span></li>&nbsp; (edellyttäen että) Jonathan does not mess everything up like today.
   </ol>
   
 <div id="buttonWrapper">
