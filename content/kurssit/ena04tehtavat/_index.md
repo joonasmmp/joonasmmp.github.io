@@ -13,5 +13,15 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 [1. Täydennä linkkisanat]({{<ref "konnektiivit_kirjoita.mdt" >}})
 
 [2. Täydennä linkkisanat]({{<ref "konnektiivit_kirjoita2.mdt" >}})
+
+### Vaillinaiset apuverbit
+
+### Demonstratiivipronominit
+
+### Relatiivipronominit
+
+### Idenfiniittiproniminit
+
 ## Sanastoa
-No ei ole vielä mittään
+
+### Teemasanat
