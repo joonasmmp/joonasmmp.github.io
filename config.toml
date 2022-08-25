@@ -195,7 +195,7 @@ darkmode = "light"
   name = "Phrase bank"
   url = "/muuta/phrasebank/"
   identifier = "phrasebank"
-  weight = 1
+  weight = 2
   parent = "muuta"
 
 
