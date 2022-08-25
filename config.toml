@@ -184,6 +184,26 @@ darkmode = "light"
   identifier = "about"
   weight = 6
 
+[[menu.main]]
+  name = "Muuta"
+  url = "/muuta/"
+  identifier = "muuta"
+  weight = 7
+
+  [[menu.main]]
+  name = "Podcast-suositukset"
+  url = "/yo-kokeet/podcast/"
+  identifier = "podcast"
+  weight = 1
+  parent = "muuta"
+
+[[menu.main]]
+  name = "Phrase bank"
+  url = "/yo-kokeet/phrasebank/"
+  identifier = "phrasebank"
+  weight = 1
+  parent = "muuta"
+
 [taxonomies]
 category = "categories"
 tag = "tags"
