@@ -179,16 +179,10 @@ darkmode = "light"
   parent = "YO-kokeet"
 
 [[menu.main]]
-  name = "Tietoja"
-  url = "/about/"
-  identifier = "about"
-  weight = 6
-
-[[menu.main]]
   name = "Muuta"
   url = "/muuta/"
   identifier = "muuta"
-  weight = 7
+  weight = 6
 
   [[menu.main]]
   name = "Podcast-suositukset"
@@ -203,6 +197,14 @@ darkmode = "light"
   identifier = "phrasebank"
   weight = 1
   parent = "muuta"
+
+
+[[menu.main]]
+  name = "Tietoja"
+  url = "/about/"
+  identifier = "about"
+  weight = 7
+
 
 [taxonomies]
 category = "categories"
