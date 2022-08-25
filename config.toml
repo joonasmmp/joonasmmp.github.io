@@ -186,14 +186,14 @@ darkmode = "light"
 
   [[menu.main]]
   name = "Podcast-suositukset"
-  url = "/yo-kokeet/podcast/"
+  url = "/muuta/podcast/"
   identifier = "podcast"
   weight = 1
   parent = "muuta"
 
 [[menu.main]]
   name = "Phrase bank"
-  url = "/yo-kokeet/phrasebank/"
+  url = "/muuta/phrasebank/"
   identifier = "phrasebank"
   weight = 1
   parent = "muuta"
