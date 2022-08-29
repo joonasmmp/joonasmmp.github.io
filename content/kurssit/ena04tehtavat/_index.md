@@ -25,3 +25,9 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 ## Sanastoa
 
 ### Teemasanat
+
+## Muuta
+
+### A Letter to the Editor
+
+[Ohjeet kantaaottavaan yleisönosastokirjeeseen]
