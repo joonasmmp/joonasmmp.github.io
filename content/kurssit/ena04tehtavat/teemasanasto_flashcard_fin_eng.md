@@ -23,7 +23,6 @@ $(document).ready(function() {
 
   var currentQuestion = 0;
   var qbank = [
-[
 	["mainostaulu", "billboard"], 
 	["tuoreimmat uutiset", "breaking news"], 
 	["sensuuri, valvonta", "censorship"], 
@@ -110,8 +109,6 @@ $(document).ready(function() {
 	["katsoja", "viewer"], 
 	["vlogi, videoblogi", "vlog (video blog)"], 
 	["viraali, nopean internetsuosion saanut asia tai tapahtuma", "viral"], 
-	[]
-]
   ];
 
 beginActivity();

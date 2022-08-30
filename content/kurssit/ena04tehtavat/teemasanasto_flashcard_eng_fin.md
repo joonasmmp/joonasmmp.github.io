@@ -105,8 +105,6 @@ $(document).ready(function() {
 	["viewer", "katsoja"], 
 	["vlog (video blog)", "vlogi, videoblogi"], 
 	["viral", "viraali, nopean internetsuosion saanut asia tai tapahtuma"], 
-	[]
-]
   ];
 
   beginActivity();
