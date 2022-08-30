@@ -19,20 +19,44 @@ Podcastien kuunteluun on useita ohjelmia. Monet kuuntelevat esimerkiksi Spotifyn
 ## Englanninkieliset podcastit
 
 ### No Such Tning as a Fish
+[No Such Thing as a Fish](linhttps://podcasts.google.com/feed/aHR0cHM6Ly9hdWRpb2Jvb20uY29tL2NoYW5uZWxzLzIzOTkyMTYucnNzkki) on brittiläisen QI (Quite Interesting) ohjelman taustatyöntekijöiden podcast. QI on paneeliohjelma, jossa arvuutellaan vastauksia kysymyksiin ja samalla käydään läpi faktoja jotka saavat ihmisen sanomaan että aah, quite interesting. Huumorintäytteinen ohjelma, jota katsoin läpi varmaan 10 kautta ennen kuin tuli raja vastaan. Pitäisi katsoa loputkin kaudet. 
+
+No Such Thing as a Fishin tekijät ovat tuossa kyseisessä ohjelmassa työskentelevät faktanetsijät, jotka käyvät läpi niitä faktoja jotka eivät joko mahtuneet ohjelmaan mukaan tai jotka olivat jopa kyseiselle ohjelmalle liian outoja ja erikoisia. 
+
+Oma ehdoton podcastien GOAT. Tähän asti julkaistu ainakin Google Podcastsin mukaan 462 noin tunnin mittaista jaksoa, joista olen kuunnellut 400 (tilanne elokuu 2022), eli aika monta tuntia. Useita puhujaääniä ja vierailevia tähtiä, erittäin hauskoja ja mielenkiintoisia aiheita, joten tästä saat ylppäreihin mielestäni parhaiten apuja. 
 
 ### Hardcore History
+Dan Carlinin [Hardcore History](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5mZWVkYnVybmVyLmNvbS9kYW5jYXJsaW4vaGlzdG9yeT9mb3JtYXQ9eG1s) on, kuten nimestä voi päätellä, historiapodcast. Valitettavasti kovin moni näistä jaksoista näyttää olevan tällä hetkellä maksumuurin takana ainakin Google Podcastsissa, ehkä tilanne muuttuu.
+
+Jaksoissa käydään läpi historiallisia tapahtumia laidasta laitaan, ja monesti yhtä tapahtumaa käsittelee usea todella pitkä jakso. Jaksojen pituus on sekä hyvä että huono asia, sillä asiaa tulee käytyä läpi, mutta jaksojen pituus saattaa usein olla jopa 6 tuntia. Esimerkiksi Japanin osallistumisesta toiseen maailmansotaan kertova Supernova in the East käsittää tällä hetkellä 6 jaksoa, joiden pituus vaihtelee 3 ja 6 tunnin väliltä. Kattavaa, mutta asiaan paneutumista vaativaa, ja tästä syystä myös uusia jaksoja tulee erittäin harvoin.
+
+Dan Carlin ainakin omasta mielestäni osaa kertoa asioista mielenkiintoisesti ja mukaansatempaavasti. Historiapuristit valittavat että käyttää liikaa jenkki-ilmaisuja liittyen urheiluun ynnä muuhun, mutta ei minua haittaa. 
+
 
 ### Endless Thread
+[Endless Thread](https://podcasts.google.com/feed/aHR0cHM6Ly9yc3Mud2J1ci5vcmcvZW5kbGVzc3RocmVhZC9wb2RjYXN0) on Reddit-sivustoon pohjautuva podcast. Ohjelmaa tekee bostonilainen radioasema, joka ei ole ymmärtääkseni millään tavalla kytköksissä Redditiin. Monet jaksojen aiheet kuitenkin käsittelevät sivustoa ja sieltä liikkeelle lähteineitä ilmiöitä, tarinoita tai liikkeitä. 
+
+Redditissä paljon aikaa viettävänä moni näistä tarinoista on itselle jo entuudestaan tuttuja, mutta monesti jaksoissa mennään pintaa syvemmälle budjetti ylittäen, esimerkkinä monen jakson pituinen [We want plates](https://podcasts.google.com/feed/aHR0cHM6Ly9yc3Mud2J1ci5vcmcvZW5kbGVzc3RocmVhZC9wb2RjYXN0/episode/OGUwNjNjM2QtMjI0OC00M2M5LTkzYzEtMGZhNzU1ODcwMWEw?sa=X&ved=0CAUQkfYCahgKEwj4p_bLl-75AhUAAAAAHQAAAAAQngk) lautaskasametsästys. Mikäli et tiedä Redditistä mitään en ole varma onko tämä ohjelma sinulle, mutta monesti aiheet ovat sellaisia, ettei taustatietoja tarvita. Paljon haastatteluja ja asiantuntijoita, ja erityisesti pidän siitä, että monesti haastatteluissa on mukana ihmisiä, jotka ovat itse olleet kyseisten tarinoiden tai ilmiöiden keskellä. 
+
+Miinuksena radioasemaohjelmalle tyypilliset asiat eli mainokset, joita on aika paljon. Lisäksi myös ajoittainen jenkkihuumori joka ei aivan täysin uppoa itselle ja tuntuu ajoittain kiusalliselta. Monet jaksot myös ovat hyvin amerikkasentrisiä, mutta niiden kanssa voi onneksi siirtyä seuraaviin jaksoin.
 
 ### Conan O'Brien Needs a Friend
+[Conan O'Brien Needs a Friend](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9kSG9vaFZOSA) on Conanin podcast, tosin mukana on kaksi avustajaa, koska Conan ei ymmärrä tekniikasta mitään. Kuten nimikin kertoo, Conan tarvitsee ystävää, ja jaksot onkin lähes poikkeuksetta keskusteluja avustajien ja vierailevien tähtien tai tavisten kanssa. 
+
+Conan oli Suomessa iso ilmiö oman nuoruuteni aikana, ja hänen itseironinen, ja ylipäänsä ironinen, huumori on hyvin samankaltainen kuin itselläni. Tätä suhteellisen kevyttä podcastia tulee kuunneltua silloin kun ei jaksa keskittyä mihinkään. 
+
+Ainoa miinus on se, että monet vieraat ovat itselle tuntemattomia, sillä ovat isoja nimiä kotimaassa, mutta ei tällä puolella Atlanttia. Tästä syystä kuuntelenkin vain tavallisten ihmisten haastatteluja ja niiden julkkisten haastatteluja jotka itse tunnen.
 
 ## Suomenkieliset podcastit
 
 ### Maailmanpolitiikan arkipäivää
+[Maailmanpolitiikan arkipäivää](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy55bGUuZmkvYXJlZW5hL3YxL3Nlcmllcy8xLTE1MDkwNDIucnNzP2xhbmc9c3YmZG93bmxvYWRhYmxlPXRydWU) on Yleisradion viikottainen podcast, jossa käsitellään maailmalla tapahtuvia asioita hyvin lyhyesti, mutta kattavasti. Monipuolisia aiheita jotka kuuntelee sopivasti työ- tai kauppamatkalla. Muut samaa sarjaa olevat podcastit, esimerkiksi Politiikkaradio tai Uutisraportti on aivan liian pitkiä ja jaksoja tulee aivan liian usein. Ei ehdi kuunnella. Tästä syystä viikottainen 20 minuutin jakso on aivan hyvä.
 
 ### Tiedetrippi
+[Tiedetrippi](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy55bGUuZmkvYXJlZW5hL3YxL3Nlcmllcy8xLTUwNDM4ODc1LnJzcz9sYW5nPWZpJmRvd25sb2FkYWJsZT10cnVl?sa=X&ved=0CAYQ9sEGahgKEwj4p_bLl-75AhUAAAAAHQAAAAAQxgM) on Yle Tieteen yleisöystävällisempi podcast. Tiedeykköseen verrattuna aiheet paljon kevyempiä ja vihteellisempiä. Iso plussa myös siitä, että ohjelma on kemiläisen tuottama ja juontama. Ohjelmassa käsitellään enemmän tai vähemmän tieteeseen liittyviä aiheita viikottain. Vaikka kyseessä onkin se viihteellisempi ohjelma, on mukana haastateltavana monia alojen asiantuntijoita eri yliopistoista ja virastoista.
 
 ### 12 Diktaattoria
+[12 Diktaattoria](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy55bGUuZmkvYXJlZW5hL3YxL3Nlcmllcy8xLTM5NDgwODUucnNzP2xhbmc9ZmkmZG93bmxvYWRhYmxlPXRydWU?sa=X&ved=0CAQQ9sEGahgKEwj4p_bLl-75AhUAAAAAHQAAAAAQ2gI) on myös Yleisradion tuottama, diktaattoreita ja heidän valtakausiaan käsittelevä ohjelma. True crime on iso juttu niin Suomessa kuin maailmalla, mutta tässä ohjelmassa käsitellään tosielämän joukkomurhia, kidutusta, ihmissyöntiä ja muuta erittäin makaaberia historian saatossa tapahtunutta. Mukana myös vähän ns. kevyempien diktaattorien hulluttelua, mutta välissä tulee sellaisia jaksoja jotka olisi mielellään jättänyt kuuntelematta sisältönsä vuoksi. Ainoa miinus se, että kaikki diktaattorit alkaa pikkuhiljaa olla jo käsitelty, ja en tiedä onko uusia jaksoja enää tulossa lisää.
 
 ## Youtube-kanavat ja muu media
 
