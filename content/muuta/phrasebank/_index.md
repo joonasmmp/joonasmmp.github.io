@@ -5,4 +5,12 @@ draft: false
 type: page
 layout: ohje
 ---
-Tähän sitten tulee hyödyllisiä fraasijuttuja kirjoituksiin yms jne 
+### Idiomisanakirja
+
+### Konjunktiot ja linkkisanat
+
+### Sanastoa argumentoinnin tueksi
+
+### Latinankieliset sanat ja lausset
+
+### Ranskankieliset sanat ja lauseet
