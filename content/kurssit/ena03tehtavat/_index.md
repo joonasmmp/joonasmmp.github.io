@@ -1,5 +1,5 @@
 ---
-title: "ENA03 - Kieli & kulttuuri"
+title: "ENA3 - Kieli & kulttuuri"
 date: 2021-04-26
 draft: false
 type: page

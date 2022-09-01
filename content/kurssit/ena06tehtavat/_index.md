@@ -1,5 +1,5 @@
 ---
-title: "ENA06 - Jatko-opinnot & työelämä"
+title: "ENA6 - Jatko-opinnot & työelämä"
 date: 2021-04-26
 draft: false
 type: page

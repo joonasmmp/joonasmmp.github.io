@@ -1,5 +1,5 @@
 ---
-title: "ENA05 - Tiede & tulevaisuus"
+title: "ENA5 - Tiede & tulevaisuus"
 date: 2021-04-26
 draft: false
 type: page

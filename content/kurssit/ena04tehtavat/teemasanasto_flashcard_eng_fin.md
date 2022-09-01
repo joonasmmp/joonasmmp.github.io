@@ -11,7 +11,7 @@ layout: tehtava
  <body>
   <div id="cardArea"></div>
   <div id=valikko>
-<button id="teema1">Media</button>  <button id="teema2">Crime & Justice</button>   <button id="teema3">Politics</button>   <button id="teema4">Human Welfare & Religion</button>
+<button id="teema1">Media</button>  <button id="teema2">Crime & Justice</button>   <button id="teema3">Politics & Global issues</button>   <button id="teema4">Human Welfare & Religion</button>
 </div>
   <div id="lukumaara"></div>
   <div id="buttonArea" class="grid grid-cols-3"></div>
@@ -347,15 +347,15 @@ $(document).ready(function() {
     beginActivity();
     })
     $("#teema2").on("click", function(){
-    currentQuestion = 46;
+    currentQuestion = 82;
     beginActivity();
     })
     $("#teema3").on("click", function(){
-    currentQuestion = 114;
+    currentQuestion = 161;
     beginActivity();
     })
     $("#teema4").on("click", function(){
-    currentQuestion = 223;
+    currentQuestion = 244;
     beginActivity();
     })
 
