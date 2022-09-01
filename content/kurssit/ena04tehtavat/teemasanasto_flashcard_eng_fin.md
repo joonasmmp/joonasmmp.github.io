@@ -300,7 +300,6 @@ $(document).ready(function() {
 	["the elderly", "vanhukset"], 
 	["unemployment benefit", "työttömyyskorvaus"], 
 	["welfare state", "hyvinvointivaltio"], 
-	["FAMILY MATTERS"], 
 	["civil ceremony", "siviilivihkiminen"], 
 	["civil partnership", "rekisteröity parisuhde"], 
 	["cohabitation", "avoliitto"], 
