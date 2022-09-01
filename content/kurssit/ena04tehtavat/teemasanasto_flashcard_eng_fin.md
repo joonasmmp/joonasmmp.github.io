@@ -347,15 +347,15 @@ $(document).ready(function() {
     beginActivity();
     })
     $("#teema2").on("click", function(){
-    currentQuestion = 82;
+    currentQuestion = 83;
     beginActivity();
     })
     $("#teema3").on("click", function(){
-    currentQuestion = 161;
+    currentQuestion = 162;
     beginActivity();
     })
     $("#teema4").on("click", function(){
-    currentQuestion = 244;
+    currentQuestion = 245;
     beginActivity();
     })
 
