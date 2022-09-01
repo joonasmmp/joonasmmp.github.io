@@ -41,6 +41,7 @@ $(document).ready(function() {
 	["announcer", "kuuluttaja"], 
 	["anchor", "uutisankkuri"], 
 	["broadcast", "lähetys, lähettää ohjelmaa"], 
+	["channel", "kanava"], 
 	["commentator", "kommentaattori, selostaja"], 
 	["commercial", "mainos(-elokuva)"], 
 	["(live) footage", "(live-)kuvamateriaali"], 
