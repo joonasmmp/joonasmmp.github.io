@@ -21,6 +21,7 @@ Kysyin kollegaltani Markulta (nimi ei muutettu) millaisia verkkotehtäviä hän 
 Koska en osaa koodata, etsin ohjeen kuinka luoda muistipeli. Siinähän on käytännössä sama idea. Korttien sijasta laitoin kaksi riviä vastakkaisille puolille ja muutin kortit suorakulmioiksi. Indeksissä kaksi arvoa (sana suomeksi ja englanniksi) ja ne on paritettu toisiinsa. Idea on hyvin yksinkertainen: painat kahta näppäintä ja jos ne ovat pari, jotain tapahtuu. Jos ei niin homma nollaantuu. Easy money.
 
 ## Ensimmäinen yritys
+
 {{< rawhtml >}}
 <div id="tehtava" class="grid grid-cols-2">
  <div><ul id="terms"> </ul></div>
@@ -74,6 +75,8 @@ window.onload = function() {
     }
   };
 
+
+
   var selectedTerm = null, //to make sure none is selected onload
     selectedDef = null,
     termsContainer = document.querySelector("#terms"), //list of terms
@@ -124,6 +127,9 @@ window.onload = function() {
       if (isMatch(selectedTerm, selectedDef)) {
 				term.className = "score";
         def.className = "score";
+  			numero++;
+   			term.style.order = (numero);
+   			def.style.order = (numero);
             }
       selectedTerm = null;
       selectedDef = null;
@@ -156,6 +162,9 @@ window.onload = function() {
       if (isMatch(selectedTerm, selectedDef)) {
 				term.className = "score";
         def.className = "score";
+  			numero++;
+   			term.style.order = (numero);
+   			def.style.order = (numero);
        }
       
       selectedTerm = null; //poista napautusten valinta
@@ -208,6 +217,8 @@ window.onload = function() {
   });
 
 }
+
+var numero = 0;
 </script>
 
 <style>
@@ -318,7 +329,6 @@ div#tehtava button:focus {
   color: #fff!important;
   background: #00A0DF!important;
   border-radius: 15px;
-  order: 1;
 }
 
 .score:hover {
@@ -337,8 +347,8 @@ div#tehtava button:focus {
   transform: rotateX(360deg);
 }
 </style>
-{{< /rawhtml >}}
 
+{{< /rawhtml >}}
 Ja siinähän se seisoo. Mutta mikäli jaksat klikkailla, huomaat että järjestys menee ihan miten sattuu. Alkuperäisessä muistipelissä siis korttien paikka ei vaihdu, mutta arvotaan jokaisen sivulatauksen alussa koodilla:
 
 ```html
