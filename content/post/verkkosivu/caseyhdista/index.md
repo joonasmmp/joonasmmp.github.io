@@ -76,7 +76,6 @@ window.onload = function() {
   };
 
 
-
   var selectedTerm = null, //to make sure none is selected onload
     selectedDef = null,
     termsContainer = document.querySelector("#terms"), //list of terms
@@ -160,11 +159,8 @@ window.onload = function() {
       //var def = document.querySelector("#defs [data-index='"+selectedDef+"']");
       var def = defsContainer.querySelector("[data-index='" + selectedDef + "']");
       if (isMatch(selectedTerm, selectedDef)) {
-				term.className = "score";
+		term.className = "score";
         def.className = "score";
-  			numero++;
-   			term.style.order = (numero);
-   			def.style.order = (numero);
        }
       
       selectedTerm = null; //poista napautusten valinta
@@ -429,8 +425,8 @@ window.onload = function() {
 
   var selectedTerm = null, //to make sure none is selected onload
     selectedDef = null,
-    termsContainer = document.querySelector("#termss"), //list of terms
-    defsContainer = document.querySelector("#defss"); //list of definitions
+    termssContainer = document.querySelector("#termss"), //list of terms
+    defssContainer = document.querySelector("#defss"); //list of definitions
 
   //This function takes two arguments, that is one term and one def to compare if they match. It returns True or False after compairing values of the "pairs" object property.     
   function isMatch(termIndex, defIndex) {
@@ -446,18 +442,18 @@ window.onload = function() {
     }
   }
 
-  createListHTML(data.terms, termsContainer);
-  createListHTML(data.definitions, defsContainer);
+  createListHTML(data.terms, termssContainer);
+  createListHTML(data.definitions, defssContainer);
 
   //listen for a "click" event on a list of Terms and store the clicked object in the target object
-  termsContainer.addEventListener("click", function(e) {
+  termssContainer.addEventListener("click", function(e) {
     var target = e.target.parentNode;
     if (target.className === "score")
       return;
     var termIndex = Number(target.getAttribute("data-index"));
     //the condition is that only one LI can be selected
     if (selectedTerm !== null && selectedTerm !== termIndex) {
-      termsContainer.querySelector("li[data-index='" + selectedTerm + "']").removeAttribute("data-selected");
+      termssContainer.querySelector("li[data-index='" + selectedTerm + "']").removeAttribute("data-selected");
     }
 
     //deletion of the decoration
@@ -488,7 +484,7 @@ window.onload = function() {
 			    }
   })
 
-  defsContainer.addEventListener("click", function(e) {
+  defssContainer.addEventListener("click", function(e) {
     var target = e.target.parentNode;
     if (target.className === "score")
       return;
@@ -496,7 +492,7 @@ window.onload = function() {
     var defText = Number(target.getAttribute("data-index"))
 
     if (selectedDef !== null && selectedDef !== defIndex) {
-      defsContainer.querySelector("li[data-index='" + selectedDef + "']").removeAttribute("data-selected");
+      defssContainer.querySelector("li[data-index='" + selectedDef + "']").removeAttribute("data-selected");
     }
 
     if (target.hasAttribute("data-selected"))
@@ -506,9 +502,9 @@ window.onload = function() {
     selectedDef = Number(target.getAttribute("data-index"));
     if (selectedTerm !== null && selectedDef !== null) {
       //var term = document.querySelector("#termss [data-index='"+selectedTerm+"']");
-      var term = termsContainer.querySelector("[data-index='" + selectedTerm + "']");
+      var term = termssContainer.querySelector("[data-index='" + selectedTerm + "']");
       //var def = document.querySelector("#defss [data-index='"+selectedDef+"']");
-      var def = defsContainer.querySelector("[data-index='" + selectedDef + "']");
+      var def = defssContainer.querySelector("[data-index='" + selectedDef + "']");
       if (isMatch(selectedTerm, selectedDef)) {
 				term.className = "score";
         def.className = "score";
@@ -527,8 +523,8 @@ window.onload = function() {
   function shuffle() {
     randomSort(data.terms)
     randomSort(data.definitions)
-    createListHTML(data.terms, termsContainer)
-    createListHTML(data.definitions, defsContainer)
+    createListHTML(data.terms, termssContainer)
+    createListHTML(data.definitions, defssContainer)
   }
 
   function randomSort(array) {
@@ -555,12 +551,12 @@ window.onload = function() {
   shuffle();
   document.querySelector("button").addEventListener("click", function() {
     reset();
-    termsContainer.setAttribute("class", "fadeOut");
-    defsContainer.setAttribute("class", "fadeOut");
+    termssContainer.setAttribute("class", "fadeOut");
+    defssContainer.setAttribute("class", "fadeOut");
     setTimeout(function() {
         shuffle();
-        termsContainer.removeAttribute("class", "fadeOut");
-        defsContainer.removeAttribute("class", "fadeOut");
+        termssContainer.removeAttribute("class", "fadeOut");
+        defssContainer.removeAttribute("class", "fadeOut");
       }, 450)
       //shuffle();
 
