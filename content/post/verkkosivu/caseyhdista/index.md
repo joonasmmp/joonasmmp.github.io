@@ -124,11 +124,8 @@ window.onload = function() {
       var term = document.querySelector("#terms [data-index='" + selectedTerm + "']");
       var def = document.querySelector("#defs [data-index='" + selectedDef + "']");
       if (isMatch(selectedTerm, selectedDef)) {
-				term.className = "score";
+		term.className = "score";
         def.className = "score";
-  			numero++;
-   			term.style.order = (numero);
-   			def.style.order = (numero);
             }
       selectedTerm = null;
       selectedDef = null;
@@ -213,8 +210,6 @@ window.onload = function() {
   });
 
 }
-
-var numero = 0;
 </script>
 
 <style>
@@ -351,7 +346,6 @@ Ja siinähän se seisoo. Mutta mikäli jaksat klikkailla, huomaat että järjest
 function randomSort(array) {
     var currentIndex = array.length,
       temporaryValue, randomIndex;
-
 
     while (currentIndex !== 0) {
 
