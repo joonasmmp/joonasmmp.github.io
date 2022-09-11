@@ -23,7 +23,7 @@ Koska en osaa koodata, etsin ohjeen kuinka luoda muistipeli. Siinähän on käyt
 ## Ensimmäinen yritys
 
 {{< rawhtml >}}
-<object style="width:100%;height:600px" type="text/html" data="yritys1.html"></object>
+<div w3-include-html="yritys1.html"></div>
 {{< /rawhtml >}}
 Ja siinähän se seisoo. Mutta mikäli jaksat klikkailla, huomaat että järjestys menee ihan miten sattuu. Alkuperäisessä muistipelissä siis korttien paikka ei vaihdu, mutta arvotaan jokaisen sivulatauksen alussa koodilla:
 
@@ -185,7 +185,7 @@ window.onload = function() {
       //var def = document.querySelector("#defss [data-index='"+selectedDef+"']");
       var def = defssContainer.querySelector("[data-index='" + selectedDef + "']");
       if (isMatch(selectedTerm, selectedDef)) {
-				term.className = "score";
+		.className = "score";
         def.className = "score";
   			numero++;
    			term.style.order = (numero);
@@ -381,23 +381,54 @@ Ja siinähän se taas seisoo. Aiempi ongelma korjattiin helpolla muutoksella, to
 var numero = 0 
 ```
 
-Parin löytyessä kyseinen muuttuja nousee yhdellä
-
-```javascript
-numero++ 
-```
-
-Ja kummankin puolen sanoihin lisätään css-muutoksen yhteydessä järjestysnumero muuttujan mukaan
+Parin löytyessä kyseinen muuttuja nousee yhdellä Ja kummankin puolen sanoihin lisätään css-muutoksen yhteydessä järjestysnumero muuttujan mukaan
 
 ```javascript
       if (isMatch(selectedTerm, selectedDef)) {
-				term.className = "score";
+		.className = "score";
         def.className = "score";
-  	   			term.style.order = (numero);
+  			numero++;
+   			term.style.order = (numero);
    			def.style.order = (numero);
-            }
 ```
 Joten tehtävä on valmis. Vai onko? Markku toivoi, mikäli oikein ymmärsin, että sanat arvottaisiin suuremmasta sanastosta. Ja se olisi tietty myös opettajalle helpompi, kun ei tarvitsisi näperrellä usean tehtävän kanssa. Joten mitä jos indeksiin lisää uusia sanoja, ja laittaa tehtävän arpomaan vain osan indeksin sanoista tehtävän alussa?
 
 ## Kolmas yritys
 
+
+
+{{< rawhtml >}}
+<script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /* Loop through a collection of all HTML elements: */
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /* Make an HTTP request using the attribute value as the file name: */
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /* Remove the attribute, and call this function once more: */
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /* Exit the function: */
+      return;
+    }
+  }
+}
+</script>
+
+<script>
+includeHTML();
+</script>
+{{< /rawhtml >}}
