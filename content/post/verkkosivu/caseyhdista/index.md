@@ -3,7 +3,6 @@ author = "PJMM"
 title = "Case paritustehtävä"
 date = "2022-09-11"
 type = "post"
-image = "post/verkkosivu/verkkosivuntaustat/cover.png"
 tags = [
     "verkkosivu",
     "offtopic",
@@ -563,35 +562,35 @@ var numero = 0;
 </script>
 
 <style>
-div#tehtava {
+div#tehtavaa {
   overflow: hidden;
 }
 
-div#tehtava ul {
+div#tehtavaa ul {
   list-style: none;
   font-size: 0.75em;
 }
 
-div#tehtava ul#termss {
+div#tehtavaa ul#termss {
   display: flex;
   flex-direction: column;
 }
 
-div#tehtava ul#defss {
+div#tehtavaa ul#defss {
   display: flex;
   flex-direction: column;
 }
 
-div#tehtava ul#termss li {
+div#tehtavaa ul#termss li {
   background: #1F2937;
   color: #ffffff;
 }
 
-div#tehtava ul#defss li {
+div#tehtavaa ul#defss li {
   color: #000000
 }
 
-div#tehtava li {
+div#tehtavaa li {
   float: left;
   height: 4em;
   margin: 10px;
@@ -604,19 +603,19 @@ div#tehtava li {
   box-shadow: 0 3px 5px 1px #000;
 }
 
-div#tehtava li:hover {
+div#tehtavaa li:hover {
   transform: scale(1.05, 1.05);
   -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 1);
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 1);
 }
 
-div#tehtava li[data-selected] {
+div#tehtavaa li[data-selected] {
   transform: scale(1.05, 1.05);
   box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.75);
   outline: 4px solid #00A0DF;
 }
 
-div#tehtava ul li span {
+div#tehtavaa ul li span {
   width: 100%;
   height: 100%;
   display: block;
@@ -627,11 +626,11 @@ div#tehtava ul li span {
   transition: opacity 0.2s ease-out;
 }
 
-div#tehtava span:hover {
+div#tehtavaa span:hover {
   transform: none;
 }
 
-div#tehtava button {
+div#tehtavaa button {
   position: absolute;
   padding: 0;
   margin: 0;
@@ -649,18 +648,18 @@ div#tehtava button {
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 1);
 }
 
-div#tehtava button:hover {
+div#tehtavaa button:hover {
   background-color: #30BCF3;
   cursor: pointer;
 }
 
-div#tehtava button:active {
+div#tehtavaa button:active {
   box-shadow: none;
   outline: none;
   transform: scale(0.95, 0.95);
 }
 
-div#tehtava button:focus {
+div#tehtavaa button:focus {
   outline: none;
 }
 
@@ -694,7 +693,7 @@ div#tehtava button:focus {
 Ja siinähän se taas seisoo. Aiempi ongelma korjattiin helpolla muutoksella, tosin kyseessä oli vasta noin kymmenes muutosyritys eli kokeilin vaikka ja mitä ennen kuin sain toimimaan koska en edelleenkään osaa koodata. Pakkomielteisesti yritin ratkaista ongelman palauttamalla alkuperäiset indeksinumerot parin löytymisen jälkeen. Ongelma kuitenkin ratkaistiin luomalla uusi muuttuja 
 
 ```javascript
-var numero = 0). 
+var numero = 0 
 ```
 
 Parin löytyessä kyseinen muuttuja nousee yhdellä
