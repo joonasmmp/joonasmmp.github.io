@@ -23,7 +23,7 @@ Koska en osaa koodata, etsin ohjeen kuinka luoda muistipeli. Siinähän on käyt
 ## Ensimmäinen yritys
 
 {{< rawhtml >}}
-  <iframe src="yritys1.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+  <iframe src="yritys1.html"></iframe>
 {{< /rawhtml >}}
 Ja siinähän se seisoo. Mutta mikäli jaksat klikkailla, huomaat että järjestys menee ihan miten sattuu. Alkuperäisessä muistipelissä siis korttien paikka ei vaihdu, mutta arvotaan jokaisen sivulatauksen alussa koodilla:
 
@@ -48,7 +48,7 @@ Eli siis alkuperäiset indeksinumerot arvotaan uusiksi. Tällöin ne menevät uu
 ## Toinen yritys
 
 {{< rawhtml >}}
-  <iframe src="yritys2.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+  <iframe src="yritys2.html"></iframe>
 {{< /rawhtml >}}
 
 Ja siinähän se taas seisoo. Aiempi ongelma korjattiin helpolla muutoksella, tosin kyseessä oli vasta noin kymmenes muutosyritys eli kokeilin vaikka ja mitä ennen kuin sain toimimaan koska en edelleenkään osaa koodata. Pakkomielteisesti yritin ratkaista ongelman palauttamalla alkuperäiset indeksinumerot parin löytymisen jälkeen. Ongelma kuitenkin ratkaistiin luomalla uusi muuttuja 
