@@ -9,6 +9,7 @@ layout: tehtava
 Täydennä linkkisanat annetun vihjeen mukaan.
 
 {{< rawhtml >}}
+<link rel="stylesheet" type="text/css" href="/css/kirjoita1.css"/>
 <div class="tehtava">
 <form autocomplete="off">
   <ol>
@@ -41,7 +42,7 @@ Täydennä linkkisanat annetun vihjeen mukaan.
 9. I will find myself a new bike &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (jotta) we don't all crash and break our faces right before the wedding.
 </section>
 <section>
-Instead of bikes we can go to town &nbsp;<li><input id="q10" type="text"/><span></span></li>&nbsp; by bus &nbsp;<input id="q11" type="text"/><span></span></li>&nbsp; by train. 
+10. Instead of bikes we can go to town &nbsp;<li><input id="q10" type="text"/><span></span></li>&nbsp; by bus &nbsp;<input id="q11" type="text"/><span></span></li>&nbsp; by train. 
   </ol>
   
 <div id="buttonWrapper">
@@ -50,111 +51,6 @@ Instead of bikes we can go to town &nbsp;<li><input id="q10" type="text"/><span>
 </form>
 
 </div>
-
-<style>
-li {
-display: inline-block;
-align-content: center;
-}
-
-.tehtava ol {
-list-style: none;
-margin-left: 0;
-padding-left: 5px;
-font-size: 1.125rem !important;
-}
-
-.oikein input[type=text] {
-    outline: none;
-    border: none;
-    border-bottom: 2px solid #299617;
-    margin-bottom: -1px;
-  }
-  
-.vaarin input[type=text] {
-    outline: none;
-    border: none;
-    border-bottom: 2px dashed #DA2C43;
-    margin-bottom: -1px;
-}
-
-    
-#submit {
-  border: 0px;
-  padding-top: 1em;
-}
-
-.dark #submit {
-  color: #FFFFFF;
-  border: 0px;
-  padding-top: 1em;
-}
-
-.tehtava #vastauspainike {
-  text-align: center;
-  margin: 0 auto;
-}
-
-form {
-  line-height: 2;
-}
-
-form input {
-    outline: none;
-    border: none;
-    border-bottom: 1px solid black;
-    font-size: inherit;
-    background-color: #fafafa;
-}
-
-.dark input {
-  background-color: #181a1b;
-  color: #FFFFFF;
-  border-bottom: 1px solid white;
-}
-
-.tehtava input[type="text"] {
-  text-align: center;
-}
-
-.tehtava span {
-    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: inherit;
-}
-
-.tehtava input[type="text"] {
-    width: 6em;
-}
-
-.tehtava span {
-    position: absolute;
-    left: -9999px;
-    display: inline-block;
-    min-width: 6em;
-}
-
-.tehtava section {
-    position: relative;
-    padding: 10px 10px;
-    width: 100%;
-    float: left;
-    background: #fafafa;
-    border: 1px solid #d4d4d4;
-    }
-
-.dark section {
-    background: #181a1b;
-     color: #FFFFFF;
-  }
-
- #buttonWrapper {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
- }
-
-</style>
 
 <script>
 var answers = {
