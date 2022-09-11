@@ -65,7 +65,7 @@ var answers = {
   "q7": ["must have been"],
   "q8": ["can't have left", "cannot have left"],
   "q9": ["must be"],
-  "q10": ["would never have been able to do"],
+  "q10": ["would never have been able to do", "would have never been able to do"],
 };
 
 function markAnswers() {
