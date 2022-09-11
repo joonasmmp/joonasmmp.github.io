@@ -383,15 +383,7 @@ var numero = 0
 
 Parin löytyessä kyseinen muuttuja nousee yhdellä Ja kummankin puolen sanoihin lisätään css-muutoksen yhteydessä järjestysnumero muuttujan mukaan
 
-```javascript
-      if (isMatch(selectedTerm, selectedDef)) {
-		.className = "score";
-        def.className = "score";
-  			numero++;
-   			term.style.order = (numero);
-   			def.style.order = (numero);
-      }
-```
+
 
 Joten tehtävä on valmis. Vai onko? Markku toivoi, mikäli oikein ymmärsin, että sanat arvottaisiin suuremmasta sanastosta. Ja se olisi tietty myös opettajalle helpompi, kun ei tarvitsisi näperrellä usean tehtävän kanssa. Joten mitä jos indeksiin lisää uusia sanoja, ja laittaa tehtävän arpomaan vain osan indeksin sanoista tehtävän alussa?
 
