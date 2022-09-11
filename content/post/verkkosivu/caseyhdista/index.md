@@ -23,7 +23,7 @@ Koska en osaa koodata, etsin ohjeen kuinka luoda muistipeli. Siinähän on käyt
 ## Ensimmäinen yritys
 
 {{< rawhtml >}}
-  <iframe src="yritys1.html" style="width:100%;height:900px"></iframe>
+  <iframe src="yritys1.html" style="width:70%;height:900px"></iframe>
 {{< /rawhtml >}}
 Ja siinähän se seisoo. Ulkoasu on päin päin persettä eli kahden rivin sijasta kaikki yhdessä rivissä, koska tässä artikkelissa tulen näyttämään kyseisen tehtävän useaa eri versiota, ja koska koodit menevät päällekkäin, joudun lataamaan eri versiot eri .html-tiedostoista, eikä silloin käyttämäni tailwind-css toimi. 
 
@@ -50,7 +50,7 @@ Eli siis alkuperäiset indeksinumerot arvotaan uusiksi. Tällöin ne menevät uu
 ## Toinen yritys
 
 {{< rawhtml >}}
-  <iframe src="yritys2.html" style="width:100%;height:900px"></iframe>
+  <iframe src="yritys2.html" style="width:70%;height:900px"></iframe>
 {{< /rawhtml >}}
 
 Ja siinähän se taas seisoo. Aiempi ongelma korjattiin helpolla muutoksella, tosin kyseessä oli vasta noin kymmenes muutosyritys eli kokeilin vaikka ja mitä ennen kuin sain toimimaan koska en edelleenkään osaa koodata. Pakkomielteisesti yritin ratkaista ongelman palauttamalla alkuperäiset indeksinumerot parin löytymisen jälkeen. Ongelma kuitenkin ratkaistiin luomalla uusi muuttuja 
