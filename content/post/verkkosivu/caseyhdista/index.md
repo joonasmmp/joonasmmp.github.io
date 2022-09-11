@@ -25,7 +25,7 @@ Koska en osaa koodata, etsin ohjeen kuinka luoda muistipeli. Siinähän on käyt
 {{< rawhtml >}}
   <iframe src="yritys1.html" style="width:70%;height:900px"></iframe>
 {{< /rawhtml >}}
-Ja siinähän se seisoo. Ulkoasu on päin päin persettä eli kahden rivin sijasta kaikki yhdessä rivissä, koska tässä artikkelissa tulen näyttämään kyseisen tehtävän useaa eri versiota, ja koska koodit menevät päällekkäin, joudun lataamaan eri versiot eri .html-tiedostoista, eikä silloin käyttämäni tailwind-css toimi. 
+Ja siinähän se seisoo. Ulkoasu on päin päin persettä eli kahden rivin sijasta kaikki yhdessä rivissä, koska tässä artikkelissa tulen näyttämään kyseisen tehtävän useaa eri versiota, ja koska koodit menevät päällekkäin, joudun lataamaan eri versiot eri .html-tiedostoista, eikä silloin käyttämäni [tailwind-css](https://tailwindcss.com/) toimi. 
 
 Mikäli jaksat klikkailla, huomaat että järjestys menee ihan miten sattuu. Alkuperäisessä muistipelissä siis korttien paikka ei vaihdu, mutta arvotaan jokaisen sivulatauksen alussa koodilla:
 
