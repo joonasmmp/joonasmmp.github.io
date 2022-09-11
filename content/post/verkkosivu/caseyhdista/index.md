@@ -75,8 +75,6 @@ window.onload = function() {
     }
   };
 
-
-
   var selectedTerm = null, //to make sure none is selected onload
     selectedDef = null,
     termsContainer = document.querySelector("#terms"), //list of terms
@@ -127,8 +125,6 @@ window.onload = function() {
       if (isMatch(selectedTerm, selectedDef)) {
 				term.className = "score";
         def.className = "score";
-  	   			term.style.order = (numero);
-   			def.style.order = (numero);
             }
       selectedTerm = null;
       selectedDef = null;
@@ -161,8 +157,6 @@ window.onload = function() {
       if (isMatch(selectedTerm, selectedDef)) {
 				term.className = "score";
         def.className = "score";
-   			term.style.order = (numero);
-   			def.style.order = (numero);
        }
       
       selectedTerm = null; //poista napautusten valinta
@@ -344,7 +338,6 @@ div#tehtava button:focus {
   transform: rotateX(360deg);
 }
 </style>
-
 {{< /rawhtml >}}
 
 Ja siinähän se seisoo. Mutta mikäli jaksat klikkailla, huomaat että järjestys menee ihan miten sattuu. Alkuperäisessä muistipelissä siis korttien paikka ei vaihdu, mutta arvotaan jokaisen sivulatauksen alussa koodilla:
@@ -369,10 +362,11 @@ function randomSort(array) {
 Eli siis alkuperäiset indeksinumerot arvotaan uusiksi. Tällöin ne menevät uuden indeksinumeron mukaiseen järjestykseen. Luulin, että laittamalla CSS-koodin weight: 1 homma onnistuu, kun menevät värin muuttuessa listan pohjalle, mutta uusien sanojen pudotessa pohjalle sanat palauttavat alkuperäisen arvotun järjestyksensä.
 
 ## Toinen yritys
+
 {{< rawhtml >}}
-<div id="tehtava" class="grid grid-cols-2">
- <div><ul id="terms"> </ul></div>
- <div><ul id="defs"> </ul></div>
+<div id="tehtavaa" class="grid grid-cols-2">
+ <div><ul id="termss"> </ul></div>
+ <div><ul id="defss"> </ul></div>
 </div>
 
 <script> 
@@ -426,8 +420,8 @@ window.onload = function() {
 
   var selectedTerm = null, //to make sure none is selected onload
     selectedDef = null,
-    termsContainer = document.querySelector("#terms"), //list of terms
-    defsContainer = document.querySelector("#defs"); //list of definitions
+    termsContainer = document.querySelector("#termss"), //list of terms
+    defsContainer = document.querySelector("#defss"); //list of definitions
 
   //This function takes two arguments, that is one term and one def to compare if they match. It returns True or False after compairing values of the "pairs" object property.     
   function isMatch(termIndex, defIndex) {
@@ -469,8 +463,8 @@ window.onload = function() {
     }
 
     if (selectedTerm !== null && selectedDef !== null) {
-      var term = document.querySelector("#terms [data-index='" + selectedTerm + "']");
-      var def = document.querySelector("#defs [data-index='" + selectedDef + "']");
+      var term = document.querySelector("#termss [data-index='" + selectedTerm + "']");
+      var def = document.querySelector("#defss [data-index='" + selectedDef + "']");
       if (isMatch(selectedTerm, selectedDef)) {
 				term.className = "score";
         def.className = "score";
@@ -502,9 +496,9 @@ window.onload = function() {
       target.setAttribute("data-selected", true);
     selectedDef = Number(target.getAttribute("data-index"));
     if (selectedTerm !== null && selectedDef !== null) {
-      //var term = document.querySelector("#terms [data-index='"+selectedTerm+"']");
+      //var term = document.querySelector("#termss [data-index='"+selectedTerm+"']");
       var term = termsContainer.querySelector("[data-index='" + selectedTerm + "']");
-      //var def = document.querySelector("#defs [data-index='"+selectedDef+"']");
+      //var def = document.querySelector("#defss [data-index='"+selectedDef+"']");
       var def = defsContainer.querySelector("[data-index='" + selectedDef + "']");
       if (isMatch(selectedTerm, selectedDef)) {
 				term.className = "score";
@@ -532,12 +526,15 @@ window.onload = function() {
     var currentIndex = array.length,
       temporaryValue, randomIndex;
 
+    // While there remain elements to shuffle...
 
     while (currentIndex !== 0) {
 
+      // Pick a remaining element...
       randomIndex = Math.floor(Math.random() * currentIndex);
       currentIndex -= 1;
 
+      // And swap it with the current element. SWAP
       temporaryValue = array[currentIndex];
       array[currentIndex] = array[randomIndex];
       array[randomIndex] = temporaryValue;
@@ -575,22 +572,22 @@ div#tehtava ul {
   font-size: 0.75em;
 }
 
-div#tehtava ul#terms {
+div#tehtava ul#termss {
   display: flex;
   flex-direction: column;
 }
 
-div#tehtava ul#defs {
+div#tehtava ul#defss {
   display: flex;
   flex-direction: column;
 }
 
-div#tehtava ul#terms li {
+div#tehtava ul#termss li {
   background: #1F2937;
   color: #ffffff;
 }
 
-div#tehtava ul#defs li {
+div#tehtava ul#defss li {
   color: #000000
 }
 
