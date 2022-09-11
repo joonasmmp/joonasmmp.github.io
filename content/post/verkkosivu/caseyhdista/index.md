@@ -23,7 +23,7 @@ Koska en osaa koodata, etsin ohjeen kuinka luoda muistipeli. Siinähän on käyt
 ## Ensimmäinen yritys
 
 {{< rawhtml >}}
-<object type="text/html" data="yritys1.html"></object>
+<object style="width:100%, height=600px" type="text/html" data="yritys1.html"></object>
 {{< /rawhtml >}}
 Ja siinähän se seisoo. Mutta mikäli jaksat klikkailla, huomaat että järjestys menee ihan miten sattuu. Alkuperäisessä muistipelissä siis korttien paikka ei vaihdu, mutta arvotaan jokaisen sivulatauksen alussa koodilla:
 
