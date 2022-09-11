@@ -16,6 +16,11 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 
 ### Vaillinaiset apuverbit
 
+[1. Täydennä apuverbimuodot]({{<ref "apuverbit_kirjoita1.mdt" >}})
+
+[2. Täydennä apuverbimuodot]({{<ref "apuverbit_kirjoita2.mdt" >}})
+
+
 ### Demonstratiivipronominit
 
 ### Relatiivipronominit

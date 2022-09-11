@@ -1,12 +1,12 @@
 ---
-title: "Apuverbit: Kirjoita 2"
+title: "Apuverbit: Kirjoita 1"
 date: 2022-8-21
 draft: false
 type: page
 layout: tehtava
 ---
 
-Täydennä linkkisanat annetun vihjeen mukaan.
+Täydennä verbimuodot annetun vihjeen mukaan.
 
 {{< rawhtml >}}
 <div class="tehtava">
@@ -14,35 +14,35 @@ Täydennä linkkisanat annetun vihjeen mukaan.
   <ol>
   
 <section>
-1. You&nbsp;<li><input id="q1" type="text"/><span></span></li>&nbsp; (ei tarvitse nauraa) at my jokes if you do not find them funny.
+1. I&nbsp;<li><input id="q1" type="text"/><span></span></li>&nbsp; (osasin) play the piano when I was little
 </section>
 <section>
-2. I &nbsp;<li><input id="q2" type="text"/><span></span></li>&nbsp; (en ole koskaan voinut valehdella) to my parents.
+2. My brother &nbsp;<li><input id="q2" type="text"/><span></span></li>&nbsp; (oli pystynyt löytämään) some money in the lake.
 </section>
 <section>
-3. You &nbsp;<li><input id="q3" type="text"/><span></span></li>&nbsp; (ei tarvitse tehdä) all the exercises if you are going to ace them anyway.
+3. &nbsp;<li><input id="q3" type="text"/><span></span></li>&nbsp; (voisitko ojentaa) the salt, please?
 </section>
 <section>
-4. You &nbsp;<li><input id="q4" type="text"/><span></span></li>&nbsp; (et saa valvoa) late studying even if your grades depended on it.
+4. You &nbsp;<li><input id="q4" type="text"/><span></span></li>&nbsp; (olisit voinut soittaa) before barging in here!
 </section>
 <section>
-5. Simon&nbsp;<li><input id="q5" type="text"/><span></span></li>&nbsp; (ei ole voinut kadottaa) his wallet again!
+5. Yesterday I&nbsp;<li><input id="q5" type="text"/><span></span></li>&nbsp; (täytyi viedä) my dog with me to school.
 </section>
 <section>
-6. You &nbsp;<li><input id="q6" type="text"/><span></span></li>&nbsp; (et ehkä usko) this, but he has.
+6. &nbsp;<li><input id="q6" type="text"/><span></span></li>&nbsp; (kykenisitkö auttamaan) me with this umbrella?
 </section>
 <section>
-7. Simon &nbsp;<li><input id="q7" type="text"/><span></span></li>&nbsp; (on saattanut unohtaa) that we already went through hell when he lost it the previous time.
+7. Jonathan &nbsp;<li><input id="q7" type="text"/><span></span></li>&nbsp; (on varmaankin 
+ollut) really excited.
 </section>
 <section>
-8. He &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; (on täytynyt olla) really absent-minded to be able to lose it again.
+8. He  &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; (ei ole voinut lähteä) yet because I see his gold-plated Honda Civic parked in front.
 </section>
 <section>
-9. If we did not have to pay for his meal every weekend &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (saattaisimme olla) filthy rich already.
+9. There &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (on varmasti) an explanation to all of this.
 </section>
 <section>
-10. He &nbsp;<li><input id="q10" type="text"/><span></span></li>&nbsp; (olisi voinut olla)
- more friendly to us considering we are paying for his expenses. </ol>
+10. We &nbsp;<li><input id="q10" type="text"/><span></span></li>&nbsp; (emme olisi koskaan kyenneet tekemään) all that without the help of Frank. </ol>
   
  <link rel="stylesheet" type="text/css" href="/css/kirjoita1.css"/>
 
@@ -56,16 +56,16 @@ Täydennä linkkisanat annetun vihjeen mukaan.
 
 <script>
 var answers = {
-  "q1": ["don't have to laugh", "do not have to laugh"],
-  "q2": ["have never been able to lie", "'ve never been able to lie"],
-  "q3": ["don't have to do", "do not have to do"],
-  "q4": ["you must not stay up late", "you musn't stay up late"],
-  "q5": ["can't have lost","cannot have lost", "can not have lost"],
-  "q6": ["may not believe", "might not believe"],
-  "q7": ["may have forgotten", "might have forgotten"],
-  "q8": ["must have been", "must've been"],
-  "q9": ["might be"],
-  "q10": ["could have been"],
+  "q1": ["could", "was able to play"],
+  "q2": ["had been able to find"],
+  "q3": ["could you pass"],
+  "q4": ["could have called"],
+  "q5": ["had to take"],
+  "q6": ["would you be able to help"],
+  "q7": ["must have been"],
+  "q8": ["can't have left", "cannot have left"],
+  "q9": ["must be"],
+  "q10": ["would never have been able to do"],
 };
 
 function markAnswers() {
