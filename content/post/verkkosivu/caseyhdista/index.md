@@ -390,6 +390,7 @@ Parin löytyessä kyseinen muuttuja nousee yhdellä Ja kummankin puolen sanoihin
   			numero++;
    			term.style.order = (numero);
    			def.style.order = (numero);
+      }
 ```
 
 Joten tehtävä on valmis. Vai onko? Markku toivoi, mikäli oikein ymmärsin, että sanat arvottaisiin suuremmasta sanastosta. Ja se olisi tietty myös opettajalle helpompi, kun ei tarvitsisi näperrellä usean tehtävän kanssa. Joten mitä jos indeksiin lisää uusia sanoja, ja laittaa tehtävän arpomaan vain osan indeksin sanoista tehtävän alussa?
