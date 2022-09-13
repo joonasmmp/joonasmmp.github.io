@@ -23,6 +23,8 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 
 ### Demonstratiivipronominit
 
+[1. Täydennä demonstratiivipronominit] ({{<ref "demonstratiivipronominit_kirjoita1" >}})
+
 ### Relatiivipronominit
 
 ### Idenfiniittiproniminit
