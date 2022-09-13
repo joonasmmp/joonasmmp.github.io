@@ -62,7 +62,7 @@ var answers = {
   "q7": ["this woman"],
   "q8": ["that man over there"],
   "q9": ["that's why"],
-  "q10": ["this table over here"],
+  "q10": ["this table over here", "this table here"],
 };
 
 function markAnswers() {
