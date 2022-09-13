@@ -38,7 +38,7 @@ Täydennä demonstratiivipronominit annetun vihjeen mukaan.
 8. Or is she here to stalk  &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; (tuota miestä tuolla)?
 </section>
 <section>
-9. So &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (siksi) he insisted on sitting at <id="q10" type="text"/><span></span></li>&nbsp; (tässä pöydässä täällä).
+9. So &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (siksi) he insisted on sitting at &nbsp;<li><input id="q10" type="text"/><span></span></li>&nbsp; (tässä pöydässä täällä).
 </section>
   
  <link rel="stylesheet" type="text/css" href="/css/kirjoita1.css"/>
