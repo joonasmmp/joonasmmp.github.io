@@ -35,10 +35,10 @@ Täydennä demonstratiivipronominit annetun vihjeen mukaan.
 7. Does &nbsp;<li><input id="q7" type="text"/><span></span></li>&nbsp; (tämä nainen) want a relationship me?
 </section>
 <section>
-8. Or is he here to stalk  &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; (tuota miestä tuolla)?
+8. Or is she here to stalk  &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; (tuota miestä tuolla)?
 </section>
 <section>
-9. So &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (siksi) he insisted on sitting in id="q10" type="text"/><span></span></li>&nbsp; (tässä pöydässä täällä).
+9. So &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (siksi) he insisted on sitting at <id="q10" type="text"/><span></span></li>&nbsp; (tässä pöydässä täällä).
 </section>
   
  <link rel="stylesheet" type="text/css" href="/css/kirjoita1.css"/>
