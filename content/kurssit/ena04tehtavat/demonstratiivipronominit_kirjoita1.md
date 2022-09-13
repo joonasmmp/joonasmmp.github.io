@@ -26,7 +26,7 @@ Täydennä demonstratiivipronominit annetun vihjeen mukaan.
 4. I'm curious to see what kind of person I will be meeting &nbsp;<li><input id="q4" type="text"/><span></span></li>&nbsp; (tällä kertaa), the last time was a disaster.
 </section>
 <section>
-5. Are &nbsp;<li><input id="q5" type="text"/><span></span></li>&nbsp; (nämä treffit) I've been on the months a waste of my precious time?
+5. Are &nbsp;<li><input id="q5" type="text"/><span></span></li>&nbsp; (nämä treffit) I've been on the past few months a waste of my precious time?
 </section>
 <section>
 6. Naturally there have been dates better than &nbsp;<li><input id="q6" type="text"/><span></span></li>&nbsp; (ne) that have ended in me running away.
