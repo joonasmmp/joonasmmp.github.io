@@ -23,7 +23,7 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 
 ### Demonstratiivipronominit
 
-[1. Täydennä demonstratiivipronominit] ({{<ref "demonstratiivipronominit_kirjoita1" >}})
+[1. Täydennä demonstratiivipronominit]({{<ref "demonstratiivipronominit_kirjoita1" >}})
 
 ### Relatiivipronominit
 
@@ -40,4 +40,4 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 
 ### A Letter to the Editor
 
-[Ohjeet kantaaottavaan yleisönosastokirjeeseen]
+Ohjeet kantaaottavaan yleisönosastokirjeeseen (sitten joskus)
