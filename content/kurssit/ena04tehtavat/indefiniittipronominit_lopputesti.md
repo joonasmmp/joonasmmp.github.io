@@ -114,14 +114,17 @@ function displayFinalMessage() {
 var questions = [
   new Question('_____ days I’d just like to stay in bed.', ['Some', 'Any', 'All'], 'Some'),
   new Question('Like today. It’s Sunday and _____ of my dozens of friends can play with me.', ['every', 'none', 'no of my'], 'none'),
-  new Question('_____ of them has something _____ to do', ['Everyone....other', 'Everyone...else', 'Everyone...another', 'All...other', 'All...else', 'All...another'] 'Everyone...else'),
+  new Question('_____ of them has something....', ['Everyone', 'Every one','All'] 'Every one'),
+  new Question('Every one of them has something _____ to do', ['other', 'else','another'] 'else'),
   new Question('_____ is traveling with her parents', ['Another', 'Some', 'One'], 'One'),
-  new Question('_____ has to go to the vet, and the list goes on', ['another', 'other', 'the other', 'another'], 'the'),
+  new Question('_____ has to go to the vet, and the list goes on', ['another', 'other', 'the other', 'another'], 'another'),
   new Question('Why do I never get to have _____ fun?', ['any', 'some', 'no'], 'any'),
   new Question('I’d like to play disc golf _____ day long ', ['all', 'all of', 'whole'], 'all'),
   new Question('So that _____ foot would be dying in the evening', ['all', 'each', 'everyone'], 'each'),
   new Question('But sadly not _____ boy is that lucky', ['every', 'any', 'some'], 'every'),
   new Question('I think that _____ can cheer me up at this point',  ["nothing can't", "anything can't", "nothing can"], "nothing can"),
+  new Question('I think I need _____ new to hang out with',  ['some one', 'someone', 'some'], 'someone'),
+
 ];
 
 $('.reset').click(startOver);
