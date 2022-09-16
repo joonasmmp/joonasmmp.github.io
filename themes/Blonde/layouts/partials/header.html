@@ -23,7 +23,7 @@
                     <li>
                         {{ if .HasChildren }}
                             <a class="dropdown no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4" href="#">{{ .Name }}</a>
-                            <ul class="dropdown-content">
+                            <ul class="dropdown-content" style="z-index: 300;">
                               {{ range .Children }}
                                 <li><a href="{{ .URL }}" class="no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4">{{ .Name }}</a></li>
                               {{ end }}
