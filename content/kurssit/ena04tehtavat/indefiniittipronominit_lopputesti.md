@@ -113,7 +113,7 @@ function displayFinalMessage() {
 // kysymykset tähän
 var questions = [
   new Question('_____ days I’d just like to stay in bed.', ['Some', 'Any', 'All'], 'Some'),
-  new Question('Like today. It’s Sunday and _____ of my dozens of friends can play with me.', ['every', 'none', 'no of my'], 'none'),
+  new Question('Like today. It’s Sunday and _____ of my friends can play with me.', ['every', 'none', 'no of my'], 'none'),
   new Question('_____ of them has something....', ['Everyone', 'Every one','All'] 'Every one'),
   new Question('Every one of them has something _____ to do', ['other', 'else','another'] 'else'),
   new Question('_____ is traveling with her parents', ['Another', 'Some', 'One'], 'One'),
