@@ -117,14 +117,18 @@ var questions = [
   new Question('_____ of them has something....', ['Everyone', 'Every one','All'] 'Every one'),
   new Question('Every one of them has something _____ to do', ['other', 'else','another'] 'else'),
   new Question('_____ is traveling with her parents', ['Another', 'Some', 'One'], 'One'),
-  new Question('_____ has to go to the vet, and the list goes on', ['another', 'other', 'the other', 'another'], 'another'),
+  new Question('_____ has to visit the doctor, and the list goes on and on', ['another', 'other', 'the other', 'another'], 'another'),
   new Question('Why do I never get to have _____ fun?', ['any', 'some', 'no'], 'any'),
   new Question('I’d like to play disc golf _____ day long ', ['all', 'all of', 'whole'], 'all'),
   new Question('So that _____ foot would be dying in the evening', ['all', 'each', 'everyone'], 'each'),
   new Question('But sadly not _____ boy is that lucky', ['every', 'any', 'some'], 'every'),
   new Question('I think that _____ can cheer me up at this point',  ["nothing can't", "anything can't", "nothing can"], "nothing can"),
   new Question('I think I need _____ new to hang out with',  ['some one', 'someone', 'some'], 'someone'),
-
+  new Question('Maybe _____ of my teachers could hang out with me',  ['some', 'every', 'each'], 'some'),
+  new Question('_____ teacher is as cool as Jorma they say',  ['All', 'No', 'Some'], 'No'),
+  new Question('None of my teachers _____ as cool as him, so it must be true',  ['are not', 'are', 'is'], 'are'),
+  new Question('But if I hang out with one my teachers, I would hang out with _____ as well',  ['the other', 'others', 'the others'], 'the others'),
+  new Question('I guess I will stay lonely because _____ my friends would make fun of me if that happened ',  ['all', 'every', 'each'], 'all'),
 ];
 
 $('.reset').click(startOver);
