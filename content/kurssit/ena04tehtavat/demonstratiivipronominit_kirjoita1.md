@@ -1,6 +1,6 @@
 ---
 title: "Demonstratiivipronominit: Kirjoita 1"
-date: 2022-9-13
+date: 2022-3-1
 draft: false
 type: page
 layout: tehtava

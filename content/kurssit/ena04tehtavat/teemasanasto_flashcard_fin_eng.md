@@ -1,6 +1,6 @@
 ---
 title: "Teemasanasto: FIN-ENG"
-date: 2022-3-26
+date: 2022-6-2
 draft: false
 type: page
 layout: tehtava

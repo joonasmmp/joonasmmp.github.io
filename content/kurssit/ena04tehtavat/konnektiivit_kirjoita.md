@@ -1,6 +1,6 @@
 ---
 title: "Konnektiivit: Kirjoita 1"
-date: 2022-8-21
+date: 2022-1-1
 draft: false
 type: page
 layout: tehtava
