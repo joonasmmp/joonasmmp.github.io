@@ -26,6 +26,11 @@ I mean, naturally there are &nbsp;<li><input id="q4" type="text"/><span></span><
 
 </div>
 
+<style>
+  .tehtava section{
+    padding: 2em;
+  }
+</style>
 
 <script>
 var answers = {
