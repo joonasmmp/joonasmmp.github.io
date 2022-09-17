@@ -31,6 +31,8 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 
 ### Indefiniittiproniminit
 
+[1. Täydennä indefiniittipronominit]({{<ref "indefiniittipronominit_kirjoita1t" >}})
+
 [3. Indefiniittipronominien lopputesti]({{<ref "indefiniittipronominit_lopputesti.mdt" >}})
 
 
