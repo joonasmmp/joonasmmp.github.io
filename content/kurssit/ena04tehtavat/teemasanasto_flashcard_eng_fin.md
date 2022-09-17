@@ -345,19 +345,19 @@ $(document).ready(function() {
   seuraava();
   kortinVaihto();
 
-  	$("#teema1").on("click", function(){
+  	$("#teema1").on("mousedown", function(){
 	currentQuestion = 0;
     beginActivity();
     })
-    $("#teema2").on("click", function(){
+    $("#teema2").on("mousedown", function(){
     currentQuestion = 83;
     beginActivity();
     })
-    $("#teema3").on("click", function(){
+    $("#teema3").on("mousedown", function(){
     currentQuestion = 162;
     beginActivity();
     })
-    $("#teema4").on("click", function(){
+    $("#teema4").on("mousedown", function(){
     currentQuestion = 245;
     beginActivity();
     })
@@ -394,12 +394,10 @@ $(document).ready(function() {
         $("#cardArea").empty()
         $("#cardArea").append('<div id="card2" class="card">' + qbank[currentQuestion][1] + '</div>')
         $("#card2").css("background-color", "#00473c")
-		e.target.blur()
       } else {
         $("#cardArea").empty()
         $("#cardArea").append('<div id="card1" class="card">' + qbank[currentQuestion][0] + '</div>')
         $("#card1").css("background-color", "#1F2937")
-		e.target.blur()
       }
     }
 
