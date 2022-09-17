@@ -346,22 +346,22 @@ $(document).ready(function() {
   kortinVaihto();
 
   	$("#teema1").on("click", function(){
-	document.getElementById(#teema1).blur();
+	document.getElementById(teema1).blur();
     currentQuestion = 0;
     beginActivity();
     })
     $("#teema2").on("click", function(){
-	document.getElementById(#teema2).blur();
+	document.getElementById(teema2).blur();
     currentQuestion = 83;
     beginActivity();
     })
     $("#teema3").on("click", function(){
-	document.getElementById(#teema3).blur();
+	document.getElementById(teema3).blur();
     currentQuestion = 162;
     beginActivity();
     })
     $("#teema4").on("click", function(){
-	document.getElementById(#teema4).blur();
+	document.getElementById(teema4).blur();
     currentQuestion = 245;
     beginActivity();
     })
