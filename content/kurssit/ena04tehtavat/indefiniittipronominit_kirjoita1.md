@@ -6,7 +6,7 @@ type: page
 layout: tehtava
 ---
 
-Täydennä indefiniittiprnominit annetun vihjeen mukaan.
+Täydennä indefiniittipronominit annetun vihjeen mukaan.
 
 {{< rawhtml >}}
 <div class="tehtava">
@@ -29,7 +29,7 @@ Täydennä indefiniittiprnominit annetun vihjeen mukaan.
 5. I haven't seen &nbsp;<li><input id="q5" type="text"/><span></span></li>&nbsp; (kumpaakaan) of my girlfriends after that night.
 </section>
 <section>
-6. Both answered my texts the night before but &nbsp;<li><input id="q6" type="text"/><span></span></li>&nbsp; (ei kummastakaan) of them messaged me after the accounts went 
+6. Both answered my texts the night before but I've not heard of &nbsp;<li><input id="q6" type="text"/><span></span></li>&nbsp; (ei kummastakaan) of them after my bankruptcy.
 </section>
 <section>
 7. Oh well all the players are here, &nbsp;<li><input id="q7" type="text"/><span></span></li>&nbsp; (toiset) have already been dealt their cards and &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; (toiset) are still buying poker chips.
