@@ -15,6 +15,9 @@ layout: tehtava
 </div>
   <div id="lukumaara"></div>
   <div id="buttonArea" class="grid grid-cols-3"></div>
+
+<div id="nappaimet" class="block md:hidden bg-white panel mb-3 pb-5 dark:bg-warmgray-900" style=""> Välilyönti = käännä kortti<br> < > = vaihda korttia<br> R = sattunnainen kortti </div>
+
  </body>
 </html>
 
