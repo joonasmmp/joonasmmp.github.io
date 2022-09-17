@@ -398,7 +398,12 @@ $(document).ready(function() {
       }
     }
 
-  }
+	$(yourbuttonelements).keydown(function(e) {
+    var kc = e.keyCode; 
+    if (kc === 32){
+    e.preventDefault();
+    }
+});
 
   function beginActivity() {
     $("#cardArea").empty();
