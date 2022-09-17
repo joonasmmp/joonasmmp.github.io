@@ -348,22 +348,22 @@ $(document).ready(function() {
   	$("#teema1").on("click", function(){
 	currentQuestion = 0;
     beginActivity();
-	document.getElementById(teema1).blur();
+	e.target.blur()
     })
     $("#teema2").on("click", function(){
     currentQuestion = 83;
     beginActivity();
-	document.getElementById(teema2).blur();
+	e.target.blur()
     })
     $("#teema3").on("click", function(){
     currentQuestion = 162;
     beginActivity();
-	document.getElementById(teema3).blur();
+	e.target.blur()
     })
     $("#teema4").on("click", function(){
     currentQuestion = 245;
     beginActivity();
-	blur();
+	e.target.blur()
     })
 
   window.addEventListener('keydown', (e) => {
