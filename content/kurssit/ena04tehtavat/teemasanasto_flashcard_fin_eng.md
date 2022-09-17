@@ -342,19 +342,19 @@ beginActivity();
   seuraava();
   kortinVaihto();
 
-  	$("#teema1").on("click", function(){
+  	$("#teema1").on("mousedown", function(){
     currentQuestion = 0;
     beginActivity();
     })
-    $("#teema2").on("click", function(){
+    $("#teema2").on("mousedown", function(){
     currentQuestion = 83;
     beginActivity();
     })
-    $("#teema3").on("click", function(){
+    $("#teema3").on("mousedown", function(){
     currentQuestion = 162;
     beginActivity();
     })
-    $("#teema4").on("click", function(){
+    $("#teema4").on("mousedown", function(){
     currentQuestion = 245;
     beginActivity();
     })
