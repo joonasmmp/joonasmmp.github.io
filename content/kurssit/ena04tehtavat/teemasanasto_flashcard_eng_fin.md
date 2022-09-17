@@ -363,7 +363,7 @@ $(document).ready(function() {
     $("#teema4").on("click", function(){
     currentQuestion = 245;
     beginActivity();
-	.blur();
+	blur();
     })
 
   window.addEventListener('keydown', (e) => {
