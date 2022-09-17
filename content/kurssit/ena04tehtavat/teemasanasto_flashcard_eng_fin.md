@@ -16,7 +16,7 @@ layout: tehtava
   <div id="lukumaara"></div>
   <div id="buttonArea" class="grid grid-cols-3"></div>
 
-<div id="nappaimet" class="block md:hidden bg-white panel mb-3 pb-5 dark:bg-warmgray-900" style=""> Välilyönti = käännä kortti<br> < > = vaihda korttia<br> R = sattunnainen kortti </div>
+<div id="nappaimet" class="md:block hidden bg-white panel mb-3 pb-5 dark:bg-warmgray-900"> Välilyönti = käännä kortti<br> < > = vaihda korttia<br> R = sattunnainen kortti </div>
 
  </body>
 </html>
@@ -346,18 +346,22 @@ $(document).ready(function() {
   kortinVaihto();
 
   	$("#teema1").on("click", function(){
+	document.getElementById(#teema1).blur();
     currentQuestion = 0;
     beginActivity();
     })
     $("#teema2").on("click", function(){
+	document.getElementById(#teema2).blur();
     currentQuestion = 83;
     beginActivity();
     })
     $("#teema3").on("click", function(){
+	document.getElementById(#teema3).blur();
     currentQuestion = 162;
     beginActivity();
     })
     $("#teema4").on("click", function(){
+	document.getElementById(#teema4).blur();
     currentQuestion = 245;
     beginActivity();
     })
@@ -398,17 +402,12 @@ $(document).ready(function() {
         $("#cardArea").empty()
         $("#cardArea").append('<div id="card1" class="card">' + qbank[currentQuestion][0] + '</div>')
         $("#card1").css("background-color", "#1F2937")
+        $("#card1").css("background-color", "#1F2937")
       }
-    }
-
-	$(yourbuttonelements).keydown(function(e) {
-    var kc = e.keyCode; 
-    if (kc === 32){
-    e.preventDefault();
-    }
-});
-
-  function beginActivity() {
+    })
+  }
+  
+ 	function beginActivity() {
     $("#cardArea").empty();
     $("#cardArea").append('<div id="card1" class="card">' + qbank[currentQuestion][0] + '</div>');
     $("#card1").css("background-color", "#1F2937");
