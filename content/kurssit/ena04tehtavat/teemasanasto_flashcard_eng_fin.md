@@ -346,24 +346,24 @@ $(document).ready(function() {
   kortinVaihto();
 
   	$("#teema1").on("click", function(){
-	document.getElementById(teema1).blur();
-    currentQuestion = 0;
+	currentQuestion = 0;
     beginActivity();
+	document.getElementById(teema1).blur();
     })
     $("#teema2").on("click", function(){
-	document.getElementById(teema2).blur();
     currentQuestion = 83;
     beginActivity();
+	document.getElementById(teema2).blur();
     })
     $("#teema3").on("click", function(){
-	document.getElementById(teema3).blur();
     currentQuestion = 162;
     beginActivity();
+	document.getElementById(teema3).blur();
     })
     $("#teema4").on("click", function(){
-	document.getElementById(teema4).blur();
     currentQuestion = 245;
     beginActivity();
+	document.getElementById(teema4).blur();
     })
 
   window.addEventListener('keydown', (e) => {
