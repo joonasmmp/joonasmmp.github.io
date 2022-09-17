@@ -402,11 +402,10 @@ $(document).ready(function() {
         $("#cardArea").empty()
         $("#cardArea").append('<div id="card1" class="card">' + qbank[currentQuestion][0] + '</div>')
         $("#card1").css("background-color", "#1F2937")
-        $("#card1").css("background-color", "#1F2937")
       }
-    })
+    }
+
   }
-  
  	function beginActivity() {
     $("#cardArea").empty();
     $("#cardArea").append('<div id="card1" class="card">' + qbank[currentQuestion][0] + '</div>');
