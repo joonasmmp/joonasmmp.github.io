@@ -15,7 +15,7 @@ layout: tehtava
     <div class="question">The United States of America, ______ is the official name of the country, is often called the USA.</div>
     <div class="choices" data-choices='["that","which", "what", "who"]'></div>
     <p class="info">Ainut oikea vaihtoehto on WHICH, koska pilkun kanssa ei voi käyttää that-pronominia.</p>
-     </section>
+</section>
   <section data-quiz-item>
     <div class="question">And in the USA, Angus MacGyver is the kind of man _____ never lets anyone down.</div>
     <div class="choices" data-choices='["whose","which", "what", "who"]'></div>
@@ -64,13 +64,13 @@ layout: tehtava
     <div class="choices" data-choices='["that", "what", "which", "who"]'></div>
     <p class="info">-thing päätteiset korrelaatit saavat yleensä relatiivipronominikseen THAT.</p>
   </section>
-  </div>
   <section data-quiz-item>
     <div class="question">They no longer show MacGyver on TV, _______ makes me sad.</div>
     <div class="choices" data-choices='["that", "what", "which", "who"]'></div>
     <p class="info">Korrelaattina toimii koko lause, joten pilkku ja which on oikea tapa viitata siihen.</p>
   </section>
   </div>
+</div>
   <div id="emc-score"></div>
   <div class="submit">
   <button id="emc-submit">Vastaa</button>
