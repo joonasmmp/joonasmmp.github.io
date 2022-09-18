@@ -19,16 +19,16 @@ layout: tehtava
 <div id="nappaimet" class="hidden lg:block" style="text-align:center; padding-top:1em;"> 
 <table>
   <tr>
-    <td>välilyönti</td>
+    <td style="text-align:end;">välilyönti</td>
     <td>käännä kortti</td>
   </tr>
   <tr>
-    <td>< ></td>
+    <td style="text-align:end;">< ></td>
     <td>vaihda korttia</td>
   </tr>
   <tr>
-  <td>r</td>
-  <td>satunnainen kortti</td>
+    <td style="text-align:end;">r</td>
+    <td>satunnainen kortti</td>
 </table>
 
 </div>
