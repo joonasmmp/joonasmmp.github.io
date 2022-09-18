@@ -170,7 +170,7 @@ Muunna lauseet epäsuoraan kerrontaan sopiviksi.
       });
       
       score = ((itemCount - wrong.length) / itemCount).toFixed(2) * 100 + "%";
-      $scoreEl.text("Vastauksista oikein: "+score).addClass('new-score');
+      $scoreEl.text("Vastauksista oikein "+score).addClass('new-score');
     }
  
   }
