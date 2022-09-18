@@ -7,7 +7,7 @@ layout: ohje
 ---
 Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta tai ääh emmä tiiä.
 
-## Kielioppi
+## Kielioppi / Grammar
 ### Konjunktiot ja konnektiivit
 
 [1. Täydennä linkkisanat]({{<ref "konnektiivit_kirjoita.mdt" >}})
@@ -38,9 +38,10 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 [3. Indefiniittipronominien lopputesti]({{<ref "indefiniittipronominit_lopputesti.mdt" >}})
 
 
-## Sanastoa
+## Sanasto / Vocabulary
 
-### Teemasanat
+### Elements teemasanastot
+
 [Flashcard: ENG-FIN]({{<ref "teemasanasto_flashcard_eng_fin.mdt" >}})
 
 [Flashcard: FIN-ENG]({{<ref "teemasanasto_flashcard_fin_eng.mdt" >}})
