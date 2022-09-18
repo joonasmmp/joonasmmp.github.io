@@ -16,7 +16,22 @@ layout: tehtava
   <div id="lukumaara"></div>
   <div id="buttonArea" class="grid grid-cols-3"></div>
 
-<div id="nappaimet" class="hidden lg:block" style="text-align:center; padding-top:1em;"> välilyönti = käännä kortti<br> < > = vaihda korttia<br> r = sattunnainen kortti </div>
+<div id="nappaimet" class="hidden lg:block" style="text-align:center; padding-top:1em;"> 
+<table>
+  <tr>
+    <td>välilyönti</td>
+    <td>käännä kortti</td>
+  </tr>
+  <tr>
+    <td>< ></td>
+    <td>vaihda korttia</td>
+  </tr>
+  <tr>
+  <td>r</td>
+  <td>satunnainen kortti</td>
+</table>
+
+</div>
 
  </body>
 </html>
