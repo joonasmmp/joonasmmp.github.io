@@ -12,7 +12,7 @@ layout: tehtava
 <div class="wrap">
   <div class="row">
   <section data-quiz-item>
-    <div class="question">The United States of America, ______ is the official name of the country, is often shortened to the USA.</div>
+    <div class="question">The United States of America, ______ which is a country in North America, is often called the USA.</div>
     <div class="choices" data-choices='["that","which", "what", "who"]'></div>
     <p class="info">Ainut oikea vaihtoehto on WHICH, koska pilkun kanssa ei voi käyttää that-pronominia.</p>
   </section>
