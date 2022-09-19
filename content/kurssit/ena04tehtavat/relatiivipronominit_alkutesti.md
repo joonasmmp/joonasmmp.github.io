@@ -15,7 +15,7 @@ layout: tehtava
     <div class="question">The United States of America, ______ is the official name of the country, is often called the USA.</div>
     <div class="choices" data-choices='["that","which", "what", "who"]'></div>
     <p class="info">Ainut oikea vaihtoehto on WHICH, koska pilkun kanssa ei voi käyttää that-pronominia.</p>
-</section>
+  </section>
   <section data-quiz-item>
     <div class="question">And in the USA, Angus MacGyver is the kind of man _____ never lets anyone down.</div>
     <div class="choices" data-choices='["whose","which", "what", "who"]'></div>
@@ -53,7 +53,7 @@ layout: tehtava
     <p class="info">Korrelaattina on henkilö ja pronominin edessä prepositio, käytetään muotoa whom. Saman voisi sanoa myös who-pronominilla, mutta tällöin prepositio olisi lauseen lopussa: My students, who I tell MacGyver facts to, aren't interested.</p>
   </section>
    <section data-quiz-item>
-    <div class="question">What is the best thing ____ that MacGyver ever did in your opinion?</div>
+    <div class="question">What is the best thing ____ MacGyver ever did in your opinion?</div>
     <div class="choices" data-choices='["that", "what", "which", "who"]'></div>
     <p class="info">Korrelaattina on superlatiivi (the best thing), joten yleensä viittauksena toimii THAT.</p>
   </section>
@@ -75,7 +75,6 @@ layout: tehtava
   <div class="submit">
   <button id="emc-submit">Vastaa</button>
   </div>
-</div>
  
  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
  
