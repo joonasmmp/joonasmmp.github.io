@@ -204,7 +204,7 @@
   }
   
   .submit {
-    padding: 20px 5px;
+    padding-top: 1em;
   }
   .submit button {
     display: block;
