@@ -5,9 +5,9 @@ date = "2022-09-20"
 type = "post"
 tags = [
     "kirjoitukset",
-    "luetun ymmärtäminen"
-    "kuuntelukoe"
-    "s2022"
+    "luetun ymmärtäminen",
+    "kuuntelukoe",
+    "s2022",
     ]
 categories = [
     "kirjoitukset",
