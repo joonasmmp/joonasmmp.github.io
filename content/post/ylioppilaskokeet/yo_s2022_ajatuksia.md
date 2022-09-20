@@ -14,7 +14,7 @@ categories = [
 ]
 +++
 
-Alla on listattu ajatuksia ja huomiota syksyn 2022 A-englannin ylioppilaskokeesta. Nämä huomiot ovat tulleet esillä opettajien Facebook-keskustelun ja YLE Abitreenien lähetyksen yhteydessä, sekä myös mahdollisesti omien kokelaiden tarkistamisen yhteydessä. Syynä tähän kirjoitukseen on se, että voin kirjoittaa ylös ajatuksia kyseisestä kokeesta tulevaisuutta ajatellen, ja se, että ehkä joku kokelas saa tästä jotain irti, kun huomaa millaisten asioiden kanssa kokeita tarkistavat opettajat esimerkiksi kamppaleivat. Jotta täysi anonymiteetti säilyy, llmoitan myös sen, että kaikki alla oleva pohdinta on mielikuvituksen tuotetta eikä siinä esiinny kenenkään yksittäisen kokelaan
+Alla on listattu ajatuksia ja huomiota syksyn 2022 A-englannin ylioppilaskokeesta. Näet kokeen [tästä linkistä](https://yle.fi/plus/abitreenit/2022/Syksy/2022-09-16_EA_fi/index.html) Nämä huomiot ovat tulleet esillä opettajien Facebook-keskustelun ja YLE Abitreenien lähetyksen yhteydessä, sekä myös mahdollisesti omien kokelaiden tarkistamisen yhteydessä. Syynä tähän kirjoitukseen on se, että voin kirjoittaa ylös ajatuksia kyseisestä kokeesta tulevaisuutta ajatellen, ja se, että ehkä joku kokelas saa tästä jotain irti, kun huomaa millaisten asioiden kanssa kokeita tarkistavat opettajat esimerkiksi kamppaleivat. Jotta täysi anonymiteetti säilyy, llmoitan myös sen, että kaikki alla oleva pohdinta on mielikuvituksen tuotetta eikä siinä esiinny kenenkään yksittäisen kokelaan
  
 ## Tehtävä 3
 Tehtävässä 3 ison ongelman on aiheuttanut sana ”bleached”. Moni on käyttänyt sanaa ”valkaistu”, koska sitähän se tarkoittaa, mutta bleached white animal skull scattered over the desert, kuten alla olevasta sitaatista huomaat:
@@ -44,4 +44,8 @@ Loput vaaranpaikat olivat sanastossa. Esimerkiksi tehtävän 10 sana driveway tu
 ## Tehtävä 13
 
 Teetehtävässä taas monelle tuotti ongelmia teen valmistus. Rukousta siis käytettiin mittaamaan sitä aikaa, jonka teen tulee hautua kuumassa vedessä. Moni taas ajatteli jostain syystä, että mitattiin aikaa jolloin veden täytyy kiehua. Teelehtiähän ei siis missään tapauksessa uiteta kiehuvassa vedessä, vaan kiehuva vesi kaadetaan teen päälle eri astiaan, jolloin kiehuminen loppuu. Italiassa on pastaa jota taas keitetään juurikin tietyn rukouksen ajan, mutta tee on eri homma. Toinen ongelmakohta oli dung of peacock eli riikinkukon lanta, josta on kyllä kohta josta koko koe jää tunnetuksi. 
+
+## Tehtävä 17
+
+Kirjoitelmissa kryptovaluuttaotsikko oli hurja. Vaatii sen verran osaamista, että siihen tuskin kukaan vastasi. Ensimmäinen otsikko (keräily) oli yksinkertainen, mutta valitettavan monella lähti helpot 2 pistettä, kun kirjettä ei lopetettu oikealla tavalla. Samaa ei kuitenkaan vaadittu toisessa otsikossa, sillä kyseessä on nettifoorumille kirjoitettu viesti. Toinen otsikko oli suhteellisen vapaa, mutta kolmas ei. Se aiheuttikin kovin monelle ongelmia, sillä tehtävänantoa ei noudatettu. "Which strategies and platforms work, which do not, and why?", joten vaaditaan että keskustellaan alustoista (platform) että opetusmenetelmistä (strategies). Ei voi siis kirjoittaa ylipäänsä etäopiskelusta tai omista oppimisen haasteista, vaan tehtävänantoa on noudatettava. Tähän asiaan Abitreenien lähetyksen väkikin sanoi että ohi menee, se on valitettavaa. 
 
