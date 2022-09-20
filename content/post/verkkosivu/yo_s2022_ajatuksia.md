@@ -1,7 +1,7 @@
 +++
 author = "PJMM"
 title = "Verkkosivun taustaa"
-date = "2022-08-05"
+date = "2022-09-20"
 type = "post"
 tags = [
     "kirjoitukset",
@@ -14,7 +14,7 @@ categories = [
 ]
 +++
 
-Alla on listattu ajatuksia ja huomiota syksyn 2022 A-englannin ylioppilaskokeesta. Nämä huomiot ovat tulleet esillä opettajien Facebook-keskustelun ja YLE Abitreenien lähetyksen yhteydessä, sekä myös mahdollisesti omien kokelaiden tarkistamisen yhteydessä. 
+Alla on listattu ajatuksia ja huomiota syksyn 2022 A-englannin ylioppilaskokeesta. Nämä huomiot ovat tulleet esillä opettajien Facebook-keskustelun ja YLE Abitreenien lähetyksen yhteydessä, sekä myös mahdollisesti omien kokelaiden tarkistamisen yhteydessä. Syynä tähän kirjoitukseen on se, että voin kirjoittaa ylös ajatuksia kyseisestä kokeesta tulevaisuutta ajatellen, ja se, että ehkä joku kokelas saa tästä jotain irti, kun huomaa millaisten asioiden kanssa kokeita tarkistavat opettajat esimerkiksi kamppaleivat. Jotta täysi anonymiteetti säilyy, llmoitan myös sen, että kaikki alla oleva pohdinta on mielikuvituksen tuotetta eikä siinä esiinny kenenkään yksittäisen kokelaan vastauksia. 
 
 Tehtävässä 3 ison ongelman on aiheuttanut sana ”bleached”. Moni on käyttänyt sanaa ”valkaistu”, koska sitähän se tarkoittaa, mutta ”bleached skull found in the desert”
 `on her visits she began collecting the bleached white animal skulls scattered over the desert
@@ -31,6 +31,7 @@ Lisää ongelmia tuotti myös se, että tehtävässä piti mainita kolme asiaa j
 Samassa tehtävässä ongelmia tuotti myös ilmansuunnat. [The Southwest](https://en.wikipedia.org/wiki/Southwestern_United_States) on maantieteellinen ja kulttuurillinen alue Yhdysvalloissa. Se on eri asia kuin [the South](https://en.wikipedia.org/wiki/Southern_United_States). Oikea suomenkielinen vastine olisi Yhdysvaltojen lounaisosat. Silti vastauksissa näkyi mitä ihmeellisimpiä muotoja, mm. amerikan etelän länsiosat, lännen eteläosista, etelä-länsi, itä-länsi, jne. Maantiede haltuun.
 
 Tehtävän 6 alkuosa oli helppo, kunhan ei tehnyt virheitä ”asteen viidesosan” kanssa. Se on siis 0,2 celsiusastetta. Kohta 6.3 kuitenkin tuotti ongelmia. 
+
 `All this turmoil was caused by a quantity of virus so small that it would definitely fit into a milk container and probably even a soft drink can. 
 Kovin moni kokelas on vastannut tavalla, jonka voi tulkita että viruksen koko on niin pieni että se mahtuu maitotölkkiin. Sehän on selvää, virukset on todella pieniä. Koko homman pointti on se, että se on niin pieni, että koko maailmassa esiintyvät COVID-19 virukset mahtuisivat maitotölkkiin. Osa sen tajusikin, mutta sanamuodot viittasivat taas kerran kokon (koko, kaikki. koko, tilavuus). Lue oma vastaus ajatuksella! Viruksia ei tapeta pesäpallomailalla. 
 
