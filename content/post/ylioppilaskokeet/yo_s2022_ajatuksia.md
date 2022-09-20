@@ -17,9 +17,8 @@ categories = [
 Alla on listattu ajatuksia ja huomiota syksyn 2022 A-englannin ylioppilaskokeesta. Nämä huomiot ovat tulleet esillä opettajien Facebook-keskustelun ja YLE Abitreenien lähetyksen yhteydessä, sekä myös mahdollisesti omien kokelaiden tarkistamisen yhteydessä. Syynä tähän kirjoitukseen on se, että voin kirjoittaa ylös ajatuksia kyseisestä kokeesta tulevaisuutta ajatellen, ja se, että ehkä joku kokelas saa tästä jotain irti, kun huomaa millaisten asioiden kanssa kokeita tarkistavat opettajat esimerkiksi kamppaleivat. Jotta täysi anonymiteetti säilyy, llmoitan myös sen, että kaikki alla oleva pohdinta on mielikuvituksen tuotetta eikä siinä esiinny kenenkään yksittäisen kokelaan
  
 ## Tehtävä 3
-Tehtävässä 3 ison ongelman on aiheuttanut sana ”bleached”. Moni on käyttänyt sanaa ”valkaistu”, koska sitähän se tarkoittaa, mutta ”bleached skull found in the desert”
+Tehtävässä 3 ison ongelman on aiheuttanut sana ”bleached”. Moni on käyttänyt sanaa ”valkaistu”, koska sitähän se tarkoittaa, mutta bleached white animal skull scattered over the desert, kuten alla olevasta sitaatista huomaat:
 > on her visits she began collecting the bleached white animal skulls scattered over the desert
-
 ei voi tarkoittaa sitä, että joku on ne valkaissut ja jättänyt aavikolle. Aurinko valkaisee ne, mutta Opettajien ryhmän asiantuntijoiden mukaan aurinko ei voi toimia valkaista-verbin subjektina, sillä valkaista voi ainoastaan ihminen tai kone. Oikea muoto tällöin olisi valkaistuneet.
 
 Mutta entä ensimmäisen kohdan bleached skull? Kyseessä oli siis maalaus. Olisiko siis joku voinut käydä valkaisemassa pääkallon ja viemässä sen paikoilleen maalausta varten? Miksi ei. Tämän takia Opettajien ryhmässä asiasta oli hyvin monta mielensä pahoittanutta. Sensoreille hommaa.
