@@ -18,7 +18,7 @@ Alla on listattu ajatuksia ja huomiota syksyn 2022 A-englannin ylioppilaskokeest
  
 ## Tehtävä 3
 Tehtävässä 3 ison ongelman on aiheuttanut sana ”bleached”. Moni on käyttänyt sanaa ”valkaistu”, koska sitähän se tarkoittaa, mutta ”bleached skull found in the desert”
-`on her visits she began collecting the bleached white animal skulls scattered over the desert`
+> on her visits she began collecting the bleached white animal skulls scattered over the desert
 
 ei voi tarkoittaa sitä, että joku on ne valkaissut ja jättänyt aavikolle. Aurinko valkaisee ne, mutta Opettajien ryhmän asiantuntijoiden mukaan aurinko ei voi toimia valkaista-verbin subjektina, sillä valkaista voi ainoastaan ihminen tai kone. Oikea muoto tällöin olisi valkaistuneet.
 
@@ -33,7 +33,7 @@ Samassa tehtävässä ongelmia tuotti myös ilmansuunnat. [The Southwest](https:
 
 Tehtävän 6 alkuosa oli helppo, kunhan ei tehnyt virheitä ”asteen viidesosan” kanssa. Se on siis 0,2 celsiusastetta. Kohta 6.3 kuitenkin tuotti ongelmia. 
 
-`All this turmoil was caused by a quantity of virus so small that it would definitely fit into a milk container and probably even a soft drink can.`
+> All this turmoil was caused by a quantity of virus so small that it would definitely fit into a milk container and probably even a soft drink can.
 
 Kovin moni kokelas on vastannut tavalla, jonka voi tulkita että viruksen koko on niin pieni että se mahtuu maitotölkkiin. Sehän on selvää, virukset on todella pieniä. Koko homman pointti on se, että se on niin pieni, että koko maailmassa esiintyvät COVID-19 virukset mahtuisivat maitotölkkiin. Osa sen tajusikin, mutta sanamuodot viittasivat taas kerran kokon (koko, kaikki. koko, tilavuus). Lue oma vastaus ajatuksella! Viruksia ei tapeta pesäpallomailalla. 
 
