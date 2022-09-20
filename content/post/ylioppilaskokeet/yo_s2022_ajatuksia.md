@@ -1,6 +1,6 @@
 +++
 author = "PJMM"
-title = "YO Syksy 2022 - A Englanti"
+title = "YO Syksy 2022 - ENGLANTI (PITKÄ)"
 date = "2022-09-20"
 type = "post"
 tags = [

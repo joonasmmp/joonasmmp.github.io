@@ -29,7 +29,7 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 
 [1. Relatiivipronominien alkutesti]({{<ref "relatiivipronominit_alkutesti.mdt" >}})
 
-[3. Relatiivipronominien lopputesti]({{<ref "relatiivipronominit_lopputesti.mdt" >}})
+[2. Relatiivipronominien lopputesti]({{<ref "relatiivipronominit_lopputesti.mdt" >}})
 
 ### Indefiniittiproniminit
 
