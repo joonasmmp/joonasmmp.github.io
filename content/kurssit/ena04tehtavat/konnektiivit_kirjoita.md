@@ -42,7 +42,7 @@ Täydennä linkkisanat annetun vihjeen mukaan.
 9. I will find myself a new bike &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (jotta) we don't all crash and break our faces right before the wedding.
 </section>
 <section>
-10. Instead of bikes we can go to town &nbsp;<li><input id="q10" type="text"/><span></span></li>&nbsp; by bus &nbsp;<input id="q11" type="text"/><span></span></li>&nbsp; by train. 
+10. Instead of bikes we can go to town &nbsp;<li><input id="q10" type="text"/><span></span></li>&nbsp; (joko) by bus &nbsp;<input id="q11" type="text"/><span></span></li>&nbsp; (joko) by train. 
   </ol>
   
 <div id="buttonWrapper">
