@@ -10,7 +10,7 @@ tags = [
     "s2022",
     ]
 categories = [
-    "YO-kokeet",
+    "Ylioppilaskokeet",
 ]
 +++
 
