@@ -4,13 +4,13 @@ title = "YO Syksy 2022 - Englanti (pitkä)"
 date = "2022-09-20"
 type = "post"
 tags = [
-    "kirjoitukset",
+    "yo-kokeet",
     "luetun ymmärtäminen",
     "kuuntelukoe",
     "s2022",
     ]
 categories = [
-    "kirjoitukset",
+    "YO-kokeet",
 ]
 +++
 
