@@ -20,7 +20,7 @@ Alla on listattu ajatuksia ja huomiota syksyn 2022 A-englannin ylioppilaskokeest
 Tehtävässä 3 ison ongelman on aiheuttanut sana ”bleached”. Moni on käyttänyt sanaa ”valkaistu”, koska sitähän se tarkoittaa, mutta bleached white animal skull scattered over the desert, kuten alla olevasta sitaatista huomaat:
 > on her visits she began collecting the bleached white animal skulls scattered over the desert
 
-ei voi tarkoittaa sitä, että joku on ne valkaissut ja jättänyt aavikolle. Aurinko valkaisee ne, mutta Opettajien ryhmän asiantuntijoiden mukaan aurinko ei voi toimia valkaista-verbin subjektina, sillä valkaista voi ainoastaan ihminen tai kone. Oikea muoto tällöin olisi valkaistuneet.
+ei voi tarkoittaa sitä, että joku on ne valkaissut ja jättänyt aavikolle. Aurinko valkaisee ne, mutta Opettajien ryhmän asiantuntijoiden mukaan aurinko ei voi toimia valkaista-verbin subjektina, sillä valkaista voi ainoastaan ihminen tai kone. Oikea muoto tällöin olisi valkaistuneet tai auringon valkaisemat.
 
 Mutta entä ensimmäisen kohdan bleached skull? Kyseessä oli siis maalaus. Olisiko siis joku voinut käydä valkaisemassa pääkallon ja viemässä sen paikoilleen maalausta varten? Miksi ei. Tämän takia Opettajien ryhmässä asiasta oli hyvin monta mielensä pahoittanutta. Sensoreille hommaa.
 
