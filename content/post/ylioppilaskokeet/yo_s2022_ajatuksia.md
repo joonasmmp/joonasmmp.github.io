@@ -15,6 +15,8 @@ categories = [
 +++
 
 Alla on listattu ajatuksia ja huomiota syksyn 2022 A-englannin ylioppilaskokeesta. Näet kokeen [tästä linkistä](https://yle.fi/plus/abitreenit/2022/Syksy/2022-09-16_EA_fi/index.html). Nämä huomiot ovat tulleet esillä opettajien Facebook-keskustelun ja YLE Abitreenien lähetyksen yhteydessä, sekä myös mahdollisesti omien kokelaiden tarkistamisen yhteydessä. Syynä tähän kirjoitukseen on se, että voin kirjoittaa ylös ajatuksia kyseisestä kokeesta tulevaisuutta ajatellen, ja se, että ehkä joku kokelas saa tästä jotain irti, kun huomaa millaisten asioiden kanssa kokeita tarkistavat opettajat esimerkiksi kamppaleivat. Jotta täysi anonymiteetti säilyy, llmoitan myös sen, että kaikki alla oleva pohdinta on mielikuvituksen tuotetta eikä siinä esiinny kenenkään yksittäisen kokelaan vastauksia tai viittauksia yhdenkään kokeeseen osallistuneen henkilön koevastauksiin.
+
+Monivalintatehtäviin ei ainakaan tässä vaiheessa ole tulossa kommentteja. Ehkä katson ne joskus läpi, ehkä en. Tämäkin kirjoitus on tehty aika niukalla aikataululla, kuten myös itse kokeiden korjaaminen. 
  
 ## Tehtävä 3
 Tehtävässä 3 ison ongelman on aiheuttanut sana ”bleached”. Moni on käyttänyt sanaa ”valkaistu”, koska sitähän se tarkoittaa, mutta bleached white animal skull scattered over the desert, kuten alla olevasta sitaatista huomaat:
