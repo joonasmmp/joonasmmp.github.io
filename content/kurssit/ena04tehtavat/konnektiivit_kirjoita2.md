@@ -30,7 +30,7 @@ Täydennä linkkisanat annetun vihjeen mukaan.
 5. The night was warm, so we did not call a taxi. &nbsp;<li><input id="q5" type="text"/><span></span></li>&nbsp; (sen sijaan) we decided to walk home.
 </section>
 <section>
-6. I hope Jonathan can pay me back - &nbsp;<li><input id="q6" type="text"/><span></span></li>&nbsp; (ei sillä että) it matters, I have owed him money before as well.
+6. I hope Jonathan can pay me back - &nbsp;<li><input id="q6" type="text"/><span></span></li>&nbsp; (ei sillä että), I have owed him money before as well.
 </section>
 <section>
 7. &nbsp;<li><input id="q7" type="text"/><span></span></li>&nbsp; (sekä) Jonathan  &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; (että) Lucy managed to walk home.
