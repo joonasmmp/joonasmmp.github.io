@@ -38,7 +38,7 @@ Täydennä linkkisanat annetun vihjeen mukaan.
 8. He &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; (on täytynyt olla) really absent-minded to be able to lose it again.
 </section>
 <section>
-9. If we did not have to pay for his meal every weekend &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (saattaisimme olla) filthy rich already.
+9. If we did not have to pay for his meal every weekend we &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (saattaisimme olla) filthy rich already.
 </section>
 <section>
 10. He &nbsp;<li><input id="q10" type="text"/><span></span></li>&nbsp; (olisi voinut olla)
