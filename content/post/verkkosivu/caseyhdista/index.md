@@ -456,5 +456,5 @@ Luo satunnaisen numerosarjan numeroista välillä 0-10 eikä anna tuplia. Tämä
     addCSS("div#tehtava li[data-index='" + a[5] + "']{display: block;}")
     addCSS("div#tehtava li[data-index='" + a[6] + "']{display: block;}")
   }
-  ```
+```
   Ratkaisunahan tämä on todennäköisesti aivan hirveä. Mutta taas kerran painotan sitä, että en osaa koodata, varsinkaan javascriptiä. Seuraava ratkaistava ongelma on näppäimet joiden avulla sanaparien määrää hallitaan, eli voi halutessaan tehdä tehtävän kuudella, yhdeksällä tai kahdellatoista sanaparilla. Luulisi sen käyvän niinkin yksinkertaisesti kuin lisäämällä yllä olevien koodien määrää a[n], mutta ei tunnu onnistuvan.
