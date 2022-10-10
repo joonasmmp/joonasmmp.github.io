@@ -85,16 +85,7 @@ Tässä tällä hetkellä viimeinen versio tehtävästä. Kuten aiemmin mainitsi
 <div id="tehtava" class="grid grid-cols-2">
     <div><ul id="terms"> </ul></div>
     <div><ul id="defs"> </ul></div>
-   <div id="nappulat">
-   
-   <button id="kuusi">
-   kuusi
-   </button>
-   <button id="yhdeksän">
-   kolme
-   </button>
-   </div>
-   </div>
+ </div>
    
    <script>
         const addCSS = s => document.head.appendChild(document.createElement("style")).innerHTML = s;
