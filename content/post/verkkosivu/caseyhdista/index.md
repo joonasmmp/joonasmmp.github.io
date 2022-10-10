@@ -83,13 +83,12 @@ Tässä tällä hetkellä viimeinen versio tehtävästä. Kuten aiemmin mainitsi
 
 {{< rawhtml >}}
 <div id="tehtava" class="grid grid-cols-2">
-    <div><ul id="terms"> </ul></div>
-    <div><ul id="defs"> </ul></div>
- </div>
+ <div><ul id="terms"> </ul></div>
+ <div><ul id="defs"> </ul></div>
+</div>
    
    <script>
-    const addCSS = s => document.head.appendChild(document.createElement("style")).innerHTML = s;
- 
+    
  //Execute a JavaScript immediately after a page has been loaded
 window.onload = function() {
 
@@ -164,7 +163,7 @@ window.onload = function() {
 
     }
   }
-
+    const addCSS = s => document.head.appendChild(document.createElement("style")).innerHTML = s;
 
   createListHTML(data.terms, termsContainer);
   createListHTML(data.definitions, defsContainer);
@@ -322,101 +321,102 @@ a = shufflee(a);
 </script>
 
 <style>
+
 div#tehtava {
-    overflow: hidden;
-  }
-  
-  div#tehtava ul {
-    list-style: none;
-    font-size: 0.75em;
-  }
-  
-  div#tehtava ul#terms {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  div#tehtava ul#defs {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  div#tehtava ul#terms li {
-    background: #1F2937;
-    color: #ffffff;
-  }
-  
-  div#tehtava ul#defs li {
-    color: #000000
-  }
-  
-  div#tehtava li {
-    float: left;
-    height: 4em;
-    margin: 10px;
-    background: white;
-    text-align: center;
-    cursor: pointer;
-    transition: all .2s ease-out;
-    border-radius: 0;
-    -webkit-box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 1);
-    box-shadow: 0 3px 5px 1px #000;
-  }
-  
-  div#tehtava li:hover {
-    transform: scale(1.05, 1.05);
-    -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 1);
-    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 1);
-  }
-  
-  div#tehtava li[data-selected] {
-    transform: scale(1.05, 1.05);
-    box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.75);
-    outline: 4px solid #00A0DF;
-  }
-  
-  div#tehtava ul li span {
-    width: 100%;
-    height: 100%;
-    display: block;
-    vertical-align: middle;
-    text-align: center;
-    padding: 10px;
-    transform: none;
-    transition: opacity 0.2s ease-out;
-  }
-  
-  div#tehtava span:hover {
-    transform: none;
-  }
-  
-  .score {
-    background: none!important;
-    box-shadow: none;
-    color: #fff!important;
-    background: #00A0DF!important;
-    border-radius: 15px;
-  }
-  
-  .score:hover {
-    cursor: default;
-    transform: none;
-    box-shadow: none;
-  }
-  
-  .fadeOut li span {
-    transition: opacity 0.25s ease-out;
-    opacity: 0;
-  }
-  
-  .fadeOut li {
-    transition: transform .5s ease-out;
-    transform: rotateX(360deg);
-  }
-  
-  div#tehtava li[data-index]{
-    display: none;
-  }
+  overflow: hidden;
+}
+
+div#tehtava ul {
+  list-style: none;
+  font-size: 0.75em;
+}
+
+div#tehtava ul#terms {
+  display: flex;
+  flex-direction: column;
+}
+
+div#tehtava ul#defs {
+  display: flex;
+  flex-direction: column;
+}
+
+div#tehtava ul#terms li {
+  background: #1F2937;
+  color: #ffffff;
+}
+
+div#tehtava ul#defs li {
+  color: #000000
+}
+
+div#tehtava li {
+  float: left;
+  height: 4em;
+  margin: 10px;
+  background: white;
+  text-align: center;
+  cursor: pointer;
+  transition: all .2s ease-out;
+  border-radius: 0;
+  -webkit-box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 1);
+  box-shadow: 0 3px 5px 1px #000;
+}
+
+div#tehtava li:hover {
+  transform: scale(1.05, 1.05);
+  -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 1);
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 1);
+}
+
+div#tehtava li[data-selected] {
+  transform: scale(1.05, 1.05);
+  box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.75);
+  outline: 4px solid #00A0DF;
+}
+
+div#tehtava ul li span {
+  width: 100%;
+  height: 100%;
+  display: block;
+  vertical-align: middle;
+  text-align: center;
+  padding: 10px;
+  transform: none;
+  transition: opacity 0.2s ease-out;
+}
+
+div#tehtava span:hover {
+  transform: none;
+}
+
+.score {
+  background: none!important;
+  box-shadow: none;
+  color: #fff!important;
+  background: #00A0DF!important;
+  border-radius: 15px;
+}
+
+.score:hover {
+  cursor: default;
+  transform: none;
+  box-shadow: none;
+}
+
+.fadeOut li span {
+  transition: opacity 0.25s ease-out;
+  opacity: 0;
+}
+
+.fadeOut li {
+  transition: transform .5s ease-out;
+  transform: rotateX(360deg);
+}
+
+div#tehtava li[data-index]{
+  display: none;
+}
 </style>  
 {{< /rawhtml >}}
 
