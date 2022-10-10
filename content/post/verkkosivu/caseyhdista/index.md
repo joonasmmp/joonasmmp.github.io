@@ -88,7 +88,7 @@ Tässä tällä hetkellä viimeinen versio tehtävästä. Kuten aiemmin mainitsi
  </div>
    
    <script>
-        const addCSS = s => document.head.appendChild(document.createElement("style")).innerHTML = s;
+    const addCSS = s => document.head.appendChild(document.createElement("style")).innerHTML = s;
  
  //Execute a JavaScript immediately after a page has been loaded
 window.onload = function() {
@@ -291,6 +291,20 @@ window.onload = function() {
 
 var numero = 0;
 
+function randomRange(from, to, leng){
+    var tem, A= [], L= 0, i= 0;
+    randomRangeLoop: 
+    while(L< leng){
+        tem= Math.floor(Math.random()*to)+from;
+        i= 0;
+        while(i<L){
+            if(A[i++]=== tem) continue randomRangeLoop;
+        }
+        A[L++]= tem;
+    }
+    return A;
+}
+
 for (var a=[],i=0;i<10;++i) a[i]=i;
 
 function shufflee(array) {
@@ -305,10 +319,9 @@ function shufflee(array) {
 }
 
 a = shufflee(a);
-   </script>
+</script>
 
-  <style>
-
+<style>
 div#tehtava {
     overflow: hidden;
   }
