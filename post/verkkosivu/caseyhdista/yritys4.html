@@ -164,12 +164,12 @@ grid-template-columns: repeat(2, minmax(0, 1fr)); ">
        randomSort(data.definitions)
        createListHTML(data.terms, termsContainer)
        createListHTML(data.definitions, defsContainer)
-       addCSS("div#tehtava li[data-index='" + a[1] + "']{display: block;}")
-       addCSS("div#tehtava li[data-index='" + a[2] + "']{display: block;}")
-       addCSS("div#tehtava li[data-index='" + a[3] + "']{display: block;}")
-       addCSS("div#tehtava li[data-index='" + a[4] + "']{display: block;}")
-       addCSS("div#tehtava li[data-index='" + a[5] + "']{display: block;}")
-       addCSS("div#tehtava li[data-index='" + a[6] + "']{display: block;}")
+       addCSS("div#tehtava li[data-index='" + a[1] + "']{display: flex;}")
+       addCSS("div#tehtava li[data-index='" + a[2] + "']{display: flex;}")
+       addCSS("div#tehtava li[data-index='" + a[3] + "']{display: flex;}")
+       addCSS("div#tehtava li[data-index='" + a[4] + "']{display: flex;}")
+       addCSS("div#tehtava li[data-index='" + a[5] + "']{display: flex;}")
+       addCSS("div#tehtava li[data-index='" + a[6] + "']{display: flex;}")
      }
      
      function randomSort(array) {
@@ -205,20 +205,6 @@ grid-template-columns: repeat(2, minmax(0, 1fr)); ">
           )}
    
    var numero = 0;
-   
-   function randomRange(from, to, leng){
-       var tem, A= [], L= 0, i= 0;
-       randomRangeLoop: 
-       while(L< leng){
-           tem= Math.floor(Math.random()*to)+from;
-           i= 0;
-           while(i<L){
-               if(A[i++]=== tem) continue randomRangeLoop;
-           }
-           A[L++]= tem;
-       }
-       return A;
-   }
    
    for (var a=[],i=0;i<10;++i) a[i]=i;
    
