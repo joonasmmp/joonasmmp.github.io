@@ -279,30 +279,7 @@ window.onload = function() {
 
   shuffle(); 
   
-  document.getElementById("kuusi").addEventListener("click", function() {
-        shuffle();
-      }   
-       )
-       document.getElementById("yhdeksän").addEventListener("click", function() {
-        shuffle9();
-      }   
-       )}
-
 var numero = 0;
-
-function randomRange(from, to, leng){
-    var tem, A= [], L= 0, i= 0;
-    randomRangeLoop: 
-    while(L< leng){
-        tem= Math.floor(Math.random()*to)+from;
-        i= 0;
-        while(i<L){
-            if(A[i++]=== tem) continue randomRangeLoop;
-        }
-        A[L++]= tem;
-    }
-    return A;
-}
 
 for (var a=[],i=0;i<10;++i) a[i]=i;
 
