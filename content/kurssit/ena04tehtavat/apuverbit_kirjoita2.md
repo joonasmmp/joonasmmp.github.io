@@ -38,7 +38,7 @@ Täydennä linkkisanat annetun vihjeen mukaan.
 8. He &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; (on täytynyt olla) really absent-minded to be able to lose it again.
 </section>
 <section>
-9. If we did not have to pay for his meal every weekend &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (saattaisimme olla) filthy rich already.
+9. If we did not have to pay for his meal every weekend we &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (saattaisimme olla) filthy rich already.
 </section>
 <section>
 10. He &nbsp;<li><input id="q10" type="text"/><span></span></li>&nbsp; (olisi voinut olla)
@@ -59,7 +59,7 @@ var answers = {
   "q1": ["don't have to laugh", "do not have to laugh"],
   "q2": ["have never been able to lie", "'ve never been able to lie"],
   "q3": ["don't have to do", "do not have to do"],
-  "q4": ["you must not stay up late", "you musn't stay up late"],
+  "q4": ["you must not stay up", "you musn't stay up"],
   "q5": ["can't have lost","cannot have lost", "can not have lost"],
   "q6": ["may not believe", "might not believe"],
   "q7": ["may have forgotten", "might have forgotten"],
