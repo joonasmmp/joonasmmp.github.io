@@ -394,25 +394,6 @@ div#tehtava span:hover {
   transform: rotateX(360deg);
 }
 
-div#nappulat{
-  display: flex;
-  justify-content: center;
-}
 
-div#nappulat button{
-    display: inline-block;
-    font-family: inherit;
-    text-align: center;
-    border: 1px solid transparent;
-    width: 3em;
-    margin: 0.2em;
-    padding: 12px 16px;
-    border-width: 1px;
-    border-radius: 5px;
-    font-size: 16px;
-    background: #051D29;
-    border-color: #051D29;
-    color: #ffffff;
-}
 </style>
 {{< /rawhtml >}}
