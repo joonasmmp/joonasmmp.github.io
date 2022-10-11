@@ -9,4 +9,4 @@ layout: tehtavavalikkosivu
 Alla löydät tehtäviä ENA0x-kurssille
 
 esim testaus
-* ["TEST"]({{<ref "testiy.mdt" >}})
+gegege
