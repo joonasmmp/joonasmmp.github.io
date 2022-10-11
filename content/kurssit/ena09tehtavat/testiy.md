@@ -1,7 +1,7 @@
 ---
 title: "Testi, testi, efwefweeesdsdsdsdfew"
 date: 2022-5-13
-draft: true
+draft: false
 type: page
 layout: tehtava
 ---
