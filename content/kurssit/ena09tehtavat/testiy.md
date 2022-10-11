@@ -8,230 +8,291 @@ layout: tehtava
 
 {{< rawhtml >}}
 
-<div id="tehtava">
-    <div><ul id="terms"> </ul></div>
-    <div><ul id="defs"> </ul></div>
-   </div>
+<div id="nappulat">
+Arvo uudet sanaparit
+<button id="kuusi">
+kuusi
+</button>
+<button id="yhdeksän">
+yhdeksän
+</button>
+<button id="kakstoista">
+kakstoista
+</button>
+</div>
+
+<div id="tehtava" class="grid grid-cols-2">
+ <div><ul id="terms"> </ul></div>
+ <div><ul id="defs"> </ul></div>
+
+</div>
+
+
+<script> 
    
-   <script> 
-    //Execute a JavaScript immediately after a page has been loaded
-   window.onload = function() {
-   
-     //Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main file
-     var data = {
-       terms: [{
-               index: 0, text: "Koira"
-         }, { index: 1, text: "Gorilla"
-         }, { index: 2, text: "Riisi"
-         }, { index: 3, text: "Metsuri"
-         }, { index: 4, text: "Papu"
-         }, { index: 5, text: "Koivu"
-         }, { index: 6, text: "Saapas"
-         }, { index: 7, text: "Kolmio"
-         }, { index: 8, text: "Kivi"
-         }, { index: 9, text: "Vehnä"
-         },
-   
-       ],
-       definitions: [{
-              index: 0, text: "Dog"
-         }, { index: 1, text: "Gorilla"
-         }, { index: 2, text: "Rice"
-         }, { index: 3, text: "Lumberjack"
-         }, { index: 4, text: "Bean"
-         }, { index: 5, text: "Birch"
-         }, { index: 6, text: "Boot"
-         }, { index: 7, text: "Triangle"
-         }, { index: 8, text: "Rock"
-         }, { index: 9, text: "Wheat"
-         },
-   
-       ],
-       //this creates matches for indexes. This is a sort of an Answer Sheet
-       pairs: {
-         0: 0,
-         1: 1,
-         2: 2,
-         3: 3,
-         4: 4,
-         5: 5,
-         6: 6,
-         7: 7,
-         8: 8,
-         9: 9,
+window.onload = function() {
+
+  var data = {
+    terms: [{
+       		 index: 0, text: "Koira"
+      }, { index: 1, text: "Gorilla"
+      }, { index: 2, text: "Riisi"
+      }, { index: 3, text: "Metsuri"
+      }, { index: 4, text: "Papu"
+      }, { index: 5, text: "Koivu"
+      }, { index: 6, text: "Saapas"
+      }, { index: 7, text: "Kolmio"
+      }, { index: 8, text: "Kivi"
+      }, { index: 9, text: "Vehnä"
+      }, { index: 10, text: "Lohi"
+      }, { index: 11, text: "Kenguru"
+      },
+
+    ],
+    definitions: [{
+        	 index: 0, text: "Dog"
+      }, { index: 1, text: "Gorilla"
+      }, { index: 2, text: "Rice"
+      }, { index: 3, text: "Lumberjack"
+      }, { index: 4, text: "Bean"
+      }, { index: 5, text: "Birch"
+      }, { index: 6, text: "Boot"
+      }, { index: 7, text: "Triangle"
+      }, { index: 8, text: "Rock"
+      }, { index: 9, text: "Wheat"
+      }, { index: 10, text: "Salmon"
+      }, { index: 11, text: "Kangaroo"
+      },
+
+    ],
+    pairs: {
+      0: 0,
+      1: 1,
+      2: 2,
+      3: 3,
+      4: 4,
+      5: 5,
+			6: 6,
+      7: 7,
+      8: 8,
+			9: 9,
+      10: 10,
+      11: 11,
+    }
+  };
+    
+for (var a=[],i=0;i<12;++i) a[i]=i;
+
+function shufflee(array) {
+  var tmp, current, top = array.length;
+  if(top) while(--top) {
+    current = Math.floor(Math.random() * (top + 1));
+    tmp = array[current];
+    array[current] = array[top];
+    array[top] = tmp;
+  }
+  return array;
+}
+
+a = shufflee(a);
+  
+
+  var selectedTerm = null, //to make sure none is selected onload
+    selectedDef = null,
+    termsContainer = document.querySelector("#terms"), //list of terms
+    defsContainer = document.querySelector("#defs"); //list of definitions
+
+  //This function takes two arguments, that is one term and one def to compare if they match. It returns True or False after compairing values of the "pairs" object property.     
+  function isMatch(termIndex, defIndex) {
+    return data.pairs[termIndex] === defIndex;
+  }
+
+  //This function adds HTML elements and content to the specified container (UL).
+  function createListHTML(list, container) {
+    container.innerHTML = ""; //first, clean up any existing LI elements
+    for (var i = 0; i < 12; i++) {
+      container.innerHTML = container.innerHTML + "<li data-index='" + list[i]["index"] + "'>" + "<span>" + list[i]["text"] + "</span>" + "</li>";
+
+    }
+  }
+
+    const addCSS = s => document.head.appendChild(document.createElement("style")).innerHTML = s;
+
+  createListHTML(data.terms, termsContainer);
+  createListHTML(data.definitions, defsContainer);
+
+  //listen for a "click" event on a list of Terms and store the clicked object in the target object
+  termsContainer.addEventListener("click", function(e) {
+    var target = e.target.parentNode;
+    if (target.className === "score")
+      return;
+    var termIndex = Number(target.getAttribute("data-index"));
+    //the condition is that only one LI can be selected
+    if (selectedTerm !== null && selectedTerm !== termIndex) {
+      termsContainer.querySelector("li[data-index='" + selectedTerm + "']").removeAttribute("data-selected");
+    }
+
+    //deletion of the decoration
+    if (target.hasAttribute("data-selected")) {
+      target.removeAttribute("data-selected");
+      selectedTerm = null;
+    }
+    //selecting on click	
+    else {
+      target.setAttribute("data-selected", true);
+      selectedTerm = termIndex;
+    }
+
+    if (selectedTerm !== null && selectedDef !== null) {
+      var term = document.querySelector("#terms [data-index='" + selectedTerm + "']");
+      var def = document.querySelector("#defs [data-index='" + selectedDef + "']");
+      if (isMatch(selectedTerm, selectedDef)) {
+				term.className = "score";
+        def.className = "score";
+  			numero++;
+   			term.style.order = (numero);
+   			def.style.order = (numero);
+            }
+      selectedTerm = null;
+      selectedDef = null;
+      term.removeAttribute("data-selected");
+      def.removeAttribute("data-selected");
+			    }
+  })
+
+  defsContainer.addEventListener("click", function(e) {
+    var target = e.target.parentNode;
+    if (target.className === "score")
+      return;
+    var defIndex = Number(target.getAttribute("data-index"));
+    var defText = Number(target.getAttribute("data-index"))
+
+    if (selectedDef !== null && selectedDef !== defIndex) {
+      defsContainer.querySelector("li[data-index='" + selectedDef + "']").removeAttribute("data-selected");
+    }
+
+    if (target.hasAttribute("data-selected"))
+      target.removeAttribute("data-selected");
+    else
+      target.setAttribute("data-selected", true);
+    selectedDef = Number(target.getAttribute("data-index"));
+    if (selectedTerm !== null && selectedDef !== null) {
+      //var term = document.querySelector("#terms [data-index='"+selectedTerm+"']");
+      var term = termsContainer.querySelector("[data-index='" + selectedTerm + "']");
+      //var def = document.querySelector("#defs [data-index='"+selectedDef+"']");
+      var def = defsContainer.querySelector("[data-index='" + selectedDef + "']");
+      if (isMatch(selectedTerm, selectedDef)) {
+				term.className = "score";
+        def.className = "score";
+  			numero++;
+   			term.style.order = (numero);
+   			def.style.order = (numero);
        }
-     };
-   
-     var selectedTerm = null, //to make sure none is selected onload
-       selectedDef = null,
-       termsContainer = document.querySelector("#terms"), //list of terms
-       defsContainer = document.querySelector("#defs"); //list of definitions
-   
-     //This function takes two arguments, that is one term and one def to compare if they match. It returns True or False after compairing values of the "pairs" object property.     
-     function isMatch(termIndex, defIndex) {
-       return data.pairs[termIndex] === defIndex;
-     }
-   
-     //This function adds HTML elements and content to the specified container (UL).
-     function createListHTML(list, container) {
-       container.innerHTML = ""; //first, clean up any existing LI elements
-       for (var i = 0; i < 10; i++) {
-         container.innerHTML = container.innerHTML + "<li data-index='" + list[i]["index"] + "'>" + "<span>" + list[i]["text"] + "</span>" + "</li>";
-   
-       }
-     }
-   
-     function createListHTML3(list, container) {
-       container.innerHTML = ""; //first, clean up any existing LI elements
-       for (var i = 0; i < 3; i++) {
-         container.innerHTML = container.innerHTML + "<li data-index='" + list[i]["index"] + "'>" + "<span>" + list[i]["text"] + "</span>" + "</li>";
-   
-       }
-     }
-       const addCSS = s => document.head.appendChild(document.createElement("style")).innerHTML = s;
-   
-     createListHTML(data.terms, termsContainer);
-     createListHTML(data.definitions, defsContainer);
-   
-     //listen for a "click" event on a list of Terms and store the clicked object in the target object
-     termsContainer.addEventListener("click", function(e) {
-       var target = e.target.parentNode;
-       if (target.className === "score")
-         return;
-       var termIndex = Number(target.getAttribute("data-index"));
-       //the condition is that only one LI can be selected
-       if (selectedTerm !== null && selectedTerm !== termIndex) {
-         termsContainer.querySelector("li[data-index='" + selectedTerm + "']").removeAttribute("data-selected");
-       }
-   
-       //deletion of the decoration
-       if (target.hasAttribute("data-selected")) {
-         target.removeAttribute("data-selected");
-         selectedTerm = null;
-       }
-       //selecting on click	
-       else {
-         target.setAttribute("data-selected", true);
-         selectedTerm = termIndex;
-       }
-   
-       if (selectedTerm !== null && selectedDef !== null) {
-         var term = document.querySelector("#terms [data-index='" + selectedTerm + "']");
-         var def = document.querySelector("#defs [data-index='" + selectedDef + "']");
-         if (isMatch(selectedTerm, selectedDef)) {
-           term.className = "score";
-           def.className = "score";
-           numero++;
-            term.style.order = (numero);
-            def.style.order = (numero);
-               }
-         selectedTerm = null;
-         selectedDef = null;
-         term.removeAttribute("data-selected");
-         def.removeAttribute("data-selected");
-             }
-     })
-   
-     defsContainer.addEventListener("click", function(e) {
-       var target = e.target.parentNode;
-       if (target.className === "score")
-         return;
-       var defIndex = Number(target.getAttribute("data-index"));
-       var defText = Number(target.getAttribute("data-index"))
-   
-       if (selectedDef !== null && selectedDef !== defIndex) {
-         defsContainer.querySelector("li[data-index='" + selectedDef + "']").removeAttribute("data-selected");
-       }
-   
-       if (target.hasAttribute("data-selected"))
-         target.removeAttribute("data-selected");
-       else
-         target.setAttribute("data-selected", true);
-       selectedDef = Number(target.getAttribute("data-index"));
-       if (selectedTerm !== null && selectedDef !== null) {
-         //var term = document.querySelector("#terms [data-index='"+selectedTerm+"']");
-         var term = termsContainer.querySelector("[data-index='" + selectedTerm + "']");
-         //var def = document.querySelector("#defs [data-index='"+selectedDef+"']");
-         var def = defsContainer.querySelector("[data-index='" + selectedDef + "']");
-         if (isMatch(selectedTerm, selectedDef)) {
-           term.className = "score";
-           def.className = "score";
-           numero++;
-            term.style.order = (numero);
-            def.style.order = (numero);
-          }
-         
-         selectedTerm = null; //poista napautusten valinta
-         selectedDef = null; //poista napautusten valinta
-         term.removeAttribute("data-selected");
-         def.removeAttribute("data-selected");
-       }
-     })
-   
-     function shuffle() {
-       randomSort(data.terms)
-       randomSort(data.definitions)
-       createListHTML(data.terms, termsContainer)
-       createListHTML(data.definitions, defsContainer)
-       addCSS("div#tehtava li[data-index='" + a[1] + "']{display: flex;}")
-       addCSS("div#tehtava li[data-index='" + a[2] + "']{display: flex;}")
-       addCSS("div#tehtava li[data-index='" + a[3] + "']{display: flex;}")
-       addCSS("div#tehtava li[data-index='" + a[4] + "']{display: flex;}")
-       addCSS("div#tehtava li[data-index='" + a[5] + "']{display: flex;}")
-       addCSS("div#tehtava li[data-index='" + a[6] + "']{display: flex;}")
-     }
-     
-     function randomSort(array) {
-       var currentIndex = array.length,
-         temporaryValue, randomIndex;
-   
-       // While there remain elements to shuffle...
-   
-       while (currentIndex !== 0) {
-   
-         // Pick a remaining element...
-         randomIndex = Math.floor(Math.random() * currentIndex);
-         currentIndex -= 1;
-   
-         // And swap it with the current element. SWAP
-         temporaryValue = array[currentIndex];
-         array[currentIndex] = array[randomIndex];
-         array[randomIndex] = temporaryValue;
-       }
-   
-       return array;
-     }
-   
-     shuffle(); 
-     
-     document.getElementById("kuusi").addEventListener("click", function() {
-           shuffle();
-         }   
-          )
-          document.getElementById("yhdeksän").addEventListener("click", function() {
-           shuffle9();
-         }   
-          )}
-   
-   var numero = 0;
-   
-   for (var a=[],i=0;i<10;++i) a[i]=i;
-   
-   function shufflee(array) {
-     var tmp, current, top = array.length;
-     if(top) while(--top) {
-       current = Math.floor(Math.random() * (top + 1));
-       tmp = array[current];
-       array[current] = array[top];
-       array[top] = tmp;
-     }
-     return array;
-   }
-   
-   a = shufflee(a);
+      
+      selectedTerm = null; //poista napautusten valinta
+      selectedDef = null; //poista napautusten valinta
+      term.removeAttribute("data-selected");
+      def.removeAttribute("data-selected");
+    }
+  })
+
+  function shuffle() {
+    randomSort(data.terms)
+    randomSort(data.definitions)
+    createListHTML(data.terms, termsContainer)
+    createListHTML(data.definitions, defsContainer)
+    addCSS("div#tehtava li[data-index]{display: none;}")
+    addCSS("div#tehtava li[data-index='" + a[0] + "']{display: block;}")
+		addCSS("div#tehtava li[data-index='" + a[1] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[2] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[3] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[4] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[5] + "']{display: block;}")
+  }
+  
+    function shuffle9() {
+    randomSort(data.terms)
+    randomSort(data.definitions)
+    createListHTML(data.terms, termsContainer)
+    createListHTML(data.definitions, defsContainer)
+addCSS("div#tehtava li[data-index]{display: none;}")
+    addCSS("div#tehtava li[data-index='" + a[0] + "']{display: block;}")
+		addCSS("div#tehtava li[data-index='" + a[1] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[2] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[3] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[4] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[5] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[6] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[7] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[8] + "']{display: block;}")
+  }
+  
+      function shuffle12() {
+    randomSort(data.terms)
+    randomSort(data.definitions)
+    createListHTML(data.terms, termsContainer)
+    createListHTML(data.definitions, defsContainer)
+addCSS("div#tehtava li[data-index]{display: none;}")
+    addCSS("div#tehtava li[data-index='" + a[0] + "']{display: block;}")
+		addCSS("div#tehtava li[data-index='" + a[1] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[2] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[3] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[4] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[5] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[6] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[7] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[8] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[9] + "']{display: block;}")
+		addCSS("div#tehtava li[data-index='" + a[10] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[11] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[12] + "']{display: block;}")
+  }
+  
+  
+  function randomSort(array) {
+    var currentIndex = array.length,
+      temporaryValue, randomIndex;
+
+    // While there remain elements to shuffle...
+
+    while (currentIndex !== 0) {
+
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+
+      // And swap it with the current element. SWAP
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+
+    return array;
+  }
+
+  shuffle(); 
+  
+  document.getElementById("kuusi").addEventListener("click", function() {
+        shuffle();
+      }   
+       )
+  document.getElementById("yhdeksän").addEventListener("click", function() {
+        shuffle9();
+      }   
+       )
+         document.getElementById("kakstoista").addEventListener("click", function() {
+        shuffle12();
+      }   
+       )
+       
+  }
+
+var numero = 0;
+
 </script>
 
 <style>
+
 div#tehtava {
   overflow: hidden;
 }
@@ -326,6 +387,11 @@ div#tehtava span:hover {
 
 div#tehtava li[data-index]{
   display: none;
+}
+
+div#nappulat{
+  display: flex;
+  left: 50%;
 }
 </style>
 {{< /rawhtml >}}
