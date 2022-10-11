@@ -81,6 +81,10 @@ window.onload = function() {
     }
   };
     
+window.onload = function() {
+  shuffle();
+};
+
 for (var a=[],i=0;i<12;++i) a[i]=i;
 
 function shufflee(array) {
