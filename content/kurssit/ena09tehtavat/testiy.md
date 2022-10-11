@@ -30,8 +30,11 @@ kakstoista
 
 <script> 
    
+ 
+ //Execute a JavaScript immediately after a page has been loaded
 window.onload = function() {
 
+  //Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main file
   var data = {
     terms: [{
        		 index: 0, text: "Koira"
@@ -65,6 +68,7 @@ window.onload = function() {
       },
 
     ],
+    //this creates matches for indexes. This is a sort of an Answer Sheet
     pairs: {
       0: 0,
       1: 1,
@@ -94,9 +98,10 @@ function shufflee(array) {
   return array;
 }
 
-a = shufflee(a);   
+a = shufflee(a);
+  
 
-var selectedTerm = null, //to make sure none is selected onload
+  var selectedTerm = null, //to make sure none is selected onload
     selectedDef = null,
     termsContainer = document.querySelector("#terms"), //list of terms
     defsContainer = document.querySelector("#defs"); //list of definitions
@@ -209,12 +214,12 @@ var selectedTerm = null, //to make sure none is selected onload
     addCSS("div#tehtava li[data-index='" + a[5] + "']{display: block;}")
   }
   
-  function shuffle9() {
+    function shuffle9() {
     randomSort(data.terms)
     randomSort(data.definitions)
     createListHTML(data.terms, termsContainer)
     createListHTML(data.definitions, defsContainer)
-    addCSS("div#tehtava li[data-index]{display: none;}")
+addCSS("div#tehtava li[data-index]{display: none;}")
     addCSS("div#tehtava li[data-index='" + a[0] + "']{display: block;}")
 		addCSS("div#tehtava li[data-index='" + a[1] + "']{display: block;}")
     addCSS("div#tehtava li[data-index='" + a[2] + "']{display: block;}")
@@ -226,12 +231,12 @@ var selectedTerm = null, //to make sure none is selected onload
     addCSS("div#tehtava li[data-index='" + a[8] + "']{display: block;}")
   }
   
-  function shuffle12() {
+      function shuffle12() {
     randomSort(data.terms)
     randomSort(data.definitions)
     createListHTML(data.terms, termsContainer)
     createListHTML(data.definitions, defsContainer)
-    addCSS("div#tehtava li[data-index]{display: none;}")
+addCSS("div#tehtava li[data-index]{display: none;}")
     addCSS("div#tehtava li[data-index='" + a[0] + "']{display: block;}")
 		addCSS("div#tehtava li[data-index='" + a[1] + "']{display: block;}")
     addCSS("div#tehtava li[data-index='" + a[2] + "']{display: block;}")
@@ -271,8 +276,6 @@ var selectedTerm = null, //to make sure none is selected onload
 
   shuffle(); 
   
-var numero = 0;
-
   document.getElementById("kuusi").addEventListener("click", function() {
         shuffle();
       }   
@@ -281,10 +284,14 @@ var numero = 0;
         shuffle9();
       }   
        )
-  document.getElementById("kakstoista").addEventListener("click", function() {
+         document.getElementById("kakstoista").addEventListener("click", function() {
         shuffle12();
       }   
        )
+       
+  }
+
+var numero = 0;
 
 </script>
 
