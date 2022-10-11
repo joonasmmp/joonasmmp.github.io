@@ -210,13 +210,13 @@ a = shufflee(a);
     randomSort(data.definitions)
     createListHTML(data.terms, termsContainer)
     createListHTML(data.definitions, defsContainer)
-    addCSS("#tehtava li[data-index]{display: none;}")
-    addCSS("#tehtava li[data-index='" + a[0] + "']{display: flex;}")
-		addCSS("#tehtava li[data-index='" + a[1] + "']{display: flex;}")
-    addCSS("#tehtava li[data-index='" + a[2] + "']{display: flex;}")
-    addCSS("#tehtava li[data-index='" + a[3] + "']{display: flex;}")
-    addCSS("#tehtava li[data-index='" + a[4] + "']{display: flex;}")
-    addCSS("#tehtava li[data-index='" + a[5] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index]{display: none;}")
+    addCSS("div#tehtava li[data-index='" + a[0] + "']{display: flex;}")
+		addCSS("div#tehtava li[data-index='" + a[1] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[2] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[3] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[4] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[5] + "']{display: flex;}")
   }
   
     function shuffle9() {
@@ -392,10 +392,6 @@ div#tehtava span:hover {
 .fadeOut li {
   transition: transform .5s ease-out;
   transform: rotateX(360deg);
-}
-
-div#tehtava li[data-index]{
-  display: none;
 }
 
 div#nappulat{
