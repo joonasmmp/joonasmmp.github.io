@@ -116,7 +116,7 @@ Luo satunnaisen numerosarjan numeroista välillä 0-10 eikä anna tuplia. Tämä
     randomSort(data.definitions)
     createListHTML(data.terms, termsContainer)
     createListHTML(data.definitions, defsContainer)
-		addCSS("div#tehtava li[data-index='" + a[1] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[1] + "']{display: flex;}")
     addCSS("div#tehtava li[data-index='" + a[2] + "']{display: flex;}")
     addCSS("div#tehtava li[data-index='" + a[3] + "']{display: flex;}")
     addCSS("div#tehtava li[data-index='" + a[4] + "']{display: flex;}")
@@ -128,7 +128,7 @@ Luo satunnaisen numerosarjan numeroista välillä 0-10 eikä anna tuplia. Tämä
 
 ## Viides yritys
   {{< rawhtml >}} 
-  <iframe src="yritys5.html" style="width:100%;height:800px"></iframe>
+  <iframe src="yritys5.html" style="width:100%;height:900px"></iframe>
   {{< /rawhtml >}}
 
   Tätä kirjoitusta luodessa ongelmana oli se, että tehtävä toimi moitteettomasti jsfiddlessä, mutta ei tällä sivulla. Pyöritin ratkaisua päässäni noin 12 tuntia kunnes tajusin, että se johtuu siitä, että jostain syystä javascriptin luoma CSS ei jää pysymään. 12 tuntia myöhemmin sitten tajusin, että se johtuu siitä, että juuri tuo aiemmin mainitsemani
