@@ -85,7 +85,12 @@ window.onload = function() {
     }
   };
     
-const addCSS = s => document.head.appendChild(document.createElement("style")).innerHTML = s;  
+function addCSS(css){
+  var elem=document.createElement('style');
+  if(elem.styleSheet && !elem.sheet)elem.styleSheet.cssText=css;
+  else elem.appendChild(document.createTextNode(css));
+  document.getElementsByTagName('head')[0].appendChild(elem); 
+}
   
 for (var a=[],i=0;i<12;++i) a[i]=i;
 
