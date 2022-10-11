@@ -94,21 +94,7 @@ function shufflee(array) {
   return array;
 }
 
-a = shufflee(a);
-
-  document.getElementById("kuusi").addEventListener("click", function() {
-        shuffle();
-      }   
-       )
-  document.getElementById("yhdeksän").addEventListener("click", function() {
-        shuffle9();
-      }   
-       )
-  document.getElementById("kakstoista").addEventListener("click", function() {
-        shuffle12();
-      }   
-       )
-       
+a = shufflee(a);   
 
 var selectedTerm = null, //to make sure none is selected onload
     selectedDef = null,
@@ -286,6 +272,19 @@ var selectedTerm = null, //to make sure none is selected onload
   shuffle(); 
   
 var numero = 0;
+
+  document.getElementById("kuusi").addEventListener("click", function() {
+        shuffle();
+      }   
+       )
+  document.getElementById("yhdeksän").addEventListener("click", function() {
+        shuffle9();
+      }   
+       )
+  document.getElementById("kakstoista").addEventListener("click", function() {
+        shuffle12();
+      }   
+       )
 
 </script>
 
