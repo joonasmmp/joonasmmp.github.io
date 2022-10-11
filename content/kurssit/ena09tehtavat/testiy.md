@@ -94,10 +94,6 @@ window.onload = function() {
       }   
        )
        
-shuffle()
-
-  }
-
 for (var a=[],i=0;i<12;++i) a[i]=i;
 
 function shufflee(array) {
@@ -112,9 +108,11 @@ function shufflee(array) {
 }
 
 a = shufflee(a);
-  
 
-  var selectedTerm = null, //to make sure none is selected onload
+
+shuffle()
+
+var selectedTerm = null, //to make sure none is selected onload
     selectedDef = null,
     termsContainer = document.querySelector("#terms"), //list of terms
     defsContainer = document.querySelector("#defs"); //list of definitions
