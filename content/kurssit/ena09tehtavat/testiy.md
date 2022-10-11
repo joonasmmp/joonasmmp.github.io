@@ -1,5 +1,5 @@
 ---
-title: "Testi, testi, connect"
+title: "Testi, testi, connectsss"
 date: 2022-5-23
 draft: true
 type: page
@@ -8,8 +8,7 @@ layout: tehtava
 
 {{< rawhtml >}}
 
-<div id="tehtava" style="display: grid; 
-grid-template-columns: repeat(2, minmax(0, 1fr)); ">
+<div id="tehtava">
     <div><ul id="terms"> </ul></div>
     <div><ul id="defs"> </ul></div>
    </div>
