@@ -208,13 +208,13 @@ function addCSS(css){
     randomSort(data.definitions)
     createListHTML(data.terms, termsContainer)
     createListHTML(data.definitions, defsContainer)
-    addCSS("#tehtava li[data-index]{display: none;}")
-    addCSS("#tehtava li[data-index='" + a[0] + "']{display: block;}")
-		addCSS("#tehtava li[data-index='" + a[1] + "']{display: block;}")
-    addCSS("#tehtava li[data-index='" + a[2] + "']{display: block;}")
-    addCSS("#tehtava li[data-index='" + a[3] + "']{display: block;}")
-    addCSS("#tehtava li[data-index='" + a[4] + "']{display: block;}")
-    addCSS("#tehtava li[data-index='" + a[5] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index]{display: none;}")
+    addCSS("div#tehtava li[data-index='" + a[0] + "']{display: block;}")
+		addCSS("div#tehtava li[data-index='" + a[1] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[2] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[3] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[4] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[5] + "']{display: block;}")
   }
   
     function shuffle9() {
