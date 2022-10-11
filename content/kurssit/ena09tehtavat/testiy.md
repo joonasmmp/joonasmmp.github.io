@@ -9,15 +9,14 @@ layout: tehtava
 {{< rawhtml >}}
 
 <div id="nappulat">
-Arvo uudet sanaparit
 <button id="kuusi">
-kuusi
+6
 </button>
 <button id="yhdeksän">
-yhdeksän
+9
 </button>
 <button id="kakstoista">
-kakstoista
+12
 </button>
 </div>
 
@@ -29,7 +28,6 @@ kakstoista
 
 
 <script> 
-   
  
  //Execute a JavaScript immediately after a page has been loaded
 window.onload = function() {
@@ -85,13 +83,6 @@ window.onload = function() {
     }
   };
     
-function addCSS(css){
-  var elem=document.createElement('style');
-  if(elem.styleSheet && !elem.sheet)elem.styleSheet.cssText=css;
-  else elem.appendChild(document.createTextNode(css));
-  document.getElementsByTagName('head')[0].appendChild(elem); 
-}
-  
 for (var a=[],i=0;i<12;++i) a[i]=i;
 
 function shufflee(array) {
@@ -126,6 +117,13 @@ a = shufflee(a);
 
     }
   }
+
+function addCSS(css){
+  var elem=document.createElement('style');
+  if(elem.styleSheet && !elem.sheet)elem.styleSheet.cssText=css;
+  else elem.appendChild(document.createTextNode(css));
+  document.getElementsByTagName('head')[0].appendChild(elem); 
+}
 
   createListHTML(data.terms, termsContainer);
   createListHTML(data.definitions, defsContainer);
@@ -210,13 +208,13 @@ a = shufflee(a);
     randomSort(data.definitions)
     createListHTML(data.terms, termsContainer)
     createListHTML(data.definitions, defsContainer)
-    addCSS("div#tehtava li[data-index]{display: none;}")
-    addCSS("div#tehtava li[data-index='" + a[0] + "']{display: block;}")
-		addCSS("div#tehtava li[data-index='" + a[1] + "']{display: block;}")
-    addCSS("div#tehtava li[data-index='" + a[2] + "']{display: block;}")
-    addCSS("div#tehtava li[data-index='" + a[3] + "']{display: block;}")
-    addCSS("div#tehtava li[data-index='" + a[4] + "']{display: block;}")
-    addCSS("div#tehtava li[data-index='" + a[5] + "']{display: block;}")
+    addCSS("#tehtava li[data-index]{display: none;}")
+    addCSS("#tehtava li[data-index='" + a[0] + "']{display: block;}")
+		addCSS("#tehtava li[data-index='" + a[1] + "']{display: block;}")
+    addCSS("#tehtava li[data-index='" + a[2] + "']{display: block;}")
+    addCSS("#tehtava li[data-index='" + a[3] + "']{display: block;}")
+    addCSS("#tehtava li[data-index='" + a[4] + "']{display: block;}")
+    addCSS("#tehtava li[data-index='" + a[5] + "']{display: block;}")
   }
   
     function shuffle9() {
@@ -224,7 +222,7 @@ a = shufflee(a);
     randomSort(data.definitions)
     createListHTML(data.terms, termsContainer)
     createListHTML(data.definitions, defsContainer)
-    addCSS("div#tehtava li[data-index]{display: none;}")
+		addCSS("div#tehtava li[data-index]{display: none;}")
     addCSS("div#tehtava li[data-index='" + a[0] + "']{display: block;}")
 		addCSS("div#tehtava li[data-index='" + a[1] + "']{display: block;}")
     addCSS("div#tehtava li[data-index='" + a[2] + "']{display: block;}")
@@ -289,7 +287,7 @@ addCSS("div#tehtava li[data-index]{display: none;}")
         shuffle9();
       }   
        )
-         document.getElementById("kakstoista").addEventListener("click", function() {
+  document.getElementById("kakstoista").addEventListener("click", function() {
         shuffle12();
       }   
        )
@@ -312,13 +310,13 @@ div#tehtava ul {
 }
 
 div#tehtava ul#terms {
-  display: block;
-  block-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 div#tehtava ul#defs {
-  display: block;
-  block-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 div#tehtava ul#terms li {
@@ -394,6 +392,25 @@ div#tehtava span:hover {
   transform: rotateX(360deg);
 }
 
+div#nappulat{
+  display: flex;
+  justify-content: center;
+}
 
+div#nappulat button{
+    display: inline-block;
+    font-family: inherit;
+    text-align: center;
+    border: 1px solid transparent;
+    width: 3em;
+    margin: 0.2em;
+    padding: 12px 16px;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #051D29;
+    border-color: #051D29;
+    color: #ffffff;
+}
 </style>
 {{< /rawhtml >}}
