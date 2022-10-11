@@ -81,7 +81,9 @@ Tässä tällä hetkellä viimeinen versio tehtävästä. Kuten aiemmin mainitsi
 
 ## Neljäs yritys
 
-{{< rawhtml >}}  <iframe src="yritys4.html" style="width:100%;height:450px"></iframe>{{< /rawhtml >}}
+{{< rawhtml >}}  
+<iframe src="yritys4.html" style="width:100%;height:450px"></iframe>
+{{< /rawhtml >}}
 
 Ja siinähän se seisoo. Ongelma oli saada koko joukosta satunnainen määrä sanapareja esiin. En tajunnut millään miten saisin molemmille puolile samat indeksiarvot luotua. Mutta sitten sain sen aiemmin manitun idean: mitä jos molemmille puolille luodaan kaikki sanaparit, mutta ne piilotetaan, ja sivun latauduttua vain tietyt satunnaiset sanaparit näkyvät näytöllä. 
 
@@ -94,7 +96,6 @@ Piilottaa kaikki näppäimet. Mutta miten saadaan osa näkyviin? Se tuotti ongel
 
 ```javascript
 for (var a=[],i=0;i<10;++i) a[i]=i;
-
 function shufflee(array) {
   var tmp, current, top = array.length;
   if(top) while(--top) {
@@ -105,7 +106,6 @@ function shufflee(array) {
   }
   return array;
 }
-
 a = shufflee(a);
 ```
 Luo satunnaisen numerosarjan numeroista välillä 0-10 eikä anna tuplia. Tämän jälkeen numerosarja liitetään yksi kerrallaan CSS-sääntöihin, mikä tarkoittaa sitä, että mikäli ensimmäinen numero on 4, niin sanapari, joka omaa indeksiarvon 4, ilmestyy näkyviin molemmilla puolilla. Tämä sitten toistetaan haluttu määrä kertoja, tarkemmin ottaen 6. 
@@ -127,10 +127,12 @@ Luo satunnaisen numerosarjan numeroista välillä 0-10 eikä anna tuplia. Tämä
   Ratkaisunahan tämä on todennäköisesti aivan hirveä. Mutta taas kerran painotan sitä, että en osaa koodata, varsinkaan javascriptiä. Seuraava ratkaistava ongelma on näppäimet joiden avulla sanaparien määrää hallitaan, eli voi halutessaan tehdä tehtävän kuudella, yhdeksällä tai kahdellatoista sanaparilla. Luulisi sen käyvän niinkin yksinkertaisesti kuin lisäämällä yllä olevien koodien määrää a[n], mutta ei tunnu onnistuvan.
 
 ## Viides yritys
-  {{< rawhtml >}}  <iframe src="yritys5.html" style="width:100%;height:800px"></iframe>{{< /rawhtml >}}
+  {{< rawhtml >}} 
+  <iframe src="yritys5.html" style="width:100%;height:800px"></iframe>
+  {{< /rawhtml >}}
 
   Tätä kirjoitusta luodessa ongelmana oli se, että tehtävä toimi moitteettomasti jsfiddlessä, mutta ei tällä sivulla. Pyöritin ratkaisua päässäni noin 12 tuntia kunnes tajusin, että se johtuu siitä, että jostain syystä javascriptin luoma CSS ei jää pysymään. 12 tuntia myöhemmin sitten tajusin, että se johtuu siitä, että juuri tuo aiemmin mainitsemani
-  ```css
+```css
   div#tehtava li[data-index]{
     display: none;
   }
