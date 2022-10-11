@@ -9,4 +9,4 @@ layout: ohje
 Alla löydät tehtäviä ENA0x-kurssille
 
 esim testaus
-gegege
+* ["Lauseenvastikkeet: Kirjoita"]({{<ref "testiy.mdt" >}})
