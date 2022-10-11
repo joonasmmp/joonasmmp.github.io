@@ -81,9 +81,22 @@ window.onload = function() {
     }
   };
     
-window.onload = function() {
-  shuffle();
-};
+  document.getElementById("kuusi").addEventListener("click", function() {
+        shuffle();
+      }   
+       )
+  document.getElementById("yhdeksän").addEventListener("click", function() {
+        shuffle9();
+      }   
+       )
+  document.getElementById("kakstoista").addEventListener("click", function() {
+        shuffle12();
+      }   
+       )
+       
+shuffle()
+
+  }
 
 for (var a=[],i=0;i<12;++i) a[i]=i;
 
@@ -214,12 +227,12 @@ a = shufflee(a);
     addCSS("div#tehtava li[data-index='" + a[5] + "']{display: block;}")
   }
   
-    function shuffle9() {
+  function shuffle9() {
     randomSort(data.terms)
     randomSort(data.definitions)
     createListHTML(data.terms, termsContainer)
     createListHTML(data.definitions, defsContainer)
-addCSS("div#tehtava li[data-index]{display: none;}")
+    addCSS("div#tehtava li[data-index]{display: none;}")
     addCSS("div#tehtava li[data-index='" + a[0] + "']{display: block;}")
 		addCSS("div#tehtava li[data-index='" + a[1] + "']{display: block;}")
     addCSS("div#tehtava li[data-index='" + a[2] + "']{display: block;}")
@@ -231,12 +244,12 @@ addCSS("div#tehtava li[data-index]{display: none;}")
     addCSS("div#tehtava li[data-index='" + a[8] + "']{display: block;}")
   }
   
-      function shuffle12() {
+  function shuffle12() {
     randomSort(data.terms)
     randomSort(data.definitions)
     createListHTML(data.terms, termsContainer)
     createListHTML(data.definitions, defsContainer)
-addCSS("div#tehtava li[data-index]{display: none;}")
+    addCSS("div#tehtava li[data-index]{display: none;}")
     addCSS("div#tehtava li[data-index='" + a[0] + "']{display: block;}")
 		addCSS("div#tehtava li[data-index='" + a[1] + "']{display: block;}")
     addCSS("div#tehtava li[data-index='" + a[2] + "']{display: block;}")
@@ -276,21 +289,6 @@ addCSS("div#tehtava li[data-index]{display: none;}")
 
   shuffle(); 
   
-  document.getElementById("kuusi").addEventListener("click", function() {
-        shuffle();
-      }   
-       )
-  document.getElementById("yhdeksän").addEventListener("click", function() {
-        shuffle9();
-      }   
-       )
-         document.getElementById("kakstoista").addEventListener("click", function() {
-        shuffle12();
-      }   
-       )
-       
-  }
-
 var numero = 0;
 
 </script>
