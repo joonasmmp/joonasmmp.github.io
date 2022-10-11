@@ -85,6 +85,8 @@ window.onload = function() {
     }
   };
     
+const addCSS = s => document.head.appendChild(document.createElement("style")).innerHTML = s;  
+  
 for (var a=[],i=0;i<12;++i) a[i]=i;
 
 function shufflee(array) {
@@ -119,8 +121,6 @@ a = shufflee(a);
 
     }
   }
-
-    const addCSS = s => document.head.appendChild(document.createElement("style")).innerHTML = s;
 
   createListHTML(data.terms, termsContainer);
   createListHTML(data.definitions, defsContainer);
