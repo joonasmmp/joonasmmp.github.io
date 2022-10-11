@@ -211,12 +211,12 @@ a = shufflee(a);
     createListHTML(data.terms, termsContainer)
     createListHTML(data.definitions, defsContainer)
     addCSS("div#tehtava li[data-index]{display: none;}")
-    addCSS("div#tehtava li[data-index='" + a[0] + "']{display: flex;}")
-		addCSS("div#tehtava li[data-index='" + a[1] + "']{display: flex;}")
-    addCSS("div#tehtava li[data-index='" + a[2] + "']{display: flex;}")
-    addCSS("div#tehtava li[data-index='" + a[3] + "']{display: flex;}")
-    addCSS("div#tehtava li[data-index='" + a[4] + "']{display: flex;}")
-    addCSS("div#tehtava li[data-index='" + a[5] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[0] + "']{display: block;}")
+		addCSS("div#tehtava li[data-index='" + a[1] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[2] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[3] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[4] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[5] + "']{display: block;}")
   }
   
     function shuffle9() {
@@ -224,16 +224,16 @@ a = shufflee(a);
     randomSort(data.definitions)
     createListHTML(data.terms, termsContainer)
     createListHTML(data.definitions, defsContainer)
-addCSS("div#tehtava li[data-index]{display: none;}")
-    addCSS("div#tehtava li[data-index='" + a[0] + "']{display: flex;}")
-		addCSS("div#tehtava li[data-index='" + a[1] + "']{display: flex;}")
-    addCSS("div#tehtava li[data-index='" + a[2] + "']{display: flex;}")
-    addCSS("div#tehtava li[data-index='" + a[3] + "']{display: flex;}")
-    addCSS("div#tehtava li[data-index='" + a[4] + "']{display: flex;}")
-    addCSS("div#tehtava li[data-index='" + a[5] + "']{display: flex;}")
-    addCSS("div#tehtava li[data-index='" + a[6] + "']{display: flex;}")
-    addCSS("div#tehtava li[data-index='" + a[7] + "']{display: flex;}")
-    addCSS("div#tehtava li[data-index='" + a[8] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index]{display: none;}")
+    addCSS("div#tehtava li[data-index='" + a[0] + "']{display: block;}")
+		addCSS("div#tehtava li[data-index='" + a[1] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[2] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[3] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[4] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[5] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[6] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[7] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[8] + "']{display: block;}")
   }
   
       function shuffle12() {
@@ -242,19 +242,19 @@ addCSS("div#tehtava li[data-index]{display: none;}")
     createListHTML(data.terms, termsContainer)
     createListHTML(data.definitions, defsContainer)
 addCSS("div#tehtava li[data-index]{display: none;}")
-    addCSS("div#tehtava li[data-index='" + a[0] + "']{display: flex;}")
-		addCSS("div#tehtava li[data-index='" + a[1] + "']{display: flex;}")
-    addCSS("div#tehtava li[data-index='" + a[2] + "']{display: flex;}")
-    addCSS("div#tehtava li[data-index='" + a[3] + "']{display: flex;}")
-    addCSS("div#tehtava li[data-index='" + a[4] + "']{display: flex;}")
-    addCSS("div#tehtava li[data-index='" + a[5] + "']{display: flex;}")
-    addCSS("div#tehtava li[data-index='" + a[6] + "']{display: flex;}")
-    addCSS("div#tehtava li[data-index='" + a[7] + "']{display: flex;}")
-    addCSS("div#tehtava li[data-index='" + a[8] + "']{display: flex;}")
-    addCSS("div#tehtava li[data-index='" + a[9] + "']{display: flex;}")
-		addCSS("div#tehtava li[data-index='" + a[10] + "']{display: flex;}")
-    addCSS("div#tehtava li[data-index='" + a[11] + "']{display: flex;}")
-    addCSS("div#tehtava li[data-index='" + a[12] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[0] + "']{display: block;}")
+		addCSS("div#tehtava li[data-index='" + a[1] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[2] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[3] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[4] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[5] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[6] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[7] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[8] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[9] + "']{display: block;}")
+		addCSS("div#tehtava li[data-index='" + a[10] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[11] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[12] + "']{display: block;}")
   }
   
   
@@ -312,13 +312,13 @@ div#tehtava ul {
 }
 
 div#tehtava ul#terms {
-  display: flex;
-  flex-direction: column;
+  display: block;
+  block-direction: column;
 }
 
 div#tehtava ul#defs {
-  display: flex;
-  flex-direction: column;
+  display: block;
+  block-direction: column;
 }
 
 div#tehtava ul#terms li {
@@ -358,7 +358,7 @@ div#tehtava li[data-selected] {
 div#tehtava ul li span {
   width: 100%;
   height: 100%;
-  display: flex;
+  display: block;
   vertical-align: middle;
   text-align: center;
   padding: 10px;
@@ -396,7 +396,23 @@ div#tehtava span:hover {
 
 div#nappulat{
   display: flex;
-  left: 50%;
+  justify-content: center;
+}
+
+div#nappulat button{
+    display: inline-block;
+    font-family: inherit;
+    text-align: center;
+    border: 1px solid transparent;
+    width: 3em;
+    margin: 0.2em;
+    padding: 12px 16px;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #051D29;
+    border-color: #051D29;
+    color: #ffffff;
 }
 </style>
 {{< /rawhtml >}}
