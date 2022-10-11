@@ -81,19 +81,6 @@ window.onload = function() {
     }
   };
     
-  document.getElementById("kuusi").addEventListener("click", function() {
-        shuffle();
-      }   
-       )
-  document.getElementById("yhdeksän").addEventListener("click", function() {
-        shuffle9();
-      }   
-       )
-  document.getElementById("kakstoista").addEventListener("click", function() {
-        shuffle12();
-      }   
-       )
-       
 for (var a=[],i=0;i<12;++i) a[i]=i;
 
 function shufflee(array) {
@@ -109,8 +96,19 @@ function shufflee(array) {
 
 a = shufflee(a);
 
-
-shuffle()
+  document.getElementById("kuusi").addEventListener("click", function() {
+        shuffle();
+      }   
+       )
+  document.getElementById("yhdeksän").addEventListener("click", function() {
+        shuffle9();
+      }   
+       )
+  document.getElementById("kakstoista").addEventListener("click", function() {
+        shuffle12();
+      }   
+       )
+       
 
 var selectedTerm = null, //to make sure none is selected onload
     selectedDef = null,
