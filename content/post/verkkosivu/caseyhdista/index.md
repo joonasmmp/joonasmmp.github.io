@@ -125,3 +125,22 @@ Luo satunnaisen numerosarjan numeroista välillä 0-10 eikä anna tuplia. Tämä
   }
 ```
   Ratkaisunahan tämä on todennäköisesti aivan hirveä. Mutta taas kerran painotan sitä, että en osaa koodata, varsinkaan javascriptiä. Seuraava ratkaistava ongelma on näppäimet joiden avulla sanaparien määrää hallitaan, eli voi halutessaan tehdä tehtävän kuudella, yhdeksällä tai kahdellatoista sanaparilla. Luulisi sen käyvän niinkin yksinkertaisesti kuin lisäämällä yllä olevien koodien määrää a[n], mutta ei tunnu onnistuvan.
+
+## Viides yritys
+  {{< rawhtml >}}  <iframe src="yritys5.html" style="width:100%;height:800px"></iframe>{{< /rawhtml >}}
+
+  Tätä kirjoitusta luodessa ongelmana oli se, että tehtävä toimi moitteettomasti jsfiddlessä, mutta ei tällä sivulla. Pyöritin ratkaisua päässäni noin 12 tuntia kunnes tajusin, että se johtuu siitä, että jostain syystä javascriptin luoma CSS ei jää pysymään. 12 tuntia myöhemmin sitten tajusin, että se johtuu siitä, että juuri tuo aiemmin mainitsemani
+  ```css
+  div#tehtava li[data-index]{
+    display: none;
+  }
+```
+ajaa sitten lopulta kaiken muun CSS:n päälle. Jsfiddle siis lukee ensin CSS, sitten javascript, kun taas omalla sivulla meni toisin päin. No, ainakin tuli ratkaistua. Aiemmin mainitsemani useamman sanaparin muodostaminen a[n]-tyyliin onnistui myös lopulta, kun lisättiin listan eteen kaiken aiemman pois pyyhkivä 
+
+```javascript
+		addCSS("div#tehtava li[data-index]{display: none;}")
+```
+
+Nyt(kö) tehtävä on siis valmis? Loppuun voisin heittää sitaatin ystävältäni, Kaijonharjun Kasper Schmeichelinakin tunnetulta Mikke T:ltä, joka kommentoi tapaa jollain sain tehtävän luotua näin:
+
+> En tiiä mikä on oikea tapa tehdä tuo mutta tuo ei kuulosta siltä. 
