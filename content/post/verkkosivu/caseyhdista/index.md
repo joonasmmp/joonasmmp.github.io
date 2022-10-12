@@ -77,7 +77,7 @@ Joten tehtävä on valmis. Vai onko? Markku toivoi, mikäli oikein ymmärsin, et
   <iframe src="yritys3.html" style="width:100%;height:450px"></iframe>
 {{< /rawhtml >}}
 
-Tässä tällä hetkellä viimeinen versio tehtävästä. Kuten aiemmin mainitsin, indeksiin on syötetty 8 sanaparia ja ohjeistettu syöttämään 6 termiä kummallekkin puolelle. Mikäli olet onnekas, tehtävä toimii sinulle moitteitta, mutta mikäli et, kone arpoo 6 satunnaista termiä oikealle puolella ja 6 satunnaista termiä vasemmalle puolelle välittämättä siitä onko kaikille sanoille pareja. Täytyy siis selvittää miten saisi koodin valitsemaan satunnaisesti 6 paria eikä termiä. Mutta miten? Tuntui mahdottomalta, mutta lopulta sain jostain idean, joka oli toteuttamisen arvoinen.
+Kuten aiemmin mainitsin, indeksiin on syötetty 8 sanaparia ja ohjeistettu syöttämään 6 termiä kummallekkin puolelle. Mikäli olet onnekas, tehtävä toimii sinulle moitteitta, mutta mikäli et, kone arpoo 6 satunnaista termiä oikealle puolella ja 6 satunnaista termiä vasemmalle puolelle välittämättä siitä onko kaikille sanoille pareja. Täytyy siis selvittää miten saisi koodin valitsemaan satunnaisesti 6 paria eikä termiä. Mutta miten? Tuntui mahdottomalta, mutta lopulta sain jostain idean, joka oli toteuttamisen arvoinen.
 
 ## Neljäs yritys
 
