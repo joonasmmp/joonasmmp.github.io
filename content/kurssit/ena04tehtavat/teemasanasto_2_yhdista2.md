@@ -10,6 +10,7 @@ layout: tehtava
     <button id="lisaa">
     LISÄÄ PAREJA!
     </button>
+    </div>
 <div id="tehtava" class="grid grid-cols-2">
  <div><ul id="terms"> </ul></div>
  <div><ul id="defs"> </ul></div>
