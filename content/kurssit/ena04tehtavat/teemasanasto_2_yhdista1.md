@@ -1,5 +1,5 @@
 ---
-title: "Teema 2: Crime & Punishment - yhdistä sanat"
+title: "Teema 2: Crime & Justice - yhdistä sanat"
 date: 2022-6-1
 draft: false
 type: page
