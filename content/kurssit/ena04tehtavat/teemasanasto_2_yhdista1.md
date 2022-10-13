@@ -67,7 +67,7 @@ window.onload = function() {
 }, { index: 31, text: 'salakuljettaa'
 }, { index: 32, text: 'varkaus'
 }, { index: 33, text: 'varas'
-}, { index: 34, text: 'petos'
+}, { index: 34, text: 'maanpetos'
 }, { index: 35, text: 'vapauttaa, antaa vapauttava tuomio'
 }, { index: 36, text: 'vedota, vetoomus'
 }, { index: 37, text: 'pidättää, vangita'
