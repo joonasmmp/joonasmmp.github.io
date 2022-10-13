@@ -8,9 +8,10 @@ layout: tehtava
 {{< rawhtml >}}
 <div id="nappulat">
     <button id="lisaa">
-    LISÄÄ PAREJA!
+    LISÄÄ PAREJA!!
     </button>
     </div>
+    <div id="kaikki"></div>
 <div id="tehtava" class="grid grid-cols-2">
  <div><ul id="terms"> </ul></div>
  <div><ul id="defs"> </ul></div>
@@ -409,7 +410,7 @@ function addCSS(css){
 
   shuffle(); 
   
-  document.getElementById("kuusi").addEventListener("click", function() {
+  document.getElementById("lisaa").addEventListener("click", function() {
      h++;
      addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
      h++;
