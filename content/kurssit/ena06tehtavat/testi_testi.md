@@ -241,7 +241,6 @@ div#tehtava li {
   background: white;
   text-align: center;
   cursor: pointer;
-  transition: all .2s ease-out;
   border-radius: 0;
   -webkit-box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 1);
   box-shadow: 0 3px 5px 1px #000;
