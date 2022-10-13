@@ -18,7 +18,7 @@ Etsi sanaa vastaava käännös. Numeroita klikkaamalla voit luoda haluamasi mä�
     12
     </button>
     </div>
-<div id="tehtava">
+<div id="tehtava" class="grid grid-cols-2">
  <div><ul id="terms"> </ul></div>
  <div><ul id="defs"> </ul></div>
 
