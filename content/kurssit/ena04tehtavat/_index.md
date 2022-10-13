@@ -48,6 +48,8 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 
 [Flashcard: FIN-ENG]({{<ref "teemasanasto_flashcard_fin_eng.mdt" >}})
 
+[Teema 2: Crime & Punishment - yhdistä sanat"]({{<ref "teemasanasto_2_yhdista1.mdt" >}})
+
 ## Muuta
 
 ### A Letter to the Editor
