@@ -427,6 +427,7 @@ function addCSS(css){
   }
 
 var numero = 0;
+var h = 6
 
 </script>
 
