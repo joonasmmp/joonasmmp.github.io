@@ -409,23 +409,29 @@ function addCSS(css){
 
   shuffle(); 
   
-  document.getElementById("lisaa").addEventListener("click", function() {
+  document.getElementById("kuusi").addEventListener("click", function() {
      h++;
-        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
-				h++;
-        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
-				h++;
-        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
-				h++;
-        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
-				h++;
-        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
-				h++;
-        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
-      }   
-       )      
-  }
+     addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
+     h++;
+     addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
+     h++;
+     addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
+     h++;
+     addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
+     h++;
+     addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
+     h++;
+     addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
+     if (h > 80) {
+       const para = document.createElement("p");
+       const node = document.createTextNode("Kaikki lisätty jo!");
+       para.appendChild(node);
+       const element = document.getElementById("kaikki");
+       element.appendChild(para)
+     }
+   })
 
+ }
 var numero = 0;
 var h = 6
 
@@ -543,6 +549,11 @@ div#nappulat button{
     background: #1f2937;
     border-color: #051D29;
     color: #ffffff;
+}
+
+div#kaikki{
+  display: flex;
+  justify-content: center;
 }
 </style>
 
