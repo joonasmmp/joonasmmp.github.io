@@ -113,7 +113,7 @@ window.onload = function() {
 }, { index: 78, text: 'tuomio (juryn päätös)'
 }, { index: 79, text: 'todistaa; nähdä rikos'
 
-}
+},
     ],
     definitions: [{
         index: 1, text: 'accomplice'
