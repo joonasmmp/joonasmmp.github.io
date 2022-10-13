@@ -508,7 +508,8 @@ div#tehtava ul#defs li {
 div#tehtava li {
   float: left;
   height: 4em;
-  margin: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
   background: white;
   text-align: center;
   cursor: pointer;
