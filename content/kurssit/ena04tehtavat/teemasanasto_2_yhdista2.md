@@ -426,7 +426,7 @@ function addCSS(css){
      if (h > 80) {
 if(h>80){$("#kaikki").html("Kaikki lisätty jo!"); }      })
   }
-  
+
 var numero = 0;
 var h = 6
 
@@ -539,7 +539,7 @@ div#nappulat button{
     width: 10em;
     height: 3em;
     margin: 0.2em;
-    margin-bottom: 0,5em;
+    margin-bottom: 0.5em;
     border-width: 1px;
     border-radius: 5px;
     font-size: 0.8em;
