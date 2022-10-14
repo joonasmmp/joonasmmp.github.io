@@ -424,10 +424,9 @@ function addCSS(css){
      h++;
      addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
      if (h > 80) {
-if(h>80){$("#kaikki").html("Kaikki lisätty jo!"); }   
-   })
-
- }
+if(h>80){$("#kaikki").html("Kaikki lisätty jo!"); }      })
+  }
+  
 var numero = 0;
 var h = 6
 
