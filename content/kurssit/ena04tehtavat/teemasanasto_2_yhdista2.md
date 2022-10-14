@@ -424,13 +424,7 @@ function addCSS(css){
      h++;
      addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
      if (h > 80) {
-       const para = document.createElement("p");
-       const node = document.createTextNode("Kaikki lisätty jo!");
-       para.appendChild(node);
-       const element = document.getElementById("kaikki");
-       element.appendChild(para)
-     }
-   })
+if(h>80){$("#kaikki").html("Kaikki lisätty jo!"); }      })
 
  }
 var numero = 0;
@@ -545,6 +539,7 @@ div#nappulat button{
     width: 10em;
     height: 3em;
     margin: 0.2em;
+    margin-bottom: 0,5em;
     border-width: 1px;
     border-radius: 5px;
     font-size: 0.8em;
