@@ -6,4 +6,4 @@ type: page
 layout: tehtavavalikko
 ---
 
-Tältä sivulta löydät kurssikohtaiset materiaalit
+Tältä sivulta löydät kurssikohtaiset materiaalit brooooo
