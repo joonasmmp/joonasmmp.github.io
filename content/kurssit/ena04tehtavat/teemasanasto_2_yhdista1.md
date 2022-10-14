@@ -31,7 +31,7 @@ Etsi sanaa vastaava käännös. Numeroita klikkaamalla voit luoda haluamasi mä�
 window.onload = function() {
 
   //Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main file
-  var data = {
+   var data = {
     terms: [{
      index: 0, text: 'rikoskumppani'
 }, { index: 1, text: 'tuhopoltto'
@@ -78,7 +78,7 @@ window.onload = function() {
 }, { index: 42, text: 'tuomita, todeta syylliseksi; vanki'
 }, { index: 43, text: 'tuomio (syylliseksi tuomitseminen)'
 }, { index: 44, text: 'oikeusjuttu'
-}, { index: 45, text: 'syyttäjä'
+}, { index: 45, text: 'piirisyyttäjä'
 }, { index: 46, text: 'puolustus'
 }, { index: 47, text: 'vastaaja, syytetty'
 }, { index: 48, text: 'syyttää, nostaa syyte'

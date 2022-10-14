@@ -72,7 +72,7 @@ window.onload = function() {
 }, { index: 42, text: 'tuomita, todeta syylliseksi; vanki'
 }, { index: 43, text: 'tuomio (syylliseksi tuomitseminen)'
 }, { index: 44, text: 'oikeusjuttu'
-}, { index: 45, text: 'syyttäjä'
+}, { index: 45, text: 'piirisyyttäjä'
 }, { index: 46, text: 'puolustus'
 }, { index: 47, text: 'vastaaja, syytetty'
 }, { index: 48, text: 'syyttää, nostaa syyte'
