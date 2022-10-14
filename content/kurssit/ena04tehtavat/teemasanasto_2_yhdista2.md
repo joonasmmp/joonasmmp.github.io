@@ -429,6 +429,7 @@ if(h>80){$("#kaikki").html("Kaikki lisätty jo!"); }      })
 
 var numero = 0;
 var h = 6
+
 </script>
 
 <style>
