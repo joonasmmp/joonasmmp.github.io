@@ -410,22 +410,22 @@ function addCSS(css){
 
   shuffle(); 
   
-  document.getElementById("lisaa").addEventListener("click", function() {
-     h++;
-     addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
-     h++;
-     addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
-     h++;
-     addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
-     h++;
-     addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
-     h++;
-     addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
-     h++;
-     addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
-     if (h > 80) {
-if(h>78){$("#kaikki").html("Kaikki lisätty jo!"); }      })
+document.getElementById("kuusi").addEventListener("click", function() {
+        h++;
+        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
+				h++;
+        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
+				h++;
+        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
+				h++;
+        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
+				h++;
+        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
+				h++;
+        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
+if(h>80){$("#kaikki").html("Kaikki lisätty jo!"); }      })
   }
+
 var numero = 0;
 var h = 6;
 </script>
