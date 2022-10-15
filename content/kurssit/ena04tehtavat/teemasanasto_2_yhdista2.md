@@ -7,11 +7,11 @@ layout: tehtava
 ---
 {{< rawhtml >}}
 <div id="nappulat">
-    <button id="lisaa">
-    LISÄÄ PAREJA!!
-    </button>
-    </div>
-    <div id="kaikki"></div>
+<button id="lisaa">
+LISÄÄ PAREJA!!
+</button>
+</div>
+<div id="kaikki"></div>
 <div id="tehtava" class="grid grid-cols-2">
  <div><ul id="terms"> </ul></div>
  <div><ul id="defs"> </ul></div>
