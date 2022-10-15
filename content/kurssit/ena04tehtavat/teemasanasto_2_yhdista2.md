@@ -410,7 +410,7 @@ function addCSS(css){
 
   shuffle(); 
   
-document.getElementById("kuusi").addEventListener("click", function() {
+document.getElementById("lisaa").addEventListener("click", function() {
         h++;
         addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
 				h++;
@@ -423,7 +423,7 @@ document.getElementById("kuusi").addEventListener("click", function() {
         addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
 				h++;
         addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
-if(h>80){$("#kaikki").html("Kaikki lisätty jo!"); }      })
+if(h>78){$("#kaikki").html("Kaikki lisätty jo!"); }      })
   }
 
 var numero = 0;
