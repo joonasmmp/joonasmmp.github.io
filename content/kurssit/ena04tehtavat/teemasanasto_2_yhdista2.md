@@ -377,12 +377,12 @@ function addCSS(css){
     createListHTML(data.terms, termsContainer)
     createListHTML(data.definitions, defsContainer)
     addCSS("div#tehtava li[data-index]{display: none;}")
-    addCSS("div#tehtava li[data-index='" + a[0] + "']{display: block;}")
-		addCSS("div#tehtava li[data-index='" + a[1] + "']{display: block;}")
-    addCSS("div#tehtava li[data-index='" + a[2] + "']{display: block;}")
-    addCSS("div#tehtava li[data-index='" + a[3] + "']{display: block;}")
-    addCSS("div#tehtava li[data-index='" + a[4] + "']{display: block;}")
-    addCSS("div#tehtava li[data-index='" + a[5] + "']{display: block;}")
+    addCSS("div#tehtava li[data-index='" + a[0] + "']{display: flex;}")
+		addCSS("div#tehtava li[data-index='" + a[1] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[2] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[3] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[4] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[5] + "']{display: flex;}")
   }
   
   
@@ -412,17 +412,17 @@ function addCSS(css){
   
 document.getElementById("lisaa").addEventListener("click", function() {
         h++;
-        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
+        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: flex;}")
 				h++;
-        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
+        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: flex;}")
 				h++;
-        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
+        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: flex;}")
 				h++;
-        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
+        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: flex;}")
 				h++;
-        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
+        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: flex;}")
 				h++;
-        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: block;}")
+        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: flex;}")
 if(h>78){$("#kaikki").html("Kaikki lisätty jo!"); }      })
   }
 
@@ -488,10 +488,9 @@ div#tehtava li[data-selected] {
 div#tehtava ul li span {
   width: 100%;
   height: 100%;
-  display: block;
-  vertical-align: middle;
-  text-align: center;
-  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transform: none;
   transition: opacity 0.2s ease-out;
 }
@@ -530,7 +529,7 @@ div#nappulat{
 }
 
 div#nappulat button{
-    display: inline-block;
+    display: inline-flex;
     font-family: inherit;
     text-align: center;
     border: 1px solid transparent;
