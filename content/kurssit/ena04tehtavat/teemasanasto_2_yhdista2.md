@@ -529,7 +529,6 @@ div#nappulat{
 }
 
 div#nappulat button{
-    display: inline-flex;
     font-family: inherit;
     text-align: center;
     border: 1px solid transparent;
