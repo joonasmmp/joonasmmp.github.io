@@ -48,7 +48,7 @@ qbank = shufflee(qbank);
   kortinVaihto();
 
   window.addEventListener('keydown', (e) => {
-    if (e.keyCode === 32 && e.target === document.body) {
+    if (e.keyCode === 39 && e.target === document.body) {
       e.preventDefault();
     }
   });
@@ -56,11 +56,7 @@ qbank = shufflee(qbank);
   document.body.onkeydown = function(event) {
     event = event || window.event;
     var keycode = event.charCode || event.keyCode;
-    if (keycode === 32) {
-    seuraava();
-    }
-
-    if (keycode === 32) {
+    if (keycode === 39) {
     seuraava();
     }
   }
