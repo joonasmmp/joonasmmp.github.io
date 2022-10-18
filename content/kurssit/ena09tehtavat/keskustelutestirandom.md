@@ -1,5 +1,5 @@
 ---
-title: "Testi, testi, testi"
+title: "Keskustelutesti: Random"
 date: 2021-8-13
 draft: false
 type: page
@@ -10,7 +10,7 @@ layout: tehtava
 <div id="cardArea"></div>
 
   <div id="lukumaara"></div>
-  <div id="buttonArea" class="grid grid-cols-3"></div>
+  <div id="buttonArea" class="grid grid-cols-1"></div>
 
 <div id="nappaimet" class="hidden lg:block" style="text-align:center; margin:0 auto; width:50%;"> 
 </div>
@@ -56,11 +56,6 @@ qbank = shufflee(qbank);
   document.body.onkeydown = function(event) {
     event = event || window.event;
     var keycode = event.charCode || event.keyCode;
-    if (keycode === 37 && currentQuestion > 0) {
-      currentQuestion--;
-      beginActivity();
-    }
-
     if (keycode === 39) {
       currentQuestion++;
       beginActivity();
@@ -120,7 +115,7 @@ qbank = shufflee(qbank);
    }
    
    #nextButton{
-    width:90%;
+    width:40%;
     text-align: center;
     font-size: 1em;
     padding:10px;
