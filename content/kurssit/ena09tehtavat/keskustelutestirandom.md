@@ -56,14 +56,12 @@ qbank = shufflee(qbank);
   document.body.onkeydown = function(event) {
     event = event || window.event;
     var keycode = event.charCode || event.keyCode;
-    if (keycode === 39) {
-      currentQuestion++;
-      beginActivity();
+    if (keycode === 32) {
+    seuraava();
     }
 
     if (keycode === 32) {
-      currentQuestion++;
-      beginActivity();      
+    seuraava();
     }
   }
   
