@@ -8,7 +8,6 @@ layout: tehtava
 
 {{< rawhtml >}}
 <div id="cardArea"></div>
-<div id="lukumaara"></div>
 <div id="buttonArea" class="grid grid-cols-1"></div>
 
 <script>
@@ -134,32 +133,8 @@ qbank = shufflee(qbank);
     font: inherit;
    }
 
-   #valikko {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  #valikko button {
-    background-color: #FFFFFF;
-    color: black;
-    border: none;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-  }
-
-  .dark #valikko button {
-    background: #181A1B;
-    color: white;
-    border: none;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-  }
-  
   div#done {
-width: 100%;
+    width: 100%;
     height: 300px;
     position: absolute;
     text-align: center;
