@@ -28,6 +28,20 @@ $(document).ready(function() {
   ["When am I?"],
   ];
 
+window.addEventListener('keydown', (e) => {
+    if (e.keyCode === 39 && e.target === document.body) {
+      e.preventDefault();
+    }
+  });
+
+  document.body.onkeydown = function(event) {
+    event = event || window.event;
+    var keycode = event.charCode || event.keyCode;
+    if (keycode === 39) {
+    currentQuestion++;
+    beginActivity();
+    }
+  }
 for (var a=[],i=0;i<5;++i) a[i]=i;
 
 function shufflee(array) {
@@ -47,21 +61,7 @@ qbank = shufflee(qbank);
   seuraava();
   kortinVaihto();
 
-  window.addEventListener('keydown', (e) => {
-    if (e.keyCode === 39 && e.target === document.body) {
-      e.preventDefault();
-    }
-  });
-
-  document.body.onkeydown = function(event) {
-    event = event || window.event;
-    var keycode = event.charCode || event.keyCode;
-    if (keycode === 39) {
-    currentQuestion++;
-    beginActivity();
-    }
-  }
-  
+ 
  	function beginActivity() {
     $("#cardArea").empty();
     $("#cardArea").append('<div id="card1" class="card">' + qbank[currentQuestion] + '</div>');
