@@ -37,7 +37,7 @@ window.addEventListener('keydown', (e) => {
   document.body.onkeydown = function(event) {
     event = event || window.event;
     var keycode = event.charCode || event.keyCode;
-    if (keycode === 39 && currentQuestion < qbank.length + 1) {
+    if (keycode === 39 && currentQuestion < qbank.length) {
     currentQuestion++;
     beginActivity();
     }
