@@ -70,11 +70,12 @@ qbank = shufflee(qbank);
     if (currentQuestion == qbank.length) {
       $("#cardArea").empty();
       $("#buttonArea").empty();
+      $("#buttonArea").append('<div id="restartButton" onClick="refreshPage()">Aloita alusta</div>');
       $("#cardArea").append('<div id="done">Task done</div>');
     }
   }
   
-    function restartPage() {
+    function refreshPage() {
         window.location.reload();
    }
 
