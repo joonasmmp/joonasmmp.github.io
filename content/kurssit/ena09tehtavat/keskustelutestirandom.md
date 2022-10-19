@@ -57,7 +57,8 @@ qbank = shufflee(qbank);
     event = event || window.event;
     var keycode = event.charCode || event.keyCode;
     if (keycode === 39) {
-    seuraava();
+    currentQuestion++;
+    beginActivity();
     }
   }
   
