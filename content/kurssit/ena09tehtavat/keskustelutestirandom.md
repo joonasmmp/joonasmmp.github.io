@@ -43,17 +43,6 @@ window.addEventListener('keydown', (e) => {
     }
   }
 
-    document.body.onkeydown = function(event) {
-    event = event || window.event;
-    var keycode = event.charCode || event.keyCode;
-    if (keycode === 39 && currentQuestion === qbank.length) {
-      $("#cardArea").empty();
-      $("#buttonArea").empty();
-      $("#buttonArea").append('<div id="restartButton" onClick="refreshPage()">Aloita alusta</div>');
-      $("#cardArea").append('<div id="done">Task done</div>');
-    }
-  }
-
 
 for (var a=[],i=0;i<5;++i) a[i]=i;
 
