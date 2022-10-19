@@ -48,18 +48,6 @@ $(document).ready(function() {
     }
   }
 
-
-  function edellinen() {
-    $("#buttonArea").append('<div id="prevButton">Edellinen</div>');
-    $("#prevButton").on("click", function() {
-      if (currentQuestion > 0) {
-        currentQuestion--;
-        beginActivity();
-      }
-    })
-  }
-
-
   function seuraava() {
     $("#buttonArea").append('<div id="nextButton">Seuraava</div>');
     $("#nextButton").on("click", function() {
@@ -70,6 +58,15 @@ $(document).ready(function() {
     })
   }
 
+  function edellinen() {
+    $("#buttonArea").append('<div id="prevButton">Edellinen</div>');
+    $("#prevButton").on("click", function() {
+      if (currentQuestion > 0) {
+        currentQuestion--;
+        beginActivity();
+      }
+    })
+  }
 
   function beginActivity() {
     $("#cardArea").empty();

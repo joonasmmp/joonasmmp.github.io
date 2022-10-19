@@ -8,6 +8,7 @@ layout: tehtava
 
 {{< rawhtml >}}
 <div id="cardArea"></div>
+<div id="lukumaara"></div>
 <div id="buttonArea" class="grid grid-cols-1"></div>
 
 <script>
