@@ -43,7 +43,6 @@ window.addEventListener('keydown', (e) => {
     }
   }
 
-
 for (var a=[],i=0;i<5;++i) a[i]=i;
 
 function shufflee(array) {
@@ -68,6 +67,11 @@ qbank = shufflee(qbank);
     $("#cardArea").empty();
     $("#cardArea").append('<div id="card1" class="card">' + qbank[currentQuestion] + '</div>');
     $("#card1").css("background-color", "#1F2937");
+    if (currentQuestion = qbank.length) {
+      $("#cardArea").empty();
+      $("#buttonArea").empty();
+      $("#cardArea").append('<div id="done">Task done</div>');
+    }
   }
   
     function restartPage() {
