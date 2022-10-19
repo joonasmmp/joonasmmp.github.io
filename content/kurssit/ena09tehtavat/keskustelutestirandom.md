@@ -90,6 +90,7 @@ qbank = shufflee(qbank);
     margin-top: 20px;
     position: relative;
     overflow: hidden;
+    padding-bottom: .7em;
    }
 
    .card{
@@ -107,6 +108,7 @@ qbank = shufflee(qbank);
    }
    
    #nextButton{
+    padding-top: .7em;
     width:40%;
     text-align: center;
     font-size: 1em;
@@ -130,13 +132,6 @@ qbank = shufflee(qbank);
     background-color: #1F2937;
     border: 1px solid  #000000;
     font: inherit;
-   }
-  
-   #lukumaara{
-     padding-top: .7em;
-     padding-bottom: .7em;
-     text-align: center;
-     font-size: 1em;
    }
 
    #valikko {
