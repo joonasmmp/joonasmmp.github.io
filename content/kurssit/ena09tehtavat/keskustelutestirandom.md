@@ -46,7 +46,7 @@ window.addEventListener('keydown', (e) => {
     document.body.onkeydown = function(event) {
     event = event || window.event;
     var keycode = event.charCode || event.keyCode;
-    if (keycode === 39 && currentQuestion = qbank.length) {
+    if (keycode === 39 && currentQuestion === qbank.length) {
       $("#cardArea").empty();
       $("#buttonArea").empty();
       $("#cardArea").append('<div id="done">Task done</div>');
