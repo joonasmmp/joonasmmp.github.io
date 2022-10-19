@@ -84,7 +84,7 @@ qbank = shufflee(qbank);
     function restart() {
     $("#restartButton").on("click", function() {
     location.reload();
-    }
+    )}
 
   function seuraava() {
     $("#buttonArea").append('<div id="nextButton">Seuraava</div>');
