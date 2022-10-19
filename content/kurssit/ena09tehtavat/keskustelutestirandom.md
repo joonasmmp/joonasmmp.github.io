@@ -16,7 +16,6 @@ layout: tehtava
 </div>
 
 <script>
-
 $(document).ready(function() {
 
   var currentQuestion = 0;
@@ -60,7 +59,6 @@ qbank = shufflee(qbank);
 
   beginActivity();
   seuraava();
-  kortinVaihto();
 
  
  	function beginActivity() {
@@ -70,27 +68,17 @@ qbank = shufflee(qbank);
     if (currentQuestion == qbank.length) {
       $("#cardArea").empty();
       $("#buttonArea").empty();
-      $("#buttonArea").append('<div id="restartButton" onClick="refreshPage()">Aloita alusta</div>');
-      $("#cardArea").append('<div id="done">Task done</div>');
+      $("#buttonArea").append('<div id="restartButton" onClick="window.location.reload()">Aloita alusta</div>');
+      $("#cardArea").append('<div id="done">Tehtävä suoritettu</div>');
     }
   }
   
-    function refreshPage() {
-        window.location.reload();
-   }
-
   function seuraava() {
     $("#buttonArea").append('<div id="nextButton">Seuraava</div>');
     $("#nextButton").on("click", function() {
-      if (currentQuestion < qbank.length - 1) {
+      if (currentQuestion < qbank.length) {
         currentQuestion++;
         beginActivity();}
-      else {
-      $("#cardArea").empty();
-      $("#buttonArea").empty();
-      $("#buttonArea").append('<div id="restartButton" onClick="refreshPage()">Aloita alusta</div>');
-      $("#cardArea").append('<div id="done">Task done</div>');
-      }
       }
    )
   }
