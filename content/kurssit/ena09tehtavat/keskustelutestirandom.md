@@ -83,7 +83,7 @@ qbank = shufflee(qbank);
   
     function restart() {
     $("#restartButton").on("click", function() {
-        location.reload();
+        window.location.reload();
     })
    }
 
