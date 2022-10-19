@@ -9,10 +9,8 @@ layout: tehtava
 {{< rawhtml >}}
 <div id="cardArea"></div>
 
-  <div id="lukumaara"></div>
   <div id="buttonArea" class="grid grid-cols-1"></div>
 
-<div id="nappaimet" class="hidden lg:block" style="text-align:center; margin:0 auto; width:50%;"> 
 </div>
 
 <script>
@@ -25,6 +23,7 @@ $(document).ready(function() {
   ["Where am I?"],
   ["What's going on?"],
   ["When am I?"],
+  ["What is the biggest mammal in the world?"],
   ];
 
 window.addEventListener('keydown', (e) => {
