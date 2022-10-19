@@ -41,11 +41,6 @@ window.addEventListener('keydown', (e) => {
     currentQuestion++;
     beginActivity();
     }
-    else {
-      $("#cardArea").empty();
-      $("#buttonArea").empty();
-      $("#cardArea").append('<div id="done">Task done</div>');
-      }
   }
 for (var a=[],i=0;i<5;++i) a[i]=i;
 
@@ -66,6 +61,10 @@ qbank = shufflee(qbank);
   seuraava();
   kortinVaihto();
 
+      if (currentQuestion = qbank.length) {
+      $("#cardArea").empty();
+      $("#buttonArea").empty();
+      $("#cardArea").append('<div id="done">Task done</div>');
  
  	function beginActivity() {
     $("#cardArea").empty();
