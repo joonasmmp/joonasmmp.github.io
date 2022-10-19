@@ -49,7 +49,7 @@ window.addEventListener('keydown', (e) => {
     if (keycode === 39 && currentQuestion === qbank.length) {
       $("#cardArea").empty();
       $("#buttonArea").empty();
-      $("#buttonArea").append('<div id="restartButton">Aloita alusta</div>');
+      $("#buttonArea").append('<div id="restartButton" onClick="refreshPage()">Aloita alusta</div>');
       $("#cardArea").append('<div id="done">Task done</div>');
     }
   }
@@ -81,10 +81,8 @@ qbank = shufflee(qbank);
     $("#card1").css("background-color", "#1F2937");
   }
   
-    function restart() {
-    $("#restartButton").on("click", function() {
+    function restartPage() {
         window.location.reload();
-    })
    }
 
   function seuraava() {
@@ -96,7 +94,7 @@ qbank = shufflee(qbank);
       else {
       $("#cardArea").empty();
       $("#buttonArea").empty();
-      $("#buttonArea").append('<div id="restartButton">Aloita alusta</div>');
+      $("#buttonArea").append('<div id="restartButton" onClick="refreshPage()">Aloita alusta</div>');
       $("#cardArea").append('<div id="done">Task done</div>');
       }
       }
