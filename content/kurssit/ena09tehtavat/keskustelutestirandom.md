@@ -81,10 +81,10 @@ qbank = shufflee(qbank);
     $("#card1").css("background-color", "#1F2937");
   }
   
-    function restart(
+    function restart() {
     $("#restartButton").on("click", function() {
     location.reload();
-    )
+    }
 
   function seuraava() {
     $("#buttonArea").append('<div id="nextButton">Seuraava</div>');
