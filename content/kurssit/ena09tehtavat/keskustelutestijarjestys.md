@@ -14,7 +14,7 @@ layout: tehtava
 $(document).ready(function() {
 
   var currentQuestion = 0;
-    var qbank = [
+  var qbank = [
     ["What is the capital of Assyria?"],
     ["How big is big?"],
     ["Where am I?"],
@@ -22,11 +22,10 @@ $(document).ready(function() {
     ["When am I?"],
     ["What is the biggest mammal in the world?"],
   ];
-
-  beginActivity();
-  seuraava();
+  
+	beginActivity();
   edellinen();
-  kortinVaihto();
+  seuraava();
 
   window.addEventListener('keydown', (e) => {
     if (e.keyCode === 32 && e.target === document.body) {
@@ -42,30 +41,10 @@ $(document).ready(function() {
       beginActivity();
     }
 
-    if (keycode === 39 && currentQuestion < qbank.length - 1) {
+if (keycode === 39 && currentQuestion < qbank.length - 1) {
       currentQuestion++;
       beginActivity();
     }
-  }
-
-  function seuraava() {
-    $("#buttonArea").append('<div id="nextButton">Seuraava</div>');
-    $("#nextButton").on("click", function() {
-      if (currentQuestion < qbank.length - 1) {
-        currentQuestion++;
-        beginActivity();
-      }
-    })
-  }
-
-  function edellinen() {
-    $("#buttonArea").append('<div id="prevButton">Edellinen</div>');
-    $("#prevButton").on("click", function() {
-      if (currentQuestion > 0) {
-        currentQuestion--;
-        beginActivity();
-      }
-    })
   }
 
   function beginActivity() {
@@ -77,7 +56,27 @@ $(document).ready(function() {
     korttia.innerHTML = currentQuestion + 1 + " / " + qbank.length;
     document.getElementById('lukumaara').appendChild(korttia);
   }
-  })
+
+  function edellinen() {
+    $("#buttonArea").append('<div id="prevButton">Edellinen</div>');
+    $("#prevButton").on("click", function() {
+      if (currentQuestion > 0) {
+        currentQuestion--;
+        beginActivity();
+      }
+    }) 
+  }
+
+  function seuraava() {
+    $("#buttonArea").append('<div id="nextButton">Seuraava</div>');
+    $("#nextButton").on("click", function() {
+      if (currentQuestion < qbank.length - 1) {
+        currentQuestion++;
+        beginActivity();
+      }
+    })
+  }
+})
 </script>
 
 <style>
