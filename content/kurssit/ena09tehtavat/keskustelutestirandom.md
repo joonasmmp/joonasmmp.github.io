@@ -49,6 +49,7 @@ window.addEventListener('keydown', (e) => {
     if (keycode === 39 && currentQuestion === qbank.length) {
       $("#cardArea").empty();
       $("#buttonArea").empty();
+      $("#buttonArea").append('<div id="restartButton">Aloita alusta</div>');
       $("#cardArea").append('<div id="done">Task done</div>');
     }
   }
@@ -80,6 +81,11 @@ qbank = shufflee(qbank);
     $("#card1").css("background-color", "#1F2937");
   }
   
+    function restart(
+    $("#restartButton").on("click", function() {
+    location.reload();
+    )
+
   function seuraava() {
     $("#buttonArea").append('<div id="nextButton">Seuraava</div>');
     $("#nextButton").on("click", function() {
@@ -89,6 +95,7 @@ qbank = shufflee(qbank);
       else {
       $("#cardArea").empty();
       $("#buttonArea").empty();
+      $("#buttonArea").append('<div id="restartButton">Aloita alusta</div>');
       $("#cardArea").append('<div id="done">Task done</div>');
       }
       }
@@ -134,8 +141,8 @@ qbank = shufflee(qbank);
     font: inherit;
    }
    
-   #prevButton{
-    width: 90%;
+   #restartButton{
+    width: 40%;
     text-align: center;
     font-size: 1em;
     padding: 10px;
@@ -144,19 +151,6 @@ qbank = shufflee(qbank);
     margin: auto;
     background-color: #1F2937;
     border: 1px solid  #000000;
-    font: inherit;
-   }
-
-   #random{
-    width:90%;
-    text-align:center;
-    font-size: 1em;
-    padding:10px;
-    cursor:pointer;
-    color:#efefef;
-    margin:auto;
-    background-color:#1F2937;
-    border: 1px solid #000000;
     font: inherit;
    }
   
