@@ -29,7 +29,7 @@ $(document).ready(function() {
   ];
 
 window.addEventListener('keydown', (e) => {
-    if (e.keyCode === 39 && e.target === document.body) {
+    if (e.keyCode === 32 && e.target === document.body) {
       e.preventDefault();
     }
   });
