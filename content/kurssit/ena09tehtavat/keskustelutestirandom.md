@@ -37,10 +37,15 @@ window.addEventListener('keydown', (e) => {
   document.body.onkeydown = function(event) {
     event = event || window.event;
     var keycode = event.charCode || event.keyCode;
-    if (keycode === 39) {
+    if (keycode === 39 && currentQuestion < qbank.length - 1) {
     currentQuestion++;
     beginActivity();
     }
+    else {
+      $("#cardArea").empty();
+      $("#buttonArea").empty();
+      $("#cardArea").append('<div id="done">Task done</div>');
+      }
   }
 for (var a=[],i=0;i<5;++i) a[i]=i;
 
