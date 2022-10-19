@@ -64,7 +64,8 @@ qbank = shufflee(qbank);
       if (currentQuestion = qbank.length) {
       $("#cardArea").empty();
       $("#buttonArea").empty();
-      $("#cardArea").append('<div id="done">Task done</div>');
+      $("#cardArea").append('<div id="done">Task done</div>')
+      }
  
  	function beginActivity() {
     $("#cardArea").empty();
