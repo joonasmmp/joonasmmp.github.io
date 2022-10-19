@@ -42,6 +42,18 @@ window.addEventListener('keydown', (e) => {
     beginActivity();
     }
   }
+
+    document.body.onkeydown = function(event) {
+    event = event || window.event;
+    var keycode = event.charCode || event.keyCode;
+    if (keycode === 39 && currentQuestion = qbank.length) {
+      $("#cardArea").empty();
+      $("#buttonArea").empty();
+      $("#cardArea").append('<div id="done">Task done</div>');
+    }
+  }
+
+
 for (var a=[],i=0;i<5;++i) a[i]=i;
 
 function shufflee(array) {
@@ -61,11 +73,6 @@ qbank = shufflee(qbank);
   seuraava();
   kortinVaihto();
 
-      if (currentQuestion = qbank.length) {
-      $("#cardArea").empty();
-      $("#buttonArea").empty();
-      $("#cardArea").append('<div id="done">Task done</div>')
-      }
  
  	function beginActivity() {
     $("#cardArea").empty();
