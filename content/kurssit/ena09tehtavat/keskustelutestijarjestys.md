@@ -139,5 +139,7 @@ $(document).ready(function() {
      text-align: center;
      font-size: 1em;
    }
-</style>
+   </style>
+
+
 {{< /rawhtml >}}
