@@ -67,7 +67,7 @@ qbank = shufflee(qbank);
     $("#cardArea").empty();
     $("#cardArea").append('<div id="card1" class="card">' + qbank[currentQuestion] + '</div>');
     $("#card1").css("background-color", "#1F2937");
-    if (currentQuestion > qbank.length - 1) {
+    if (currentQuestion = qbank.length - 1) {
       $("#cardArea").empty();
       $("#buttonArea").empty();
       $("#cardArea").append('<div id="done">Task done</div>');
