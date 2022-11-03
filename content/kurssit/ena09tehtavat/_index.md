@@ -12,5 +12,5 @@ esim testaus
 
 
 {{< valikko >}}
-morjesta pöytään
+[Testiy]({{<ref "testiy.mdt" >}})
 {{< /valikko >}}
