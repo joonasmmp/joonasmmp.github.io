@@ -9,3 +9,8 @@ layout: ohje
 Alla löydät tehtäviä ENA0x-kurssille
 
 esim testaus
+
+
+{{< valikko >}}
+morjesta pöytään
+{{< /valikko >}}

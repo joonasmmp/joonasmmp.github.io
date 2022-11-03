@@ -232,3 +232,18 @@ div#sisalto a:hover {
     list-style-type: disc;
     padding-left: 0.5em;
 }
+
+.valikko-ikkuna {
+  display: inline-flex;
+  border: 0.0625rem solid #cec4d2;
+  border-radius: 0.25rem;
+  width: 80%;
+  margin-top: 1em;
+  box-shadow: 0 0.125rem 0.375rem #00000040;
+}
+
+.valikko-teksti {
+  display: flex;
+  width: 100%;
+  margin: 1em;
+}
