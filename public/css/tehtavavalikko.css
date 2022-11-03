@@ -12,3 +12,13 @@
     width: 100%;
     margin: 1em;
   }
+
+  .valikko-teksti a {
+    color: black;
+    background-image: none;
+  }
+
+  .dark .valikko-teksti a {
+    color: white;
+    background-image: none;
+  }
