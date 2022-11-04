@@ -11,6 +11,4 @@ Alla löydät tehtäviä ENA0x-kurssille
 esim testaus
 
 
-{{< valikko >}}
-[Testiy]({{<ref "testiy.mdt" >}})
-{{< /valikko >}}
+{{< valikko >}}Bro{{< /valikko >}}({{<ref "testiy.mdt" >}})
