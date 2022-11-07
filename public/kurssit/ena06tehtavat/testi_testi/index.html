@@ -19,9 +19,8 @@
     <meta name="theme-color" content="#ffffff">
     <meta property="og:title" content="PJMM - Englannin materiaalia | Paritustehtävä joka ei toimi :(" />
     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
-    <div class="font_preload" style="opacity: 0">
-        <span style="font-family: 'Open Sans'"></span>
-    </div>
+    <link rel="preload" href="../fonts/open-sans-v29-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../fonts/open-sans-v29-latin-regular.woff" as="font" type="font/woff" crossorigin>
     
     
     
@@ -61,7 +60,7 @@
     <div class="container max-w-screen-xl mr-auto ml-auto">
         <nav class="flex items-center justify-between flex-wrap bg-gray-800 p-6">
             <div class="flex items-center flex-no-shrink bg-gray-800 text-white mr-6">
-              <a href="https://joonasmmp.github.io/"><img src="/img/logo2.svg" alt="PJMM" style="display:block;height:46px;width:43px;box-sizing:border-box; padding-right: 10px;"></a><a href="https://joonasmmp.github.io/"><span class="font-semibold text-2xl tracking-tight">Lukion englantia</span></a>
+              <a href="https://joonasmmp.github.io/"><img src="/img/logo_jpel.svg" alt="PJMM" style="display:block;height:46px;width:43px;box-sizing:border-box; padding-right: 10px;"></a><a href="https://joonasmmp.github.io/"><span class="font-semibold text-2xl tracking-tight">Lukion englantia</span></a>
             </div>
             <div class="flex md:hidden">
                 <div class="py-2">
@@ -131,6 +130,19 @@
                     
                     <li>
                         
+                            <a class="dropdown no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4" href="#">Muuta</a>
+                            <ul class="dropdown-content">
+                              
+                                <li><a href="/muuta/podcast/" class="no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4">Podcast-suositukset</a></li>
+                              
+                                <li><a href="/muuta/phrasebank/" class="no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4">Phrase bank</a></li>
+                              
+                            </ul>
+                        
+                      </li>
+                    
+                    <li>
+                        
                           <a href="/about/ " class="no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4">Tietoja</a>
                         
                       </li>
@@ -164,6 +176,7 @@
 	padding-left: 0.5em !important;
 	padding-right: 0.5em !important;
 	margin-left: none !important;
+  z-index: 300;
 }
 
 .links li ul.dropdown-content li {
@@ -275,14 +288,15 @@
         
             <div class="bg-white dark:bg-warmgray-900 p-5 my-4" style="border-radius: 4px; border-color: #D3D6DA; box-shadow: 0 4px 10px rgb(128 128 128 / 10%); overflow: hidden; border: 1px solid #ccccca;
             margin-bottom: 1.25em; height: fit-content;">
-                <h1 class="mb-2 text-2xl">Paritustehtävä joka ei toimi :(</h1>
+                <h1 class="mb-1 text-2xl" style="padding-bottom:0.3em; text-align: center; text-transform: uppercase">Paritustehtävä joka ei toimi :(</h1>
                 <div class="content prose md:prose-lg lg:prose-xl max-w-none dark:prose-invert mt-5">
 <div id="tehtava" class="grid grid-cols-2">
  <div><ul id="terms"> </ul></div>
  <div><ul id="defs"> </ul></div>
 </div>
 
-<script>    //Execute a JavaScript immediately after a page has been loaded
+<script> 
+   //Execute a JavaScript immediately after a page has been loaded
 window.onload = function() {
 
   //Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main file
@@ -328,6 +342,8 @@ window.onload = function() {
     }
   };
 
+
+
   var selectedTerm = null, //to make sure none is selected onload
     selectedDef = null,
     termsContainer = document.querySelector("#terms"), //list of terms
@@ -356,17 +372,17 @@ window.onload = function() {
     if (target.className === "score")
       return;
     var termIndex = Number(target.getAttribute("data-index"));
-    //warunek na to, że tylko jedno LI może być zaznaczone  
+    //the condition is that only one LI can be selected
     if (selectedTerm !== null && selectedTerm !== termIndex) {
       termsContainer.querySelector("li[data-index='" + selectedTerm + "']").removeAttribute("data-selected");
     }
 
-    //kasowanie odznaczenia  
+    //deletion of the decoration
     if (target.hasAttribute("data-selected")) {
       target.removeAttribute("data-selected");
       selectedTerm = null;
     }
-    //zaznaczanie na klikniecie    	
+    //selecting on click	
     else {
       target.setAttribute("data-selected", true);
       selectedTerm = termIndex;
@@ -376,16 +392,17 @@ window.onload = function() {
       var term = document.querySelector("#terms [data-index='" + selectedTerm + "']");
       var def = document.querySelector("#defs [data-index='" + selectedDef + "']");
       if (isMatch(selectedTerm, selectedDef)) {
-        term.className = "score";
+				term.className = "score";
         def.className = "score";
-      }
-
+  			numero++;
+   			term.style.order = (numero);
+   			def.style.order = (numero);
+            }
       selectedTerm = null;
       selectedDef = null;
       term.removeAttribute("data-selected");
       def.removeAttribute("data-selected");
-
-    }
+			    }
   })
 
   defsContainer.addEventListener("click", function(e) {
@@ -393,6 +410,7 @@ window.onload = function() {
     if (target.className === "score")
       return;
     var defIndex = Number(target.getAttribute("data-index"));
+    var defText = Number(target.getAttribute("data-index"))
 
     if (selectedDef !== null && selectedDef !== defIndex) {
       defsContainer.querySelector("li[data-index='" + selectedDef + "']").removeAttribute("data-selected");
@@ -409,12 +427,15 @@ window.onload = function() {
       //var def = document.querySelector("#defs [data-index='"+selectedDef+"']");
       var def = defsContainer.querySelector("[data-index='" + selectedDef + "']");
       if (isMatch(selectedTerm, selectedDef)) {
-        
-        term.className = "score";
+				term.className = "score";
         def.className = "score";
-      }
-      selectedTerm = null; //odznacz kliknięcie
-      selectedDef = null; //odznacz kliknięcie  
+  			numero++;
+   			term.style.order = (numero);
+   			def.style.order = (numero);
+       }
+      
+      selectedTerm = null; //poista napautusten valinta
+      selectedDef = null; //poista napautusten valinta
       term.removeAttribute("data-selected");
       def.removeAttribute("data-selected");
     }
@@ -432,6 +453,7 @@ window.onload = function() {
       temporaryValue, randomIndex;
 
     // While there remain elements to shuffle...
+
     while (currentIndex !== 0) {
 
       // Pick a remaining element...
@@ -462,6 +484,8 @@ window.onload = function() {
   });
 
 }
+
+var numero = 0;
 </script>
 
 <style>
@@ -500,7 +524,6 @@ div#tehtava li {
   background: white;
   text-align: center;
   cursor: pointer;
-  transition: all .2s ease-out;
   border-radius: 0;
   -webkit-box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 1);
   box-shadow: 0 3px 5px 1px #000;
@@ -572,7 +595,6 @@ div#tehtava button:focus {
   color: #fff!important;
   background: #00A0DF!important;
   border-radius: 15px;
-  order: 1;
 }
 
 .score:hover {
@@ -623,21 +645,55 @@ div#tehtava button:focus {
         href="https://joonasmmp.github.io//categories/verkkosivu">Verkkosivu</a>
 
     
+    <a class="text-center block duration-100 py-2 px-4 mx-4 hover:bg-gray-100 text-gray-800 dark:text-gray-200 dark:hover:bg-warmgray-800"
+        href="https://joonasmmp.github.io//categories/ylioppilaskokeet">Ylioppilaskokeet</a>
+
+    
 </div>
 
             
 <div class="bg-white panel mb-3 dark:bg-warmgray-900">
     <p class="text-xl text-center text-gray-700 py-3 pl-3 dark:text-gray-300">Tunnisteet</p>
     <div class="panel-block p-2">
-        <a href="/tags/markdown">
+        <a href="/tags/koodaus">
             <span
                 class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-black hover:text-blue-500 dark:bg-warmgray-800 dark:text-white">
-                markdown
+                koodaus
             </span></a>
-        <a href="/tags/testi">
+        <a href="/tags/kuuntelukoe">
             <span
                 class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-black hover:text-blue-500 dark:bg-warmgray-800 dark:text-white">
-                testi
+                kuuntelukoe
+            </span></a>
+        <a href="/tags/luetun-ymm%C3%A4rt%C3%A4minen">
+            <span
+                class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-black hover:text-blue-500 dark:bg-warmgray-800 dark:text-white">
+                luetun-ymmärtäminen
+            </span></a>
+        <a href="/tags/offtopic">
+            <span
+                class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-black hover:text-blue-500 dark:bg-warmgray-800 dark:text-white">
+                offtopic
+            </span></a>
+        <a href="/tags/s2022">
+            <span
+                class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-black hover:text-blue-500 dark:bg-warmgray-800 dark:text-white">
+                s2022
+            </span></a>
+        <a href="/tags/tietotekniikka">
+            <span
+                class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-black hover:text-blue-500 dark:bg-warmgray-800 dark:text-white">
+                tietotekniikka
+            </span></a>
+        <a href="/tags/verkkosivu">
+            <span
+                class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-black hover:text-blue-500 dark:bg-warmgray-800 dark:text-white">
+                verkkosivu
+            </span></a>
+        <a href="/tags/yo-kokeet">
+            <span
+                class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-black hover:text-blue-500 dark:bg-warmgray-800 dark:text-white">
+                yo-kokeet
             </span></a>
     </div>
 </div>
@@ -648,7 +704,25 @@ div#tehtava button:focus {
     <p class="text-xl text-center text-gray-700 py-5 dark:text-gray-300">Uusimmat julkaisut</p>
     <div class="mx-6">
         
-        <a href="/post/testikakkonen/" class="">
+        <a href="/post/ylioppilaskokeet/yo_s2022_ajatuksia/" class="">
+            <div class="w-full block mt-3 bg-white hover:bg-gray-100 duration-200 dark:bg-warmgray-900 dark:text-gray-200 dark:hover:bg-warmgray-800">
+                <div class="px-2">
+                    <div class="text-gray-900 font-bold text-xl dark:text-white">YO Syksy 2022 - Englanti (pitkä)</div>
+                    <p class="text-sm text-gray-600 flex items-center pb-1 dark:text-gray-400">
+                        <time>September 20, 2022</time>
+                    </p>
+                </div>
+            </div>
+        <a href="/post/verkkosivu/caseyhdista/" class="">
+            <div class="w-full block mt-3 bg-white hover:bg-gray-100 duration-200 dark:bg-warmgray-900 dark:text-gray-200 dark:hover:bg-warmgray-800">
+                <div class="px-2">
+                    <div class="text-gray-900 font-bold text-xl dark:text-white">Case paritustehtävä</div>
+                    <p class="text-sm text-gray-600 flex items-center pb-1 dark:text-gray-400">
+                        <time>September 11, 2022</time>
+                    </p>
+                </div>
+            </div>
+        <a href="/post/verkkosivu/verkkosivuntaustat/" class="">
             <div class="w-full block mt-3 bg-white hover:bg-gray-100 duration-200 dark:bg-warmgray-900 dark:text-gray-200 dark:hover:bg-warmgray-800">
                 <div class="px-2">
                     <div class="text-gray-900 font-bold text-xl dark:text-white">Verkkosivun taustaa</div>
@@ -701,6 +775,25 @@ div#tehtava button:focus {
         }
     }
     </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/medium-zoom/1.0.6/medium-zoom.min.js" integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S+Yti0U7QtuZvQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+const images = Array.from(document.querySelectorAll(".content img"));
+images.forEach(img => {
+  mediumZoom(img, {
+    margin: 0,  
+  scrollOffset: 40,  
+  container: null,  
+  template: null,  
+  background: 'rgba(0, 0, 0, 0.8)'
+  });
+});
+</script>
+
+<script src="/js/zoom-image/placeholders.js" defer></script>
+<script src="/js/zoom-image/index.js" defer></script>
+
 </footer>
 </div>
 </body>

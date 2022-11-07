@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ena01tehtavat on PJMM - Englannin materiaalia</title>
+    <title>ENA9 - Abikurssi on PJMM - Englannin materiaalia</title>
     <link>https://joonasmmp.github.io/kurssit/ena09tehtavat/</link>
-    <description>Recent content in ena01tehtavat on PJMM - Englannin materiaalia</description>
+    <description>Recent content in ENA9 - Abikurssi on PJMM - Englannin materiaalia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fi</language>
     <lastBuildDate>Mon, 26 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://joonasmmp.github.io/kurssit/ena09tehtavat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Keskustelutesti: Järjestyksessä</title>
+      <link>https://joonasmmp.github.io/kurssit/ena09tehtavat/keskustelutestijarjestys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena09tehtavat/keskustelutestijarjestys/</guid>
+      <description>$(document).ready(function() {var currentQuestion = 0;var qbank = [[&#34;What is the capital of Assyria?&#34;],[&#34;How big is big?&#34;],[&#34;Where am I?&#34;],[&#34;What&#39;s going on?&#34;],[&#34;When am I?&#34;],[&#34;What is the biggest mammal in the world?&#34;],];beginActivity();edellinen();seuraava();window.addEventListener(&#39;keydown&#39;, (e) = {if (e.keyCode === 32 &amp;&amp; e.target === document.body) {e.preventDefault();}});document.body.onkeydown = function(event) {event = event || window.</description>
+    </item>
+    
+    <item>
+      <title>Keskustelutesti: Random</title>
+      <link>https://joonasmmp.github.io/kurssit/ena09tehtavat/keskustelutestirandom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena09tehtavat/keskustelutestirandom/</guid>
+      <description>$(document).ready(function() {var currentQuestion = 0;var qbank = [[&#34;What is the capital of Assyria?&#34;],[&#34;How big is big?&#34;],[&#34;Where am I?&#34;],[&#34;What&#39;s going on?&#34;],[&#34;When am I?&#34;],[&#34;What is the biggest mammal in the world?&#34;],];window.addEventListener(&#39;keydown&#39;, (e) = {if (e.keyCode === 32 &amp;&amp; e.target === document.body) {e.preventDefault();}});document.body.onkeydown = function(event) {event = event || window.event;var keycode = event.</description>
+    </item>
+    
+    <item>
+      <title>Testi, testi, efwefweeesdsdsdsdfew</title>
+      <link>https://joonasmmp.github.io/kurssit/ena09tehtavat/testiy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena09tehtavat/testiy/</guid>
+      <description>6912 //Execute a JavaScript immediately after a page has been loadedwindow.onload = function() {//Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main filevar data = {terms: [{index: 0, text: &#34;Koira&#34;}, { index: 1, text: &#34;Gorilla&#34;}, { index: 2, text: &#34;</description>
+    </item>
+    
     <item>
       <title>Testi, testi, flashcard</title>
       <link>https://joonasmmp.github.io/kurssit/ena09tehtavat/testiflash/</link>

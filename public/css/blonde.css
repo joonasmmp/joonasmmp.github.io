@@ -90,7 +90,7 @@
 .content p {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-  font-size: 0.9em !important;
+  font-size: 0.9em;
   letter-spacing: 0.03em;
 }
 .content h1,.content h2,.content h3,.content h4,.content h5,.content h6 {
@@ -106,18 +106,16 @@
   padding-top: 0.55em;
   padding-bottom: 0.5em;
   padding-left: 0.5em;
-  background-color: #f6f6f6;
-  font-size: 1.2em;
+  background-color: #f6f6f6b0;
+  font-size: 1.4em;
 }
 .dark .content h2 {
   background-color: #1d2021;
   border-left-color: #81786a;
 }
 .content h3 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   padding-bottom: 0.25em;
-  border-bottom: 2px solid #222;
-  font-weight: 700;
 }
 .dark .content h3 {
   border-bottom-color: #81786a;
@@ -231,4 +229,28 @@ div#sisalto a:hover {
 .prose :where(ul):not(:where([class~=not-prose] *)) {
     list-style-type: disc;
     padding-left: 0.5em;
+}
+
+img.medium-zoom-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+div#toc a:hover {
+  color: #3B82F6;
+}
+
+div#toc ul {
+  list-style: none;
+}
+
+div#toc li {
+  margin-left: 0.7em;
+  margin-bottom: 0.4em;
+}
+
+#divtoc2 {
+  margin-top: -1em;
 }
