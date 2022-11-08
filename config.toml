@@ -1,6 +1,6 @@
 baseURL = "https://joonasmmp.github.io/"
-title = "PJMM - Englannin materiaalia"
-author = "PJMM"
+title = "JPEL - Englannin materiaalia"
+author = "JPEL"
 languageCode = "fi"
 DefaultContentLanguage = "fi"
 enableInlineShortcodes = true
