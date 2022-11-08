@@ -5,7 +5,6 @@ draft: false
 type: page
 layout: tehtavavalikko
 ---
-Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta tai ääh emmä tiiä.
 
 ## Kielioppi / Grammar
 ### Konjunktiot ja konnektiivit
