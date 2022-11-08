@@ -2,7 +2,7 @@ div#tehtavavalikko a {
   display: flex;
   color:black !important;
   text-decoration: none !important;
-  width: 80%;
+  width: 75%;
   border: 0.0625rem solid #cec4d2;
   border-radius: 0.25rem;
   padding: 1em;
@@ -15,7 +15,7 @@ div#tehtavavalikko a:hover {
  color: #3B82F6!important;
   }
 
-  @media (min-width: 1024px) {
+  @media (max-width: 1024px) {
     div#tehtavavalikko a {
       width: 100%;
     }}
