@@ -1,17 +1,23 @@
 ---
-title: "Teema 2: Crime & Justice - yhdistä sanat 2"
+title: "Teema 4: Human Welfare and Religion - yhdistä sanat"
 date: 2022-6-1
 draft: false
 type: page
 layout: tehtava
 ---
+Etsi sanaa vastaava käännös. Numeroita klikkaamalla voit luoda haluamasi määrän uusia pareja.
 {{< rawhtml >}}
 <div id="nappulat">
-<button id="lisaa">
-Lisää pareja
-</button>
-</div>
-<div id="kaikki"></div>
+    <button id="kuusi">
+    6
+    </button>
+    <button id="yhdeksän">
+    9
+    </button>
+    <button id="kakstoista">
+    12
+    </button>
+    </div>
 <div id="tehtava" class="grid grid-cols-2">
  <div><ul id="terms"> </ul></div>
  <div><ul id="defs"> </ul></div>
@@ -25,153 +31,136 @@ Lisää pareja
 window.onload = function() {
 
   //Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main file
-  var data = {
+   var data = {
     terms: [{
-     index: 0, text: 'rikoskumppani'
-}, { index: 1, text: 'tuhopoltto'
-}, { index: 2, text: 'pahoinpitely'
-}, { index: 3, text: 'kiristys'
-}, { index: 4, text: 'murtovarkaus'
-}, { index: 5, text: 'murtovaras'
-}, { index: 6, text: 'tehdä rikos'
-}, { index: 7, text: 'väärennös'
-}, { index: 8, text: 'rikos'
-}, { index: 9, text: 'syyllinen, syypää'
-}, { index: 10, text: 'rattijuoppo'
-}, { index: 11, text: 'rattijuopumus, päihtyneenä ajaminen'
-}, { index: 12, text: 'kavallus'
-}, { index: 13, text: 'väärentää'
-}, { index: 14, text: 'petos'
-}, { index: 15, text: 'syyllinen (adj.)'
-}, { index: 16, text: 'ryöstö, keikka (erityisesti pankkiin tai taidemuseoon)'
-}, { index: 17, text: 'kaappaus'
-}, { index: 18, text: 'murha'
-}, { index: 19, text: 'nuorisorikollinen'
-}, { index: 20, text: 'tappo'
-}, { index: 21, text: 'pahoinpitely'
-}, { index: 22, text: 'rike, rikkomus'
-}, { index: 23, text: 'rikoksentekijä'
-}, { index: 24, text: 'taskuvaras'
-}, { index: 25, text: 'raiskaaja'
-}, { index: 26, text: 'rikoksenuusija'
-}, { index: 27, text: 'ryöstö'
-}, { index: 28, text: 'seksuaalirikollinen'
-}, { index: 29, text: 'myymälävarkaus'
-}, { index: 30, text: 'ylinopeuden ajaminen'
-}, { index: 31, text: 'salakuljettaa'
-}, { index: 32, text: 'varkaus'
-}, { index: 33, text: 'varas'
-}, { index: 34, text: 'maanpetos'
-}, { index: 35, text: 'vapauttaa, antaa vapauttava tuomio'
-}, { index: 36, text: 'vedota, vetoomus'
-}, { index: 37, text: 'pidättää, vangita'
-}, { index: 38, text: 'takuu'
-}, { index: 39, text: 'kuolemanrangaistus'
-}, { index: 40, text: 'syyte, nostaa syyte'
-}, { index: 41, text: 'yhdyskuntapalvelu'
-}, { index: 42, text: 'tuomita, todeta syylliseksi; vanki'
-}, { index: 43, text: 'tuomio (syylliseksi tuomitseminen)'
-}, { index: 44, text: 'oikeusjuttu'
-}, { index: 45, text: 'piirisyyttäjä'
-}, { index: 46, text: 'puolustus'
-}, { index: 47, text: 'vastaaja, syytetty'
-}, { index: 48, text: 'syyttää, nostaa syyte'
-}, { index: 49, text: 'sakko, sakkorangaistus'
-}, { index: 50, text: 'vankeus'
-}, { index: 51, text: 'vanki'
-}, { index: 52, text: 'vankila (puhekielinen)'
-}, { index: 53, text: 'tuomari'
-}, { index: 54, text: 'valamiehistö'
-}, { index: 55, text: 'asianajaja'
-}, { index: 56, text: 'armahdus, armahtaa'
-}, { index: 57, text: 'ehdonalainen'
-}, { index: 58, text: 'kantaja'
-}, { index: 59, text: 'vankila'
-}, { index: 60, text: 'ehdollinen tuomio'
-}, { index: 61, text: 'syyttäjä'
-}, { index: 62, text: 'lähestymiskielto'
-}, { index: 63, text: 'tuomio; tuomita, langettaa tuomio'
-}, { index: 64, text: 'haastaa oikeuteen'
-}, { index: 65, text: 'todistaa (oikeudessa)'
-}, { index: 66, text: 'todistajanlausunto'
-}, { index: 67, text: 'rikesakko, sakko'
-}, { index: 68, text: 'oikeudenkäynti'
-}, { index: 69, text: 'tuomio (juryn päätös)'
-}, { index: 70, text: 'todistaa; nähdä rikos'
+}, { index: 0, text: 'avustus, tuki, etu'
+}, { index: 1, text: 'viranomaiset'
+}, { index: 2, text: 'kansalainen'
+}, { index: 3, text: 'kansalaisuus'
+}, { index: 4, text: 'lapsilisä'
+}, { index: 5, text: 'lastenkoti'
+}, { index: 6, text: 'päiväkoti'
+}, { index: 7, text: 'vammaistuki'
+}, { index: 8, text: 'tasa-arvo'
+}, { index: 9, text: 'asunnottomuus'
+}, { index: 10, text: 'asumistuki'
+}, { index: 11, text: 'tulot'
+}, { index: 12, text: 'tulovero'
+}, { index: 13, text: 'terveydenhuolto'
+}, { index: 14, text: 'vammaiset'
+}, { index: 15, text: 'äitiyspakkaus'
+}, { index: 16, text: 'köyhyys'
+}, { index: 17, text: 'asukas'
+}, { index: 18, text: 'jäädä eläkkeelle'
+}, { index: 19, text: 'eläkeläinen'
+}, { index: 20, text: 'vanhus'
+}, { index: 21, text: 'palvelutalo'
+}, { index: 22, text: 'sairauspäiväraha'
+}, { index: 23, text: 'sosiaaliturva'
+}, { index: 24, text: 'elintaso'
+}, { index: 25, text: 'opintotuki'
+}, { index: 26, text: 'avustus, valtionapu'
+}, { index: 27, text: 'vanhukset'
+}, { index: 28, text: 'työttömyyskorvaus'
+}, { index: 29, text: 'hyvinvointivaltio'
+}, { index: 30, text: 'siviilivihkiminen'
+}, { index: 31, text: 'rekisteröity parisuhde'
+}, { index: 32, text: 'avoliitto'
+}, { index: 33, text: 'elatusapu'
+}, { index: 34, text: 'huoltajuus'
+}, { index: 35, text: 'avioero'
+}, { index: 36, text: 'yhteishuoltajuus'
+}, { index: 37, text: 'olla avoliitossa, asua yhdessä'
+}, { index: 38, text: 'avioliitto'
+}, { index: 39, text: 'avioehto'
+}, { index: 40, text: 'ateismi'
+}, { index: 41, text: 'kaste'
+}, { index: 42, text: 'siunata'
+}, { index: 43, text: 'ehtoollinen'
+}, { index: 44, text: 'ripille pääsy'
+}, { index: 45, text: 'isonen'
+}, { index: 46, text: 'seurakunta (kirkkoväki)'
+}, { index: 47, text: 'usko'
+}, { index: 48, text: 'paasto'
+}, { index: 49, text: 'virsi'
+}, { index: 50, text: 'messu'
+}, { index: 51, text: 'seurakunta'
+}, { index: 52, text: 'rukoilla'
+}, { index: 53, text: 'rukous'
+}, { index: 54, text: 'saarnata'
+}, { index: 55, text: 'Prometheus-leiri'
+}, { index: 56, text: 'uskonto'
+}, { index: 57, text: 'uskonnollinen'
+}, { index: 58, text: 'pyhä'
+}, { index: 59, text: 'maallinen'
+}, { index: 60, text: 'saarna'
+}, { index: 61, text: 'jumalanpalvelus'
 },
     ],
     definitions: [{
-     index: 0, text: 'accomplice'
-}, { index: 1, text: 'arson'
-}, { index: 2, text: 'assault'
-}, { index: 3, text: 'blackmail / extortion'
-}, { index: 4, text: 'breaking and entering / burglary'
-}, { index: 5, text: 'burglar'
-}, { index: 6, text: 'commit a crime'
-}, { index: 7, text: 'counterfeit / forgery'
-}, { index: 8, text: 'crime'
-}, { index: 9, text: 'culprit'
-}, { index: 10, text: 'drunk driver'
-}, { index: 11, text: 'DUI (driving under the influence)'
-}, { index: 12, text: 'embezzlement'
-}, { index: 13, text: 'forge'
-}, { index: 14, text: 'fraud'
-}, { index: 15, text: 'guilty'
-}, { index: 16, text: 'heist'
-}, { index: 17, text: 'hijacking'
-}, { index: 18, text: 'homicide / murder'
-}, { index: 19, text: 'juvenile delinquent'
-}, { index: 20, text: 'manslaughter'
-}, { index: 21, text: 'mugging'
-}, { index: 22, text: 'offence'
-}, { index: 23, text: 'perpetrator, perp'
-}, { index: 24, text: 'pickpocket'
-}, { index: 25, text: 'rapist'
-}, { index: 26, text: 'repeat offender'
-}, { index: 27, text: 'robbery'
-}, { index: 28, text: 'sexual offender'
-}, { index: 29, text: 'shoplifting'
-}, { index: 30, text: 'speeding'
-}, { index: 31, text: 'smuggle'
-}, { index: 32, text: 'theft'
-}, { index: 33, text: 'thief'
-}, { index: 34, text: 'treason'
-}, { index: 35, text: 'acquit'
-}, { index: 36, text: 'appeal'
-}, { index: 37, text: 'arrest'
-}, { index: 38, text: 'bail'
-}, { index: 39, text: 'capital punishment / death penalty'
-}, { index: 40, text: 'charge'
-}, { index: 41, text: 'community service'
-}, { index: 42, text: 'convict'
-}, { index: 43, text: 'conviction'
-}, { index: 44, text: 'court case'
-}, { index: 45, text: 'DA (district attorney)'
-}, { index: 46, text: 'defence'
-}, { index: 47, text: 'defendant'
-}, { index: 48, text: 'file a lawsuit / press charges'
-}, { index: 49, text: 'fine'
-}, { index: 50, text: 'imprisonment'
-}, { index: 51, text: 'inmate'
-}, { index: 52, text: 'jail'
-}, { index: 53, text: 'judge'
-}, { index: 54, text: 'jury'
-}, { index: 55, text: 'lawyer'
-}, { index: 56, text: 'pardon'
-}, { index: 57, text: 'parole'
-}, { index: 58, text: 'plaintiff'
-}, { index: 59, text: 'prison'
-}, { index: 60, text: 'probation / suspended sentence'
-}, { index: 61, text: 'prosecutor'
-}, { index: 62, text: 'restraining order'
-}, { index: 63, text: 'sentence'
-}, { index: 64, text: 'sue'
-}, { index: 65, text: 'testify'
-}, { index: 66, text: 'testimony / statement'
-}, { index: 67, text: 'ticket'
-}, { index: 68, text: 'trial'
-}, { index: 69, text: 'verdict'
-}, { index: 70, text: 'witness'
+}, { index: 0, text: 'allowance / benefit'
+}, { index: 1, text: 'authorities'
+}, { index: 2, text: 'citizen'
+}, { index: 3, text: 'citizenship / nationality'
+}, { index: 4, text: 'child benefit'
+}, { index: 5, text: 'children’s home'
+}, { index: 6, text: 'day care centre, kindergarten'
+}, { index: 7, text: 'disability benefit'
+}, { index: 8, text: 'equality'
+}, { index: 9, text: 'homelessness'
+}, { index: 10, text: 'housing benefit'
+}, { index: 11, text: 'income'
+}, { index: 12, text: 'income tax'
+}, { index: 13, text: 'health care'
+}, { index: 14, text: 'individuals with special needs'
+}, { index: 15, text: 'maternity package'
+}, { index: 16, text: 'poverty'
+}, { index: 17, text: 'resident'
+}, { index: 18, text: 'retire'
+}, { index: 19, text: 'retiree / old age pensioner'
+}, { index: 20, text: 'senior citizen'
+}, { index: 21, text: 'sheltered housing'
+}, { index: 22, text: 'sickness allowance'
+}, { index: 23, text: 'social security'
+}, { index: 24, text: 'standard of living'
+}, { index: 25, text: 'student grant'
+}, { index: 26, text: 'subsidy'
+}, { index: 27, text: 'the elderly'
+}, { index: 28, text: 'unemployment benefit'
+}, { index: 29, text: 'welfare state'
+}, { index: 30, text: 'civil ceremony'
+}, { index: 31, text: 'civil partnership'
+}, { index: 32, text: 'cohabitation'
+}, { index: 33, text: 'child support'
+}, { index: 34, text: 'custody'
+}, { index: 35, text: 'divorce'
+}, { index: 36, text: 'joint custody'
+}, { index: 37, text: 'live together'
+}, { index: 38, text: 'marriage'
+}, { index: 39, text: 'prenuptial agreement'
+}, { index: 40, text: 'atheism'
+}, { index: 41, text: 'baptism / christening'
+}, { index: 42, text: 'bless'
+}, { index: 43, text: 'communion'
+}, { index: 44, text: 'confirmation'
+}, { index: 45, text: 'confirmation camp group leader'
+}, { index: 46, text: 'congregation'
+}, { index: 47, text: 'faith'
+}, { index: 48, text: 'fast, fasting'
+}, { index: 49, text: 'hymn'
+}, { index: 50, text: 'mass'
+}, { index: 51, text: 'parish'
+}, { index: 52, text: 'pray'
+}, { index: 53, text: 'prayer'
+}, { index: 54, text: 'preach'
+}, { index: 55, text: 'Prometheus camp'
+}, { index: 56, text: 'religion'
+}, { index: 57, text: 'religious'
+}, { index: 58, text: 'sacred'
+}, { index: 59, text: 'secular'
+}, { index: 60, text: 'sermon'
+}, { index: 61, text: 'service'
+
       },
 
     ],
@@ -239,19 +228,10 @@ window.onload = function() {
       59: 59,
       60: 60,
       61: 61,
-      62: 62,
-      63: 63,
-      64: 64,
-      65: 65,
-      66: 66,
-      67: 67,
-      68: 68,
-      69: 69,
-      70: 70,
     }
   };
     
-for (var a=[],i=0;i<71;++i) a[i]=i;
+for (var a=[],i=0;i<62;++i) a[i]=i;
 
 function shufflee(array) {
   var tmp, current, top = array.length;
@@ -385,6 +365,43 @@ function addCSS(css){
     addCSS("div#tehtava li[data-index='" + a[5] + "']{display: flex;}")
   }
   
+    function shuffle9() {
+    randomSort(data.terms)
+    randomSort(data.definitions)
+    createListHTML(data.terms, termsContainer)
+    createListHTML(data.definitions, defsContainer)
+		addCSS("div#tehtava li[data-index]{display: none;}")
+    addCSS("div#tehtava li[data-index='" + a[0] + "']{display: flex;}")
+		addCSS("div#tehtava li[data-index='" + a[1] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[2] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[3] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[4] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[5] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[6] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[7] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[8] + "']{display: flex;}")
+  }
+  
+      function shuffle12() {
+    randomSort(data.terms)
+    randomSort(data.definitions)
+    createListHTML(data.terms, termsContainer)
+    createListHTML(data.definitions, defsContainer)
+addCSS("div#tehtava li[data-index]{display: none;}")
+    addCSS("div#tehtava li[data-index='" + a[0] + "']{display: flex;}")
+		addCSS("div#tehtava li[data-index='" + a[1] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[2] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[3] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[4] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[5] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[6] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[7] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[8] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[9] + "']{display: flex;}")
+		addCSS("div#tehtava li[data-index='" + a[10] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[11] + "']{display: flex;}")
+    addCSS("div#tehtava li[data-index='" + a[12] + "']{display: flex;}")
+  }
   
   
   function randomSort(array) {
@@ -410,24 +427,26 @@ function addCSS(css){
 
   shuffle(); 
   
-document.getElementById("lisaa").addEventListener("click", function() {
-        h++;
-        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: flex;}")
-				h++;
-        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: flex;}")
-				h++;
-        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: flex;}")
-				h++;
-        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: flex;}")
-				h++;
-        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: flex;}")
-				h++;
-        addCSS("div#tehtava li[data-index='" + a[h] + "']{display: flex;}")
-if(h>78){$("#kaikki").html("Kaikki lisätty jo!"); }      })
+  document.getElementById("kuusi").addEventListener("click", function() {
+        shuffle();
+        a = shufflee(a);
+      }   
+       )
+  document.getElementById("yhdeksän").addEventListener("click", function() {
+        shuffle9();
+        a = shufflee(a);
+      }   
+       )
+  document.getElementById("kakstoista").addEventListener("click", function() {
+        shuffle12();
+        a = shufflee(a);
+      }   
+       )
+       
   }
 
 var numero = 0;
-var h = 6;
+
 </script>
 
 <style>
@@ -542,11 +561,6 @@ div#nappulat button{
     background: #1f2937;
     border-color: #051D29;
     color: #ffffff;
-}
-
-div#kaikki{
-  display: flex;
-  justify-content: center;
 }
 </style>
 
