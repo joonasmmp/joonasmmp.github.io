@@ -16,6 +16,8 @@ Itse olen kova podcastien kuuntelija. Joskus äänikirjoja, joskus pocasteja, mu
 
 Podcastien kuunteluun on useita ohjelmia. Monet kuuntelevat esimerkiksi Spotifyn tai iTunesin avulla, mutta itselläni käytössä on [Google Podcasts](https://podcasts.google.com/). Se on tarpeeksi yksinkertainen ja kevyt ulkoasultaan, ja lisäksi voit tilata podcasteja ja piilottaa kuunnellut jaksot. Tästä syystä linkit podcasteihin tulevat olemaan juurikin tuohon palveluun ohjaavia.
 
+Kesällä 2022 Yleisradio poisti omat podcastinsa muista palveluista kuin YLE Areenasta. Valitin asiasta tuloksetta Yleisradiolle, joten osa linkeistä vie Areenaan. Valitettavasti, kun podcasteista tulee yhä suositumpia, raha alkaa tehdä tehtävänsä jä podcastien kuuntelu vaikeutuu tarjonnan hajotessa eri palveluihin.
+
 ## Englanninkieliset podcastit
 
 ### No Such Tning as a Fish
@@ -50,13 +52,13 @@ Ainoa miinus on se, että monet vieraat ovat itselle tuntemattomia, sillä ovat 
 ## Suomenkieliset podcastit
 
 ### Maailmanpolitiikan arkipäivää
-[Maailmanpolitiikan arkipäivää](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy55bGUuZmkvYXJlZW5hL3YxL3Nlcmllcy8xLTE1MDkwNDIucnNzP2xhbmc9c3YmZG93bmxvYWRhYmxlPXRydWU) on Yleisradion viikottainen podcast, jossa käsitellään maailmalla tapahtuvia asioita hyvin lyhyesti, mutta kattavasti. Monipuolisia aiheita jotka kuuntelee sopivasti työ- tai kauppamatkalla. Muut samaa sarjaa olevat podcastit, esimerkiksi Politiikkaradio tai Uutisraportti on aivan liian pitkiä ja jaksoja tulee aivan liian usein. Ei ehdi kuunnella. Tästä syystä viikottainen 20 minuutin jakso on aivan hyvä.
+[Maailmanpolitiikan arkipäivää](https://areena.yle.fi/podcastit/1-1509042) on Yleisradion viikottainen podcast, jossa käsitellään maailmalla tapahtuvia asioita hyvin lyhyesti, mutta kattavasti. Monipuolisia aiheita jotka kuuntelee sopivasti työ- tai kauppamatkalla. Muut samaa sarjaa olevat podcastit, esimerkiksi Politiikkaradio tai Uutisraportti on aivan liian pitkiä ja jaksoja tulee aivan liian usein. Ei ehdi kuunnella. Tästä syystä viikottainen 20 minuutin jakso on aivan hyvä.
 
 ### Tiedetrippi
-[Tiedetrippi](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy55bGUuZmkvYXJlZW5hL3YxL3Nlcmllcy8xLTUwNDM4ODc1LnJzcz9sYW5nPWZpJmRvd25sb2FkYWJsZT10cnVl?sa=X&ved=0CAYQ9sEGahgKEwj4p_bLl-75AhUAAAAAHQAAAAAQxgM) on Yle Tieteen yleisöystävällisempi podcast. Tiedeykköseen verrattuna aiheet paljon kevyempiä ja vihteellisempiä. Iso plussa myös siitä, että ohjelma on kemiläisen tuottama ja juontama. Ohjelmassa käsitellään enemmän tai vähemmän tieteeseen liittyviä aiheita viikottain. Vaikka kyseessä onkin se viihteellisempi ohjelma, on mukana haastateltavana monia alojen asiantuntijoita eri yliopistoista ja virastoista.
+[Tiedetrippi](https://areena.yle.fi/podcastit/1-50438875) on Yle Tieteen yleisöystävällisempi podcast. Tiedeykköseen verrattuna aiheet paljon kevyempiä ja vihteellisempiä. Iso plussa myös siitä, että ohjelma on Kemiläisen (kirjoitetaan aina isolla) tuottama ja juontama. Ohjelmassa käsitellään enemmän tai vähemmän tieteeseen liittyviä aiheita viikottain. Vaikka kyseessä onkin se viihteellisempi ohjelma, on mukana haastateltavana monia alojen asiantuntijoita eri yliopistoista ja virastoista.
 
 ### 12 Diktaattoria
-[12 Diktaattoria](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy55bGUuZmkvYXJlZW5hL3YxL3Nlcmllcy8xLTM5NDgwODUucnNzP2xhbmc9ZmkmZG93bmxvYWRhYmxlPXRydWU?sa=X&ved=0CAQQ9sEGahgKEwj4p_bLl-75AhUAAAAAHQAAAAAQ2gI) on myös Yleisradion tuottama, diktaattoreita ja heidän valtakausiaan käsittelevä ohjelma. True crime on iso juttu niin Suomessa kuin maailmalla, mutta tässä ohjelmassa käsitellään tosielämän joukkomurhia, kidutusta, ihmissyöntiä ja muuta erittäin makaaberia historian saatossa tapahtunutta. Mukana myös vähän ns. kevyempien diktaattorien hulluttelua, mutta välissä tulee sellaisia jaksoja jotka olisi mielellään jättänyt kuuntelematta sisältönsä vuoksi. Ainoa miinus se, että kaikki diktaattorit alkaa pikkuhiljaa olla jo käsitelty, ja en tiedä onko uusia jaksoja enää tulossa lisää.
+[12 Diktaattoria](https://areena.yle.fi/podcastit/1-3948085) on myös Yleisradion tuottama, diktaattoreita ja heidän valtakausiaan käsittelevä ohjelma. True crime on iso juttu niin Suomessa kuin maailmalla, mutta tässä ohjelmassa käsitellään tosielämän joukkomurhia, kidutusta, ihmissyöntiä ja muuta erittäin makaaberia historian saatossa tapahtunutta. Mukana myös vähän ns. kevyempien diktaattorien hulluttelua, mutta välissä tulee sellaisia jaksoja jotka olisi mielellään jättänyt kuuntelematta sisältönsä vuoksi. 
 
 ## Youtube-kanavat ja muu media
 
