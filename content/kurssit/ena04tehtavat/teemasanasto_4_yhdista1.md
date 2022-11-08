@@ -33,7 +33,7 @@ window.onload = function() {
   //Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main file
    var data = {
     terms: [{
-}, { index: 0, text: 'avustus, tuki, etu'
+     index: 0, text: 'avustus, tuki, etu'
 }, { index: 1, text: 'viranomaiset'
 }, { index: 2, text: 'kansalainen'
 }, { index: 3, text: 'kansalaisuus'
@@ -98,7 +98,7 @@ window.onload = function() {
 },
     ],
     definitions: [{
-}, { index: 0, text: 'allowance / benefit'
+     index: 0, text: 'allowance / benefit'
 }, { index: 1, text: 'authorities'
 }, { index: 2, text: 'citizen'
 }, { index: 3, text: 'citizenship / nationality'
@@ -160,7 +160,6 @@ window.onload = function() {
 }, { index: 59, text: 'secular'
 }, { index: 60, text: 'sermon'
 }, { index: 61, text: 'service'
-
       },
 
     ],
