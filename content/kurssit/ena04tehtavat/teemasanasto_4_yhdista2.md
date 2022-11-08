@@ -154,7 +154,6 @@ window.onload = function() {
 }, { index: 59, text: 'secular'
 }, { index: 60, text: 'sermon'
 }, { index: 61, text: 'service'
-
       },
 
     ],
@@ -254,7 +253,7 @@ a = shufflee(a);
   //This function adds HTML elements and content to the specified container (UL).
   function createListHTML(list, container) {
     container.innerHTML = ""; //first, clean up any existing LI elements
-    for (var i = 0; i < 71; i++) {
+    for (var i = 0; i < 62; i++) {
       container.innerHTML = container.innerHTML + "<li data-index='" + list[i]["index"] + "'>" + "<span>" + list[i]["text"] + "</span>" + "</li>";
 
     }
