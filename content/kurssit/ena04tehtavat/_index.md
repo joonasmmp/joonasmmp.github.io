@@ -9,11 +9,13 @@ layout: tehtavavalikko
 ## Kielioppi / Grammar
 ### Konjunktiot ja konnektiivit
 Linkkisanojen avulla tuot sidosteisuutta tekstiin. Muista käyttää näitä kirjoitelmissa.
+
 [1. Täydennä linkkisanat]({{<ref "konnektiivit_kirjoita.mdt" >}})
 
 [2. Täydennä linkkisanat]({{<ref "konnektiivit_kirjoita2.mdt" >}})
 
 ### Vaillinaiset apuverbit
+Can, could, must, may, might, should, ought to. Ei muuten taivu että must, musted, musted!
 
 [1. Täydennä apuverbimuodot]({{<ref "apuverbit_kirjoita1.mdt" >}})
 
@@ -22,16 +24,19 @@ Linkkisanojen avulla tuot sidosteisuutta tekstiin. Muista käyttää näitä kir
 
 ### Demonstratiivipronominit
 Tämä, tuo, nämä, nuo. Harjoittele erityisesti niiden käyttö erilaisissa ilmauksissa. 
+
 [1. Täydennä demonstratiivipronominit]({{<ref "demonstratiivipronominit_kirjoita1.mdt" >}})
 
 ### Relatiivipronominit
 Joka, mikä. Englanniksi tosin monipuolisempaa. Muista että what ei käy juuri mihinkään ja that käy melkein kaikkeen.
+
 [1. Relatiivipronominien alkutesti]({{<ref "relatiivipronominit_alkutesti.mdt" >}})
 
 [2. Relatiivipronominien lopputesti]({{<ref "relatiivipronominit_lopputesti.mdt" >}})
 
 ### Indefiniittiproniminit
 Some, no, every, jne. Paljon pieniä sääntöjä!
+
 [1. Täydennä indefiniittipronominit]({{<ref "indefiniittipronominit_kirjoita1.mdt" >}})
 
 [2. Täydennä indefiniittipronominit]({{<ref "indefiniittipronominit_kirjoita2.mdt" >}})
