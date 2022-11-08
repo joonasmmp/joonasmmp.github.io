@@ -54,7 +54,7 @@ Some, no, every, jne. Paljon pieniä sääntöjä!
 
 [Teema 2: Crime & Justice: yhdistä sanat - 6/9/12]({{<ref "teemasanasto_2_yhdista1.mdt" >}})
 
-[Teema 2: Crime & Justice: yhdistä sanat - lisää itse({{<ref "teemasanasto_2_yhdista2.mdt" >}})
+[Teema 2: Crime & Justice: yhdistä sanat - lisää itse]({{<ref "teemasanasto_2_yhdista2.mdt" >}})
 ## Muuta
 
 ### A Letter to the Editor
