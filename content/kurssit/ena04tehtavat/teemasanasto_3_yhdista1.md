@@ -33,7 +33,7 @@ window.onload = function() {
   //Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main file
    var data = {
     terms: [{
-}, { index: 0, text: 'laki, asetus'
+     index: 0, text: 'laki, asetus'
 }, { index: 1, text: 'hallinto'
 }, { index: 2, text: 'lakiehdotus'
 }, { index: 3, text: 'ehdokas'
