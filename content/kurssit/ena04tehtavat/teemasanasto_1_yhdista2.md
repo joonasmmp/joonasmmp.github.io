@@ -460,7 +460,7 @@ document.getElementById("lisaa").addEventListener("click", function() {
         addCSS("div#tehtava li[data-index='" + a[h] + "']{display: flex;}")
 				h++;
         addCSS("div#tehtava li[data-index='" + a[h] + "']{display: flex;}")
-if(h>78){$("#kaikki").html("Kaikki lisätty jo!"); }      })
+if(h>87){$("#kaikki").html("Kaikki lisätty jo!"); }      })
   }
 
 var numero = 0;

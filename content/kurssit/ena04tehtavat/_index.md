@@ -60,9 +60,13 @@ Some, no, every, jne. Paljon pieniä sääntöjä!
 
 [Teema 2: Crime & Justice: yhdistä sanat - lisää itse]({{<ref "teemasanasto_2_yhdista2.mdt" >}})
 
-[Teema 4: Human Welfare and Religion: yhdistä sanat - 6/9/12]({{<ref "teemasanasto_4_yhdista1.mdt" >}})
+[Teema 3: Politics & Global issues: yhdistä sanat - 6/9/12]({{<ref "teemasanasto_3_yhdista1.mdt" >}})
 
-[Teema 4: Human Welfare and Religion: yhdistä sanat - lisää itse]({{<ref "teemasanasto_4_yhdista2.mdt" >}})
+[Teema 3: Politics & Global issues: yhdistä sanat - lisää itse]({{<ref "teemasanasto_3_yhdista2.mdt" >}})
+
+[Teema 4: Human Welfare & Religion: yhdistä sanat - 6/9/12]({{<ref "teemasanasto_4_yhdista1.mdt" >}})
+
+[Teema 4: Human Welfare & Religion: yhdistä sanat - lisää itse]({{<ref "teemasanasto_4_yhdista2.mdt" >}})
 
 ## Muuta
 

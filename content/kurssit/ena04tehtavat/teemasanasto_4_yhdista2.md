@@ -1,5 +1,5 @@
 ---
-title: "Teema 4: Human Welfare and Religion - yhdistä sanat 2"
+title: "Teema 4: Human Welfare & Religion - yhdistä sanat 2"
 date: 2022-6-1
 draft: false
 type: page
