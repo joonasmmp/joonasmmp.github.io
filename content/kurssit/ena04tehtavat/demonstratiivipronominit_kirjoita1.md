@@ -61,7 +61,7 @@ var answers = {
   "q6": ["those"],
   "q7": ["this woman"],
   "q8": ["that man over there"],
-  "q9": ["that's why"],
+  "q9": ["that's why", "that is why"],
   "q10": ["this table over here", "this table here"],
 };
 
