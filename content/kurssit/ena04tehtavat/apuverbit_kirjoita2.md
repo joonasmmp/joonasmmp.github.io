@@ -59,7 +59,7 @@ var answers = {
   "q1": ["don't have to laugh", "do not have to laugh"],
   "q2": ["have never been able to lie", "'ve never been able to lie"],
   "q3": ["don't have to do", "do not have to do"],
-  "q4": ["must not stay up", "musn't stay up"],
+  "q4": ["must not stay up", "mustn't stay up"],
   "q5": ["can't have lost","cannot have lost", "can not have lost"],
   "q6": ["may not believe", "might not believe"],
   "q7": ["may have forgotten", "might have forgotten"],
