@@ -88,7 +88,7 @@ $(document).ready(function() {
 	["__ the long run - ajan mittaan", "in the long run - ajan mittaan"], 
 	["__ love - rakastunut", "in love - rakastunut"], 
 	["__ office - virassa", "in office - virassa"], 
-	["__ other words - tois__ sanoen", "in other words - toisin sanoen"], 
+	["__ other words - toisin sanoen", "in other words - toisin sanoen"], 
 	["__ my opinion - mielestäni", "in my opinion - mielestäni"], 
 	["__ practice - käytännössä", "in practice - käytännössä"], 
 	["__ private - yksityisesti", "in private - yksityisesti"], 
@@ -98,7 +98,7 @@ $(document).ready(function() {
 	["__ theory - teoriassa", "in theory - teoriassa"], 
 	["__ vain - turhaan", "in vain - turhaan"], 
 	["__ a way - tavallaan", "in a way - tavallaan"],
-    ["__ and __ - loputtomiin", "on and on - loputtomiin"], 
+  ["__ and __ - loputtomiin", "on and on - loputtomiin"], 
 	["__ average - keskimäärin", "on average - keskimäärin"], 
 	["__ credit - luotolla", "on credit - luotolla"], 
 	["__ business - työasioissa", "on business - työasioissa"], 
@@ -112,18 +112,17 @@ $(document).ready(function() {
 	["__ the contrary - päinvastoin", "on the contrary - päinvastoin"], 
 	["__ the other hand - toisaalta", "on the other hand - toisaalta"], 
 	["__ the whole - kaiken", "on the whole - kaiken"],
-    ["__ all appearances - kaikesta päätellen", "to all appearances - kaikesta päätellen"], 
+  ["__ all appearances - kaikesta päätellen", "to all appearances - kaikesta päätellen"], 
 	["__ and fro - edestakaisin", "to and fro - edestakaisin"], 
 	["__ my annoyance/horror - harmikseni, kauhukseni", "to my annoyance/horror - harmikseni, kauhukseni"], 
 	["__ my delight - ilokseni", "to my delight - ilokseni"], 
 	["__ my mind - mielestäni", "to my mind - mielestäni"], 
 	["__ my surprise - hämmästyksekseni", "to my surprise - hämmästyksekseni"], 
 	["__ my taste - minun makuuni", "to my taste - minun makuuni"], 
-    ["according __ - jonkun mukaan", "according to - jonkun mukaan"], 
+  ["according __ - jonkun mukaan", "according to - jonkun mukaan"], 
 	["along __ - jonkun mukana, ohella", "along with - jonkun mukana, ohella"], 
 	["apart __ - lukuun ottamatta", "apart from - lukuun ottamatta"], 
-	["__ __ - mitä tulee", "as for - mitä tulee"], 
-	["__ __ - mitä tulee", "as to - mitä tulee"], 
+	["__ __ - mitä tulee", "as to/for - mitä tulee"], 
 	["because __ - jonkin vuoksi, takia", "because of - jonkin vuoksi, takia"], 
 	["__ means __ - jonkun avulla", "by means of - jonkun avulla"], 
 	["due __ - jonkin johdosta", "due to - jonkin johdosta"], 
@@ -234,7 +233,7 @@ $(document).ready(function() {
     })
   }
 
-for (var a=[],i=0;i<107;++i) a[i]=i;
+for (var a=[],i=0;i<106;++i) a[i]=i;
 
 function shufflee(array) {
   var tmp, current, top = array.length;
