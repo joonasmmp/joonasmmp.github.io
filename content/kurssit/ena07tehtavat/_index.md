@@ -1,9 +1,18 @@
 ---
-title: "ENA 7 - Ympäristö ja mikä lie"
+title: "ENA7 - Ympäristö & Kestävä elämäntapa"
 date: 2021-04-26
 draft: false
-type: tehtavavalikko
-layout: tehtavavalikkosivu
+type: page
+layout: tehtavavalikko
 ---
 
-Alla löydät tehtäviä ENA0x-kurssille
+### Kielioppi
+## Prepositioilmaisuja
+[Prepositioilmaisuja: Flashcard]({{<ref "prepositioilmaisuja_flashcard.mdt" >}})
+
+## Konjunktiot ja sidossanat
+[1. Täydennä linkkisanat]({{<ref "konnektiivit_kirjoita.mdt" >}})
+
+[2. Täydennä linkkisanat]({{<ref "konnektiivit_kirjoita2.mdt" >}})
+
+### Sanasto 
