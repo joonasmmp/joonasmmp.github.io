@@ -6,15 +6,15 @@ type: page
 layout: tehtavavalikko
 ---
 
-### Kielioppi
-## Prepositioilmaisuja
+## Kielioppi
+### Prepositioilmaisuja
 [Prepositioilmaisuja: Flashcard]({{<ref "prepositioilmaisuja_flashcard.mdt" >}})
 
-## Konjunktiot ja sidossanat
+### Konjunktiot ja sidossanat
 [1. Täydennä linkkisanat]({{<ref "konnektiivit_kirjoita.mdt" >}})
 
 [2. Täydennä linkkisanat]({{<ref "konnektiivit_kirjoita2.mdt" >}})
 
-### Sanasto 
+## Sanasto 
 [Insights-teemasanastot: FIN-ENG]({{<ref "teemasanasto_insights_flashcard_fin_eng.mdt" >}})
 [Insights-teemasanastot: ENG-FIN]({{<ref "teemasanasto_insights_flashcard_eng_fin.mdt" >}})
