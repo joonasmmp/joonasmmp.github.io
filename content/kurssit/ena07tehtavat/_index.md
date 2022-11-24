@@ -16,3 +16,5 @@ layout: tehtavavalikko
 [2. Täydennä linkkisanat]({{<ref "konnektiivit_kirjoita2.mdt" >}})
 
 ### Sanasto 
+[Insights-teemasanastot: FIN-ENG]({{<ref "teemasanasto_insights_flashcard_fin_eng.mdt" >}})
+[Insights-teemasanastot: ENG-FIN]({{<ref "teemasanasto_insights_flashcard_eng_fin.mdt" >}})
