@@ -143,6 +143,8 @@ $(document).ready(function() {
 	["__ regard __ - jonkin suhteen", "with regard to - jonkin suhteen"], 
   ];
 
+
+  qbank = shufflee(qbank);
   beginActivity();
   edellinen();
   random();
@@ -244,9 +246,6 @@ function shufflee(array) {
   }
   return array;
 }
-
-qbank = shufflee(qbank);
-
 
   function edellinen() {
     $("#buttonArea").append('<div id="prevButton">Edellinen</div>');
