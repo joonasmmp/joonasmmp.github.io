@@ -233,7 +233,7 @@ $(document).ready(function() {
     })
   }
 
-for (var a=[],i=0;i<106;++i) a[i]=i;
+for (var a=[],i=0;i<100;++i) a[i]=i;
 
 function shufflee(array) {
   var tmp, current, top = array.length;
