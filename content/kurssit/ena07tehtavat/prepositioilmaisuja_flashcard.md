@@ -66,7 +66,7 @@ $(document).ready(function() {
 	["__ mistake - erehdyksessä", "by mistake - erehdyksessä"], 
 	["__ nature - luonteeltaan", "by nature - luonteeltaan"], 
 	["__ no means - ei mitenkään", "by no means - ei mitenkään"], 
-	["__ the way - sivumennen sanoen", "by the way - sivumennen sanoen"]
+	["__ the way - sivumennen sanoen", "by the way - sivumennen sanoen"],
   ["__ all that - kaikesta siitä huolimatta", "for all that - kaikesta siitä huolimatta"], 
 	["__ certain/sure - varmasti", "for certain/sure - varmasti"], 
 	["__ example/instance - esimerkiksi", "for example/instance - esimerkiksi"], 
@@ -233,7 +233,7 @@ $(document).ready(function() {
     })
   }
 
-for (var a=[],i=0;i<100;++i) a[i]=i;
+for (var a=[],i=0;i<101;++i) a[i]=i;
 
 function shufflee(array) {
   var tmp, current, top = array.length;
