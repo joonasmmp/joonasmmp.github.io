@@ -31,12 +31,12 @@ OED:n kisan kakkospaikalle tuli Metaverse, eli Facebookin uusin katastrofi (voi 
 Merriam-Websterin vuoden sana gaslighting olikin jo hyvin yleinen ja myös itselle tuttu ilmaisu. Sanakirja määrittelee sanan näin:
 >psychological manipulation of a person usually over an extended period of time that causes the victim to question the validity of their own thoughts, perception of reality, or memories and typically leads to confusion, loss of confidence and self-esteem, uncertainty of one's emotional or mental stability, and a dependency on the perpetrator
 
-Sanalla siis tarkoitetaan pitkäaikaistas psykologista manipulaatiota, jossa kohde yritetään saada kyseenalaistamaan oma tervejärkisyys. Tämä on valittu vuoden sanaksi perusteena nykyaikaiset ongelmat eli deepfaket, fake news, Twitter-trollit ja salaliittoteoriat. Sana itse kuitenkin on vanha ja peräisin vuoden 1938 näytelmästä, jossa mies yrittää saada vaimonsa vakuuttuneeksi omasta mielenterveydestään himmentämällä asunnon kaasulamppuja ja väittämällä että ne eivät himmene vaan palavat normaalisti.
+Sanalla siis tarkoitetaan pitkäaikaista psykologista manipulaatiota, jossa kohde yritetään saada kyseenalaistamaan oma tervejärkisyys. Tämä on valittu vuoden sanaksi perusteena nykyaikaiset ongelmat eli deepfaket, fake news, Twitter-trollit ja salaliittoteoriat. Sana itse kuitenkin on vanha ja peräisin vuoden 1938 näytelmästä, jossa mies yrittää saada vaimonsa vakuuttuneeksi omasta mielenterveydestään himmentämällä asunnon kaasulamppuja ja väittämällä että ne eivät himmene vaan palavat normaalisti.
 
 Muut menestyneet sanat olivat oligarch, omicron ja codify. 
 
 ### Cambridge dictionary: Homer
-Wordle oli myös vuoden 2022 kovimpia pelihittejä, ja kovana Wordlen pelaajana ei tullut yllätyksenä että osa sanoista liittyisi siihen. Vuoden 2022 sana Homer kuvataan Cambridge dictionaryssa näin:
+Wordle oli myös vuoden 2022 kovimpia pelihittejä, ja kovana Wordlen pelaajana ei tullut yllätyksenä, että osa sanoista liittyisi siihen. Vuoden 2022 sana Homer kuvataan Cambridge dictionaryssa näin:
 >short for home run : a point scored in baseball when you hit the ball, usually out of the playing field, and are able to run around all the bases at one time to the starting base:
 
 Eli siis kyseessä on vain home run-sanan lyhyt muoto. Tätä sanaa kuitenkin haettiin yli 65,000 kertaa yhden päivän aikana toukokuun 5. päivä, johtuen siitä, että se oli Wordlen päivänä sanana. Cambridge dictionary osasi myös kertoa, että erityisesti viisikirjaimiset sanat (pelissä käytetään nimenomaan vain ja ainoastaan viisikirjaimisia sanoja) olivat vuonna 2022 erittäin kovassa haussa. 
