@@ -1,7 +1,7 @@
 +++
 author = "PJMM"
 title = "Etymologiaa: tantalise"
-date = "2022-12-9"
+date = "2022-12-09"
 type = "post"
 tags = [
     "etymologia",
@@ -18,10 +18,10 @@ Kävin katsomassa elokuvan the Menu, ja sen jälkikeskustelua lueskellessani sai
 Sanakirja Merriam-Webster kuvailee sanaa tantalise näin:
 
 >tantalized; tantalizing
-transitive verb
+>transitive verb
 
-: to tease or torment by or as if by presenting something desirable to the view but continually keeping it out of reach
-(lähde: merriam-webster.com)
+>: to tease or torment by or as if by presenting something desirable to the view but continually keeping >it out of reach
+>(lähde: merriam-webster.com)
 
 
 Sanan taustalla on tietysti kreikkalainen mytologia, sillä Tantalus oli Lyydian kuningas ja Zeuksen ja Pluton poika, joka tuomittiin useista rikoksista jumalia kohtaan. Tantalus keitti esimerkiksi poikansa ruumista isossa kattilassa ja tarjoili häntä keittona muille jumalille uhrilahjana. Tästä syystä hänet tuomittiin Tartarokseen, joka on siis maan alla kulkeva vankilana toimiva luolasto. 
