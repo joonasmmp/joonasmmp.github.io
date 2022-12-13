@@ -7,8 +7,8 @@ layout: ohje
 ---
 Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta tai ääh emmä tiiä.
 
-## Rakenteita
-No en oo ehtiny vielä
+## Kielioppi / Grammar
+[1. Infinitiivi ja -ing: Lopputesti]({{<ref "infinitiivi_lopputesti.mdt" >}})
 
-## Sanastoa
+## Sanasto / Vocabulary
 No ei ole vielä mittään
