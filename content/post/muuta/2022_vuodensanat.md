@@ -31,7 +31,7 @@ OED:n kisan kakkospaikalle tuli Metaverse, eli Facebookin uusin katastrofi (voi 
 Merriam-Websterin vuoden sana gaslighting olikin jo hyvin yleinen ja myös itselle tuttu ilmaisu. Sanakirja määrittelee sanan näin:
 >psychological manipulation of a person usually over an extended period of time that causes the victim to question the validity of their own thoughts, perception of reality, or memories and typically leads to confusion, loss of confidence and self-esteem, uncertainty of one's emotional or mental stability, and a dependency on the perpetrator
 
-Sanalla siis tarkoitetaan pitkäaikaista psykologista manipulaatiota, jossa kohde yritetään saada kyseenalaistamaan oma tervejärkisyys. Tämä on valittu vuoden sanaksi perusteena nykyaikaiset ongelmat eli deepfaket, fake news, Twitter-trollit ja salaliittoteoriat. Sana itse kuitenkin on vanha ja peräisin vuoden 1938 näytelmästä, jossa mies yrittää saada vaimonsa vakuuttuneeksi omasta mielenterveydestään himmentämällä asunnon kaasulamppuja ja väittämällä että ne eivät himmene vaan palavat normaalisti.
+Sanalla siis tarkoitetaan pitkäaikaista psykologista manipulaatiota, jossa kohde yritetään saada kyseenalaistamaan oma tervejärkisyys. Tämä on valittu vuoden sanaksi perusteena nykyaikaiset ongelmat eli deepfaket, fake news, Twitter-trollit ja salaliittoteoriat. Sana itse kuitenkin on vanha ja peräisin vuoden 1938 näytelmästä, jossa mies yrittää saada vaimonsa epäilemään omaa mielenterveyttään himmentämällä asunnon kaasulamppuja ja väittämällä että ne eivät himmene vaan palavat normaalisti.
 
 Muut menestyneet sanat olivat oligarch, omicron ja codify. 
 
