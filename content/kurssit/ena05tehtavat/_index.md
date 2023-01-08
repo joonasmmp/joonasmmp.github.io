@@ -8,6 +8,7 @@ layout: tehtavavalikko
 Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta tai ääh emmä tiiä.
 
 ## Kielioppi / Grammar
+### Infinitiivi ja -ing
 [1. Infinitiivi ja -ing: Lopputesti]({{<ref "infinitiivi_lopputesti.mdt" >}})
 
 ## Sanasto / Vocabulary

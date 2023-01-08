@@ -1,5 +1,5 @@
 ---
-title: "Infinitiivit ja -ing: Lopputesti"
+title: "Infinitiivi ja -ing: Lopputesti"
 date: 2022-5-1
 draft: false
 type: page
@@ -154,5 +154,3 @@ populate();
 </script> 
 
 {{< /rawhtml >}}
-
-
