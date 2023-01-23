@@ -10,6 +10,7 @@ Kurssi kolme eli kieli ja kulttuuri ja tässä sisältöä siihen
 ## Kielioppi
 ### Laskettavat ja ei-laskettavat substantiivit
 [1. Alkutesti]({{<ref "countable_alkutesti.mdt" >}})
+
 [2. Lopputesti]({{<ref "countable_lopputesti.mdt" >}})
 
 ### Artikkelit
@@ -21,10 +22,13 @@ Kurssi kolme eli kieli ja kulttuuri ja tässä sisältöä siihen
 
 ### Epäsuora kerronta
 [1. Alkutesti]({{<ref "epasuora_alkutesti.mdt" >}})
+
 [2. Flashcard]({{<ref "epasuora_flashcard.mdt" >}})
+
 [3. Lopputesti]({{<ref "epasuora_lopputesti.mdt" >}})
 
 ## Sanastoa
 ### Teemasanat
 [Flashcard: ENG-FIN]({{<ref "teemasanasto_flashcard_eng_fin.mdt" >}})
+
 [Flashcard: FIN-ENG]({{<ref "teemasanasto_flashcard_fin_eng.mdt" >}})
