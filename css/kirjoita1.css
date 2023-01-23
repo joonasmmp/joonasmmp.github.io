@@ -91,6 +91,7 @@ form input {
 .dark section {
     background: #181a1b;
      color: #FFFFFF;
+     border: 1px solid #181a1b;
   }
 
  #buttonWrapper {
