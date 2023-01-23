@@ -13,7 +13,7 @@ layout: tehtava
   <div class="row">
   <section data-quiz-item>
     <div class="question">_____ people know that brushing your teeth after eating breakfast is actually harmful.</div>
-    <div class="choices" data-choices='["Few","Little"]'></div>
+    <div class="choices" data-choices='["Little","Few"]'></div>
     <p class="info">Little people tarkoittaisi pieniä ihmisiä. Few koska laskettava. .</p>
   </section>
   <section data-quiz-item>
@@ -24,7 +24,7 @@ layout: tehtava
   </div>
   <div class="row">
   <section data-quiz-item>
-    <div class="question">Products with _____ (less / fewer) fat don’t necessarily contain _____ (fewer / a little) calories</div>
+    <div class="question">Products with _____ fat don’t necessarily contain _____ calories</div>
     <div class="choices" data-choices='["less, fewer", "fewer, fewer", "less, a little", "fewer, a little"]'></div>
     <p class="info">Ensimmäiseen kohtaan less koska rasva on ei-laskettava. Toiseen kohtaan fewer koska kalorit on laskettavia, nehän on energian yksikkö.</p>
   </section>
@@ -49,7 +49,7 @@ layout: tehtava
     <div class="row">
   <section data-quiz-item>
     <div class="question">_____ cities have as many mayonnaise pizzas as Oulu, which has the most in the world.</div>
-    <div class="choices" data-choices='["many", "few", "little", "many"]'></div>
+    <div class="choices" data-choices='["Many", "Few", "Little", "Many"]'></div>
     <p class="info">Few eli harva kaupunki. Täytyy päätellä tuosta sivulauseesta ettei many sovi tähän.</p>
   </section>
    <section data-quiz-item>
@@ -180,6 +180,6 @@ layout: tehtava
  
  
 $(document).emc({
-  key: ["1","1","4","1","2","1","3","4","3","2"]
+  key: ["1","1","1","1","2","1","2","4","3","2"]
 });</script>
 {{< /rawhtml >}}
