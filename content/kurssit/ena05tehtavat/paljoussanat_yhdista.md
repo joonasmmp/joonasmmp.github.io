@@ -11,12 +11,10 @@ Yhdistä termit.
 
 {{< rawhtml >}}
 <link rel="stylesheet" type="text/css" href="/css/yhdistely.css"/>
-</div>
-<div id="kaikki"></div>
+
 <div id="tehtava" class="grid grid-cols-2">
  <div><ul id="terms"> </ul></div>
  <div><ul id="defs"> </ul></div>
-
 </div>
 
 
