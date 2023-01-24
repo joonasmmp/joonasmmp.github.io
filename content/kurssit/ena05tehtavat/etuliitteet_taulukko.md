@@ -5,13 +5,21 @@ draft: false
 type: page
 layout: tehtava
 ---
+{{< rawhtml >}}
+<style>
+    .content td {
+        font-size: 0.9em;
+        padding: 0.1rem 1rem;
+    }
+</style>
+{{< /rawhtml >}}
 
 ## Etuliitteet
 
 ### Kielteisyys ja vastakkaisuus
 
-| Liite     | Example   | Esimerkki |  Selitys  |
-|----------|----------|----------|----------|
+| Liite | Example | Esimerkki |  Selitys  |
+|--------|--------|--------|--------|
 | a-  |  asymmetrical  |  Epäsymmetrinen  |  Ilman jotakin |
 | anti-  |  antidote  |  vastamyrkky  |  Toimii vastaan |
 | contra-  |  contraceptive  |  ehkäisyväline  |  Vastaan, vastustaa |
@@ -30,8 +38,8 @@ layout: tehtava
 
 ### Määrä ja koko
 
-| Liite     | Example   | Esimerkki |  Selitys  |
-|----------|----------|----------|----------|
+| Liite | Example | Esimerkki |  Selitys  |
+|--------|--------|--------|--------|
 |  bi-  |  bilateral  |  kahdenvälinen  | Kaksi |
 |  cent-  |  century  |  vuosisata  | Sata |
 |  deca-  |  decade  |  vuosikymmen  |  Kymmenen |
@@ -50,8 +58,8 @@ layout: tehtava
 
 ### Aika, järjestys, paikka, suunta
 
-| Liite     | Example   | Esimerkki |  Selitys  |
-|----------|----------|----------|----------|
+| Liite | Example | Esimerkki |  Selitys  |
+|--------|--------|--------|--------|
 |  ad-  |  advance  |  edetä  |  eteenpäin  |
 |  ex-  |  ex-husband  |  entinen aviomies  |  entinen  |
 |  extra-  |  extramarital  |  avioliiton ulkopuolinen  |  ulkopuolella  |
@@ -71,8 +79,8 @@ layout: tehtava
 
 ### Muita etuliitteitä 
 
-| Liite     | Example   | Esimerkki |  Selitys  |
-|----------|----------|----------|----------|
+| Liite | Example | Esimerkki |  Selitys  |
+|--------|--------|--------|--------|
 |ambi-  |  ambidextrous  |  molempikätinen  |  molemmat, enemmän kuin yksi  |
 |arch-  |  arch-rival  |  pahin kilpailija  |  suurin, pahin  |
 |auto-  |  autobiography  |  omaelämäkerta  |  itse  |
