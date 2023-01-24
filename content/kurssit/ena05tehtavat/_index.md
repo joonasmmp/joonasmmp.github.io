@@ -26,3 +26,5 @@ xx
 Englannin kielessä on laaja sanasto, joka kasvaa jatkuvasti. Sanojen ymmärtämistä helpottaa, jos tietää tavallisten etu- ja jälkiliitteiden merkityksen.
 
 [Etu- ja jälkiliitetaulukko]({{<ref "etuliitteet_taulukko.mdt" >}})
+
+[1. Valitse oikea pääte]({{<ref "etuliitteet_monivalinta.mdt" >}})
