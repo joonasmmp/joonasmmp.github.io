@@ -5,15 +5,6 @@ draft: false
 type: page
 layout: tehtava
 ---
-{{< rawhtml >}}
-<style>
-    .content td {
-        font-size: 0.9em;
-        padding: 0.1rem 1rem;
-    }
-</style>
-{{< /rawhtml >}}
-
 ## Etuliitteet
 
 ### Kielteisyys ja vastakkaisuus
