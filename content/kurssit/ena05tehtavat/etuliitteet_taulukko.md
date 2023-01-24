@@ -7,6 +7,16 @@ layout: tehtava
 ---
 ## Etuliitteet
 
+{{< rawhtml >}}
+<style>
+
+.content {
+    overflow: auto;
+}
+
+</style>
+{{< /rawhtml >}}
+
 ### Kielteisyys ja vastakkaisuus
 
 | Liite | Example | Esimerkki |  Selitys  |
