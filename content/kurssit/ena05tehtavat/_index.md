@@ -22,4 +22,7 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 xx
 
 ### Etu- ja jälkiliitteet
+
+Englannin kielessä on laaja sanasto, joka kasvaa jatkuvasti. Sanojen ymmärtämistä helpottaa, jos tietää tavallisten etu- ja jälkiliitteiden merkityksen.
+
 [Etu- ja jälkiliitetaulukko]({{<ref "etuliitteet_taulukko.mdt" >}})
