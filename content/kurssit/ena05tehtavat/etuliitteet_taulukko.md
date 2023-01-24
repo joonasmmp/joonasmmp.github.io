@@ -21,41 +21,41 @@ layout: ohje
 
 | Liite | Example | Esimerkki |  Selitys  |
 |--------|--------|--------|--------|
-| a-  |  asymmetrical  |  Epäsymmetrinen  |  Ilman jotakin |
-| anti-  |  antidote  |  vastamyrkky  |  Toimii vastaan |
-| contra-  |  contraceptive  |  ehkäisyväline  |  Vastaan, vastustaa |
-| counter-  |  counteract  |  vastustaa  |  Vastaan, vastustaa |
-| de-  |  deduct  |  vähentää  |   Poistamista  |
-| dis-  |  disadvantage  |  haitta  |  Vähentäminen, irrottaminen |
-| il-  |  illegal  |  laiton  |   Adjektiivien käänteinen muoto  |
-| im-  |  impossible  |  mahdoton  |     Adjektiivien käänteinen muoto  |
-| in-  |  infertile  |  hedelmätön  |     Adjektiivien käänteinen muoto  |
-| ir-  |  irregular  |  epäsäännöllinen  |     Adjektiivien käänteinen muoto  |
-| mal-  |  malnourished  |  aliravittu  |  Väärin, huonosti  |
-| mis-  |  misunderstand  |  ymmärtää väärin  |  Väärin, huonosti  |
-| non-  |  non-alcoholic  |  alkoholiton  |  Ei  |
-| un-  |  unacceptable  |  mahdoton hyväksyä  |  Käänteinen merkitys |
-| under-  |  underdeveloped  |  alikehittynyt  |  Ali- |
+| a-  |  asymmetrical  |  Epäsymmetrinen  |  ilman jotakin |
+| anti-  |  antidote  |  vastamyrkky  |  toimii vastaan |
+| contra-  |  contraceptive  |  ehkäisyväline  |  vastaan, vastustaa |
+| counter-  |  counteract  |  vastustaa  |  vastaan, vastustaa |
+| de-  |  deduct  |  vähentää  |   poistamista  |
+| dis-  |  disadvantage  |  haitta  |  vähentäminen, irrottaminen |
+| il-  |  illegal  |  laiton  |   adjektiivien käänteinen muoto  |
+| im-  |  impossible  |  mahdoton  |     adjektiivien käänteinen muoto  |
+| in-  |  infertile  |  hedelmätön  |     adjektiivien käänteinen muoto  |
+| ir-  |  irregular  |  epäsäännöllinen  |     adjektiivien käänteinen muoto  |
+| mal-  |  malnourished  |  aliravittu  |  väärin, huonosti  |
+| mis-  |  misunderstand  |  ymmärtää väärin  |  väärin, huonosti  |
+| non-  |  non-alcoholic  |  alkoholiton  |  ei  |
+| un-  |  unacceptable  |  mahdoton hyväksyä  |  käänteinen merkitys |
+| under-  |  underdeveloped  |  alikehittynyt  |  ali- |
 
 ### Määrä ja koko
 
 | Liite | Example | Esimerkki |  Selitys  |
 |--------|--------|--------|--------|
-|  bi-  |  bilateral  |  kahdenvälinen  | Kaksi |
-|  cent-  |  century  |  vuosisata  | Sata |
-|  deca-  |  decade  |  vuosikymmen  |  Kymmenen |
-|  equi-  |  equivalent  |  samanlainen  | Sama |
-|  hemi-  |  hemisphere  |  pallonpuolisko  | Puolikas |
-|  homo-  |  homogenous  |  yhtenäinen  | Sama |
-|  hyper-  |  hypersensitive  |  yliherkkä  | Yli |
-|  hypo-  |  hypothermia  |  vajaalämpöisyys  | Ali |
-|  mega-  |  megacelebrity  |  suurjulkkis  | Iso |
-|  micro-  |  microscopical  |  pienen pieni,  | Pieni (kreikka)  |
-|  mill-  |  millennium  |  vuosituhat  | Tuhat |
-|  mini-  |  minibreak  |  pikkuloma  | Pieni (latina) |
-|  mono-  |  monopoly  |  yksinoikeus  | Yksi |
-|  multi-  |  multinational  |  monikansallinen  | Monta (latina) |
-|  poly-  |  polyglot  |  monikielinen  | Monta (kreikka) |
+|  bi-  |  bilateral  |  kahdenvälinen  | kaksi |
+|  cent-  |  century  |  vuosisata  | sata |
+|  deca-  |  decade  |  vuosikymmen  |  kymmenen |
+|  equi-  |  equivalent  |  samanlainen  | sama |
+|  hemi-  |  hemisphere  |  pallonpuolisko  | puolikas |
+|  homo-  |  homogenous  |  yhtenäinen  | sama |
+|  hyper-  |  hypersensitive  |  yliherkkä  | yli |
+|  hypo-  |  hypothermia  |  vajaalämpöisyys  | ali |
+|  mega-  |  megacelebrity  |  suurjulkkis  | iso |
+|  micro-  |  microscopical  |  pienen pieni,  | pieni (kreikka)  |
+|  mill-  |  millennium  |  vuosituhat  | tuhat |
+|  mini-  |  minibreak  |  pikkuloma  | pieni (latina) |
+|  mono-  |  monopoly  |  yksinoikeus  | yksi |
+|  multi-  |  multinational  |  monikansallinen  | monta (latina) |
+|  poly-  |  polyglot  |  monikielinen  | monta (kreikka) |
 
 ### Aika, järjestys, paikka, suunta
 
@@ -185,7 +185,7 @@ Huom! Monen verbin perään voi laittaa joko –ise tai –ize oman maun mukaan,
 | -ian | utopian | utopistinen |
 | -ic/-ical | energetic | energinen |
 
-Huom! –ic ja –ical voivat joissain tapauksissa tarkoittaa eri asioita: economic = talouteen liittyvä, economical = säästäväinen
+Huom! –ic ja –ical voivat joissain tapauksissa tarkoittaa eri asioita: economic = talouteen liittyvä, economical = säästäväinen.
 
 ### Adverbit
 
