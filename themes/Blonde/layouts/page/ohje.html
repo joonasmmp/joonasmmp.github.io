@@ -1,6 +1,10 @@
 {{ define "header_css" }}{{ end }}
 
 {{ define "main" }}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 <div class="grid grid-cols-3 gap-4">
     {{ if .Site.Params.widgets.display }}
     <div class="col-span-3 lg:col-span-2 dark:text-white">
@@ -9,35 +13,42 @@
             {{ end }}
             <div class="bg-white dark:bg-warmgray-900 p-5 my-4" style="border-radius: 4px; border-color: #D3D6DA; box-shadow: 0 4px 10px rgb(128 128 128 / 10%); overflow: hidden; border: 1px solid #ccccca;
             margin-bottom: 1.25em; height: fit-content;">
-                <h1 class="mb-1 text-4xl" style="padding-bottom:0.3em; text-align: center; text-transform: uppercase">{{.Title}}</h1>
-                {{ if .Params.image }}
-                <img class="py-4" src="{{ .Params.image | absURL }}">
-                {{ end }}
-                <div class="content prose md:prose-lg lg:prose-xl max-w-none dark:prose-invert mt-5" id="sisalto">{{.Content}}</div>
-                <aside id="meta">
-                    {{ with .Params.categories }}
-                    <hr class="py-4">
-                    <div id="categories">
-                        <span class="icon-folder text-xl mr-1"></span>
-                        {{ range . }}
-                        <span
-                            class="inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-200 justify-center h-8 px-3 text-blue-500 duration-200 hover:text-black dark:bg-warmgray-800"><a
-                                href='{{ "categories" | absURL}}/{{ . | urlize }}'>{{ . }}</a></span>
+                <h1 class="mb-1 text-2xl" style="padding-bottom:0.3em; text-align: center; text-transform: uppercase">{{.Title}}</h1>
+                <div class="content prose md:prose-lg lg:prose-xl max-w-none dark:prose-invert mt-5">{{.Content}}</div>
+            </div>
+            <div class="bg-white dark:bg-warmgray-900 p-5 my-4" style="border-radius: 4px; border-color: #D3D6DA; box-shadow: 0 4px 10px rgb(128 128 128 / 10%); overflow: hidden; border: 1px solid #ccccca;
+            margin-bottom: 1.25em; height: fit-content;">
+                <div class="grid grid-cols-1">
+                    <div class="col-span-1">
+                        {{ with .PrevInSection }}
+                        <a class="previous lg:text-1xl" href="{{.Permalink}}">
+                            <div
+                                class="transition-colors duration-300 border border-gray-600 hover:border-black h-auto m-3 text-center py-3 lg:py-1">
+                                <span class="icon-keyboard_arrow_left"></span> {{.Title}}
+                            </div>
+                        </a>
                         {{ end }}
                     </div>
+                    {{ with .NextInSection }}
+                    <a class="next lg:text-1xl" href="{{.Permalink}}">
+                        <div
+                            class="transition-colors duration-300 col-span-1 border border-gray-600 hover:border-black h-auto m-3 text-center py-3 lg:py-1">
+                            {{.Title}} <span class="icon-keyboard_arrow_right"></span>
+                        </div>
+                    </a>
                     {{ end }}
-                </aside>
+                </div>
             </div>
         </div>
         {{ if .Site.Params.widgets.display }}
         <div class="hidden lg:block lg:col-span-1" style="border-radius: 4px; border-color: #D3D6DA; box-shadow: 0 4px 10px rgb(128 128 128 / 10%); overflow: hidden; border: 1px solid #ccccca;
         margin-bottom: 1.25em; height: fit-content;">
-                <div class="bg-white panel mb-3 pb-5 dark:bg-warmgray-900 dark:text-gray-300" id="toc">
-                    <p class="text-center text-xl text-center text-gray-700 py-5 dark:text-gray-300">Sisältö</p>
-                    <aside class="px-5">
-                        {{.TableOfContents}}
-                    </aside>
-                </div>
+        <div class="bg-white panel mb-3 pb-5 dark:bg-warmgray-900 dark:text-gray-300" id="toc">
+            <p class="text-center text-xl text-center text-gray-700 py-5 dark:text-gray-300">Sisältö</p>
+            <aside class="px-5">
+                {{.TableOfContents}}
+            </aside>
+        </div>
             {{ partial "widgets/category.html" . }}
             {{ partial "widgets/tags.html" . }}
             {{ partial "widgets/recent.html" . }}

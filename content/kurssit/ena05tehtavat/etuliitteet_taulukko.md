@@ -195,3 +195,5 @@ Huom! –ic ja –ical voivat joissain tapauksissa tarkoittaa eri asioita: econo
 | -ward(s) | homeward | kotia kohti | 
 | -ways | sideways | sivuttain | 
 | -wise | anticlockwise | vastapäivään | 
+
+
