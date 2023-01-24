@@ -23,4 +23,3 @@ xx
 
 ### Etu- ja jälkiliitteet
 
-[Etu- ja jälkiliitetaulukko]({{<ref "etuliiteet_taulukko.mdt" >}})
