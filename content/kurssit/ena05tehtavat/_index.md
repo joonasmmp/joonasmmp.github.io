@@ -22,4 +22,4 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 xx
 
 ### Etu- ja jälkiliitteet
-
+[Etu- ja jälkiliitetaulukko]({{<ref "etuliitteet_taulukko.mdt" >}})
