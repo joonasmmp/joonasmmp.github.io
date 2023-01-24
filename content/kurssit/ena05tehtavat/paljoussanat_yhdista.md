@@ -5,10 +5,6 @@ draft: false
 type: page
 layout: tehtava
 ---
-
-Yhdistä termit.
-
-
 {{< rawhtml >}}
 <link rel="stylesheet" type="text/css" href="/css/yhdistely.css"/>
 
