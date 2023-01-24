@@ -17,4 +17,10 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 [1. Infinitiivi ja -ing: Lopputesti]({{<ref "infinitiivi_lopputesti.mdt" >}})
 
 ## Sanasto / Vocabulary
-No ei ole vielä mittään
+### Elements-teemasanastot
+
+xx
+
+### Etu- ja jälkiliitteet
+
+[Etu- ja jälkiliitetaulukko]({{<ref "etuliiteet_taulukko.mdt" >}})
