@@ -85,11 +85,80 @@ layout: tehtava
 |up-  |  upgrade  |  korottaa, parantaa  |  paremmin   |
 |vice-  |  vice-president  |  varapresidentti  |  vara, avustava  |
 
+## Jälkiliitteet
+### Substantiivi (tekijä)
 
+| Liite | Example | Esimerkki |
+|--------|--------|--------|
+| -ant/-ent  |  applicant  |  hakija  |
+| -ard  |  coward  |  pelkuri  |
+| -crat  |  bureaucrat  |  byrokraatti  |
+| -ee  |  trainee  |  harjoittelija  |
+| -eer  |  volunteer  |  vapaaehtoinen  |
+| -er/-ar/-or  |  driver  |  ajaja  |
+| -holic  |  workaholic  |  työnarkomaani  |
+| -ian  |  vegetarian  |  kasvissyöjä  |
+| -ist  |  artist  |  taiteilija  |
+| -monger  |  fishmonger  |  kalakauppias  |
+| -path  |  psychopath  |  psykopaatti  |
+| -phile  |  bibliophile  |  kirjojen ystävä  |
+| -ster  |  pollster  |  mielipidetutkija  |
 
+### Substantiivi (toiminta tai tulos)
 
-| Liite     | Example   | Esimerkki |   
-|----------|----------|----------|
+| Liite | Example | Esimerkki |
+|--------|--------|--------|
+|  -ade  |  blockade  |  saarto  |
+|  -age  |  pilgrimage  |  pyhiinvaellusmatka  |
+|  -al  |  arrival  |  saapuminen  |
+|  -ance/-ence  |  annoyance  |  harmitus  |
+|  -ation/-ition  |  creation  |  luomus, luominen  |
+|  -cide  |  suicide  |  itsemurha  |
+|  -ing  |  swimming  |  uiminen  |
+|  -ism  |  heroism  |  sankaruus  |
+|  -ment  |  shipment  |  lähetys  |
+
+### Substantiivi (tila tai ominaisuus)
+
+| Liite | Example | Esimerkki |
+|--------|--------|--------|
+|  -acy  |  privacy  |  yksityisyys  |
+|  -ancy/-ency  |  hesitancy  |  epäröinti  |
+|  -dom  |  wisdom  |  viisaus  |
+|  -hood  |  motherhood  |  äitiys  |
+|  -ness  |  kindness  |  ystävällisyys  |
+|  -ship  |  citizenship  |  kansalaisuus  |
+|  -ty/-ity  |  honesty  |  rehellisyys  |
+|  -th  |  depth  |  syvyys  |
+
+### Substantiivi (työala tai -paikka)
+
+| Liite | Example | Esimerkki |
+|--------|--------|--------|
+| -ry  |  dentistry  |  hammaslääketiede  |
+| -ery  |  nursery  |  päiväkoti  |
+
+### Substantiivi (pienuus)
+
+| Liite | Example | Esimerkki |
+|--------|--------|--------|
+| -ette | kitchenette | keittokomero |
+| -let | leaflet | esite |
+
+### Verbit
+
+| Liite | Example | Esimerkki |
+|--------|--------|--------|
+| -ate | evaporate | höyrystyä |
+| -en | strengthen | vahvistaa |
+| -ify | amplify | laajentaa |
+| -ise/ize  | popularise/popularize | tehdä tunnetuksi |
+
+Huom! Monen verbin perään voi laittaa joko –ise tai –ize oman maun mukaan, mutta on myös monia verbejä, joihin käy vain ja ainoastaan toinen: advertise, advise, compromise, despise, devise, disguise, exercise, improvise, merchandise, revise, supervise, surprise. 
+
+### Adjektiivit 
+| Liite | Example | Esimerkki |
+|--------|--------|--------|
 | -able/-ible | preventable | estettävissä |
 | -al | natural | luonnollinen |
 | -an | urban | urbaani |
@@ -106,4 +175,13 @@ layout: tehtava
 | -ian | utopian | utopistinen |
 | -ic/-ical | energetic | energinen |
 
+Huom! –ic ja –ical voivat joissain tapauksissa tarkoittaa eri asioita: economic = talouteen liittyvä, economical = säästäväinen
 
+### Adverbit
+
+| Liite | Example | Esimerkki |
+|--------|--------|--------|
+| -ly | sloppily | huolimattomasti | 
+| -ward(s) | homeward | kotia kohti | 
+| -ways | sideways | sivuttain | 
+| -wise | anticlockwise | vastapäivään | 
