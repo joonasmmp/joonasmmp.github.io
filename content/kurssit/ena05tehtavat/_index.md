@@ -38,3 +38,5 @@ Kun olet opiskellut taulukot, voit siirtyä tehtävien pariin
 [4. Muodosta adjektiivejä jälkiliitteillä]({{<ref "etuliitteet_kirjoita3.mdt" >}})
 
 [5. Käännä suomeksi]({{<ref "etuliitteet_kirjoita4.mdt" >}})
+
+[6. Valitse oikea negatiivinen etuliite]({{<ref "etuliitteet_kirjoita5.mdt" >}})
