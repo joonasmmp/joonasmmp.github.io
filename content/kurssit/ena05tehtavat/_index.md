@@ -31,4 +31,4 @@ Kun olet opiskellut taulukot, voit siirtyä tehtävien pariin
 
 [1. Valitse oikea pääte]({{<ref "etuliitteet_monivalinta1.mdt" >}})
 
-[2. ;uodosta sanoja jälkiliitteillä]({{<ref "etuliitteet_kirjoita1.mdt" >}})
+[2. Muodosta sanoja jälkiliitteillä]({{<ref "etuliitteet_kirjoita1.mdt" >}})

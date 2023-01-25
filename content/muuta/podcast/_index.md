@@ -20,7 +20,7 @@ Kesällä 2022 Yleisradio poisti omat podcastinsa muista palveluista kuin YLE Ar
 
 ## Englanninkieliset podcastit
 
-### No Such Tning as a Fish
+### No Such Thing as a Fish
 [No Such Thing as a Fish](https://podcasts.google.com/feed/aHR0cHM6Ly9hdWRpb2Jvb20uY29tL2NoYW5uZWxzLzIzOTkyMTYucnNzkki) on brittiläisen QI (Quite Interesting) ohjelman taustatyöntekijöiden podcast. QI on paneeliohjelma, jossa arvuutellaan vastauksia kysymyksiin ja samalla käydään läpi faktoja jotka saavat ihmisen sanomaan että aah, quite interesting. Huumorintäytteinen ohjelma, jota katsoin läpi varmaan 10 kautta ennen kuin tuli raja vastaan. Pitäisi katsoa loputkin kaudet.
 
 No Such Thing as a Fishin tekijät ovat tuossa kyseisessä ohjelmassa työskentelevät faktanetsijät, jotka käyvät läpi niitä faktoja jotka eivät joko mahtuneet ohjelmaan mukaan tai jotka olivat jopa kyseiselle ohjelmalle liian outoja ja erikoisia. 
