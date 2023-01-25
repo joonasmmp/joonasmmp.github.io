@@ -69,6 +69,7 @@ var answers = {
   "q7": ["il"],
   "q8": ["in"],
   "q9": ["de"],
+  "q10": ["im"],
   };
 
 function markAnswers() {
