@@ -34,3 +34,5 @@ Kun olet opiskellut taulukot, voit siirtyä tehtävien pariin
 [2. Muodosta sanoja jälkiliitteillä]({{<ref "etuliitteet_kirjoita1.mdt" >}})
 
 [3. Muodosta verbejä jälkiliitteillä]({{<ref "etuliitteet_kirjoita2.mdt" >}})
+
+[4. Muodosta adjektiivejä jälkiliitteillä]({{<ref "etuliitteet_kirjoita2.mdt" >}})
