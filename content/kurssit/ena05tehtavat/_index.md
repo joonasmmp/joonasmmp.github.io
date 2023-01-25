@@ -30,3 +30,5 @@ Englannin kielessä on laaja sanasto, joka kasvaa jatkuvasti. Sanojen ymmärtäm
 Kun olet opiskellut taulukot, voit siirtyä tehtävien pariin
 
 [1. Valitse oikea pääte]({{<ref "etuliitteet_monivalinta1.mdt" >}})
+
+[2. ;uodosta sanoja jälkiliitteillä]({{<ref "etuliitteet_kirjoita1.mdt" >}})
