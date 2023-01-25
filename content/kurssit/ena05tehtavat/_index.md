@@ -41,4 +41,4 @@ Kun olet opiskellut taulukot, voit siirtyä tehtävien pariin
 
 [6. Valitse oikea negatiivinen etuliite]({{<ref "etuliitteet_kirjoita5.mdt" >}})
 
-[7. Valitse oikea lukuun tai kokoon viittaava etuliite]({{<ref "etuliitteet_kirjoit6.mdt" >}})
+[7. Valitse oikea lukuun tai kokoon viittaava etuliite]({{<ref "etuliitteet_kirjoita6.mdt" >}})
