@@ -46,3 +46,5 @@ Kun olet opiskellut taulukot, voit siirtyä tehtävien pariin
 [8. Käännä englanniksi etuliitteiden avulla]({{<ref "etuliitteet_kirjoita7.mdt" >}}) 
 
 [9. Valitse oikea etuliite]({{<ref "etuliitteet_kirjoita8.mdt" >}}) 
+
+[10. Valitse oikea etuliite]({{<ref "etuliitteet_kirjoita9.mdt" >}}) 
