@@ -48,7 +48,7 @@ Kirjoita koko sana sillä saatat joutua muuttamaan kantasanaa.
 11. Hair -> karvainen = &nbsp;<li><input id="q11" type="text"/><span></span></li>&nbsp;
 </section>
 <section>
-12. Realist -> realistinen = &nbsp;<li><input id="12" type="text"/><span></span></li>&nbsp;
+12. Realist -> realistinen = &nbsp;<li><input id="q12" type="text"/><span></span></li>&nbsp;
 </section>
 
 
