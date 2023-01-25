@@ -1,48 +1,50 @@
 ---
-title: "Valitse negatiivinen etuliite"
+title: "Valitse oikea etuliite"
 date: 2022-2-1
 draft: false
 type: page
 layout: tehtava
 ---
 
-Muodosta suomenkielisen sanan vastine valitsemalla yksi seuraavista etuliitteistä: un-, in-, il-, im-, ir-, dis-, non-, de-, mis-, mal- 
+Muodosta suomenkielisen sanan vastine valitsemalla yksi seuraavista lukuun etuliitteistä: ante-, fore-, pre-, post-, ex-, re-, sub-, super-, trans-, inter-, extra- 
 {{< rawhtml >}}
 <div class="tehtava">
 <form autocomplete="off">
   <ol>
   
 <section>
-1. Väärin diagnosoitu = &nbsp;<li><input id="q1" type="text"/><span></span></li>diagnosed
+1. Avioitua uudelleen = &nbsp;<li><input id="q1" type="text"/><span></span></li>marry
 </section>
 <section>
-2. Epärehellisyys = &nbsp;<li><input id="q2" type="text"/><span></span></li>honesty
+2. Siperian poikki kulkeva = &nbsp;<li><input id="q2" type="text"/><span></span></li>-Siberian
 </section>
 <section>
-3. Alkoholiton = &nbsp;<li><input id="q3" type="text"/><span></span></li>alcoholic
+3. Henkilöiden välinen = &nbsp;<li><input id="q3" type="text"/><span></span></li>personal
 </section>
 <section>
-4. Epäreilu = &nbsp;<li><input id="q4" type="text"/><span></span></li>fair
+4. Yli-inhimillinen = &nbsp;<li><input id="q4" type="text"/><span></span></li>human
 </section>
 <section>
-5. Vastuuton = &nbsp;<li><input id="q5" type="text"/><span></span></li>responsible
+5. Monikielinen = &nbsp;<li><input id="q5" type="text"/><span></span></li>lingual
 </section>
 <section>
-6. Hoitovirhe = &nbsp;<li><input id="q6" type="text"/><span></span></li>practice
+6. Ala-arvoinen = &nbsp;<li><input id="q6" type="text"/><span></span></li>standard
 </section>
 <section>
-7. Lainvastainen = &nbsp;<li><input id="q7" type="text"/><span></span></li>legitimate
+7. Avioliiton ulkopuolinen = &nbsp;<li><input id="q7" type="text"/><span></span></li>marital
 </section>
 <section>
-8. Epäoikeudenmukaisuus =  &nbsp;<li><input id="q8" type="text"/><span></span></li>justice
+8. Entinen vaimo =  &nbsp;<li><input id="q8" type="text"/><span></span></li>-wife
 </section>
 <section>
-9. Epämuodostunut = &nbsp;<li><input id="q9" type="text"/><span></span></li>formed
+9. Ennakkovaroitus = &nbsp;<li><input id="q9" type="text"/><span></span></li>warning
 </section>
 <section>
-10. Läpitunkematon = &nbsp;<li><input id="q10" type="text"/><span></span></li>penetrable
+10. Ennalta maksettu = &nbsp;<li><input id="q10" type="text"/><span></span></li>-paid
 </section> 
-
+<section>
+11. Suuruudenhullu = &nbsp;<li><input id="q11" type="text"/><span></span></li>lomaniac
+</section> 
 
 </ol>
   
@@ -58,16 +60,16 @@ Muodosta suomenkielisen sanan vastine valitsemalla yksi seuraavista etuliitteist
 
 <script>
 var answers = {
-  "q1": ["mis"],
-  "q2": ["dis"],
-  "q3": ["non"],
-  "q4": ["un"],
-  "q5": ["ir",],
-  "q6": ["mal"],
-  "q7": ["il"],
-  "q8": ["in"],
-  "q9": ["de"],
-  "q10": ["im"],
+  "q1": ["re"],
+  "q2": ["trans"],
+  "q3": ["inter"],
+  "q4": ["super"],
+  "q5": ["post",],
+  "q6": ["sub"],
+  "q7": ["extra"],
+  "q8": ["ex"],
+  "q9": ["fore"],
+  "q10": ["pre"],
   };
 
 function markAnswers() {

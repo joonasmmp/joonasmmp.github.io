@@ -1,5 +1,5 @@
 ---
-title: "Valitse negatiivinen etuliite"
+title: "Valitse kokoon viittaava etuliite"
 date: 2022-2-1
 draft: false
 type: page
@@ -7,8 +7,6 @@ layout: tehtava
 ---
 
 Muodosta suomenkielisen sanan vastine valitsemalla yksi seuraavista lukuun, kokoon tai muotoon viittaavista etuliitteistä: mono-, bi-, tri-, quadr(u)-, penta-, dec(i/a)-, cent-, mill-, poly-, multi-, semi-, ultra-, mega- 
-
-Kirjoita koko sana sillä saatat joutua muuttamaan kantasanaa.
 {{< rawhtml >}}
 <div class="tehtava">
 <form autocomplete="off">
