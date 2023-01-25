@@ -1,47 +1,48 @@
 ---
-title: "Muodosta sanat liitteiden avulla"
+title: "Muodosta verbejä jälkiliitteillö"
 date: 2022-2-1
 draft: false
 type: page
 layout: tehtava
 ---
 
-Kuinka hyvin muistat sanojen päätteet? Muodosta sana lisäämällä jokin jälkiliite annettuun sanaan.
+Muodosta verbi kantasanasta seuraavien liitteiden avulla: -en, -ate, -ify, -ise/-ize
 
+Kirjoita koko sana sillä saatat joutua muuttamaan kantasanaa.
 {{< rawhtml >}}
 <div class="tehtava">
 <form autocomplete="off">
   <ol>
   
 <section>
-1. Wide = leveä, leveys = &nbsp;<li><input id="q1" type="text"/><span></span></li>&nbsp;
+1. Length -> pidentää = &nbsp;<li><input id="q1" type="text"/><span></span></li>&nbsp;
 </section>
 <section>
-2. Leak = vuotaa, vuoto = &nbsp;<li><input id="q2" type="text"/><span></span></li>&nbsp;
+2. Simple -> yksinkertaistaa = &nbsp;<li><input id="q2" type="text"/><span></span></li>&nbsp;
 </section>
 <section>
-3. Star = tähti, tähteys = &nbsp;<li><input id="q3" type="text"/><span></span></li>&nbsp;
+3. Chlorin -> kloorata = &nbsp;<li><input id="q3" type="text"/><span></span></li>&nbsp;
 </section>
 <section>
-4. Participate = ottaa osaa, osanottaja = &nbsp;<li><input id="q4" type="text"/><span></span></li>&nbsp;
+4. Hard -> kovettaa = &nbsp;<li><input id="q4" type="text"/><span></span></li>&nbsp;
 </section>
 <section>
-5. Nation = kansakunta, kansallistaminen = &nbsp;<li><input id="q5" type="text"/><span></span></li>&nbsp;
+5. Legal -> laillistaa = &nbsp;<li><input id="q5" type="text"/><span></span></li>&nbsp;
 </section>
 <section>
-6. Village = kylä, kyläläinen = &nbsp;<li><input id="q6" type="text"/><span></span></li>&nbsp;
+6. Sharp -> teroittaa = &nbsp;<li><input id="q6" type="text"/><span></span></li>&nbsp;
 </section>
 <section>
-7. Beg = kerjätä, kerjäläinen = &nbsp;<li><input id="q7" type="text"/><span></span></li>&nbsp;
+7. Electric -> sähköistää = &nbsp;<li><input id="q7" type="text"/><span></span></li>&nbsp;
 </section>
 <section>
-8. Clear = selvä, selvyys =  &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp;
+8. Urine -> virtsata =  &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp;
 </section>
 <section>
-9. Resist = vastustaa, vastustus = &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp;
+9. Tight -> tiukentaa = &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp;
 </section>
 <section>
-10. Tax = vero, verotus = &nbsp;<li><input id="q10" type="text"/><span></span></li>&nbsp;
+10. Pure -> puhdistaa = &nbsp;<li><input id="q10" type="text"/><span></span></li>&nbsp;
 </section> </ol>
   
  <link rel="stylesheet" type="text/css" href="/css/kirjoita1.css"/>
@@ -56,16 +57,16 @@ Kuinka hyvin muistat sanojen päätteet? Muodosta sana lisäämällä jokin jäl
 
 <script>
 var answers = {
-  "q1": ["width"],
-  "q2": ["leakage"],
-  "q3": ["stardom"],
-  "q4": ["participant"],
-  "q5": ["nationalisation", "nationalization"],
-  "q6": ["villager"],
-  "q7": ["beggar"],
-  "q8": ["clarity"],
-  "q9": ["resistance"],
-  "q10": ["taxation"],
+  "q1": ["lenghten"],
+  "q2": ["simplify"],
+  "q3": ["chlorinate"],
+  "q4": ["harden"],
+  "q5": ["legalise", "legalize"],
+  "q6": ["sharpen"],
+  "q7": ["electrify"],
+  "q8": ["urinate"],
+  "q9": ["tighten"],
+  "q10": ["purify"],
 };
 
 function markAnswers() {
