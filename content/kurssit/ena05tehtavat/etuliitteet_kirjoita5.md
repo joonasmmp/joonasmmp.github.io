@@ -96,4 +96,11 @@ document.querySelectorAll("input").forEach(elem => elem.addEventListener('input'
 }));
 
 </script>
+
+<style>
+.tehtava input[type="text"] {
+    width: 75px;
+    text-align: right;
+}
+</style>
 </rawhtml>
