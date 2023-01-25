@@ -43,4 +43,4 @@ Kun olet opiskellut taulukot, voit siirtyä tehtävien pariin
 
 [7. Valitse oikea lukuun tai kokoon viittaava etuliite]({{<ref "etuliitteet_kirjoita6.mdt" >}})
 
-[8. Valitse oikea lukuun tai kokoon viittaava etuliite]({{<ref "etuliitteet_kirjoita7.mdt" >}})
+[8. Käännä englanniksi etuliitteiden avulla]({{<ref "etuliitteet_kirjoita7.mdt" >}}) 

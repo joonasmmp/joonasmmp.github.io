@@ -40,7 +40,6 @@ Muodosta uusia sanoja etuliitteiden avulla. Käytä aiemman tehtävän kantasano
 <section>
 9. Huipputehokas = &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp;
 </section>
-<section>
 </ol>
   
  <link rel="stylesheet" type="text/css" href="/css/kirjoita1.css"/>
