@@ -17,7 +17,7 @@ Mikä pääte sopii? Joudut ehkä muuttamaan kantasanaa.
     <div class="choices" data-choices='["-ment","-al", "-age"]'></div>
   </section>
   <section data-quiz-item>
-    <div class="question">Kirjastonhoitaj = library...</div>
+    <div class="question">Kirjastonhoitaja = library...</div>
     <div class="choices" data-choices='["-ist","-ian", "-ant"]'></div>
    </section>
   </div>
@@ -44,7 +44,7 @@ Mikä pääte sopii? Joudut ehkä muuttamaan kantasanaa.
   </div>
     <div class="row">
   <section data-quiz-item>
-    <div class="question">Varmuus = certain</div>
+    <div class="question">Varmuus = certain...</div>
     <div class="choices" data-choices='["-ness", "-ment", "-ty"]'></div>
    </section>
    <section data-quiz-item>
@@ -54,7 +54,7 @@ Mikä pääte sopii? Joudut ehkä muuttamaan kantasanaa.
   </div>
    <div class="row last">
    <section data-quiz-item>
-    <div class="question">Veljyes = brother...</div>
+    <div class="question">Veljeys = brother...</div>
     <div class="choices" data-choices='["-ity", "-hood", "-dom"]'></div>
   </section>
   <section data-quiz-item>
