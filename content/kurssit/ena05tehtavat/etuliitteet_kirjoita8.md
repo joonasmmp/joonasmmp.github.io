@@ -14,37 +14,37 @@ Muodosta suomenkielisen sanan vastine valitsemalla yksi seuraavista lukuun etuli
   <ol>
   
 <section>
-1. Avioitua uudelleen = &nbsp;<li><input id="q1" type="text"/><span></span></li>marry
+1. Avioitua uudelleen = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q1" type="text"/><span></span></li>marry
 </section>
 <section>
-2. Siperian poikki kulkeva = &nbsp;<li><input id="q2" type="text"/><span></span></li>-Siberian
+2. Siperian poikki kulkeva = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q2" type="text"/><span></span></li>-Siberian
 </section>
 <section>
-3. Henkilöiden välinen = &nbsp;<li><input id="q3" type="text"/><span></span></li>personal
+3. Henkilöiden välinen = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q3" type="text"/><span></span></li>personal
 </section>
 <section>
-4. Yli-inhimillinen = &nbsp;<li><input id="q4" type="text"/><span></span></li>human
+4. Yli-inhimillinen = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q4" type="text"/><span></span></li>human
 </section>
 <section>
-5. Traumanjälkeinen  = &nbsp;<li><input id="q5" type="text"/><span></span></li>-traumatic
+5. Traumanjälkeinen  = &nbsp<br class="flex visible md:hidden lg:hidden">;<li><input id="q5" type="text"/><span></span></li>-traumatic
 </section>
 <section>
-6. Ala-arvoinen = &nbsp;<li><input id="q6" type="text"/><span></span></li>standard
+6. Ala-arvoinen = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q6" type="text"/><span></span></li>standard
 </section>
 <section>
-7. Avioliiton ulkopuolinen = &nbsp;<li><input id="q7" type="text"/><span></span></li>marital
+7. Avioliiton ulkopuolinen = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q7" type="text"/><span></span></li>marital
 </section>
 <section>
-8. Entinen vaimo =  &nbsp;<li><input id="q8" type="text"/><span></span></li>-wife
+8. Entinen vaimo =  &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q8" type="text"/><span></span></li>-wife
 </section>
 <section>
-9. Ennakkovaroitus = &nbsp;<li><input id="q9" type="text"/><span></span></li>warning
+9. Ennakkovaroitus = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q9" type="text"/><span></span></li>warning
 </section>
 <section>
-10. Ennalta maksettu = &nbsp;<li><input id="q10" type="text"/><span></span></li>-paid
+10. Ennalta maksettu = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q10" type="text"/><span></span></li>-paid
 </section> 
 <section>
-11. Suuruudenhullu = &nbsp;<li><input id="q11" type="text"/><span></span></li>lomaniac
+11. Suuruudenhullu = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q11" type="text"/><span></span></li>lomaniac
 </section> 
 
 </ol>
