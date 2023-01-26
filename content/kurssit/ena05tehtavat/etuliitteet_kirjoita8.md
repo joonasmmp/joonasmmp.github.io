@@ -70,7 +70,7 @@ var answers = {
   "q7": ["extra"],
   "q8": ["ex"],
   "q9": ["fore"],
-  "q10": ["pre"],
+  "q10": ["mega"],
   };
 
 function markAnswers() {
