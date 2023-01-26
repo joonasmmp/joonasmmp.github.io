@@ -44,7 +44,7 @@ Muodosta suomenkielisen sanan vastine valitsemalla yksi seuraavista lukuun etuli
 10. Automaattiohjaus = &nbsp;<li><input id="q10" type="text"/><span></span></li>pilot
 </section> 
 <section>
-11. Vara-admiraali = &nbsp;<li><input id="q11" type="text"/><span></span></li>admiral
+11. Vara-admiraali = &nbsp;<li><input id="q11" type="text"/><span></span></li>&nbsp;admiral
 </section> 
 <section>
 12. Suoriutua paremmin = &nbsp;<li><input id="q12" type="text"/><span></span></li>perform

@@ -97,15 +97,6 @@ $("form").on("submit", function(e) {
   e.preventDefault();
   markAnswers();
 });
-
-const input = document.querySelector('.tehtava input');
-const span = document.querySelector('.tehtava span');
-
-document.querySelectorAll("input").forEach(elem => elem.addEventListener('input', function (event) {
-    span.innerHTML = this.value.replace(/\s/g, '&nbsp;');
-    this.style.width = span.offsetWidth + 'px';
-}));
-
 </script>
 
 <style>
