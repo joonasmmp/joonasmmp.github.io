@@ -26,7 +26,7 @@ Muodosta suomenkielisen sanan vastine valitsemalla yksi seuraavista lukuun etuli
 4. Yli-inhimillinen = &nbsp;<li><input id="q4" type="text"/><span></span></li>human
 </section>
 <section>
-5. Monikielinen = &nbsp;<li><input id="q5" type="text"/><span></span></li>lingual
+5. Traumanjälkeinen  = &nbsp;<li><input id="q5" type="text"/><span></span></li>-traumatic
 </section>
 <section>
 6. Ala-arvoinen = &nbsp;<li><input id="q6" type="text"/><span></span></li>standard
