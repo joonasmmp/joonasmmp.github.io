@@ -14,43 +14,43 @@ Muodosta suomenkielisen sanan vastine valitsemalla yksi seuraavista lukuun etuli
   <ol>
   
 <section>
-1. Vastapaino = &nbsp;<li><input id="q1" type="text"/><span></span></li>-balance
+1. Vastapaino = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q1" type="text"/><span></span></li>-balance
 </section>
 <section>
-2. Vastamyrkky = &nbsp;<li><input id="q2" type="text"/><span></span></li>dote
+2. Vastamyrkky = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q2" type="text"/><span></span></li>dote
 </section>
 <section>
-3. Ristikuulustella = &nbsp;<li><input id="q3" type="text"/><span></span></li>-examine
+3. Ristikuulustella = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q3" type="text"/><span></span></li>-examine
 </section>
 <section>
-4. Voittaa, ylittä = &nbsp;<li><input id="q4" type="text"/><span></span></li>pass
+4. Voittaa, ylittä = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q4" type="text"/><span></span></li>pass
 </section>
 <section>
-5. Yliannostus = &nbsp;<li><input id="q5" type="text"/><span></span></li>dose
+5. Yliannostus = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q5" type="text"/><span></span></li>dose
 </section>
 <section>
-6. Kirjoituskumppani = &nbsp;<li><input id="q6" type="text"/><span></span></li>-author
+6. Kirjoituskumppani = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q6" type="text"/><span></span></li>-author
 </section>
 <section>
-7. Sivutuote = &nbsp;<li><input id="q7" type="text"/><span></span></li>-product
+7. Sivutuote = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q7" type="text"/><span></span></li>-product
 </section>
 <section>
-8. Aborttia vastustava =  &nbsp;<li><input id="q8" type="text"/><span></span></li>-life
+8. Aborttia vastustava =  &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q8" type="text"/><span></span></li>-life
 </section>
 <section>
-9. Aliarvioida = &nbsp;<li><input id="q9" type="text"/><span></span></li>estimate
+9. Aliarvioida = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q9" type="text"/><span></span></li>estimate
 </section>
 <section>
-10. Automaattiohjaus = &nbsp;<li><input id="q10" type="text"/><span></span></li>pilot
+10. Automaattiohjaus = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q10" type="text"/><span></span></li>pilot
 </section> 
 <section>
-11. Vara-admiraali = &nbsp;<li><input id="q11" type="text"/><span></span></li>&nbsp;admiral
+11. Vara-admiraali = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q11" type="text"/><span></span></li>&nbsp;admiral
 </section> 
 <section>
-12. Suoriutua paremmin = &nbsp;<li><input id="q12" type="text"/><span></span></li>perform
+12. Suoriutua paremmin = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q12" type="text"/><span></span></li>perform
 </section> 
 <section>
-13. Valeraskaus = &nbsp;<li><input id="q13" type="text"/><span></span></li>pregnancy
+13. Valeraskaus = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q13" type="text"/><span></span></li>pregnancy
 </section> 
 
 </ol>

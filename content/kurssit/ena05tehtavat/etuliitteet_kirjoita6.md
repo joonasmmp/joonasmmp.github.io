@@ -14,43 +14,43 @@ Muodosta suomenkielisen sanan vastine valitsemalla yksi seuraavista lukuun, koko
   <ol>
   
 <section>
-1. Satavuotias = &nbsp;<li><input id="q1" type="text"/><span></span></li>enary
+1. Satavuotias = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q1" type="text"/><span></span></li>enary
 </section>
 <section>
-2. Moniääninen = &nbsp;<li><input id="q2" type="text"/><span></span></li>phonic
+2. Moniääninen = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q2" type="text"/><span></span></li>phonic
 </section>
 <section>
-3. Yksitoikkoinen = &nbsp;<li><input id="q3" type="text"/><span></span></li>tonous
+3. Yksitoikkoinen = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q3" type="text"/><span></span></li>tonous
 </section>
 <section>
-4. Kahdenvälinen = &nbsp;<li><input id="q4" type="text"/><span></span></li>lateral
+4. Kahdenvälinen = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q4" type="text"/><span></span></li>lateral
 </section>
 <section>
-5. Monikielinen = &nbsp;<li><input id="q5" type="text"/><span></span></li>lingual
+5. Monikielinen = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q5" type="text"/><span></span></li>lingual
 </section>
 <section>
-6. Viisikulmainen = &nbsp;<li><input id="q6" type="text"/><span></span></li>gonal
+6. Viisikulmainen = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q6" type="text"/><span></span></li>gonal
 </section>
 <section>
-7. Puolipiste eli ; = &nbsp;<li><input id="q7" type="text"/><span></span></li>colon
+7. Puolipiste eli ; = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q7" type="text"/><span></span></li>colon
 </section>
 <section>
-8. Jalusta, kolmijalka =  &nbsp;<li><input id="q8" type="text"/><span></span></li>pod
+8. Jalusta, kolmijalka =  &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q8" type="text"/><span></span></li>pod
 </section>
 <section>
-9. Kymmentavuinen = &nbsp;<li><input id="q9" type="text"/><span></span></li>syllabic
+9. Kymmentavuinen = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q9" type="text"/><span></span></li>syllabic
 </section>
 <section>
-10. Nelijalkainen = &nbsp;<li><input id="q10" type="text"/><span></span></li>ped
+10. Nelijalkainen = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q10" type="text"/><span></span></li>ped
 </section> 
 <section>
-11. Suuruudenhullu = &nbsp;<li><input id="q11" type="text"/><span></span></li>lomaniac
+11. Suuruudenhullu = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q11" type="text"/><span></span></li>lomaniac
 </section> 
 <section>
-12. Vuosituhat = &nbsp;<li><input id="q12" type="text"/><span></span></li>ennium
+12. Vuosituhat = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q12" type="text"/><span></span></li>ennium
 </section> 
 <section>
-13. Huippumoderni = &nbsp;<li><input id="q13" type="text"/><span></span></li>-modern
+13. Huippumoderni = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q13" type="text"/><span></span></li>-modern
 </section> 
 
 </ol>

@@ -14,34 +14,34 @@ Muodosta suomenkielisen sanan vastine valitsemalla yksi seuraavista etuliitteist
   <ol>
   
 <section>
-1. Väärin diagnosoitu = &nbsp;<li><input id="q1" type="text"/><span></span></li>diagnosed
+1. Väärin diagnosoitu = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q1" type="text"/><span></span></li>diagnosed
 </section>
 <section>
-2. Epärehellisyys = &nbsp;<li><input id="q2" type="text"/><span></span></li>honesty
+2. Epärehellisyys = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q2" type="text"/><span></span></li>honesty
 </section>
 <section>
-3. Alkoholiton = &nbsp;<li><input id="q3" type="text"/><span></span></li>alcoholic
+3. Alkoholiton = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q3" type="text"/><span></span></li>alcoholic
 </section>
 <section>
-4. Epäreilu = &nbsp;<li><input id="q4" type="text"/><span></span></li>fair
+4. Epäreilu = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q4" type="text"/><span></span></li>fair
 </section>
 <section>
-5. Vastuuton = &nbsp;<li><input id="q5" type="text"/><span></span></li>responsible
+5. Vastuuton = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q5" type="text"/><span></span></li>responsible
 </section>
 <section>
-6. Hoitovirhe = &nbsp;<li><input id="q6" type="text"/><span></span></li>practice
+6. Hoitovirhe = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q6" type="text"/><span></span></li>practice
 </section>
 <section>
-7. Lainvastainen = &nbsp;<li><input id="q7" type="text"/><span></span></li>legitimate
+7. Lainvastainen = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q7" type="text"/><span></span></li>legitimate
 </section>
 <section>
-8. Epäoikeudenmukaisuus =  &nbsp;<li><input id="q8" type="text"/><span></span></li>justice
+8. Epäoikeudenmukaisuus =  &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q8" type="text"/><span></span></li>justice
 </section>
 <section>
-9. Epämuodostunut = &nbsp;<li><input id="q9" type="text"/><span></span></li>formed
+9. Epämuodostunut = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q9" type="text"/><span></span></li>formed
 </section>
 <section>
-10. Läpitunkematon = &nbsp;<li><input id="q10" type="text"/><span></span></li>penetrable
+10. Läpitunkematon = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q10" type="text"/><span></span></li>penetrable
 </section> 
 
 
