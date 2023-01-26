@@ -1,6 +1,7 @@
 ---
-title: "Valitse kokoon viittaava etuliite"
+title: "7. Valitse kokoon viittaava etuliite"
 date: 2022-2-1
+weight: 77
 draft: false
 type: page
 layout: tehtava

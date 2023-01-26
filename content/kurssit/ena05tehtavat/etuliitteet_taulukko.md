@@ -2,6 +2,7 @@
 title: "Etu- ja jälkiliitetaulukko"
 date: 2023-1-1
 draft: false
+weight: 70
 type: page
 layout: ohje
 ---

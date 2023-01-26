@@ -1,6 +1,7 @@
 ---
-title: "Muodosta sanoja etuliitteillä"
+title: "8. Muodosta sanoja etuliitteillä"
 date: 2022-2-1
+weight: 78
 draft: false
 type: page
 layout: tehtava

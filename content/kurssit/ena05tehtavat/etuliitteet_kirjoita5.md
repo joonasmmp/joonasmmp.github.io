@@ -1,6 +1,7 @@
 ---
-title: "Valitse negatiivinen etuliite"
+title: "6. Valitse negatiivinen etuliite"
 date: 2022-2-1
+weight: 76
 draft: false
 type: page
 layout: tehtava

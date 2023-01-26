@@ -2,6 +2,7 @@
 title: "Infinitiivi ja -ing: Lopputesti"
 date: 2022-5-1
 draft: false
+weight: 22
 type: page
 layout: tehtava
 ---

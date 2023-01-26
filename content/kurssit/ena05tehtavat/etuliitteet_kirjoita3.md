@@ -1,6 +1,7 @@
 ---
-title: "Muodosta adjektiivejä jälkiliitteillä"
+title: "4. Muodosta adjektiivejä jälkiliitteillä"
 date: 2022-2-1
+weight: 74
 draft: false
 type: page
 layout: tehtava

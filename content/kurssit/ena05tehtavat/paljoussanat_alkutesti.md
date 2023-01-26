@@ -2,6 +2,7 @@
 title: "Paljoussanat: Alkutesti"
 date: 2022-9-18
 draft: false
+weight: 12
 type: page
 layout: tehtava
 ---
