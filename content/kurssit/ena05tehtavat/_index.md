@@ -8,18 +8,24 @@ layout: tehtavavalikko
 Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta tai ääh emmä tiiä.
 
 ## Kielioppi / Grammar
-### Paljoussanat
+### 1. Paljoussanat
 [1. Paljoussanat: Yhdistä termit]({{<ref "paljoussanat_yhdista.mdt" >}})
 
 [2. Paljoussanat: Alkutesti]({{<ref "paljoussanat_alkutesti.mdt" >}})
 
-### Infinitiivi ja -ing
+### 2. Infinitiivi ja -ing
 [1. Infinitiivi ja -ing: Lopputesti]({{<ref "infinitiivi_lopputesti.mdt" >}})
+
+### 3. Lukusanat
+
+### 4. Ajan ja paikan prepositiot
+
+### 5. Verbi ja prepositio
 
 ## Sanasto / Vocabulary
 ### Elements-teemasanastot
 
-xx
+xxx
 
 ### Etu- ja jälkiliitteet
 

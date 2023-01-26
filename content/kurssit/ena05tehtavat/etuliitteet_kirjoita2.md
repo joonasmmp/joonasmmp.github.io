@@ -1,5 +1,5 @@
 ---
-title: "Muodosta verbejä jälkiliitteillö"
+title: "Muodosta verbejä jälkiliitteillä"
 date: 2022-2-1
 draft: false
 type: page

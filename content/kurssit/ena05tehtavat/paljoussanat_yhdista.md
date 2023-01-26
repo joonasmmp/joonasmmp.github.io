@@ -1,6 +1,7 @@
 ---
 title: "Paljoussanat: yhdistä termit"
 date: 2022-6-1
+weight: 1
 draft: false
 type: page
 layout: tehtava
