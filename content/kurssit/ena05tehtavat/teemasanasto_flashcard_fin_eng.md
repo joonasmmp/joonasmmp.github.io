@@ -11,7 +11,7 @@ layout: tehtava
  <body>
   <div id="cardArea"></div>
   <div id=valikko>
-<button id="teema1">Media</button>  <button id="teema2">Crime & Justice</button>   <button id="teema3">Politics & Global issues</button>   <button id="teema4">Human Welfare & Religion</button>
+<button id="teema1">War & Peace</button>  <button id="teema2">Science & Research</button>   <button id="teema3">Traffic</button>   <button id="teema4">IT & Comm technology</button>
 </div>
   <div id="lukumaara"></div>
   <div id="buttonArea" class="grid grid-cols-3"></div>
