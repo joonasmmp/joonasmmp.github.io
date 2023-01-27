@@ -25,7 +25,9 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 ## Sanasto / Vocabulary
 ### Elements-teemasanastot
 
-xxx
+[Flashcard: ENG-FIN]({{<ref "teemasanasto_flashcard_eng_fin.mdt" >}})
+
+[Flashcard: FIN-ENG]({{<ref "teemasanasto_flashcard_fin_eng.mdt" >}})
 
 ### Etu- ja jälkiliitteet
 

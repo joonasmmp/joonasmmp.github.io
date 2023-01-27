@@ -338,15 +338,15 @@ $(document).ready(function() {
     beginActivity();
     })
     $("#teema2").on("mousedown", function(){
-    currentQuestion = 83;
+    currentQuestion = 64;
     beginActivity();
     })
     $("#teema3").on("mousedown", function(){
-    currentQuestion = 162;
+    currentQuestion = 140;
     beginActivity();
     })
     $("#teema4").on("mousedown", function(){
-    currentQuestion = 245;
+    currentQuestion = 218;
     beginActivity();
     })
 
