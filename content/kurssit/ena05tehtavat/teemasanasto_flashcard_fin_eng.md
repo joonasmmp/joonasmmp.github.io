@@ -181,7 +181,7 @@ $(document).ready(function() {
 	["kylläinen", "saturated"], 
 	["kiinteä", "solid"], 
 	["liuos", "solution"], 
-	["aine", "substance"]
+	["aine", "substance"],
     ["tavarajuna", "freight train"], 
 	["luotijuna", "high-speed rail"], 
 	["rekka", "lorry (BrE), truck (AmE)"], 
@@ -259,7 +259,7 @@ $(document).ready(function() {
 	["keskikoroke", "traffic island"], 
 	["ruuhka", "traffic jam, congestion"], 
 	["liikennesääntö", "traffic regulation, rule of the road"], 
-	["liikennerikkomus", "traffic violation"]
+	["liikennerikkomus", "traffic violation"],
 	["sovellus", "application"], 
 	["liite(tiedosto)", "attachment"], 
 	["askelpalautin", "backspace"], 
@@ -326,7 +326,7 @@ $(document).ready(function() {
 	["vakoiluohjelma", "spyware"], 
 	["langaton verkko", "Wi-Fi"], 
 	["tekstinkäsittely", "word processing"], 
-]  ;
+    ];
 
   beginActivity();
   edellinen();

@@ -104,7 +104,7 @@ $(document).ready(function() {
 	["the Army", "maavoimat"], 
 	["the Coast Guard", "rannikkovartiosto"], 
 	["the Navy", "laivasto"], 
-	["the Marine Corps", "merijalkaväki"], .
+	["the Marine Corps", "merijalkaväki"],
     ["analysis, analyses", "analyysi, analyysit"], 
 	["average", "keskiarvo"], 
 	["cell", "solu"], 
@@ -258,7 +258,7 @@ $(document).ready(function() {
 	["traffic island", "keskikoroke"], 
 	["traffic jam, congestion", "ruuhka"], 
 	["traffic regulation, rule of the road", "liikennesääntö"], 
-	["traffic violation", "liikennerikkomus"]
+	["traffic violation", "liikennerikkomus"],
 	["application", "sovellus"], 
 	["attachment", "liite(tiedosto)"], 
 	["backspace", "askelpalautin"], 
