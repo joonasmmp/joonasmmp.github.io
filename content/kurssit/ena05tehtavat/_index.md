@@ -31,6 +31,9 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 
 [Teema 1: War & Peace: yhdistä sanat - 6/9/12]({{<ref "teemasanasto_1_yhdista1.mdt" >}})
 
+[Teema 1: War & Peace: yhdistä sanat - 6/9/12]({{<ref "teemasanasto_2_yhdista1.mdt" >}})
+
+
 ### Etu- ja jälkiliitteet
 
 Englannin kielessä on laaja sanasto, joka kasvaa jatkuvasti. Sanojen ymmärtämistä helpottaa, jos tietää tavallisten etu- ja jälkiliitteiden merkityksen.
