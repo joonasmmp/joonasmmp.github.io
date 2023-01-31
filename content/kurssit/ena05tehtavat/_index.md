@@ -22,6 +22,8 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 
 ### 5. Verbi ja prepositio
 
+[Verbi ja prepositio flashcard: Mikä prepositio?]({{<ref "verbiprepositio_flashcard.mdt" >}})
+
 ## Sanasto / Vocabulary
 ### Elements-teemasanastot
 
