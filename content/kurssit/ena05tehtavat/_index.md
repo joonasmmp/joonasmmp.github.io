@@ -9,20 +9,26 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 
 ## Kielioppi / Grammar
 ### 1. Paljoussanat
+
 [1. Paljoussanat: Yhdistä termit]({{<ref "paljoussanat_yhdista.mdt" >}})
 
 [2. Paljoussanat: Alkutesti]({{<ref "paljoussanat_alkutesti.mdt" >}})
 
 ### 2. Infinitiivi ja -ing
+
 [1. Infinitiivi ja -ing: Lopputesti]({{<ref "infinitiivi_lopputesti.mdt" >}})
 
 ### 3. Lukusanat
 
+[1. Lukusanat: Alkutesti]({{<ref "lukusanat_alkutesti.mdt" >}})
+
 ### 4. Ajan ja paikan prepositiot
+
+
 
 ### 5. Verbi ja prepositio
 
-[Verbi ja prepositio flashcard: Mikä prepositio?]({{<ref "verbiprepositio_flashcard.mdt" >}})
+[1. Verbi ja prepositio flashcard: Mikä prepositio?]({{<ref "verbiprepositio_flashcard.mdt" >}})
 
 ## Sanasto / Vocabulary
 ### Elements-teemasanastot
