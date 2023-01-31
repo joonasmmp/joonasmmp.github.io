@@ -26,6 +26,8 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 
 [1. Mikä paikan prepositio?]({{<ref "prepositiot_kirjoita1.mdt" >}})
 
+[2. Mikä paikan prepositio?]({{<ref "prepositiot_kirjoita2.mdt" >}})
+
 ### 5. Verbi ja prepositio
 
 [1. Verbi ja prepositio flashcard: Mikä prepositio?]({{<ref "verbiprepositio_flashcard.mdt" >}})
