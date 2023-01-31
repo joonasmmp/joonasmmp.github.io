@@ -27,8 +27,8 @@ Täydennä annettuja lauseita prepositioilla in/on/at.
 4. Which page is this exercise &nbsp;<li><input id="q4" type="text"/><span></span></li>&nbsp;?
 </section>
 <section>
-5. I live &nbsp;<li><input id="q5" type="text"/><span></span></li>&nbsp;
-</section> the first floor, welcome!
+5. I live &nbsp;<li><input id="q5" type="text"/><span></span></li>&nbsp; the first floor, welcome!
+</section>
 <section>
 6. I'm a city boy, but sometimes I wish I lived &nbsp;<li><input id="q6" type="text"/><span></span></li>&nbsp; the countryside. 
 </section>
