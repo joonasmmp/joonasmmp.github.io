@@ -27,7 +27,7 @@ Täydennä annettuja lauseita prepositioilla in/on/at/by.
 4. I'm &nbsp;<li><input id="q4" type="text"/><span></span></li>&nbsp; my way to school even though I've already failed all my exams. 
 </section>
 <section>
-5. Going to school every morning &nbsp;<li><input id="q5" type="text"/><span></span></li>&nbsp; a helicopter is crazy expensive. That's why I do it.
+5. Traveling to school &nbsp;<li><input id="q5" type="text"/><span></span></li>&nbsp; a helicopter every morning is crazy expensive. That's why I do it.
 </section>
 <section>
 6. While riding I laugh at the poor kids going to school &nbsp;<li><input id="q6" type="text"/><span></span></li>&nbsp; bike. 
@@ -36,10 +36,10 @@ Täydennä annettuja lauseita prepositioilla in/on/at/by.
 7. Who's &nbsp;<li><input id="q7" type="text"/><span></span></li>&nbsp; the door? Go away!
 </section>
 <section>
-8. I had an interesting discussion with my secretary &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; breakfast?
+8. I had an interesting discussion with my secretary &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; breakfast.
 </section>
 <section>
-9. Put your hands &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; mym shoulders and massage me, Brian. 
+9. Put your hands &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; my shoulders and massage me, Brian. 
 </section>
 <section>
 10. Giving people unwanted massages might make you end up &nbsp;<li><input id="q10" type="text"/><span></span></li>&nbsp; jail. 
