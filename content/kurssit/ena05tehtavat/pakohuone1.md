@@ -30,9 +30,15 @@ layout: tehtava
 
 One of you finds a piece of paper from behind the lock. On the paper, there are four sentences with four options, each labeled 1–4. You have to crack the code by choosing the correct option and assembling the correct, four-number code.</p>
 
-<p><b>1. much / 2. many / 3. a little / 4. a few</b></p>
+<p><b> / 2. many / 3. a little / 4. a few</b></p>
 
-<p> I only need ____ luck to succeed.</p>
+<p> I only need <label for="language">I only need</label>
+<select name="language" id="language">
+  <option>1. much</option>
+  <option>2. many</option>
+  <option>3. a little</option>
+  <option>4. few</option>
+</select> luck to succeed.</p>
 <p>We don't have ____ time left.</p>
 <p> There a so ____ tasks left to solve.</p>
 <p>There's not a lot of us, but I'm glad to have ____ friends doing this task with me.</p>
