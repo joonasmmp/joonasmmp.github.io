@@ -45,7 +45,7 @@ One of you finds a piece of paper from behind the lock. On the paper, there are 
   <option>3. a little</option>
   <option>4. a few</option>
 </select> time left.</p>
-<p> There a so <select>
+<p> There are so <select>
   <option style="display:none">
   <option>1. much</option>
   <option>2. many</option>
@@ -288,6 +288,46 @@ input#submit {
     letter-spacing: 3px;
     border: 1px solid #eeeeee;
 }
+
+.dark input[type="text"] {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: inherit;
+    background-color: #fafafa;
+    text-align: center;
+    display: block;
+    outline: none;
+    width: 300px;
+    color: white;
+    background-color: #181A1B;
+    margin: 0.5em auto 1.5em;
+}
+
+.dark input#submit {
+    display: block;
+    outline: none;
+    width: 300px;
+    color: white;
+    margin: 0.5em auto 0.5em;
+    background: #f8f8f8;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: #181A1B;
+    border: 1px solid #eeeeee;
+}
+
+  #finalMessage {
+    background: white;
+    color: black;
+    padding-bottom: 2em;
+    }
+
+  .dark #finalMessage {
+    background: #181A1B;
+    color:white;
+    padding-bottom: 2em;
+  }
 </style>
 
 <script>
@@ -335,10 +375,11 @@ function checkAnswer() {
 
 
   // Continue, if answer is correct
-  if (correct) {
+    if (correct) {
     questionsAsked++; //Increase questionsAsked
     if (questionsAsked >= questionOrder.length) {
-      window.alert("Finally, the door opens and you get out");
+    $("#ques8").empty();
+    $("#ques8").append('<div id="finalMessage">Great success!<br><br>Finally, the door opens and you get out.</div>');
     } else {
       hideAllExcept(questionOrder[questionsAsked]); // Start over at step 2
     }
