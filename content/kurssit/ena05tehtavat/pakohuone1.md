@@ -8,6 +8,79 @@ layout: tehtava
 ---
 
 {{< rawhtml >}}
+
+<script>
+window.onload = function() {
+  var questionCnt = $("div.ques").length;
+  questionOrder = [0,1,2,3,4,5,6,7,8,9,10,11,12];
+    questionsAsked = 0;
+    hideAllExcept(questionOrder[questionsAsked]);
+  
+}
+
+// == Used for Task 2: Hides all questions except the given one ==
+function hideAllExcept(question) {
+  $("div.ques").hide(); // Hides all questions
+  $("#ques" + question).show(); // Shows only the given question
+}
+
+// The answers
+var answers = [
+  ["start"],
+  ["3124"],
+  ["taicurod"],
+  ["You’ll find the first clue near the formulae on the desk", "near the formulae on the desk", "near the formulae", "on the desk", "the desk", "desk"],
+	["yamaha"],
+	["altitude"],
+	["20"],
+  ["heel"],
+  ["taskinen"],
+  ["awkward"],
+  ["kerkkä"],
+  ["scenery"],
+  ["cornilleau"],
+];
+
+// == Used for Task 4: Triggered by the link, checks an answer ==
+function checkAnswer() {
+
+  var questionNumber = questionOrder[questionsAsked]; // The number of the question that is shown at the moment
+  var answer; // Get the answer
+
+  if (questionNumber == 1) {
+    answer = $("#ques" + questionNumber + " input").val().toLowerCase().trim();
+  } else {
+    answer = $("#ques" + questionNumber + " input").val().toLowerCase().trim(); // The value of the input field that is placed in the given question
+  }
+
+  // Check whether the answer is correct
+  var correct = answers[questionNumber].indexOf(answer) != -1;
+
+
+  // Continue, if answer is correct
+  if (correct) {
+    questionsAsked++; //Increase questionsAsked
+    if (questionsAsked >= questionOrder.length) {
+      window.alert("Well done, you've completed the quiz!");
+    } else {
+      hideAllExcept(questionOrder[questionsAsked]); // Start over at step 2
+    }
+  }
+}
+
+$("form").on("submit", function(e) {
+	e.preventDefault();
+  checkAnswer();
+
+const input = document.querySelector('.tehtava input');
+const span = document.querySelector('.tehtava span');
+
+document.querySelectorAll("input").forEach(elem => elem.addEventListener('input', function (event) {
+    span.innerHTML = this.value.replace(/\s/g, '&nbsp;');
+    this.style.width = span.offsetWidth + 'px';
+}));
+
+});</script>
  
  <form autocomplete="off">
           <div id="ques0" class="ques">
@@ -32,18 +105,37 @@ One of you finds a piece of paper from behind the lock. On the paper, there are 
 
 <p><b> / 2. many / 3. a little / 4. a few</b></p>
 
-<p> I only need <label for="language">I only need</label>
-<select name="language" id="language">
+<p> I only need 
+<select>
+  <option style="display:none">
   <option>1. much</option>
   <option>2. many</option>
   <option>3. a little</option>
   <option>4. few</option>
 </select> luck to succeed.</p>
-<p>We don't have ____ time left.</p>
-<p> There a so ____ tasks left to solve.</p>
-<p>There's not a lot of us, but I'm glad to have ____ friends doing this task with me.</p>
+<p>We don't have <select>
+  <option style="display:none">
+  <option>1. much</option>
+  <option>2. many</option>
+  <option>3. a little</option>
+  <option>4. few</option>
+</select> time left.</p>
+<p> There a so <select>
+  <option style="display:none">
+  <option>1. much</option>
+  <option>2. many</option>
+  <option>3. a little</option>
+  <option>4. few</option>
+</select> tasks left to solve.</p>
+<p>There's not a lot of us, but I'm glad to have <select>
+  <option style="display:none">
+  <option>1. much</option>
+  <option>2. many</option>
+  <option>3. a little</option>
+  <option>4. few</option>
+</select> friends doing this task with me.</p>
 
-    <input type="text" name="answer1"/>
+<input type="text" name="answer1"/>
 </div>
 
 <div id="ques2" class="ques">
@@ -172,77 +264,4 @@ input#submit {
     border: 1px solid #eeeeee;
 }
 </style>
-
-<script>
-window.onload = function() {
-  var questionCnt = $("div.ques").length;
-  questionOrder = [0,1,2,3,4,5,6,7,8,9,10,11,12];
-    questionsAsked = 0;
-    hideAllExcept(questionOrder[questionsAsked]);
-  
-}
-
-// == Used for Task 2: Hides all questions except the given one ==
-function hideAllExcept(question) {
-  $("div.ques").hide(); // Hides all questions
-  $("#ques" + question).show(); // Shows only the given question
-}
-
-// The answers
-var answers = [
-  ["start"],
-  ["3124"],
-  ["taicurod"],
-  ["You’ll find the first clue near the formulae on the desk", "near the formulae on the desk", "near the formulae", "on the desk", "the desk", "desk"],
-	["yamaha"],
-	["altitude"],
-	["20"],
-  ["heel"],
-  ["taskinen"],
-  ["awkward"],
-  ["kerkkä"],
-  ["scenery"],
-  ["cornilleau"],
-];
-
-// == Used for Task 4: Triggered by the link, checks an answer ==
-function checkAnswer() {
-
-  var questionNumber = questionOrder[questionsAsked]; // The number of the question that is shown at the moment
-  var answer; // Get the answer
-
-  if (questionNumber == 1) {
-    answer = $("#ques" + questionNumber + " input").val().toLowerCase().trim();
-  } else {
-    answer = $("#ques" + questionNumber + " input").val().toLowerCase().trim(); // The value of the input field that is placed in the given question
-  }
-
-  // Check whether the answer is correct
-  var correct = answers[questionNumber].indexOf(answer) != -1;
-
-
-  // Continue, if answer is correct
-  if (correct) {
-    questionsAsked++; //Increase questionsAsked
-    if (questionsAsked >= questionOrder.length) {
-      window.alert("Well done, you've completed the quiz!");
-    } else {
-      hideAllExcept(questionOrder[questionsAsked]); // Start over at step 2
-    }
-  }
-}
-
-$("form").on("submit", function(e) {
-	e.preventDefault();
-  checkAnswer();
-
-const input = document.querySelector('.tehtava input');
-const span = document.querySelector('.tehtava span');
-
-document.querySelectorAll("input").forEach(elem => elem.addEventListener('input', function (event) {
-    span.innerHTML = this.value.replace(/\s/g, '&nbsp;');
-    this.style.width = span.offsetWidth + 'px';
-}));
-
-});</script>
 {{< /rawhtml >}}
