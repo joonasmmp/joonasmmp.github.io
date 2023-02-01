@@ -2,7 +2,7 @@
 title: "1. Valitse oikea pääte"
 date: 2023-1-1
 draft: false
-weight: 71
+weight: 81
 type: page
 layout: tehtava
 ---

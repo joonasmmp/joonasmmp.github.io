@@ -3,6 +3,7 @@ title: "Teema 1: Media - yhdistä sanat 2"
 date: 2022-6-1
 draft: false
 type: page
+weight: 67
 layout: tehtava
 ---
 {{< rawhtml >}}

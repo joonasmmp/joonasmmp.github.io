@@ -2,7 +2,7 @@
 title: "Lukusanat: Alkutesti"
 date: 2022-9-18
 draft: false
-weight: 12
+weight: 32
 type: page
 layout: tehtava
 ---

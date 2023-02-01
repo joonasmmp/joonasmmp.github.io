@@ -1,7 +1,7 @@
 ---
 title: "3. Muodosta verbejä jälkiliitteillä"
 date: 2022-2-1
-weight: 73
+weight: 83
 draft: false
 type: page
 layout: tehtava

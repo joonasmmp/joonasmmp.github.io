@@ -1,7 +1,7 @@
 ---
 title: "8. Muodosta sanoja etuliitteillä"
 date: 2022-2-1
-weight: 78
+weight: 88
 draft: false
 type: page
 layout: tehtava

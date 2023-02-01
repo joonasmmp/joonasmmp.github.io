@@ -2,6 +2,7 @@
 title: "Prepositioilmaisuja: Flashcard"
 date: 2022-1-11
 draft: false
+weight: 52
 type: page
 layout: tehtava
 ---

@@ -3,6 +3,7 @@ title: "Teema 4: Information & Communications technology - Yhdistä"
 date: 2022-6-1
 draft: false
 type: page
+weight: 70
 layout: tehtava
 ---
 Etsi sanaa vastaava käännös. Numeroita klikkaamalla voit luoda haluamasi määrän uusia pareja.

@@ -1,7 +1,7 @@
 ---
 title: "2. Muodosta sanat liitteiden avulla"
 date: 2022-2-1
-weight: 72
+weight: 82
 draft: false
 type: page
 layout: tehtava

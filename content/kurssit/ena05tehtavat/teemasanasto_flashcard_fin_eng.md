@@ -3,6 +3,7 @@ title: "Teemasanasto: FIN-ENG"
 date: 2022-6-1
 draft: false
 type: page
+weight: 63
 layout: tehtava
 ---
 {{< rawhtml >}}

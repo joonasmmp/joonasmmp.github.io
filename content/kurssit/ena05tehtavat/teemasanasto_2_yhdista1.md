@@ -3,6 +3,7 @@ title: "Teema 1: War & Peace - Yhdistä"
 date: 2022-6-1
 draft: false
 type: page
+weight: 66
 layout: tehtava
 ---
 Etsi sanaa vastaava käännös. Numeroita klikkaamalla voit luoda haluamasi määrän uusia pareja.

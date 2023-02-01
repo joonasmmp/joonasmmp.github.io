@@ -3,6 +3,7 @@ title: "Teema 3: Traffic - Yhdistä"
 date: 2022-6-1
 draft: false
 type: page
+weight: 68
 layout: tehtava
 ---
 Etsi sanaa vastaava käännös. Numeroita klikkaamalla voit luoda haluamasi määrän uusia pareja.

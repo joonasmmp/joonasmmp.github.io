@@ -1,7 +1,7 @@
 ---
 title: "5. Käännä suomeksi"
 date: 2022-2-1
-weight: 75
+weight: 85
 draft: false
 type: page
 layout: tehtava

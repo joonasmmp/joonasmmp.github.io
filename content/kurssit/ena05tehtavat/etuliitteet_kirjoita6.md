@@ -1,7 +1,7 @@
 ---
 title: "7. Valitse kokoon viittaava etuliite"
 date: 2022-2-1
-weight: 77
+weight: 87
 draft: false
 type: page
 layout: tehtava

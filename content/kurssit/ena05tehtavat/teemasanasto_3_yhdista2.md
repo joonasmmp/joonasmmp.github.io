@@ -3,6 +3,7 @@ title: "Teema 3: Traffic - yhdistä sanat"
 date: 2022-6-1
 draft: false
 type: page
+weight: 69
 layout: tehtava
 ---
 {{< rawhtml >}}

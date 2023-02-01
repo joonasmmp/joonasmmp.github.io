@@ -1,7 +1,7 @@
 ---
 title: "1. Mikä paikan prepositio?"
 date: 2022-2-1
-weight: 72
+weight: 42
 draft: false
 type: page
 layout: tehtava

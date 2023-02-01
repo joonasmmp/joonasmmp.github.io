@@ -3,6 +3,7 @@ title: "Teema 4: Information & Communications technology - Yhdistä"
 date: 2022-6-1
 draft: false
 type: page
+weight: 71
 layout: tehtava
 ---
 {{< rawhtml >}}

@@ -2,7 +2,7 @@
 title: "10. Valitse oikea etuliite"
 date: 2022-2-1
 draft: false
-weight: 80
+weight: 90
 type: page
 layout: tehtava
 ---
