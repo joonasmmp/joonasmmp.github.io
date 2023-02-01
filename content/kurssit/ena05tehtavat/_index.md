@@ -7,6 +7,8 @@ layout: tehtavavalikko
 ---
 Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta tai ääh emmä tiiä.
 
+[Pakohuone: Elements 5]({{<ref "pakohuone1.mdt" >}})
+
 ## Kielioppi / Grammar
 ### 1. Paljoussanat
 

@@ -1,7 +1,7 @@
 ---
-title: "Pakohuone"
+title: "Pakohuone: Elements 5"
 date: 2022-2-1
-weight: 72
+weight: 100
 draft: false
 type: page
 layout: tehtava
@@ -321,12 +321,19 @@ input#submit {
     background: white;
     color: black;
     padding-bottom: 2em;
+    padding-top: 1em;
     }
 
   .dark #finalMessage {
     background: #181A1B;
     color:white;
     padding-bottom: 2em;
+    padding-top: 1em;
+  }
+
+  .dark select {
+    background-color: #181A1B;
+    color: white;
   }
 </style>
 
