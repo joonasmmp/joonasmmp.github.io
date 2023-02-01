@@ -36,28 +36,28 @@ One of you finds a piece of paper from behind the lock. On the paper, there are 
   <option>1. much</option>
   <option>2. many</option>
   <option>3. a little</option>
-  <option>4. few</option>
+  <option>4. a few</option>
 </select> luck to succeed.</p>
 <p>We don't have <select>
   <option style="display:none">
   <option>1. much</option>
   <option>2. many</option>
   <option>3. a little</option>
-  <option>4. few</option>
+  <option>4. a few</option>
 </select> time left.</p>
 <p> There a so <select>
   <option style="display:none">
   <option>1. much</option>
   <option>2. many</option>
   <option>3. a little</option>
-  <option>4. few</option>
+  <option>4. a few</option>
 </select> tasks left to solve.</p>
 <p>There's not a lot of us, but I'm glad to have <select>
   <option style="display:none">
   <option>1. much</option>
   <option>2. many</option>
   <option>3. a little</option>
-  <option>4. few</option>
+  <option>4. a few</option>
 </select> friends doing this task with me.</p>
 
 <input type="text" name="answer1"/>
@@ -92,8 +92,8 @@ Rearrange the jumbled letters and create words related to traffic. Take the firs
 
 <p>A strange text flashes up on one of the computer screens:</p>
 
-<p>/juːl faɪnd ðə fɜːst kluː nɪə ðə ˈfɔːmjʊliː ɒn ðə dɛsk/.</p>
-<p>Where is the next clue?.</p>
+<p><i>/juːl faɪnd ðə fɜːst kluː nɪə ðə ˈfɔːmjʊliː ɒn ðə dɛsk/<i></p>
+<p>Where is the next clue?</p>
 <input type="text" name="answer3"/>
 </div>
 
@@ -306,8 +306,8 @@ var answers = [
   ["start"],
   ["3124"],
   ["taicurod"],
-  ["You’ll find the first clue near the formulae on the desk", "near the formulae on the desk", "near the formulae", "on the desk", "the desk", "desk"],
-  ["R2D2C3PO"],
+  ["you’ll find the first clue near the formulae on the desk", "near the formulae on the desk", "near the formulae", "on the desk", "the desk", "desk"],
+  ["r2d2c3po"],
   ["copernicus"],
   ["1473"],
   ["trench"],
