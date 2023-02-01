@@ -20,7 +20,7 @@ layout: tehtava
 
 <p>The student hosting you says that they recognised the room where the stream was coming from. It was one of the laboratories in the basement.</p>
 
-<p>Start your adventure by typing 'start' on the answer box below.</p>
+<p>Start your adventure by typing 'start'.</p>
     <input type="text" name="answer0"/>
 </div>
 
@@ -30,7 +30,7 @@ layout: tehtava
 
 One of you finds a piece of paper from behind the lock. On the paper, there are four sentences with four options, each labeled 1–4. You have to crack the code by choosing the correct option and assembling the correct, four-number code.</p>
 
-<p> 1. much / 2. many / 3. a little / 4. a few</p>
+<p><b>1. much / 2. many / 3. a little / 4. a few</b></p>
 
 <p> I only need ____ luck to succeed.</p>
 <p>We don't have ____ time left.</p>
@@ -155,32 +155,15 @@ input[type="text"] {
     text-align: center;
 }
 
-.grid button {
-  color: white;
-  width: 125px;
-  font-size: 18px;
-  background: #00abc3;
-  margin-top: 4px;
-  padding: 0px;
-  border: 1px solid #000000;
-  border-radius: 3px;
-}
-
-#resetbutton{
-  background: white;
-  border: 0px;
-}
-
-#resetbutton2{
-  background: white;
-  border: 0px;
-}
-				
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+input#submit {
+    display: block;
+    outline: none;
+    width: 300px;
+    margin: 0.5em auto 0.5em;
+    background: #f8f8f8;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: 1px solid #eeeeee;
 }
 </style>
 
