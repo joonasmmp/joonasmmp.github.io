@@ -30,9 +30,9 @@ var answers = [
   ["3124"],
   ["taicurod"],
   ["You’ll find the first clue near the formulae on the desk", "near the formulae on the desk", "near the formulae", "on the desk", "the desk", "desk"],
-	["yamaha"],
-	["altitude"],
-	["20"],
+  ["yamaha"],
+  ["altitude"],
+  ["20"],
   ["heel"],
   ["taskinen"],
   ["awkward"],
@@ -71,15 +71,6 @@ function checkAnswer() {
 $("form").on("submit", function(e) {
 	e.preventDefault();
   checkAnswer();
-
-const input = document.querySelector('.tehtava input');
-const span = document.querySelector('.tehtava span');
-
-document.querySelectorAll("input").forEach(elem => elem.addEventListener('input', function (event) {
-    span.innerHTML = this.value.replace(/\s/g, '&nbsp;');
-    this.style.width = span.offsetWidth + 'px';
-}));
-
 });</script>
  
  <form autocomplete="off">
@@ -102,8 +93,6 @@ document.querySelectorAll("input").forEach(elem => elem.addEventListener('input'
   <p>You follow the student and find the laboratory. There is a digital lock, and the door won’t open. But what is the code to open the door?
 
 One of you finds a piece of paper from behind the lock. On the paper, there are four sentences with four options, each labeled 1–4. You have to crack the code by choosing the correct option and assembling the correct, four-number code.</p>
-
-<p><b> / 2. many / 3. a little / 4. a few</b></p>
 
 <p> I only need 
 <select>
