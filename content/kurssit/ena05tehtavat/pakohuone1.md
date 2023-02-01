@@ -7,13 +7,10 @@ type: page
 layout: tehtava
 ---
 
-Kuinka hyvin muistat sanojen päätteet? Muodosta sana lisäämällä jokin jälkiliite annettuun sanaan.
-
 {{< rawhtml >}}
  
  <form autocomplete="off">
           <div id="ques0" class="ques">
- <h2>Introduction</h2>
   <h2>Introduction</h2>
   <p>You are on an Erasmus trip in Italy. On the first day of the trip you are visiting the University of Padua, where Galileo Galilei, the father of the scientific method, was appointed as the first chair of mathematics and physics and taught for 18 years. You have gathered in the auditorium to watch a video presentation when suddenly the presentation is interrupted by a video stream from one of the laboratories at the university. A crazy looking scientist yells:</p>
 
@@ -140,10 +137,11 @@ Rearrange the jumbled letters and create words related to traffic. Take the firs
 </div>
 
 <br>
-  <input type="submit" id="submit" value="Tarkista vastaus" />
+
   </form>
-  </div>
-        
+
+  <input type="submit" id="submit" value="Tarkista vastaus" />
+  
 <style>
 		
 
