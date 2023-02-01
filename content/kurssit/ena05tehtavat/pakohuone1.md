@@ -92,14 +92,14 @@ Rearrange the jumbled letters and create words related to traffic. Take the firs
 
 <p>A strange text flashes up on one of the computer screens:</p>
 
-<p><i>/juːl faɪnd ðə fɜːst kluː nɪə ðə ˈfɔːmjʊliː ɒn ðə dɛsk/<i></p>
+<p><i>/juːl faɪnd ðə fɜːst kluː nɪə ðə ˈfɔːmjʊliː ɒn ðə dɛsk/</i></p>
 <p>Where is the next clue?</p>
 <input type="text" name="answer3"/>
 </div>
 
 <div id="ques4" class="ques">
 <h2>Task 4</h2>
-<p>You go to the desk and find the stack of formulae. On top of them you find instructions to open the desk drawer.  </p>
+<p>You go to the desk and find the stack of formulae. On top of them you find instructions to open the desk drawer.</p>
 <p>Choose the correct verb form to complete the sentences. The password to open the desk drawer is formed from the letters and numbers at the end of each correct verb form.</p>
 
 <p>1. Don’t be afraid of <select>
@@ -289,7 +289,7 @@ input#submit {
 <script>
 window.onload = function() {
   var questionCnt = $("div.ques").length;
-  questionOrder = [0,1,2,3,4,5,6,7,8,9,10,11,12];
+  questionOrder = [0,1,2,3,4,5,6,7,8];
     questionsAsked = 0;
     hideAllExcept(questionOrder[questionsAsked]);
   
