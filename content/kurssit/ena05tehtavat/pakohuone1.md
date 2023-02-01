@@ -292,7 +292,7 @@ input#submit {
 .dark input[type="text"] {
     outline: none;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     font-size: inherit;
     background-color: #fafafa;
     text-align: center;
