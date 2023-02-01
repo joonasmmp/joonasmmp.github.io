@@ -254,7 +254,6 @@ through all the alternatives.</p>
 <p>Go to the door that leads to the waiting room.</p>
 <p>Outside the waiting room door you hear some noise. Suddenly, a low male voice asks you the following question:</p>
 <p>Name three professions that Galileo Galilei had during his life.</p>
-<br>
 <p>P, E, A</p>
     <input type="text" name="answer8"/>
 </div>
@@ -264,6 +263,10 @@ through all the alternatives.</p>
 </form>
 
 <style>
+.ques {
+    display: none;
+}
+
 		
 input[type="text"] {
     outline: none;
