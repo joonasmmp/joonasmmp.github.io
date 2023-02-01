@@ -1,5 +1,5 @@
 ---
-title: "Paljoussanat: Alkutesti"
+title: "Lukusanat: Alkutesti"
 date: 2022-9-18
 draft: false
 weight: 12
