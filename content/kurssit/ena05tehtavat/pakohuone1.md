@@ -13,27 +13,21 @@ Kuinka hyvin muistat sanojen päätteet? Muodosta sana lisäämällä jokin jäl
  
  <form autocomplete="off">
           <div id="ques0" class="ques">
-  <h2>Kysymys 1</h2>
-  <p>What is the number of the class we are currently in?</p>
+ <h2>Introduction</h2>
+  <h2>Introduction</h2>
+  <p>You are on an Erasmus trip in Italy. On the first day of the trip you are visiting the University of Padua, where Galileo Galilei, the father of the scientific method, was appointed as the first chair of mathematics and physics and taught for 18 years. You have gathered in the auditorium to watch a video presentation when suddenly the presentation is interrupted by a video stream from one of the laboratories at the university. A crazy looking scientist yells:</p>
+
+<p>I want to be the next Galileo Galilei! I have his original scripts and formulae! I will hide them from the rest of the world, and nobody will see them ever again!</p>
+
+<p>You look at each other in surprise, as the camera the scientist is using for the stream shows him putting something in a metal box. Then the stream is cut off.</p>
+
+<p>The student hosting you says that they recognised the room where the stream was coming from. It was one of the laboratories in the basement.</p>
+
+<p>Start your adventure by typing 'start' on the answer box below.</p>
     <input type="text" name="answer0"/>
 </div>
 
 <div id="ques1" class="ques">
-  <h2>Introduction</h2>
-  <p>You are on an Erasmus trip in Italy. On the first day of the trip you are visiting the University of Padua, where Galileo Galilei, the father of the scientific method, was appointed as the first chair of mathematics and physics and taught for 18 years. You have gathered in the auditorium to watch a video presentation when suddenly the presentation is interrupted by a video stream from one of the laboratories at the university. A crazy looking scientist yells:
-
-I want to be the next Galileo Galilei! I have his original scripts and formulae! I will hide them from the rest of the world, and nobody will see them ever again!
-
-You look at each other in surprise, as the camera the scientist is using for the stream shows him putting something in a metal box. Then the stream is cut off.
-
-The student hosting you says that they recognised the room where the stream was coming from. It was one of the laboratories in the basement.
-
-Start your adventure by typing 'start' on the answer box below. 
-</p>
-    <input type="text" name="answer1"/>
-</div>
-
-<div id="ques2" class="ques">
   <h2>Task 1</h2>
   <p>You follow the student and find the laboratory. There is a digital lock, and the door won’t open. But what is the code to open the door?
 
@@ -45,10 +39,11 @@ One of you finds a piece of paper from behind the lock. On the paper, there are 
 <p>We don't have ____ time left.</p>
 <p> There a so ____ tasks left to solve.</p>
 <p>There's not a lot of us, but I'm glad to have ____ friends doing this task with me.</p>
-    <input type="text" name="answer2"/>
- </div>
 
-<div id="ques3" class="ques">
+    <input type="text" name="answer1"/>
+</div>
+
+<div id="ques2" class="ques">
   <h2>Task 2</h2>
   <p>The door opens, but the room behind it is not a laboratory. It is a sort of a waiting room. There is a padlock attached to the door at the back of the room. Another code is missing.  
 
@@ -64,10 +59,10 @@ Rearrange the jumbled letters and create words related to traffic. Take the firs
 <p>6. okra sword – Slowing you down</p>
 <p>7. evoke art – Let’s go faster!</p>
 <p>8. diviner so – The long way round</p>
-<input type="text" name="answer3"/>
-</div>
+    <input type="text" name="answer2"/>
+ </div>
 
-<div id="ques4" class="ques">
+<div id="ques3" class="ques">
   <h2>Task 3</h2>
   <p>The code is correct, and you finally step in the laboratory. It is pitch black. You are looking for the light switch, when the door closes behind you. You turn the lights on, and one of you tries to open the door to the waiting room, but it doesn’t open! You are trapped inside the laboratory.</p>
 
@@ -79,7 +74,11 @@ Rearrange the jumbled letters and create words related to traffic. Take the firs
 
 <p>/juːl faɪnd ðə fɜːst kluː nɪə ðə ˈfɔːmjʊliː ɒn ðə dɛsk/.</p>
 <p>Where is the next clue?.</p>
-<p>What is the name of the maker of that instrument?</p>
+<input type="text" name="answer3"/>
+</div>
+
+<div id="ques4" class="ques">
+
     <input type="text" name="answer4"/>
 </div>
 
@@ -144,46 +143,14 @@ Rearrange the jumbled letters and create words related to traffic. Take the firs
   <input type="submit" id="submit" value="Tarkista vastaus" />
   </form>
   </div>
-  </div>
         
-
-
-
 <style>
 		
-
-
-body {
-  padding: 20px;
-  font-family: 'Times New Roman', serif;
-  text-align: center;
-}
-
-.grid #question {
-    font-family: 'Times New Roman', serif;
-    font-size: 22px;
-    color: #000000;
-    
-    }
-
-.grid h1 {
-  font-size: 20px;
-  font-family: 'Times New Roman', serif;
-  color: #00abc3;
-}
-				
-.grid h2 {
-  font-size: 20px;
-  font-family: 'Times New Roman', serif;
-  color: #00abc3;
-}
-
 
 .grid button {
   color: white;
   width: 125px;
   font-size: 18px;
-  font-family: 'Times New Roman', serif;
   background: #00abc3;
   margin-top: 4px;
   padding: 0px;
