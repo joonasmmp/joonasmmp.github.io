@@ -101,67 +101,163 @@ Rearrange the jumbled letters and create words related to traffic. Take the firs
 <h2>Task 4</h2>
 <p>You go to the desk and find the stack of formulae. On top of them you find instructions to open the desk drawer.  </p>
 <p>Choose the correct verb form to complete the sentences. The password to open the desk drawer is formed from the letters and numbers at the end of each correct verb form.</p>
+
+<p>1. Don’t be afraid of <select>
+  <option style="display:none">
+  <option>take F</option>
+  <option>taking R</option>
+  <option>to take T</option>
+</select>
+ challenges.</p>
+<p>2. In life, you are made <select>
+  <option style="display:none">
+  <option>to solve 2</option>
+  <option>solving 3</option>
+  <option>solve 5</option>
+</select>
+ many problems.</p>
+<p>3. Why don’t you let me  <select>
+  <option style="display:none">
+  <option>to help C</option>
+  <option>helping G</option>
+  <option>help D</option>
+</select>
+ you with the code?</p>
+<p>4. You had better <select>
+  <option style="display:none">
+  <option>look 2</option>
+  <option>looking 6</option>
+  <option>to look 4</option>
+</select>
+ at the sentences carefully.</p>
+<p>5. I want <select>
+  <option style="display:none">
+  <option>you go B</option>
+  <option>you to go C</option>
+  <option>you going Z</option>
+</select>
+through all the alternatives.</p>
+<p>6. We all enjoy <select>
+  <option style="display:none">
+  <option>to study 7</option>
+  <option>studying 3</option>
+  <option>study 9</option>
+</select>
+ many kinds of things, don’t we?</p>
+<p>7. Are you looking forward to <select>
+  <option style="display:none">
+  <option>have found L</option>
+  <option>finding P</option>
+  <option>find H</option>
+</select>
+ the next clue?</p>
+<p>8. Why not <select>
+  <option style="display:none">
+  <option>opening M</option>
+  <option>open O</option>
+  <option>to open Q</option>
+</select>
+ the drawer right now?</p>
+
+
    <input type="text" name="answer4"/>
 </div>
 
 <div id="ques5" class="ques">
-  <h2>Kysymys 6</h2>
-  <p>In Unit 5, the word for "korkeus was 'the ______'" </p>
-    <input type="text" name="answer5"/>
+  <h2>Task 5</h2>
+  <p>You open the drawer and you find a page full of the names of different scientists. On the back of the page there is a riddle. To solve the riddle, you need to know the symbols for the elements.</p>
+
+<p>Carbon</p>
+<p>Oxygen</p>
+<p>Phosphorus</p>
+<p>Erbium</p>
+<p>Nickel</p>
+<p>Copper</p>
+<p>Sulfur</p>
+
+<input type="text" name="answer5"/>
 </div>
 
 <div id="ques6" class="ques">
-  <h2>Kysymys 7</h2>
-  <p>How many steps are there in the staircase that</p>
-  <p>starts outside the door of the music class? </p>
+  <h2>Task 6</h2>
+  <p>You look around the laboratory and find a painting of Nicolaus Copernicus. Below the painting you see a combination lock. You are sure you have found the place for the metal box! But what is the right combination?  </p>
+  <p>Next to the painting there is a blackboard and you notice that there are some calculations that need to be solved. You start doing the math.</p>
   <p>hint: count the final step to the top floor, but not the ground floor. </p>
-    <input type="text" name="answer6"/>
+
+<p>1. one to the power of four times one = </p>
+<p>2. two cubed minus four = </p>
+<p>3. fifteen divided by three plus two = </p>
+<p>4. the square root of sixteen minus one =</p>
+
+<p>When was Copernicus born?</p>
+
+<input type="text" name="answer6"/>
 </div>
 
 <div id="ques7" class="ques">
-  <h2>Kysymys 8</h2>
-  <p>What was the English word for 'kantapää?'  </p>
-    <input type="text" name="answer7"/>
+  <h2>Task 7</h2>
+  <p>You manage to get the correct code for the combination lock. The painting swings open, revealing ... nothing. You stare at the wall. There’s still nothing there.  </p>
+  <p>Suddenly your friend cries out in triumph. There is a flash drive taped to the back of the painting. You attach it to the computer on the desk.  </p>
+  <p>What pops up on the screen is a grid with words. The instructions read: </p>
+  <p>Start on the top left corner and find your way through. You can move vertically, horizontally and diagonally. Pay attention to the beginning and the ending. </p><br>
+  <p>With that cryptic clue, it’s time to start.</p>
+
+  <style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax">border</th>
+    <th class="tg-0lax">rebellion</th>
+    <th class="tg-0lax">ambush</th>
+    <th class="tg-0lax">combat</th>
+    <th class="tg-0lax">disarmament</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">siege</td>
+    <td class="tg-0lax">negotiate</td>
+    <td class="tg-0lax">ethnic cleansing</td>
+    <td class="tg-0lax">guerilla war</td>
+    <td class="tg-0lax">weaponry</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">invade</td>
+    <td class="tg-0lax">retreat</td>
+    <td class="tg-0lax">armoury</td>
+    <td class="tg-0lax">infantry</td>
+    <td class="tg-0lax">regiment</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">trench</td>
+    <td class="tg-0lax">warfare</td>
+    <td class="tg-0lax">surrender</td>
+    <td class="tg-0lax">troops</td>
+    <td class="tg-0lax">occupation</td>
+  </tr>
+</tbody>
+</table>
+
+   <input type="text" name="answer7"/>
 </div>
 
 <div id="ques8" class="ques">
-  <h2>Kysymys 9</h2>
-  <p>The main architect in charge of the design of our</p>
-<p>beautiful school was called Heikki. What was his last name?</p>
-<p>hint: being in this location will be very helpful.</p>
-  <img src="https://joonasmmp.github.io/englantia/sijainti.jpg" style="width:300px;height:400px;" class="center">
+  <h2>Task 8</h2>
+  <p>You follow the map and find a metal box! But… it isn’t locked. There are papers, and they are blank except one. It says:</p>
+<p>Go to the door that leads to the waiting room.</p>
+<p>Outside the waiting room door you hear some noise. Suddenly, a low male voice asks you the following question:</p>
+<p>Name three professions that Galileo Galilei had during his life.</p>
 <br>
+<p>P, E, A</p>
     <input type="text" name="answer8"/>
 </div>
-
-<div id="ques9" class="ques">
-  <h2>Kysymys 10</h2>
-  <p>The word for 'kiusallinen' was....  </p>
-    <input type="text" name="answer9"/>
-</div>
-
-<div id="ques10" class="ques">
-  <h2>Kysymys 11</h2>
-  <p>What is the name of the classroom OPPOSITE this sign?</p>
-  <img src="https://joonasmmp.github.io/englantia/ovikonkelo.jpg" style="width:300px;height:400px;" class="center">
-  <br>
-    <input type="text" name="answer10"/>
-</div>
-
-<div id="ques11" class="ques">
-  <h2>Kysymys 12</h2>
-  <p>What was the English word for 'maisemat? The ______'  </p>
-    <input type="text" name="answer11"/>
-</div>
-
-<div id="ques12" class="ques">
-  <h2>Kysymys 13</h2>
-  <p>Here in our school you can find a table tennis table.</p>
-  <p>What is the brand of that table? </p>
-    <input type="text" name="answer13"/>
-</div>
-
-<br>
 
 <input type="submit" id="submit" value="Tarkista vastaus" />
 
@@ -211,15 +307,11 @@ var answers = [
   ["3124"],
   ["taicurod"],
   ["You’ll find the first clue near the formulae on the desk", "near the formulae on the desk", "near the formulae", "on the desk", "the desk", "desk"],
-  ["yamaha"],
-  ["altitude"],
-  ["20"],
-  ["heel"],
-  ["taskinen"],
-  ["awkward"],
-  ["kerkkä"],
-  ["scenery"],
-  ["cornilleau"],
+  ["R2D2C3PO"],
+  ["copernicus"],
+  ["1473"],
+  ["trench"],
+  ["physicist, engineer, astronomer"],
 ];
 
 // == Used for Task 4: Triggered by the link, checks an answer ==
@@ -242,7 +334,7 @@ function checkAnswer() {
   if (correct) {
     questionsAsked++; //Increase questionsAsked
     if (questionsAsked >= questionOrder.length) {
-      window.alert("Well done, you've completed the quiz!");
+      window.alert("Finally, the door opens and you get out");
     } else {
       hideAllExcept(questionOrder[questionsAsked]); // Start over at step 2
     }
