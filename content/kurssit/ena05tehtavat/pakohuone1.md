@@ -272,6 +272,10 @@ input[type="text"] {
     font-size: inherit;
     background-color: #fafafa;
     text-align: center;
+    display: block;
+    outline: none;
+    width: 300px;
+    margin: 0.5em auto 1.5em;
 }
 
 input#submit {
