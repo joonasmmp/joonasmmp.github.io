@@ -138,12 +138,22 @@ Rearrange the jumbled letters and create words related to traffic. Take the firs
 
 <br>
 
+<input type="submit" id="submit" value="Tarkista vastaus" />
+
   </form>
 
-  <input type="submit" id="submit" value="Tarkista vastaus" />
-  
+
+
 <style>
 		
+input[type="text"] {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: inherit;
+    background-color: #fafafa;
+    text-align: center;
+}
 
 .grid button {
   color: white;
@@ -236,5 +246,14 @@ function checkAnswer() {
 $("form").on("submit", function(e) {
 	e.preventDefault();
   checkAnswer();
+
+const input = document.querySelector('.tehtava input');
+const span = document.querySelector('.tehtava span');
+
+document.querySelectorAll("input").forEach(elem => elem.addEventListener('input', function (event) {
+    span.innerHTML = this.value.replace(/\s/g, '&nbsp;');
+    this.style.width = span.offsetWidth + 'px';
+}));
+
 });</script>
 {{< /rawhtml >}}
