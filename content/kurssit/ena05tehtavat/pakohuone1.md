@@ -94,35 +94,7 @@ $("form").on("submit", function(e) {
 
 One of you finds a piece of paper from behind the lock. On the paper, there are four sentences with four options, each labeled 1–4. You have to crack the code by choosing the correct option and assembling the correct, four-number code.</p>
 
-<p> I only need 
-<select>
-  <option style="display:none">
-  <option>1. much</option>
-  <option>2. many</option>
-  <option>3. a little</option>
-  <option>4. few</option>
-</select> luck to succeed.</p>
-<p>We don't have <select>
-  <option style="display:none">
-  <option>1. much</option>
-  <option>2. many</option>
-  <option>3. a little</option>
-  <option>4. few</option>
-</select> time left.</p>
-<p> There a so <select>
-  <option style="display:none">
-  <option>1. much</option>
-  <option>2. many</option>
-  <option>3. a little</option>
-  <option>4. few</option>
-</select> tasks left to solve.</p>
-<p>There's not a lot of us, but I'm glad to have <select>
-  <option style="display:none">
-  <option>1. much</option>
-  <option>2. many</option>
-  <option>3. a little</option>
-  <option>4. few</option>
-</select> friends doing this task with me.</p>
+
 
 <input type="text" name="answer1"/>
 </div>
