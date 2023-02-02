@@ -29,8 +29,8 @@ window.onload = function() {
   //Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main file
   var data = {
     terms: [{
-         index: 1, text: 'ally'
-    }, { index: 0, text: 'ambush'
+         index: 0, text: 'ally'
+    }, { index: 1, text: 'ambush'
     }, { index: 2, text: 'ammunition'
     }, { index: 3, text: 'armed conflict'
     }, { index: 4, text: 'armoury'
