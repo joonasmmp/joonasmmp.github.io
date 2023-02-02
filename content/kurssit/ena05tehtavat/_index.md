@@ -32,6 +32,8 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 
 [3. Mikä ajan prepositio?]({{<ref "prepositiot_kirjoita3.mdt" >}})
 
+[4. Mikä ajan prepositio?]({{<ref "prepositiot_kirjoita4.mdt" >}})
+
 ### 5. Verbi ja prepositio
 
 [1. Verbi ja prepositio flashcard: Mikä prepositio?]({{<ref "verbiprepositio_flashcard.mdt" >}})
