@@ -63,7 +63,7 @@ layout: tehtava
    <section data-quiz-item>
     <div class="question">Kaksi viidesosaa</div>
     <div class="choices" data-choices='["Two fives", "two fifths", "two-fifths", "two-fives"]'></div>
-    <p class="info">A large amount ei sovi koska se vaatisi yksikön verbiä is.</p>
+    <p class="info">Two-fifths olisi myös oikein mutta niin harvinainen kirjoitusasu että ei oteta sitä nyt tähän.</p>
   </section>
   <section data-quiz-item>
     <div class="question">Kello 14:30</div>
