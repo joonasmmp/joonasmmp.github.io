@@ -39,7 +39,7 @@ Täydennä annettuja lauseita prepositioilla by/during/for/over/since/until/whil
 8. I came up with an idea for our Finnish presentation &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; you were sleeping.
 </section>
 <section>
-9. I've been waiting for my friend &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; night.
+9. I've been waiting for my friend &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; noon.
 </section>
 <section>
 10. Let's talk more &nbsp;<li><input id="q10" type="text"/><span></span></li>&nbsp; a cup of coffee when you get home. 
