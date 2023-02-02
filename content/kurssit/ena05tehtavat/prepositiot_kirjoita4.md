@@ -24,7 +24,7 @@ Täydennä annettuja lauseita prepositioilla by/during/for/over/since/until/whil
 3. It needs to be finished &nbsp;<li><input id="q3" type="text"/><span></span></li>&nbsp; Friday.
 </section>
 <section>
-4. You can play with my LEGOs &nbsp;<li><input id="q4" type="text"/><span></span></li>&nbsp; I finish my dinner.
+4. You can play with LEGOs &nbsp;<li><input id="q4" type="text"/><span></span></li>&nbsp; I prepare dinner.
 </section>
 <section>
 5. Please don't interrupt your teachers &nbsp;<li><input id="q5" type="text"/><span></span></li>&nbsp; they are talking.
