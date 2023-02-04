@@ -1245,12 +1245,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.25rem;
 }
 
-.md\.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
-.lg\.px-5 {
+.px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
