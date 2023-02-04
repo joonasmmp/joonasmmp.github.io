@@ -472,6 +472,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
