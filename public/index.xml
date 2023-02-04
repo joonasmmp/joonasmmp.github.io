@@ -1,10 +1,844 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PJMM - Englannin materiaalia</title>
+    <title>JPEL - Englannin materiaalia</title>
     <link>https://joonasmmp.github.io/</link>
-    <description>Recent content on PJMM - Englannin materiaalia</description>
+    <description>Recent content on JPEL - Englannin materiaalia</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fi</language><atom:link href="https://joonasmmp.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>fi</language>
+    <lastBuildDate>Mon, 19 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://joonasmmp.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paljoussanat: yhdistä termit</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/paljoussanat_yhdista/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/paljoussanat_yhdista/</guid>
+      <description>//Execute a JavaScript immediately after a page has been loadedwindow.onload = function() {//Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main filevar data = {terms: [{index: 0, text: &#39;many&#39;}, { index: 1, text: &#39;much&#39;}, { index: 2, text: &#39;a few&#39;}, { index: 3, text: &#39;a little&#39;}, { index: 4, text: &#39;few&#39;}, { index: 5, text: &#39;little&#39;},],definitions: [{index: 0, text: &#39;paljon (laskettava)&#39;}, { index: 1, text: &#39;paljon (ei-laskettava)&#39;}, { index: 2, text: &#39;muutama, jonkin verran (laskettava)&#39;}, { index: 3, text: &#39;hieman, jonkin verran (ei-laskettava)&#39;}, { index: 4, text: &#39;harvat, hyvin vähän (laskettava)&#39;}, { index: 5, text: &#39;hyvin vähän, tuskin lainkaan (ei-laskettava)&#39;},],//this creates matches for indexes.</description>
+    </item>
+    
+    <item>
+      <title>Paljoussanat: Alkutesti</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/paljoussanat_alkutesti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/paljoussanat_alkutesti/</guid>
+      <description>_____ people know that brushing your teeth after eating breakfast is actually harmful.Little people tarkoittaisi pieniä ihmisiä. Few koska laskettava. .
+If you want to feel _____ bloated, don&#39;t eat pizza all day every day.Less eli vähemmän, the least olisi vähiten turvonnut.
+Products with _____ fat don’t necessarily contain _____ caloriesEnsimmäiseen kohtaan less koska rasva on ei-laskettava. Toiseen kohtaan fewer koska kalorit on laskettavia, nehän on energian yksikkö.</description>
+    </item>
+    
+    <item>
+      <title>2. Infinitiivi ja -ing: Lopputesti</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/infinitiivi_lopputesti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/infinitiivi_lopputesti/</guid>
+      <description>function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Lukusanat: Alkutesti</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/lukusanat_alkutesti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/lukusanat_alkutesti/</guid>
+      <description>4. Joulukuuta vuonna 1951Päivämäärät aina on-prepositiolla.
+Kymmeniä muniaEnglanniksi puhutaan tusinoista kymmenien sijaan kun ei ole tarkka määrä kyseessä. kaksi ensimmäistä vaihtoehtoa ovat liian tarkkoja (10 ja 12).
+Kaksikymmentä yksiLukujen väliin viiva.
+1900-luvulla. Kyseessä on 20. vuosisata koska ensimmäinen vuosisata alkaa vuodesta (tai vuodesta 1 tulkinnasta riippuen). Kuitenkin, vastaa aina yksi isompi kuin mitä numeroilla.
+70-vuotiasAdjektiivisessa muodossa viivat joka väliin.</description>
+    </item>
+    
+    <item>
+      <title>1. Mikä paikan prepositio?</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/prepositiot_kirjoita1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/prepositiot_kirjoita1/</guid>
+      <description>Täydennä annettuja lauseita prepositioilla in/on/at.
+1. He had a Nicolas Cage poster hanging &amp;nbsp;&amp;nbsp; the wall.2. Let&#39;s meet &amp;nbsp;&amp;nbsp; the corner of Kauppurienkatu and Ratakatu.3. Is that man with his hands &amp;nbsp;&amp;nbsp; his pockets following us?4. Which page is this exercise &amp;nbsp;&amp;nbsp;?5. I live &amp;nbsp;&amp;nbsp; the first floor, welcome!6. I&#39;m a city boy, but sometimes I wish I lived &amp;nbsp;&amp;nbsp; the countryside.</description>
+    </item>
+    
+    <item>
+      <title>2. Mikä paikan prepositio?</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/prepositiot_kirjoita2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/prepositiot_kirjoita2/</guid>
+      <description>Täydennä annettuja lauseita prepositioilla in/on/at/by.
+1. They played my song &amp;nbsp;&amp;nbsp; the radio, I&#39;m famous!2. &amp;nbsp;&amp;nbsp; the left you can see the ugliest building you&#39;ve ever seen. I live there.3. I can&#39;t belive we bumped into M. Night Shyamalan &amp;nbsp;&amp;nbsp; the party last night.4. I&#39;m &amp;nbsp;&amp;nbsp; my way to school even though I&#39;ve already failed all my exams. 5.</description>
+    </item>
+    
+    <item>
+      <title>Prepositioilmaisuja: Flashcard</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/verbiprepositio_flashcard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/verbiprepositio_flashcard/</guid>
+      <description>välilyöntikäännä korttivaihda korttiaRsatunnainen kortti $(document).ready(function() {var currentQuestion = 0;var qbank = [[&#34;selittää = account _____&#34;, &#34;selittää = account for&#34;],[&#34;syyttää = accuse sb _____ sth&#34;, &#34;syyttää = accuse sb of sth&#34;],[&#34;sopeutua = adapt _____&#34;, &#34;sopeutua = adapt to&#34;],[&#34;lisätä = add _____&#34;, &#34;lisätä = add to&#34;</description>
+    </item>
+    
+    <item>
+      <title>Teemasanasto: ENG-FIN</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/teemasanasto_flashcard_eng_fin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/teemasanasto_flashcard_eng_fin/</guid>
+      <description>War &amp; Peace Science &amp; Research Traffic IT &amp; Comm technologyvälilyöntikäännä korttivaihda korttiaRsatunnainen kortti $(document).ready(function() {var currentQuestion = 0;var qbank = [[&#34;ally&#34;, &#34;liittolainen&#34;], [&#34;ambush&#34;, &#34;väijytys; väijyä&#34;], [&#34;ammunition&#34;, &#34;ammukset, ampumatarvikkeet&#34;], [&#34;armed conflict&#34;, &#34;aseellinen konflikti&#34;], [&#34;armoury&#34;, &#34;asevarasto, asevarikko&#34;], [&#34;artillery&#34;, &#34;tykistö&#34;], [&#34;barracks&#34;, &#34;kasarmi, parakki&#34;], [&#34;be at war&#34;</description>
+    </item>
+    
+    <item>
+      <title>Teemasanasto: FIN-ENG</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/teemasanasto_flashcard_fin_eng/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/teemasanasto_flashcard_fin_eng/</guid>
+      <description>War &amp; Peace Science &amp; Research Traffic IT &amp; Comm technologyvälilyöntikäännä korttivaihda korttiaRsatunnainen kortti $(document).ready(function() {var currentQuestion = 0;var qbank = [[&#34;liittolainen&#34;, &#34;ally&#34;], [&#34;väijytys; väijyä&#34;, &#34;ambush&#34;], [&#34;ammukset, ampumatarvikkeet&#34;, &#34;ammunition&#34;], [&#34;aseellinen konflikti&#34;, &#34;armed conflict&#34;], [&#34;asevarasto, asevarikko&#34;, &#34;armoury&#34;], [&#34;tykistö&#34;, &#34;artillery&#34;], [&#34;kasarmi, parakki&#34;, &#34;barracks&#34;], [&#34;olla sodassa&#34;, &#34;</description>
+    </item>
+    
+    <item>
+      <title>Teema 1: War &amp; Peace - Yhdistä</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/teemasanasto_1_yhdista1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/teemasanasto_1_yhdista1/</guid>
+      <description>Etsi sanaa vastaava käännös. Numeroita klikkaamalla voit luoda haluamasi määrän uusia pareja. 6912 //Execute a JavaScript immediately after a page has been loadedwindow.onload = function() {//Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main filevar data = {terms: [{index: 1, text: &#39;ally&#39;}, { index: 0, text: &#39;ambush&#39;}, { index: 2, text: &#39;ammunition&#39;}, { index: 3, text: &#39;armed conflict&#39;}, { index: 4, text: &#39;armoury&#39;}, { index: 5, text: &#39;artillery&#39;}, { index: 6, text: &#39;barracks&#39;}, { index: 7, text: &#39;be at war&#39;}, { index: 8, text: &#39;beat/defeat the enemy&#39;}, { index: 9, text: &#39;border&#39;}, { index: 10, text: &#39;casualties&#39;}, { index: 11, text: &#39;civil war&#39;}, { index: 12, text: &#39;combat&#39;}, { index: 13, text: &#39;conquer&#39;}, { index: 14, text: &#39;conscript&#39;}, { index: 15, text: &#39;curfew&#39;}, { index: 16, text: &#39;declare war (on a country)&#39;}, { index: 17, text: &#39;defeat&#39;}, { index: 18, text: &#39;defend&#39;}, { index: 19, text: &#39;disarmament&#39;}, { index: 20, text: &#39;do one’s military service&#39;}, { index: 21, text: &#39;do one’s non-military service&#39;}, { index: 22, text: &#39;ethnic cleansing&#39;}, { index: 23, text: &#39;friendly fire&#39;}, { index: 24, text: &#39;garrison&#39;}, { index: 25, text: &#39;genocide&#39;}, { index: 26, text: &#39;guerilla war&#39;}, { index: 27, text: &#39;infantry&#39;}, { index: 28, text: &#39;invade&#39;}, { index: 29, text: &#39;fleet&#39;}, { index: 30, text: &#39;military base&#39;}, { index: 31, text: &#39;missile&#39;}, { index: 32, text: &#39;mobilisation&#39;}, { index: 33, text: &#39;occupation&#39;}, { index: 34, text: &#39;paratroopers&#39;}, { index: 35, text: &#39;prisoner of war (POW)&#39;}, { index: 36, text: &#39;rebellion&#39;}, { index: 37, text: &#39;regiment&#39;}, { index: 38, text: &#39;retreat, withdraw&#39;}, { index: 39, text: &#39;sanction&#39;}, { index: 40, text: &#39;surrender&#39;}, { index: 41, text: &#39;trench&#39;}, { index: 42, text: &#39;troops&#39;}, { index: 43, text: &#39;urban warfare&#39;}, { index: 44, text: &#39;resistance movement&#39;}, { index: 45, text: &#39;siege&#39;}, { index: 46, text: &#39;suffer heavy losses&#39;}, { index: 47, text: &#39;wage war on&#39;}, { index: 48, text: &#39;warfare&#39;}, { index: 49, text: &#39;warmonger&#39;}, { index: 50, text: &#39;weaponry&#39;}, { index: 51, text: &#39;ceasefire&#39;}, { index: 52, text: &#39;mediate&#39;}, { index: 53, text: &#39;negotiate&#39;}, { index: 54, text: &#39;peace-keeping forces&#39;}, { index: 55, text: &#39;peace negotiations&#39;}, { index: 56, text: &#39;peace treaty&#39;}, { index: 57, text: &#39;truce&#39;}, { index: 58, text: &#39;the Air Force&#39;}, { index: 59, text: &#39;the Army&#39;}, { index: 60, text: &#39;the Coast Guard&#39;}, { index: 61, text: &#39;the Navy&#39;}, { index: 62, text: &#39;the Marine Corps&#39;},],definitions: [{index: 0, text: &#39;liittolainen&#39;}, { index: 1, text: &#39;väijytys; väijyä&#39;}, { index: 2, text: &#39;ammukset, ampumatarvikkeet&#39;}, { index: 3, text: &#39;aseellinen konflikti&#39;}, { index: 4, text: &#39;asevarasto, asevarikko&#39;}, { index: 5, text: &#39;tykistö&#39;}, { index: 6, text: &#39;kasarmi, parakki&#39;}, { index: 7, text: &#39;olla sodassa&#39;}, { index: 8, text: &#39;voittaa vihollinen&#39;}, { index: 9, text: &#39;raja&#39;}, { index: 10, text: &#39;tappiot, mieshukka&#39;}, { index: 11, text: &#39;sisällissota&#39;}, { index: 12, text: &#39;taistelu&#39;}, { index: 13, text: &#39;valloittaa, voittaa&#39;}, { index: 14, text: &#39;varusmies, asevelvollinen&#39;}, { index: 15, text: &#39;ulkonaliikkumiskielto&#39;}, { index: 16, text: &#39;julistaa sota&#39;}, { index: 17, text: &#39;tappio&#39;}, { index: 18, text: &#39;puolustaa&#39;}, { index: 19, text: &#39;aseistariisunta&#39;}, { index: 20, text: &#39;suorittaa varusmiespalvelus&#39;}, { index: 21, text: &#39;suorittaa siviilipalvelus&#39;}, { index: 22, text: &#39;etninen puhdistus&#39;}, { index: 23, text: &#39;omien tulitus&#39;}, { index: 24, text: &#39;varuskunta&#39;}, { index: 25, text: &#39;kansanmurha&#39;}, { index: 26, text: &#39;sissisota&#39;}, { index: 27, text: &#39;jalkaväki&#39;}, { index: 28, text: &#39;tunkeutua, hyökätä&#39;}, { index: 29, text: &#39;laivasto, laivue&#39;}, { index: 30, text: &#39;sotilastukikohta&#39;}, { index: 31, text: &#39;ohjus&#39;}, { index: 32, text: &#39;liikekannallepano&#39;}, { index: 33, text: &#39;miehitys&#39;}, { index: 34, text: &#39;laskuvarjojääkärit&#39;}, { index: 35, text: &#39;sotavanki&#39;}, { index: 36, text: &#39;kapina&#39;}, { index: 37, text: &#39;rykmentti&#39;}, { index: 38, text: &#39;vetäytyä&#39;}, { index: 39, text: &#39;pakote, sanktio&#39;}, { index: 40, text: &#39;antautua&#39;}, { index: 41, text: &#39;juoksuhauta, taisteluhauta&#39;}, { index: 42, text: &#39;joukot&#39;}, { index: 43, text: &#39;kaupunkisota&#39;}, { index: 44, text: &#39;vastarintaliike&#39;}, { index: 45, text: &#39;piiritys; piirittää&#39;}, { index: 46, text: &#39;kärsiä raskaita tappioita&#39;}, { index: 47, text: &#39;sotia&#39;}, { index: 48, text: &#39;sodankäynti&#39;}, { index: 49, text: &#39;sodanlietsoja&#39;}, { index: 50, text: &#39;aseistus&#39;}, { index: 51, text: &#39;tulitauko&#39;}, { index: 52, text: &#39;sovitella, toimia välittäjänä&#39;}, { index: 53, text: &#39;neuvotella&#39;}, { index: 54, text: &#39;rauhanturvajoukot&#39;}, { index: 55, text: &#39;rauhanneuvottelut&#39;}, { index: 56, text: &#39;rauhansopimus&#39;}, { index: 57, text: &#39;aselepo&#39;}, { index: 58, text: &#39;ilmavoimat&#39;}, { index: 59, text: &#39;maavoimat&#39;}, { index: 60, text: &#39;rannikkovartiosto&#39;}, { index: 61, text: &#39;laivasto&#39;}, { index: 62, text: &#39;merijalkaväki&#39;},],//this creates matches for indexes.</description>
+    </item>
+    
+    <item>
+      <title>Teema 1: Media - yhdistä sanat 2</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/teemasanasto_1_yhdista2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/teemasanasto_1_yhdista2/</guid>
+      <description>Lisää pareja //Execute a JavaScript immediately after a page has been loadedwindow.onload = function() {//Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main filevar data = {terms: [{index: 1, text: &#39;ally&#39;}, { index: 0, text: &#39;ambush&#39;}, { index: 2, text: &#39;ammunition&#39;}, { index: 3, text: &#39;armed conflict&#39;}, { index: 4, text: &#39;armoury&#39;}, { index: 5, text: &#39;artillery&#39;}, { index: 6, text: &#39;barracks&#39;}, { index: 7, text: &#39;be at war&#39;}, { index: 8, text: &#39;beat/defeat the enemy&#39;}, { index: 9, text: &#39;border&#39;}, { index: 10, text: &#39;casualties&#39;}, { index: 11, text: &#39;civil war&#39;}, { index: 12, text: &#39;combat&#39;}, { index: 13, text: &#39;conquer&#39;}, { index: 14, text: &#39;conscript&#39;}, { index: 15, text: &#39;curfew&#39;}, { index: 16, text: &#39;declare war (on a country)&#39;}, { index: 17, text: &#39;defeat&#39;}, { index: 18, text: &#39;defend&#39;}, { index: 19, text: &#39;disarmament&#39;}, { index: 20, text: &#39;do one’s military service&#39;}, { index: 21, text: &#39;do one’s non-military service&#39;}, { index: 22, text: &#39;ethnic cleansing&#39;}, { index: 23, text: &#39;friendly fire&#39;}, { index: 24, text: &#39;garrison&#39;}, { index: 25, text: &#39;genocide&#39;}, { index: 26, text: &#39;guerilla war&#39;}, { index: 27, text: &#39;infantry&#39;}, { index: 28, text: &#39;invade&#39;}, { index: 29, text: &#39;fleet&#39;}, { index: 30, text: &#39;military base&#39;}, { index: 31, text: &#39;missile&#39;}, { index: 32, text: &#39;mobilisation&#39;}, { index: 33, text: &#39;occupation&#39;}, { index: 34, text: &#39;paratroopers&#39;}, { index: 35, text: &#39;prisoner of war (POW)&#39;}, { index: 36, text: &#39;rebellion&#39;}, { index: 37, text: &#39;regiment&#39;}, { index: 38, text: &#39;retreat, withdraw&#39;}, { index: 39, text: &#39;sanction&#39;}, { index: 40, text: &#39;surrender&#39;}, { index: 41, text: &#39;trench&#39;}, { index: 42, text: &#39;troops&#39;}, { index: 43, text: &#39;urban warfare&#39;}, { index: 44, text: &#39;resistance movement&#39;}, { index: 45, text: &#39;siege&#39;}, { index: 46, text: &#39;suffer heavy losses&#39;}, { index: 47, text: &#39;wage war on&#39;}, { index: 48, text: &#39;warfare&#39;}, { index: 49, text: &#39;warmonger&#39;}, { index: 50, text: &#39;weaponry&#39;}, { index: 51, text: &#39;ceasefire&#39;}, { index: 52, text: &#39;mediate&#39;}, { index: 53, text: &#39;negotiate&#39;}, { index: 54, text: &#39;peace-keeping forces&#39;}, { index: 55, text: &#39;peace negotiations&#39;}, { index: 56, text: &#39;peace treaty&#39;}, { index: 57, text: &#39;truce&#39;}, { index: 58, text: &#39;the Air Force&#39;}, { index: 59, text: &#39;the Army&#39;}, { index: 60, text: &#39;the Coast Guard&#39;}, { index: 61, text: &#39;the Navy&#39;}, { index: 62, text: &#39;the Marine Corps&#39;},],definitions: [{index: 0, text: &#39;liittolainen&#39;}, { index: 1, text: &#39;väijytys; väijyä&#39;}, { index: 2, text: &#39;ammukset, ampumatarvikkeet&#39;}, { index: 3, text: &#39;aseellinen konflikti&#39;}, { index: 4, text: &#39;asevarasto, asevarikko&#39;}, { index: 5, text: &#39;tykistö&#39;}, { index: 6, text: &#39;kasarmi, parakki&#39;}, { index: 7, text: &#39;olla sodassa&#39;}, { index: 8, text: &#39;voittaa vihollinen&#39;}, { index: 9, text: &#39;raja&#39;}, { index: 10, text: &#39;tappiot, mieshukka&#39;}, { index: 11, text: &#39;sisällissota&#39;}, { index: 12, text: &#39;taistelu&#39;}, { index: 13, text: &#39;valloittaa, voittaa&#39;}, { index: 14, text: &#39;varusmies, asevelvollinen&#39;}, { index: 15, text: &#39;ulkonaliikkumiskielto&#39;}, { index: 16, text: &#39;julistaa sota&#39;}, { index: 17, text: &#39;tappio&#39;}, { index: 18, text: &#39;puolustaa&#39;}, { index: 19, text: &#39;aseistariisunta&#39;}, { index: 20, text: &#39;suorittaa varusmiespalvelus&#39;}, { index: 21, text: &#39;suorittaa siviilipalvelus&#39;}, { index: 22, text: &#39;etninen puhdistus&#39;}, { index: 23, text: &#39;omien tulitus&#39;}, { index: 24, text: &#39;varuskunta&#39;}, { index: 25, text: &#39;kansanmurha&#39;}, { index: 26, text: &#39;sissisota&#39;}, { index: 27, text: &#39;jalkaväki&#39;}, { index: 28, text: &#39;tunkeutua, hyökätä&#39;}, { index: 29, text: &#39;laivasto, laivue&#39;}, { index: 30, text: &#39;sotilastukikohta&#39;}, { index: 31, text: &#39;ohjus&#39;}, { index: 32, text: &#39;liikekannallepano&#39;}, { index: 33, text: &#39;miehitys&#39;}, { index: 34, text: &#39;laskuvarjojääkärit&#39;}, { index: 35, text: &#39;sotavanki&#39;}, { index: 36, text: &#39;kapina&#39;}, { index: 37, text: &#39;rykmentti&#39;}, { index: 38, text: &#39;vetäytyä&#39;}, { index: 39, text: &#39;pakote, sanktio&#39;}, { index: 40, text: &#39;antautua&#39;}, { index: 41, text: &#39;juoksuhauta, taisteluhauta&#39;}, { index: 42, text: &#39;joukot&#39;}, { index: 43, text: &#39;kaupunkisota&#39;}, { index: 44, text: &#39;vastarintaliike&#39;}, { index: 45, text: &#39;piiritys; piirittää&#39;}, { index: 46, text: &#39;kärsiä raskaita tappioita&#39;}, { index: 47, text: &#39;sotia&#39;}, { index: 48, text: &#39;sodankäynti&#39;}, { index: 49, text: &#39;sodanlietsoja&#39;}, { index: 50, text: &#39;aseistus&#39;}, { index: 51, text: &#39;tulitauko&#39;}, { index: 52, text: &#39;sovitella, toimia välittäjänä&#39;}, { index: 53, text: &#39;neuvotella&#39;}, { index: 54, text: &#39;rauhanturvajoukot&#39;}, { index: 55, text: &#39;rauhanneuvottelut&#39;}, { index: 56, text: &#39;rauhansopimus&#39;}, { index: 57, text: &#39;aselepo&#39;}, { index: 58, text: &#39;ilmavoimat&#39;}, { index: 59, text: &#39;maavoimat&#39;}, { index: 60, text: &#39;rannikkovartiosto&#39;}, { index: 61, text: &#39;laivasto&#39;}, { index: 62, text: &#39;merijalkaväki&#39;},],//this creates matches for indexes.</description>
+    </item>
+    
+    <item>
+      <title>Teema 1: War &amp; Peace - Yhdistä</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/teemasanasto_2_yhdista1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/teemasanasto_2_yhdista1/</guid>
+      <description>Etsi sanaa vastaava käännös. Numeroita klikkaamalla voit luoda haluamasi määrän uusia pareja. 6912 //Execute a JavaScript immediately after a page has been loadedwindow.onload = function() {//Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main filevar data = {terms: [{index: 0, text: &#39;analysis, analyses&#39;}, { index: 1, text: &#39;average&#39;}, { index: 2, text: &#39;cell&#39;}, { index: 3, text: &#39;chart, table&#39;}, { index: 4, text: &#39;classification&#39;}, { index: 5, text: &#39;concept&#39;}, { index: 6, text: &#39;conclusion&#39;}, { index: 7, text: &#39;conduct an experiment&#39;}, { index: 8, text: &#39;data&#39;}, { index: 9, text: &#39;database&#39;}, { index: 10, text: &#39;discover&#39;}, { index: 11, text: &#39;discovery&#39;}, { index: 12, text: &#39;engineer&#39;}, { index: 13, text: &#39;evidence&#39;}, { index: 14, text: &#39;experiment&#39;}, { index: 15, text: &#39;genetic engineering, gene editing&#39;}, { index: 16, text: &#39;hypothesis, hypotheses&#39;}, { index: 17, text: &#39;invent&#39;}, { index: 18, text: &#39;invention&#39;}, { index: 19, text: &#39;measure&#39;}, { index: 20, text: &#39;observe&#39;}, { index: 21, text: &#39;researcher&#39;}, { index: 22, text: &#39;scale&#39;}, { index: 23, text: &#39;scientific&#39;}, { index: 24, text: &#39;scientist&#39;}, { index: 25, text: &#39;statistics&#39;}, { index: 26, text: &#39;survey&#39;}, { index: 27, text: &#39;variable&#39;}, { index: 28, text: &#39;accelerate&#39;}, { index: 29, text: &#39;acceleration&#39;}, { index: 30, text: &#39;charge&#39;}, { index: 31, text: &#39;circuit&#39;}, { index: 32, text: &#39;density&#39;}, { index: 33, text: &#39;dissolve&#39;}, { index: 34, text: &#39;electric current&#39;}, { index: 35, text: &#39;formula, formulae&#39;}, { index: 36, text: &#39;frequency&#39;}, { index: 37, text: &#39;friction&#39;}, { index: 38, text: &#39;gravity&#39;}, { index: 39, text: &#39;inertia&#39;}, { index: 40, text: &#39;lever&#39;}, { index: 41, text: &#39;magnification&#39;}, { index: 42, text: &#39;mass&#39;}, { index: 43, text: &#39;matter&#39;}, { index: 44, text: &#39;nuclear physics&#39;}, { index: 45, text: &#39;nucleus, nuclei&#39;}, { index: 46, text: &#39;orbit&#39;}, { index: 47, text: &#39;phenomenon, phenomena&#39;}, { index: 48, text: &#39;physicist&#39;}, { index: 49, text: &#39;radiation&#39;}, { index: 50, text: &#39;volume&#39;}, { index: 51, text: &#39;velocity, speed&#39;}, { index: 52, text: &#39;wavelength&#39;}, { index: 53, text: &#39;acid&#39;}, { index: 54, text: &#39;atom&#39;}, { index: 55, text: &#39;base&#39;}, { index: 56, text: &#39;carbon dioxide&#39;}, { index: 57, text: &#39;chemical reaction&#39;}, { index: 58, text: &#39;chemist&#39;}, { index: 59, text: &#39;compound&#39;}, { index: 60, text: &#39;element&#39;}, { index: 61, text: &#39;evaporate&#39;}, { index: 62, text: &#39;gas&#39;}, { index: 63, text: &#39;hydrogen&#39;}, { index: 64, text: &#39;molecule&#39;}, { index: 65, text: &#39;liquid&#39;}, { index: 66, text: &#39;nitrogen&#39;}, { index: 67, text: &#39;oxidation&#39;}, { index: 68, text: &#39;oxygen&#39;}, { index: 69, text: &#39;periodic table&#39;}, { index: 70, text: &#39;property&#39;}, { index: 71, text: &#39;reduction&#39;}, { index: 72, text: &#39;saturated&#39;}, { index: 73, text: &#39;solid&#39;}, { index: 74, text: &#39;solution&#39;}, { index: 75, text: &#39;substance&#39;},],definitions: [{ index: 0, text: &#39;analyysi, analyysit&#39;}, { index: 1, text: &#39;keskiarvo&#39;}, { index: 2, text: &#39;solu&#39;}, { index: 3, text: &#39;taulukko&#39;}, { index: 4, text: &#39;luokittelu&#39;}, { index: 5, text: &#39;käsite&#39;}, { index: 6, text: &#39;johtopäätös&#39;}, { index: 7, text: &#39;tehdä koe&#39;}, { index: 8, text: &#39;tiedot&#39;}, { index: 9, text: &#39;tietokanta&#39;}, { index: 10, text: &#39;löytää, keksiä&#39;}, { index: 11, text: &#39;löytö, keksintö&#39;}, { index: 12, text: &#39;insinööri&#39;}, { index: 13, text: &#39;todisteet&#39;}, { index: 14, text: &#39;koe&#39;}, { index: 15, text: &#39;geenimanipulaatio&#39;}, { index: 16, text: &#39;olettamus, olettamukset&#39;}, { index: 17, text: &#39;keksiä&#39;}, { index: 18, text: &#39;keksintö&#39;}, { index: 19, text: &#39;mitata&#39;}, { index: 20, text: &#39;havainnoida&#39;}, { index: 21, text: &#39;tutkija&#39;}, { index: 22, text: &#39;asteikko&#39;}, { index: 23, text: &#39;tieteellinen&#39;}, { index: 24, text: &#39;tieteilijä&#39;}, { index: 25, text: &#39;tilasto&#39;}, { index: 26, text: &#39;kyselytutkimus&#39;}, { index: 27, text: &#39;muuttuja&#39;}, { index: 28, text: &#39;kiihdyttää&#39;}, { index: 29, text: &#39;kiihtyvyys&#39;}, { index: 30, text: &#39;sähkövaraus&#39;}, { index: 31, text: &#39;virtapiiri&#39;}, { index: 32, text: &#39;tiheys&#39;}, { index: 33, text: &#39;liueta, sulaa, hajota&#39;}, { index: 34, text: &#39;sähkövirta&#39;}, { index: 35, text: &#39;kaava, kaavat&#39;}, { index: 36, text: &#39;taajuus&#39;}, { index: 37, text: &#39;kitka&#39;}, { index: 38, text: &#39;painovoima&#39;}, { index: 39, text: &#39;(massan) hitaus, jatkavuus&#39;}, { index: 40, text: &#39;vipu&#39;}, { index: 41, text: &#39;suurennus&#39;}, { index: 42, text: &#39;massa&#39;}, { index: 43, text: &#39;aine, materia&#39;}, { index: 44, text: &#39;ydinfysiikka&#39;}, { index: 45, text: &#39;ydin, tuma, ytimet, tumat&#39;}, { index: 46, text: &#39;kiertorata, kiertää&#39;}, { index: 47, text: &#39;ilmiö, ilmiöt&#39;}, { index: 48, text: &#39;fyysikko&#39;}, { index: 49, text: &#39;säteily&#39;}, { index: 50, text: &#39;tilavuus&#39;}, { index: 51, text: &#39;nopeus, vauhti&#39;}, { index: 52, text: &#39;aallonpituus&#39;}, { index: 53, text: &#39;happo&#39;}, { index: 54, text: &#39;atomi&#39;}, { index: 55, text: &#39;emäs&#39;}, { index: 56, text: &#39;hiilidioksidi&#39;}, { index: 57, text: &#39;kemiallinen reaktio&#39;}, { index: 58, text: &#39;kemisti&#39;}, { index: 59, text: &#39;yhdiste&#39;}, { index: 60, text: &#39;alkuaine&#39;}, { index: 61, text: &#39;haihtua&#39;}, { index: 62, text: &#39;kaasu&#39;}, { index: 63, text: &#39;vety&#39;}, { index: 64, text: &#39;molekyyli&#39;}, { index: 65, text: &#39;neste&#39;}, { index: 66, text: &#39;typpi&#39;}, { index: 67, text: &#39;hapettuminen&#39;}, { index: 68, text: &#39;happi&#39;}, { index: 69, text: &#39;jaksollisen järjestelmän taulukko&#39;}, { index: 70, text: &#39;ominaisuus&#39;}, { index: 71, text: &#39;pelkistyminen&#39;}, { index: 72, text: &#39;kylläinen&#39;}, { index: 73, text: &#39;kiinteä&#39;}, { index: 74, text: &#39;liuos&#39;}, { index: 75, text: &#39;aine&#39;},],//this creates matches for indexes.</description>
+    </item>
+    
+    <item>
+      <title>Teema 1: Media - yhdistä sanat 2</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/teemasanasto_2_yhdista2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/teemasanasto_2_yhdista2/</guid>
+      <description>Lisää pareja //Execute a JavaScript immediately after a page has been loadedwindow.onload = function() {//Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main filevar data = {terms: [{index: 0, text: &#39;analysis, analyses&#39;}, { index: 1, text: &#39;average&#39;}, { index: 2, text: &#39;cell&#39;}, { index: 3, text: &#39;chart, table&#39;}, { index: 4, text: &#39;classification&#39;}, { index: 5, text: &#39;concept&#39;}, { index: 6, text: &#39;conclusion&#39;}, { index: 7, text: &#39;conduct an experiment&#39;}, { index: 8, text: &#39;data&#39;}, { index: 9, text: &#39;database&#39;}, { index: 10, text: &#39;discover&#39;}, { index: 11, text: &#39;discovery&#39;}, { index: 12, text: &#39;engineer&#39;}, { index: 13, text: &#39;evidence&#39;}, { index: 14, text: &#39;experiment&#39;}, { index: 15, text: &#39;genetic engineering, gene editing&#39;}, { index: 16, text: &#39;hypothesis, hypotheses&#39;}, { index: 17, text: &#39;invent&#39;}, { index: 18, text: &#39;invention&#39;}, { index: 19, text: &#39;measure&#39;}, { index: 20, text: &#39;observe&#39;}, { index: 21, text: &#39;researcher&#39;}, { index: 22, text: &#39;scale&#39;}, { index: 23, text: &#39;scientific&#39;}, { index: 24, text: &#39;scientist&#39;}, { index: 25, text: &#39;statistics&#39;}, { index: 26, text: &#39;survey&#39;}, { index: 27, text: &#39;variable&#39;}, { index: 28, text: &#39;accelerate&#39;}, { index: 29, text: &#39;acceleration&#39;}, { index: 30, text: &#39;charge&#39;}, { index: 31, text: &#39;circuit&#39;}, { index: 32, text: &#39;density&#39;}, { index: 33, text: &#39;dissolve&#39;}, { index: 34, text: &#39;electric current&#39;}, { index: 35, text: &#39;formula, formulae&#39;}, { index: 36, text: &#39;frequency&#39;}, { index: 37, text: &#39;friction&#39;}, { index: 38, text: &#39;gravity&#39;}, { index: 39, text: &#39;inertia&#39;}, { index: 40, text: &#39;lever&#39;}, { index: 41, text: &#39;magnification&#39;}, { index: 42, text: &#39;mass&#39;}, { index: 43, text: &#39;matter&#39;}, { index: 44, text: &#39;nuclear physics&#39;}, { index: 45, text: &#39;nucleus, nuclei&#39;}, { index: 46, text: &#39;orbit&#39;}, { index: 47, text: &#39;phenomenon, phenomena&#39;}, { index: 48, text: &#39;physicist&#39;}, { index: 49, text: &#39;radiation&#39;}, { index: 50, text: &#39;volume&#39;}, { index: 51, text: &#39;velocity, speed&#39;}, { index: 52, text: &#39;wavelength&#39;}, { index: 53, text: &#39;acid&#39;}, { index: 54, text: &#39;atom&#39;}, { index: 55, text: &#39;base&#39;}, { index: 56, text: &#39;carbon dioxide&#39;}, { index: 57, text: &#39;chemical reaction&#39;}, { index: 58, text: &#39;chemist&#39;}, { index: 59, text: &#39;compound&#39;}, { index: 60, text: &#39;element&#39;}, { index: 61, text: &#39;evaporate&#39;}, { index: 62, text: &#39;gas&#39;}, { index: 63, text: &#39;hydrogen&#39;}, { index: 64, text: &#39;molecule&#39;}, { index: 65, text: &#39;liquid&#39;}, { index: 66, text: &#39;nitrogen&#39;}, { index: 67, text: &#39;oxidation&#39;}, { index: 68, text: &#39;oxygen&#39;}, { index: 69, text: &#39;periodic table&#39;}, { index: 70, text: &#39;property&#39;}, { index: 71, text: &#39;reduction&#39;}, { index: 72, text: &#39;saturated&#39;}, { index: 73, text: &#39;solid&#39;}, { index: 74, text: &#39;solution&#39;}, { index: 75, text: &#39;substance&#39;},],definitions: [{ index: 0, text: &#39;analyysi, analyysit&#39;}, { index: 1, text: &#39;keskiarvo&#39;}, { index: 2, text: &#39;solu&#39;}, { index: 3, text: &#39;taulukko&#39;}, { index: 4, text: &#39;luokittelu&#39;}, { index: 5, text: &#39;käsite&#39;}, { index: 6, text: &#39;johtopäätös&#39;}, { index: 7, text: &#39;tehdä koe&#39;}, { index: 8, text: &#39;tiedot&#39;}, { index: 9, text: &#39;tietokanta&#39;}, { index: 10, text: &#39;löytää, keksiä&#39;}, { index: 11, text: &#39;löytö, keksintö&#39;}, { index: 12, text: &#39;insinööri&#39;}, { index: 13, text: &#39;todisteet&#39;}, { index: 14, text: &#39;koe&#39;}, { index: 15, text: &#39;geenimanipulaatio&#39;}, { index: 16, text: &#39;olettamus, olettamukset&#39;}, { index: 17, text: &#39;keksiä&#39;}, { index: 18, text: &#39;keksintö&#39;}, { index: 19, text: &#39;mitata&#39;}, { index: 20, text: &#39;havainnoida&#39;}, { index: 21, text: &#39;tutkija&#39;}, { index: 22, text: &#39;asteikko&#39;}, { index: 23, text: &#39;tieteellinen&#39;}, { index: 24, text: &#39;tieteilijä&#39;}, { index: 25, text: &#39;tilasto&#39;}, { index: 26, text: &#39;kyselytutkimus&#39;}, { index: 27, text: &#39;muuttuja&#39;}, { index: 28, text: &#39;kiihdyttää&#39;}, { index: 29, text: &#39;kiihtyvyys&#39;}, { index: 30, text: &#39;sähkövaraus&#39;}, { index: 31, text: &#39;virtapiiri&#39;}, { index: 32, text: &#39;tiheys&#39;}, { index: 33, text: &#39;liueta, sulaa, hajota&#39;}, { index: 34, text: &#39;sähkövirta&#39;}, { index: 35, text: &#39;kaava, kaavat&#39;}, { index: 36, text: &#39;taajuus&#39;}, { index: 37, text: &#39;kitka&#39;}, { index: 38, text: &#39;painovoima&#39;}, { index: 39, text: &#39;(massan) hitaus, jatkavuus&#39;}, { index: 40, text: &#39;vipu&#39;}, { index: 41, text: &#39;suurennus&#39;}, { index: 42, text: &#39;massa&#39;}, { index: 43, text: &#39;aine, materia&#39;}, { index: 44, text: &#39;ydinfysiikka&#39;}, { index: 45, text: &#39;ydin, tuma, ytimet, tumat&#39;}, { index: 46, text: &#39;kiertorata, kiertää&#39;}, { index: 47, text: &#39;ilmiö, ilmiöt&#39;}, { index: 48, text: &#39;fyysikko&#39;}, { index: 49, text: &#39;säteily&#39;}, { index: 50, text: &#39;tilavuus&#39;}, { index: 51, text: &#39;nopeus, vauhti&#39;}, { index: 52, text: &#39;aallonpituus&#39;}, { index: 53, text: &#39;happo&#39;}, { index: 54, text: &#39;atomi&#39;}, { index: 55, text: &#39;emäs&#39;}, { index: 56, text: &#39;hiilidioksidi&#39;}, { index: 57, text: &#39;kemiallinen reaktio&#39;}, { index: 58, text: &#39;kemisti&#39;}, { index: 59, text: &#39;yhdiste&#39;}, { index: 60, text: &#39;alkuaine&#39;}, { index: 61, text: &#39;haihtua&#39;}, { index: 62, text: &#39;kaasu&#39;}, { index: 63, text: &#39;vety&#39;}, { index: 64, text: &#39;molekyyli&#39;}, { index: 65, text: &#39;neste&#39;}, { index: 66, text: &#39;typpi&#39;}, { index: 67, text: &#39;hapettuminen&#39;}, { index: 68, text: &#39;happi&#39;}, { index: 69, text: &#39;jaksollisen järjestelmän taulukko&#39;}, { index: 70, text: &#39;ominaisuus&#39;}, { index: 71, text: &#39;pelkistyminen&#39;}, { index: 72, text: &#39;kylläinen&#39;}, { index: 73, text: &#39;kiinteä&#39;}, { index: 74, text: &#39;liuos&#39;}, { index: 75, text: &#39;aine&#39;},],//this creates matches for indexes.</description>
+    </item>
+    
+    <item>
+      <title>Teema 3: Traffic - Yhdistä</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/teemasanasto_3_yhdista1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/teemasanasto_3_yhdista1/</guid>
+      <description>Etsi sanaa vastaava käännös. Numeroita klikkaamalla voit luoda haluamasi määrän uusia pareja. 6912 //Execute a JavaScript immediately after a page has been loadedwindow.onload = function() {//Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main filevar data = {terms: [{index: 0, text: &#39;freight train&#39;}, { index: 1, text: &#39;high-speed rail&#39;}, { index: 2, text: &#39;lorry (BrE), truck (AmE)&#39;}, { index: 3, text: &#39;regional / commuter / local train&#39;}, { index: 4, text: &#39;tram&#39;}, { index: 5, text: &#39;underground (BrE), subway (AmE)&#39;}, { index: 6, text: &#39;vehicle&#39;}, { index: 7, text: &#39;biker&#39;}, { index: 8, text: &#39;co-driver&#39;}, { index: 9, text: &#39;commuter&#39;}, { index: 10, text: &#39;cyclist&#39;}, { index: 11, text: &#39;motorist&#39;}, { index: 12, text: &#39;passenger&#39;}, { index: 13, text: &#39;pedestrian&#39;}, { index: 14, text: &#39;traffic warden&#39;}, { index: 15, text: &#39;accelerate&#39;}, { index: 16, text: &#39;annual inspection, vehicle safety inspection, MOT (Ministry of Safety test)&#39;}, { index: 17, text: &#39;annual vehicle tax&#39;}, { index: 18, text: &#39;aviation&#39;}, { index: 19, text: &#39;breathalyzer test&#39;}, { index: 20, text: &#39;built-up area&#39;}, { index: 21, text: &#39;bypass&#39;}, { index: 22, text: &#39;car park (BrE), parking lot (AmE)&#39;}, { index: 23, text: &#39;carpool&#39;}, { index: 24, text: &#39;collision, crash&#39;}, { index: 25, text: &#39;curb&#39;}, { index: 26, text: &#39;cycling lane&#39;}, { index: 27, text: &#39;detour, diversion&#39;}, { index: 28, text: &#39;driving licence (BrE), driver’s license (AmE)&#39;}, { index: 29, text: &#39;driving school&#39;}, { index: 30, text: &#39;fast lane&#39;}, { index: 31, text: &#39;fine, ticket&#39;}, { index: 32, text: &#39;freight, cargo&#39;}, { index: 33, text: &#39;gas station (AmE), service station (BrE)&#39;}, { index: 34, text: &#39;head-on collision&#39;}, { index: 35, text: &#39;highway&#39;}, { index: 36, text: &#39;insurance&#39;}, { index: 37, text: &#39;interchange&#39;}, { index: 38, text: &#39;intersection, junction, crossroads&#39;}, { index: 39, text: &#39;lane&#39;}, { index: 40, text: &#39;lay-by (BrE), rest stop (AmE)&#39;}, { index: 41, text: &#39;motorway (BrE), freeway (AmE), interstate (AmE)&#39;}, { index: 42, text: &#39;one-way traffic&#39;}, { index: 43, text: &#39;overtake (BrE), pass (AmE)&#39;}, { index: 44, text: &#39;parallel parking&#39;}, { index: 45, text: &#39;park&#39;}, { index: 46, text: &#39;parking meter, parking app&#39;}, { index: 47, text: &#39;parking space&#39;}, { index: 48, text: &#39;pavement (BrE), sidewalk (AmE)&#39;}, { index: 49, text: &#39;paving&#39;}, { index: 50, text: &#39;pedestrian crossing (BrE), zebra crossing (BrE), crosswalk (AmE)&#39;}, { index: 51, text: &#39;pile-up&#39;}, { index: 52, text: &#39;public transport&#39;}, { index: 53, text: &#39;rail, track&#39;}, { index: 54, text: &#39;ramp, exit&#39;}, { index: 55, text: &#39;reduce speed&#39;}, { index: 56, text: &#39;refuel, fill the tank&#39;}, { index: 57, text: &#39;right-of-way&#39;}, { index: 58, text: &#39;ring road&#39;}, { index: 59, text: &#39;road rage&#39;}, { index: 60, text: &#39;road safety&#39;}, { index: 61, text: &#39;roadworks&#39;}, { index: 62, text: &#39;roundabout (BrE), traffic circle (AmE)&#39;}, { index: 63, text: &#39;route&#39;}, { index: 64, text: &#39;rush hour&#39;}, { index: 65, text: &#39;shotgun&#39;}, { index: 66, text: &#39;(hard) shoulder&#39;}, { index: 67, text: &#39;speed camera&#39;}, { index: 68, text: &#39;speed limit&#39;}, { index: 69, text: &#39;speed trap, radar&#39;}, { index: 70, text: &#39;speeding&#39;}, { index: 71, text: &#39;subway (BrE), underpass (AmE)&#39;}, { index: 72, text: &#39;tailgating&#39;}, { index: 73, text: &#39;toll, charge&#39;}, { index: 74, text: &#39;traffic island&#39;}, { index: 75, text: &#39;traffic jam, congestion&#39;}, { index: 76, text: &#39;traffic regulation, rule of the road&#39;}, { index: 77, text: &#39;traffic violation&#39;},],definitions: [{index: 0, text: &#39;tavarajuna&#39;}, { index: 1, text: &#39;luotijuna&#39;}, { index: 2, text: &#39;rekka&#39;}, { index: 3, text: &#39;taajamajuna&#39;}, { index: 4, text: &#39;raitiovaunu&#39;}, { index: 5, text: &#39;metro&#39;}, { index: 6, text: &#39;ajoneuvo&#39;}, { index: 7, text: &#39;moottoripyöräilijä, polkupyöräilijä&#39;}, { index: 8, text: &#39;apukuski&#39;}, { index: 9, text: &#39;työmatkalainen&#39;}, { index: 10, text: &#39;pyöräilijä&#39;}, { index: 11, text: &#39;moottoriajoneuvolla kulkeva&#39;}, { index: 12, text: &#39;matkustaja&#39;}, { index: 13, text: &#39;jalankulkija&#39;}, { index: 14, text: &#39;pysäköinninvalvoja&#39;}, { index: 15, text: &#39;kiihdyttää&#39;}, { index: 16, text: &#39;katsastus&#39;}, { index: 17, text: &#39;autovero&#39;}, { index: 18, text: &#39;ilmailu&#39;}, { index: 19, text: &#39;puhalluskoe&#39;}, { index: 20, text: &#39;taajama&#39;}, { index: 21, text: &#39;ohitustie&#39;}, { index: 22, text: &#39;parkkipaikka&#39;}, { index: 23, text: &#39;kimppakyyti&#39;}, { index: 24, text: &#39;kolari&#39;}, { index: 25, text: &#39;kadun reunakivi&#39;}, { index: 26, text: &#39;pyörätie&#39;}, { index: 27, text: &#39;kiertotie&#39;}, { index: 28, text: &#39;ajokortti&#39;}, { index: 29, text: &#39;autokoulu&#39;}, { index: 30, text: &#39;ohituskaista&#39;}, { index: 31, text: &#39;sakko&#39;}, { index: 32, text: &#39;rahti&#39;}, { index: 33, text: &#39;huoltoasema&#39;}, { index: 34, text: &#39;nokkakolari&#39;}, { index: 35, text: &#39;valtatie, päätie&#39;}, { index: 36, text: &#39;vakuutus&#39;}, { index: 37, text: &#39;eritasoliittymä&#39;}, { index: 38, text: &#39;risteys&#39;}, { index: 39, text: &#39;kaista&#39;}, { index: 40, text: &#39;levähdyspaikka&#39;}, { index: 41, text: &#39;moottoritie&#39;}, { index: 42, text: &#39;yksisuuntainen liikenne&#39;}, { index: 43, text: &#39;ohittaa&#39;}, { index: 44, text: &#39;taskupysäköinti&#39;}, { index: 45, text: &#39;pysäköidä&#39;}, { index: 46, text: &#39;pysäköintimittari, pysäköintisovellus&#39;}, { index: 47, text: &#39;pysäköintiruutu&#39;}, { index: 48, text: &#39;jalkakäytävä&#39;}, { index: 49, text: &#39;katukiveys, päällyste&#39;}, { index: 50, text: &#39;suojatie&#39;}, { index: 51, text: &#39;ketjukolari&#39;}, { index: 52, text: &#39;julkinen liikenne&#39;}, { index: 53, text: &#39;raide&#39;}, { index: 54, text: &#39;ramppi&#39;}, { index: 55, text: &#39;hidastaa, vähentää nopeutta&#39;}, { index: 56, text: &#39;tankata&#39;}, { index: 57, text: &#39;etuajo-oikeus&#39;}, { index: 58, text: &#39;kehätie&#39;}, { index: 59, text: &#39;rattiraivo&#39;}, { index: 60, text: &#39;liikenneturvallisuus&#39;}, { index: 61, text: &#39;tietyö&#39;}, { index: 62, text: &#39;kiertoliittymä, liikenneympyrä&#39;}, { index: 63, text: &#39;reitti&#39;}, { index: 64, text: &#39;ruuhka-aika&#39;}, { index: 65, text: &#39;apukuskin paikka&#39;}, { index: 66, text: &#39;piennar&#39;}, { index: 67, text: &#39;nopeudenvalvontakamera&#39;}, { index: 68, text: &#39;nopeusrajoitus&#39;}, { index: 69, text: &#39;tutka&#39;}, { index: 70, text: &#39;ylinopeus&#39;}, { index: 71, text: &#39;alikulkutunneli&#39;}, { index: 72, text: &#39;puskurissa roikkuminen&#39;}, { index: 73, text: &#39;maksu&#39;}, { index: 74, text: &#39;keskikoroke&#39;}, { index: 75, text: &#39;ruuhka&#39;}, { index: 76, text: &#39;liikennesääntö&#39;}, { index: 77, text: &#39;liikennerikkomus&#39;},],//this creates matches for indexes.</description>
+    </item>
+    
+    <item>
+      <title>Teema 3: Traffic - yhdistä sanat</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/teemasanasto_3_yhdista2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/teemasanasto_3_yhdista2/</guid>
+      <description>Lisää pareja //Execute a JavaScript immediately after a page has been loadedwindow.onload = function() {//Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main filevar data = {terms: [{index: 0, text: &#39;freight train&#39;}, { index: 1, text: &#39;high-speed rail&#39;}, { index: 2, text: &#39;lorry (BrE), truck (AmE)&#39;}, { index: 3, text: &#39;regional / commuter / local train&#39;}, { index: 4, text: &#39;tram&#39;}, { index: 5, text: &#39;underground (BrE), subway (AmE)&#39;}, { index: 6, text: &#39;vehicle&#39;}, { index: 7, text: &#39;biker&#39;}, { index: 8, text: &#39;co-driver&#39;}, { index: 9, text: &#39;commuter&#39;}, { index: 10, text: &#39;cyclist&#39;}, { index: 11, text: &#39;motorist&#39;}, { index: 12, text: &#39;passenger&#39;}, { index: 13, text: &#39;pedestrian&#39;}, { index: 14, text: &#39;traffic warden&#39;}, { index: 15, text: &#39;accelerate&#39;}, { index: 16, text: &#39;annual inspection, vehicle safety inspection, MOT (Ministry of Safety test)&#39;}, { index: 17, text: &#39;annual vehicle tax&#39;}, { index: 18, text: &#39;aviation&#39;}, { index: 19, text: &#39;breathalyzer test&#39;}, { index: 20, text: &#39;built-up area&#39;}, { index: 21, text: &#39;bypass&#39;}, { index: 22, text: &#39;car park (BrE), parking lot (AmE)&#39;}, { index: 23, text: &#39;carpool&#39;}, { index: 24, text: &#39;collision, crash&#39;}, { index: 25, text: &#39;curb&#39;}, { index: 26, text: &#39;cycling lane&#39;}, { index: 27, text: &#39;detour, diversion&#39;}, { index: 28, text: &#39;driving licence (BrE), driver’s license (AmE)&#39;}, { index: 29, text: &#39;driving school&#39;}, { index: 30, text: &#39;fast lane&#39;}, { index: 31, text: &#39;fine, ticket&#39;}, { index: 32, text: &#39;freight, cargo&#39;}, { index: 33, text: &#39;gas station (AmE), service station (BrE)&#39;}, { index: 34, text: &#39;head-on collision&#39;}, { index: 35, text: &#39;highway&#39;}, { index: 36, text: &#39;insurance&#39;}, { index: 37, text: &#39;interchange&#39;}, { index: 38, text: &#39;intersection, junction, crossroads&#39;}, { index: 39, text: &#39;lane&#39;}, { index: 40, text: &#39;lay-by (BrE), rest stop (AmE)&#39;}, { index: 41, text: &#39;motorway (BrE), freeway (AmE), interstate (AmE)&#39;}, { index: 42, text: &#39;one-way traffic&#39;}, { index: 43, text: &#39;overtake (BrE), pass (AmE)&#39;}, { index: 44, text: &#39;parallel parking&#39;}, { index: 45, text: &#39;park&#39;}, { index: 46, text: &#39;parking meter, parking app&#39;}, { index: 47, text: &#39;parking space&#39;}, { index: 48, text: &#39;pavement (BrE), sidewalk (AmE)&#39;}, { index: 49, text: &#39;paving&#39;}, { index: 50, text: &#39;pedestrian crossing (BrE), zebra crossing (BrE), crosswalk (AmE)&#39;}, { index: 51, text: &#39;pile-up&#39;}, { index: 52, text: &#39;public transport&#39;}, { index: 53, text: &#39;rail, track&#39;}, { index: 54, text: &#39;ramp, exit&#39;}, { index: 55, text: &#39;reduce speed&#39;}, { index: 56, text: &#39;refuel, fill the tank&#39;}, { index: 57, text: &#39;right-of-way&#39;}, { index: 58, text: &#39;ring road&#39;}, { index: 59, text: &#39;road rage&#39;}, { index: 60, text: &#39;road safety&#39;}, { index: 61, text: &#39;roadworks&#39;}, { index: 62, text: &#39;roundabout (BrE), traffic circle (AmE)&#39;}, { index: 63, text: &#39;route&#39;}, { index: 64, text: &#39;rush hour&#39;}, { index: 65, text: &#39;shotgun&#39;}, { index: 66, text: &#39;(hard) shoulder&#39;}, { index: 67, text: &#39;speed camera&#39;}, { index: 68, text: &#39;speed limit&#39;}, { index: 69, text: &#39;speed trap, radar&#39;}, { index: 70, text: &#39;speeding&#39;}, { index: 71, text: &#39;subway (BrE), underpass (AmE)&#39;}, { index: 72, text: &#39;tailgating&#39;}, { index: 73, text: &#39;toll, charge&#39;}, { index: 74, text: &#39;traffic island&#39;}, { index: 75, text: &#39;traffic jam, congestion&#39;}, { index: 76, text: &#39;traffic regulation, rule of the road&#39;}, { index: 77, text: &#39;traffic violation&#39;},],definitions: [{index: 0, text: &#39;tavarajuna&#39;}, { index: 1, text: &#39;luotijuna&#39;}, { index: 2, text: &#39;rekka&#39;}, { index: 3, text: &#39;taajamajuna&#39;}, { index: 4, text: &#39;raitiovaunu&#39;}, { index: 5, text: &#39;metro&#39;}, { index: 6, text: &#39;ajoneuvo&#39;}, { index: 7, text: &#39;moottoripyöräilijä, polkupyöräilijä&#39;}, { index: 8, text: &#39;apukuski&#39;}, { index: 9, text: &#39;työmatkalainen&#39;}, { index: 10, text: &#39;pyöräilijä&#39;}, { index: 11, text: &#39;moottoriajoneuvolla kulkeva&#39;}, { index: 12, text: &#39;matkustaja&#39;}, { index: 13, text: &#39;jalankulkija&#39;}, { index: 14, text: &#39;pysäköinninvalvoja&#39;}, { index: 15, text: &#39;kiihdyttää&#39;}, { index: 16, text: &#39;katsastus&#39;}, { index: 17, text: &#39;autovero&#39;}, { index: 18, text: &#39;ilmailu&#39;}, { index: 19, text: &#39;puhalluskoe&#39;}, { index: 20, text: &#39;taajama&#39;}, { index: 21, text: &#39;ohitustie&#39;}, { index: 22, text: &#39;parkkipaikka&#39;}, { index: 23, text: &#39;kimppakyyti&#39;}, { index: 24, text: &#39;kolari&#39;}, { index: 25, text: &#39;kadun reunakivi&#39;}, { index: 26, text: &#39;pyörätie&#39;}, { index: 27, text: &#39;kiertotie&#39;}, { index: 28, text: &#39;ajokortti&#39;}, { index: 29, text: &#39;autokoulu&#39;}, { index: 30, text: &#39;ohituskaista&#39;}, { index: 31, text: &#39;sakko&#39;}, { index: 32, text: &#39;rahti&#39;}, { index: 33, text: &#39;huoltoasema&#39;}, { index: 34, text: &#39;nokkakolari&#39;}, { index: 35, text: &#39;valtatie, päätie&#39;}, { index: 36, text: &#39;vakuutus&#39;}, { index: 37, text: &#39;eritasoliittymä&#39;}, { index: 38, text: &#39;risteys&#39;}, { index: 39, text: &#39;kaista&#39;}, { index: 40, text: &#39;levähdyspaikka&#39;}, { index: 41, text: &#39;moottoritie&#39;}, { index: 42, text: &#39;yksisuuntainen liikenne&#39;}, { index: 43, text: &#39;ohittaa&#39;}, { index: 44, text: &#39;taskupysäköinti&#39;}, { index: 45, text: &#39;pysäköidä&#39;}, { index: 46, text: &#39;pysäköintimittari, pysäköintisovellus&#39;}, { index: 47, text: &#39;pysäköintiruutu&#39;}, { index: 48, text: &#39;jalkakäytävä&#39;}, { index: 49, text: &#39;katukiveys, päällyste&#39;}, { index: 50, text: &#39;suojatie&#39;}, { index: 51, text: &#39;ketjukolari&#39;}, { index: 52, text: &#39;julkinen liikenne&#39;}, { index: 53, text: &#39;raide&#39;}, { index: 54, text: &#39;ramppi&#39;}, { index: 55, text: &#39;hidastaa, vähentää nopeutta&#39;}, { index: 56, text: &#39;tankata&#39;}, { index: 57, text: &#39;etuajo-oikeus&#39;}, { index: 58, text: &#39;kehätie&#39;}, { index: 59, text: &#39;rattiraivo&#39;}, { index: 60, text: &#39;liikenneturvallisuus&#39;}, { index: 61, text: &#39;tietyö&#39;}, { index: 62, text: &#39;kiertoliittymä, liikenneympyrä&#39;}, { index: 63, text: &#39;reitti&#39;}, { index: 64, text: &#39;ruuhka-aika&#39;}, { index: 65, text: &#39;apukuskin paikka&#39;}, { index: 66, text: &#39;piennar&#39;}, { index: 67, text: &#39;nopeudenvalvontakamera&#39;}, { index: 68, text: &#39;nopeusrajoitus&#39;}, { index: 69, text: &#39;tutka&#39;}, { index: 70, text: &#39;ylinopeus&#39;}, { index: 71, text: &#39;alikulkutunneli&#39;}, { index: 72, text: &#39;puskurissa roikkuminen&#39;}, { index: 73, text: &#39;maksu&#39;}, { index: 74, text: &#39;keskikoroke&#39;}, { index: 75, text: &#39;ruuhka&#39;}, { index: 76, text: &#39;liikennesääntö&#39;}, { index: 77, text: &#39;liikennerikkomus&#39;},],//this creates matches for indexes.</description>
+    </item>
+    
+    <item>
+      <title>Teema 4: Information &amp; Communications technology - Yhdistä</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/teemasanasto_4_yhdista1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/teemasanasto_4_yhdista1/</guid>
+      <description>Etsi sanaa vastaava käännös. Numeroita klikkaamalla voit luoda haluamasi määrän uusia pareja. 6912 //Execute a JavaScript immediately after a page has been loadedwindow.onload = function() {//Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main filevar data = {terms: [{index: 0, text: &#39;application&#39;}, { index: 1, text: &#39;attachment&#39;}, { index: 2, text: &#39;backspace&#39;}, { index: 3, text: &#39;bold, boldface&#39;}, { index: 4, text: &#39;bookmark&#39;}, { index: 5, text: &#39;browser&#39;}, { index: 6, text: &#39;cursor&#39;}, { index: 7, text: &#39;desktop&#39;}, { index: 8, text: &#39;directory&#39;}, { index: 9, text: &#39;domain&#39;}, { index: 10, text: &#39;emoji&#39;}, { index: 11, text: &#39;file&#39;}, { index: 12, text: &#39;firewall&#39;}, { index: 13, text: &#39;folder&#39;}, { index: 14, text: &#39;font&#39;}, { index: 15, text: &#39;hashtag&#39;}, { index: 16, text: &#39;header&#39;}, { index: 17, text: &#39;hyperlink&#39;}, { index: 18, text: &#39;icon&#39;}, { index: 19, text: &#39;italics&#39;}, { index: 20, text: &#39;search engine&#39;}, { index: 21, text: &#39;software&#39;}, { index: 22, text: &#39;spacebar&#39;}, { index: 23, text: &#39;boot, reboot&#39;}, { index: 24, text: &#39;charge&#39;}, { index: 25, text: &#39;copy and paste&#39;}, { index: 26, text: &#39;cut and paste&#39;}, { index: 27, text: &#39;crash&#39;}, { index: 28, text: &#39;delete&#39;}, { index: 29, text: &#39;download&#39;}, { index: 30, text: &#39;drag and drop&#39;}, { index: 31, text: &#39;install&#39;}, { index: 32, text: &#39;log in, log out&#39;}, { index: 33, text: &#39;refresh&#39;}, { index: 34, text: &#39;update&#39;}, { index: 35, text: &#39;upload&#39;}, { index: 36, text: &#39;charger&#39;}, { index: 37, text: &#39;display, monitor&#39;}, { index: 38, text: &#39;docking station&#39;}, { index: 39, text: &#39;flash drive&#39;}, { index: 40, text: &#39;hardware&#39;}, { index: 41, text: &#39;headset&#39;}, { index: 42, text: &#39;keyboard&#39;}, { index: 43, text: &#39;laptop&#39;}, { index: 44, text: &#39;screen&#39;}, { index: 45, text: &#39;algorithm&#39;}, { index: 46, text: &#39;artificial intelligence, AI&#39;}, { index: 47, text: &#39;authentication&#39;}, { index: 48, text: &#39;bandwidth&#39;}, { index: 49, text: &#39;bit&#39;}, { index: 50, text: &#39;broadband&#39;}, { index: 51, text: &#39;byte&#39;}, { index: 52, text: &#39;cookie&#39;}, { index: 53, text: &#39;cyber safety, cyber security&#39;}, { index: 54, text: &#39;encryption&#39;}, { index: 55, text: &#39;malware&#39;}, { index: 56, text: &#39;moderator&#39;}, { index: 57, text: &#39;network&#39;}, { index: 58, text: &#39;online&#39;}, { index: 59, text: &#39;phishing&#39;}, { index: 60, text: &#39;programming&#39;}, { index: 61, text: &#39;spam&#39;}, { index: 62, text: &#39;spreadsheet&#39;}, { index: 63, text: &#39;spyware&#39;}, { index: 64, text: &#39;Wi-Fi&#39;}, { index: 65, text: &#39;word processing&#39;},],definitions: [{index: 0, text: &#39;sovellus&#39;}, { index: 1, text: &#39;liitetiedosto&#39;}, { index: 2, text: &#39;askelpalautin&#39;}, { index: 3, text: &#39;lihavointi&#39;}, { index: 4, text: &#39;kirjanmerkki&#39;}, { index: 5, text: &#39;selain&#39;}, { index: 6, text: &#39;kursori&#39;}, { index: 7, text: &#39;työpöytä&#39;}, { index: 8, text: &#39;hakemisto&#39;}, { index: 9, text: &#39;verkkotunnus&#39;}, { index: 10, text: &#39;emoji, hymiö&#39;}, { index: 11, text: &#39;tiedosto&#39;}, { index: 12, text: &#39;palomuuri&#39;}, { index: 13, text: &#39;kansio&#39;}, { index: 14, text: &#39;fontti, kirjasin&#39;}, { index: 15, text: &#39;aihetunniste, risuaita&#39;}, { index: 16, text: &#39;otsikko&#39;}, { index: 17, text: &#39;linkki&#39;}, { index: 18, text: &#39;kuvake&#39;}, { index: 19, text: &#39;kursivointi&#39;}, { index: 20, text: &#39;hakukone&#39;}, { index: 21, text: &#39;ohjelma, ohjelmisto&#39;}, { index: 22, text: &#39;välilyöntinäppäin&#39;}, { index: 23, text: &#39;käynnistää uudelleen&#39;}, { index: 24, text: &#39;ladata (virtaa)&#39;}, { index: 25, text: &#39;kopioida ja liittää&#39;}, { index: 26, text: &#39;leikata ja liittää&#39;}, { index: 27, text: &#39;kaatua, lakata toimimasta&#39;}, { index: 28, text: &#39;poistaa&#39;}, { index: 29, text: &#39;ladata (itselleen esim.</description>
+    </item>
+    
+    <item>
+      <title>Teema 4: Information &amp; Communications technology - Yhdistä</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/teemasanasto_4_yhdista2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/teemasanasto_4_yhdista2/</guid>
+      <description>Lisää pareja //Execute a JavaScript immediately after a page has been loadedwindow.onload = function() {//Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main filevar data = {terms: [{index: 0, text: &#39;application&#39;}, { index: 1, text: &#39;attachment&#39;}, { index: 2, text: &#39;backspace&#39;}, { index: 3, text: &#39;bold, boldface&#39;}, { index: 4, text: &#39;bookmark&#39;}, { index: 5, text: &#39;browser&#39;}, { index: 6, text: &#39;cursor&#39;}, { index: 7, text: &#39;desktop&#39;}, { index: 8, text: &#39;directory&#39;}, { index: 9, text: &#39;domain&#39;}, { index: 10, text: &#39;emoji&#39;}, { index: 11, text: &#39;file&#39;}, { index: 12, text: &#39;firewall&#39;}, { index: 13, text: &#39;folder&#39;}, { index: 14, text: &#39;font&#39;}, { index: 15, text: &#39;hashtag&#39;}, { index: 16, text: &#39;header&#39;}, { index: 17, text: &#39;hyperlink&#39;}, { index: 18, text: &#39;icon&#39;}, { index: 19, text: &#39;italics&#39;}, { index: 20, text: &#39;search engine&#39;}, { index: 21, text: &#39;software&#39;}, { index: 22, text: &#39;spacebar&#39;}, { index: 23, text: &#39;boot, reboot&#39;}, { index: 24, text: &#39;charge&#39;}, { index: 25, text: &#39;copy and paste&#39;}, { index: 26, text: &#39;cut and paste&#39;}, { index: 27, text: &#39;crash&#39;}, { index: 28, text: &#39;delete&#39;}, { index: 29, text: &#39;download&#39;}, { index: 30, text: &#39;drag and drop&#39;}, { index: 31, text: &#39;install&#39;}, { index: 32, text: &#39;log in, log out&#39;}, { index: 33, text: &#39;refresh&#39;}, { index: 34, text: &#39;update&#39;}, { index: 35, text: &#39;upload&#39;}, { index: 36, text: &#39;charger&#39;}, { index: 37, text: &#39;display, monitor&#39;}, { index: 38, text: &#39;docking station&#39;}, { index: 39, text: &#39;flash drive&#39;}, { index: 40, text: &#39;hardware&#39;}, { index: 41, text: &#39;headset&#39;}, { index: 42, text: &#39;keyboard&#39;}, { index: 43, text: &#39;laptop&#39;}, { index: 44, text: &#39;screen&#39;}, { index: 45, text: &#39;algorithm&#39;}, { index: 46, text: &#39;artificial intelligence, AI&#39;}, { index: 47, text: &#39;authentication&#39;}, { index: 48, text: &#39;bandwidth&#39;}, { index: 49, text: &#39;bit&#39;}, { index: 50, text: &#39;broadband&#39;}, { index: 51, text: &#39;byte&#39;}, { index: 52, text: &#39;cookie&#39;}, { index: 53, text: &#39;cyber safety, cyber security&#39;}, { index: 54, text: &#39;encryption&#39;}, { index: 55, text: &#39;malware&#39;}, { index: 56, text: &#39;moderator&#39;}, { index: 57, text: &#39;network&#39;}, { index: 58, text: &#39;online&#39;}, { index: 59, text: &#39;phishing&#39;}, { index: 60, text: &#39;programming&#39;}, { index: 61, text: &#39;spam&#39;}, { index: 62, text: &#39;spreadsheet&#39;}, { index: 63, text: &#39;spyware&#39;}, { index: 64, text: &#39;Wi-Fi&#39;}, { index: 65, text: &#39;word processing&#39;},],definitions: [{index: 0, text: &#39;sovellus&#39;}, { index: 1, text: &#39;liitetiedosto&#39;}, { index: 2, text: &#39;askelpalautin&#39;}, { index: 3, text: &#39;lihavointi&#39;}, { index: 4, text: &#39;kirjanmerkki&#39;}, { index: 5, text: &#39;selain&#39;}, { index: 6, text: &#39;kursori&#39;}, { index: 7, text: &#39;työpöytä&#39;}, { index: 8, text: &#39;hakemisto&#39;}, { index: 9, text: &#39;verkkotunnus&#39;}, { index: 10, text: &#39;emoji, hymiö&#39;}, { index: 11, text: &#39;tiedosto&#39;}, { index: 12, text: &#39;palomuuri&#39;}, { index: 13, text: &#39;kansio&#39;}, { index: 14, text: &#39;fontti, kirjasin&#39;}, { index: 15, text: &#39;aihetunniste, risuaita&#39;}, { index: 16, text: &#39;otsikko&#39;}, { index: 17, text: &#39;linkki&#39;}, { index: 18, text: &#39;kuvake&#39;}, { index: 19, text: &#39;kursivointi&#39;}, { index: 20, text: &#39;hakukone&#39;}, { index: 21, text: &#39;ohjelma, ohjelmisto&#39;}, { index: 22, text: &#39;välilyöntinäppäin&#39;}, { index: 23, text: &#39;käynnistää uudelleen&#39;}, { index: 24, text: &#39;ladata (virtaa)&#39;}, { index: 25, text: &#39;kopioida ja liittää&#39;}, { index: 26, text: &#39;leikata ja liittää&#39;}, { index: 27, text: &#39;kaatua, lakata toimimasta&#39;}, { index: 28, text: &#39;poistaa&#39;}, { index: 29, text: &#39;ladata (itselleen esim.</description>
+    </item>
+    
+    <item>
+      <title>Etu- ja jälkiliitetaulukko</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/etuliitteet_taulukko/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/etuliitteet_taulukko/</guid>
+      <description>Etuliitteet .content {overflow: auto;}Kielteisyys ja vastakkaisuus    Liite Example Esimerkki Selitys     a- asymmetrical Epäsymmetrinen ilman jotakin   anti- antidote vastamyrkky toimii vastaan   contra- contraceptive ehkäisyväline vastaan, vastustaa   counter- counteract vastustaa vastaan, vastustaa   de- deduct vähentää poistamista   dis- disadvantage haitta vähentäminen, irrottaminen   il- illegal laiton adjektiivien käänteinen muoto   im- impossible mahdoton adjektiivien käänteinen muoto   in- infertile hedelmätön adjektiivien käänteinen muoto   ir- irregular epäsäännöllinen adjektiivien käänteinen muoto   mal- malnourished aliravittu väärin, huonosti   mis- misunderstand ymmärtää väärin väärin, huonosti   non- non-alcoholic alkoholiton ei   un- unacceptable mahdoton hyväksyä käänteinen merkitys   under- underdeveloped alikehittynyt ali-    Määrä ja koko    Liite Example Esimerkki Selitys     bi- bilateral kahdenvälinen kaksi   cent- century vuosisata sata   deca- decade vuosikymmen kymmenen   equi- equivalent samanlainen sama   hemi- hemisphere pallonpuolisko puolikas   homo- homogenous yhtenäinen sama   hyper- hypersensitive yliherkkä yli   hypo- hypothermia vajaalämpöisyys ali   mega- megacelebrity suurjulkkis iso   micro- microscopical pienen pieni, pieni (kreikka)   mill- millennium vuosituhat tuhat   mini- minibreak pikkuloma pieni (latina)   mono- monopoly yksinoikeus yksi   multi- multinational monikansallinen monta (latina)   poly- polyglot monikielinen monta (kreikka)    Aika, järjestys, paikka, suunta    Liite Example Esimerkki Selitys     ad- advance edetä eteenpäin   ex- ex-husband entinen aviomies entinen   extra- extramarital avioliiton ulkopuolinen ulkopuolella   fore- foretell ennustaa etukäteen   inter- interchange vaihto välinen   intra- intravenous suonensisäinen sisäinen   mid- midweek viikon puolivälissä keskellä   out- outlast kestää kauemmin kuin kauemmin/paremmin   over- overtime ylityö yli   peri- perimeter ulkoreuna reunalla, ympärillä   post- postpone lykätä myöhäisemmäksi jälkeenpäin   pre- precondition ennakkoehto etukäteen   re- repaint maalata uudelleen uudelleen   sub- subterranean maanalainen ali   super- superstructure ylärakenne yli, todella paljon tai iso   trans- transcontinental mantereen ylittävä läpi, yli, muutos tilasta toiseen    Muita etuliitteitä    Liite Example Esimerkki Selitys     ambi- ambidextrous molempikätinen molemmat, enemmän kuin yksi   arch- arch-rival pahin kilpailija suurin, pahin   auto- autobiography omaelämäkerta itse   by- by-product sivutuote sivu   co- coworker työkaveri yhdessä   cross- crossfire ristituli risti   over- overanalyze analysoida liikaa yli, liikaa   pro- pro-Africa afrikkalaismielinen puolesta   pseudo- pseudonym salanimi valheellinen   sur- surpass viedä voitto, ylittää, olla parempi ylittää   up- upgrade korottaa, parantaa paremmin   vice- vice-president varapresidentti vara, avustava    Jälkiliitteet Substantiivi (tekijä)    Liite Example Esimerkki     -ant/-ent applicant hakija   -ard coward pelkuri   -crat bureaucrat byrokraatti   -ee trainee harjoittelija   -eer volunteer vapaaehtoinen   -er/-ar/-or driver ajaja   -holic workaholic työnarkomaani   -ian vegetarian kasvissyöjä   -ist artist taiteilija   -monger fishmonger kalakauppias   -path psychopath psykopaatti   -phile bibliophile kirjojen ystävä   -ster pollster mielipidetutkija    Substantiivi (toiminta tai tulos)    Liite Example Esimerkki     -ade blockade saarto   -age pilgrimage pyhiinvaellusmatka   -al arrival saapuminen   -ance/-ence annoyance harmitus   -ation/-ition creation luomus, luominen   -cide suicide itsemurha   -ing swimming uiminen   -ism heroism sankaruus   -ment shipment lähetys    Substantiivi (tila tai ominaisuus)    Liite Example Esimerkki     -acy privacy yksityisyys   -ancy/-ency hesitancy epäröinti   -dom wisdom viisaus   -hood motherhood äitiys   -ness kindness ystävällisyys   -ship citizenship kansalaisuus   -ty/-ity honesty rehellisyys   -th depth syvyys    Substantiivi (työala tai -paikka)    Liite Example Esimerkki     -ry dentistry hammaslääketiede   -ery nursery päiväkoti    Substantiivi (pienuus)    Liite Example Esimerkki     -ette kitchenette keittokomero   -let leaflet esite    Verbit    Liite Example Esimerkki     -ate evaporate höyrystyä   -en strengthen vahvistaa   -ify amplify laajentaa   -ise/ize popularise/popularize tehdä tunnetuksi    Huom!</description>
+    </item>
+    
+    <item>
+      <title>1. Valitse oikea pääte</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/etuliitteet_monivalinta1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/etuliitteet_monivalinta1/</guid>
+      <description>Mikä pääte sopii? Joudut ehkä muuttamaan kantasanaa.
+Kieltäytyminen = refuse...Kirjastonhoitaja = library...Työntekijä = employ...Employer = työnantaja
+Hoito = treat... Jäsenyys = member...Keinottelija = profit..Varmuus = certain...Puute = short...Veljeys = brother...Tylsistyminen = bore...Vastaa(function($) {$.</description>
+    </item>
+    
+    <item>
+      <title>2. Muodosta sanat liitteiden avulla</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/etuliitteet_kirjoita1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/etuliitteet_kirjoita1/</guid>
+      <description>Kuinka hyvin muistat sanojen päätteet? Muodosta sana lisäämällä jokin jälkiliite annettuun sanaan.
+1. Wide = leveä, leveys = &amp;nbsp;&amp;nbsp;2. Leak = vuotaa, vuoto = &amp;nbsp;&amp;nbsp;3. Star = tähti, tähteys = &amp;nbsp;&amp;nbsp;4. Participate = ottaa osaa, osanottaja = &amp;nbsp;&amp;nbsp;5. Nation = kansakunta, kansallistaminen = &amp;nbsp;&amp;nbsp;6. Village = kylä, kyläläinen = &amp;nbsp;&amp;nbsp;7. Beg = kerjätä, kerjäläinen = &amp;nbsp;&amp;nbsp;8.</description>
+    </item>
+    
+    <item>
+      <title>3. Muodosta verbejä jälkiliitteillä</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/etuliitteet_kirjoita2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/etuliitteet_kirjoita2/</guid>
+      <description>Muodosta verbi kantasanasta seuraavien liitteiden avulla: -en, -ate, -ify, -ise/-ize
+Kirjoita koko sana sillä saatat joutua muuttamaan kantasanaa. 1. Length - pidentää = &amp;nbsp;&amp;nbsp;2. Simple - yksinkertaistaa = &amp;nbsp;&amp;nbsp;3. Chlorin - kloorata = &amp;nbsp;&amp;nbsp;4. Hard - kovettaa = &amp;nbsp;&amp;nbsp;5. Legal - laillistaa = &amp;nbsp;&amp;nbsp;6. Sharp - teroittaa = &amp;nbsp;&amp;nbsp;7. Electric - sähköistää = &amp;nbsp;&amp;nbsp;8.</description>
+    </item>
+    
+    <item>
+      <title>4. Muodosta adjektiivejä jälkiliitteillä</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/etuliitteet_kirjoita3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/etuliitteet_kirjoita3/</guid>
+      <description>Muodosta adjektiivi kantasanasta seuraavien liitteiden avulla: -able, -al, -ed, -ic, -ive, -ish, -ful, -less, -ly, -ous, -ious, -y
+Kirjoita koko sana sillä saatat joutua muuttamaan kantasanaa. 1. Order - järjestyksessä oleva = &amp;nbsp;&amp;nbsp;2. Speech - sanaton = &amp;nbsp;&amp;nbsp;3. Big - isohko = &amp;nbsp;&amp;nbsp;4. Courage - rohkea = &amp;nbsp;&amp;nbsp;5. Disaster - katastrofaalinen = &amp;nbsp;&amp;nbsp;6. Phenomenon - ilmiömäinen = &amp;nbsp;&amp;nbsp;7.</description>
+    </item>
+    
+    <item>
+      <title>5. Käännä suomeksi</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/etuliitteet_kirjoita4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/etuliitteet_kirjoita4/</guid>
+      <description>Tehtävän sanoihin on kaikkiin lisätty negatiivisuutta tai käänteisyyttä ilmaiseva etuliite. Käännä sanat suomeksi. 1. Indirect = &amp;nbsp;&amp;nbsp;2. Malnourished = &amp;nbsp;&amp;nbsp;3. Misinterprete = &amp;nbsp;&amp;nbsp;4. Derail = &amp;nbsp;&amp;nbsp;5. Nonviolent = &amp;nbsp;&amp;nbsp;6. Disagree = &amp;nbsp;&amp;nbsp;7. Irregular = &amp;nbsp;&amp;nbsp;8. Impatient = &amp;nbsp;&amp;nbsp;9. Illiterate = &amp;nbsp;&amp;nbsp;10. Inefficient = &amp;nbsp;&amp;nbsp; 11.</description>
+    </item>
+    
+    <item>
+      <title>6. Valitse negatiivinen etuliite</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/etuliitteet_kirjoita5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/etuliitteet_kirjoita5/</guid>
+      <description>Muodosta suomenkielisen sanan vastine valitsemalla yksi seuraavista etuliitteistä: un-, in-, il-, im-, ir-, dis-, non-, de-, mis-, mal- 1. Väärin diagnosoitu = &amp;nbsp;diagnosed2. Epärehellisyys = &amp;nbsp;honesty3. Alkoholiton = &amp;nbsp;alcoholic4. Epäreilu = &amp;nbsp;fair5. Vastuuton = &amp;nbsp;responsible6. Hoitovirhe = &amp;nbsp;practice7. Lainvastainen = &amp;nbsp;legitimate8. Epäoikeudenmukaisuus = &amp;nbsp;justice9. Epämuodostunut = &amp;nbsp;formed10.</description>
+    </item>
+    
+    <item>
+      <title>7. Valitse kokoon viittaava etuliite</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/etuliitteet_kirjoita6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/etuliitteet_kirjoita6/</guid>
+      <description>Muodosta suomenkielisen sanan vastine valitsemalla yksi seuraavista lukuun, kokoon tai muotoon viittaavista etuliitteistä: mono-, bi-, tri-, quadr(u)-, penta-, dec(i/a)-, cent-, mill-, poly-, multi-, semi-, ultra-, mega- 1. Satavuotias = &amp;nbsp;enary2. Moniääninen = &amp;nbsp;phonic3. Yksitoikkoinen = &amp;nbsp;tonous4. Kahdenvälinen = &amp;nbsp;lateral5. Monikielinen = &amp;nbsp;lingual6. Viisikulmainen = &amp;nbsp;gonal7. Puolipiste eli ; = &amp;nbsp;colon8.</description>
+    </item>
+    
+    <item>
+      <title>8. Muodosta sanoja etuliitteillä</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/etuliitteet_kirjoita7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/etuliitteet_kirjoita7/</guid>
+      <description>Muodosta uusia sanoja etuliitteiden avulla. Käytä aiemman tehtävän kantasanoja apunasi.
+1. Kaksijalkainen = &amp;nbsp;&amp;nbsp;2. Kolmipyöräinen = &amp;nbsp;&amp;nbsp;3. Puoliautomaatti- = &amp;nbsp;&amp;nbsp;4. Yksitavuinen = &amp;nbsp;&amp;nbsp;5. Monimiljonääri = &amp;nbsp;&amp;nbsp;6. Viisiottelu = &amp;nbsp;&amp;nbsp;7. Kymmenottelu = &amp;nbsp;&amp;nbsp;8. Tuhatjalkainen = &amp;nbsp;&amp;nbsp;9. Huipputehokas = &amp;nbsp;&amp;nbsp;var answers = {&#34;</description>
+    </item>
+    
+    <item>
+      <title>9. Valitse oikea etuliite</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/etuliitteet_kirjoita8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/etuliitteet_kirjoita8/</guid>
+      <description>Muodosta suomenkielisen sanan vastine valitsemalla yksi seuraavista lukuun etuliitteistä: ante-, fore-, pre-, post-, ex-, re-, sub-, super-, trans-, inter-, extra- 1. Avioitua uudelleen = &amp;nbsp;marry2. Siperian poikki kulkeva = &amp;nbsp;-Siberian3. Henkilöiden välinen = &amp;nbsp;personal4. Yli-inhimillinen = &amp;nbsp;human5. Traumanjälkeinen = &amp;nbsp;-traumatic6. Ala-arvoinen = &amp;nbsp;standard7. Avioliiton ulkopuolinen = &amp;nbsp;marital8. Entinen vaimo = &amp;nbsp;-wife9.</description>
+    </item>
+    
+    <item>
+      <title>10. Valitse oikea etuliite</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/etuliitteet_kirjoita9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/etuliitteet_kirjoita9/</guid>
+      <description>Muodosta suomenkielisen sanan vastine valitsemalla yksi seuraavista lukuun etuliitteistä: co-, counter-, anti-, pro-, auto-, by-, cross-, out-, sur-, over-, under-, vice-, pseudo- 1. Vastapaino = &amp;nbsp;-balance2. Vastamyrkky = &amp;nbsp;dote3. Ristikuulustella = &amp;nbsp;-examine4. Voittaa, ylittä = &amp;nbsp;pass5. Yliannostus = &amp;nbsp;dose6. Kirjoituskumppani = &amp;nbsp;-author7. Sivutuote = &amp;nbsp;-product8. Aborttia vastustava = &amp;nbsp;-life9.</description>
+    </item>
+    
+    <item>
+      <title>Pakohuone: Elements 5</title>
+      <link>https://joonasmmp.github.io/kurssit/ena05tehtavat/pakohuone1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena05tehtavat/pakohuone1/</guid>
+      <description>IntroductionYou are on an Erasmus trip in Italy. On the first day of the trip you are visiting the University of Padua, where Galileo Galilei, the father of the scientific method, was appointed as the first chair of mathematics and physics and taught for 18 years. You have gathered in the auditorium to watch a video presentation when suddenly the presentation is interrupted by a video stream from one of the laboratories at the university.</description>
+    </item>
+    
+    <item>
+      <title>Vuoden sanat 2022</title>
+      <link>https://joonasmmp.github.io/post/muuta/2022_vuodensanat/</link>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/post/muuta/2022_vuodensanat/</guid>
+      <description>On aika jättää vuosi 2022 taaksemme, ja kun vuosi vaihtuu, ilmestyy myös eri sanakirjojen vuoden sana-valinnat. Monesti nämä vuoden sanat ovat sanoja jotka ovat olleet jollain tapaa ajankohtaisia kyseisenä vuonna, ja lukemalla listaa Wikipediasta näkee hyvin mikä asia on minäkin vuonna ollut pinnalla.
+Tässä kirjoiksessa käyn läpi muutanan vuoden sanan ihan vain huvin vuoksi.
+Oxford English Dictionary: Goblin mode OED:n vuoden sana, joka itse asiassa onkin kaksi sanaa, oli niinkin kova juttu että rikkoi uutiskynnyksen myös Suomessa, ja sai Hesarin kautta suomenkielisen muodon &amp;ldquo;hiisimoodi&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Etymologiaa: tantalise</title>
+      <link>https://joonasmmp.github.io/post/etymologia/tantalise/</link>
+      <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/post/etymologia/tantalise/</guid>
+      <description>Päivän sanana tänään tantalise (Br) / tantalize (Am).
+Kävin katsomassa elokuvan the Menu, ja sen jälkikeskustelua lueskellessani sain selville, että elokuvassa esiintyvän kokin aiempi ravintola oli nimeltään Tantalus. Se sai minut lukemaan lisää sanan alkuperästä ja huomaamaan yhteyden verbiin tantalise.
+Sanakirja Merriam-Webster kuvailee sanaa tantalise näin:
+ tantalized; tantalizing
+transitive verb
+to tease or torment by or as if by presenting something desirable to the view but continually keeping it out of reach.</description>
+    </item>
+    
+    <item>
+      <title>YO Syksy 2022 - Englanti (pitkä)</title>
+      <link>https://joonasmmp.github.io/post/ylioppilaskokeet/yo_s2022_ajatuksia/</link>
+      <pubDate>Tue, 20 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/post/ylioppilaskokeet/yo_s2022_ajatuksia/</guid>
+      <description>Alla on listattu ajatuksia ja huomiota syksyn 2022 A-englannin ylioppilaskokeesta. Näet kokeen tästä linkistä. Nämä huomiot ovat tulleet esillä opettajien Facebook-keskustelun ja YLE Abitreenien lähetyksen yhteydessä, sekä myös mahdollisesti omien kokelaiden tarkistamisen yhteydessä. Syynä tähän kirjoitukseen on se, että voin kirjoittaa ylös ajatuksia kyseisestä kokeesta tulevaisuutta ajatellen, ja se, että ehkä joku kokelas saa tästä jotain irti, kun huomaa millaisten asioiden kanssa kokeita tarkistavat opettajat esimerkiksi kamppaleivat. Jotta täysi anonymiteetti säilyy, llmoitan myös sen, että kaikki alla oleva pohdinta on mielikuvituksen tuotetta eikä siinä esiinny kenenkään yksittäisen kokelaan vastauksia tai viittauksia yhdenkään kokeeseen osallistuneen henkilön koevastauksiin.</description>
+    </item>
+    
+    <item>
+      <title>Case paritustehtävä</title>
+      <link>https://joonasmmp.github.io/post/verkkosivu/caseyhdista/</link>
+      <pubDate>Sun, 11 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/post/verkkosivu/caseyhdista/</guid>
+      <description>Kysyin kollegaltani Markulta (nimi ei muutettu) millaisia verkkotehtäviä hän haluaisi. Hän sanoi haluavansa tehtävän, jossa sanastosta arvotaan määrä n sanoja ja niille täytyy etsiä pari. Kun paritus on valmis, on valmiina sanasto jossa toisella puolella englanninkielinen versio ja toisella puolella suomenkielinen. Lupasin hoitaa asian.
+Tausta Koska en osaa koodata, etsin ohjeen kuinka luoda muistipeli. Siinähän on käytännössä sama idea. Korttien sijasta laitoin kaksi riviä vastakkaisille puolille ja muutin kortit suorakulmioiksi. Indeksissä kaksi arvoa (sana suomeksi ja englanniksi) ja ne on paritettu toisiinsa.</description>
+    </item>
+    
+    <item>
+      <title>Verkkosivun taustaa</title>
+      <link>https://joonasmmp.github.io/post/verkkosivu/verkkosivuntaustat/</link>
+      <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/post/verkkosivu/verkkosivuntaustat/</guid>
+      <description>Tässä julkaisussa käsitellään tämän verkkosivun taustalla olevaa prosessia, joka on tietysti kokoajan kesken. Ehkä saat tästä inspiraatiota oman projektin luomiseen, tosin tuskin tämä kovin montaa ihmistä kiinnostaa. Oikeasti kirjoitan tätä koska harjoittelen alustan toimintoja ja formaatteja ja pääsen käymään läpi sivuston eri vaiheita.
+Miksi? Taustalla on jo pitkään jatkunut halu tehdä jotain hyödyllistä tietoteknistä projektia, sillä kiinnostusta löytyy, mutta päämäärää ei. Töissä tuli vastaan aito tarve luoda omia verkkotehtäviä, jonka takia tämä projekti sai alkunsa.</description>
+    </item>
+    
+    <item>
+      <title>Perusaikamuodot?</title>
+      <link>https://joonasmmp.github.io/kielioppiteoria/aikamuodot/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kielioppiteoria/aikamuodot/</guid>
+      <description>Englannin perusaikamuodot on kaikista kielioppiin millään tavalla liittyvistä asioista ehdottomasti tärkein. Heti engannin opiskelun alettua aletaan jo katsomaan preesensiä ja viimemistään kolmosluokalla imperfektiä. Sitä seuraa vitosluokalla (joskus vasta seiskalla) preesens, kasilla pluskvamperfekti ja futuuri. Ysillä ne kaikki kerrataan koska ne pitäisi osata kun peruskoulusta päästään. Lukiossa ne kerrataan joko peruskoulusta lukioon-kurssilla ja/tai ykkösmoduulissa. Huomioi sana kerrataan, koska ne pitäisi osata jo. Mikäli perusaikamuodot tuottavat sinulle vaikeuksia lukion alkaessa, tulevat ne tuottamaan ongelmia myös jatkossa.</description>
+    </item>
+    
+    <item>
+      <title>Kirjoitelma</title>
+      <link>https://joonasmmp.github.io/yo-kokeet/kirjoitelma/</link>
+      <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/yo-kokeet/kirjoitelma/</guid>
+      <description>epgkjapoewgk</description>
+    </item>
+    
+    <item>
+      <title>Kuuntelukoe</title>
+      <link>https://joonasmmp.github.io/yo-kokeet/kuuntelukoe/</link>
+      <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/yo-kokeet/kuuntelukoe/</guid>
+      <description>Tähän sitten kuuntelujuttuja ja sitten tähän sisöltöä</description>
+    </item>
+    
+    <item>
+      <title>Luetunymmärtäminen</title>
+      <link>https://joonasmmp.github.io/yo-kokeet/luetunymmartaminen/</link>
+      <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/yo-kokeet/luetunymmartaminen/</guid>
+      <description>Luetunymmärrys jne</description>
+    </item>
+    
+    <item>
+      <title>Rakenneosio</title>
+      <link>https://joonasmmp.github.io/yo-kokeet/rakenneosio/</link>
+      <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/yo-kokeet/rakenneosio/</guid>
+      <description>Rakenneosiojuttuja tähän</description>
+    </item>
+    
+    <item>
+      <title>Tunnista aikamuoto</title>
+      <link>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_tunnistaaikamuoto/</link>
+      <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_tunnistaaikamuoto/</guid>
+      <description>function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Has vai have?</title>
+      <link>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_hashave/</link>
+      <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_hashave/</guid>
+      <description>function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Apuverbit: Kirjoita 1</title>
+      <link>https://joonasmmp.github.io/kurssit/ena04tehtavat/apuverbit_kirjoita1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena04tehtavat/apuverbit_kirjoita1/</guid>
+      <description>Täydennä verbimuodot annetun vihjeen mukaan.
+1. I&amp;nbsp;&amp;nbsp; (osasin) play the piano when I was little2. My brother &amp;nbsp;&amp;nbsp; (oli pystynyt löytämään) some money in the lake.3. &amp;nbsp;&amp;nbsp; (voisitko ojentaa) the salt, please?4. You &amp;nbsp;&amp;nbsp; (olisit voinut soittaa) before barging in here!5. Yesterday I&amp;nbsp;&amp;nbsp; (täytyi viedä) my dog with me to school.6. &amp;nbsp;&amp;nbsp; (kykenisitkö auttamaan) me with this umbrella?</description>
+    </item>
+    
+    <item>
+      <title>Apuverbit: Kirjoita 2</title>
+      <link>https://joonasmmp.github.io/kurssit/ena04tehtavat/apuverbit_kirjoita2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena04tehtavat/apuverbit_kirjoita2/</guid>
+      <description>Täydennä linkkisanat annetun vihjeen mukaan.
+1. You&amp;nbsp;&amp;nbsp; (ei tarvitse nauraa) at my jokes if you do not find them funny.2. I &amp;nbsp;&amp;nbsp; (en ole koskaan voinut valehdella) to my parents.3. You &amp;nbsp;&amp;nbsp; (ei tarvitse tehdä) all the exercises if you are going to ace them anyway.4. You &amp;nbsp;&amp;nbsp; (et saa valvoa) late studying even if your grades depended on it.</description>
+    </item>
+    
+    <item>
+      <title>Artikkelit: Lopputesti</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/artikkelit_lopputesti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/artikkelit_lopputesti/</guid>
+      <description>function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Demonstratiivipronominit: Kirjoita 1</title>
+      <link>https://joonasmmp.github.io/kurssit/ena04tehtavat/demonstratiivipronominit_kirjoita1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena04tehtavat/demonstratiivipronominit_kirjoita1/</guid>
+      <description>Täydennä demonstratiivipronominit annetun vihjeen mukaan.
+1. &amp;nbsp;&amp;nbsp; (nykyään) it&#39;s impossible to find a partner.2. The invention of internet made &amp;nbsp;&amp;nbsp; (tällaisten asioiden) impossible for someone without digital knowledge.3. Of course there are &amp;nbsp;&amp;nbsp; (niitä joita) are interested in dating outside applications and such.4. I&#39;m curious to see what kind of person I will be meeting &amp;nbsp;&amp;nbsp; (tällä kertaa), the last time was a disaster.</description>
+    </item>
+    
+    <item>
+      <title>Epäsuora esitys: Flashcard</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/epasuora_flashcard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/epasuora_flashcard/</guid>
+      <description>Muodosta epäsuora kerronta korteissa 1-13. Käännä kortit 14-16 englanniksi.  $(document).ready(function() {var currentQuestion = 0;var qbank = [[&#39;&#34;I have been studying English for years.&#34;
+She told me...&#39;, &#39;&#34;I have been studying English for years.&#34;
+She told me she had been studying English for years.&#39;],[&#39;&#34;Now I know reported speech rules very well.&#34;
+He explained that...&#39;, &#39;&#34;Now I know reported speech rules very well.</description>
+    </item>
+    
+    <item>
+      <title>Epäsuora kerronta: Alkutesti</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/epasuora_alkutesti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/epasuora_alkutesti/</guid>
+      <description>Muunna lauseet epäsuoraan kerrontaan sopiviksi. 1. I have the perfect daughter.Johtolauseen verbi vaatii imperfektin, mutta koska kyseessä voidaan olettaa olevan yleinen totuus, myös preesens käy. Kohta kaksi had had sanottaisiin tyttären hautajaisissa tai onnistuneen sukupuolenkorjauksen jälkeen.
+2. The teacher is proud of his students.Johtolauseen verbi preesensissä ei vaadi aikamuotojen muutosta.
+3. &#34;I&#39;ve landed the job!&#34;Johtolauseen verbi vaatii menneen aikamuodon, joten perfekti - pluskvamperfekti.</description>
+    </item>
+    
+    <item>
+      <title>Epäsuora kerronta: Lopputesti</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/epasuora_lopputesti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/epasuora_lopputesti/</guid>
+      <description>function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Epäsäännölliset verbit a-e</title>
+      <link>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitae/</guid>
+      <description>function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Epäsäännölliset verbit f-k?</title>
+      <link>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitfk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitfk/</guid>
+      <description>function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Epäsäännölliset verbit l-r?</title>
+      <link>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitlr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitlr/</guid>
+      <description>function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Epäsäännölliset verbit s-w?</title>
+      <link>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitsw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitsw/</guid>
+      <description>function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Epäsäännölliset verbit: kaikki</title>
+      <link>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitkaikki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena01tehtavat/ena01_epaverbitkaikki/</guid>
+      <description>function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Genetiivi: Flashcard</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/genetiivi_flashcard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/genetiivi_flashcard/</guid>
+      <description>$(document).ready(function() {var currentQuestion = 0;var qbank = [[&#34;Tämä on Travisin uusi Jaguar.&#34;, &#34;Tämä on Travisin uusi Jaguar.
+= This is Travis&#39;(s) new Jaguar.&#34;],[&#34;Auton vaihdelaatikko on rikki.&#34;, &#34;Auton vaihdelaatikko on rikki.
+= The gearbox of this car is broken.&#34;],[&#34;Se on tämän auton uusi malli.&#34;, &#34;Se on tämän auton uusi malli.
+= It is the newest model of this car.</description>
+    </item>
+    
+    <item>
+      <title>Indefiniittipronominit: kirjoita 1</title>
+      <link>https://joonasmmp.github.io/kurssit/ena04tehtavat/indefiniittipronominit_kirjoita1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena04tehtavat/indefiniittipronominit_kirjoita1/</guid>
+      <description>Täydennä indefiniittipronominit annetun vihjeen mukaan.
+1. Leaving for Las Vegas gets harder&amp;nbsp;&amp;nbsp; (jokainen) every day.2. Tell me &amp;nbsp;&amp;nbsp; (kaikki) that happened you the previous time you were there.3. I emptied &amp;nbsp;&amp;nbsp; (molemmat) my bank accounts playing poker.4. &amp;nbsp;&amp;nbsp; (koko) Las Vegas was cheering for me to go on.5. I haven&#39;t heard of&amp;nbsp;&amp;nbsp; (kummastakaan) of my girlfriends after that night.</description>
+    </item>
+    
+    <item>
+      <title>Indefiniittipronominit: kirjoita 2</title>
+      <link>https://joonasmmp.github.io/kurssit/ena04tehtavat/indefiniittipronominit_kirjoita2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena04tehtavat/indefiniittipronominit_kirjoita2/</guid>
+      <description>Täydennä aukot indefiniittipronomineilla.
+In my opinion,&amp;nbsp;&amp;nbsp; exercises on this website are great, every single one of them. This one in particular goes through &amp;nbsp;&amp;nbsp; indefinite pronoun in one simple exercise. I don&#39;t even know &amp;nbsp;&amp;nbsp; exercise that does that, on any site!
+I mean, naturally there are &amp;nbsp;&amp;nbsp; exercises that go through many indefinite pronouns, but all &amp;nbsp;&amp;nbsp; indefinite pronouns are left out completely!Actually, I think I am even in love with this exercise, as &amp;nbsp;&amp;nbsp; my knees started shaking as I wrote the first pronoun.</description>
+    </item>
+    
+    <item>
+      <title>Indefiniittipronominit: Lopputesti</title>
+      <link>https://joonasmmp.github.io/kurssit/ena04tehtavat/indefiniittipronominit_lopputesti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena04tehtavat/indefiniittipronominit_lopputesti/</guid>
+      <description>function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Keskustelutesti: Järjestyksessä</title>
+      <link>https://joonasmmp.github.io/kurssit/ena09tehtavat/keskustelutestijarjestys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena09tehtavat/keskustelutestijarjestys/</guid>
+      <description>$(document).ready(function() {var currentQuestion = 0;var qbank = [[&#34;What is the capital of Assyria?&#34;],[&#34;How big is big?&#34;],[&#34;Where am I?&#34;],[&#34;What&#39;s going on?&#34;],[&#34;When am I?&#34;],[&#34;What is the biggest mammal in the world?&#34;],];beginActivity();edellinen();seuraava();window.addEventListener(&#39;keydown&#39;, (e) = {if (e.keyCode === 32 &amp;&amp; e.target === document.body) {e.preventDefault();}});document.body.onkeydown = function(event) {event = event || window.</description>
+    </item>
+    
+    <item>
+      <title>Keskustelutesti: Random</title>
+      <link>https://joonasmmp.github.io/kurssit/ena09tehtavat/keskustelutestirandom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena09tehtavat/keskustelutestirandom/</guid>
+      <description>$(document).ready(function() {var currentQuestion = 0;var qbank = [[&#34;What is the capital of Assyria?&#34;],[&#34;How big is big?&#34;],[&#34;Where am I?&#34;],[&#34;What&#39;s going on?&#34;],[&#34;When am I?&#34;],[&#34;What is the biggest mammal in the world?&#34;],];window.addEventListener(&#39;keydown&#39;, (e) = {if (e.keyCode === 32 &amp;&amp; e.target === document.body) {e.preventDefault();}});document.body.onkeydown = function(event) {event = event || window.event;var keycode = event.</description>
+    </item>
+    
+    <item>
+      <title>Konnektiivit: Kirjoita 1</title>
+      <link>https://joonasmmp.github.io/kurssit/ena04tehtavat/konnektiivit_kirjoita/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena04tehtavat/konnektiivit_kirjoita/</guid>
+      <description>Täydennä linkkisanat annetun vihjeen mukaan.
+1. Johnny does not play football&amp;nbsp;&amp;nbsp; (vaikka) his brother plays in the Premier League.2. Jonathan takes cycling lessons &amp;nbsp;&amp;nbsp; (kun taas) his sister is into show dance.3. Timothy started studying for his exams&amp;nbsp;&amp;nbsp; (sen jälkeen kuin) he had taken his sister to school.4. Jillian studies in the library&amp;nbsp;&amp;nbsp; (aina kun) she can.5.</description>
+    </item>
+    
+    <item>
+      <title>Konnektiivit: Kirjoita 1</title>
+      <link>https://joonasmmp.github.io/kurssit/ena07tehtavat/konnektiivit_kirjoita/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena07tehtavat/konnektiivit_kirjoita/</guid>
+      <description>Täydennä linkkisanat annetun vihjeen mukaan.
+1. Johnny does not play football&amp;nbsp;&amp;nbsp; (vaikka) his brother plays in the Premier League.2. Jonathan takes cycling lessons &amp;nbsp;&amp;nbsp; (kun taas) his sister is into show dance.3. Timothy started studying for his exams&amp;nbsp;&amp;nbsp; (sen jälkeen kuin) he had taken his sister to school.4. Jillian studies in the library&amp;nbsp;&amp;nbsp; (aina kun) she can.5.</description>
+    </item>
+    
+    <item>
+      <title>Konnektiivit: Kirjoita 2</title>
+      <link>https://joonasmmp.github.io/kurssit/ena04tehtavat/konnektiivit_kirjoita2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena04tehtavat/konnektiivit_kirjoita2/</guid>
+      <description>Täydennä linkkisanat annetun vihjeen mukaan.
+1. I absolutely loved the movie. &amp;nbsp;&amp;nbsp; (kaiken kaikkiaan), we had a lovely time. 2. Jonathan lost his ticket. &amp;nbsp;&amp;nbsp; (sen seurauksena) he had to buy a new one.3. The screening had been sold out. &amp;nbsp;&amp;nbsp; (kuitenkin), we managed to get him a seat as someone decided not to show up.4. Jonathan had left his credit card at home.</description>
+    </item>
+    
+    <item>
+      <title>Konnektiivit: Kirjoita 2</title>
+      <link>https://joonasmmp.github.io/kurssit/ena07tehtavat/konnektiivit_kirjoita2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena07tehtavat/konnektiivit_kirjoita2/</guid>
+      <description>Täydennä linkkisanat annetun vihjeen mukaan.
+1. I absolutely loved the movie. &amp;nbsp;&amp;nbsp; (kaiken kaikkiaan), we had a lovely time. 2. Jonathan lost his ticket. &amp;nbsp;&amp;nbsp; (sen seurauksena) he had to buy a new one.3. The screening had been sold out. &amp;nbsp;&amp;nbsp; (kuitenkin), we managed to get him a seat as someone decided not to show up.4. Jonathan had left his credit card at home.</description>
+    </item>
+    
+    <item>
+      <title>Laskettavat ja ei-laskettavat substantiivit: Alkutesti</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/countable_alkutesti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/countable_alkutesti/</guid>
+      <description>WaterWater eli vesi on ainesana. Sitä ei voi laskea ilman mittayksikköä esim. a drop of water, a glass of water. A water yleensä tarkoittaa yhtä vesiannosta ravintolassa, mutta ei aina. PeoplePeople on monikko sanalle person. Ihmisiä voi laskea: one person, two people, jne.
+BreadLeipä tarvii myös mittayksikön, esim a slice of bread, a loaf of bread. Bread itsessään on leipää, sitä ainetta.</description>
+    </item>
+    
+    <item>
+      <title>Laskettavat ja ei-laskettavat substantiivit: Lopputesti</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/countable_lopputesti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/countable_lopputesti/</guid>
+      <description>Countable or uncountable?
+ function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Lauseenvastikkeet: Kirjoita</title>
+      <link>https://joonasmmp.github.io/kurssit/ena06tehtavat/lauseenvastikkeet_kirjoita/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena06tehtavat/lauseenvastikkeet_kirjoita/</guid>
+      <description>Muuta lauseenvastikkeiksi.
+1. Before you apply for a visa, you should consider the following things.= &amp;nbsp; for a visa, you should consider the following things.2. As he was anxious to get away, he drove all through the night.= , he drove all through the night.3. In the morning he reached the cottage which stood by the lake.= In the morning he reached the cottage&amp;nbsp;.</description>
+    </item>
+    
+    <item>
+      <title>Paritustehtävä joka ei toimi :(</title>
+      <link>https://joonasmmp.github.io/kurssit/ena06tehtavat/testi_testi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena06tehtavat/testi_testi/</guid>
+      <description>//Execute a JavaScript immediately after a page has been loadedwindow.onload = function() {//Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main filevar data = {terms: [{index: 0, text: &#34;Koira&#34;}, {index: 1, text: &#34;Gorilla&#34;}, {index: 2, text: &#34;Riisi&#34;}, {index: 3, text: &#34;</description>
+    </item>
+    
+    <item>
+      <title>Prepositioilmaisuja: Flashcard</title>
+      <link>https://joonasmmp.github.io/kurssit/ena07tehtavat/prepositioilmaisuja_flashcard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena07tehtavat/prepositioilmaisuja_flashcard/</guid>
+      <description>välilyöntikäännä korttivaihda korttiaRsatunnainen kortti $(document).ready(function() {var currentQuestion = 0;var qbank = [[&#34;__ all - ollenkaan&#34;, &#34;at all - ollenkaan&#34;], [&#34;__ any rate - joka tapauksessa&#34;, &#34;at any rate - joka tapauksessa&#34;], [&#34;__ a discount - alennuksella&#34;, &#34;at a discount - alennuksella&#34;], [&#34;__ face value - sellaisenaan, suoralta kädeltä, (jättää) omaan arvoonsa&#34;</description>
+    </item>
+    
+    <item>
+      <title>Relatiivipronominit: Alkutesti</title>
+      <link>https://joonasmmp.github.io/kurssit/ena04tehtavat/relatiivipronominit_alkutesti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena04tehtavat/relatiivipronominit_alkutesti/</guid>
+      <description>The United States of America, ______ which is a country in North America, is often called the USA.Ainut oikea vaihtoehto on WHICH, koska pilkun kanssa ei voi käyttää that-pronominia.
+And in the USA, Angus MacGyver is the kind of man _____ never lets anyone down.Ihmisiin viitattaessa who.
+He is famous for his Swiss army knife _____ he carries around in his pocket.Esineisiin viitattaessa pronominina toimii which.</description>
+    </item>
+    
+    <item>
+      <title>Relatiivipronominit: Lopputesti</title>
+      <link>https://joonasmmp.github.io/kurssit/ena04tehtavat/relatiivipronominit_lopputesti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena04tehtavat/relatiivipronominit_lopputesti/</guid>
+      <description>function Quiz(questions) {this.score = 0;this.questions = questions;this.questionIndex = 0;}Quiz.prototype.getQuestionIndex = function() {return this.questions[this.questionIndex];}Quiz.prototype.guess = function(answer) {if (this.getQuestionIndex().isCorrectAnswer(answer)) {this.score++;} else {displayFinalMessage();}this.questionIndex++;}Quiz.prototype.isEnded = function() {return this.questionIndex === this.questions.length;}function startOver() {location.reload(true);}function Question(text, choices, answer) {this.text = text;this.choices = choices;this.answer = answer;}Question.</description>
+    </item>
+    
+    <item>
+      <title>Teema 1: Media - yhdistä sanat</title>
+      <link>https://joonasmmp.github.io/kurssit/ena04tehtavat/teemasanasto_1_yhdista1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena04tehtavat/teemasanasto_1_yhdista1/</guid>
+      <description>Etsi sanaa vastaava käännös. Numeroita klikkaamalla voit luoda haluamasi määrän uusia pareja. 6912 //Execute a JavaScript immediately after a page has been loadedwindow.onload = function() {//Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main filevar data = {terms: [{index: 0, text: &#39;mainostaulu&#39;}, { index: 1, text: &#39;tuoreimmat uutiset&#39;}, { index: 2, text: &#39;sensuuri, valvonta&#39;}, { index: 3, text: &#39;kuluttaja&#39;}, { index: 4, text: &#39;tarkastaa faktat&#39;}, { index: 5, text: &#39;valeuutinen&#39;}, { index: 6, text: &#39;valtamedia&#39;}, { index: 7, text: &#39;joukkotiedotusvälineet, massamedia&#39;}, { index: 8, text: &#39;median puolueellisuus&#39;}, { index: 9, text: &#39;medialukutaito&#39;}, { index: 10, text: &#39;tiedotusväline&#39;}, { index: 11, text: &#39;multimedia (monia mediamuotoja yhdistelevä media)&#39;}, { index: 12, text: &#39;uutiskatsaus&#39;}, { index: 13, text: &#39;uutisarvoinen, uutiskynnyksen ylittävä&#39;}, { index: 14, text: &#39;kohdeyleisö&#39;}, { index: 15, text: &#39;kuuluttaja&#39;}, { index: 16, text: &#39;uutisankkuri&#39;}, { index: 17, text: &#39;lähetys, lähettää ohjelmaa&#39;}, { index: 18, text: &#39;kanava&#39;}, { index: 19, text: &#39;kommentaattori, selostaja&#39;}, { index: 20, text: &#39;mainos(-elokuva)&#39;}, { index: 21, text: &#39;(live-)kuvamateriaali&#39;}, { index: 22, text: &#39;taajuus&#39;}, { index: 23, text: &#39;uutistenlukija&#39;}, { index: 24, text: &#39;juontaja&#39;}, { index: 25, text: &#39;paras katselu-/kuunteluaika&#39;}, { index: 26, text: &#39;televisioida&#39;}, { index: 27, text: &#39;säätoimittaja&#39;}, { index: 28, text: &#39;mainos, ilmoitus&#39;}, { index: 29, text: &#39;artikkeli&#39;}, { index: 30, text: &#39;täysikokoinen (laatu-)sanomalehti&#39;}, { index: 31, text: &#39;artikkelin kirjoittajan nimi / nimen paikka&#39;}, { index: 32, text: &#39;kuvateksti&#39;}, { index: 33, text: &#39;levikki&#39;}, { index: 34, text: &#39;kolumni, mielipidekirjoitus&#39;}, { index: 35, text: &#39;kolumnisti&#39;}, { index: 36, text: &#39;sarjakuva&#39;}, { index: 37, text: &#39;tekijänoikeus&#39;}, { index: 38, text: &#39;kirjeenvaihtaja&#39;}, { index: 39, text: &#39;uutispeitto, uutisointi&#39;}, { index: 40, text: &#39;painos, (lehden) numero&#39;}, { index: 41, text: &#39;päätoimittaja&#39;}, { index: 42, text: &#39;pääkirjoitus&#39;}, { index: 43, text: &#39;erikoisartikkeli&#39;}, { index: 44, text: &#39;otsikko&#39;}, { index: 45, text: &#39;tutkiva journalismi&#39;}, { index: 46, text: &#39;lehden numero&#39;}, { index: 47, text: &#39;toimittaja, journalisti&#39;}, { index: 48, text: &#39;taitto, asettelu, ulkoasu&#39;}, { index: 49, text: &#39;aikakauslehti&#39;}, { index: 50, text: &#39;uutistoimisto&#39;}, { index: 51, text: &#39;sanomalehti&#39;}, { index: 52, text: &#39;aikakauslehti&#39;}, { index: 53, text: &#39;lehdistö&#39;}, { index: 54, text: &#39;painomedia&#39;}, { index: 55, text: &#39;julkaisu&#39;}, { index: 56, text: &#39;kustantaja, kustantamo&#39;}, { index: 57, text: &#39;reportteri&#39;}, { index: 58, text: &#39;jymyuutinen, skuuppi&#39;}, { index: 59, text: &#39;tilata (lehteä)&#39;}, { index: 60, text: &#39;tilaus&#39;}, { index: 61, text: &#39;iltapäivälehti&#39;}, { index: 62, text: &#39;keltainen lehdistö, sensaatiolehdistö&#39;}, { index: 63, text: &#39;algoritmi&#39;}, { index: 64, text: &#39;sovellus&#39;}, { index: 65, text: &#39;banneri, mainospalkki&#39;}, { index: 66, text: &#39;klikkiotsikko&#39;}, { index: 67, text: &#39;joukkoistaminen, yleisön osallistaminen&#39;}, { index: 68, text: &#39;syöte, uutissyöte&#39;}, { index: 69, text: &#39;suoratoisto&#39;}, { index: 70, text: &#39;meemi&#39;}, { index: 71, text: &#39;maksumuuri&#39;}, { index: 72, text: &#39;podcast, verkossa julkaistu äänitallenne&#39;}, { index: 73, text: &#39;julkaista, julkaisu&#39;}, { index: 74, text: &#39;hakukone&#39;}, { index: 75, text: &#39;suoratoistoalusta&#39;}, { index: 76, text: &#39;tägi, merkintä, tunniste, tägätä, merkitä&#39;}, { index: 77, text: &#39;muodikas, suosittu&#39;}, { index: 78, text: &#39;trolli, ihminen, joka provosoi kommenteillaan netissä&#39;}, { index: 79, text: &#39;tviitti; tviitata, julkaista tviitti&#39;}, { index: 80, text: &#39;katsoja&#39;}, { index: 81, text: &#39;vlogi, videoblogi&#39;}, { index: 82, text: &#39;viraali, nopean internetsuosion saanut asia tai tapahtuma&#39;},],definitions: [{index: 0, text: &#39;billboard&#39;}, { index: 1, text: &#39;breaking news&#39;}, { index: 2, text: &#39;censorship&#39;}, { index: 3, text: &#39;consumer&#39;}, { index: 4, text: &#39;fact-check&#39;}, { index: 5, text: &#39;fake news&#39;}, { index: 6, text: &#39;mainstream media&#39;}, { index: 7, text: &#39;mass media&#39;}, { index: 8, text: &#39;media bias&#39;}, { index: 9, text: &#39;media literacy&#39;}, { index: 10, text: &#39;media outlet&#39;}, { index: 11, text: &#39;multimedia&#39;}, { index: 12, text: &#39;news bulletin&#39;}, { index: 13, text: &#39;newsworthy&#39;}, { index: 14, text: &#39;target audience&#39;}, { index: 15, text: &#39;announcer&#39;}, { index: 16, text: &#39;anchor&#39;}, { index: 17, text: &#39;broadcast&#39;}, { index: 18, text: &#39;channel&#39;}, { index: 19, text: &#39;commentator&#39;}, { index: 20, text: &#39;commercial&#39;}, { index: 21, text: &#39;(live) footage&#39;}, { index: 22, text: &#39;frequency&#39;}, { index: 23, text: &#39;newsreader&#39;}, { index: 24, text: &#39;presenter&#39;}, { index: 25, text: &#39;prime time&#39;}, { index: 26, text: &#39;televise&#39;}, { index: 27, text: &#39;weather reporter&#39;}, { index: 28, text: &#39;advertisement, advert, ad&#39;}, { index: 29, text: &#39;article&#39;}, { index: 30, text: &#39;broadsheet&#39;}, { index: 31, text: &#39;byline&#39;}, { index: 32, text: &#39;caption&#39;}, { index: 33, text: &#39;circulation&#39;}, { index: 34, text: &#39;column&#39;}, { index: 35, text: &#39;columnist&#39;}, { index: 36, text: &#39;comic strip&#39;}, { index: 37, text: &#39;copyright&#39;}, { index: 38, text: &#39;correspondent&#39;}, { index: 39, text: &#39;coverage&#39;}, { index: 40, text: &#39;edition&#39;}, { index: 41, text: &#39;editor (-in-chief)&#39;}, { index: 42, text: &#39;editorial&#39;}, { index: 43, text: &#39;feature&#39;}, { index: 44, text: &#39;headline&#39;}, { index: 45, text: &#39;investigative journalism&#39;}, { index: 46, text: &#39;issue&#39;}, { index: 47, text: &#39;journalist&#39;}, { index: 48, text: &#39;layout&#39;}, { index: 49, text: &#39;magazine&#39;}, { index: 50, text: &#39;news agency&#39;}, { index: 51, text: &#39;newspaper&#39;}, { index: 52, text: &#39;periodical&#39;}, { index: 53, text: &#39;the press&#39;}, { index: 54, text: &#39;print media&#39;}, { index: 55, text: &#39;publication&#39;}, { index: 56, text: &#39;publisher&#39;}, { index: 57, text: &#39;reporter&#39;}, { index: 58, text: &#39;scoop&#39;}, { index: 59, text: &#39;subscribe to&#39;}, { index: 60, text: &#39;subscription&#39;}, { index: 61, text: &#39;tabloid&#39;}, { index: 62, text: &#39;tabloid journalism, yellow journalism&#39;}, { index: 63, text: &#39;algorithm&#39;}, { index: 64, text: &#39;application, app&#39;}, { index: 65, text: &#39;banner&#39;}, { index: 66, text: &#39;clickbait&#39;}, { index: 67, text: &#39;crowdsourcing&#39;}, { index: 68, text: &#39;feed&#39;}, { index: 69, text: &#39;livestream&#39;}, { index: 70, text: &#39;meme&#39;}, { index: 71, text: &#39;paywall&#39;}, { index: 72, text: &#39;podcast&#39;}, { index: 73, text: &#39;post&#39;}, { index: 74, text: &#39;search engine&#39;}, { index: 75, text: &#39;streaming platform&#39;}, { index: 76, text: &#39;tag&#39;}, { index: 77, text: &#39;trending&#39;}, { index: 78, text: &#39;troll&#39;}, { index: 79, text: &#39;tweet&#39;}, { index: 80, text: &#39;viewer&#39;}, { index: 81, text: &#39;vlog (video blog)&#39;}, { index: 82, text: &#39;viral&#39;},],//this creates matches for indexes.</description>
+    </item>
+    
+    <item>
+      <title>Teema 1: Media - yhdistä sanat 2</title>
+      <link>https://joonasmmp.github.io/kurssit/ena04tehtavat/teemasanasto_1_yhdista2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena04tehtavat/teemasanasto_1_yhdista2/</guid>
+      <description>Lisää pareja //Execute a JavaScript immediately after a page has been loadedwindow.onload = function() {//Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main filevar data = {terms: [{index: 0, text: &#39;mainostaulu&#39;}, { index: 1, text: &#39;tuoreimmat uutiset&#39;}, { index: 2, text: &#39;sensuuri, valvonta&#39;}, { index: 3, text: &#39;kuluttaja&#39;}, { index: 4, text: &#39;tarkastaa faktat&#39;}, { index: 5, text: &#39;valeuutinen&#39;}, { index: 6, text: &#39;valtamedia&#39;}, { index: 7, text: &#39;joukkotiedotusvälineet, massamedia&#39;}, { index: 8, text: &#39;median puolueellisuus&#39;}, { index: 9, text: &#39;medialukutaito&#39;}, { index: 10, text: &#39;tiedotusväline&#39;}, { index: 11, text: &#39;multimedia (monia mediamuotoja yhdistelevä media)&#39;}, { index: 12, text: &#39;uutiskatsaus&#39;}, { index: 13, text: &#39;uutisarvoinen, uutiskynnyksen ylittävä&#39;}, { index: 14, text: &#39;kohdeyleisö&#39;}, { index: 15, text: &#39;kuuluttaja&#39;}, { index: 16, text: &#39;uutisankkuri&#39;}, { index: 17, text: &#39;lähetys, lähettää ohjelmaa&#39;}, { index: 18, text: &#39;kanava&#39;}, { index: 19, text: &#39;kommentaattori, selostaja&#39;}, { index: 20, text: &#39;mainos(-elokuva)&#39;}, { index: 21, text: &#39;(live-)kuvamateriaali&#39;}, { index: 22, text: &#39;taajuus&#39;}, { index: 23, text: &#39;uutistenlukija&#39;}, { index: 24, text: &#39;juontaja&#39;}, { index: 25, text: &#39;paras katselu-/kuunteluaika&#39;}, { index: 26, text: &#39;televisioida&#39;}, { index: 27, text: &#39;säätoimittaja&#39;}, { index: 28, text: &#39;mainos, ilmoitus&#39;}, { index: 29, text: &#39;artikkeli&#39;}, { index: 30, text: &#39;täysikokoinen (laatu-)sanomalehti&#39;}, { index: 31, text: &#39;artikkelin kirjoittajan nimi / nimen paikka&#39;}, { index: 32, text: &#39;kuvateksti&#39;}, { index: 33, text: &#39;levikki&#39;}, { index: 34, text: &#39;kolumni, mielipidekirjoitus&#39;}, { index: 35, text: &#39;kolumnisti&#39;}, { index: 36, text: &#39;sarjakuva&#39;}, { index: 37, text: &#39;tekijänoikeus&#39;}, { index: 38, text: &#39;kirjeenvaihtaja&#39;}, { index: 39, text: &#39;uutispeitto, uutisointi&#39;}, { index: 40, text: &#39;painos, (lehden) numero&#39;}, { index: 41, text: &#39;päätoimittaja&#39;}, { index: 42, text: &#39;pääkirjoitus&#39;}, { index: 43, text: &#39;erikoisartikkeli&#39;}, { index: 44, text: &#39;otsikko&#39;}, { index: 45, text: &#39;tutkiva journalismi&#39;}, { index: 46, text: &#39;lehden numero&#39;}, { index: 47, text: &#39;toimittaja, journalisti&#39;}, { index: 48, text: &#39;taitto, asettelu, ulkoasu&#39;}, { index: 49, text: &#39;aikakauslehti&#39;}, { index: 50, text: &#39;uutistoimisto&#39;}, { index: 51, text: &#39;sanomalehti&#39;}, { index: 52, text: &#39;aikakauslehti&#39;}, { index: 53, text: &#39;lehdistö&#39;}, { index: 54, text: &#39;painomedia&#39;}, { index: 55, text: &#39;julkaisu&#39;}, { index: 56, text: &#39;kustantaja, kustantamo&#39;}, { index: 57, text: &#39;reportteri&#39;}, { index: 58, text: &#39;jymyuutinen, skuuppi&#39;}, { index: 59, text: &#39;tilata (lehteä)&#39;}, { index: 60, text: &#39;tilaus&#39;}, { index: 61, text: &#39;iltapäivälehti&#39;}, { index: 62, text: &#39;keltainen lehdistö, sensaatiolehdistö&#39;}, { index: 63, text: &#39;algoritmi&#39;}, { index: 64, text: &#39;sovellus&#39;}, { index: 65, text: &#39;banneri, mainospalkki&#39;}, { index: 66, text: &#39;klikkiotsikko&#39;}, { index: 67, text: &#39;joukkoistaminen, yleisön osallistaminen&#39;}, { index: 68, text: &#39;syöte, uutissyöte&#39;}, { index: 69, text: &#39;suoratoisto&#39;}, { index: 70, text: &#39;meemi&#39;}, { index: 71, text: &#39;maksumuuri&#39;}, { index: 72, text: &#39;podcast, verkossa julkaistu äänitallenne&#39;}, { index: 73, text: &#39;julkaista, julkaisu&#39;}, { index: 74, text: &#39;hakukone&#39;}, { index: 75, text: &#39;suoratoistoalusta&#39;}, { index: 76, text: &#39;tägi, merkintä, tunniste, tägätä, merkitä&#39;}, { index: 77, text: &#39;muodikas, suosittu&#39;}, { index: 78, text: &#39;trolli, ihminen, joka provosoi kommenteillaan netissä&#39;}, { index: 79, text: &#39;tviitti; tviitata, julkaista tviitti&#39;}, { index: 80, text: &#39;katsoja&#39;}, { index: 81, text: &#39;vlogi, videoblogi&#39;}, { index: 82, text: &#39;viraali, nopean internetsuosion saanut asia tai tapahtuma&#39;},],definitions: [{index: 0, text: &#39;billboard&#39;}, { index: 1, text: &#39;breaking news&#39;}, { index: 2, text: &#39;censorship&#39;}, { index: 3, text: &#39;consumer&#39;}, { index: 4, text: &#39;fact-check&#39;}, { index: 5, text: &#39;fake news&#39;}, { index: 6, text: &#39;mainstream media&#39;}, { index: 7, text: &#39;mass media&#39;}, { index: 8, text: &#39;media bias&#39;}, { index: 9, text: &#39;media literacy&#39;}, { index: 10, text: &#39;media outlet&#39;}, { index: 11, text: &#39;multimedia&#39;}, { index: 12, text: &#39;news bulletin&#39;}, { index: 13, text: &#39;newsworthy&#39;}, { index: 14, text: &#39;target audience&#39;}, { index: 15, text: &#39;announcer&#39;}, { index: 16, text: &#39;anchor&#39;}, { index: 17, text: &#39;broadcast&#39;}, { index: 18, text: &#39;channel&#39;}, { index: 19, text: &#39;commentator&#39;}, { index: 20, text: &#39;commercial&#39;}, { index: 21, text: &#39;(live) footage&#39;}, { index: 22, text: &#39;frequency&#39;}, { index: 23, text: &#39;newsreader&#39;}, { index: 24, text: &#39;presenter&#39;}, { index: 25, text: &#39;prime time&#39;}, { index: 26, text: &#39;televise&#39;}, { index: 27, text: &#39;weather reporter&#39;}, { index: 28, text: &#39;advertisement, advert, ad&#39;}, { index: 29, text: &#39;article&#39;}, { index: 30, text: &#39;broadsheet&#39;}, { index: 31, text: &#39;byline&#39;}, { index: 32, text: &#39;caption&#39;}, { index: 33, text: &#39;circulation&#39;}, { index: 34, text: &#39;column&#39;}, { index: 35, text: &#39;columnist&#39;}, { index: 36, text: &#39;comic strip&#39;}, { index: 37, text: &#39;copyright&#39;}, { index: 38, text: &#39;correspondent&#39;}, { index: 39, text: &#39;coverage&#39;}, { index: 40, text: &#39;edition&#39;}, { index: 41, text: &#39;editor (-in-chief)&#39;}, { index: 42, text: &#39;editorial&#39;}, { index: 43, text: &#39;feature&#39;}, { index: 44, text: &#39;headline&#39;}, { index: 45, text: &#39;investigative journalism&#39;}, { index: 46, text: &#39;issue&#39;}, { index: 47, text: &#39;journalist&#39;}, { index: 48, text: &#39;layout&#39;}, { index: 49, text: &#39;magazine&#39;}, { index: 50, text: &#39;news agency&#39;}, { index: 51, text: &#39;newspaper&#39;}, { index: 52, text: &#39;periodical&#39;}, { index: 53, text: &#39;the press&#39;}, { index: 54, text: &#39;print media&#39;}, { index: 55, text: &#39;publication&#39;}, { index: 56, text: &#39;publisher&#39;}, { index: 57, text: &#39;reporter&#39;}, { index: 58, text: &#39;scoop&#39;}, { index: 59, text: &#39;subscribe to&#39;}, { index: 60, text: &#39;subscription&#39;}, { index: 61, text: &#39;tabloid&#39;}, { index: 62, text: &#39;tabloid journalism, yellow journalism&#39;}, { index: 63, text: &#39;algorithm&#39;}, { index: 64, text: &#39;application, app&#39;}, { index: 65, text: &#39;banner&#39;}, { index: 66, text: &#39;clickbait&#39;}, { index: 67, text: &#39;crowdsourcing&#39;}, { index: 68, text: &#39;feed&#39;}, { index: 69, text: &#39;livestream&#39;}, { index: 70, text: &#39;meme&#39;}, { index: 71, text: &#39;paywall&#39;}, { index: 72, text: &#39;podcast&#39;}, { index: 73, text: &#39;post&#39;}, { index: 74, text: &#39;search engine&#39;}, { index: 75, text: &#39;streaming platform&#39;}, { index: 76, text: &#39;tag&#39;}, { index: 77, text: &#39;trending&#39;}, { index: 78, text: &#39;troll&#39;}, { index: 79, text: &#39;tweet&#39;}, { index: 80, text: &#39;viewer&#39;}, { index: 81, text: &#39;vlog (video blog)&#39;}, { index: 82, text: &#39;viral&#39;},],//this creates matches for indexes.</description>
+    </item>
+    
+    <item>
+      <title>Teema 2: Crime &amp; Justice - yhdistä sanat</title>
+      <link>https://joonasmmp.github.io/kurssit/ena04tehtavat/teemasanasto_2_yhdista1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena04tehtavat/teemasanasto_2_yhdista1/</guid>
+      <description>Etsi sanaa vastaava käännös. Numeroita klikkaamalla voit luoda haluamasi määrän uusia pareja. 6912 //Execute a JavaScript immediately after a page has been loadedwindow.onload = function() {//Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main filevar data = {terms: [{index: 0, text: &#39;rikoskumppani&#39;}, { index: 1, text: &#39;tuhopoltto&#39;}, { index: 2, text: &#39;pahoinpitely&#39;}, { index: 3, text: &#39;kiristys&#39;}, { index: 4, text: &#39;murtovarkaus&#39;}, { index: 5, text: &#39;murtovaras&#39;}, { index: 6, text: &#39;tehdä rikos&#39;}, { index: 7, text: &#39;väärennös&#39;}, { index: 8, text: &#39;rikos&#39;}, { index: 9, text: &#39;syyllinen, syypää&#39;}, { index: 10, text: &#39;rattijuoppo&#39;}, { index: 11, text: &#39;rattijuopumus, päihtyneenä ajaminen&#39;}, { index: 12, text: &#39;kavallus&#39;}, { index: 13, text: &#39;väärentää&#39;}, { index: 14, text: &#39;petos&#39;}, { index: 15, text: &#39;syyllinen (adj.</description>
+    </item>
+    
+    <item>
+      <title>Teema 2: Crime &amp; Justice - yhdistä sanat 2</title>
+      <link>https://joonasmmp.github.io/kurssit/ena04tehtavat/teemasanasto_2_yhdista2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena04tehtavat/teemasanasto_2_yhdista2/</guid>
+      <description>Lisää pareja //Execute a JavaScript immediately after a page has been loadedwindow.onload = function() {//Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main filevar data = {terms: [{index: 0, text: &#39;rikoskumppani&#39;}, { index: 1, text: &#39;tuhopoltto&#39;}, { index: 2, text: &#39;pahoinpitely&#39;}, { index: 3, text: &#39;kiristys&#39;}, { index: 4, text: &#39;murtovarkaus&#39;}, { index: 5, text: &#39;murtovaras&#39;}, { index: 6, text: &#39;tehdä rikos&#39;}, { index: 7, text: &#39;väärennös&#39;}, { index: 8, text: &#39;rikos&#39;}, { index: 9, text: &#39;syyllinen, syypää&#39;}, { index: 10, text: &#39;rattijuoppo&#39;}, { index: 11, text: &#39;rattijuopumus, päihtyneenä ajaminen&#39;}, { index: 12, text: &#39;kavallus&#39;}, { index: 13, text: &#39;väärentää&#39;}, { index: 14, text: &#39;petos&#39;}, { index: 15, text: &#39;syyllinen (adj.</description>
+    </item>
+    
+    <item>
+      <title>Teema 3: Politics &amp; Global issues - yhdistä sanat</title>
+      <link>https://joonasmmp.github.io/kurssit/ena04tehtavat/teemasanasto_3_yhdista1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena04tehtavat/teemasanasto_3_yhdista1/</guid>
+      <description>Etsi sanaa vastaava käännös. Numeroita klikkaamalla voit luoda haluamasi määrän uusia pareja. 6912 //Execute a JavaScript immediately after a page has been loadedwindow.onload = function() {//Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main filevar data = {terms: [{index: 0, text: &#39;laki, asetus&#39;}, { index: 1, text: &#39;hallinto&#39;}, { index: 2, text: &#39;lakiehdotus&#39;}, { index: 3, text: &#39;ehdokas&#39;}, { index: 4, text: &#39;väestönlaskenta&#39;}, { index: 5, text: &#39;kokoomus-, koalitiohallitus&#39;}, { index: 6, text: &#39;perustuslaki&#39;}, { index: 7, text: &#39;demokratia&#39;}, { index: 8, text: &#39;hajottaa&#39;}, { index: 9, text: &#39;sisäpolitiikka&#39;}, { index: 10, text: &#39;vaalikampanja&#39;}, { index: 11, text: &#39;ulkopolitiikka&#39;}, { index: 12, text: &#39;eduskuntavaalit&#39;}, { index: 13, text: &#39;hallitus&#39;}, { index: 14, text: &#39;valtion päämies&#39;}, { index: 15, text: &#39;oikeuslaitos&#39;}, { index: 16, text: &#39;lainsäädäntö&#39;}, { index: 17, text: &#39;enemmistö&#39;}, { index: 18, text: &#39;kansanedustaja&#39;}, { index: 19, text: &#39;eurokansanedustaja&#39;}, { index: 20, text: &#39;vähemmistö&#39;}, { index: 21, text: &#39;monarkia&#39;}, { index: 22, text: &#39;kunnallisvaalit&#39;}, { index: 23, text: &#39;kunta&#39;}, { index: 24, text: &#39;oppositio&#39;}, { index: 25, text: &#39;eduskunta, parlamentti&#39;}, { index: 26, text: &#39;puolue&#39;}, { index: 27, text: &#39;kansanäänestys&#39;}, { index: 28, text: &#39;tasavalta&#39;}, { index: 29, text: &#39;olla ehdolla&#39;}, { index: 30, text: &#39;virkakausi&#39;}, { index: 31, text: &#39;Euroopan Unioni&#39;}, { index: 32, text: &#39;vasemmisto&#39;}, { index: 33, text: &#39;oikeisto&#39;}, { index: 34, text: &#39;äänioikeus&#39;}, { index: 35, text: &#39;varapresidentti&#39;}, { index: 36, text: &#39;äänestää&#39;}, { index: 37, text: &#39;avustustyöntekijä&#39;}, { index: 38, text: &#39;syrjäytyminen&#39;}, { index: 39, text: &#39;turvapaikka&#39;}, { index: 40, text: &#39;turvapaikanhakija&#39;}, { index: 41, text: &#39;mustat, alkuperäiskansat ja muut ei-valkoiseksi rodullistetut henkilöt&#39;}, { index: 42, text: &#39;hyväntekeväisyys(järjestö)&#39;}, { index: 43, text: &#39;maastakarkotus&#39;}, { index: 44, text: &#39;kehittyvä maa&#39;}, { index: 45, text: &#39;syrjintä&#39;}, { index: 46, text: &#39;toisinajattelija&#39;}, { index: 47, text: &#39;muuttaa maasta&#39;}, { index: 48, text: &#39;ulkomailla asuva&#39;}, { index: 49, text: &#39;reilu kauppa&#39;}, { index: 50, text: &#39;nälänhätä&#39;}, { index: 51, text: &#39;myöntää&#39;}, { index: 52, text: &#39;hätäapu&#39;}, { index: 53, text: &#39;luku- ja kirjoitustaidoton&#39;}, { index: 54, text: &#39;maahanmuuttaja&#39;}, { index: 55, text: &#39;maahanmuutto&#39;}, { index: 56, text: &#39;kotoperäinen, alkuperäinen&#39;}, { index: 57, text: &#39;lapsikuolleisuus&#39;}, { index: 58, text: &#39;sulautuminen&#39;}, { index: 59, text: &#39;oikeudenmukaisuus, oikeus&#39;}, { index: 60, text: &#39;odotettu elinikä&#39;}, { index: 61, text: &#39;luku- ja kirjoitustaito&#39;}, { index: 62, text: &#39;elinolosuhteet&#39;}, { index: 63, text: &#39;vähävarainen maa&#39;}, { index: 64, text: &#39;aliravitsemus, huono ravinto&#39;}, { index: 65, text: &#39;rahallinen apu&#39;}, { index: 66, text: &#39;monikulttuurinen&#39;}, { index: 67, text: &#39;kansalaisjärjestö&#39;}, { index: 68, text: &#39;rauhanturvaaja&#39;}, { index: 69, text: &#39;rotuerottelu&#39;}, { index: 70, text: &#39;rasismi, rotuviha&#39;}, { index: 71, text: &#39;vastaanottokeskus&#39;}, { index: 72, text: &#39;pakolainen&#39;}, { index: 73, text: &#39;avustustyöntekijä&#39;}, { index: 74, text: &#39;oleskelulupa&#39;}, { index: 75, text: &#39;slummi&#39;}, { index: 76, text: &#39;nälänhätä&#39;}, { index: 77, text: &#39;suvaitsevaisuus&#39;}, { index: 78, text: &#39;työlupa&#39;},],definitions: [{index: 0, text: &#39;act&#39;}, { index: 1, text: &#39;administration&#39;}, { index: 2, text: &#39;bill&#39;}, { index: 3, text: &#39;candidate&#39;}, { index: 4, text: &#39;census&#39;}, { index: 5, text: &#39;coalition government&#39;}, { index: 6, text: &#39;constitution&#39;}, { index: 7, text: &#39;democracy&#39;}, { index: 8, text: &#39;dissolve&#39;}, { index: 9, text: &#39;domestic policy&#39;}, { index: 10, text: &#39;election campaign&#39;}, { index: 11, text: &#39;foreign policy&#39;}, { index: 12, text: &#39;general elections&#39;}, { index: 13, text: &#39;government&#39;}, { index: 14, text: &#39;head of state&#39;}, { index: 15, text: &#39;judiciary, judicial system&#39;}, { index: 16, text: &#39;legislation&#39;}, { index: 17, text: &#39;majority&#39;}, { index: 18, text: &#39;Member of Parliament (MP) / representative&#39;}, { index: 19, text: &#39;Member of the European Parliament (MEP)&#39;}, { index: 20, text: &#39;minority&#39;}, { index: 21, text: &#39;monarchy&#39;}, { index: 22, text: &#39;municipal elections&#39;}, { index: 23, text: &#39;municipality&#39;}, { index: 24, text: &#39;opposition&#39;}, { index: 25, text: &#39;parliament&#39;}, { index: 26, text: &#39;party&#39;}, { index: 27, text: &#39;referendum&#39;}, { index: 28, text: &#39;republic&#39;}, { index: 29, text: &#39;stand for (BrE), run for (AmE)&#39;}, { index: 30, text: &#39;term (of office)&#39;}, { index: 31, text: &#39;the European Union&#39;}, { index: 32, text: &#39;the Left, the left wing&#39;}, { index: 33, text: &#39;the Right, the right wing&#39;}, { index: 34, text: &#39;universal suffrage, right to vote&#39;}, { index: 35, text: &#39;vice-president&#39;}, { index: 36, text: &#39;vote&#39;}, { index: 37, text: &#39;aid worker, relief worker&#39;}, { index: 38, text: &#39;alienation&#39;}, { index: 39, text: &#39;asylum&#39;}, { index: 40, text: &#39;asylum seeker&#39;}, { index: 41, text: &#39;BIPOC (black, indigenous and people of color)&#39;}, { index: 42, text: &#39;charity&#39;}, { index: 43, text: &#39;deportation&#39;}, { index: 44, text: &#39;developing country&#39;}, { index: 45, text: &#39;discrimination&#39;}, { index: 46, text: &#39;dissident&#39;}, { index: 47, text: &#39;emigrate&#39;}, { index: 48, text: &#39;expat&#39;}, { index: 49, text: &#39;fair trade&#39;}, { index: 50, text: &#39;famine&#39;}, { index: 51, text: &#39;grant&#39;}, { index: 52, text: &#39;humanitarian aid / relief aid&#39;}, { index: 53, text: &#39;illiterate&#39;}, { index: 54, text: &#39;immigrant&#39;}, { index: 55, text: &#39;immigration&#39;}, { index: 56, text: &#39;indigenous&#39;}, { index: 57, text: &#39;infant mortality&#39;}, { index: 58, text: &#39;integration&#39;}, { index: 59, text: &#39;justice&#39;}, { index: 60, text: &#39;life expectancy&#39;}, { index: 61, text: &#39;literacy&#39;}, { index: 62, text: &#39;living conditions&#39;}, { index: 63, text: &#39;low-income country&#39;}, { index: 64, text: &#39;malnourishment&#39;}, { index: 65, text: &#39;monetary aid&#39;}, { index: 66, text: &#39;multicultural&#39;}, { index: 67, text: &#39;NGO, non-governmental organisation&#39;}, { index: 68, text: &#39;peacekeeper&#39;}, { index: 69, text: &#39;racial segregation&#39;}, { index: 70, text: &#39;racism&#39;}, { index: 71, text: &#39;reception centre&#39;}, { index: 72, text: &#39;refugee&#39;}, { index: 73, text: &#39;relief worker&#39;}, { index: 74, text: &#39;residence permit&#39;}, { index: 75, text: &#39;slum / urban ghetto&#39;}, { index: 76, text: &#39;starvation&#39;}, { index: 77, text: &#39;tolerance&#39;}, { index: 78, text: &#39;work permit&#39;},],//this creates matches for indexes.</description>
+    </item>
+    
+    <item>
+      <title>Teema 3: Politics &amp; Global issues - yhdistä sanat 2</title>
+      <link>https://joonasmmp.github.io/kurssit/ena04tehtavat/teemasanasto_3_yhdista2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena04tehtavat/teemasanasto_3_yhdista2/</guid>
+      <description>Lisää pareja //Execute a JavaScript immediately after a page has been loadedwindow.onload = function() {//Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main filevar data = {terms: [{}, { index: 0, text: &#39;laki, asetus&#39;}, { index: 1, text: &#39;hallinto&#39;}, { index: 2, text: &#39;lakiehdotus&#39;}, { index: 3, text: &#39;ehdokas&#39;}, { index: 4, text: &#39;väestönlaskenta&#39;}, { index: 5, text: &#39;kokoomus-, koalitiohallitus&#39;}, { index: 6, text: &#39;perustuslaki&#39;}, { index: 7, text: &#39;demokratia&#39;}, { index: 8, text: &#39;hajottaa&#39;}, { index: 9, text: &#39;sisäpolitiikka&#39;}, { index: 10, text: &#39;vaalikampanja&#39;}, { index: 11, text: &#39;ulkopolitiikka&#39;}, { index: 12, text: &#39;eduskuntavaalit&#39;}, { index: 13, text: &#39;hallitus&#39;}, { index: 14, text: &#39;valtion päämies&#39;}, { index: 15, text: &#39;oikeuslaitos&#39;}, { index: 16, text: &#39;lainsäädäntö&#39;}, { index: 17, text: &#39;enemmistö&#39;}, { index: 18, text: &#39;kansanedustaja&#39;}, { index: 19, text: &#39;eurokansanedustaja&#39;}, { index: 20, text: &#39;vähemmistö&#39;}, { index: 21, text: &#39;monarkia&#39;}, { index: 22, text: &#39;kunnallisvaalit&#39;}, { index: 23, text: &#39;kunta&#39;}, { index: 24, text: &#39;oppositio&#39;}, { index: 25, text: &#39;eduskunta, parlamentti&#39;}, { index: 26, text: &#39;puolue&#39;}, { index: 27, text: &#39;kansanäänestys&#39;}, { index: 28, text: &#39;tasavalta&#39;}, { index: 29, text: &#39;olla ehdolla&#39;}, { index: 30, text: &#39;virkakausi&#39;}, { index: 31, text: &#39;Euroopan Unioni&#39;}, { index: 32, text: &#39;vasemmisto&#39;}, { index: 33, text: &#39;oikeisto&#39;}, { index: 34, text: &#39;äänioikeus&#39;}, { index: 35, text: &#39;varapresidentti&#39;}, { index: 36, text: &#39;äänestää&#39;}, { index: 37, text: &#39;avustustyöntekijä&#39;}, { index: 38, text: &#39;syrjäytyminen&#39;}, { index: 39, text: &#39;turvapaikka&#39;}, { index: 40, text: &#39;turvapaikanhakija&#39;}, { index: 41, text: &#39;mustat, alkuperäiskansat ja muut ei-valkoiseksi rodullistetut henkilöt&#39;}, { index: 42, text: &#39;hyväntekeväisyys(järjestö)&#39;}, { index: 43, text: &#39;maastakarkotus&#39;}, { index: 44, text: &#39;kehittyvä maa&#39;}, { index: 45, text: &#39;syrjintä&#39;}, { index: 46, text: &#39;toisinajattelija&#39;}, { index: 47, text: &#39;muuttaa maasta&#39;}, { index: 48, text: &#39;ulkomailla asuva&#39;}, { index: 49, text: &#39;reilu kauppa&#39;}, { index: 50, text: &#39;nälänhätä&#39;}, { index: 51, text: &#39;myöntää&#39;}, { index: 52, text: &#39;hätäapu&#39;}, { index: 53, text: &#39;luku- ja kirjoitustaidoton&#39;}, { index: 54, text: &#39;maahanmuuttaja&#39;}, { index: 55, text: &#39;maahanmuutto&#39;}, { index: 56, text: &#39;kotoperäinen, alkuperäinen&#39;}, { index: 57, text: &#39;lapsikuolleisuus&#39;}, { index: 58, text: &#39;sulautuminen&#39;}, { index: 59, text: &#39;oikeudenmukaisuus, oikeus&#39;}, { index: 60, text: &#39;odotettu elinikä&#39;}, { index: 61, text: &#39;luku- ja kirjoitustaito&#39;}, { index: 62, text: &#39;elinolosuhteet&#39;}, { index: 63, text: &#39;vähävarainen maa&#39;}, { index: 64, text: &#39;aliravitsemus, huono ravinto&#39;}, { index: 65, text: &#39;rahallinen apu&#39;}, { index: 66, text: &#39;monikulttuurinen&#39;}, { index: 67, text: &#39;kansalaisjärjestö&#39;}, { index: 68, text: &#39;rauhanturvaaja&#39;}, { index: 69, text: &#39;rotuerottelu&#39;}, { index: 70, text: &#39;rasismi, rotuviha&#39;}, { index: 71, text: &#39;vastaanottokeskus&#39;}, { index: 72, text: &#39;pakolainen&#39;}, { index: 73, text: &#39;avustustyöntekijä&#39;}, { index: 74, text: &#39;oleskelulupa&#39;}, { index: 75, text: &#39;slummi&#39;}, { index: 76, text: &#39;nälänhätä&#39;}, { index: 77, text: &#39;suvaitsevaisuus&#39;}, { index: 78, text: &#39;työlupa&#39;},],definitions: [{index: 0, text: &#39;act&#39;}, { index: 1, text: &#39;administration&#39;}, { index: 2, text: &#39;bill&#39;}, { index: 3, text: &#39;candidate&#39;}, { index: 4, text: &#39;census&#39;}, { index: 5, text: &#39;coalition government&#39;}, { index: 6, text: &#39;constitution&#39;}, { index: 7, text: &#39;democracy&#39;}, { index: 8, text: &#39;dissolve&#39;}, { index: 9, text: &#39;domestic policy&#39;}, { index: 10, text: &#39;election campaign&#39;}, { index: 11, text: &#39;foreign policy&#39;}, { index: 12, text: &#39;general elections&#39;}, { index: 13, text: &#39;government&#39;}, { index: 14, text: &#39;head of state&#39;}, { index: 15, text: &#39;judiciary, judicial system&#39;}, { index: 16, text: &#39;legislation&#39;}, { index: 17, text: &#39;majority&#39;}, { index: 18, text: &#39;Member of Parliament (MP) / representative&#39;}, { index: 19, text: &#39;Member of the European Parliament (MEP)&#39;}, { index: 20, text: &#39;minority&#39;}, { index: 21, text: &#39;monarchy&#39;}, { index: 22, text: &#39;municipal elections&#39;}, { index: 23, text: &#39;municipality&#39;}, { index: 24, text: &#39;opposition&#39;}, { index: 25, text: &#39;parliament&#39;}, { index: 26, text: &#39;party&#39;}, { index: 27, text: &#39;referendum&#39;}, { index: 28, text: &#39;republic&#39;}, { index: 29, text: &#39;stand for (BrE), run for (AmE)&#39;}, { index: 30, text: &#39;term (of office)&#39;}, { index: 31, text: &#39;the European Union&#39;}, { index: 32, text: &#39;the Left, the left wing&#39;}, { index: 33, text: &#39;the Right, the right wing&#39;}, { index: 34, text: &#39;universal suffrage, right to vote&#39;}, { index: 35, text: &#39;vice-president&#39;}, { index: 36, text: &#39;vote&#39;}, { index: 37, text: &#39;aid worker, relief worker&#39;}, { index: 38, text: &#39;alienation&#39;}, { index: 39, text: &#39;asylum&#39;}, { index: 40, text: &#39;asylum seeker&#39;}, { index: 41, text: &#39;BIPOC (black, indigenous and people of color)&#39;}, { index: 42, text: &#39;charity&#39;}, { index: 43, text: &#39;deportation&#39;}, { index: 44, text: &#39;developing country&#39;}, { index: 45, text: &#39;discrimination&#39;}, { index: 46, text: &#39;dissident&#39;}, { index: 47, text: &#39;emigrate&#39;}, { index: 48, text: &#39;expat&#39;}, { index: 49, text: &#39;fair trade&#39;}, { index: 50, text: &#39;famine&#39;}, { index: 51, text: &#39;grant&#39;}, { index: 52, text: &#39;humanitarian aid / relief aid&#39;}, { index: 53, text: &#39;illiterate&#39;}, { index: 54, text: &#39;immigrant&#39;}, { index: 55, text: &#39;immigration&#39;}, { index: 56, text: &#39;indigenous&#39;}, { index: 57, text: &#39;infant mortality&#39;}, { index: 58, text: &#39;integration&#39;}, { index: 59, text: &#39;justice&#39;}, { index: 60, text: &#39;life expectancy&#39;}, { index: 61, text: &#39;literacy&#39;}, { index: 62, text: &#39;living conditions&#39;}, { index: 63, text: &#39;low-income country&#39;}, { index: 64, text: &#39;malnourishment&#39;}, { index: 65, text: &#39;monetary aid&#39;}, { index: 66, text: &#39;multicultural&#39;}, { index: 67, text: &#39;NGO, non-governmental organisation&#39;}, { index: 68, text: &#39;peacekeeper&#39;}, { index: 69, text: &#39;racial segregation&#39;}, { index: 70, text: &#39;racism&#39;}, { index: 71, text: &#39;reception centre&#39;}, { index: 72, text: &#39;refugee&#39;}, { index: 73, text: &#39;relief worker&#39;}, { index: 74, text: &#39;residence permit&#39;}, { index: 75, text: &#39;slum / urban ghetto&#39;}, { index: 76, text: &#39;starvation&#39;}, { index: 77, text: &#39;tolerance&#39;}, { index: 78, text: &#39;work permit&#39;},],//this creates matches for indexes.</description>
+    </item>
+    
+    <item>
+      <title>Teema 4: Human Welfare &amp; Religion - yhdistä sanat</title>
+      <link>https://joonasmmp.github.io/kurssit/ena04tehtavat/teemasanasto_4_yhdista1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena04tehtavat/teemasanasto_4_yhdista1/</guid>
+      <description>Etsi sanaa vastaava käännös. Numeroita klikkaamalla voit luoda haluamasi määrän uusia pareja. 6912 //Execute a JavaScript immediately after a page has been loadedwindow.onload = function() {//Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main filevar data = {terms: [{index: 0, text: &#39;avustus, tuki, etu&#39;}, { index: 1, text: &#39;viranomaiset&#39;}, { index: 2, text: &#39;kansalainen&#39;}, { index: 3, text: &#39;kansalaisuus&#39;}, { index: 4, text: &#39;lapsilisä&#39;}, { index: 5, text: &#39;lastenkoti&#39;}, { index: 6, text: &#39;päiväkoti&#39;}, { index: 7, text: &#39;vammaistuki&#39;}, { index: 8, text: &#39;tasa-arvo&#39;}, { index: 9, text: &#39;asunnottomuus&#39;}, { index: 10, text: &#39;asumistuki&#39;}, { index: 11, text: &#39;tulot&#39;}, { index: 12, text: &#39;tulovero&#39;}, { index: 13, text: &#39;terveydenhuolto&#39;}, { index: 14, text: &#39;vammaiset&#39;}, { index: 15, text: &#39;äitiyspakkaus&#39;}, { index: 16, text: &#39;köyhyys&#39;}, { index: 17, text: &#39;asukas&#39;}, { index: 18, text: &#39;jäädä eläkkeelle&#39;}, { index: 19, text: &#39;eläkeläinen&#39;}, { index: 20, text: &#39;vanhus&#39;}, { index: 21, text: &#39;palvelutalo&#39;}, { index: 22, text: &#39;sairauspäiväraha&#39;}, { index: 23, text: &#39;sosiaaliturva&#39;}, { index: 24, text: &#39;elintaso&#39;}, { index: 25, text: &#39;opintotuki&#39;}, { index: 26, text: &#39;avustus, valtionapu&#39;}, { index: 27, text: &#39;vanhukset&#39;}, { index: 28, text: &#39;työttömyyskorvaus&#39;}, { index: 29, text: &#39;hyvinvointivaltio&#39;}, { index: 30, text: &#39;siviilivihkiminen&#39;}, { index: 31, text: &#39;rekisteröity parisuhde&#39;}, { index: 32, text: &#39;avoliitto&#39;}, { index: 33, text: &#39;elatusapu&#39;}, { index: 34, text: &#39;huoltajuus&#39;}, { index: 35, text: &#39;avioero&#39;}, { index: 36, text: &#39;yhteishuoltajuus&#39;}, { index: 37, text: &#39;olla avoliitossa, asua yhdessä&#39;}, { index: 38, text: &#39;avioliitto&#39;}, { index: 39, text: &#39;avioehto&#39;}, { index: 40, text: &#39;ateismi&#39;}, { index: 41, text: &#39;kaste&#39;}, { index: 42, text: &#39;siunata&#39;}, { index: 43, text: &#39;ehtoollinen&#39;}, { index: 44, text: &#39;ripille pääsy&#39;}, { index: 45, text: &#39;isonen&#39;}, { index: 46, text: &#39;seurakunta (kirkkoväki)&#39;}, { index: 47, text: &#39;usko&#39;}, { index: 48, text: &#39;paasto&#39;}, { index: 49, text: &#39;virsi&#39;}, { index: 50, text: &#39;messu&#39;}, { index: 51, text: &#39;seurakunta&#39;}, { index: 52, text: &#39;rukoilla&#39;}, { index: 53, text: &#39;rukous&#39;}, { index: 54, text: &#39;saarnata&#39;}, { index: 55, text: &#39;Prometheus-leiri&#39;}, { index: 56, text: &#39;uskonto&#39;}, { index: 57, text: &#39;uskonnollinen&#39;}, { index: 58, text: &#39;pyhä&#39;}, { index: 59, text: &#39;maallinen&#39;}, { index: 60, text: &#39;saarna&#39;}, { index: 61, text: &#39;jumalanpalvelus&#39;},],definitions: [{index: 0, text: &#39;allowance / benefit&#39;}, { index: 1, text: &#39;authorities&#39;}, { index: 2, text: &#39;citizen&#39;}, { index: 3, text: &#39;citizenship / nationality&#39;}, { index: 4, text: &#39;child benefit&#39;}, { index: 5, text: &#39;children’s home&#39;}, { index: 6, text: &#39;day care centre, kindergarten&#39;}, { index: 7, text: &#39;disability benefit&#39;}, { index: 8, text: &#39;equality&#39;}, { index: 9, text: &#39;homelessness&#39;}, { index: 10, text: &#39;housing benefit&#39;}, { index: 11, text: &#39;income&#39;}, { index: 12, text: &#39;income tax&#39;}, { index: 13, text: &#39;health care&#39;}, { index: 14, text: &#39;individuals with special needs&#39;}, { index: 15, text: &#39;maternity package&#39;}, { index: 16, text: &#39;poverty&#39;}, { index: 17, text: &#39;resident&#39;}, { index: 18, text: &#39;retire&#39;}, { index: 19, text: &#39;retiree / old age pensioner&#39;}, { index: 20, text: &#39;senior citizen&#39;}, { index: 21, text: &#39;sheltered housing&#39;}, { index: 22, text: &#39;sickness allowance&#39;}, { index: 23, text: &#39;social security&#39;}, { index: 24, text: &#39;standard of living&#39;}, { index: 25, text: &#39;student grant&#39;}, { index: 26, text: &#39;subsidy&#39;}, { index: 27, text: &#39;the elderly&#39;}, { index: 28, text: &#39;unemployment benefit&#39;}, { index: 29, text: &#39;welfare state&#39;}, { index: 30, text: &#39;civil ceremony&#39;}, { index: 31, text: &#39;civil partnership&#39;}, { index: 32, text: &#39;cohabitation&#39;}, { index: 33, text: &#39;child support&#39;}, { index: 34, text: &#39;custody&#39;}, { index: 35, text: &#39;divorce&#39;}, { index: 36, text: &#39;joint custody&#39;}, { index: 37, text: &#39;live together&#39;}, { index: 38, text: &#39;marriage&#39;}, { index: 39, text: &#39;prenuptial agreement&#39;}, { index: 40, text: &#39;atheism&#39;}, { index: 41, text: &#39;baptism / christening&#39;}, { index: 42, text: &#39;bless&#39;}, { index: 43, text: &#39;communion&#39;}, { index: 44, text: &#39;confirmation&#39;}, { index: 45, text: &#39;confirmation camp group leader&#39;}, { index: 46, text: &#39;congregation&#39;}, { index: 47, text: &#39;faith&#39;}, { index: 48, text: &#39;fast, fasting&#39;}, { index: 49, text: &#39;hymn&#39;}, { index: 50, text: &#39;mass&#39;}, { index: 51, text: &#39;parish&#39;}, { index: 52, text: &#39;pray&#39;}, { index: 53, text: &#39;prayer&#39;}, { index: 54, text: &#39;preach&#39;}, { index: 55, text: &#39;Prometheus camp&#39;}, { index: 56, text: &#39;religion&#39;}, { index: 57, text: &#39;religious&#39;}, { index: 58, text: &#39;sacred&#39;}, { index: 59, text: &#39;secular&#39;}, { index: 60, text: &#39;sermon&#39;}, { index: 61, text: &#39;service&#39;},],//this creates matches for indexes.</description>
+    </item>
+    
+    <item>
+      <title>Teema 4: Human Welfare &amp; Religion - yhdistä sanat 2</title>
+      <link>https://joonasmmp.github.io/kurssit/ena04tehtavat/teemasanasto_4_yhdista2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena04tehtavat/teemasanasto_4_yhdista2/</guid>
+      <description>Lisää pareja //Execute a JavaScript immediately after a page has been loadedwindow.onload = function() {//Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main filevar data = {terms: [{index: 0, text: &#39;avustus, tuki, etu&#39;}, { index: 1, text: &#39;viranomaiset&#39;}, { index: 2, text: &#39;kansalainen&#39;}, { index: 3, text: &#39;kansalaisuus&#39;}, { index: 4, text: &#39;lapsilisä&#39;}, { index: 5, text: &#39;lastenkoti&#39;}, { index: 6, text: &#39;päiväkoti&#39;}, { index: 7, text: &#39;vammaistuki&#39;}, { index: 8, text: &#39;tasa-arvo&#39;}, { index: 9, text: &#39;asunnottomuus&#39;}, { index: 10, text: &#39;asumistuki&#39;}, { index: 11, text: &#39;tulot&#39;}, { index: 12, text: &#39;tulovero&#39;}, { index: 13, text: &#39;terveydenhuolto&#39;}, { index: 14, text: &#39;vammaiset&#39;}, { index: 15, text: &#39;äitiyspakkaus&#39;}, { index: 16, text: &#39;köyhyys&#39;}, { index: 17, text: &#39;asukas&#39;}, { index: 18, text: &#39;jäädä eläkkeelle&#39;}, { index: 19, text: &#39;eläkeläinen&#39;}, { index: 20, text: &#39;vanhus&#39;}, { index: 21, text: &#39;palvelutalo&#39;}, { index: 22, text: &#39;sairauspäiväraha&#39;}, { index: 23, text: &#39;sosiaaliturva&#39;}, { index: 24, text: &#39;elintaso&#39;}, { index: 25, text: &#39;opintotuki&#39;}, { index: 26, text: &#39;avustus, valtionapu&#39;}, { index: 27, text: &#39;vanhukset&#39;}, { index: 28, text: &#39;työttömyyskorvaus&#39;}, { index: 29, text: &#39;hyvinvointivaltio&#39;}, { index: 30, text: &#39;siviilivihkiminen&#39;}, { index: 31, text: &#39;rekisteröity parisuhde&#39;}, { index: 32, text: &#39;avoliitto&#39;}, { index: 33, text: &#39;elatusapu&#39;}, { index: 34, text: &#39;huoltajuus&#39;}, { index: 35, text: &#39;avioero&#39;}, { index: 36, text: &#39;yhteishuoltajuus&#39;}, { index: 37, text: &#39;olla avoliitossa, asua yhdessä&#39;}, { index: 38, text: &#39;avioliitto&#39;}, { index: 39, text: &#39;avioehto&#39;}, { index: 40, text: &#39;ateismi&#39;}, { index: 41, text: &#39;kaste&#39;}, { index: 42, text: &#39;siunata&#39;}, { index: 43, text: &#39;ehtoollinen&#39;}, { index: 44, text: &#39;ripille pääsy&#39;}, { index: 45, text: &#39;isonen&#39;}, { index: 46, text: &#39;seurakunta (kirkkoväki)&#39;}, { index: 47, text: &#39;usko&#39;}, { index: 48, text: &#39;paasto&#39;}, { index: 49, text: &#39;virsi&#39;}, { index: 50, text: &#39;messu&#39;}, { index: 51, text: &#39;seurakunta&#39;}, { index: 52, text: &#39;rukoilla&#39;}, { index: 53, text: &#39;rukous&#39;}, { index: 54, text: &#39;saarnata&#39;}, { index: 55, text: &#39;Prometheus-leiri&#39;}, { index: 56, text: &#39;uskonto&#39;}, { index: 57, text: &#39;uskonnollinen&#39;}, { index: 58, text: &#39;pyhä&#39;}, { index: 59, text: &#39;maallinen&#39;}, { index: 60, text: &#39;saarna&#39;}, { index: 61, text: &#39;jumalanpalvelus&#39;},],definitions: [{index: 0, text: &#39;allowance / benefit&#39;}, { index: 1, text: &#39;authorities&#39;}, { index: 2, text: &#39;citizen&#39;}, { index: 3, text: &#39;citizenship / nationality&#39;}, { index: 4, text: &#39;child benefit&#39;}, { index: 5, text: &#39;children’s home&#39;}, { index: 6, text: &#39;day care centre, kindergarten&#39;}, { index: 7, text: &#39;disability benefit&#39;}, { index: 8, text: &#39;equality&#39;}, { index: 9, text: &#39;homelessness&#39;}, { index: 10, text: &#39;housing benefit&#39;}, { index: 11, text: &#39;income&#39;}, { index: 12, text: &#39;income tax&#39;}, { index: 13, text: &#39;health care&#39;}, { index: 14, text: &#39;individuals with special needs&#39;}, { index: 15, text: &#39;maternity package&#39;}, { index: 16, text: &#39;poverty&#39;}, { index: 17, text: &#39;resident&#39;}, { index: 18, text: &#39;retire&#39;}, { index: 19, text: &#39;retiree / old age pensioner&#39;}, { index: 20, text: &#39;senior citizen&#39;}, { index: 21, text: &#39;sheltered housing&#39;}, { index: 22, text: &#39;sickness allowance&#39;}, { index: 23, text: &#39;social security&#39;}, { index: 24, text: &#39;standard of living&#39;}, { index: 25, text: &#39;student grant&#39;}, { index: 26, text: &#39;subsidy&#39;}, { index: 27, text: &#39;the elderly&#39;}, { index: 28, text: &#39;unemployment benefit&#39;}, { index: 29, text: &#39;welfare state&#39;}, { index: 30, text: &#39;civil ceremony&#39;}, { index: 31, text: &#39;civil partnership&#39;}, { index: 32, text: &#39;cohabitation&#39;}, { index: 33, text: &#39;child support&#39;}, { index: 34, text: &#39;custody&#39;}, { index: 35, text: &#39;divorce&#39;}, { index: 36, text: &#39;joint custody&#39;}, { index: 37, text: &#39;live together&#39;}, { index: 38, text: &#39;marriage&#39;}, { index: 39, text: &#39;prenuptial agreement&#39;}, { index: 40, text: &#39;atheism&#39;}, { index: 41, text: &#39;baptism / christening&#39;}, { index: 42, text: &#39;bless&#39;}, { index: 43, text: &#39;communion&#39;}, { index: 44, text: &#39;confirmation&#39;}, { index: 45, text: &#39;confirmation camp group leader&#39;}, { index: 46, text: &#39;congregation&#39;}, { index: 47, text: &#39;faith&#39;}, { index: 48, text: &#39;fast, fasting&#39;}, { index: 49, text: &#39;hymn&#39;}, { index: 50, text: &#39;mass&#39;}, { index: 51, text: &#39;parish&#39;}, { index: 52, text: &#39;pray&#39;}, { index: 53, text: &#39;prayer&#39;}, { index: 54, text: &#39;preach&#39;}, { index: 55, text: &#39;Prometheus camp&#39;}, { index: 56, text: &#39;religion&#39;}, { index: 57, text: &#39;religious&#39;}, { index: 58, text: &#39;sacred&#39;}, { index: 59, text: &#39;secular&#39;}, { index: 60, text: &#39;sermon&#39;}, { index: 61, text: &#39;service&#39;},],//this creates matches for indexes.</description>
+    </item>
+    
+    <item>
+      <title>Teemasanasto: ENG-FIN</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/teemasanasto_flashcard_eng_fin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/teemasanasto_flashcard_eng_fin/</guid>
+      <description>Music &amp; Dance Narratives &amp; Books Films &amp; TV Visual Artsvälilyöntikäännä korttivaihda korttiaRsatunnainen kortti $(document).ready(function() {var currentQuestion = 0;var qbank = [[&#34;acoustic&#34;, &#34;akustinen, ilman sähköisiä vahvistimia soitettu&#34;], [&#34;arrange&#34;, &#34;sovittaa&#34;], [&#34;brass band&#34;, &#34;(vaski)puhallinorkesteri&#34;], [&#34;choir&#34;, &#34;kuoro&#34;], [&#34;chord&#34;, &#34;sointu&#34;], [&#34;chorus, refrain&#34;, &#34;kertosäe&#34;], [&#34;compose&#34;, &#34;säveltää&#34;], [&#34;concert&#34;, &#34;konsertti&#34;], [&#34;</description>
+    </item>
+    
+    <item>
+      <title>Teemasanasto: ENG-FIN</title>
+      <link>https://joonasmmp.github.io/kurssit/ena04tehtavat/teemasanasto_flashcard_eng_fin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena04tehtavat/teemasanasto_flashcard_eng_fin/</guid>
+      <description>Media Crime &amp; Justice Politics &amp; Global issues Human Welfare &amp; Religionvälilyöntikäännä korttivaihda korttiaRsatunnainen kortti $(document).ready(function() {var currentQuestion = 0;var qbank = [[&#34;billboard&#34;, &#34;mainostaulu&#34;], [&#34;breaking news&#34;, &#34;tuoreimmat uutiset&#34;], [&#34;censorship&#34;, &#34;sensuuri, valvonta&#34;], [&#34;consumer&#34;, &#34;kuluttaja&#34;], [&#34;fact-check&#34;, &#34;tarkastaa faktat&#34;], [&#34;fake news&#34;, &#34;valeuutinen&#34;], [&#34;mainstream media&#34;, &#34;valtamedia&#34;], [&#34;mass media&#34;</description>
+    </item>
+    
+    <item>
+      <title>Teemasanasto: ENG-FIN</title>
+      <link>https://joonasmmp.github.io/kurssit/ena07tehtavat/teemasanasto_insights_flashcard_eng_fin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena07tehtavat/teemasanasto_insights_flashcard_eng_fin/</guid>
+      <description>Environment Recycling Energyvälilyöntikäännä korttivaihda korttiaRsatunnainen kortti $(document).ready(function() {var currentQuestion = 0;var qbank = [[&#34;habitat&#34;, &#34;elinalue&#34;], [&#34;genetically modified (GM)&#34;, &#34;geenimuunneltu&#34;], [&#34;insecticide&#34;, &#34;hyönteismyrkky&#34;], [&#34;atmosphere&#34;, &#34;ilmakehä&#34;], [&#34;climate change&#34;, &#34;ilmastonmuutos&#34;], [&#34;global warming&#34;, &#34;ilmaston lämpeneminen&#34;], [&#34;irrigation&#34;, &#34;kastelu&#34;], [&#34;greenhouse effect&#34;, &#34;kasvihuoneilmiö&#34;], [&#34;vegetation, flora&#34;, &#34;kasvillisuus&#34;], [&#34;herbicide&#34;, &#34;kasvimyrkky&#34;], [&#34;flora and fauna&#34;, &#34;</description>
+    </item>
+    
+    <item>
+      <title>Teemasanasto: ENG-FIN</title>
+      <link>https://joonasmmp.github.io/kurssit/ena07tehtavat/teemasanasto_insights_flashcard_fin_eng/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena07tehtavat/teemasanasto_insights_flashcard_fin_eng/</guid>
+      <description>Environment Recycling Energyvälilyöntikäännä korttivaihda korttiaRsatunnainen kortti $(document).ready(function() {var currentQuestion = 0;var qbank = [[&#34;elinalue&#34;, &#34;habitat&#34;], [&#34;geenimuunneltu&#34;, &#34;genetically modified (GM)&#34;], [&#34;hyönteismyrkky&#34;, &#34;insecticide&#34;], [&#34;ilmakehä&#34;, &#34;atmosphere&#34;], [&#34;ilmastonmuutos&#34;, &#34;climate change&#34;], [&#34;ilmaston lämpeneminen&#34;, &#34;global warming&#34;], [&#34;kastelu&#34;, &#34;irrigation&#34;], [&#34;kasvihuoneilmiö&#34;, &#34;greenhouse effect&#34;], [&#34;kasvillisuus&#34;, &#34;vegetation, flora&#34;], [&#34;kasvimyrkky&#34;, &#34;herbicide&#34;], [&#34;kasvit ja eläimet&#34;, &#34;</description>
+    </item>
+    
+    <item>
+      <title>Teemasanasto: FIN-ENG</title>
+      <link>https://joonasmmp.github.io/kurssit/ena03tehtavat/teemasanasto_flashcard_fin_eng/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena03tehtavat/teemasanasto_flashcard_fin_eng/</guid>
+      <description>Music &amp; Dance Narratives &amp; Books Films &amp; TV Visual Artsvälilyöntikäännä korttivaihda korttiaRsatunnainen kortti $(document).ready(function() {var currentQuestion = 0;var qbank = [[&#34;akustinen, ilman sähköisiä vahvistimia soitettu&#34;, &#34;acoustic&#34;], [&#34;sovittaa&#34;, &#34;arrange&#34;], [&#34;(vaski)puhallinorkesteri&#34;, &#34;brass band&#34;], [&#34;kuoro&#34;, &#34;choir&#34;], [&#34;sointu&#34;, &#34;chord&#34;], [&#34;kertosäe&#34;, &#34;chorus, refrain&#34;], [&#34;säveltää&#34;, &#34;compose&#34;], [&#34;konsertti&#34;, &#34;concert&#34;], [&#34;</description>
+    </item>
+    
+    <item>
+      <title>Teemasanasto: FIN-ENG</title>
+      <link>https://joonasmmp.github.io/kurssit/ena04tehtavat/teemasanasto_flashcard_fin_eng/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena04tehtavat/teemasanasto_flashcard_fin_eng/</guid>
+      <description>Media Crime &amp; Justice Politics &amp; Global issues Human Welfare &amp; Religionvälilyöntikäännä korttivaihda korttiaRsatunnainen kortti $(document).ready(function() {var currentQuestion = 0;var qbank = [[&#34;mainostaulu&#34;, &#34;billboard&#34;], [&#34;tuoreimmat uutiset&#34;, &#34;breaking news&#34;], [&#34;sensuuri, valvonta&#34;, &#34;censorship&#34;], [&#34;kuluttaja&#34;, &#34;consumer&#34;], [&#34;tarkastaa faktat&#34;, &#34;fact-check&#34;], [&#34;valeuutinen&#34;, &#34;fake news&#34;], [&#34;valtamedia&#34;, &#34;mainstream media&#34;], [&#34;joukkotiedotusvälineet, massamedia&#34;</description>
+    </item>
+    
+    <item>
+      <title>Testi, testi, efwefweeesdsdsdsdfew</title>
+      <link>https://joonasmmp.github.io/kurssit/ena09tehtavat/testiy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena09tehtavat/testiy/</guid>
+      <description>6912 //Execute a JavaScript immediately after a page has been loadedwindow.onload = function() {//Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main filevar data = {terms: [{index: 0, text: &#34;Koira&#34;}, { index: 1, text: &#34;Gorilla&#34;}, { index: 2, text: &#34;</description>
+    </item>
+    
+    <item>
+      <title>Testi, testi, flashcard</title>
+      <link>https://joonasmmp.github.io/kurssit/ena09tehtavat/testiflash/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena09tehtavat/testiflash/</guid>
+      <description>$(document).ready(function() {var currentQuestion = 0;var qbank = [[&#39;koira
+koira&#39;, &#34;GATO&#34;],[&#34;DOG&#34;, &#34;PERRO&#34;],[&#34;HORSE&#34;, &#34;CABALLO&#34;],[&#34;RABBIT&#34;, &#34;CONEJO&#34;],[&#34;TIGER&#34;, &#34;TIGRE&#34;],[&#34;KANGAROO&#34;, &#34;CANGURO&#34;],];beginActivity();function beginActivity() {$(&#34;#cardArea&#34;).empty();$(&#34;#cardArea&#34;).append(&#39;&#39; + qbank[currentQuestion][0] + &#39;&#39;);$(&#34;#card1&#34;).css(&#34;background-color&#34;, &#34;#1F2937&#34;);$(&#34;#lukumaara&#34;).empty();var korttia = document.createElement(&#39;div&#39;)korttia.innerHTML = currentQuestion + 1 + &#34; / &#34; + qbank.length;document.getElementById(&#39;lukumaara&#39;).appendChild(korttia);} $(&#34;#cardArea&#34;).on(&#34;click&#34;, function() {var parentDiv = document.getElementById(&#34;cardArea&#34;);var childDiv = document.</description>
+    </item>
+    
+    <item>
+      <title>Testi, testi, testi</title>
+      <link>https://joonasmmp.github.io/kurssit/ena09tehtavat/testi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://joonasmmp.github.io/kurssit/ena09tehtavat/testi/</guid>
+      <description>Kuka on Severin isä?Aaro kylläkin väittää olevansa koska on HULLU
+Ressu Redford on nähty Salkkareissa, mutta missä?Junassa kun Salla lähti sarjasta pois niin Ressu istui viereen ja laulaa luikautti
+Mihin Linda muutti?Interpolin hommiin Ranskan Lyoniin Lassen uusin tyttöystävä Joanna on poliisi. Mikin työpari ja Lindan korvaaja
+Anu Sinisalo näytteli kenen äitiä?Talen äiti on Elina, Sofian äiti oli Hanna Salin</description>
+    </item>
+    
   </channel>
 </rss>
