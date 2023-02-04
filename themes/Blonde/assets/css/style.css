@@ -473,7 +473,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (max-width: 768px) {
-  .container {
+  .px-5 {
     padding-left: 0;
     padding-right: 0;
   }
