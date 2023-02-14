@@ -9,26 +9,30 @@ Kurssi kolme eli kieli ja kulttuuri ja tässä sisältöä siihen
 
 ## Kielioppi
 ### Laskettavat ja ei-laskettavat substantiivit
-[1. Alkutesti]({{<ref "countable_alkutesti.mdt" >}})
+[1. Laskettavat substantiivit: Alkutesti]({{<ref "countable_alkutesti.mdt" >}})
 
-[2. Lopputesti]({{<ref "countable_lopputesti.mdt" >}})
+[2. Laskettavat substantiivit: Lopputesti]({{<ref "countable_lopputesti.mdt" >}})
 
 ### Artikkelit
-[1. Lopputesti]({{<ref "artikkelit_lopputesti.mdt" >}})
+[1. Artikkelit: Lopputesti]({{<ref "artikkelit_lopputesti.mdt" >}})
 
 ### Genetiivi
-[1. Flashcard]({{<ref "genetiivi_flashcard.mdt" >}})
+[1. Genetiivi: Flashcard]({{<ref "genetiivi_flashcard.mdt" >}})
 
 
 ### Epäsuora kerronta
-[1. Alkutesti]({{<ref "epasuora_alkutesti.mdt" >}})
+[1. Epäsuora kerronta: Alkutesti]({{<ref "epasuora_alkutesti.mdt" >}})
 
-[2. Flashcard]({{<ref "epasuora_flashcard.mdt" >}})
+[2. Epäsuora kerronta: Flashcard]({{<ref "epasuora_flashcard.mdt" >}})
 
-[3. Lopputesti]({{<ref "epasuora_lopputesti.mdt" >}})
+[3. Epäsuora kerronta: Lopputesti]({{<ref "epasuora_lopputesti.mdt" >}})
 
 ## Sanastoa
-### Teemasanat
+### Elements Teemasanat
 [Flashcard: ENG-FIN]({{<ref "teemasanasto_flashcard_eng_fin.mdt" >}})
 
 [Flashcard: FIN-ENG]({{<ref "teemasanasto_flashcard_fin_eng.mdt" >}})
+
+[Teema 1: Music & Dance: yhdistä sanat - 6/9/12]({{<ref "teemasanasto_1_yhdista1.mdt" >}})
+
+[Teema 1: Music & Dance: yhdistä sanat - Loputon]({{<ref "teemasanasto_1_yhdista2.mdt" >}})
