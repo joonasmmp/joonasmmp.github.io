@@ -5,7 +5,7 @@
     <title>{{site.Title}}{{if not .IsHome}} | {{.Title}}{{end}}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#1F2937">
     <meta property="og:title" content="{{site.Title}}{{if not .IsHome}} | {{.Title}}{{end}}" />
     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
     <link rel="preload" href="../fonts/open-sans-v29-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
@@ -22,5 +22,4 @@
     {{ partial "seo/print.html" . }}
     {{ block "header_css" . }}{{ end }}
     <i class="dark hidden"></i>
-    <meta name="theme-color" content="#1F2937">
     </head>
