@@ -15,7 +15,7 @@ categories = [
 
 On aika jättää vuosi 2022 taaksemme, ja kun vuosi vaihtuu, ilmestyy myös eri sanakirjojen vuoden sana-valinnat. Monesti nämä vuoden sanat ovat sanoja jotka ovat olleet jollain tapaa ajankohtaisia kyseisenä vuonna, ja lukemalla listaa [Wikipediasta](https://en.wikipedia.org/wiki/Word_of_the_year) näkee hyvin mikä asia on minäkin vuonna ollut pinnalla. 
 
-Tässä kirjoiksessa käyn läpi muutanan vuoden sanan ihan vain huvin vuoksi. 
+Tässä kirjoituksessa käyn läpi muutaman vuoden sanan.
 
 ### Oxford English Dictionary: Goblin mode
 OED:n vuoden sana, joka itse asiassa onkin kaksi sanaa, oli niinkin kova juttu että [rikkoi uutiskynnyksen myös Suomessa](https://www.hs.fi/kulttuuri/art-2000009245966.html), ja sai Hesarin kautta suomenkielisen muodon "hiisimoodi".
