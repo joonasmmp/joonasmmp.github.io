@@ -2115,4 +2115,15 @@ Ensure the default browser behavior of the `hidden` attribute.
     font-size: 1.5rem;
     line-height: 2rem;
   }
+
+  .dark .dark.border-black {
+    border: 1px solid #000000;
+    border-color: #000000;
+  }
+
+  .border-white {
+    border:1px solid #ccccca;
+    border-color: #d3d6da;
+  }
+
 }
