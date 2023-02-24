@@ -2,7 +2,7 @@
 title: "Pakohuone: Elements 5"
 date: 2022-2-1
 weight: 100
-draft: false
+draft: true
 type: page
 layout: tehtava
 ---

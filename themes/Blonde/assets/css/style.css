@@ -2117,6 +2117,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-  .border-black {
-    border: 1px solid #000000
+  .dark .dark.border-black {
+    border: 1px solid #000000;
+    border-color: #000000;
+  }
+
+  .border-white {
+    border-color: #d3d6da;
+    border:1px solid #ccccca
   }
