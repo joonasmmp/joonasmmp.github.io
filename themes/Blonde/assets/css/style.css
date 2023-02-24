@@ -2124,6 +2124,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-right: 0;
   }
 
+  .lg\:ml-2 {
+    margin-left: 0.5rem;
+  }
+
   .dark .dark\:border-black {
     border: 1px solid #000000;
     border-color: #000000;
