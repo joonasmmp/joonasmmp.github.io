@@ -2124,5 +2124,5 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .border-white {
     border-color: #d3d6da;
-    border:1px solid #ccccca
+    border:1px solid #ccccca;
   }
