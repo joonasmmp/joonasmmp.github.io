@@ -2116,3 +2116,7 @@ Ensure the default browser behavior of the `hidden` attribute.
     line-height: 2rem;
   }
 }
+
+  .border-black {
+    border-color: black;
+  }
