@@ -9,7 +9,8 @@
   {{ end }}
   {{if not .IsHome}}<h2 class="text-4xl dark:text-white mb-3">{{ humanize .Title }}</h2>{{end}}
     {{if .IsHome}}
-    <div class="bg-white w-full p-3 lg:max-w-full lg:flex mt-5 hover:-translate-y-1 hover:shadow-md duration-500 dark:bg-warmgray-900 border-white dark:border-black" style="border-radius:4px;box-shadow:0 4px 10px rgb(128 128 128/.1);overflow:hidden;margin-bottom:1.25em;height:fit-content">kullkullukulluikulli</div>
+    <div class="bg-white w-full p-3 lg:max-w-full lg:flex mt-5 hover:-translate-y-1 hover:shadow-md duration-500 dark:bg-warmgray-900 border-white dark:border-black" style="border-radius:4px;box-shadow:0 4px 10px rgb(128 128 128/.1);overflow:hidden;margin-bottom:1.25em;height:fit-content">Eli tässä placeholder kunnes saan tähän jonkun kuvan tai muuta vastaavaa.</div>
+    <div class="flex md:hidden bg-white w-full p-3 lg:max-w-full lg:flex mt-5 hover:-translate-y-1 hover:shadow-md duration-500 dark:bg-warmgray-900 border-white dark:border-black" style="border-radius:4px;box-shadow:0 4px 10px rgb(128 128 128/.1);overflow:hidden;margin-bottom:1.25em;height:fit-content">Kurssikohtaiset materiaalit löydät yläpalkista.</div>
     {{.Scratch.Set "Paginator" (.Paginate (where .Site.RegularPages "Type" "post") (.Site.Params.paginator_pages) )}}
     {{else}}
     {{.Scratch.Set "Paginator" .Paginator}}
