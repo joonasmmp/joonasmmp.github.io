@@ -2118,5 +2118,5 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
   .border-black {
-    border-color: black;
+    border: 1px solid #000000
   }
