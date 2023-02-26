@@ -62,4 +62,12 @@ Ainoa miinus on se, että monet vieraat ovat itselle tuntemattomia, sillä ovat 
 
 ## Youtube-kanavat ja muu media
 
+Koska tähän mahtuu selkeästi suosituksia muustakin mediasta, niin tässä tulee.
+
 ### RedLetter Media
+
+[Red Letter Media](https://www.youtube.com/@RedLetterMedia) sisältää (oikeastaan) kolme eri ohjelmaa, jotka kaikki käsittelevät elokuvia tai sarjoja. Tekijät pysyvät samana, mutta konsepti hieman eri. Half in the Bagissä keskustellaan tuoreista elokuvista, Re:viewissä vanhoista suosikeista, ja Best of the Worstissa katsotaan huonoja elokuvia. Viihdyttävin on ehdottomasti Best of the Worst, jonka takia olen itsekin katsonut monta b-klassikkoa, kuten Samurai Cop, Miami Connection, Hard Ticket to Hawaii (kävin myös katsomassa elokuvissa erikoisnäytöksessä!), Surviving Edged Weapons, Suburban Sasquatch, jne. Aivan mahtavaa. 
+
+## Kirjallisuus
+
+Tästä en jaksa sanoa muuta kuin sen, että käy katsomassa [Goodreads-profiilista](https://www.goodreads.com/user/show/38760443-joonas)
