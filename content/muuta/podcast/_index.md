@@ -70,4 +70,4 @@ Koska tähän mahtuu selkeästi suosituksia muustakin mediasta, niin tässä tul
 
 ## Kirjallisuus
 
-Tästä en jaksa sanoa muuta kuin sen, että käy katsomassa [Goodreads-profiilista](https://www.goodreads.com/user/show/38760443-joonas)
+Tästä en jaksa sanoa muuta kuin sen, että käy katsomassa [Goodreads-profiilista](https://www.goodreads.com/user/show/38760443-joonas).

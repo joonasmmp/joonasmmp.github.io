@@ -9,8 +9,10 @@
   {{ end }}
   {{if not .IsHome}}<h2 class="text-4xl dark:text-white mb-3">{{ humanize .Title }}</h2>{{end}}
     {{if .IsHome}}
-    <div class="bg-white w-full p-3 lg:max-w-full lg:flex mt-5 dark:bg-warmgray-900 border-white dark:border-black text-gray-700 text-base pb-5 dark:text-gray-300" style="border-radius:4px;box-shadow:0 4px 10px rgb(128 128 128/.1);overflow:hidden;margin-bottom:1.25em;height:fit-content">Eli tässä placeholder kunnes saan tähän jonkun kuvan tai muuta vastaavaa.</div>
-    <div class="flex bg-white w-full p-3 lg:max-w-full mt-5 dark:bg-warmgray-900 border-white dark:border-black text-gray-700 text-base pb-5 dark:text-gray-300" style="border-radius:4px;box-shadow:0 4px 10px rgb(128 128 128/.1);overflow:hidden;margin-bottom:1.25em;height:fit-content">Heipä hei ja tervetuloa ja sellasta. Moro. Täällä materiaalia & tehtäviä & kirjoituksia. Tähän jotain sisältöä ja selitystä tai jottain. Ja näin.</div>
+    <div class="bg-white w-full p-3 lg:max-w-full lg:flex mt-5 dark:bg-warmgray-900 border-white dark:border-black text-gray-700 text-base pb-5 dark:text-gray-300" 
+    style="border-radius:4px;box-shadow:0 4px 10px rgb(128 128 128/.1);overflow:hidden;margin-bottom:1.25em;background: url();background-size: cover;background-repeat: no-repeat;background-position: center;"></div>
+    <div class="flex bg-white w-full p-3 lg:max-w-full mt-5 dark:bg-warmgray-900 border-white dark:border-black text-gray-700 text-base pb-5 dark:text-gray-300" 
+    style="border-radius:4px;box-shadow:0 4px 10px rgb(128 128 128/.1);overflow:hidden;margin-bottom:1.25em;height:fit-content">Tällä sivulla löydät materiaalia ja tehtäviä lukion englannin opiskelua varten. Välikosta voit valita kurssikohtaiset materiaalit tai vapaasti tutkia muuta sisältöä.</div>
     <h2 class="text-2xl dark:text-white mb-3 ml-2 lg:ml-0">Uusimmat julkaisut</h2>
     {{.Scratch.Set "Paginator" (.Paginate (where .Site.RegularPages "Type" "post") (.Site.Params.paginator_pages) )}}
     {{else}}
