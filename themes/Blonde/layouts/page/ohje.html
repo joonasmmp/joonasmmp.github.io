@@ -5,6 +5,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+<h1 class="mb-1 text-4xl" style="padding-bottom:0.3em; text-align: center; text-transform: uppercase">{{.Title}}</h1>
 <div class="grid grid-cols-3 gap-4">
     {{ if .Site.Params.widgets.display }}
     <div class="col-span-3 lg:col-span-2 dark:text-white">
@@ -13,7 +14,7 @@
             {{ end }}
             <div class="bg-white dark:bg-warmgray-900 p-5 my-4 border-white dark:border-black" style="border-radius: 4px; box-shadow: 0 4px 10px rgb(128 128 128 / 10%); overflow: hidden; 
             margin-bottom: 1.25em; height: fit-content;">
-                <h1 class="mb-1 text-4xl" style="padding-bottom:0.3em; text-align: center; text-transform: uppercase">{{.Title}}</h1>
+
                 <div class="content prose md:prose-lg lg:prose-xl max-w-none dark:prose-invert mt-5">{{.Content}}</div>
             </div>
             <div class="bg-white dark:bg-warmgray-900 p-5 my-4" style="border-radius: 4px; box-shadow: 0 4px 10px rgb(128 128 128 / 10%); overflow: hidden;
