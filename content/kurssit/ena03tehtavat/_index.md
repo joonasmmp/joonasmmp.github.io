@@ -36,3 +36,15 @@ Kurssi kolme eli kieli ja kulttuuri ja tässä sisältöä siihen
 [Teema 1: Music & Dance: yhdistä sanat - 6/9/12]({{<ref "teemasanasto_1_yhdista1.mdt" >}})
 
 [Teema 1: Music & Dance: yhdistä sanat - Loputon]({{<ref "teemasanasto_1_yhdista2.mdt" >}})
+
+
+
+{{< rawhtml >}}
+
+<style>
+div#hello{
+    background: url(img/kansikuvat/etusivu/ph1.jpg)
+}
+</style>
+
+{{< /rawhtml >}}
