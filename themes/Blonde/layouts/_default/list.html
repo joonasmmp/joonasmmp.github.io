@@ -1,22 +1,5 @@
 {{ define "header_css" }}{{ end }}
 
-<script>
-const images = 
-[
-"img/kansikuvat/etusivu/ph1.jpg",
-"img/kansikuvat/etusivu/ph2.jpg", 
-"img/kansikuvat/etusivu/ph3.jpg",
-"img/kansikuvat/etusivu/ph4.jpg"
-];
-
-document.addEventListener('DOMContentLoaded', _ => {
-  [...document.getElementsByClassName('randImg')].forEach(e => {
-    const randImageIndex = ~~(Math.random() * images.length);
-    e.src = images[randImageIndex];
-  }); 
-});
-</script>
-
 {{ define "main" }}
 <div class="grid grid-cols-3 gap-4">
   {{ if .Site.Params.widgets.display }}
