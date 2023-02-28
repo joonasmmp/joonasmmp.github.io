@@ -43,7 +43,7 @@ Kurssi kolme eli kieli ja kulttuuri ja tässä sisältöä siihen
 
 <style>
 .div#hello{
-    background: url(img/kansikuvat/etusivu/ph1.jpg)
+    background: url(/img/kansikuvat/etusivu/ph1.jpg)
 }
 </style>
 
