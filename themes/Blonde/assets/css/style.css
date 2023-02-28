@@ -1081,14 +1081,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 14rem;
 }
 
-.md\:h-48 {
-  height: 12rem;
-}
-
-.lg\:h-52 {
-  height: 14rem;
-}
-
 .h-8 {
   height: 2rem;
 }
@@ -1710,6 +1702,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 1em;
   }
 
+  .md\:h-48 {
+    height: 12rem;
+  }
+
   .md\:prose-lg :where(code):not(:where([class~="not-prose"] *)) {
     font-size: 0.8888889em;
   }
@@ -1964,6 +1960,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 1.3333333em;
     padding-bottom: 1.1111111em;
     padding-left: 1.3333333em;
+  }
+  
+  .lg\:h-52 {
+  height: 14rem;
   }
 
   .lg\:prose-xl :where(ol):not(:where([class~="not-prose"] *)) {
