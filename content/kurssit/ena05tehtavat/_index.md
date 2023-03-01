@@ -89,3 +89,11 @@ Kun olet opiskellut taulukot, voit siirtyä tehtävien pariin
 [9. Valitse oikea etuliite]({{<ref "etuliitteet_kirjoita8.mdt" >}}) 
 
 [10. Valitse oikea etuliite]({{<ref "etuliitteet_kirjoita9.mdt" >}}) 
+
+{{< rawhtml >}}
+<style>
+#hello{
+    background: url(/img/kansikuvat/kurssivalikot/ena4.jpg)
+}
+</style>
+{{< /rawhtml >}}
