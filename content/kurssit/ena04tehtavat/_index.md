@@ -79,5 +79,9 @@ Ohjeet kantaaottavaan yleisönosastokirjeeseen (sitten joskus)
 #hello{
     background: url(/img/kansikuvat/kurssivalikot/ena4.jpg)
 }
+
+#hello h {
+    font-size: 2.5em!important;
+}
 </style>
 {{< /rawhtml >}}
