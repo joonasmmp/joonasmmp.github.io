@@ -3,7 +3,7 @@ title: "ENA6 - Jatko-opinnot & työelämä"
 date: 2021-04-26
 draft: false
 type: page
-layout: ohje
+layout: tehtavavalikko
 ---
 Jatko-opintoja ja työelämää ja sellasta hei 
 
