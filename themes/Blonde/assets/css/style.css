@@ -1859,6 +1859,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:flex-row {
     flex-direction: row;
   }
+
+  .md\:mt-4 {
+  margin-top: 1em;;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -2139,6 +2143,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:ml-2 {
     margin-left: 0.5rem;
   }
+
+  .lg\:mt-4 {
+    margin-top: 1em;;
+    }
 
   .dark .dark\:border-black {
     border: 1px solid #000000;
