@@ -2,8 +2,17 @@
 title: "ENA8 - Puhe ja viestintä vai mikä olikaan"
 date: 2021-04-26
 draft: false
-type: tehtavavalikko
-layout: tehtavavalikkosivu
+type: page
+layout: tehtavavalikko
 ---
 
-Alla löydät tehtäviä ENA0x-kurssille
+Alla löydät tehtäviä ENA08-kurssille. Tai no et löydä kun ei oo mitään hehehe.
+
+
+{{< rawhtml >}}
+<style>
+#hello{
+    background: url(/img/kansikuvat/kurssivalikot/ena8.jpg)
+}
+</style>
+{{< /rawhtml >}}
