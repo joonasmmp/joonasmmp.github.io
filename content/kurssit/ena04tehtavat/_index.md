@@ -73,3 +73,11 @@ Some, no, every, jne. Paljon pieniä sääntöjä!
 ### A Letter to the Editor
 
 Ohjeet kantaaottavaan yleisönosastokirjeeseen (sitten joskus)
+
+{{< rawhtml >}}
+<style>
+#hello{
+    background: url(/img/kansikuvat/kurssivalikot/ena4.jpg)
+}
+</style>
+{{< /rawhtml >}}
