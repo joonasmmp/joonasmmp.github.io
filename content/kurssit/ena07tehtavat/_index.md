@@ -25,5 +25,9 @@ layout: tehtavavalikko
 #hello{
     background: url(/img/kansikuvat/kurssivalikot/ena7.jpg)
 }
+
+#hello.h{
+    font-size: 2.5em;
+}
 </style>
 {{< /rawhtml >}}
