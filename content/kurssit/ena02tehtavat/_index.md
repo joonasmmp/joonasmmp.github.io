@@ -1,5 +1,5 @@
 ---
-title: "ENA2 - Globaali kieli"
+title: "ENA2 - Englanti globaalina kielenä"
 date: 2021-04-26
 draft: false
 type: page
