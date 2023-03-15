@@ -53,23 +53,36 @@ Olin jo aiemmin vähän tutustunut [Stable Diffusioniin](https://stability.ai/bl
 
 Ensiksi päätin vetää ihan vaan käytävältä ottamani kuvan Stable Diffusionin läpi. Tarkoituksena oli saada näyttämään kuva konseptitaiteelta (concept art, en tiedä onko konseptitaide edes oikea suomen kielen sana), mutta siinä onnistumatta. Ehkä pitää vielä värkätä. Päädyin käyttämään [Anything v3](https://huggingface.co/Linaqruf/anything-v3.0)-mallia, koska sillä sai edes jotain tuloksia. Anything v3 on siis tämän hetken suosituin malli animekuvien luomiseen, ja tästä syystä moneen kuvaan ilmestyikin animetyttöjä koulupuvussa. No, käytävältä otettu kuva näyttää tältä:
 
-xxxx
+![](/img/kansikuvat/etusivu/ph1.jpg)
 
-Lisäksi päätin tehdä jokaisella kurssille oman taustakuvan, sillä otsikot oli rumia. Jokaisen kuvan piti jollain tapaa kuvastaa kurssin teemoja, ja olla niin yksinkertainen ja konseptitaidemainen että se toimii taustakuvana. Tähän käytin myös Anything V3, koska tuloksena oli juuri tuo aiemmin mainitsemani tyyli. Tähän käytin myös itse ottamieni kuvien sijasta text2img-toimintoa, jolla tulokset ovat ehdottomasti parempia kuin img2imgilla. 
+Tietyt arkkitehtuuriset yksityiskohdat, esimerkiksi tuo kaide tuossa ja ikkunat vasemmalla pysyvät samana, mutta esimerkiksi käytävän pääty on hyvin erilainen. 
 
-Ensin oli vuorossa ENA3, aiheena taide, kuten kuvataide ja kirjallisuus. Laitoin siis promptiksi library ja tulos oli tämä: 
+Toiseksi kuvaksi valitsin ottamani kuvan valmiista ylioppilaskirjoitussalista. Tämä tuotti ongelmia, sillä suorakulmaisten pöytien takia kuvassa on paljon suoria viivoja, jotka tekoäly väänsi mutkalle. Lisäksi taustan peili tuotti ongelmia. Jos antoi tekoälylle liikaa valtaa, muuttuivat seinät (koska luuli peiliä ikkunaksi) lasiseiniksi paljastaen kauniin vihreän kaupunkimaiseman. Ei sekään huono, mutta päädyin silti tulokseen, jossa tila pysyy tunnistettavissa. 
 
+![](/img/kansikuvat/etusivu/ph2.jpg)
+
+Kuvat kolme ja neljä ovat ainakin tällä hetkellä kuvia koulurakennuksen takaosasta. Jotta tulisi hieman vaihtelua, käytin hieman eri prompteja, toisessa brick building, sunshine, ja mitä lie, saaden tulokseksi keväisen kuvan, ja jälkimmäisessä brick building partly covered in snow, heavy snowfall. Kuvat alla.
+
+![](/img/kansikuvat/etusivu/ph3.jpg)
+
+![](/img/kansikuvat/etusivu/ph4.jpg)
+
+Yksi vaihtoehtohan olisi luoda samasta kuvista eri vuodenaikoihin ja juhlapyhiin liittyvät versiot, jotka sitten päivämäärän mukaan vaihtuisivat jouluisiksi, kesäisiksi, jne. Juhannuskokko palamaan parkkipaikalle, tosin en ymmärrä miksi kukaan tällä sivulla juhannuksena kävisi. Nyt kun kirjoitan tätä tekstiä samalla kuin ajattelen niin itse asiassa voisin kokeilla tuota vaihtoehtoa. Ehkä myöhemmin teen nuo vaihdokset ja toteutan tämän idean.
+
+Lisäksi päätin tehdä jokaiselle kurssille oman taustakuvan, sillä otsikot oli rumia. Jokaisen kuvan piti jollain tapaa kuvastaa kurssin teemoja, ja olla niin yksinkertainen ja konseptitaidemainen että se toimii taustakuvana. Tähän käytin myös Anything V3-mallia, koska tuloksena oli juuri tuo aiemmin mainitsemani tyyli. Näihin kuviin käytin itse ottamieni kuvien sijasta txt2img-toimintoa, jolla tulokset ovat ehdottomasti parempia kuin img2imgilla. 
+
+Ensin oli vuorossa ENA3, aiheena taide, kuten kuvataide ja kirjallisuus. Laitoin siis promptiksi library ja useasta tuloksesta päädyin tähän lopputulokseen:
 ![](/img/kansikuvat/kurssivalikot/ena3.jpg)
 
-ENA4 aiheena oli yhteiskunta ja vaikuttaminen, joten eri promptien jälkeen päädyin ihan vaan parliament hall. Kokeilin myös ovaalimallisia kuten Suomessa, mutta tulos ei ollut hyvä, varsinkin kun pitää cropata n. 900x200 pikseliin.
+ENA4 aiheena oli yhteiskunta ja vaikuttaminen, joten eri promptien jälkeen päädyin ihan vaan parliament hall, koska politiikka ja väittely on yksi kurssin aihepiireistä. Kokeilin myös ovaalimallisia salia, kuten Suomessa, mutta tulos ei ollut hyvä, varsinkin kun pitää cropata n. 900x200 pikseliin. Lopputulos muistuttaa vähän Iso-Britannian parlamentin salia, tosin vihreät penkit puuttuu. 
 
 ![](/img/kansikuvat/kurssivalikot/ena4.jpg)
 
-ENA5 aiheena on tiede, joten promptiksi science lab with lab equipment and colourful vials. 
+ENA5 aiheena on tiede, joten promptiksi science lab with lab equipment and colourful vials. Tähän oli itseasiassa monta lopputulosta, jotka olisin mielelläni kelpuuttanut, mutta päädyin tähän alla olevaan:
 
 ![](/img/kansikuvat/kurssivalikot/ena5.jpg)
 
-ENA6, aiheena jatko-opinnot ja työelämä. Promptina university lecture hall.
+ENA6, aiheena jatko-opinnot ja työelämä. Promptina university lecture hall. Isompikin olisi käynyt, mutta piti saada mahtumaan pieneen kuvaan. 
 
 ![](/img/kansikuvat/kurssivalikot/ena6.jpg)
 
