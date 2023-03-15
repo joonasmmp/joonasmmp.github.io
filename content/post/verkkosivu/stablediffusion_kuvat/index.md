@@ -72,6 +72,7 @@ Yksi vaihtoehtohan olisi luoda samasta kuvista eri vuodenaikoihin ja juhlapyhiin
 Lisäksi päätin tehdä jokaiselle kurssille oman taustakuvan, sillä otsikot oli rumia. Jokaisen kuvan piti jollain tapaa kuvastaa kurssin teemoja, ja olla niin yksinkertainen ja konseptitaidemainen että se toimii taustakuvana. Tähän käytin myös Anything V3-mallia, koska tuloksena oli juuri tuo aiemmin mainitsemani tyyli. Näihin kuviin käytin itse ottamieni kuvien sijasta txt2img-toimintoa, jolla tulokset ovat ehdottomasti parempia kuin img2imgilla. 
 
 Ensin oli vuorossa ENA3, aiheena taide, kuten kuvataide ja kirjallisuus. Laitoin siis promptiksi library ja useasta tuloksesta päädyin tähän lopputulokseen:
+
 ![](/img/kansikuvat/kurssivalikot/ena3.jpg)
 
 ENA4 aiheena oli yhteiskunta ja vaikuttaminen, joten eri promptien jälkeen päädyin ihan vaan parliament hall, koska politiikka ja väittely on yksi kurssin aihepiireistä. Kokeilin myös ovaalimallisia salia, kuten Suomessa, mutta tulos ei ollut hyvä, varsinkin kun pitää cropata n. 900x200 pikseliin. Lopputulos muistuttaa vähän Iso-Britannian parlamentin salia, tosin vihreät penkit puuttuu. 
