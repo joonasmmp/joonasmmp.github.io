@@ -1,6 +1,6 @@
 +++
 author = "PJMM"
-title = "Case paritustehtävä"
+title = "Sivun kuvitus tekoälyn avulla"
 date = "2023-03-15"
 type = "post"
 tags = [
