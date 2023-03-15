@@ -2,7 +2,7 @@
 <div class="bg-white panel pb-5 dark:bg-warmgray-900">
     <p class="text-xl text-center text-gray-700 py-5 dark:text-gray-300">Aihealueet</p>
     {{ range $key, $value := .Site.Taxonomies.categories }}
-    <a class="text-center block duration-100 py-2 px-4 mx-4 hover:bg-gray-100 text-gray-800 dark:text-gray-200 dark:hover:bg-warmgray-800"
+    <a class="text-center block duration-100 py-2 px-4 mx-4 hover:bg-gray-100 hover:text-blue-500 text-gray-800 dark:text-gray-200 dark:hover:bg-warmgray-800"
         href="{{ $.Site.BaseURL }}/categories/{{ $key | urlize  }}">{{ $key | humanize }}</a>
 
     {{ end }}
