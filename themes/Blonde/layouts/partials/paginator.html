@@ -13,10 +13,10 @@
 
         {{ range $pag.Pagers }}
             {{ if eq . $pag }} <!-- Current Page -->
-            <li class="page-item active"><a href="{{ .URL }}" class="mx-2 py-3 px-5 rounded-full relative block border-white border-0 duration-100 bg-blue-600 border-blue-600 text-white hover:border-blue-700 dark:border-gray-600">{{ .PageNumber }}</a></li>
+            <li class="page-item active"><a href="{{ .URL }}" class="mx-2 py-3 px-5 rounded-full relative block border-white border-0 duration-100 border-blue-600 text-white hover:border-blue-700 dark:border-gray-600" style="background-color:#1F2937">{{ .PageNumber }}</a></li>
             {{ else if and (ge .PageNumber (sub $pag.PageNumber 2)) (le .PageNumber (add $pag.PageNumber 2)) }}
             {{ $.Scratch.Set "dot_rendered" false }} <!-- Render prev 2 page and next 2 pages -->
-            <li class="page-item"><a href="{{ .URL }}" class="mx-2 py-3 px-5 rounded-full relative block border-white border-0 duration-100 bg-white text-blue-600 hover:bg-gray-400 hover:text-blue-700 dark:bg-warmgray-900 dark:border-gray-600 dark:hover:bg-warmgray-700">{{ .PageNumber }}</a></li>
+            <li class="page-item"><a href="{{ .URL }}" class="mx-2 py-3 px-5 rounded-full relative block border-white border-0 duration-100 bg-white text-black dark:text-white hover:bg-gray-400 hover:text-blue-700 dark:bg-warmgray-900 dark:border-gray-600 dark:hover:bg-warmgray-700">{{ .PageNumber }}</a></li>
             {{ else if eq ($.Scratch.Get "dot_rendered") false }} <!-- render skip pages -->
             {{ $.Scratch.Set "dot_rendered" true }}
             <li class="page-item disabled"><a class="mx-2 py-3 px-5 rounded-full relative block border-white border-0 cursor-auto pointer-events-none">...</a></li>
