@@ -1,7 +1,7 @@
 +++
 author = "PJMM"
 title = "YO Kevät 2023 - Englanti (pitkä)"
-date = "2023-3-24"
+date = "2023-3-27"
 type = "post"
 tags = [
     "yo-kokeet",
@@ -65,4 +65,4 @@ Kohdassa 11.5 tuotti ongelmaa tuo pathway to success. HVP:n mukaan vastauksena o
 
 ## Kirjoitelmat
 
-TBA kun ehdin
+TBA
