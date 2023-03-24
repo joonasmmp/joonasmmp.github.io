@@ -65,4 +65,4 @@ Kohdassa 11.5 tuotti ongelmaa tuo pathway to success. HVP:n mukaan vastauksena o
 
 ## Kirjoitelmat
 
-TBA
+TBA kun ehdin
