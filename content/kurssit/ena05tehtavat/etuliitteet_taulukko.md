@@ -51,7 +51,7 @@ layout: ohje
 |  hyper-  |  hypersensitive  |  yliherkkä  | yli |
 |  hypo-  |  hypothermia  |  vajaalämpöisyys  | ali |
 |  mega-  |  megacelebrity  |  suurjulkkis  | iso |
-|  micro-  |  microscopical  |  pienen pieni,  | pieni (kreikka)  |
+|  micro-  |  microscopical  |  pienen pieni  | pieni (kreikka)  |
 |  mill-  |  millennium  |  vuosituhat  | tuhat |
 |  mini-  |  minibreak  |  pikkuloma  | pieni (latina) |
 |  mono-  |  monopoly  |  yksinoikeus  | yksi |
