@@ -1,7 +1,7 @@
 +++
 author = "PJMM"
 title = "A-Englannin ylioppilaskokeiden (pitkä) pisterajat"
-date = "2023-03-2"
+date = "2023-03-20"
 type = "post"
 tags = [
     "yo-kokeet",
