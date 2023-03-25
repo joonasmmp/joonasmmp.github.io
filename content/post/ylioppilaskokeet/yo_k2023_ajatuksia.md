@@ -26,7 +26,7 @@ Kohta 1.5 oli kuulemma kokeen haastavin kohta. Tehtävästä 5 tuli taas palaute
 
 Tehtävässä 2.1 ei ollut niinkään ongelmia. AInoat ongelmat liitty siihen, että moni lähti kääntämään tuota loppuosaa "maximise your value", jolloin tultiin pisteeseen jossa puhuttiin arvoista eikä arvosta. Tehtävä on myös malliesimerkki lukusanoista: siinä mainittiin veroprosentti 20%, mutta osalla vastaajista oli jokin muu. Täydet pisteet sai jättämällä prosenttiarvo kokonaan pois vastauksesta.
 
-Tehtävässä 2.2 ei myöskään ollut isoja ongelmia. Osa kuitenkin jätti tarkentamatta vastaustaan ja puhui erinäisistä luovista töistä, joita vastavalmistuneet voisivat tehdä. Punainen lanka oli juurikin nuorisotyöttömyyden iso määrä ja yritysten huonojen nettisivujen iso määrä, jotka haluttiin ratkaista yhdellä laastarilla. Tästä syystä vastauksessa vaadittiin nimenomaan se nettisivujen suunnittelu. 
+Tehtävässä 2.2 ongelmana oli se, että punainen lanka unohtui. Osa kuitenkin tarkentamatta vastaustaan ja puhui erinäisistä luovista töistä, joita vastavalmistuneet voisivat tehdä. Punainen lanka oli juurikin nuorisotyöttömyyden iso määrä ja yritysten huonojen nettisivujen iso määrä, jotka haluttiin ratkaista yhdellä laastarilla. Tästä syystä vastauksessa vaadittiin nimenomaan se nettisivujen suunnittelu sekä se, että kohteena oli (pien)yritykset. 
 
 Tehtävässä 2.3 ainut ongelma oli taustalla soiva poliisiauton sireeni. Juuri tällaisia efektejä luodaan taustalle, että keskittyminen herpaantuu. Nämähän ovat erinomainen esimerkki siitä miten kieli toimii autenttisessa ympäristössä. Ainakin omat kokemukseni Lontoosta oli sireenien täyttämä. Eivät tosin olleet minun perässä. 
 
@@ -62,7 +62,3 @@ Google antaa selityksenä, että underserved people/communities meinaa seuraavaa
 Eli kyseessä on huono-osaiset yhteisöt. Vähäosaiset. HVP:n mukaan kyse on köyhistä oloista tulevat. Monta eri käännöstä, mutta tuo sana on se punainen lanka, jonka valitettavan moni päätti täysin ohittaa. Punaisena lankana oli myös se, että kirjailijat EDUSTAVAT vähäosaisia lapsia, ja joihin lapset voivat SAMAISTUA. Ei, että kirjat kertoisivat heistä. 
 
 Kohdassa 11.5 tuotti ongelmaa tuo pathway to success. HVP:n mukaan vastauksena oli, etä lapset näkisivät menestyksen olevan mahdollista. Itse mahdollisuudesta ei tekstissä puhuttu, ainoastaan tiestä menestykseen. Tämä ei ihan käänny suoraan suomeksi, sillä suomeksi voidaan sanoa vaikka että koulutus on tie menestykseen. Englanniksi tässä on varmasti ajateltu sitä, että nähdään se vertauskuvallinen tie menestykseen, kun nähdään huono-osainen ihminen menestyneenä. Moni sanamuoto tuossa toimi vedenjakajana, sensorit lopulta päättää onko niistä mikään oikein.
-
-## Kirjoitelmat
-
-TBA asdasd
