@@ -28,7 +28,7 @@ Lähde: [Ylioppilastutkinto.fi](https://www.ylioppilastutkinto.fi/images/sivusto
 {{< rawhtml >}}
 <style>
 
-table {
+.content table {
     overflow: auto;
 }
 
