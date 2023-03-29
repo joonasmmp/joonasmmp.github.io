@@ -53,84 +53,55 @@ layout: tehtava
 
 <p>Rearrange the jumbled letters and create words related to culture. Take the first letter of each word to create the name of the Tube station.</p>
 
-<p>1. Ogry Hybia <input type="text" style="display:unset"> - A detailed description of a person's life.</p>
-<p>2. Ric Lys <input type="text" style="display:unset"> - Words that make up a song.</p>
-<p>3. Thor Au <input type="text" style="display:unset"> - Someone who writes books for a living.</p>
-<p>4. Acrach Ter <input type="text" style="display:unset"> - A person represented in a movie, play, or story.</p>
-<p>5. Body Kear <input type="text" style="display:unset"> - A set of keys on a piano or similar musical instrument.</p>
-<p>6. Fate Goo <input type="text" style="display:unset"> - Film or videotape that shows a single event or place.</p>
-<p>7. Eve Riw <input type="text" style="display:unset"> - A critical article or report.</p>
-<p>8. Rose Pimvi <input type="text" style="display:unset"> - To create and perform without preparation.</p>
-<p>9. Idiot Nau <input type="text" style="display:unset"> - A trial hearing given to a singer, actor, or other performer to test suitability for employment.</p>
-<p>10. H.R.Thym <input type="text" style="display:unset"> - Patterns of sound in time.</p>
-<p>11. Bit Less Ut <input type="text" style="display:unset"> - A printed translation of the words of a film that are shown at the bottom of the picture.</p>
+<p>1. Ogry Hybia <input type="text" style="display:unset"/> - A detailed description of a person's life.</p>
+<p>2. Ric Lys <input type="text" style="display:unset"/> - Words that make up a song.</p>
+<p>3. Thor Au <input type="text" style="display:unset"/> - Someone who writes books for a living.</p>
+<p>4. Acrach Ter <input type="text" style="display:unset"/> - A person represented in a movie, play, or story.</p>
+<p>5. Body Kear <input type="text" style="display:unset"/> - A set of keys on a piano or similar musical instrument.</p>
+<p>6. Fate Goo <input type="text" style="display:unset"/> - Film or videotape that shows a single event or place.</p>
+<p>7. Eve Riw <input type="text" style="display:unset"/> - A critical article or report.</p>
+<p>8. Rose Pimvi <input type="text" style="display:unset"/> - To create and perform without preparation.</p>
+<p>9. Idiot Nau <input type="text" style="display:unset"/> - A trial hearing given to a singer, actor, or other performer to test suitability for employment.</p>
+<p>10. H.R.Thym <input type="text" style="display:unset"/> - Patterns of sound in time.</p>
+<p>11. Bit Less Ut <input type="text" style="display:unset"/> - A printed translation of the words of a film that are shown at the bottom of the picture.</p>
 
 <p> The tube station = <input type="text" style="display:unset!important" name="answer3"/></p> </div>
 
 <div id="ques4" class="ques">
 <h2>Task 4</h2>
-<p>You go to the desk and find the stack of formulae. On top of them you find instructions to open the desk drawer.</p>
-<p>Choose the correct verb form to complete the sentences. The password to open the desk drawer is formed from the letters and numbers at the end of each correct verb form.</p>
+<p>The following day you go to the tourist information office to find out where this monument is. Report to your friends what was said in the office.</p>
 
-<p>1. Don’t be afraid of <select>
-  <option style="display:none">
-  <option>take F</option>
-  <option>taking R</option>
-  <option>to take T</option>
-</select>
- challenges.</p>
-<p>2. In life, you are made <select>
-  <option style="display:none">
-  <option>to solve 2</option>
-  <option>solving 3</option>
-  <option>solve 5</option>
-</select>
- many problems.</p>
-<p>3. Why don’t you let me  <select>
-  <option style="display:none">
-  <option>to help C</option>
-  <option>helping G</option>
-  <option>help D</option>
-</select>
- you with the code?</p>
-<p>4. You had better <select>
-  <option style="display:none">
-  <option>look 2</option>
-  <option>looking 6</option>
-  <option>to look 4</option>
-</select>
- at the sentences carefully.</p>
-<p>5. I want <select>
-  <option style="display:none">
-  <option>you go B</option>
-  <option>you to go C</option>
-  <option>you going Z</option>
-</select>
-through all the alternatives.</p>
-<p>6. We all enjoy <select>
-  <option style="display:none">
-  <option>to study 7</option>
-  <option>studying 3</option>
-  <option>study 9</option>
-</select>
- many kinds of things, don’t we?</p>
-<p>7. Are you looking forward to <select>
-  <option style="display:none">
-  <option>have found L</option>
-  <option>finding P</option>
-  <option>find H</option>
-</select>
- the next clue?</p>
-<p>8. Why not <select>
-  <option style="display:none">
-  <option>opening M</option>
-  <option>open O</option>
-  <option>to open Q</option>
-</select>
- the drawer right now?</p>
+<p>Choose the correct answer.</p>
 
+<p>1. I asked the clerk…<select>
+  <option style="display:none">
+  <option>where Shakespeare’s memorial monument is/was. <b>F</b>/option>
+  <option>where is Shakespeare’s memorial monument. <b>E</b></option>
+</select></p>
+<p>2. Then I asked him… <select>
+  <option style="display:none">
+  <option>was it free for visitors F</option>
+  <option>if it was/is free for visitors. B</option>
+</select></p>
+<p>3. I also asked him… <select>
+  <option style="display:none">
+  <option>if we could book the tickets there. B</option>
+  <option>could we book the tickets here? D</option>
+</select></p>
+<p>4. The clerk told me...<select>
+  <option style="display:none">
+  <option>to take the District Line to Westminster. E</option>
+  <option>that we took the District Line to Westminster. I</option>
+</select></p>
+<p>5. Then he said that...<select>
+  <option style="display:none">
+  <option>I hadn’t been allowed to photograph the monument. A</option>
+  <option>I wasn’t allowed to photograph the monument. Y</option>
+</select>/p>
 
-   <input type="text" name="answer4"/>
+<p> Finish the following sentence by writing down the letters you got when choosing the answer you think is correct.</p> 
+
+<p>The monument is in Westminster <input type="text" style="display:unset"/>, which is a  <input type="text" name="answer4" style="display:unset"></p>
 </div>
 
 <div id="ques5" class="ques">
@@ -331,7 +302,7 @@ var answers = [
   ["london"],
   ["hamlet"],
   ["blackfriars"],
-  ["r2d2c3po"],
+  ["church"],
   ["copernicus"],
   ["1473"],
   ["trench"],
