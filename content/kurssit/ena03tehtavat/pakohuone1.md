@@ -80,23 +80,23 @@ layout: tehtava
 </select></p>
 <p>2. Then I asked him… <select>
   <option style="display:none">
-  <option>was it free for visitors F</option>
-  <option>if it was/is free for visitors. B</option>
+  <option>was it free for visitors <b>F</b></option>
+  <option>if it was/is free for visitors. <b>B</b></option>
 </select></p>
 <p>3. I also asked him… <select>
   <option style="display:none">
-  <option>if we could book the tickets there. B</option>
-  <option>could we book the tickets here? D</option>
+  <option>if we could book the tickets there. <b>B</b></option>
+  <option>could we book the tickets here? <b>D</b></option>
 </select></p>
 <p>4. The clerk told me...<select>
   <option style="display:none">
-  <option>to take the District Line to Westminster. E</option>
-  <option>that we took the District Line to Westminster. I</option>
+  <option>to take the District Line to Westminster. <b>E</b></option>
+  <option>that we took the District Line to Westminster. <b>I</b></option>
 </select></p>
 <p>5. Then he said that...<select>
   <option style="display:none">
-  <option>I hadn’t been allowed to photograph the monument. A</option>
-  <option>I wasn’t allowed to photograph the monument. Y</option>
+  <option>I hadn’t been allowed to photograph the monument. <b>A</b></option>
+  <option>I wasn’t allowed to photograph the monument. <b>Y</b</option>
 </select>/p>
 
 <p> Finish the following sentence by writing down the letters you got when choosing the answer you think is correct.</p> 
