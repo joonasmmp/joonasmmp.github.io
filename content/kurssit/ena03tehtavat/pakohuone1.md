@@ -53,37 +53,37 @@ layout: tehtava
 
 <p>Rearrange the jumbled letters and create words related to culture. Take the first letter of each word to create the name of the Tube station.</p>
 
-<p> 1. Ogry Hybia <input type="text"><p>
-<p> A detailed description of a person's life.</p>
+<p> 1. Ogry Hybia <input type="text" style="display:unset">
+ A detailed description of a person's life.</p>
 
-<p> 2. Ric Lys <input type="text"></p>
+<p> 2. Ric Lys <input type="text" style="display:unset"><p>
 <p>Words that make up a song.</p>
 
-<p>3. Thor Au <input type="text"></p> 
+<p>3. Thor Au <input type="text" style="display:unset"><p> 
 <p>Someone who writes books for a living.</p>
 
-<p>4. Acrach Ter <input type="text"></p> 
+<p>4. Acrach Ter <input type="text" style="display:unset"><p> 
 <p>A person represented in a movie, play, or story.</p>
 
-<p>5. Body Kear <input type="text"></p> 
+<p>5. Body Kear <input type="text" style="display:unset"><p> 
 <p>A set of keys on a piano or similar musical instrument.</p>
 
-<p>6. Fate Goo <input type="text"></p> 
+<p>6. Fate Goo <input type="text" style="display:unset"><p> 
 <p>Film or videotape that shows a single event or place.</p>
 
-<p>7. Eve Riw <input type="text"></p> 
+<p>7. Eve Riw <input type="text" style="display:unset"><p> 
 <p>A critical article or report.</p>
 
-<p>8. Rose Pimvi <input type="text"></p> 
+<p>8. Rose Pimvi <input type="text" style="display:unset"><p> 
 <p>To create and perform without preparation.</p>
 
-<p>9. Idiot Nau <input type="text"></p> 
+<p>9. Idiot Nau <input type="text" style="display:unset"><p> 
 <p>A trial hearing given to a singer, actor, or other performer to test suitability for employment.</p>
 
-<p>10. H.R.Thym <input type="text"></p>
+<p>10. H.R.Thym <input type="text" style="display:unset"><p>
 <p>Patterns of sound in time.</p>
 
-<p>11. Bit Less Ut <input type="text"></p>
+<p>11. Bit Less Ut <input type="text" style="display:unset"><p>
 <p>A printed translation of the words of a film that are shown at the bottom of the picture.</p>
 
 <p> The tube station = <input type="text" name="answer3"/></p>
