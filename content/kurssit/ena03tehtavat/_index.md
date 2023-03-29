@@ -39,6 +39,19 @@ Kurssi kolme eli kieli ja kulttuuri ja tässä sisältöä siihen
 
 [Teema 1: Music & Dance: yhdistä sanat - Loputon]({{<ref "teemasanasto_1_yhdista2.mdt" >}})
 
+[Teema 2: Narratives: yhdistä sanat - 6/9/12]({{<ref "teemasanasto_2_yhdista1.mdt" >}})
+
+[Teema 2: Narratives: yhdistä sanat - Loputon]({{<ref "teemasanasto_2_yhdista2.mdt" >}})
+
+[Teema 3: Films & TV: yhdistä sanat - 6/9/12]({{<ref "teemasanasto_3_yhdista1.mdt" >}})
+
+[Teema 3: Films & TV: yhdistä sanat - Loputon]({{<ref "teemasanasto_3_yhdista2.mdt" >}})
+
+[Teema 4: Visual arts & photography: yhdistä sanat - 6/9/12]({{<ref "teemasanasto_4_yhdista1.mdt" >}})
+
+[Teema 4: Visual arts & photography: yhdistä sanat - Loputon]({{<ref "teemasanasto_4_yhdista2.mdt" >}})
+
+
 
 
 {{< rawhtml >}}
