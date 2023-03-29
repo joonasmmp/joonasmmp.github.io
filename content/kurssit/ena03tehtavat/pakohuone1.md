@@ -53,29 +53,19 @@ layout: tehtava
 
 <p>Rearrange the jumbled letters and create words related to culture. Take the first letter of each word to create the name of the Tube station.</p>
 
-<p> 1. Ogry Hybia <input type="text" style="display:unset"> - A detailed description of a person's life.</p>
-
-<p> 2. Ric Lys <input type="text" style="display:unset"> - Words that make up a song.</p>
-
+<p>1. Ogry Hybia <input type="text" style="display:unset"> - A detailed description of a person's life.</p>
+<p>2. Ric Lys <input type="text" style="display:unset"> - Words that make up a song.</p>
 <p>3. Thor Au <input type="text" style="display:unset"> - Someone who writes books for a living.</p>
-
 <p>4. Acrach Ter <input type="text" style="display:unset"> - A person represented in a movie, play, or story.</p>
-
 <p>5. Body Kear <input type="text" style="display:unset"> - A set of keys on a piano or similar musical instrument.</p>
-
 <p>6. Fate Goo <input type="text" style="display:unset"> - Film or videotape that shows a single event or place.</p>
-
 <p>7. Eve Riw <input type="text" style="display:unset"> - A critical article or report.</p>
-
 <p>8. Rose Pimvi <input type="text" style="display:unset"> - To create and perform without preparation.</p>
-
 <p>9. Idiot Nau <input type="text" style="display:unset"> - A trial hearing given to a singer, actor, or other performer to test suitability for employment.</p>
-
 <p>10. H.R.Thym <input type="text" style="display:unset"> - Patterns of sound in time.</p>
-
 <p>11. Bit Less Ut <input type="text" style="display:unset"> - A printed translation of the words of a film that are shown at the bottom of the picture.</p>
 
-<p> The tube station = <input type="text" style="display:unset" name="answer3"/></p> </div>
+<p> The tube station = <input type="text" style="display:unset!important" name="answer3"/></p> </div>
 
 <div id="ques4" class="ques">
 <h2>Task 4</h2>
