@@ -7,6 +7,8 @@ layout: tehtavavalikko
 ---
 Kurssi kolme eli kieli ja kulttuuri ja tässä sisältöä siihen
 
+[Pakohuone: Elements 3]({{<ref "pakohuone1.mdt" >}})
+
 ## Kielioppi
 ### Laskettavat ja ei-laskettavat substantiivit
 [1. Laskettavat substantiivit: Alkutesti]({{<ref "countable_alkutesti.mdt" >}})
