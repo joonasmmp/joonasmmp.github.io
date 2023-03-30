@@ -106,7 +106,7 @@ layout: tehtava
 
 <p> Finish the following sentence by writing down the letters you got when choosing the answer you think is correct.</p> 
 
-<p>The monument is in Westminster <input type="text" style="display:unset"/>, which is a  <input type="text" name="answer4" style="display:unset"></p>
+<p>The monument is in Westminster _ _ _ _ _ , which is a  <input type="text" name="answer4" style="display:unset"></p>
 </div>
 
 <div id="ques5" class="ques">
@@ -264,7 +264,7 @@ var answers = [
   ["blackfriars"],
   ["church"],
   ["elizabeth", "queen elizabeth", "elizabeth I", "queen elizabeth I"],
-  ["stratford-on-avon", "stratford on avon", "stratford", "where shakespeare was buried", "shakespeare's burial place"],
+  ["stratford-on-avon", "stratford on avon", "stratford", "where shakespeare was buried", "shakespeare's burial place", "the place where shakespeare was buried", "place where shakespeare was buried"],
   ["3"],
 ];
 
@@ -288,8 +288,8 @@ function checkAnswer() {
     if (correct) {
     questionsAsked++; //Increase questionsAsked
     if (questionsAsked >= questionOrder.length) {
-    $("#ques8").empty();
-    $("#ques8").append('<div id="finalMessage">Great success!<br><br>Finally, the door opens and you get out.</div>');
+    $("#ques7").empty();
+    $("#ques7").append('<div id="finalMessage">Great success!<br><br>A door behind the tomb opens, revealing the hidden monument.</div>');
     } else {
       hideAllExcept(questionOrder[questionsAsked]); // Start over at step 2
     }
