@@ -146,7 +146,7 @@ layout: tehtava
 
 <div id="ques7" class="ques">
   <h2>Task 7</h2>
-  <b><p>You finally arrive at Shakespeare’s tomb. On the tomb there is a curse written by the Bard himself. What must you not do at the tomb according to the message? And where do you need to go next?</p></b>
+  <b><p>You finally arrive at Shakespeare’s tomb. On the tomb there is a curse written by the Bard himself. What must you not do at the tomb according to the message?</p></b>
 
 <p>“Good friend for Jesus sake forbeare, To dig the dust enclosed here.</p>
 <p>"Blessed be the man that spares these stones, And cursed be he that moves my bones.”</p>
@@ -288,7 +288,7 @@ function checkAnswer() {
     questionsAsked++; //Increase questionsAsked
     if (questionsAsked >= questionOrder.length) {
     $("#ques7").empty();
-    $("#ques7").append('<div id="finalMessage"><b>Great success!</b><br><br>A door behind the tomb opens, revealing the hidden text. You try to read it, but unfortunately, it is not very good. How disappointing.</div>');
+    $("#ques7").append('<div id="finalMessage"><b>Great success!</b><br><br>You do your best not to disturb his slumber. After a while, a door behind the tomb opens, revealing the hidden text. You try to read it, but unfortunately, it is not very good. How disappointing.</div>');
     } else {
       hideAllExcept(questionOrder[questionsAsked]); // Start over at step 2
     }
