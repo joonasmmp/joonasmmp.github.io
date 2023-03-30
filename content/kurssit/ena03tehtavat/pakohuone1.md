@@ -263,7 +263,7 @@ var answers = [
   ["blackfriars"],
   ["church"],
   ["elizabeth", "queen elizabeth", "elizabeth i", "queen elizabeth i"],
-  ["stratford-upon-avon", "stratford upon avon", "stratford", "where shakespeare was buried", "shakespeare's burial place", "the place where shakespeare was buried", "place where shakespeare was buried"],
+  ["stratford-upon-avon", "stratford upon avon", "stratford", "where shakespeare was buried", "shakespeare's burial place", "the place where shakespeare was buried", "place where shakespeare was buried", "the holy trinity church", "holy trinity church"],
   ["3", "disturb his peace"],
 ];
 
