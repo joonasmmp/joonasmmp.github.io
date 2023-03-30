@@ -54,7 +54,7 @@ layout: tehtava
 
 <p> The tube station = </p>
 
-  <input type="text" name="answer3"/>
+  <input type="text" style="display:unset" name="answer3"/>
 
   <p>Rearrange the jumbled letters and create words related to culture. Take the first letter of each word to create the name of the Tube station.</p>
 
@@ -247,7 +247,6 @@ window.onload = function() {
   questionOrder = [0,1,2,3,4,5,6,7];
     questionsAsked = 0;
     hideAllExcept(questionOrder[questionsAsked]);
-  
 }
 
 // == Used for Task 2: Hides all questions except the given one ==
