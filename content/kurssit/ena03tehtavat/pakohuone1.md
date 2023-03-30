@@ -288,7 +288,7 @@ function checkAnswer() {
     questionsAsked++; //Increase questionsAsked
     if (questionsAsked >= questionOrder.length) {
     $("#ques7").empty();
-    $("#ques7").append('<div id="finalMessage">Great success!<br><br>A door behind the tomb opens, revealing the hidden text. You try to read it, but unfortunately, it is not very good.</div>');
+    $("#ques7").append('<div id="finalMessage"><b>Great success!</b><br><br>A door behind the tomb opens, revealing the hidden text. You try to read it, but unfortunately, it is not very good. How disappointing.</div>');
     } else {
       hideAllExcept(questionOrder[questionsAsked]); // Start over at step 2
     }
