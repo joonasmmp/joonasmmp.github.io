@@ -52,9 +52,9 @@ layout: tehtava
   <h2>Task 3</h2>
   <p>You have arrived in London. Next you need to find out the name of the Tube station closest to the Globe. On the train you created a task for your friends. They need to figure out what the name of the station is by finishing the task.</p>
 
-<p> The tube station = </p>
+<p> The tube station = <input type="text" style="display:unset" name="answer3"/></p>
 
-  <input type="text" style="display:unset" name="answer3"/>
+  
 
   <p>Rearrange the jumbled letters and create words related to culture. Take the first letter of each word to create the name of the Tube station.</p>
 
