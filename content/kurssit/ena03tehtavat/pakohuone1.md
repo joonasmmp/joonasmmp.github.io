@@ -128,7 +128,7 @@ layout: tehtava
 
   <p>2. Built in <input type="text" style="display:unset;width:100px;"/> 1990s, <input type="text" style="display:unset;width:100px;"/> Globe is <input type="text" style="display:unset;width:100px;"/> world-renowned theatre that is located on <input type="text" style="display:unset;width:100px;"/> bank of <input type="text" style="display:unset;width:100px;"/> Thames in <input type="text" style="display:unset; width:100px;"/> UK.</p>
 
-  <p>3. 3. There were <input type="text" style="display:unset;width:100px;"/> several problems in obtaining enough <input type="text" style="display:unset;width:100px;"/> funding for Wanamaker’s <input type="text" style="display:unset;width:100px;"/> ambitious project.</p>
+  <p>3. There were <input type="text" style="display:unset;width:100px;"/> several problems in obtaining enough <input type="text" style="display:unset;width:100px;"/> funding for Wanamaker’s <input type="text" style="display:unset;width:100px;"/> ambitious project.</p>
 
   <p>4. <input type="text" style="display:unset;width:100px;"/> project gained <input type="text" style="display:unset;width:100px;"/> major boost when Sam started campaigning to reconstruct <input type="text" style="display:unset;width:100px;"/> replica of Shakespeare’s <input type="text" style="display:unset;width:100px;"/> original Globe theatre in <input type="text" style="display:unset;width:100px;"/> 1969.</p>
 </div>
