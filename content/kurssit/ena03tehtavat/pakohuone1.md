@@ -126,7 +126,7 @@ layout: tehtava
 
   <p>1. Sam Wanamaker’s <input type="text" style="display:unset;width:100px;"/> idea to reconstruct <input type="text" style="display:unset;width:100px;"/> new Globe Theatre took years to bring to life.</p>
 
-  <p>2. Built in <input type="text" style="display:unset;width:100px;"/> 1990s, <input type="text" style="display:unset;width:100px;"/> Globe is <input type="text" style="display:unset;width:100px;"/> world-renowned theatre that is located on <input type="text" style="display:unset;width:100px;"/> bank of <input type="text" style="display:unset;width:100px;"/> Thames in <input type="text" style="display:unse; width:100px;"/> UK.</p>
+  <p>2. Built in <input type="text" style="display:unset;width:100px;"/> 1990s, <input type="text" style="display:unset;width:100px;"/> Globe is <input type="text" style="display:unset;width:100px;"/> world-renowned theatre that is located on <input type="text" style="display:unset;width:100px;"/> bank of <input type="text" style="display:unset;width:100px;"/> Thames in <input type="text" style="display:unset; width:100px;"/> UK.</p>
 
   <p>3. 3. There were <input type="text" style="display:unset;width:100px;"/> several problems in obtaining enough <input type="text" style="display:unset;width:100px;"/> funding for Wanamaker’s <input type="text" style="display:unset;width:100px;"/> ambitious project.</p>
 
@@ -244,7 +244,7 @@ input#submit {
 <script>
 window.onload = function() {
   var questionCnt = $("div.ques").length;
-  questionOrder = [0,1,2,3,4,5,6,7,8];
+  questionOrder = [0,1,2,3,4,5,6,7];
     questionsAsked = 0;
     hideAllExcept(questionOrder[questionsAsked]);
   
