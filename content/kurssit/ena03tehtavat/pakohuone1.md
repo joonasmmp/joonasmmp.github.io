@@ -26,7 +26,8 @@ layout: tehtava
   <h2>Task 1</h2>
   <p>You hear your friends calling your name and open your eyes. You tell them about Shakespeare’s message. You start looking for the secret compartment, and find a message. You don’t understand anything because it’s only a string of letters. The message must be encrypted.</p>
 
-<p> ACGNOOFGTLPOWQTCXHBUEAECMNIYPTWNYZVWRDHJYEBORMLELTTKPHSQEPBGUMLSWOLZBAOESWIXOSVW. </p>
+<p> ACGNOOFGTLPOWQTCXHBUEAECMNIYPTWNYZVW</p>
+<p>RDHJYEBORMLELTTKPHSQEPBGUMLSWOLZBAOESWIXOSVW</p>
 
 </p> Your friend Ariel has read a story where messages could be decrypted by picking every third letter from a mass of letters, and it works!</p>
 
