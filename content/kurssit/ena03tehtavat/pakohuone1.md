@@ -51,7 +51,11 @@ layout: tehtava
   <h2>Task 3</h2>
   <p>You have arrived in London. Next you need to find out the name of the Tube station closest to the Globe. On the train you created a task for your friends. They need to figure out what the name of the station is by finishing the task.</p>
 
-<p>Rearrange the jumbled letters and create words related to culture. Take the first letter of each word to create the name of the Tube station.</p>
+<p> The tube station = </p>
+
+  <input type="text" name="answer3"/>
+
+  <p>Rearrange the jumbled letters and create words related to culture. Take the first letter of each word to create the name of the Tube station.</p>
 
 <p>1. Ogry Hybia <input type="text" style="display:unset"/> - A detailed description of a person's life.</p>
 <p>2. Ric Lys <input type="text" style="display:unset"/> - Words that make up a song.</p>
@@ -65,9 +69,6 @@ layout: tehtava
 <p>10. H.R.Thym <input type="text" style="display:unset"/> - Patterns of sound in time.</p>
 <p>11. Bit Less Ut <input type="text" style="display:unset"/> - A printed translation of the words of a film that are shown at the bottom of the picture.</p>
 
-<p> The tube station = </p>
-
-<input type="text" name="answer3"/>
 </div>
 
 <div id="ques4" class="ques">
