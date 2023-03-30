@@ -124,13 +124,13 @@ layout: tehtava
   <b><p>The patron’s tomb happens to be in Westminster Abbey and will provide the next clue. But who is the patron? You’ll get the year of the patron’s death by adding the correct number of articles in the following four sentences.</p></b>
 
 
-  <p>1. Sam Wanamaker’s <input type="text" style="display:unset, width:100px;"/> idea to reconstruct <input type="text" style="display:unset, width:100px;"/> new Globe Theatre took years to bring to life.</p>
+  <p>1. Sam Wanamaker’s <input type="text" style="display:unset;width:100px;"/> idea to reconstruct <input type="text" style="display:unset;width:100px;"/> new Globe Theatre took years to bring to life.</p>
 
-  <p>2. Built in <input type="text" style="display:unset, width:100px;"/> 1990s, <input type="text" style="display:unset, width:100px;"/> Globe is <input type="text" style="display:unset, width:100px;"/> world-renowned theatre that is located on <input type="text" style="display:unset, width:100px;"/> bank of <input type="text" style="display:unset, width:100px;"/> Thames in <input type="text" style="display:unset, width:100px;"/> UK.</p>
+  <p>2. Built in <input type="text" style="display:unset;width:100px;"/> 1990s, <input type="text" style="display:unset;width:100px;"/> Globe is <input type="text" style="display:unset;width:100px;"/> world-renowned theatre that is located on <input type="text" style="display:unset;width:100px;"/> bank of <input type="text" style="display:unset;width:100px;"/> Thames in <input type="text" style="display:unse; width:100px;"/> UK.</p>
 
-  <p>3. 3. There were <input type="text" style="display:unset, width:100px;"/> several problems in obtaining enough <input type="text" style="display:unset, width:100px;"/> funding for Wanamaker’s <input type="text" style="display:unset, width:100px;"/> ambitious project.</p>
+  <p>3. 3. There were <input type="text" style="display:unset;width:100px;"/> several problems in obtaining enough <input type="text" style="display:unset;width:100px;"/> funding for Wanamaker’s <input type="text" style="display:unset;width:100px;"/> ambitious project.</p>
 
-  <p>4. <input type="text" style="display:unset, width:100px;"/> project gained <input type="text" style="display:unset, width:100px;"/> major boost when Sam started campaigning to reconstruct <input type="text" style="display:unset, width:100px;"/> replica of Shakespeare’s <input type="text" style="display:unset, width:100px;"/> original Globe theatre in <input type="text" style="display:unset, width:100px;"/> 1969.</p>
+  <p>4. <input type="text" style="display:unset;width:100px;"/> project gained <input type="text" style="display:unset;width:100px;"/> major boost when Sam started campaigning to reconstruct <input type="text" style="display:unset;width:100px;"/> replica of Shakespeare’s <input type="text" style="display:unset;width:100px;"/> original Globe theatre in <input type="text" style="display:unse; width:100px;"/> 1969.</p>
 </div>
 
 <div id="ques6" class="ques">
