@@ -78,31 +78,31 @@ layout: tehtava
 
 <p>Choose the correct answer.</p>
 
-<p>1. I asked the clerk…<select>
+<p>1. I asked the clerk<select>&nbsp;
   <option style="display:none">
-  <option>where Shakespeare’s memorial monument is/was. <b>F</b></option>
+  <option>where Shakespeare’s memorial monument is/was. <b>A</b></option>
   <option>where is Shakespeare’s memorial monument. <b>E</b></option>
 </select></p>
-<p>2. Then I asked him… <select>
+<p>2. Then I asked him<select>&nbsp;
   <option style="display:none">
   <option>was it free for visitors <b>F</b></option>
   <option>if it was/is free for visitors. <b>B</b></option>
 </select></p>
-<p>3. I also asked him… <select>
+<p>3. I also asked him<select>&nbsp;
   <option style="display:none">
   <option>if we could book the tickets there. <b>B</b></option>
   <option>could we book the tickets here? <b>D</b></option>
 </select></p>
-<p>4. The clerk told me...<select>
+<p>4. The clerk told me<select>&nbsp;
   <option style="display:none">
   <option>to take the District Line to Westminster. <b>E</b></option>
   <option>that we took the District Line to Westminster. <b>I</b></option>
 </select></p>
-<p>5. Then he said that...<select>
+<p>5. Then he said that<select>&nbsp;
   <option style="display:none">
   <option>I hadn’t been allowed to photograph the monument. <b>A</b></option>
   <option>I wasn’t allowed to photograph the monument. <b>Y</b</option>
-</select>/p>
+</select></p>
 
 <p> Finish the following sentence by writing down the letters you got when choosing the answer you think is correct.</p> 
 
@@ -112,8 +112,17 @@ layout: tehtava
 <div id="ques5" class="ques">
   <h2>Task 5</h2>
   <b><p>You look at the memorial monument. Shakespeare seems to be pointing at one of his patrons.</p></b>
+  
+  <b><p>Which of the following rulers was Shakespeare’s patron?</p></b>
+  <p>King Henry V, died 1422</p>
+  <p>King Richard III, died 1485</p>
+  <p>Queen Elizabeth I, died 1603</p>
+
+
+<input type="text" name="answer5"/>
 
   <b><p>The patron’s tomb happens to be in Westminster Abbey and will provide the next clue. But who is the patron? You’ll get the year of the patron’s death by adding the correct number of articles in the following four sentences.</p></b>
+
 
   <p>1. Sam Wanamaker’s <input type="text" style="display:unset"/> idea to reconstruct <input type="text" style="display:unset"/> new Globe Theatre took years to bring to life.</p>
 
@@ -122,15 +131,6 @@ layout: tehtava
   <p>3. 3. There were <input type="text" style="display:unset"/> several problems in obtaining enough <input type="text" style="display:unset"/> funding for Wanamaker’s <input type="text" style="display:unset"/> ambitious project.</p>
 
   <p>4. <input type="text" style="display:unset"/> project gained <input type="text" style="display:unset"/> major boost when Sam started campaigning to reconstruct <input type="text" style="display:unset"/> replica of Shakespeare’s <input type="text" style="display:unset"/> original Globe theatre in <input type="text" style="display:unset"/> 1969.</p>
-
-
-  <b><p>Which of the following rulers was Shakespeare’s patron?</p></b>
-  <p>King Henry V, died 1422</p>
-  <p>King Richard III, died 1485</p>
-  <p>Queen Elizabeth I, died 1603</p>
-
-
-<input type="text" name="answer5"/>
 </div>
 
 <div id="ques6" class="ques">
