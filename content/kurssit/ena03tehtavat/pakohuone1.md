@@ -80,7 +80,7 @@ layout: tehtava
 
 <p>1. I asked the clerk…<select>
   <option style="display:none">
-  <option>where Shakespeare’s memorial monument is/was. <b>F</b>/option>
+  <option>where Shakespeare’s memorial monument is/was. <b>F</b></option>
   <option>where is Shakespeare’s memorial monument. <b>E</b></option>
 </select></p>
 <p>2. Then I asked him… <select>
