@@ -263,7 +263,7 @@ var answers = [
   ["hamlet"],
   ["blackfriars"],
   ["church"],
-  ["elizabeth", "queen elizabeth", "elizabeth I", "queen elizabeth I"],
+  ["elizabeth", "queen elizabeth", "elizabeth i", "queen elizabeth i"],
   ["stratford-on-avon", "stratford on avon", "stratford", "where shakespeare was buried", "shakespeare's burial place", "the place where shakespeare was buried", "place where shakespeare was buried"],
   ["3"],
 ];
