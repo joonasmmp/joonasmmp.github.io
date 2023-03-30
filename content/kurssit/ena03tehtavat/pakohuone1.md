@@ -65,7 +65,10 @@ layout: tehtava
 <p>10. H.R.Thym <input type="text" style="display:unset"/> - Patterns of sound in time.</p>
 <p>11. Bit Less Ut <input type="text" style="display:unset"/> - A printed translation of the words of a film that are shown at the bottom of the picture.</p>
 
-<p> The tube station = <input type="text" name="answer3"/></p></div>
+<p> The tube station = </p>
+
+<input type="text" name="answer3"/>
+</div>
 
 <div id="ques4" class="ques">
 <h2>Task 4</h2>
