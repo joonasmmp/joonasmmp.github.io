@@ -130,7 +130,7 @@ layout: tehtava
 
   <p>3. 3. There were <input type="text" style="display:unset;width:100px;"/> several problems in obtaining enough <input type="text" style="display:unset;width:100px;"/> funding for Wanamaker’s <input type="text" style="display:unset;width:100px;"/> ambitious project.</p>
 
-  <p>4. <input type="text" style="display:unset;width:100px;"/> project gained <input type="text" style="display:unset;width:100px;"/> major boost when Sam started campaigning to reconstruct <input type="text" style="display:unset;width:100px;"/> replica of Shakespeare’s <input type="text" style="display:unset;width:100px;"/> original Globe theatre in <input type="text" style="display:unse; width:100px;"/> 1969.</p>
+  <p>4. <input type="text" style="display:unset;width:100px;"/> project gained <input type="text" style="display:unset;width:100px;"/> major boost when Sam started campaigning to reconstruct <input type="text" style="display:unset;width:100px;"/> replica of Shakespeare’s <input type="text" style="display:unset;width:100px;"/> original Globe theatre in <input type="text" style="display:unset;width:100px;"/> 1969.</p>
 </div>
 
 <div id="ques6" class="ques">
