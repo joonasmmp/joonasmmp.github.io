@@ -265,7 +265,7 @@ var answers = [
   ["church"],
   ["elizabeth", "queen elizabeth", "elizabeth i", "queen elizabeth i"],
   ["stratford-upon-avon", "stratford upon avon", "stratford", "where shakespeare was buried", "shakespeare's burial place", "the place where shakespeare was buried", "place where shakespeare was buried"],
-  ["3"],
+  ["3", "disturb his peace"],
 ];
 
 // == Used for Task 4: Triggered by the link, checks an answer ==
@@ -289,7 +289,7 @@ function checkAnswer() {
     questionsAsked++; //Increase questionsAsked
     if (questionsAsked >= questionOrder.length) {
     $("#ques7").empty();
-    $("#ques7").append('<div id="finalMessage">Great success!<br><br>A door behind the tomb opens, revealing the hidden monument.</div>');
+    $("#ques7").append('<div id="finalMessage">Great success!<br><br>A door behind the tomb opens, revealing the hidden text. You try to read it, but unfortunately, it is not very good.</div>');
     } else {
       hideAllExcept(questionOrder[questionsAsked]); // Start over at step 2
     }
