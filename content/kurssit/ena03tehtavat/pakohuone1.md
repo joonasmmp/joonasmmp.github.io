@@ -12,7 +12,7 @@ layout: tehtava
  <form autocomplete="off">
           <div id="ques0" class="ques">
   <h2>Introduction</h2>
-  <p>You and your friends are visiting your relatives in England. They take you to see William Shakespeare’s Birthplace and his childhood home in the heart of Stratford-upon-Avon.</p>
+  <b><p>You and your friends are visiting your relatives in England. They take you to see William Shakespeare’s Birthplace and his childhood home in the heart of Stratford-upon-Avon.</p></b>
 
 <p>On the guided tour you get very sleepy and decide to take a nap on a four-poster bed you spotted in one of the rooms. As soon as you close your eyes you hear a voice calling for help. It’s Mr Shakespeare himself!</p>
 
