@@ -12,7 +12,7 @@ layout: tehtava
  <form autocomplete="off">
           <div id="ques0" class="ques">
   <h2>Introduction</h2>
-  <p>You and your friends are visiting your relatives in England. They take you to see William Shakespeare’s Birthplace and his childhood home in the heart of Stratford-upon-Avon.</p>
+  <b><p>You and your friends are visiting your relatives in England. They take you to see William Shakespeare’s Birthplace and his childhood home in the heart of Stratford-upon-Avon.</p></b>
 
 <p>On the guided tour you get very sleepy and decide to take a nap on a four-poster bed you spotted in one of the rooms. As soon as you close your eyes you hear a voice calling for help. It’s Mr Shakespeare himself!</p>
 
@@ -26,7 +26,8 @@ layout: tehtava
   <h2>Task 1</h2>
   <p>You hear your friends calling your name and open your eyes. You tell them about Shakespeare’s message. You start looking for the secret compartment, and find a message. You don’t understand anything because it’s only a string of letters. The message must be encrypted.</p>
 
-<p> ACGNOOFGTLPOWQTCXHBUEAECMNIYPTWNYZVWRDHJYEBORMLELTTKPHSQEPBGUMLSWOLZBAOESWIXOSVW. </p>
+<p> ACGNOOFGTLPOWQTCXHBUEAECMNIYPTWNYZVW</p>
+<p>RDHJYEBORMLELTTKPHSQEPBGUMLSWOLZBAOESWIXOSVW</p>
 
 </p> Your friend Ariel has read a story where messages could be decrypted by picking every third letter from a mass of letters, and it works!</p>
 
@@ -51,7 +52,11 @@ layout: tehtava
   <h2>Task 3</h2>
   <p>You have arrived in London. Next you need to find out the name of the Tube station closest to the Globe. On the train you created a task for your friends. They need to figure out what the name of the station is by finishing the task.</p>
 
-<p>Rearrange the jumbled letters and create words related to culture. Take the first letter of each word to create the name of the Tube station.</p>
+<p> The tube station = <input type="text" style="display:unset" name="answer3"/></p>
+
+  
+
+  <p>Rearrange the jumbled letters and create words related to culture. Take the first letter of each word to create the name of the Tube station.</p>
 
 <p>1. Ogry Hybia <input type="text" style="display:unset"/> - A detailed description of a person's life.</p>
 <p>2. Ric Lys <input type="text" style="display:unset"/> - Words that make up a song.</p>
@@ -65,7 +70,7 @@ layout: tehtava
 <p>10. H.R.Thym <input type="text" style="display:unset"/> - Patterns of sound in time.</p>
 <p>11. Bit Less Ut <input type="text" style="display:unset"/> - A printed translation of the words of a film that are shown at the bottom of the picture.</p>
 
-<p> The tube station = <input type="text" style="display:unset!important" name="answer3"/></p> </div>
+</div>
 
 <div id="ques4" class="ques">
 <h2>Task 4</h2>
@@ -73,52 +78,41 @@ layout: tehtava
 
 <p>Choose the correct answer.</p>
 
-<p>1. I asked the clerk…<select>
+<p>1. I asked the clerk<select>&nbsp;
   <option style="display:none">
-  <option>where Shakespeare’s memorial monument is/was. <b>F</b>/option>
+  <option>where Shakespeare’s memorial monument is/was. <b>A</b></option>
   <option>where is Shakespeare’s memorial monument. <b>E</b></option>
 </select></p>
-<p>2. Then I asked him… <select>
+<p>2. Then I asked him<select>&nbsp;
   <option style="display:none">
   <option>was it free for visitors <b>F</b></option>
   <option>if it was/is free for visitors. <b>B</b></option>
 </select></p>
-<p>3. I also asked him… <select>
+<p>3. I also asked him<select>&nbsp;
   <option style="display:none">
   <option>if we could book the tickets there. <b>B</b></option>
   <option>could we book the tickets here? <b>D</b></option>
 </select></p>
-<p>4. The clerk told me...<select>
+<p>4. The clerk told me<select>&nbsp;
   <option style="display:none">
   <option>to take the District Line to Westminster. <b>E</b></option>
   <option>that we took the District Line to Westminster. <b>I</b></option>
 </select></p>
-<p>5. Then he said that...<select>
+<p>5. Then he said that<select>&nbsp;
   <option style="display:none">
   <option>I hadn’t been allowed to photograph the monument. <b>A</b></option>
   <option>I wasn’t allowed to photograph the monument. <b>Y</b</option>
-</select>/p>
+</select></p>
 
 <p> Finish the following sentence by writing down the letters you got when choosing the answer you think is correct.</p> 
 
-<p>The monument is in Westminster <input type="text" style="display:unset"/>, which is a  <input type="text" name="answer4" style="display:unset"></p>
+<p>The monument is in Westminster _ _ _ _ _ , which is a  <input type="text" name="answer4" style="display:unset"></p>
 </div>
 
 <div id="ques5" class="ques">
   <h2>Task 5</h2>
   <b><p>You look at the memorial monument. Shakespeare seems to be pointing at one of his patrons.</p></b>
-
-  <b><p>The patron’s tomb happens to be in Westminster Abbey and will provide the next clue. But who is the patron? You’ll get the year of the patron’s death by adding the correct number of articles in the following four sentences.</p></b>
-
-  <p>1. Sam Wanamaker’s <input type="text" style="display:unset"/> idea to reconstruct <input type="text" style="display:unset"/> new Globe Theatre took years to bring to life.</p>
-
-  <p>2. Built in <input type="text" style="display:unset"/> 1990s, <input type="text" style="display:unset"/> Globe is <input type="text" style="display:unset"/> world-renowned theatre that is located on <input type="text" style="display:unset"/> bank of <input type="text" style="display:unset"/> Thames in <input type="text" style="display:unset"/> UK.</p>
-
-  <p>3. 3. There were <input type="text" style="display:unset"/> several problems in obtaining enough <input type="text" style="display:unset"/> funding for Wanamaker’s <input type="text" style="display:unset"/> ambitious project.</p>
-
-  <p>4. <input type="text" style="display:unset"/> project gained <input type="text" style="display:unset"/> major boost when Sam started campaigning to reconstruct <input type="text" style="display:unset"/> replica of Shakespeare’s <input type="text" style="display:unset"/> original Globe theatre in <input type="text" style="display:unset"/> 1969.</p>
-
-
+  
   <b><p>Which of the following rulers was Shakespeare’s patron?</p></b>
   <p>King Henry V, died 1422</p>
   <p>King Richard III, died 1485</p>
@@ -126,6 +120,17 @@ layout: tehtava
 
 
 <input type="text" name="answer5"/>
+
+  <b><p>The patron’s tomb happens to be in Westminster Abbey and will provide the next clue. But who is the patron? You’ll get the year of the patron’s death by adding the correct number of articles in the following four sentences.</p></b>
+
+
+  <p>1. Sam Wanamaker’s <input type="text" style="display:unset;width:100px;"/> idea to reconstruct <input type="text" style="display:unset;width:100px;"/> new Globe Theatre took years to bring to life.</p>
+
+  <p>2. Built in <input type="text" style="display:unset;width:100px;"/> 1990s, <input type="text" style="display:unset;width:100px;"/> Globe is <input type="text" style="display:unset;width:100px;"/> world-renowned theatre that is located on <input type="text" style="display:unset;width:100px;"/> bank of <input type="text" style="display:unset;width:100px;"/> Thames in <input type="text" style="display:unset; width:100px;"/> UK.</p>
+
+  <p>3. There were <input type="text" style="display:unset;width:100px;"/> several problems in obtaining enough <input type="text" style="display:unset;width:100px;"/> funding for Wanamaker’s <input type="text" style="display:unset;width:100px;"/> ambitious project.</p>
+
+  <p>4. <input type="text" style="display:unset;width:100px;"/> project gained <input type="text" style="display:unset;width:100px;"/> major boost when Sam started campaigning to reconstruct <input type="text" style="display:unset;width:100px;"/> replica of Shakespeare’s <input type="text" style="display:unset;width:100px;"/> original Globe theatre in <input type="text" style="display:unset;width:100px;"/> 1969.</p>
 </div>
 
 <div id="ques6" class="ques">
@@ -141,7 +146,7 @@ layout: tehtava
 
 <div id="ques7" class="ques">
   <h2>Task 7</h2>
-  <b><p>You finally arrive at Shakespeare’s tomb. On the tomb there is a curse written by the Bard himself. What must you not do at the tomb according to the message? And where do you need to go next?</p></b>
+  <b><p>You finally arrive at Shakespeare’s tomb. On the tomb there is a curse written by the Bard himself. What must you not do at the tomb according to the message?</p></b>
 
 <p>“Good friend for Jesus sake forbeare, To dig the dust enclosed here.</p>
 <p>"Blessed be the man that spares these stones, And cursed be he that moves my bones.”</p>
@@ -239,10 +244,9 @@ input#submit {
 <script>
 window.onload = function() {
   var questionCnt = $("div.ques").length;
-  questionOrder = [0,1,2,3,4,5,6,7,8];
+  questionOrder = [0,1,2,3,4,5,6,7];
     questionsAsked = 0;
     hideAllExcept(questionOrder[questionsAsked]);
-  
 }
 
 // == Used for Task 2: Hides all questions except the given one ==
@@ -258,9 +262,9 @@ var answers = [
   ["hamlet"],
   ["blackfriars"],
   ["church"],
-  ["elizabeth", "queen elizabeth", "elizabeth I", "queen elizabeth I"],
-  ["stratford-on-avon", "stratford on avon", "stratford", "where shakespeare was buried", "shakespeare's burial place"],
-  ["3"],
+  ["elizabeth", "queen elizabeth", "elizabeth i", "queen elizabeth i"],
+  ["stratford-upon-avon", "stratford upon avon", "stratford", "where shakespeare was buried", "shakespeare's burial place", "the place where shakespeare was buried", "place where shakespeare was buried", "the holy trinity church", "holy trinity church"],
+  ["3", "disturb his peace"],
 ];
 
 // == Used for Task 4: Triggered by the link, checks an answer ==
@@ -283,8 +287,8 @@ function checkAnswer() {
     if (correct) {
     questionsAsked++; //Increase questionsAsked
     if (questionsAsked >= questionOrder.length) {
-    $("#ques8").empty();
-    $("#ques8").append('<div id="finalMessage">Great success!<br><br>Finally, the door opens and you get out.</div>');
+    $("#ques7").empty();
+    $("#ques7").append('<div id="finalMessage"><b>Great success!</b><br><br>You do your best not to disturb his slumber. After a while, a door behind the tomb opens, revealing the hidden text. You try to read it, but unfortunately, it is not very good. How disappointing.</div>');
     } else {
       hideAllExcept(questionOrder[questionsAsked]); // Start over at step 2
     }

@@ -132,7 +132,6 @@ window.onload = function() {
     ],
 
   definitions: [{
-
      index: 0, text: 'näyttelijä'
 }, { index: 1, text: 'sovitus, versiointi, adaptaatio'
 }, { index: 2, text: 'koe-esiintyminen'

@@ -219,6 +219,10 @@
     border: 1px solid #eeeeee;
   }
   
+  div#nappulat {
+    margin-top: 1em;
+  }
+
   #emc-score {
     text-align: center;
     opacity: 0;
