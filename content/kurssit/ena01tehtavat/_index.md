@@ -22,7 +22,7 @@ Perfekti tökkii jos apuverbi on väärin, ja monesti se tuntuu olevan.
 [Verbit: epäsäännölliset verbit: l-r]({{<ref "ena01_epaverbitlr.mdt" >}})
 [Verbit: epäsäännölliset verbit: s-w]({{<ref "ena01_epaverbitsw.mdt" >}})
 [Verbit: epäsäännölliset verbit: kaikki]({{<ref "ena01_epaverbitkaikki.mdt" >}})
-[Täydennä kolmas muoto]({{<ref "epaverbit_kirjiota.mdt" >}})
+[Täydennä kolmas muoto]({{<ref "epaverbit_kirjoita.mdt" >}})
 
 Yhteensä noin sadan epäsäännöllisen verbin taivutuksia. Älä vastaa väärin.
 
