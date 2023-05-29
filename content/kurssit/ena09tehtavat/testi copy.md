@@ -132,21 +132,17 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
   { baseForm: 'freeze', secondForm: 'froze', thirdForms: ['frozen'] },
   { baseForm: 'hide', secondForm: 'hid', thirdForms: ['hidden'] },
   { baseForm: 'lose', secondForm: 'lost', thirdForms: ['lost'] },
-  { baseForm: 'take', secondForm: 'took', thirdForms: ['taken'] },
   { baseForm: 'wake', secondForm: 'woke', thirdForms: ['woken'] },
   { baseForm: 'wear', secondForm: 'wore', thirdForms: ['worn'] },
   { baseForm: 'blow', secondForm: 'blew', thirdForms: ['blown'] },
-  { baseForm: 'choose', secondForm: 'chose', thirdForms: ['chosen'] },
   { baseForm: 'draw', secondForm: 'drew', thirdForms: ['drawn'] },
   { baseForm: 'fly', secondForm: 'flew', thirdForms: ['flown'] },
   { baseForm: 'grow', secondForm: 'grew', thirdForms: ['grown'] },
-  { baseForm: 'know', secondForm: 'knew', thirdForms: ['known'] },
   { baseForm: 'throw', secondForm: 'threw', thirdForms: ['thrown'] },
   { baseForm: 'sing', secondForm: 'sang', thirdForms: ['sung'] },
   { baseForm: 'speak', secondForm: 'spoke', thirdForms: ['spoken'] },
   { baseForm: 'swim', secondForm: 'swam', thirdForms: ['swum'] },
-  { baseForm: 'wear', secondForm: 'wore', thirdForms: ['worn'] },
-  { baseForm: 'win', secondForm: 'won', thirdForms: ['won'] },
+    { baseForm: 'win', secondForm: 'won', thirdForms: ['won'] },
   ];
 
  const exercise = document.getElementById('exercise');
@@ -227,7 +223,7 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
     const correctCount = currentIndex;
     const totalCount = verbs.length;
 
-    finalResult.textContent = `You have completed the exercise. Final score: ${correctCount}/${totalCount}`;
+    finalResult.textContent = `Sait kaikki ${totalCount} kohtaa oikein!`;
     exercise.appendChild(finalResult);
   }
 });
