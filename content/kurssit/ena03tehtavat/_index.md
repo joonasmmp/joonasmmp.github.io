@@ -9,7 +9,7 @@ Kurssi kolme eli kieli ja kulttuuri ja tässä sisältöä siihen
 
 ## Kielioppi
 ### Laskettavat ja ei-laskettavat substantiivit
-[1. Laskettavat substantiivit: Alkutesti]({{<ref "countable_alkutesti.mdt#tehtava" >}})
+[1. Laskettavat substantiivit: Alkutesti]({{<ref "countable_alkutesti.mdt#tehtavalinkki" >}})
 
 [2. Laskettavat substantiivit: Lopputesti]({{<ref "countable_lopputesti.mdt" >}})
 
