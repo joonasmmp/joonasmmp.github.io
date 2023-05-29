@@ -7,19 +7,9 @@ layout: tehtavavalikko
 ---
 Kurssi kolme eli kieli ja kulttuuri ja tässä sisältöä siihen
 
-{{< rawhtml >}}<div class="tehtavapalkki">
-
-</div>
-
-<style>.tehtavapalkki {
-border-right: 5px solid;
-border-color: red;
-height: 1em;
-}</style>{{< /rawhtml >}}[Pakohuone: Elements 3]({{<ref "pakohuone1.mdt" >}})
-
 ## Kielioppi
 ### Laskettavat ja ei-laskettavat substantiivit
-[1. Laskettavat substantiivit: Alkutesti]({{<ref "countable_alkutesti.mdt" >}})
+[1. Laskettavat substantiivit: Alkutesti]({{<ref "countable_alkutesti.mdt#tehtava" >}})
 
 [2. Laskettavat substantiivit: Lopputesti]({{<ref "countable_lopputesti.mdt" >}})
 
