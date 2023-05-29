@@ -43,7 +43,6 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
 
 .verb {
   padding: 5px;
-  background-color: #f2f2f2;
   margin-right: 5px;
 }
 
@@ -55,10 +54,13 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
 
 .check-btn {
   padding: 5px 10px;
-  background-color: #4CAF50;
   color: white;
   border: none;
   cursor: pointer;
+}
+
+#dark.check-btn {
+  color:black;
 }
 
 .check-btn:hover {
