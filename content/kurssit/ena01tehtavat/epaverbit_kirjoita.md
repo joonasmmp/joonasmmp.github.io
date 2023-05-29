@@ -44,14 +44,14 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
   margin-right: 5px;
 }
 
-input .answer {
+input {
   padding: 5px;
   margin-right: 5px;
   margin-left: 0.7em;
   width: 7em;
 }
 
-#dark input {
+#dark input{
   background-color: #181A1B;
   padding: 5px;
   margin-right: 5px;
