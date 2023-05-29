@@ -9,13 +9,7 @@ layout: tehtava
 Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista täydentyy.
 
 {{< rawhtml >}}
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-     
+<div id="tehtava">    
   <div id="verb-list"></div>
 
   <div id="exercise">
@@ -28,10 +22,7 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
 
     <!-- Add more verb containers here -->
   </div>
-      
-  <script src="script.js"></script>
-</body>
-</html>
+</div>
 
 <style>
 .verb-container {
@@ -46,10 +37,19 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
   margin-right: 5px;
 }
 
+.verb-list {
+  margin-right: 5px;
+}
+
 .answer {
   padding: 5px;
   margin-right: 5px;
   margin-left: 0.7em;
+  width: 7em;
+}
+
+#dark.answer {
+  background-color: #181A1B;
 }
 
 .check-btn {
@@ -82,7 +82,7 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
   color: red;
 }
 
-.p content {
+.content p {
   padding-top: 1.5rem;
 }
 
@@ -142,7 +142,7 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
   { baseForm: 'sing', secondForm: 'sang', thirdForms: ['sung'] },
   { baseForm: 'speak', secondForm: 'spoke', thirdForms: ['spoken'] },
   { baseForm: 'swim', secondForm: 'swam', thirdForms: ['swum'] },
-    { baseForm: 'win', secondForm: 'won', thirdForms: ['won'] },
+  { baseForm: 'win', secondForm: 'won', thirdForms: ['won'] },
   ];
 
  const exercise = document.getElementById('exercise');
@@ -167,7 +167,7 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
 
     const answer = document.createElement('input');
     answer.classList.add('answer');
-    answer.placeholder = 'Enter the third form';
+    answer.placeholder = 'third form';
     answer.addEventListener('keypress', (event) => {
       if (event.key === 'Enter') {
         checkAnswer(answer);
