@@ -57,7 +57,7 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
   color: white;
   border: none;
   cursor: pointer;
-  background-color: #F2F937;
+  background-color: #1F2937;
 }
 
 #dark.check-btn {
@@ -143,7 +143,7 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
   { baseForm: 'win', secondForm: 'won', thirdForms: ['won'] },
   ];
 
-  const exercise = document.getElementById('exercise');
+ const exercise = document.getElementById('exercise');
   const verbList = document.getElementById('verb-list');
   let currentIndex = 0;
 
@@ -175,7 +175,9 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
     const checkButton = document.createElement('button');
     checkButton.classList.add('check-btn');
     checkButton.textContent = 'Check';
-    checkButton.addEventListener('click', checkAnswer.bind(null, answer));
+    checkButton.addEventListener('click', () => {
+      checkAnswer(answer);
+    });
 
     verbContainer.appendChild(verb);
     verbContainer.appendChild(secondForm);
@@ -191,15 +193,13 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
     const userAnswer = answerInput.value.trim().toLowerCase();
     const expectedAnswer = verbs[currentIndex].thirdForms;
 
-    if (userAnswer === expectedAnswer) {
+    if (expectedAnswer.includes(userAnswer)) {
       const verbListItem = document.createElement('div');
-      verbListItem.textContent = `${verbs[currentIndex].baseForm} - ${verbs[currentIndex].secondForm} - ${verbs[currentIndex].thirdForms}`;
+      verbListItem.textContent = `${verbs[currentIndex].baseForm} - ${verbs[currentIndex].secondForm} - ${verbs[currentIndex].thirdForms.join(', ')}`;
       verbList.appendChild(verbListItem);
 
       currentIndex++;
-      answerInput.disabled = true;
-      answerInput.removeEventListener('keypress', checkAnswer);
-      this.disabled = true;
+
       if (currentIndex < verbs.length) {
         renderVerb();
       } else {
@@ -213,6 +213,8 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
   }
 
   function showFinalResult() {
+    exercise.innerHTML = '';
+
     const finalResult = document.createElement('div');
     finalResult.classList.add('result');
 
