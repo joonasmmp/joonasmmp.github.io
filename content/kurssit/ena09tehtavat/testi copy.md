@@ -58,6 +58,7 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
   border: none;
   cursor: pointer;
   background-color: #1F2937;
+  border-radius: 5px;
 }
 
 #dark.check-btn {
@@ -80,6 +81,11 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
 .failure {
   color: red;
 }
+
+.p content {
+  padding-top: 1.5rem;
+}
+
 </style>
 
 <script>
