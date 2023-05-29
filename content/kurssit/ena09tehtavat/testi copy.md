@@ -57,6 +57,7 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
   color: white;
   border: none;
   cursor: pointer;
+  background-color: #F2F937;
 }
 
 #dark.check-btn {
@@ -84,7 +85,7 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
 <script>
  window.addEventListener('DOMContentLoaded', (event) => {
   const verbs = [
- { baseForm: 'be', secondForm: 'was/were', thirdForms: ['been'] },
+  { baseForm: 'be', secondForm: 'was/were', thirdForms: ['been'] },
   { baseForm: 'have', secondForm: 'had', thirdForms: ['had'] },
   { baseForm: 'do', secondForm: 'did', thirdForms: ['done'] },
   { baseForm: 'say', secondForm: 'said', thirdForms: ['said'] },
@@ -188,11 +189,11 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
 
   function checkAnswer(answerInput) {
     const userAnswer = answerInput.value.trim().toLowerCase();
-    const expectedAnswer = verbs[currentIndex].thirdForm;
+    const expectedAnswer = verbs[currentIndex].thirdForms;
 
     if (userAnswer === expectedAnswer) {
       const verbListItem = document.createElement('div');
-      verbListItem.textContent = `${verbs[currentIndex].baseForm} - ${verbs[currentIndex].secondForm} - ${verbs[currentIndex].thirdForm}`;
+      verbListItem.textContent = `${verbs[currentIndex].baseForm} - ${verbs[currentIndex].secondForm} - ${verbs[currentIndex].thirdForms}`;
       verbList.appendChild(verbListItem);
 
       currentIndex++;
