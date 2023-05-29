@@ -51,7 +51,7 @@ input {
   width: 7em;
 }
 
-#dark input{
+.dark input{
   background-color: #181A1B;
   padding: 5px;
   margin-right: 5px;
