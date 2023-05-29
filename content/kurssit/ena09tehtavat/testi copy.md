@@ -13,9 +13,8 @@ layout: tehtava
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <h2>Irregular Verbs Exercise</h2>
-      
-        <div id="verb-list"></div>
+     
+  <div id="verb-list"></div>
 
   <div id="exercise">
     <div class="verb-container">
@@ -37,6 +36,7 @@ layout: tehtava
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  margin-top: 0.5em;
 }
 
 .verb {
