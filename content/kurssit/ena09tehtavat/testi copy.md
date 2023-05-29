@@ -32,8 +32,11 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
   margin-top: 0.5em;
 }
 
+.tehtava {
+  padding-left: 1em;
+}
+
 .verb {
-  padding: 5px;
   margin-right: 5px;
 }
 
