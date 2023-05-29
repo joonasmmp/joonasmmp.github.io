@@ -7,7 +7,15 @@ layout: tehtavavalikko
 ---
 Kurssi kolme eli kieli ja kulttuuri ja tässä sisältöä siihen
 
-[Pakohuone: Elements 3]({{<ref "pakohuone1.mdt" >}})
+{{< rawhtml >}}<div class="tehtavapalkki">
+
+</div>
+
+<style>.tehtavapalkki {
+border-right: 5px solid;
+border-color: red;
+height: 1em;
+}</style>{{< /rawhtml >}}[Pakohuone: Elements 3]({{<ref "pakohuone1.mdt" >}})
 
 ## Kielioppi
 ### Laskettavat ja ei-laskettavat substantiivit
@@ -61,3 +69,5 @@ Kurssi kolme eli kieli ja kulttuuri ja tässä sisältöä siihen
 }
 </style>
 {{< /rawhtml >}}
+
+
