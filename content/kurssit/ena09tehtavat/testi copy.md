@@ -1,163 +1,222 @@
 ---
-title: "Testi, testi, testi"
-date: 2021-8-13
+title: "Täydennä kolmas muoto"
+date: 2023-5-28
 draft: false
 type: page
 layout: tehtava
 ---
 
 {{< rawhtml >}}
-<<html>
+<!DOCTYPE html>
+<html>
 <head>
-  <title>Word Order Exercise</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <h2>Arrange the Words</h2>
+  <h2>Irregular Verbs Exercise</h2>
+      
+        <div id="verb-list"></div>
 
-  <div id="sentences">
-    <div class="sentence">
-      <div class="word">The</div>
-      <div class="word">cat</div>
-      <div class="word dropzone"></div>
-      <div class="word">on</div>
-      <div class="word">the</div>
-      <div class="word">mat</div>
+  <div id="exercise">
+    <div class="verb-container">
+>
+      <div class="verb">go</div>
+      <input type="text" class="answer" placeholder="Enter the third form">
+      <button class="check-btn">Check</button>
     </div>
-    <div class="sentence">
-      <div class="word dropzone"></div>
-      <div class="word">playing</div>
-      <div class="word">is</div>
-      <div class="word">children</div>
-      <div class="word">in</div>
-      <div class="word">the</div>
-      <div class="word">park</div>
-    </div>
-    <div class="sentence">
-      <div class="word">I</div>
-      <div class="word dropzone"></div>
-      <div class="word">a</div>
-      <div class="word">delicious</div>
-      <div class="word">ate</div>
-      <div class="word">slice</div>
-      <div class="word">of</div>
-      <div class="word">cake</div>
-    </div>
+
+    <!-- Add more verb containers here -->
   </div>
-
+      
   <script src="script.js"></script>
 </body>
 </html>
 
 <style>
-  .sentence {
+.verb-container {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
 
-.word {
+.verb {
   padding: 5px;
-  border: 1px solid #ccc;
   background-color: #f2f2f2;
   margin-right: 5px;
+}
+
+.answer {
+  padding: 5px;
+  margin-right: 5px;
+  margin-left: 0.7em;
+}
+
+.check-btn {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
   cursor: pointer;
 }
 
-.dropzone {
-  width: 50px;
-  height: 20px;
-  border: 2px dashed #aaa;
+.check-btn:hover {
+  background-color: #45a049;
 }
 
-.highlight {
-  background-color: #e0e0e0;
+.result {
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 .success {
-  background-color: lightgreen;
+  color: green;
 }
 
 .failure {
-  background-color: lightcoral;
+  color: red;
 }
 </style>
 
 <script>
-  window.addEventListener('DOMContentLoaded', (event) => {
-  const words = document.querySelectorAll('.word');
-  const dropzones = document.querySelectorAll('.dropzone');
+ window.addEventListener('DOMContentLoaded', (event) => {
+  const verbs = [
+  { baseForm: 'be', secondForm: 'was/were', thirdForm: 'been' },
+  { baseForm: 'have', secondForm: 'had', thirdForm: 'had' },
+  { baseForm: 'do', secondForm: 'did', thirdForm: 'done' },
+  { baseForm: 'say', secondForm: 'said', thirdForm: 'said' },
+  { baseForm: 'go', secondForm: 'went', thirdForm: 'gone' },
+  { baseForm: 'get', secondForm: 'got', thirdForm: 'got/gotten' },
+  { baseForm: 'make', secondForm: 'made', thirdForm: 'made' },
+  { baseForm: 'know', secondForm: 'knew', thirdForm: 'known' },
+  { baseForm: 'see', secondForm: 'saw', thirdForm: 'seen' },
+  { baseForm: 'come', secondForm: 'came', thirdForm: 'come' },
+  { baseForm: 'think', secondForm: 'thought', thirdForm: 'thought' },
+  { baseForm: 'take', secondForm: 'took', thirdForm: 'taken' },
+  { baseForm: 'find', secondForm: 'found', thirdForm: 'found' },
+  { baseForm: 'give', secondForm: 'gave', thirdForm: 'given' },
+  { baseForm: 'tell', secondForm: 'told', thirdForm: 'told' },
+  { baseForm: 'see', secondForm: 'saw', thirdForm: 'seen' },
+  { baseForm: 'feel', secondForm: 'felt', thirdForm: 'felt' },
+  { baseForm: 'become', secondForm: 'became', thirdForm: 'become' },
+  { baseForm: 'leave', secondForm: 'left', thirdForm: 'left' },
+  { baseForm: 'put', secondForm: 'put', thirdForm: 'put' },
+  { baseForm: 'bring', secondForm: 'brought', thirdForm: 'brought' },
+  { baseForm: 'begin', secondForm: 'began', thirdForm: 'begun' },
+  { baseForm: 'keep', secondForm: 'kept', thirdForm: 'kept' },
+  { baseForm: 'hold', secondForm: 'held', thirdForm: 'held' },
+  { baseForm: 'write', secondForm: 'wrote', thirdForm: 'written' },
+  { baseForm: 'stand', secondForm: 'stood', thirdForm: 'stood' },
+  { baseForm: 'hear', secondForm: 'heard', thirdForm: 'heard' },
+  { baseForm: 'let', secondForm: 'let', thirdForm: 'let' },
+  { baseForm: 'mean', secondForm: 'meant', thirdForm: 'meant' },
+  { baseForm: 'set', secondForm: 'set', thirdForm: 'set' },
+  { baseForm: 'meet', secondForm: 'met', thirdForm: 'met' },
+  { baseForm: 'run', secondForm: 'ran', thirdForm: 'run' },
+  { baseForm: 'pay', secondForm: 'paid', thirdForm: 'paid' },
+  { baseForm: 'sit', secondForm: 'sat', thirdForm: 'sat' },
+  { baseForm: 'rise', secondForm: 'rose', thirdForm: 'risen' },
+  { baseForm: 'break', secondForm: 'broke', thirdForm: 'broken' },
+  { baseForm: 'choose', secondForm: 'chose', thirdForm: 'chosen' },
+  { baseForm: 'drive', secondForm: 'drove', thirdForm: 'driven' },
+  { baseForm: 'forget', secondForm: 'forgot', thirdForm: 'forgotten' },
+  { baseForm: 'freeze', secondForm: 'froze', thirdForm: 'frozen' },
+  { baseForm: 'hide', secondForm: 'hid', thirdForm: 'hidden' },
+  { baseForm: 'lose', secondForm: 'lost', thirdForm: 'lost' },
+  { baseForm: 'take', secondForm: 'took', thirdForm: 'taken' },
+  { baseForm: 'wake', secondForm: 'woke', thirdForm: 'woken' },
+  { baseForm: 'wear', secondForm: 'wore', thirdForm: 'worn' },
+  { baseForm: 'blow', secondForm: 'blew', thirdForm: 'blown' },
+  { baseForm: 'choose', secondForm: 'chose', thirdForm: 'chosen' },
+  { baseForm: 'draw', secondForm: 'drew', thirdForm: 'drawn' },
+  { baseForm: 'fly', secondForm: 'flew', thirdForm: 'flown' },
+  { baseForm: 'grow', secondForm: 'grew', thirdForm: 'grown' },
+  { baseForm: 'know', secondForm: 'knew', thirdForm: 'known' },
+  { baseForm: 'throw', secondForm: 'threw', thirdForm: 'thrown' },
+  { baseForm: 'sing', secondForm: 'sang', thirdForm: 'sung' },
+  { baseForm: 'speak', secondForm: 'spoke', thirdForm: 'spoken' },
+  { baseForm: 'swim', secondForm: 'swam', thirdForm: 'swum' },
+  { baseForm: 'wear', secondForm: 'wore', thirdForm: 'worn' },
+  { baseForm: 'win', secondForm: 'won', thirdForm: 'won' },
+  ];
 
-  words.forEach((word) => {
-    word.addEventListener('dragstart', dragStart);
-    word.addEventListener('dragend', dragEnd);
-  });
+  const exercise = document.getElementById('exercise');
+  const verbList = document.getElementById('verb-list');
+  let currentIndex = 0;
 
-  dropzones.forEach((dropzone) => {
-    dropzone.addEventListener('dragover', dragOver);
-    dropzone.addEventListener('dragenter', dragEnter);
-    dropzone.addEventListener('dragleave', dragLeave);
-    dropzone.addEventListener('drop', dragDrop);
-  });
+  renderVerb();
 
-  function dragStart() {
-    this.className += ' highlight';
-    setTimeout(() => (this.className = 'word'), 0);
-  }
+  function renderVerb() {
+    exercise.innerHTML = '';
 
-  function dragEnd() {
-    this.className = 'word';
-  }
+    const verbContainer = document.createElement('div');
+    verbContainer.classList.add('verb-container');
 
-  function dragOver(e) {
-    e.preventDefault();
-  }
+    const verb = document.createElement('div');
+    verb.classList.add('verb');
+    verb.textContent = verbs[currentIndex].baseForm;
 
-  function dragEnter(e) {
-    e.preventDefault();
-    this.className += ' highlight';
-  }
+    const secondForm = document.createElement('div');
+    secondForm.classList.add('second-form');
+    secondForm.textContent = `${verbs[currentIndex].secondForm}`;
 
-  function dragLeave() {
-    this.className = 'word dropzone';
-  }
-
-  function dragDrop() {
-    if (this.innerHTML === '') {
-      const word = document.querySelector('.highlight');
-     
-      this.appendChild(word);
-      this.className = 'word dropzone success';
-    } else {
-      this.className = 'word dropzone failure';
-    }
-
-    checkSentences();
-  }
-
-  function checkSentences() {
-    const sentences = document.querySelectorAll('.sentence');
-
-    sentences.forEach((sentence) => {
-      const dropzones = sentence.querySelectorAll('.dropzone');
-      let isCorrect = true;
-
-      dropzones.forEach((dropzone, index) => {
-        const word = dropzone.querySelector('.word');
-        const expectedWord = sentence.children[index * 2 + 1];
-
-        if (word !== expectedWord) {
-          isCorrect = false;
-          return;
-        }
-      });
-
-      if (isCorrect) {
-        sentence.classList.add('success');
-      } else {
-        sentence.classList.remove('success');
+    const answer = document.createElement('input');
+    answer.classList.add('answer');
+    answer.placeholder = 'Enter the third form';
+    answer.addEventListener('keypress', (event) => {
+      if (event.key === 'Enter') {
+        checkAnswer(answer);
       }
     });
+
+    const checkButton = document.createElement('button');
+    checkButton.classList.add('check-btn');
+    checkButton.textContent = 'Check';
+    checkButton.addEventListener('click', checkAnswer.bind(null, answer));
+
+    verbContainer.appendChild(verb);
+    verbContainer.appendChild(secondForm);
+    verbContainer.appendChild(answer);
+    verbContainer.appendChild(checkButton);
+
+    exercise.appendChild(verbContainer);
+
+    answer.focus();
+  }
+
+  function checkAnswer(answerInput) {
+    const userAnswer = answerInput.value.trim().toLowerCase();
+    const expectedAnswer = verbs[currentIndex].thirdForm;
+
+    if (userAnswer === expectedAnswer) {
+      const verbListItem = document.createElement('div');
+      verbListItem.textContent = `${verbs[currentIndex].baseForm} - ${verbs[currentIndex].secondForm} - ${verbs[currentIndex].thirdForm}`;
+      verbList.appendChild(verbListItem);
+
+      currentIndex++;
+      answerInput.disabled = true;
+      answerInput.removeEventListener('keypress', checkAnswer);
+      this.disabled = true;
+      if (currentIndex < verbs.length) {
+        renderVerb();
+      } else {
+        showFinalResult();
+      }
+    } else {
+      answerInput.value = '';
+      answerInput.placeholder = 'Incorrect. Try again.';
+      answerInput.focus();
+    }
+  }
+
+  function showFinalResult() {
+    const finalResult = document.createElement('div');
+    finalResult.classList.add('result');
+
+    const correctCount = currentIndex;
+    const totalCount = verbs.length;
+
+    finalResult.textContent = `You have completed the exercise. Final score: ${correctCount}/${totalCount}`;
+    exercise.appendChild(finalResult);
   }
 });
   </script>
