@@ -51,7 +51,7 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
   width: 7em;
 }
 
-#dark.answer {
+#dark .answer {
   background-color: #181A1B;
   padding: 5px;
   margin-right: 5px;
@@ -68,7 +68,7 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
   border-radius: 5px;
 }
 
-#dark.check-btn {
+#dark .check-btn {
   color:black;
 }
 
