@@ -44,14 +44,14 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
   margin-right: 5px;
 }
 
-.answer {
+input.answer {
   padding: 5px;
   margin-right: 5px;
   margin-left: 0.7em;
   width: 7em;
 }
 
-#dark .answer {
+#dark input.answer {
   background-color: #181A1B;
   padding: 5px;
   margin-right: 5px;
@@ -66,10 +66,6 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
   cursor: pointer;
   background-color: #1F2937;
   border-radius: 5px;
-}
-
-#dark .check-btn {
-  color:black;
 }
 
 .check-btn:hover {
