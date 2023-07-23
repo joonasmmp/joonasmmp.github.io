@@ -169,7 +169,7 @@ input {
   { baseForm: 'fall', secondForm: 'fell', thirdForms: ['fallen'] },
   { baseForm: 'feel', secondForm: 'felt', thirdForms: ['felt'] },
   { baseForm: 'fight', secondForm: 'fought', thirdForms: ['fought'] },
-  { baseForm: 'fit', secondForm: 'fit/fitted', thirdForms: ['fit'. 'fitted'] },
+  { baseForm: 'fit', secondForm: 'fit/fitted', thirdForms: ['fit', 'fitted'] },
   { baseForm: 'flee', secondForm: 'fled', thirdForms: ['fled'] },
   { baseForm: 'fling', secondForm: 'flung', thirdForms: ['flung'] },
   { baseForm: 'forgive', secondForm: 'forgave', thirdForms: ['forgiven'] },
