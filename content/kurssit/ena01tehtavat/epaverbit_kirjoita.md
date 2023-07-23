@@ -271,7 +271,7 @@ input {
     const correctCount = currentIndex;
     const totalCount = verbs.length;
 
-    finalResult.textContent = `Sait kaikki ${totalCount} kohtaa oikein!`;
+    finalResult.textContent = `Kaikki ${totalCount} kohtaa oikein! Ei huono!`;
     exercise.appendChild(finalResult);
   }
 });
