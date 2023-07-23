@@ -33,7 +33,7 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
 }
 
 .tehtava {
-  padding-left: 1em;
+  padding-left: 4em;
 }
 
 .verb {
@@ -146,6 +146,51 @@ input {
   { baseForm: 'speak', secondForm: 'spoke', thirdForms: ['spoken'] },
   { baseForm: 'swim', secondForm: 'swam', thirdForms: ['swum'] },
   { baseForm: 'win', secondForm: 'won', thirdForms: ['won'] },
+  { baseForm: 'arise', secondForm: 'arose', thirdForms: ['arisen'] },
+  { baseForm: 'bear', secondForm: 'bore', thirdForms: ['born'] },
+  { baseForm: 'bend', secondForm: 'bent', thirdForms: ['bent'] },
+  { baseForm: 'bet', secondForm: 'bet', thirdForms: ['bet'] },
+  { baseForm: 'bind', secondForm: 'bound', thirdForms: ['bound'] },
+  { baseForm: 'bite', secondForm: 'bit', thirdForms: ['bitten', 'bit'] },
+  { baseForm: 'bleed', secondForm: 'bled', thirdForms: ['bled'] },
+  { baseForm: 'breed', secondForm: 'bred', thirdForms: ['bred'] },
+  { baseForm: 'build', secondForm: 'built', thirdForms: ['built'] },
+  { baseForm: 'burn', secondForm: 'burned/burnt', thirdForms: ['burned', 'burnt'] },
+  { baseForm: 'burst', secondForm: 'burst', thirdForms: ['burst'] },
+  { baseForm: 'buy', secondForm: 'bought', thirdForms: ['bought'] },
+  { baseForm: 'cast', secondForm: 'cast', thirdForms: ['cast'] },
+  { baseForm: 'catch', secondForm: 'caught', thirdForms: ['caught'] },
+  { baseForm: 'cost', secondForm: 'cost', thirdForms: ['cost'] },
+  { baseForm: 'cut', secondForm: 'cut', thirdForms: ['cut'] },
+  { baseForm: 'deal', secondForm: 'dealt', thirdForms: ['dealt'] },
+  { baseForm: 'dig', secondForm: 'dug', thirdForms: ['dug'] },
+  { baseForm: 'dream', secondForm: 'dreamed/dreamt', thirdForms: ['dreamed', 'dreamt'] },
+  { baseForm: 'drink', secondForm: 'drank', thirdForms: ['drunk'] },
+  { baseForm: 'fall', secondForm: 'fell', thirdForms: ['fallen'] },
+  { baseForm: 'feel', secondForm: 'felt', thirdForms: ['felt'] },
+  { baseForm: 'fight', secondForm: 'fought', thirdForms: ['fought'] },
+  { baseForm: 'fit', secondForm: 'fit/fitted', thirdForms: ['fit'. 'fitted'] },
+  { baseForm: 'flee', secondForm: 'fled', thirdForms: ['fled'] },
+  { baseForm: 'fling', secondForm: 'flung', thirdForms: ['flung'] },
+  { baseForm: 'forgive', secondForm: 'forgave', thirdForms: ['forgiven'] },
+  { baseForm: 'grind', secondForm: 'ground', thirdForms: ['ground'] },
+  { baseForm: 'hang', secondForm: 'hung', thirdForms: ['hung'] },
+  { baseForm: 'hit', secondForm: 'hit', thirdForms: ['hit'] },
+  { baseForm: 'hurt', secondForm: 'hurt', thirdForms: ['hurt'] },
+  { baseForm: 'kneel', secondForm: 'kneeled/kneelt', thirdForms: ['kneeled', 'knelt'] },
+  { baseForm: 'knit', secondForm: 'knit/knitted', thirdForms: ['knit', 'knitted'] },
+  { baseForm: 'lay', secondForm: 'laid', thirdForms: ['laid'] },
+  { baseForm: 'lean', secondForm: 'leaned/leant', thirdForms: ['leaned', 'leant'] },
+  { baseForm: 'learn', secondForm: 'learned/learnt', thirdForms: ['learned', 'learnt'] },
+  { baseForm: 'lend', secondForm: 'lent', thirdForms: ['lent'] },
+  { baseForm: 'lie', secondForm: 'lay', thirdForms: ['lain'] },
+  { baseForm: 'quit', secondForm: 'quit', thirdForms: ['quit'] },
+  { baseForm: 'read', secondForm: 'read', thirdForms: ['read'] },
+  { baseForm: 'ride', secondForm: 'rode', thirdForms: ['ridden'] },
+  { baseForm: 'ring', secondForm: 'rang', thirdForms: ['rung'] },
+  { baseForm: 'seek', secondForm: 'sought', thirdForms: ['sought'] },
+  { baseForm: 'sell', secondForm: 'sold', thirdForms: ['sold'] },
+  { baseForm: 'send', secondForm: 'sent', thirdForms: ['sent'] },
   ];
 
  const exercise = document.getElementById('exercise');
