@@ -32,7 +32,7 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
   margin-top: 0.5em;
 }
 
-.tehtava {
+div#tehtava {
   padding-left: 4em;
 }
 
