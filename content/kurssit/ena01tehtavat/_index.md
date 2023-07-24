@@ -7,27 +7,35 @@ layout: tehtavavalikko
 ---
 Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta tai ääh emmä tiiä.
 
-## Aikamuotoja ja verbioppia:
+## Kielioppi:
 [Verbit: tunnista aikamuoto]({{<ref "ena01_tunnistaaikamuoto.mdt" >}})
-
 Johdanto aikamuotohin: tunnista suomen- ja englanninkielisten sanojen aikamuoto. Mikäli aikamuodot eivät tule luonnostaan, kannattaa termit opetella huolella.
 
+### Preesens
+
+### Imperfekti
+
+### Perfekti
+
+### Pluskvamperfekti
 
 [Perfekti: has vai have?]({{< ref "ena01_hashave.mdt" >}})
 
 Perfekti tökkii jos apuverbi on väärin, ja monesti se tuntuu olevan.
 
-[Verbit: epäsäännölliset verbit: a-e]({{<ref "ena01_epaverbitae.mdt" >}})
+### Epäsäännölliset verbit
 
-[Verbit: epäsäännölliset verbit: f-k]({{<ref "ena01_epaverbitfk.mdt" >}})
+[Epäsäännölliset verbit: a-e]({{<ref "ena01_epaverbitae.mdt" >}})
 
-[Verbit: epäsäännölliset verbit: l-r]({{<ref "ena01_epaverbitlr.mdt" >}})
+[Epäsäännölliset verbit: f-k]({{<ref "ena01_epaverbitfk.mdt" >}})
 
-[Verbit: epäsäännölliset verbit: s-w]({{<ref "ena01_epaverbitsw.mdt" >}})
+[Epäsäännölliset verbit: l-r]({{<ref "ena01_epaverbitlr.mdt" >}})
 
-[Verbit: epäsäännölliset verbit: kaikki]({{<ref "ena01_epaverbitkaikki.mdt" >}})
+[Epäsäännölliset verbit: s-w]({{<ref "ena01_epaverbitsw.mdt" >}})
 
-[Täydennä kolmas muoto]({{<ref "epaverbit_kirjoita.mdt" >}})
+[Epäsäännölliset verbit: kaikki]({{<ref "ena01_epaverbitkaikki.mdt" >}})
+
+[Epäsäännölliset verbit: Täydennä kolmas muoto]({{<ref "epaverbit_kirjoita.mdt" >}})
 
 Yhteensä noin sadan epäsäännöllisen verbin taivutuksia. Älä vastaa väärin.
 
