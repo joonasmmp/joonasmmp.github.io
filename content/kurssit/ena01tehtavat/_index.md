@@ -8,7 +8,9 @@ layout: tehtavavalikko
 Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta tai ääh emmä tiiä.
 
 ## Kielioppi
-[Verbit: tunnista aikamuoto]({{<ref "ena01_tunnistaaikamuoto.mdt" >}})
+
+[Tunnista aikamuoto]({{<ref "ena01_tunnistaaikamuoto.mdt" >}})
+
 Johdanto aikamuotohin: tunnista suomen- ja englanninkielisten sanojen aikamuoto. Mikäli aikamuodot eivät tule luonnostaan, kannattaa termit opetella huolella.
 
 ### Preesens
