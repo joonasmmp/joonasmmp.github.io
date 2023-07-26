@@ -14,5 +14,9 @@ Alla löydät tehtäviä ENA08-kurssille. Tai no et löydä kun ei oo mitään h
 #hello{
     background: url(/img/kansikuvat/kurssivalikot/ena8.jpg)
 }
+
+#hello h {
+    font-size: 2.5em!important;
+}
 </style>
 {{< /rawhtml >}}

@@ -95,5 +95,9 @@ Kun olet opiskellut taulukot, voit siirtyä tehtävien pariin
 #hello{
     background: url(/img/kansikuvat/kurssivalikot/ena5.jpg)
 }
+
+#hello h {
+    font-size: 2.5em!important;
+}
 </style>
 {{< /rawhtml >}}

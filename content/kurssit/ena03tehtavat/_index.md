@@ -57,6 +57,10 @@ Kurssi kolme eli kieli ja kulttuuri ja tässä sisältöä siihen
 #hello{
     background: url(/img/kansikuvat/kurssivalikot/ena3.jpg)
 }
+
+#hello h {
+    font-size: 2.5em!important;
+}
 </style>
 {{< /rawhtml >}}
 
