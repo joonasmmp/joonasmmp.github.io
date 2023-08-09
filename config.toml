@@ -81,7 +81,7 @@ darkmode = "light"
   hasChildren = true
 
 [[menu.main]]
-  name = "ENA 01 - Kielitaito & vuorovaikutus"
+  name = "ENA 01 - Opiskelutaidot & kieli-identiteetti"
   url = "/kurssit/ena01tehtavat/"
   identifier = "ena01tehtavat"
   weight = 1
