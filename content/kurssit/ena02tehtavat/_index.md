@@ -15,6 +15,11 @@ No ei ole vielä mittään
 
 {{< rawhtml >}}
 <style>
+#hello{
+    background: url(/img/kansikuvat/kurssivalikot/ena2.jpg)
+}
+
+
 #hello h {
     font-size: 2.5em!important;
 }
