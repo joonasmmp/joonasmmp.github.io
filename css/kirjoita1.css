@@ -100,3 +100,11 @@ form input {
   align-items: center;
   justify-content: center;
  }
+
+ #hello{
+  background: url(/img/kansikuvat/kurssivalikot/kirjoitateht.jpg)
+}
+
+#hello h {
+  font-size: 2.5em!important;
+}
