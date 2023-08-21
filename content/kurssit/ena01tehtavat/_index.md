@@ -15,6 +15,8 @@ Johdanto aikamuotohin: tunnista suomen- ja englanninkielisten sanojen aikamuoto.
 
 ### Preesens
 
+[Yleis- vai kestopreesens?]({{<ref "preesens_kirjoita1.mdt" >}})
+
 ### Imperfekti
 
 ### Perfekti
