@@ -34,13 +34,14 @@ Kirjoita lauseisiin yleis- tai kestopreesensmuodot.
 <section>
 7. What &nbsp;<li><input id="q11" type="text"/><span></span></li>&nbsp; (your sister, do)? She's a teacher, but she &nbsp;<li><input id="q12" type="text"/><span></span></li>&nbsp; (work, not) right now. She's still recovering. 
 </section>
+<section>
 8. What &nbsp;<li><input id="q13" type="text"/><span></span></li>&nbsp; (do, you, usually) on weekends? 
 </section>
-</section>
+<section>
 9. Most people &nbsp;<li><input id="q14" type="text"/><span></span></li>&nbsp; (learn) to read when they &nbsp;<li><input id="q15" type="text"/><span></span></li>&nbsp; young. I'm sure you'll learn one day.
 </section>
-</section>
-10. I &nbsp;<li><input id="q14" type="text"/><span></span></li>&nbsp; (have, not) a lot of fun right now. I'm pretty sure I &nbsp;<li><input id="q15" type="text"/><span></span></li>&nbsp; (get) arrested later today.
+<section>
+10. I &nbsp;<li><input id="q16" type="text"/><span></span></li>&nbsp; (have, not) a lot of fun right now. I'm pretty sure I &nbsp;<li><input id="q17" type="text"/><span></span></li>&nbsp; (get) arrested later today.
 </section>
 </ol>
   
@@ -70,9 +71,9 @@ var answers = {
   "q12": ["isn't working", "is not working"],
   "q13": ["do you usually do"],
   "q14": ["learn"],
-  "q13": ["are"],
-  "q15": ["am not having", "'m not having"],
-  "q16": ["am getting", "'m getting"],
+  "q15": ["are"],
+  "q16": ["am not having", "'m not having"],
+  "q17": ["am getting", "'m getting"],
 };
 
 function markAnswers() {
