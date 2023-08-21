@@ -1,12 +1,12 @@
 ---
-title: "Apuverbit: Kirjoita 1"
+title: "Preesens: Kirjoita 1"
 date: 2022-2-1
 draft: false
 type: page
 layout: tehtava
 ---
 
-Täydennä verbimuodot annetun vihjeen mukaan.
+Kirjoita lauseisiin yleis- tai kestopreesensmuodot.
 
 {{< rawhtml >}}
 <div class="tehtava">
@@ -14,35 +14,31 @@ Täydennä verbimuodot annetun vihjeen mukaan.
   <ol>
   
 <section>
-1. I&nbsp;<li><input id="q1" type="text"/><span></span></li>&nbsp; (osasin) play the piano when I was little
+1. Jackson often &nbsp;<li><input id="q1" type="text"/><span></span></li>&nbsp; (ottaa) a nap while watching the 5 o'clock news.
 </section>
 <section>
-2. My brother &nbsp;<li><input id="q2" type="text"/><span></span></li>&nbsp; (oli pystynyt löytämään) some money in the lake.
+2. Even now he &nbsp;<li><input id="q2" type="text"/><span></span></li>&nbsp; (nukkuu) on the couch. He has no idea what's happening on TV.
 </section>
 <section>
-3. &nbsp;<li><input id="q3" type="text"/><span></span></li>&nbsp; (voisitko ojentaa) the salt, please?
+3. &nbsp;<li><input id="q3" type="text"/><span></span></li>&nbsp; (Tiedätkö) where the nearest coffee shop is?
 </section>
 <section>
-4. You &nbsp;<li><input id="q4" type="text"/><span></span></li>&nbsp; (olisit voinut soittaa) before barging in here!
+4. No, sorry, &nbsp;<li><input id="q4" type="text"/><span></span></li>&nbsp; (en tiedä).
 </section>
 <section>
-5. Yesterday I&nbsp;<li><input id="q5" type="text"/><span></span></li>&nbsp; (täytyi viedä) my dog with me to school.
+5. Henrik&nbsp;<li><input id="q5" type="text"/><span></span></li>&nbsp; (tapaa) his therapist this afternoon - he's really nervous already!
 </section>
 <section>
-6. &nbsp;<li><input id="q6" type="text"/><span></span></li>&nbsp; (kykenisitkö auttamaan) me with this umbrella?
+6. At Christmas, Father Christmas&nbsp;<li><input id="q6" type="text"/><span></span></li>&nbsp; (vierailee) in over 1000 homes every second. 
 </section>
 <section>
-7. Jonathan &nbsp;<li><input id="q7" type="text"/><span></span></li>&nbsp; (on varmaankin 
-ollut) really excited.
+7. How &nbsp;<li><input id="q7" type="text"/><span></span></li>&nbsp; (hän tekee) it? He must be a deity or something.
 </section>
 <section>
-8. He  &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; (ei ole voinut lähteä) yet because I see his gold-plated Honda Civic parked in front.
-</section>
+8. Simon, what the hell &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; (sinä teet)? Why is there a fish in the coffee maker?
 <section>
-9. There &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (on varmasti) an explanation to all of this.
-</section>
-<section>
-10. We &nbsp;<li><input id="q10" type="text"/><span></span></li>&nbsp; (emme olisi koskaan kyenneet tekemään) all that without the help of Frank. </ol>
+9. I &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (teen) a fish latte. It's delicious.
+</section> </ol>
   
  <link rel="stylesheet" type="text/css" href="/css/kirjoita1.css"/>
 
@@ -56,16 +52,15 @@ ollut) really excited.
 
 <script>
 var answers = {
-  "q1": ["could", "was able to play"],
-  "q2": ["had been able to find"],
-  "q3": ["could you pass"],
-  "q4": ["could have called"],
-  "q5": ["had to take"],
-  "q6": ["would you be able to help"],
-  "q7": ["must have been"],
-  "q8": ["can't have left", "cannot have left"],
-  "q9": ["must be"],
-  "q10": ["would never have been able to do", "would have never been able to do"],
+  "q1": ["takes"],
+  "q2": ["is sleeping"],
+  "q3": ["do you know"],
+  "q4": ["i don't know", "i do not know"],
+  "q5": ["is seeing", "is meeting"],
+  "q6": ["visits"],
+  "q7": ["does he do"],
+  "q8": ["are you doing", "you're doing"],
+  "q9": ["'m making", "am making"],
 };
 
 function markAnswers() {
