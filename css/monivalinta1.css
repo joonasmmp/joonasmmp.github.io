@@ -85,3 +85,11 @@
     margin-bottom: 0;
     font-size: 1.3em;
 }
+
+#hello{
+  background: url(/img/kansikuvat/kurssivalikot/lopputesti.jpg)
+}
+
+#hello h {
+  font-size: 2.5em!important;
+}
