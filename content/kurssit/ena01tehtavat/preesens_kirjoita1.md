@@ -36,9 +36,11 @@ Kirjoita lauseisiin yleis- tai kestopreesensmuodot.
 </section>
 <section>
 8. Simon, what the hell &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; (sinä teet)? Why is there a fish in the coffee maker?
+</section>
 <section>
 9. I &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (teen) a fish latte. It's delicious.
-</section> </ol>
+</section>
+</ol>
   
  <link rel="stylesheet" type="text/css" href="/css/kirjoita1.css"/>
 
