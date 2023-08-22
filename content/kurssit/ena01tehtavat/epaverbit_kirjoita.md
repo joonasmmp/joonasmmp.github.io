@@ -19,8 +19,6 @@ Täydennä kolmas muoto annetusta verbistä. Kun vastaat oikein, verbien lista t
       <input type="text" class="answer" placeholder="third form">
       <button class="check-btn">Check</button>
     </div>
-
-    <!-- Add more verb containers here -->
   </div>
 </div>
 
@@ -87,6 +85,14 @@ input {
 
 .content p {
   padding-top: 1.5rem;
+}
+
+#hello{
+    background: url(/img/kansikuvat/kurssivalikot/kirjoita2.jpg)
+}
+  
+#hello h {
+    font-size: 2.5em!important;
 }
 
 </style>
