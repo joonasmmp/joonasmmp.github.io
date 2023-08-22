@@ -278,3 +278,11 @@
     margin-right: 7px;
     margin-left: 7px;
   }
+
+  #hello{
+    background: url(/img/kansikuvat/kurssivalikot/alkutesti.jpg)
+  }
+  
+  #hello h {
+    font-size: 2.5em!important;
+  }

@@ -239,6 +239,14 @@ input#submit {
     background-color: #181A1B;
     color: white;
   }
+  
+#hello{
+  background: url(/img/kansikuvat/kurssivalikot/pakohuone.jpg)
+}
+
+#hello h {
+  font-size: 2.5em!important;
+}
 </style>
 
 <script>
