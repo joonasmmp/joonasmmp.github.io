@@ -7,7 +7,9 @@ layout: tehtavavalikko
 ---
 
 ## Kielioppi
-### Prepositioilmaisuja
+### Prepositioilmaisuja / Fraasiverbit
+[Fraasiverbit: Flashcard]({{<ref "fraasiverbit_flashcard.mdt" >}})
+
 [Prepositioilmaisuja: Flashcard]({{<ref "prepositioilmaisuja_flashcard.mdt" >}})
 
 ### Konjunktiot ja sidossanat
