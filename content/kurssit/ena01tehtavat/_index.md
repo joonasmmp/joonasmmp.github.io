@@ -32,7 +32,7 @@ Perfekti tökkii jos apuverbi on väärin, ja monesti se tuntuu olevan.
 
 ### Epäsäännölliset verbit
 
-[{{< teoriaikoni >}}Epäsäännölliset verbit: a-e]({{<ref "ena01_epaverbitae.mdt" >}})
+[Epäsäännölliset verbit: a-e]({{<ref "ena01_epaverbitae.mdt" >}})
 
 [Epäsäännölliset verbit: f-k]({{<ref "ena01_epaverbitfk.mdt" >}})
 
