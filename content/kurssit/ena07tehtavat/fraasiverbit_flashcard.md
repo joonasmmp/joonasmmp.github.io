@@ -97,7 +97,7 @@ $(document).ready(function() {
 ["hang ___ -	odottaa hetki - odottaa hetki", "hang on odottaa hetki - odottaa hetki"],
 ["hold ___ - lukea viaksi jollekulle, syyttää aiemmin tapahtuneesta - lukea viaksi jollekulle, syyttää aiemmin tapahtuneesta", "hold against  lukea viaksi jollekulle, syyttää aiemmin tapahtuneesta - lukea viaksi jollekulle, syyttää aiemmin tapahtuneesta"],
 ["iron ___ - selvittää, ratkaista - selvittää, ratkaista	", "iron out  selvittää, ratkaista - selvittää, ratkaista "],
-["keep ___ - keep down	hillitä, pitää alhaalla / olla hiljaa", "keep down - keep down hillitä, pitää alhaalla / olla hiljaa"],
+["keep ___ - hillitä, pitää alhaalla / olla hiljaa", "keep down - hillitä, pitää alhaalla / olla hiljaa"],
 ["kick ___ - aloittaa, alkaa, käynnistyä", "kick off - aloittaa, alkaa, käynnistyä"],
 ["kick ___ - heittää ulos, häätää", "kick out - heittää ulos, häätää"],
 ["lay ___ - lomauttaa, irtisanoa", "lay off - lomauttaa, irtisanoa"],
