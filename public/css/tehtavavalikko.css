@@ -1,5 +1,5 @@
 div#tehtavavalikko a {
-  display: flex;
+  display: inline-block;
   color:black !important;
   text-decoration: none !important;
   width: 75%;
