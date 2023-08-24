@@ -3,7 +3,7 @@ title: "Kirjoitelma"
 date: 2021-09-02
 draft: false
 type: page
-layout: ohje
+layout: ylioppilask
 ---
 
 ### YTL kirjoitelman arviointiohjeet (2022-)
