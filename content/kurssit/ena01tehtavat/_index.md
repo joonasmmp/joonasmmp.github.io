@@ -30,6 +30,10 @@ Perfekti tökkii jos apuverbi on väärin, ja monesti se tuntuu olevan.
 ### Pluskvamperfekti
 
 
+### Kokoavat aikamuototehtävät
+
+[1. Kaikki aikamuodot: täydennä]({{<ref "kokoavat_kirjoita1.mdt" >}})
+
 ### Epäsäännölliset verbit
 
 [Epäsäännölliset verbit: a-e]({{<ref "ena01_epaverbitae.mdt" >}})
