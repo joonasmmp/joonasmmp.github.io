@@ -18,10 +18,20 @@ Michael Jordan &nbsp;<li><input id="q1" type="text"/><span></span></li>&nbsp; (o
 </section>
 <section>
 - How &nbsp;<li><input id="q5" type="text"/><span></span></li>&nbsp; (menetit) your job? You were an NBA allstar.
+</section>
+<section>
 - I &nbsp;<li><input id="q6" type="text"/><span></span></li>&nbsp; (työskentelin) in the NBA and scored a lot of hoops, alright, but unfortunately, the job  &nbsp;<li><input id="q7" type="text"/><span></span></li>&nbsp; (ei ollut) for me. I &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; (täytyi) find something else.
+</section>
+<section>
 - And how &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (löysit) a new job?
-- After the initial shock, I &nbsp;<li><input id="q12" type="text"/><span></span></li>&nbsp; (en antanut) being rich and famous affect my dreams. I &nbsp;<li><input id="q11" type="text"/><span></span></li>&nbsp; (olen aina ollut) interested in the shipping business in nothern Finland. I &nbsp;<li><input id="q12" type="text"/><span></span></li>&nbsp; (otin yhteyttä) the company. They &nbsp;<li><input id="q13" type="text"/><span></span></li>&nbsp; (eivät uskoneet) it was really me. 
+</section>
+<section>
+- After the initial shock, I &nbsp;<li><input id="q10" type="text"/><span></span></li>&nbsp; (en antanut) being rich and famous affect my dreams. I &nbsp;<li><input id="q11" type="text"/><span></span></li>&nbsp; (olen aina ollut) interested in the shipping business in nothern Finland. I &nbsp;<li><input id="q12" type="text"/><span></span></li>&nbsp; (otin yhteyttä) the company. They &nbsp;<li><input id="q13" type="text"/><span></span></li>&nbsp; (eivät uskoneet) it was really me. 
+</section>
+<section>
 - What &nbsp;<li><input id="q14" type="text"/><span></span></li>&nbsp; (ajattelet) are the most important things when &nbsp;<li><input id="q15" type="text"/><span></span></li>&nbsp; (aloittaa) in a new job in a completely different field?
+</section>
+<section>
 - Believe in your dreams and acquire new skills. You &nbsp;<li><input id="q16" type="text"/><span></span></li>&nbsp; (et kehity) as a person if all you do is play  basketball.
 </section>
 </ol>
