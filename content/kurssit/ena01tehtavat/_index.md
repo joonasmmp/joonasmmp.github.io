@@ -34,6 +34,8 @@ Perfekti tökkii jos apuverbi on väärin, ja monesti se tuntuu olevan.
 
 [1. Kaikki aikamuodot: täydennä]({{<ref "kokoavat_kirjoita1.mdt" >}})
 
+[1. Kaikki aikamuodot: täydennä Olla-verbi]({{<ref "kokoavat_be_kirjoita1.mdt" >}})
+
 ### Epäsäännölliset verbit
 
 [Epäsäännölliset verbit: a-e]({{<ref "ena01_epaverbitae.mdt" >}})
