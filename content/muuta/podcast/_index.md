@@ -40,12 +40,10 @@ Dan Carlin ainakin omasta mielestäni osaa kertoa asioista mielenkiintoisesti ja
 
 Redditissä paljon aikaa viettävänä moni näistä tarinoista on itselle jo entuudestaan tuttuja, mutta monesti jaksoissa mennään pintaa syvemmälle budjetti ylittäen, esimerkkinä monen jakson pituinen [We want plates](https://podcasts.google.com/feed/aHR0cHM6Ly9yc3Mud2J1ci5vcmcvZW5kbGVzc3RocmVhZC9wb2RjYXN0/episode/OGUwNjNjM2QtMjI0OC00M2M5LTkzYzEtMGZhNzU1ODcwMWEw?sa=X&ved=0CAUQkfYCahgKEwj4p_bLl-75AhUAAAAAHQAAAAAQngk) lautaskasametsästys. Mikäli et tiedä Redditistä mitään en ole varma onko tämä ohjelma sinulle, mutta monesti aiheet ovat sellaisia, ettei taustatietoja tarvita. Paljon haastatteluja ja asiantuntijoita, ja erityisesti pidän siitä, että monesti haastatteluissa on mukana ihmisiä, jotka ovat itse olleet kyseisten tarinoiden tai ilmiöiden keskellä. 
 
-Miinuksena radioasemaohjelmalle tyypilliset asiat eli mainokset, joita on aika paljon. Lisäksi myös ajoittainen jenkkihuumori joka ei aivan täysin uppoa itselle ja tuntuu ajoittain kiusalliselta. Monet jaksot myös ovat hyvin amerikkasentrisiä, mutta niiden kanssa voi onneksi siirtyä seuraaviin jaksoin.
+Miinuksena radioasemaohjelmalle tyypilliset asiat eli mainokset, joita on aika paljon. Lisäksi myös ajoittainen jenkkihuumori joka ei aivan täysin uppoa itselle ja tuntuu  kiusalliselta. Monet jaksot myös ovat hyvin amerikkasentrisiä, mutta ne voionneksi skipata.
 
 ### Conan O'Brien Needs a Friend
-[Conan O'Brien Needs a Friend](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9kSG9vaFZOSA) on Conanin podcast, tosin mukana on kaksi avustajaa, koska Conan ei ymmärrä tekniikasta mitään. Kuten nimikin kertoo, Conan tarvitsee ystävää, ja jaksot onkin lähes poikkeuksetta keskusteluja avustajien ja vierailevien tähtien tai tavisten kanssa. 
-
-Conan oli Suomessa iso ilmiö oman nuoruuteni aikana, ja hänen itseironinen, ja ylipäänsä ironinen, huumori on hyvin samankaltainen kuin itselläni. Tätä suhteellisen kevyttä podcastia tulee kuunneltua silloin kun ei jaksa keskittyä mihinkään. 
+[Conan O'Brien Needs a Friend](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9kSG9vaFZOSA) on Conanin podcast, tosin mukana on kaksi avustajaa, koska Conan ei ymmärrä tekniikasta mitään. Kuten nimikin kertoo, Conan tarvitsee ystävää, ja jaksot onkin lähes poikkeuksetta keskusteluja avustajien ja vierailevien tähtien tai tavisten kanssa. Tätä suhteellisen kevyttä podcastia tulee kuunneltua silloin kun ei jaksa keskittyä mihinkään. 
 
 Ainoa miinus on se, että monet vieraat ovat itselle tuntemattomia, sillä ovat isoja nimiä kotimaassa, mutta ei tällä puolella Atlanttia. Tästä syystä kuuntelenkin vain tavallisten ihmisten haastatteluja ja niiden julkkisten haastatteluja jotka itse tunnen.
 
@@ -58,7 +56,7 @@ Ainoa miinus on se, että monet vieraat ovat itselle tuntemattomia, sillä ovat 
 [Tiedetrippi](https://areena.yle.fi/podcastit/1-50438875) on Yle Tieteen yleisöystävällisempi podcast. Tiedeykköseen verrattuna aiheet paljon kevyempiä ja vihteellisempiä. Iso plussa myös siitä, että ohjelma on Kemiläisen (kirjoitetaan aina isolla) tuottama ja juontama. Ohjelmassa käsitellään enemmän tai vähemmän tieteeseen liittyviä aiheita viikottain. Vaikka kyseessä onkin se viihteellisempi ohjelma, on mukana haastateltavana monia alojen asiantuntijoita eri yliopistoista ja virastoista.
 
 ### 12 Diktaattoria
-[12 Diktaattoria](https://areena.yle.fi/podcastit/1-3948085) on myös Yleisradion tuottama, diktaattoreita ja heidän valtakausiaan käsittelevä ohjelma. True crime on iso juttu niin Suomessa kuin maailmalla, mutta tässä ohjelmassa käsitellään tosielämän joukkomurhia, kidutusta, ihmissyöntiä ja muuta erittäin makaaberia historian saatossa tapahtunutta. Mukana myös vähän ns. kevyempien diktaattorien hulluttelua, mutta välissä tulee sellaisia jaksoja jotka olisi mielellään jättänyt kuuntelematta sisältönsä vuoksi. 
+[12 Diktaattoria](https://areena.yle.fi/podcastit/1-3948085) on myös Yleisradion tuottama, diktaattoreita ja heidän valtakausiaan käsittelevä ohjelma. True crime on iso juttu niin Suomessa kuin maailmalla, mutta tässä ohjelmassa käsitellään tosielämän joukkomurhia, kidutusta, ihmissyöntiä ja muuta historian saatossa tapahtunutta.
 
 ## Youtube-kanavat ja muu media
 
@@ -66,8 +64,8 @@ Koska tähän mahtuu selkeästi suosituksia muustakin mediasta, niin tässä tul
 
 ### RedLetter Media
 
-[Red Letter Media](https://www.youtube.com/@RedLetterMedia) sisältää (oikeastaan) kolme eri ohjelmaa, jotka kaikki käsittelevät elokuvia tai sarjoja. Tekijät pysyvät samana, mutta konsepti hieman eri. Half in the Bagissä keskustellaan tuoreista elokuvista, Re:viewissä vanhoista suosikeista, ja Best of the Worstissa katsotaan huonoja elokuvia. Viihdyttävin on ehdottomasti Best of the Worst, jonka takia olen itsekin katsonut monta b-klassikkoa, kuten Samurai Cop, Miami Connection, Hard Ticket to Hawaii (kävin myös katsomassa elokuvissa erikoisnäytöksessä!), Surviving Edged Weapons, Suburban Sasquatch, jne. Aivan mahtavaa. 
+[Red Letter Media](https://www.youtube.com/@RedLetterMedia) sisältää (oikeastaan) kolme eri ohjelmaa, jotka kaikki käsittelevät elokuvia tai sarjoja. Tekijät pysyvät samana, mutta konsepti hieman eri. Half in the Bagissä keskustellaan tuoreista elokuvista, Re:viewissä vanhoista suosikeista, ja Best of the Worstissa katsotaan huonoja elokuvia. Viihdyttävin on ehdottomasti Best of the Worst, jonka takia olen itsekin katsonut monta klassikkoa, kuten Samurai Cop, Miami Connection, Hard Ticket to Hawaii, Surviving Edged Weapons, ja Suburban Sasquatch. 
 
 ## Kirjallisuus
 
-Tästä en jaksa sanoa muuta kuin sen, että käy katsomassa [Goodreads-profiilista](https://www.goodreads.com/user/show/38760443-joonas).
+Käy katsomassa [Goodreads-profiilista](https://www.goodreads.com/user/show/38760443-joonas).
