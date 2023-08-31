@@ -71,7 +71,7 @@ var answers = {
   "q17": ["is"],
   "q18": ["hasn't been", "has not been"],
   "q19": ["has had"],
-  "q20": ["has not been", "hasn't been"]
+  "q20": ["has not been", "hasn't been"],
   "q21": ["have"],
   "q22": ["is"],
   "q23": ["haven't been", "have not been"],
