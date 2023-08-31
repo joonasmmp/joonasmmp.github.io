@@ -20,13 +20,12 @@ I &nbsp;<li><input id="q1" type="text"/><span></span></li>&nbsp; (olen) friends 
 <br>
 <p>Jonathan:</p>
 <section>
-Ok and what exactly &nbsp;<li><input id="q11" type="text"/><span></span></li>&nbsp; (on) the problem?  We all &nbsp;<li><input id="q12" type="text"/><span></span></li>&nbsp; (on)  weird dreams, it's what humans do. If you want &nbsp;<li><input id="q13" type="text"/><span></span></li>&nbsp; (olla) in a relationship with someone, you have to learn to live with all the baggage. 
+Ok and what exactly &nbsp;<li><input id="q11" type="text"/><span></span></li>&nbsp; (on) the problem?  We all &nbsp;<li><input id="q12" type="text"/><span></span></li>&nbsp; (on)  weird dreams, that's what humans do. If you want &nbsp;<li><input id="q13" type="text"/><span></span></li>&nbsp; (olla) in a relationship with someone, you'll have to learn to live with all the baggage. 
 </section>
 <br>
 <p>Jackson:</p>
 <section>
-You obviously  &nbsp;<li><input id="q14" type="text"/><span></span></li>&nbsp; (et ole ollut) around when we've discussed the dreams. Let me tell you. A while ago she &nbsp;<li><input id="q15" type="text"/><span></span></li>&nbsp; (oli) a dream about Liam Neeson. She &nbsp;<li><input id="q16" type="text"/><span></span></li>&nbsp; (ei ollut) afraid of Liam Neeson before that, but now she &nbsp;<li><input id="q17" type="text"/><span></span></li>&nbsp; (on) terrified of him. She &nbsp;<li><input id="q18" type="text"/><span></span></li>&nbsp; (ei ole ollut) able to sleep for weeks. She &nbsp;<li><input id="q19" type="text"/><span></span></li>&nbsp; (on) to see a therapist, but it &nbsp;<li><input id="q20" type="text"/><span></span></li>&nbsp; (ei ole ollut) of much help at all. Everywhere we go, we &nbsp;<li><input id="q21" type="text"/><span></span></li>&nbsp; (on) to be careful not to run into Liam Neeson. Do you know what my favourite movie &nbsp;<li><input id="q22" type="text"/><span></span></li>&nbsp; (on)? Star Wars Episode 1: The Phantom Menace. I &nbsp;<li><input id="q23" type="text"/><span></span></li>&nbsp; (en ole ollut) able to watch it for months now. Yes I know &nbsp;<li><input id="q23" type="text"/><span></span></li>&nbsp; (on) a terrible movie, but I &nbsp;<li><input id="q24" type="text"/><span></span></li>&nbsp; (on ollut)
-this obsession with Gui-Gon Jin since I &nbsp;<li><input id="q25" type="text"/><span></span></li>&nbsp; (olin) a child.
+You obviously  &nbsp;<li><input id="q14" type="text"/><span></span></li>&nbsp; (et ole ollut) around when we've discussed the dreams. Let me tell you. A while ago she &nbsp;<li><input id="q15" type="text"/><span></span></li>&nbsp; (oli) a dream about Liam Neeson. She &nbsp;<li><input id="q16" type="text"/><span></span></li>&nbsp; (ei ollut) afraid of Liam Neeson before that, but now she &nbsp;<li><input id="q17" type="text"/><span></span></li>&nbsp; (on) terrified of him. She &nbsp;<li><input id="q18" type="text"/><span></span></li>&nbsp; (ei ole ollut) able to sleep for weeks. She &nbsp;<li><input id="q19" type="text"/><span></span></li>&nbsp; (on täytynyt) to see a therapist, but it &nbsp;<li><input id="q20" type="text"/><span></span></li>&nbsp; (ei ole ollut) of much help at all. Everywhere we go, we &nbsp;<li><input id="q21" type="text"/><span></span></li>&nbsp; (on) to be careful not to run into Liam Neeson. Do you know what my favourite movie &nbsp;<li><input id="q22" type="text"/><span></span></li>&nbsp; (on)? Star Wars Episode 1: The Phantom Menace. I &nbsp;<li><input id="q23" type="text"/><span></span></li>&nbsp; (en ole ollut) able to watch it for months now. Yes I know it &nbsp;<li><input id="q24" type="text"/><span></span></li>&nbsp; (on) a terrible movie, but I &nbsp;<li><input id="q25" type="text"/><span></span></li>&nbsp; (on ollut) this obsession with Gui-Gon Jin since I &nbsp;<li><input id="q26" type="text"/><span></span></li>&nbsp; (olin) a child.
 </section>
 <br>
 <p>Jonathan:</p>
@@ -75,11 +74,10 @@ var answers = {
   "q21": ["have"],
   "q22": ["is"],
   "q23": ["haven't been", "have not been"],
-  "q24": ["have had"],
-  "q25": ["was"],
-  "q26": ["haven't been", "have not been"]
-
-
+  "q24": ["is"],
+  "q25": ["have had"],
+  "q26": ["was"],
+  "q27": ["haven't been", "have not been"],
 };
 
 function markAnswers() {
