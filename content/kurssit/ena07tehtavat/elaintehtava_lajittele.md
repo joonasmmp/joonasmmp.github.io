@@ -160,10 +160,12 @@ categories.forEach((category) => {
 checkButton.addEventListener('click', () => {
     animals.forEach((animal) => {
         if (animal.classList.contains('correct')) {
-            animal.style.backgroundColor = 'green';
+            animal.style.backgroundColor = '#2dceb1'
+            animal.style.color = 'white'
             animal.removeAttribute('draggable');
         } else if (animal.classList.contains('incorrect')) {
-            animal.style.backgroundColor = 'red';
+            animal.style.backgroundColor = '#ff383e';
+            animal.style.color = 'white'
         }
     });
 });
