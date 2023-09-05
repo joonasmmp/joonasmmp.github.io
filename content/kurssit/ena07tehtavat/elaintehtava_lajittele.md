@@ -54,7 +54,6 @@ layout: tehtavaxxl
 
 .categories {
     flex: 1;
-    border: 1px solid #ccc;
     padding: 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
