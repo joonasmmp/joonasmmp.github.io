@@ -33,8 +33,8 @@ layout: tehtavaxxl
         <button id="check-button">Check Answers</button>
 
 
-  <style>
-  
+<style>
+
 .container {
     text-align: center;
     margin-top: 20px;
@@ -65,11 +65,11 @@ layout: tehtavaxxl
 }
 
 .animals {
-    flex: 2;
+    grid-template-columns: repeat(2, 1fr);
+    flex: 1;
     border: 1px solid #ccc;
     padding: 10px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
 }
 
 .animal {
@@ -78,6 +78,7 @@ layout: tehtavaxxl
     padding: 5px;
     margin: 5px;
     cursor: pointer;
+    height: 2em;
 }
 
 #check-button {
@@ -143,6 +144,12 @@ checkButton.addEventListener('click', () => {
         }
     });
 });
+
+function drop(ev) {
+    ev.preventDefault();
+    var data=ev.dataTransfer.getData("Text");
+    ev.target.appendChild(document.getElementById(data));
+}
 
 </script>
 
