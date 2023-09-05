@@ -10,12 +10,18 @@ layout: tehtavaxxl
     <div class="container">
 
    <div class="game-area">
-            <div class="categories">
+      <div class="categories">
+        <div class="category" data-category="marsupial">Marsupials</div>
+        <div class="category" data-category="fish">Fish</div>
         <div class="category" data-category="bird">Birds</div>
-        <div class="category" data-category="fish">Fishes</div>
         <div class="category" data-category="mammal">Mammals</div>
-          <div class="category" data-category="reptile">reptiles</div>
-            </div>
+        <div class="category" data-category="reptile">Reptiles</div>
+        <div class="category" data-category="mollusc">Molluscs</div>
+        <div class="category" data-category="rodent">Rodents</div>
+        <div class="category" data-category="amphibian">Amphibians</div>
+        <div class="category" data-category="insect">Insects</div>
+        <div class="category" data-category="invertebrate">Invertebrates</div>
+      </div>
             <div class="animals">
         <div class="animal" draggable="true" data-category="bird">Bird</div>
         <div class="animal" draggable="true" data-category="bird">Bird</div>
