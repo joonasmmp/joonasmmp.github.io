@@ -6,7 +6,7 @@ draft: false
 type: page
 layout: tehtavaxxl
 ---
-Aseta eläinsanat oikeaan kategoriaan. Osa eläimistä voi kuulua useampaan kategoriaan, mutta tässä tehtävässä jokainen eläin kuuluu vain yhteen kategoriaan. Voit kokeilla tehtävää uudelleen painamalla selaimen päivityspainiketta.
+Aseta eläinsanat oikeaan kategoriaan. Osa eläimistä voi kuulua useampaan kategoriaan, mutta tässä tehtävässä jokainen eläin kuuluu vain yhteen kategoriaan.
 
 {{< rawhtml >}}
 
@@ -132,6 +132,14 @@ Aseta eläinsanat oikeaan kategoriaan. Osa eläimistä voi kuulua useampaan kate
 
 #check-button:hover {
     background-color: #0056b3;
+}
+
+#hello{
+    background: url(/img/kansikuvat/kurssivalikot/lajittelu.jpg)
+}
+  
+#hello h {
+    font-size: 2.5em!important;
 }
 
 </style>
