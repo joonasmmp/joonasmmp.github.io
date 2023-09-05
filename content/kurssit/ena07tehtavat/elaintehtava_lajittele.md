@@ -68,6 +68,8 @@ layout: tehtavaxxl
     flex: 2;
     border: 1px solid #ccc;
     padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .animal {
