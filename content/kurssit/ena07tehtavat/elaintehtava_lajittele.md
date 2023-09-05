@@ -7,7 +7,8 @@ type: page
 layout: tehtavaxxl
 ---
 {{< rawhtml >}}
-    <div class="container">
+
+<button id="check-button">Check Answers</button>
 
    <div class="game-area">
       <div class="categories">
@@ -33,12 +34,8 @@ layout: tehtavaxxl
         <div class="animal" draggable="true" data-category="mammal">Mammal</div>
         <div class="animal" draggable="true" data-category="mammal">Mammal</div>
             </div>
-        </div> 
-      </div>
+      </div> 
         
-  <button id="check-button">Check Answers</button>
-
-
 <style>
 
 .game-area {
