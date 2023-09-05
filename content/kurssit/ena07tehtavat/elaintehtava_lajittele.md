@@ -70,6 +70,8 @@ layout: tehtavaxxl
     border: 1px solid #ccc;
     padding: 10px;
     display: grid;
+    align-content: flex-start;
+
 }
 
 .animal {
