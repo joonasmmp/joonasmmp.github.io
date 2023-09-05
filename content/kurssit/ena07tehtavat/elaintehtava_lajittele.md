@@ -41,15 +41,11 @@ layout: tehtavaxxl
 
 <style>
 
-.container {
-    text-align: center;
-    margin-top: 20px;
-}
-
 .game-area {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+   text-align: center;
 }
 
 .categories {
