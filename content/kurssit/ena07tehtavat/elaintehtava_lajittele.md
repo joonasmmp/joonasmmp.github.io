@@ -64,6 +64,7 @@ layout: tehtavaxxl
 .category {
     background-color: #f0f0f0;
     margin: 5px;
+    border: 1px solid #ccc;
     cursor: pointer;
     margin-bottom: 1em;
     padding-bottom: 1em;
