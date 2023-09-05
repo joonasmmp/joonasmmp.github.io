@@ -6,6 +6,8 @@ draft: false
 type: page
 layout: tehtavaxxl
 ---
+Aseta eläinsanat oikeaan kategoriaan. Osa eläimistä voi kuulua useampaan kategoriaan, mutta tässä tehtävässä jokainen eläin kuuluu vain yhteen kategoriaan. Voit kokeilla tehtävää uudelleen painamalla selaimen päivityspainiketta.
+
 {{< rawhtml >}}
 
 <div class="tarkista">
@@ -41,7 +43,6 @@ layout: tehtavaxxl
         <div class="animal" draggable="true" data-category="mammal">Dolphin</div>
         <div class="animal" draggable="true" data-category="mammal">Bat</div>
         <div class="animal" draggable="true" data-category="mammal">Platypus</div>
-        <div class="animal" draggable="true" data-category="mammal">Beaver</div>
         <div class="animal" draggable="true" data-category="reptile">Adder</div>
         <div class="animal" draggable="true" data-category="reptile">Rattlesnake</div>
         <div class="animal" draggable="true" data-category="reptile">Crocodile</div>
@@ -58,9 +59,6 @@ layout: tehtavaxxl
         <div class="animal" draggable="true" data-category="invertebrate">Jellyfish</div>
         <div class="animal" draggable="true" data-category="invertebrate">Sea urchin</div>
         <div class="animal" draggable="true" data-category="invertebrate">Earthworm</div>
-        <div class="animal" draggable="true" data-category="invertebrate">Squid</div>
-        <div class="animal" draggable="true" data-category="invertebrate">Snail</div>
-        <div class="animal" draggable="true" data-category="invertebrate">Jellyfish</div>
         <div class="animal" draggable="true" data-category="rodent">Squirrel</div>
         <div class="animal" draggable="true" data-category="rodent">Beaver</div>
         <div class="animal" draggable="true" data-category="rodent">Rat</div>
