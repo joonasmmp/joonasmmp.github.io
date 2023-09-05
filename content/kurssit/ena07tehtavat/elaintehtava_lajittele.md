@@ -14,16 +14,16 @@ layout: tehtavaxxl
 
    <div class="game-area">
       <div class="categories">
-        <div class="category" data-category="marsupial">Marsupials</div>
-        <div class="category" data-category="fish">Fish</div>
-        <div class="category" data-category="bird">Birds</div>
-        <div class="category" data-category="mammal">Mammals</div>
-        <div class="category" data-category="reptile">Reptiles</div>
-        <div class="category" data-category="mollusc">Molluscs</div>
-        <div class="category" data-category="rodent">Rodents</div>
-        <div class="category" data-category="amphibian">Amphibians</div>
-        <div class="category" data-category="insect">Insects</div>
-        <div class="category" data-category="invertebrate">Invertebrates</div>
+        <div class="category" data-category="marsupial"><b>Marsupials</b></div>
+        <div class="category" data-category="fish"><b>Fish</b></div>
+        <div class="category" data-category="bird"><b>Birds</b></div>
+        <div class="category" data-category="mammal"><b>Mammals</b></div>
+        <div class="category" data-category="reptile"><b>Reptiles</b></div>
+        <div class="category" data-category="mollusc"><b>Molluscs</b></div>
+        <div class="category" data-category="rodent"><b>Rodents</b></div>
+        <div class="category" data-category="amphibian"><b>Amphibians</b></div>
+        <div class="category" data-category="insect"><b>Insects</b></div>
+        <div class="category" data-category="invertebrate"><b>Invertebrates</b></div>
       </div>
             <div class="animals">
         <div class="animal" draggable="true" data-category="bird">Bird</div>
