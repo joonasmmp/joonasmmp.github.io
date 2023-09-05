@@ -26,15 +26,49 @@ layout: tehtavaxxl
         <div class="category" data-category="invertebrate"><b>Invertebrates</b></div>
       </div>
             <div class="animals">
-        <div class="animal" draggable="true" data-category="bird">Bird</div>
-        <div class="animal" draggable="true" data-category="bird">Bird</div>
-        <div class="animal" draggable="true" data-category="bird">Bird</div>
-        <div class="animal" draggable="true" data-category="fish">Fish</div>
-        <div class="animal" draggable="true" data-category="fish">Fish</div>
-        <div class="animal" draggable="true" data-category="fish">Fish</div>
-        <div class="animal" draggable="true" data-category="mammal">Mammal</div>
-        <div class="animal" draggable="true" data-category="mammal">Mammal</div>
-        <div class="animal" draggable="true" data-category="mammal">Mammal</div>
+        <div class="animal" draggable="true" data-category="marsupial">Kangaroo</div>
+        <div class="animal" draggable="true" data-category="marsupial">Tasmanian devil</div>
+        <div class="animal" draggable="true" data-category="marsupial">Koala</div>
+        <div class="animal" draggable="true" data-category="marsupial">Opossum</div>
+        <div class="animal" draggable="true" data-category="fish">Perch</div>
+        <div class="animal" draggable="true" data-category="fish">Salmon</div>
+        <div class="animal" draggable="true" data-category="fish">Roach</div>
+        <div class="animal" draggable="true" data-category="fish">Pike</div>
+        <div class="animal" draggable="true" data-category="fish">Trout</div>
+        <div class="animal" draggable="true" data-category="fish">Herring</div>
+        <div class="animal" draggable="true" data-category="mammal">Wolverine</div>
+        <div class="animal" draggable="true" data-category="mammal">Whale</div>
+        <div class="animal" draggable="true" data-category="mammal">Dolphin</div>
+        <div class="animal" draggable="true" data-category="mammal">Bat</div>
+        <div class="animal" draggable="true" data-category="mammal">Platypus</div>
+        <div class="animal" draggable="true" data-category="mammal">Beaver</div>
+        <div class="animal" draggable="true" data-category="reptile">Adder</div>
+        <div class="animal" draggable="true" data-category="reptile">Rattlesnake</div>
+        <div class="animal" draggable="true" data-category="reptile">Crocodile</div>
+        <div class="animal" draggable="true" data-category="reptile">Lizard</div>
+        <div class="animal" draggable="true" data-category="amphibian">Salamander</div>
+        <div class="animal" draggable="true" data-category="amphibian">Toad</div>
+        <div class="animal" draggable="true" data-category="amphibian">Poison dart frog</div>
+        <div class="animal" draggable="true" data-category="insect">Flea</div>
+        <div class="animal" draggable="true" data-category="insect">Cockroach</div>
+        <div class="animal" draggable="true" data-category="insect">Mosquito</div>
+        <div class="animal" draggable="true" data-category="mollusc">Squid</div>
+        <div class="animal" draggable="true" data-category="mollusc">Snail</div>
+        <div class="animal" draggable="true" data-category="mollusc">Cuttlefish</div>
+        <div class="animal" draggable="true" data-category="invertebrate">Jellyfish</div>
+        <div class="animal" draggable="true" data-category="invertebrate">Sea urchin</div>
+        <div class="animal" draggable="true" data-category="invertebrate">Earthworm</div>
+        <div class="animal" draggable="true" data-category="invertebrate">Squid</div>
+        <div class="animal" draggable="true" data-category="invertebrate">Snail</div>
+        <div class="animal" draggable="true" data-category="invertebrate">Jellyfish</div>
+        <div class="animal" draggable="true" data-category="rodent">Squirrel</div>
+        <div class="animal" draggable="true" data-category="rodent">Beaver</div>
+        <div class="animal" draggable="true" data-category="rodent">Rat</div>
+        <div class="animal" draggable="true" data-category="bird">Great tit</div>
+        <div class="animal" draggable="true" data-category="bird">Magpie</div>
+        <div class="animal" draggable="true" data-category="bird">Whooper swan</div>
+        <div class="animal" draggable="true" data-category="bird">Raven</div>
+        <div class="animal" draggable="true" data-category="bird">Sparrow</div>
             </div>
       </div> 
         
