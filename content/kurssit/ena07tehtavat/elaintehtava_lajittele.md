@@ -8,7 +8,9 @@ layout: tehtavaxxl
 ---
 {{< rawhtml >}}
 
-<button id="check-button">Check Answers</button>
+<div class="tarkista">
+ <button id="check-button">Check Answers</button> 
+</div>
 
    <div class="game-area">
       <div class="categories">
@@ -37,6 +39,12 @@ layout: tehtavaxxl
       </div> 
         
 <style>
+
+.tarkista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .game-area {
     display: flex;
