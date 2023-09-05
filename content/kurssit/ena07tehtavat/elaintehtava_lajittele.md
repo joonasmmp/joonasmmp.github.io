@@ -11,21 +11,21 @@ layout: tehtavaxxl
 
    <div class="game-area">
             <div class="categories">
-                <div class="category" data-category="bird">Birds</div>
-                <div class="category" data-category="fish">Fishes</div>
-                <div class="category" data-category="mammal">Mammals</div>
-            <div class="category" data-category="reptile">reptiles</div>
+        <div class="category" data-category="bird">Birds</div>
+        <div class="category" data-category="fish">Fishes</div>
+        <div class="category" data-category="mammal">Mammals</div>
+          <div class="category" data-category="reptile">reptiles</div>
             </div>
             <div class="animals">
-                <div class="animal" draggable="true" data-category="bird">Bird</div>
-                <div class="animal" draggable="true" data-category="bird">Bird</div>
-                <div class="animal" draggable="true" data-category="bird">Bird</div>
-                <div class="animal" draggable="true" data-category="fish">Fish</div>
-                <div class="animal" draggable="true" data-category="fish">Fish</div>
-                <div class="animal" draggable="true" data-category="fish">Fish</div>
-                <div class="animal" draggable="true" data-category="mammal">Mammal</div>
-                <div class="animal" draggable="true" data-category="mammal">Mammal</div>
-                <div class="animal" draggable="true" data-category="mammal">Mammal</div>
+        <div class="animal" draggable="true" data-category="bird">Bird</div>
+        <div class="animal" draggable="true" data-category="bird">Bird</div>
+        <div class="animal" draggable="true" data-category="bird">Bird</div>
+        <div class="animal" draggable="true" data-category="fish">Fish</div>
+        <div class="animal" draggable="true" data-category="fish">Fish</div>
+        <div class="animal" draggable="true" data-category="fish">Fish</div>
+        <div class="animal" draggable="true" data-category="mammal">Mammal</div>
+        <div class="animal" draggable="true" data-category="mammal">Mammal</div>
+        <div class="animal" draggable="true" data-category="mammal">Mammal</div>
             </div>
         </div> 
       </div>
@@ -100,10 +100,26 @@ layout: tehtavaxxl
 </style>
 
 <script>
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
 const animals = document.querySelectorAll('.animal');
 const categories = document.querySelectorAll('.category');
 const checkButton = document.getElementById('check-button');
+let answersChecked = false;
 let currentDraggedItem = null;
+
+// Shuffle the animals' order
+const animalsArray = Array.from(animals);
+shuffleArray(animalsArray);
+
+animalsArray.forEach((animal, index) => {
+    animal.style.order = index;
+});
 
 animals.forEach((animal) => {
     animal.addEventListener('dragstart', (e) => {
@@ -152,7 +168,6 @@ function drop(ev) {
     var data=ev.dataTransfer.getData("Text");
     ev.target.appendChild(document.getElementById(data));
 }
-
 </script>
 
 {{< /rawhtml >}}
