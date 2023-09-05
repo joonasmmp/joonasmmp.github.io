@@ -36,7 +36,7 @@ layout: tehtavaxxl
         </div> 
       </div>
         
-        <button id="check-button">Check Answers</button>
+  <button id="check-button">Check Answers</button>
 
 
 <style>
@@ -63,7 +63,6 @@ layout: tehtavaxxl
 
 .category {
     background-color: #f0f0f0;
-    border: 1px solid #ccc;
     margin: 5px;
     cursor: pointer;
     margin-bottom: 1em;
@@ -72,8 +71,7 @@ layout: tehtavaxxl
 
 .animals {
     grid-template-columns: repeat(2, 1fr);
-    flex: 1;
-    border: 1px solid #ccc;
+    flex: .5;
     padding: 10px;
     display: grid;
     align-content: flex-start;
