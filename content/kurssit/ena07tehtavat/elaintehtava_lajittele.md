@@ -103,7 +103,7 @@ Aseta eläinsanat oikeaan kategoriaan. Osa eläimistä voi kuulua useampaan kate
 }
 
 .dark .category {
-    background-color: #595858;
+    background-color: #181818;
 }
 
 .animals {
