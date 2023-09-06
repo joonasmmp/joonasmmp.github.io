@@ -102,6 +102,10 @@ Aseta eläinsanat oikeaan kategoriaan. Osa eläimistä voi kuulua useampaan kate
     padding-bottom: 1em;
 }
 
+.dark .category {
+    background-color: #595858;
+}
+
 .animals {
     grid-template-columns: repeat(2, 1fr);
     flex: .5;
@@ -119,6 +123,12 @@ Aseta eläinsanat oikeaan kategoriaan. Osa eläimistä voi kuulua useampaan kate
     cursor: pointer;
     height: 2em;
 }
+
+.dark .animal {
+    background-color: #1F2937;
+    color: white;
+}
+
 
 #check-button {
     margin-top: 20px;
