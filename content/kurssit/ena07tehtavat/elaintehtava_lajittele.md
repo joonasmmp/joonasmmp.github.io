@@ -127,6 +127,7 @@ Aseta eläinsanat oikeaan kategoriaan. Osa eläimistä voi kuulua useampaan kate
 .dark .animal {
     background-color: #1F2937;
     color: white;
+    border: 1px solid #000000;
 }
 
 
