@@ -1,7 +1,9 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
 <div class="expand" style="border: 1px solid #ccccca;border-radius:4px;box-shadow:0 4px 10px rgb(128 128 128/.1);padding:1em;margin:1em">
     <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fas fa-chevron-down' : 'fas fa-chevron-right';});});">
-        <i style="font-size:x-small;" class="fas fa-chevron-right"></i>
+        <span class="material-symbols-outlined">
+            keyboard_arrow_right
+            </span>
         <span>
         {{$expandMessage := T "Expand-title"}}
     	{{ if .IsNamedParams }}
