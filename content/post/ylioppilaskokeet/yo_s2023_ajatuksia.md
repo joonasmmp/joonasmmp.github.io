@@ -25,7 +25,7 @@ Uutena ilmiönä avovastausten 100 merkin raja, kun ennen oli 150. Mutta kokeen 
 Moni odotti kokeeseen tekoälykysymystä, ja opettajatkin olivat varmoja, mutta ei ollut. Keväällä erittäin todennäköisesti on.
 
 ## Tehtävä 4
-### Kohta 4,1
+### Kohta 4.1
 Hattarakonetehtävässä suurin ongelma oli liiallinen tietoa, Abitreeneissä kysytään onko ok, jos mainitsee että henkilö omistaa hattarayrityksen. Sitähän ei mainita videolla, mutta jotta voit tehdä rahaa tällaisella toiminnalla, pitää vähintäänkin joku toiminimi olla alla, joten sen on pakko olla näin, vaikka ei videolla mainita. 
 
 Mutta sitten, onko oikein, jos mainitsee että henkilöllä on hattarakoneita? Tässähän käytetään sanaa hiring, eli jos menee täysin videon tietojen mukaan, henkilö ei välttämättä omista itse hattarakoneita, vaan toimii välikätenä hattarakoneen omistajan ja juhlien järjestäjän välillä. Saa nähdä lähteekö siitä pisteet. Myös se, että myy hattaroita juhlissa, on liiallista tietoa. Sitä ei mainita, ja jos oikein ymmärrän videon perusteella, henkilö ainoastaan toimittaa koneet juhliin eikä muuten osallistu hattaraprosessiin. Oma tulkinta voi olla joko luonnollinen tulkinta tai väärää tietoa, tai tietoa, jota ei ole nauhalla. Rajanveto jää sensoreille.
