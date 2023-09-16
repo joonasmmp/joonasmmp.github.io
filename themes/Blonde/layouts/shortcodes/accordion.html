@@ -1,4 +1,17 @@
-<details class="accordion rounded  border dark:border-darkBorder" {{ if eq (.Get 1) "open" }}open{{ end }}>
-    <summary class="flex items-center px-4 py-2 font-bold before:mr-0.5 before:-mt-0.5 before:text-xl before:text-gray-400">{{- index .Params 0 -}}</summary>
-    <div class="border-t px-4 py-2  dark:border-darkBorder">{{- .Inner | markdownify -}}</div>
-</details>
+{{ $_hugo_config := `{ "version": 1 }` }}
+<div class="expand">
+    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fas fa-chevron-down' : 'fas fa-chevron-right';});});">
+        <i style="font-size:x-small;" class="fas fa-chevron-right"></i>
+        <span>
+        {{$expandMessage := T "Expand-title"}}
+    	{{ if .IsNamedParams }}
+    	{{.Get "default" | default $expandMessage}}
+    	{{else}}
+    	{{.Get 0 | default $expandMessage}}
+    	{{end}}
+    	</span>
+    </div>
+    <div class="expand-content" style="display: none;">
+        {{.Inner | safeHTML}}
+    </div>
+</div>
