@@ -261,5 +261,6 @@ function drop(ev) {
 {{< /rawhtml >}}
 
 {{%accordion "Lisätietoja ?" %}}
-Toad ei ole Super Mario-pelisarjan sieni, vaan rupikonna. 
- !.{{% /accordion%}}
+Toad ei ole Super Mario-pelisarjan sieni, vaan rupikonna. <br>
+Saa jee ou nou
+{{% /accordion%}}
