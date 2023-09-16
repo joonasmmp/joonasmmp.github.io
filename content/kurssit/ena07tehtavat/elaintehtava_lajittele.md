@@ -262,6 +262,9 @@ function drop(ev) {
 
 {{%accordion "Lisätietoja ?" %}}
 Toad ei ole Super Mario-pelisarjan sieni, vaan rupikonna.
- <p>
-Saa jee ou nou </p>
+
+Kaksi riviä
+
+
+Kolme riviä
 {{% /accordion%}}
