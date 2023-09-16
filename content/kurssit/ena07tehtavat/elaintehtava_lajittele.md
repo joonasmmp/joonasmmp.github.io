@@ -260,11 +260,6 @@ function drop(ev) {
 
 {{< /rawhtml >}}
 
-{{%accordion "Lisätietoja ?" %}}
-Toad ei ole Super Mario-pelisarjan sieni, vaan rupikonna.
-
-Kaksi riviä
-
-
-Kolme riviä
+{{%accordion "Lisätietoja" %}}
+Toad ei ole Super Mario-pelisarjan sieni, vaan rupikonna. Hahmo on saanut nimensä englannin sanasta 'toadstool', joka tarkoittaa sientä. Teorian mukaan sanaan on päädytty, koska lakkimainen sieni näyttää muodoltaan ja kooltaan sellaiselta, jossa rupikonna voisi istua. Sana stool tarkoittaa siis tässä yhteydessä tuolia.
 {{% /accordion%}}
