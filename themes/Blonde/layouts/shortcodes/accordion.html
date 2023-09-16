@@ -1,8 +1,8 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
 <div class="expand" style="border: 1px solid #ccccca;border-radius:4px;box-shadow:0 4px 10px rgb(128 128 128/.1);padding:1em;margin:1em">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fas fa-chevron-down' : 'fas fa-chevron-right';});});">
+    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'keyboard_arrow_down' : 'keyboard_arrow_right';});});">
         <span class="material-symbols-outlined">
-            keyboard_arrow_right
+            keyboard_arrow_down
             </span>
         <span>
         {{$expandMessage := T "Expand-title"}}
@@ -17,3 +17,18 @@
         {{.Inner | safeHTML}}
     </div>
 </div>
+
+<style>
+    .material-symbols-outlined {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align:middle;
+    font-size: 2em;
+    font-variation-settings:
+      'FILL' 0,
+      'wght' 450,
+      'GRAD' 0,
+      'opsz' 48
+    }
+    
+    </style>
