@@ -224,7 +224,7 @@ $(document).ready(function() {
 ["family ties", "perhesuhteet"],
 ["family values", "perhearvot"],
 ["minor", "alaikäinen"],
-["upbringing", "kasvatus"]
+["upbringing", "kasvatus"],
   ];
 
   beginActivity();
