@@ -57,6 +57,8 @@ Yhteensä noin sadan epäsäännöllisen verbin taivutuksia. Älä vastaa väär
 
 [Flashcard: ENG-FIN]({{<ref "teemasanasto_flashcard_eng_fin.mdt" >}})
 
+[Flashcard: FIN-ENG]({{<ref "teemasanasto_flashcard_fin_eng.mdt" >}})
+
 {{< rawhtml >}}
 <style>
 #hello{
