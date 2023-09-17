@@ -54,7 +54,8 @@ Yhteensä noin sadan epäsäännöllisen verbin taivutuksia. Älä vastaa väär
 
 
 ## Sanastoa
-No ei ole vielä mittään
+
+[Flashcard: ENG-FIN]({{<ref "teemasanasto_flashcard_eng_fin.mdt" >}})
 
 {{< rawhtml >}}
 <style>
