@@ -43,7 +43,7 @@ $(document).ready(function() {
   var currentQuestion = 0;
   var qbank = [
 ["beard", "parta"],
-["cheek", p"oski"],
+["cheek", "poski"],
 ["chin", "leuankärki"],
 ["dimple", "hymykuoppa"],
 ["earlobe", "korvannipukka"],
