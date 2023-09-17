@@ -9,7 +9,7 @@ layout: tehtavaxxl
 Aseta eläinsanat oikeaan kategoriaan. Osa eläimistä voi kuulua useampaan kategoriaan, mutta tässä tehtävässä jokainen eläin kuuluu vain yhteen kategoriaan.
 
 {{< rawhtml >}}
-
+<meta name="viewport" content="width=1024">
 <div class="tarkista">
  <button id="check-button">Check Answers</button> 
 </div>
@@ -261,5 +261,5 @@ function drop(ev) {
 {{< /rawhtml >}}
 
 {{%accordion "Lisätietoja" %}}
-Toad ei ole Super Mario-pelisarjan sieni, vaan rupikonna. Hahmo on saanut nimensä englannin sanasta 'toadstool', joka tarkoittaa sientä. Teorian mukaan sanaan on päädytty, koska lakkimainen sieni näyttää muodoltaan ja kooltaan sellaiselta, jossa rupikonna voisi istua. Sana stool tarkoittaa siis tässä yhteydessä tuolia.
+Toad ei ole Super Mario-pelisarjan sieni, vaan rupikonna. Hahmo nimetty englannin sanasta 'toadstool', joka tarkoittaa sientä, koska lakkimainen sieni näyttää muodoltaan ja kooltaan sellaiselta, jossa rupikonna voisi istua.
 {{% /accordion%}}
