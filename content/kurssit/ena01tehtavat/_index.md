@@ -59,6 +59,9 @@ Yhteensä noin sadan epäsäännöllisen verbin taivutuksia. Älä vastaa väär
 
 [Flashcard: FIN-ENG]({{<ref "teemasanasto_flashcard_fin_eng.mdt" >}})
 
+[Teema 1: Body parts: yhdistä sanat - 6/9/12]({{<ref "teemasanasto_1_yhdista1.mdt" >}})
+
+
 {{< rawhtml >}}
 <style>
 #hello{
