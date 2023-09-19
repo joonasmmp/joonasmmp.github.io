@@ -73,6 +73,8 @@ Kun olet opiskellut taulukot, voit siirtyä tehtävien pariin
 
 ### Insights-teemasanat (LOPS 2016)
 
+bettter late than never
+
 [Insights-teemasanastot: FIN-ENG]({{<ref "teemasanasto_insights_flashcard_fin_eng.mdt" >}})
 
 [Insights-teemasanastot: ENG-FIN]({{<ref "teemasanasto_insights_flashcard_eng_fin.mdt" >}})
