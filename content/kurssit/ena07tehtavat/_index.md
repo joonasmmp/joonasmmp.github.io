@@ -40,6 +40,9 @@ layout: tehtavavalikko
 [Elements-teemasanastot: ENG-FIN]({{<ref "teemasanasto_elements_flashcard_eng_fin.mdt" >}})
 
 
+[Insights-teemasanastot: FIN-ENG]({{<ref "teemasanasto_insights_flashcard_fin_eng.mdt" >}})
+
+[Insights-teemasanastot: ENG-FIN]({{<ref "teemasanasto_insights_flashcard_eng_fin.mdt" >}})
 
 ### Etu- ja jälkiliitteet
 
@@ -73,9 +76,6 @@ Kun olet opiskellut taulukot, voit siirtyä tehtävien pariin
 
 bettter late than never
 
-[Insights-teemasanastot: FIN-ENG]({{<ref "teemasanasto_insights_flashcard_fin_eng.mdt" >}})
-
-[Insights-teemasanastot: ENG-FIN]({{<ref "teemasanasto_insights_flashcard_eng_fin.mdt" >}})
 {{% /accordion%}}
 
 
