@@ -307,11 +307,11 @@ $(document).ready(function() {
     beginActivity();
     })
     $("#teema2").on("mousedown", function(){
-    currentQuestion = 128;
+    currentQuestion = 129;
     beginActivity();
     })
     $("#teema3").on("mousedown", function(){
-    currentQuestion = 202;
+    currentQuestion = 204;
     beginActivity();
     })
 

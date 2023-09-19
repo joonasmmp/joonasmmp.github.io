@@ -293,9 +293,8 @@ $(document).ready(function() {
 ["otsonikato", "ozone depletion"],
 ["merenpinnan nousu", "sea level rise"],
 ["tulivuorenpurkaus", "volcanic eruption"],
-["maastopalo", "wildfire"]
-
-  ];
+["maastopalo", "wildfire"],
+];
 
   beginActivity();
   edellinen();
@@ -308,11 +307,11 @@ $(document).ready(function() {
     beginActivity();
     })
     $("#teema2").on("mousedown", function(){
-    currentQuestion = 128;
+    currentQuestion = 129;
     beginActivity();
     })
     $("#teema3").on("mousedown", function(){
-    currentQuestion = 202;
+    currentQuestion = 204;
     beginActivity();
     })
 
