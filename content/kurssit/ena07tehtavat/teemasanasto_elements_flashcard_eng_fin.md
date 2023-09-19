@@ -294,7 +294,6 @@ $(document).ready(function() {
 ["sea level rise", "merenpinnan nousu"],
 ["volcanic eruption", "tulivuorenpurkaus"],
 ["wildfire", "maastopalo"],
-
 ];
 
   beginActivity();
