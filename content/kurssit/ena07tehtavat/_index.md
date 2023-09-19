@@ -25,6 +25,8 @@ layout: tehtavavalikko
 
 [Teema 1: The Natural World: yhdistä sanat - 6/9/12]({{<ref "teemasanasto_1_yhdista1.mdt" >}})
 
+[Teema 1: The Natural World: yhdistä sanat - Loputon]({{<ref "teemasanasto_1_yhdista2.mdt" >}})
+
 ### Insights-teemasanat (LOPS 2016)
 
 [Insights-teemasanastot: FIN-ENG]({{<ref "teemasanasto_insights_flashcard_fin_eng.mdt" >}})
