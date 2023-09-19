@@ -1,10 +1,9 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
 <div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'keyboard_arrow_down' : 'keyboard_arrow_right';});});">
-        <span class="material-symbols-outlined">
-            keyboard_arrow_down 
-            </span>
-        <span>
+    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'material-symbols-outlined rotate-0' : 'material-symbols-outlined rotate-180';});});">
+        <span class="material-symbols-outlined">keyboard_arrow_down</span>
+    
+    <span>
         {{$expandMessage := T "Expand-title"}}
     	{{ if .IsNamedParams }}
     	{{.Get "default" | default $expandMessage}}
@@ -30,14 +29,7 @@
       'GRAD' 0,
       'opsz' 48
     }
-
-    .expand:not(.collapsed){
-    transform: rotate(180deg);
-  }
-  .expand:is(.collapsed) {
-    transform: rotate(0deg);
-  }
-    
+   
 </style>
 
 <script>
