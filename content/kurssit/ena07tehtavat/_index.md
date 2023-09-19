@@ -40,11 +40,6 @@ layout: tehtavavalikko
 [Elements-teemasanastot: ENG-FIN]({{<ref "teemasanasto_elements_flashcard_eng_fin.mdt" >}})
 
 
-### Insights-teemasanat (LOPS 2016)
-
-[Insights-teemasanastot: FIN-ENG]({{<ref "teemasanasto_insights_flashcard_fin_eng.mdt" >}})
-
-[Insights-teemasanastot: ENG-FIN]({{<ref "teemasanasto_insights_flashcard_eng_fin.mdt" >}})
 
 ### Etu- ja jälkiliitteet
 
@@ -73,6 +68,17 @@ Kun olet opiskellut taulukot, voit siirtyä tehtävien pariin
 [9. Valitse oikea etuliite]({{<ref "etuliitteet_kirjoita8.mdt" >}}) 
 
 [10. Valitse oikea etuliite]({{<ref "etuliitteet_kirjoita9.mdt" >}}) 
+
+{{%accordion "Lisätietoja" %}}
+
+### Insights-teemasanat (LOPS 2016)
+
+[Insights-teemasanastot: FIN-ENG]({{<ref "teemasanasto_insights_flashcard_fin_eng.mdt" >}})
+
+[Insights-teemasanastot: ENG-FIN]({{<ref "teemasanasto_insights_flashcard_eng_fin.mdt" >}})
+{{% /accordion%}}
+
+
 
 {{< rawhtml >}}
 <style>
