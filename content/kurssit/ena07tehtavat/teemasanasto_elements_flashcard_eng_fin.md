@@ -295,7 +295,7 @@ $(document).ready(function() {
 ["volcanic eruption", "tulivuorenpurkaus"],
 ["wildfire", "maastopalo"],
 
-  ];
+];
 
   beginActivity();
   edellinen();

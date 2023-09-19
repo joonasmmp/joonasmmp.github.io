@@ -35,9 +35,9 @@ layout: tehtavavalikko
 
 [Teema 3: Climate change and Natural disasters: yhdistä sanat - Loputon]({{<ref "teemasanasto_3_yhdista2.mdt" >}})
 
-[Elements-teemasanastot: FIN-ENG]({{<ref "teemasanasto_elements_flashcard_fin_eng.mdt" >}})
+[Elements-teemasanastot: FIN-ENG]({{<ref "teemasanasto_elements_flashcard_eng_fin.mdt" >}})
 
-[Elements-teemasanastot: ENG-FIN]({{<ref "teemasanasto_elements_flashcard_eng_fin.mdt" >}})
+[Elements-teemasanastot: ENG-FIN]({{<ref "teemasanasto_elements_flashcard_fin_eng.mdt" >}})
 
 
 ### Insights-teemasanat (LOPS 2016)

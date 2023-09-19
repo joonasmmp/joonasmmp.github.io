@@ -293,9 +293,9 @@ $(document).ready(function() {
 ["otsonikato", "ozone depletion"],
 ["merenpinnan nousu", "sea level rise"],
 ["tulivuorenpurkaus", "volcanic eruption"],
-["maastopalo", "wildfire"]
+["maastopalo", "wildfire"],
 
-  ];
+];
 
   beginActivity();
   edellinen();
