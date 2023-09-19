@@ -85,7 +85,6 @@ window.onload = function() {
 }, { index: 48, text: 'wildfire'
 
 
-
 },
 
     ],
