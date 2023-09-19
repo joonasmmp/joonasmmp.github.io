@@ -63,6 +63,8 @@ Yhteensä noin sadan epäsäännöllisen verbin taivutuksia. Älä vastaa väär
 
 [Teema 1: Body parts: yhdistä sanat - Loputon]({{<ref "teemasanasto_1_yhdista2.mdt" >}})
 
+[Teema 2: Health: yhdistä sanat - 6/9/12]({{<ref "teemasanasto_2_yhdista1.mdt" >}})
+
 
 {{< rawhtml >}}
 <style>
