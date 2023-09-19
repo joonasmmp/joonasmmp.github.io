@@ -1,0 +1,52 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+<div class="expand">
+    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h = $(this);$h.children('span').attr('class',function () {return $h.next('div').is(':visible') ? 'material-symbols-outlined keyboard_arrow_down' : 'material-symbols-outlined keyboard_arrow_right';});});">";
+        $h.next('div').slideToggle(100, function () {);">
+        <span class="material-symbols-outlined">
+            keyboard_arrow_down
+            </span>
+        <span>
+        {{$expandMessage := T "Expand-title"}}
+    	{{ if .IsNamedParams }}
+    	{{.Get "default" | default $expandMessage}}
+    	{{else}}
+    	{{.Get 0 | default $expandMessage}}
+    	{{end}}
+    	</span>
+    </div>
+    <div class="expand-content" style="display: none;">
+        {{.Inner | safeHTML}}
+    </div>
+</div>
+
+<style>
+    .material-symbols-outlined {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align:middle;
+    font-size: 2em;
+    font-variation-settings:
+      'FILL' 0,
+      'wght' 450,
+      'GRAD' 0,
+      'opsz' 48
+    }
+    
+</style>
+
+<script>
+    function toggleContent(element) {
+      var $h = $(element);
+      var $nextDiv = $h.next('div');
+    
+      $nextDiv.slideToggle(100, function() {
+        var content = $nextDiv.text();
+        content = content === 'a' ? 'e' : 'a';
+        $nextDiv.text(content);
+    
+        // Toggle the icon class between 'a' and 'e'
+        var icon = $h.children('i');
+        icon.text(content);
+      });
+    }
+    </script>
