@@ -27,6 +27,19 @@ layout: tehtavavalikko
 
 [Teema 1: The Natural World: yhdistä sanat - Loputon]({{<ref "teemasanasto_1_yhdista2.mdt" >}})
 
+[Teema 2: Energy and Production: yhdistä sanat - 6/9/12]({{<ref "teemasanasto_2_yhdista1.mdt" >}})
+
+[Teema 2: Energy and Production: yhdistä sanat - Loputon]({{<ref "teemasanasto_2_yhdista2.mdt" >}})
+
+[Teema 3: Climate change and Natural disasters: yhdistä sanat - 6/9/12]({{<ref "teemasanasto_3_yhdista1.mdt" >}})
+
+[Teema 3: Climate change and Natural disasters: yhdistä sanat - Loputon]({{<ref "teemasanasto_3_yhdista2.mdt" >}})
+
+[Insights-teemasanastot: FIN-ENG]({{<ref "teemasanasto_elements_flashcard_fin_eng.mdt" >}})
+
+[Insights-teemasanastot: ENG-FIN]({{<ref "teemasanasto_elements_flashcard_eng_fin.mdt" >}})
+
+
 ### Insights-teemasanat (LOPS 2016)
 
 [Insights-teemasanastot: FIN-ENG]({{<ref "teemasanasto_insights_flashcard_fin_eng.mdt" >}})
