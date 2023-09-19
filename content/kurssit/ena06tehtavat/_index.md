@@ -8,9 +8,9 @@ layout: tehtavavalikko
 Jatko-opintoja ja työelämää ja sellasta hei 
 
 ## Laskettavat ja ei-laskettavat substantiivit
-* ["Lauseenvastikkeet: Kirjoita"]({{<ref "lauseenvastikkeet_kirjoita.mdt" >}})
+[Lauseenvastikkeet: Kirjoita]({{<ref "lauseenvastikkeet_kirjoita.mdt" >}})
 
-Muuta lauseenvastikkeiksi
+[Prepositioilmaisuja: Flashcard]({{<ref "prepositioilmaisuja_flashcard.mdt" >}})
 
 ## Sanastoa
 No ei ole vielä mittään

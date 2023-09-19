@@ -10,8 +10,6 @@ layout: tehtavavalikko
 ### Prepositioilmaisuja / Fraasiverbit
 [Fraasiverbit: Flashcard]({{<ref "fraasiverbit_flashcard.mdt" >}})
 
-[Prepositioilmaisuja: Flashcard]({{<ref "prepositioilmaisuja_flashcard.mdt" >}})
-
 ### Konjunktiot ja sidossanat
 [1. Täydennä linkkisanat]({{<ref "konnektiivit_kirjoita.mdt" >}})
 
@@ -22,6 +20,10 @@ layout: tehtavavalikko
 [1. Yhdistä eläinsanat]({{<ref "elaintehtava_lajittele.mdt" >}})
 
 ### Elements-teemasanat
+
+[Elements-teemasanastot: FIN-ENG]({{<ref "teemasanasto_elements_flashcard_fin_eng.mdt" >}})
+
+[Elements-teemasanastot: ENG-FIN]({{<ref "teemasanasto_elements_flashcard_eng_fin.mdt" >}})
 
 [Teema 1: The Natural World: yhdistä sanat - 6/9/12]({{<ref "teemasanasto_1_yhdista1.mdt" >}})
 
@@ -34,11 +36,6 @@ layout: tehtavavalikko
 [Teema 3: Climate change and Natural disasters: yhdistä sanat - 6/9/12]({{<ref "teemasanasto_3_yhdista1.mdt" >}})
 
 [Teema 3: Climate change and Natural disasters: yhdistä sanat - Loputon]({{<ref "teemasanasto_3_yhdista2.mdt" >}})
-
-[Elements-teemasanastot: FIN-ENG]({{<ref "teemasanasto_elements_flashcard_fin_eng.mdt" >}})
-
-[Elements-teemasanastot: ENG-FIN]({{<ref "teemasanasto_elements_flashcard_eng_fin.mdt" >}})
-
 
 
 ### Etu- ja jälkiliitteet
@@ -69,7 +66,9 @@ Kun olet opiskellut taulukot, voit siirtyä tehtävien pariin
 
 [10. Valitse oikea etuliite]({{<ref "etuliitteet_kirjoita9.mdt" >}}) 
 
+## LOPS 2017 Tehtävät
 
+Seuraavat tehtävät kuuluvat vanhaan kirjasarjaan. Mikäli harjoittelet ylioppilaskokeisin, ovat ne silti hyödyllisiä.
 
 {{%accordion2 "LOPS2016 tehtävät" %}}
 
