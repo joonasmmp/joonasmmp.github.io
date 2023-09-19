@@ -262,4 +262,9 @@ function drop(ev) {
 
 {{%accordion "Lisätietoja" %}}
 Toad ei ole Super Mario-pelisarjan sieni, vaan rupikonna. Hahmo nimetty englannin sanasta 'toadstool', joka tarkoittaa sientä, koska lakkimainen sieni näyttää muodoltaan ja kooltaan sellaiselta, jossa rupikonna voisi istua.
+
+[Insights-teemasanastot: FIN-ENG]({{<ref "teemasanasto_insights_flashcard_fin_eng.mdt" >}})
+
+[Insights-teemasanastot: ENG-FIN]({{<ref "teemasanasto_insights_flashcard_eng_fin.mdt" >}})
+
 {{% /accordion%}}
