@@ -92,7 +92,7 @@ window.onload = function() {
 
   definitions: [{
     
-}, { index: 0, text: 'sopeutuminen'
+     index: 0, text: 'sopeutuminen'
 }, { index: 1, text: 'antroposeeni, ihmisen vaikutuksen aikakausi'
 }, { index: 2, text: 'ilmakehä'
 }, { index: 3, text: 'luonnon monimuotoisuus'

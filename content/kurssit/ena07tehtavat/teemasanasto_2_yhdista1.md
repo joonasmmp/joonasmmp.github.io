@@ -34,7 +34,7 @@ window.onload = function() {
   //Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main file
    var data = {
     terms: [{
-}, { index: 0, text: 'biofuel'
+     index: 0, text: 'biofuel'
 }, { index: 1, text: 'biogas'
 }, { index: 2, text: 'biomass'
 }, { index: 3, text: 'geothermal energy'
@@ -118,7 +118,7 @@ window.onload = function() {
 
   definitions: [{
     
-}, { index: 0, text: 'biopolttoaine'
+     index: 0, text: 'biopolttoaine'
 }, { index: 1, text: 'biokaasu'
 }, { index: 2, text: 'biomassa'
 }, { index: 3, text: 'maalämpö'

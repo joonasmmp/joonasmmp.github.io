@@ -166,7 +166,7 @@ window.onload = function() {
 
   definitions: [{
     
-}, { index: 0, text: 'saaristo'
+     index: 0, text: 'saaristo'
 }, { index: 1, text: 'lahti'
 }, { index: 2, text: 'puro'
 }, { index: 3, text: 'kanaali'
