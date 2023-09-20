@@ -13,12 +13,12 @@ layout: tehtava
   <div class="row">
   <section data-quiz-item>
     <div class="question">Mikä seuraavista on oikein?</div>
-    <div class="choices" data-choices='["I often read cookbooks because they are very informative.","I often read cookbooks, because they are very informative.", "I often read cookbook,s because, they are very informative."]'></div>
-    <p class="info">Tässä ei tarvita pilkkua, koska aloittava lause on päälause, ja sitä seuraa sivulause.</p>
+    <div class="choices" data-choices='["I often read cookbooks because they are very informative.","I often read cookbooks, because they are very informative.", "I often read cookbooks, because, they are very informative."]'></div>
+    <p class="info">Tässä ei tarvita pilkkua, koska aloittava lause on päälause eikä sivulause.</p>
   </section>
   <section data-quiz-item>
     <div class="question">Mikä seuraavista on oikein?</div>
-    <div class="choices" data-choices='["If you want to learn comma rules try doing these exercises.","If you want to learn comma rules, try doing these exercises.", "If, you want to learn comma rules try doing these exercises."]'></div>
+    <div class="choices" data-choices='["If you want to learn comma rules try doing these exercises.","If you want to learn comma rules, try doing these exercises.", "If, you want to learn comma rules, try doing these exercises."]'></div>
     <p class="info">Sivulause aloittaa lauseen (ehtolause), joten pilkku ennen päälausetta.</p>
    </section>
   </div>
@@ -26,7 +26,7 @@ layout: tehtava
   <section data-quiz-item>
     <div class="question">Mikä seuraavista on oikein?</div>
     <div class="choices" data-choices='["I would however like to study something else.", "I would, however like to study something else.", "I would, however, like to study something else."]'></div>
-    <p class="info">Irrallisiin konnektiiveihin pilkut ympärille.</p>
+    <p class="info">Irrallisiin konnektiiveihin kuten lauseadverbiaaleihin pilkut ympärille.</p>
   </section>
    <section data-quiz-item>
     <div class="question">Mikä seuraavista on oikein?</div> 
@@ -184,9 +184,15 @@ $(document).emc({
 });</script>
 {{< /rawhtml >}}
 
-{{%accordion "Pilkkusäännöt lyhyesti" %}}
+{{%accordion "Säännöt lyhyesti" %}}
+Pilkut:
 1. Päälauseen jälkeen tulevaa sivulausetta ei eroteta pilkulla (päälause sivulause).
 2. Päälausetta edeltävät sivilauseet erotetaan pilkulla (sivulause, päälause.). 
 3. Irrralliset lisäykset, esim relatiivilauseet (who/which/that), lauseenvastikkeet tai lauseadverbiaalit (besides, however, in fact), erotetaan muusta lauseesta pilkuilla, tosin ei that-alkuisia relatiivilauseita.
 4. Pilkulla erotetaan myös rinnasteiset päälauseet (but, and, or) sekä luettelon eri osat.
+
+Yhdysviivat:
+1. Käytetään moniosaisen adjektiivin lailla käytettävän sanayhdistelmän eteen silloin kun se edeltää substantiivia. Monesti nämä ovat mittaa ilmaisevia asioita (aika, ikä, hinta), mutta ei aina, esim. "a well-known fact".
+2. Ei yhdysviivoja silloin kun sana on itsenäinen ilman substantiivia, esim. "My grandma is 85 years old."
+3. Toisin kuin suomessa, yhdysviivoja ei käytetä yhdyssanoissa, joiden ensimmäinen osa on jokin nimi tai lyhennys, kuten TV show, New York, EU member state.
 {{% /accordion%}}
