@@ -62,6 +62,9 @@ Yhteensä noin sadan epäsäännöllisen verbin taivutuksia. Älä vastaa väär
 
 [1. Välimerkit: Alkutesti]({{<ref "valimerkit_alkutesti.mdt" >}})
 
+### Isot alkukirjaimet
+
+[1. Isot alkukirjaimet: Lopputesti]({{<ref "alkukirjaimet_lopputesti.mdt" >}})
 
 ## Sanastoa
 
