@@ -31,7 +31,7 @@ layout: tehtava
    <section data-quiz-item>
     <div class="question">That umbrella over there is ______.</div> 
     <div class="choices" data-choices='["my", "mine", "me", "I"]'></div>
-    <p class="info">Itsenäinen omistuspronomini 'mine', koska sitä ei seuraa substantiivia.</p>
+    <p class="info">Itsenäinen omistuspronomini 'mine', koska sitä ei seuraa substantiivi.</p>
   </section>
   </div>
    <div class="row">
@@ -43,7 +43,7 @@ layout: tehtava
    <section data-quiz-item>
     <div class="question">This exercise has lost ____ purpose now that I know all these pronoun rules by heart</div>
     <div class="choices" data-choices='["their", "its", "it&apos;s", "their&apos;s"]'></div>
-    <p class="info">Ei mitään heittomerkkejä omistusmuodoissa!.</p>
+    <p class="info">Ei mitään heittomerkkejä omistusmuodoissa!</p>
   </section>
   </div>
 
