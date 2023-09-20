@@ -60,7 +60,7 @@ Yhteensä noin sadan epäsäännöllisen verbin taivutuksia. Älä vastaa väär
 
 ### Välimerkit
 
-[1. Välimerkit: Alkutesti]({{<ref "välimerkit_alkutesti.mdt" >}})
+[1. Välimerkit: Alkutesti]({{<ref "valimerkit_alkutesti.mdt" >}})
 
 
 ## Sanastoa
