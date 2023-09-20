@@ -13,7 +13,7 @@ layout: tehtava
   <div class="row">
   <section data-quiz-item>
     <div class="question">______ have some difficulties with personal pronouns.</div>
-    <div class="choices" data-choices='["He","She", "We", "I]'></div>
+    <div class="choices" data-choices='["He","She", "We", "I"]'></div>
     <p class="info">Vastauksen pakko olla 'We', koska sitä seuraava verbi 'have' on monikko.</p>
   </section>
   <section data-quiz-item>
