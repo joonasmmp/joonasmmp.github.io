@@ -52,6 +52,12 @@ Perfekti tökkii jos apuverbi on väärin, ja monesti se tuntuu olevan.
 
 Yhteensä noin sadan epäsäännöllisen verbin taivutuksia. Älä vastaa väärin.
 
+## Muut kielioppiasiat
+
+### Persoonapronominit
+
+[1. Persoonapronominit: Alkutesti]({{<ref "persoonapronominit_alkutesti.mdt" >}})
+
 
 ## Sanastoa
 
