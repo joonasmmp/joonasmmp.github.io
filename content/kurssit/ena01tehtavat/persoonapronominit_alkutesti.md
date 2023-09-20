@@ -160,3 +160,7 @@ $(document).emc({
   key: ["3","4","4","2","1","2"]
 });</script>
 {{< /rawhtml >}}
+
+{{%accordion "Lisätietoja" %}}
+Viisi erilaista persoonapronominia: subjektimuoto (I), kohdemuoto (me), kaksi omistusmuotoa eli adjektiivinen (my) ja itsenäinen (mine), sekä suomen kielen itse-sanaa vastaava refleksiivimuoto (myself)
+{{% /accordion%}}

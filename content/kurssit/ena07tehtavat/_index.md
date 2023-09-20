@@ -66,7 +66,7 @@ Kun olet opiskellut taulukot, voit siirtyä tehtävien pariin
 
 [10. Valitse oikea etuliite]({{<ref "etuliitteet_kirjoita9.mdt" >}}) 
 
-## LOPS 2017 Tehtävät
+## LOPS 2016 Tehtävät
 
 Seuraavat tehtävät kuuluvat vanhaan kirjasarjaan. Mikäli harjoittelet ylioppilaskokeisin, ovat ne silti hyödyllisiä.
 

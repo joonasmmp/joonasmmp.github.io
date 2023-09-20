@@ -58,6 +58,10 @@ Yhteensä noin sadan epäsäännöllisen verbin taivutuksia. Älä vastaa väär
 
 [1. Persoonapronominit: Alkutesti]({{<ref "persoonapronominit_alkutesti.mdt" >}})
 
+### Välimerkit
+
+[1. Välimerkit: Alkutesti]({{<ref "välimerkit_alkutesti.mdt" >}})
+
 
 ## Sanastoa
 
