@@ -157,6 +157,6 @@ layout: tehtava
  
  
 $(document).emc({
-  key: ["3","3","4","2","1","2"]
+  key: ["3","4","4","2","1","2"]
 });</script>
 {{< /rawhtml >}}
