@@ -144,6 +144,8 @@ populate();
 
 {{< /rawhtml >}}
 
+
+
 {{%accordion "Säännöt lyhyesti" %}}
 Isolla seuraavat:
 1. Ensimmäinen sana lauseessa.
