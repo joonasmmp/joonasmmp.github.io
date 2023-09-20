@@ -37,12 +37,12 @@ layout: tehtava
    <div class="row">
   <section data-quiz-item>
     <div class="question">But that ugly blue umbrella over there, that's _____ umbrella.</div>
-    <div class="choices" data-choices='["your", "yours", "your's", "you"]'></div>
+    <div class="choices" data-choices='["your", "yours", "your&apos;s", "you"]'></div>
     <p class="info">Kun omistuspronominia seuraa substantiivi, on käytettävä sen adjektiivimuotoa 'your'</p>
   </section>
    <section data-quiz-item>
     <div class="question">This exercise has lost ____ purpose now that I know all these pronoun rules by heart</div>
-    <div class="choices" data-choices='["their", "its", "it's", "their's"]'></div>
+    <div class="choices" data-choices='["their", "its", "it&apos;s", "their&apos;s"]'></div>
     <p class="info">Ei mitään heittomerkkejä omistusmuodoissa!.</p>
   </section>
   </div>
