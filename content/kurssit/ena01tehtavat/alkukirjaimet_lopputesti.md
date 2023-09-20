@@ -12,7 +12,7 @@ layout: tehtava
 <body>
 <div id="quiz">
 
-            <p id="question"></p>
+            <p style="text-align:center;" id="question"></p>
  <br>
             <div class="buttons">
             <button id="btn0"><span id="choice0"></span></button> 
@@ -117,7 +117,7 @@ var questions = [
   new Question("kesä", ["summer", "Summer"], "summer"),
   new Question("sinä", ["you", "You"], "you"),
   new Question("new york", ["New york", "New York"], "New York"),
-  new Question("grand canyon", ["the Grand canyon", "The Grand Canyon"], "The Grand Canyon"),
+  new Question("grand canyon", ["the Grand canyon", "the Grand Canyon"], "the Grand Canyon"),
   new Question("suomi", ["finland", "Finland"], "Finland"),
   new Question("suomalainen", ["finnish", "Finnish"], "Finnish"),
   new Question("kapkaupunki", ["Cape town", "Cape Town"], "Cape Town"),
