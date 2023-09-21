@@ -133,7 +133,7 @@ var questions = [
   new Question("There ____ some people at the party I had never met before", ["is", "was", "are", "were",], "were"),
   new Question("There ____ many people I haven't already met", ["isn't", "aren't", "hasn't been", "were",], "aren't"),
   new Question("There ____ a cat and two dogs outside.", ["is", "are", "have been", "had been",], "is"),
-  new Question("There ____ a cat and two dogs outside last night.", ["is", "are", "have been", "had been",], "was"),
+  new Question("There ____ a cat and two dogs outside last night.", ["is", "are", "have been", "was",], "was"),
 
 
 
