@@ -36,7 +36,7 @@ layout: tehtava
   </div>
    <div class="row">
   <section data-quiz-item>
-    <div class="question">_____ a long way from here to Albuquerque. Let's hurry.</div>
+    <div class="question">_____ is a long way from here to Albuquerque. Let's hurry.</div>
    <div class="choices" data-choices='["There", "It"]'></div>
     <p class="info">Välimatkoissa aina it.</p>
   </section>
@@ -53,7 +53,7 @@ layout: tehtava
     <p class="info">Ajan ilmaisu -> it.</p>
   </section>
    <section data-quiz-item>
- <div class="question">_____ someone outside last night, but he ran away when he saw me.</div>
+ <div class="question">_____ was someone outside last night, but he ran away when he saw me.</div>
    <div class="choices" data-choices='["There", "It"]'></div>
     <p class="info">Jossain oli jotakin -> there.</p>
   </section>
