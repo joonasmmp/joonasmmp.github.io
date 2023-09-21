@@ -125,7 +125,7 @@ var questions = [
   new Question("How many people ___ there at your lesson last night?", ["was", "were", "had been", "is",], "were"),
   new Question("There ____ no students left, let's start packing our books.", ["is", "are", "were", "was",], "are"),
   new Question("In our school it ____ customary to call our teachers Mr./Mrs. Teachers", ["is", "are", "were", "was",], "is"),
-  new Question("It ____  a weird year, hasn't it?", ["is", "have been", "has been", "was",], "has been"),
+  new Question("It ____ a weird year, hasn't it?", ["is", "have been", "has been", "was",], "has been"),
   new Question("It ____ a weird year, wasn't it?", ["is", "have", "has", "was",], "was"),
   new Question("There ____ a test last week? I must've missed it!", ["is", "has been", "has", "was",], "was"),
   new Question("It ____ only last year when I aced all tests possible.", ["was", "were", "are", "is",], "was"),
