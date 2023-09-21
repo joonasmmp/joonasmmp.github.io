@@ -54,6 +54,10 @@ Yhteensä noin sadan epäsäännöllisen verbin taivutuksia. Älä vastaa väär
 
 ## Muut kielioppiasiat
 
+### Muodolliset subjektit it ja there
+
+[1. Muodolliset subjektit: Alkutesti]({{<ref "there_it_alkutesti.mdt" >}})
+
 ### Persoonapronominit
 
 [1. Persoonapronominit: Alkutesti]({{<ref "persoonapronominit_alkutesti.mdt" >}})
