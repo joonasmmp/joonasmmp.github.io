@@ -67,7 +67,7 @@ layout: tehtava
   <section data-quiz-item>
     <div class="question">_____ was my father who taught me to talk French. Je suis un passport.</div>
    <div class="choices" data-choices='["There", "It"]'></div>
-    <p class="info">Jonkin asian korostus -> it..</p>
+    <p class="info">Jonkin asian korostus -> it.</p>
   </section>
   </div>
 </div>

@@ -58,6 +58,8 @@ Yhteensä noin sadan epäsäännöllisen verbin taivutuksia. Älä vastaa väär
 
 [1. Muodolliset subjektit: Alkutesti]({{<ref "there_it_alkutesti.mdt" >}})
 
+[2. Muodolliset subjektit: Lopputesti]({{<ref "there_it_lopputesti.mdt" >}})
+
 ### Persoonapronominit
 
 [1. Persoonapronominit: Alkutesti]({{<ref "persoonapronominit_alkutesti.mdt" >}})
