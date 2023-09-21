@@ -134,7 +134,7 @@ var questions = [
   new Question("There ____ many people I haven't already met", ["isn't", "aren't", "hasn't been", "were",], "aren't"),
   new Question("There ____ a cat and two dogs outside.", ["is", "are", "have been", "had been",], "are"),
   new Question("There ____ a cat and two dogs outside last night.", ["is", "are", "have been", "had been",], "were"),
-  
+
 
 
 ];
@@ -147,20 +147,3 @@ populate();
 </script>
 
 {{< /rawhtml >}}
-
-
-
-{{%accordion "Säännöt lyhyesti" %}}
-Isolla seuraavat:
-1. Ensimmäinen sana lauseessa.
-2. Erisnimet, mutta ei artikkelit ja prepositiot ellei ole teoksen nimi kyseessä.
-3. Sukulaisuutta, arvoa tai ammattia ilmaisevat sanat, jotka esiintyvät erisnimen yhteydessä.
-4. Maantieteelliset nimet, mutta ei ilmansuunnat, elleivät ole osa maantieteellistä nimeä, esim. "the North Pole".
-5. Tapahtumat, kaudet, juhlat, mutta ei vuodenajat.
-6. Uskontoa, kansallisuutta, kieltä, rotua, poliittista suuntausta ilmaisevat sanat, myös adjektiivit.
-7. Teoksen nimi, mutta ei artikkelit ja prepositiot, mutta ensimmäinen sana isolla, oli se mikä tahansa.
-8. Historialliset tapahtumat ja ajanjaksot.
-9. Laitokset, yhdistykset, yritykset, mutta ei artikkelit ja prepositiot.
-10. Minä, eli I, mutta ei muut pronominit.
-
-{{% /accordion%}}
