@@ -125,15 +125,15 @@ var questions = [
   new Question("How many people ___ there at your lesson last night?", ["was", "were", "had been", "is",], "were"),
   new Question("There ____ no students left, let's start packing our books.", ["is", "are", "were", "was",], "are"),
   new Question("In our school it ____ customary to call our teachers Mr./Mrs. Teachers", ["is", "are", "were", "was",], "is"),
-  new Question("It ____ been a weird year, hasn't it?", ["is", "have", "has", "was",], "has"),
-  new Question("It ____ been a weird year, wasn't it?", ["is", "have", "has", "was",], "was"),
+  new Question("It ____  a weird year, hasn't it?", ["is", "have been", "has been", "was",], "has been"),
+  new Question("It ____ a weird year, wasn't it?", ["is", "have", "has", "was",], "was"),
   new Question("There ____ a test last week? I must've missed it!", ["is", "has been", "has", "was",], "was"),
-  new Question("It ____ only last year when I aced all tests possible.", ["was", "were", "are", "id",], "was"),
+  new Question("It ____ only last year when I aced all tests possible.", ["was", "were", "are", "is",], "was"),
   new Question("There ____ a lot of noise at the party last night.", ["is", "was", "has been", "were",], "was"),
   new Question("There ____ some people at the party I had never met before", ["is", "was", "are", "were",], "were"),
   new Question("There ____ many people I haven't already met", ["isn't", "aren't", "hasn't been", "were",], "aren't"),
-  new Question("There ____ a cat and two dogs outside.", ["is", "are", "have been", "had been",], "are"),
-  new Question("There ____ a cat and two dogs outside last night.", ["is", "are", "have been", "had been",], "were"),
+  new Question("There ____ a cat and two dogs outside.", ["is", "are", "have been", "had been",], "is"),
+  new Question("There ____ a cat and two dogs outside last night.", ["is", "are", "have been", "had been",], "was"),
 
 
 
