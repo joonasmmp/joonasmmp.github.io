@@ -10,10 +10,11 @@ layout: tehtavavalikko
 ### Prepositioilmaisuja / Fraasiverbit
 [Fraasiverbit: Flashcard]({{<ref "fraasiverbit_flashcard.mdt" >}})
 
-### Konjunktiot ja sidossanat
-[1. Täydennä linkkisanat]({{<ref "konnektiivit_kirjoita.mdt" >}})
+### Apuverbit (ENA4)
+[1. Täydennä apuverbimuodot]({{<ref "kurssit/ena04tehtavat/apuverbit_kirjoita1.mdt" >}})
 
-[2. Täydennä linkkisanat]({{<ref "konnektiivit_kirjoita2.mdt" >}})
+[2. Täydennä apuverbimuodot]({{<ref "kurssit/ena04tehtavat/apuverbit_kirjoita2.mdt" >}})
+
 
 ## Sanasto 
 

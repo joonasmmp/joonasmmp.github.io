@@ -19,7 +19,6 @@ Kurssi kolme eli kieli ja kulttuuri ja tässä sisältöä siihen
 ### Genetiivi
 [1. Genetiivi: Flashcard]({{<ref "genetiivi_flashcard.mdt" >}})
 
-
 ### Epäsuora kerronta
 [1. Epäsuora kerronta: Alkutesti]({{<ref "epasuora_alkutesti.mdt" >}})
 
