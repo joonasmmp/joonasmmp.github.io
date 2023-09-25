@@ -14,7 +14,7 @@ Täydennä verbimuodot annetun vihjeen mukaan.
   <ol>
   
 <section>
-1. I&nbsp;<li><input id="q1" type="text"/>If I pass this exam, I <span></span></li>&nbsp; (be) the happiest student in this school. 
+1. If I pass this exam, I &nbsp;<li><input id="q1" type="text"/>&nbsp; (be) the happiest student in this school. 
 </section>
 <section>
 2. My brother will be furious if Arsenal&nbsp;<li><input id="q2" type="text"/><span></span></li>&nbsp; (win) tonight.
