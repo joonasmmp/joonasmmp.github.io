@@ -15,6 +15,8 @@ layout: tehtavavalikko
 
 [2. Täydennä apuverbimuodot]({{<ref "/kurssit/ena04tehtavat/apuverbit_kirjoita2.mdt" >}})
 
+### Aikamuotoharmonia
+[1. Täydennä ehtolauseet]({{<ref "harmonia_kirjoita1.mdt">}})
 
 ## Sanasto 
 
