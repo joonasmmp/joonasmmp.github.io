@@ -20,11 +20,13 @@ layout: tehtavavalikko
 
 [2. Täydennä ehtolauseet]({{<ref "harmonia_kirjoita2.mdt">}})
 
-[3. Epäsuora kerronta: Alkutesti (ENA3)]({{<ref "/kurssit/ena03tehtavat/epasuora_alkutesti.mdt" >}})
+[3. Aikamuotoharmonian poikkeustapaukset]({{<ref "harmonia_poikkeukset.mdt">}})
 
-[4 Epäsuora kerronta: Flashcard (ENA3)]({{<ref "/kurssit/ena03tehtavat/epasuora_flashcard.mdt" >}})
+[4. Epäsuora kerronta: Alkutesti (ENA3)]({{<ref "/kurssit/ena03tehtavat/epasuora_alkutesti.mdt" >}})
 
-[5. Epäsuora kerronta: Lopputesti (ENA3)]({{<ref "/kurssit/ena03tehtavat/epasuora_lopputesti.mdt" >}})
+[5. Epäsuora kerronta: Flashcard (ENA3)]({{<ref "/kurssit/ena03tehtavat/epasuora_flashcard.mdt" >}})
+
+[6. Epäsuora kerronta: Lopputesti (ENA3)]({{<ref "/kurssit/ena03tehtavat/epasuora_lopputesti.mdt" >}})
 
 ## Sanasto 
 
