@@ -18,6 +18,12 @@ layout: tehtavavalikko
 ### Aikamuotoharmonia
 [1. Täydennä ehtolauseet]({{<ref "harmonia_kirjoita1.mdt">}})
 
+[3. Epäsuora kerronta: Alkutesti (ENA3)]({{<ref "/kurssit/ena03tehtavat/epasuora_alkutesti.mdt" >}})
+
+[4 Epäsuora kerronta: Flashcard (ENA3)]({{<ref "/kurssit/ena03tehtavat/epasuora_flashcard.mdt" >}})
+
+[5. Epäsuora kerronta: Lopputesti (ENA3)]({{<ref "/kurssit/ena03tehtavat/epasuora_lopputesti.mdt" >}})
+
 ## Sanasto 
 
 [1. Yhdistä eläinsanat]({{<ref "elaintehtava_lajittele.mdt" >}})

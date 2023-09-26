@@ -13,7 +13,7 @@ Muunna lauseet epäsuoraan kerrontaan sopiviksi.
   <section data-quiz-item>
     <div class="question">1. I have the perfect daughter.</code></div>
     <div class="choices" data-choices='["The father said (that) he has the perfect daughter","The father said (that) he had had the perfect daughter", "The father said (that) he has had the perfect daughter"]'></div>
-    <p class="info">Johtolauseen verbi vaatii imperfektin, mutta koska kyseessä voidaan olettaa olevan yleinen totuus, myös preesens käy. Kohta kaksi had had sanottaisiin tyttären hautajaisissa tai onnistuneen sukupuolenkorjauksen jälkeen.</p>
+    <p class="info">Johtolauseen verbi vaatii imperfektin, mutta koska kyseessä voidaan olettaa olevan yleinen totuus, myös preesens käy. Kohdat has had ja had had viittaisi tyttärenä olemisen päättymiseen, eli ne sanottaisiin tyttären hautajaisissa tai onnistuneen sukupuolenkorjausleikkauksen jälkeen.</p>
      </section>
   <section data-quiz-item>
     <div class="question">2. The teacher is proud of his students.</div>
