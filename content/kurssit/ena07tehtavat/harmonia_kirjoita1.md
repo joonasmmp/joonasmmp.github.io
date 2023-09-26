@@ -1,5 +1,5 @@
 ---
-title: "Aikamuotoharmonia: Kirjoita 1"
+title: "Aikamuotoharmonia: Ehtolauseet 1"
 date: 2022-2-1
 draft: false
 type: page
@@ -97,12 +97,12 @@ document.querySelectorAll("input").forEach(elem => elem.addEventListener('input'
 {{%accordion "Ehtolauseaikamuototaulukko" %}}
 | Päälause | Sivulause |
 |--------|--------|
-| Futuuri  |  Preesens  |
+| **Futuuri**  |  **Preesens**  |
 | I will help you | if I have time |
 |  |
-| 1. Konditionaali | Imperfekti | 
+| **1. Konditionaali** | **Imperfekti** | 
 | I would help you | if I had time |
 |  |
-| 2. Konditionaali | Pluskvamperfekti |
+| **2. Konditionaali** | **Pluskvamperfekti** |
 | I would have helped you | if I had had time |
 {{% /accordion%}}
