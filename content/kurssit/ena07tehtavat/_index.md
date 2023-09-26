@@ -18,6 +18,8 @@ layout: tehtavavalikko
 ### Aikamuotoharmonia
 [1. Täydennä ehtolauseet]({{<ref "harmonia_kirjoita1.mdt">}})
 
+[2. Täydennä ehtolauseet]({{<ref "harmonia_kirjoita2.mdt">}})
+
 [3. Epäsuora kerronta: Alkutesti (ENA3)]({{<ref "/kurssit/ena03tehtavat/epasuora_alkutesti.mdt" >}})
 
 [4 Epäsuora kerronta: Flashcard (ENA3)]({{<ref "/kurssit/ena03tehtavat/epasuora_flashcard.mdt" >}})
