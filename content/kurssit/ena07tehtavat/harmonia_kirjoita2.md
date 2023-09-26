@@ -14,34 +14,26 @@ Täydennä verbimuodot annetun vihjeen mukaan.
   <ol>
   
 <section>
-1. If I pass this exam, I &nbsp;<li><input id="q1" type="text"/>&nbsp; (be) the happiest student in this school. 
+1. If you &nbsp;<li><input id="q1" type="text"/>&nbsp; (muuttaa) to another country, I &nbsp;<li><input id="q2" type="text"/><span></span></li>&nbsp; (maksaa) for the flight. Bye.
 </section>
 <section>
-2. My brother will be furious if Arsenal&nbsp;<li><input id="q2" type="text"/><span></span></li>&nbsp; (win) tonight.
+2. If he&nbsp;<li><input id="q3" type="text"/><span></span></li>&nbsp; (olisi ollut) more careful with her car, she &nbsp;<li><input id="q4" type="text"/><span></span></li>&nbsp; (olisi voinut viedä) him to the party.
 </section>
 <section>
-3. What would the Prime Minister say if we &nbsp;<li><input id="q3" type="text"/><span></span></li>&nbsp; (vote) against her law proposal?
+3. I &nbsp;<li><input id="q5" type="text"/><span></span></li>&nbsp; (saattaisin matkustaa) to St. Petersburg if Russia &nbsp;<li><input id="q6" type="text"/><span></span></li>&nbsp; (ei olisi) at war with another country.</section>
+<section>
+4. Mike &nbsp;<li><input id="q7" type="text"/><span></span></li>&nbsp; (ei jää) in Wisconsin if he &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; (ei saa) a job there.
 </section>
 <section>
-4. If I didn't know her very well, I &nbsp;<li><input id="q4" type="text"/><span></span></li>&nbsp; (ask) her to move in with me!
+5. If he &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (ei tarvitsisi) a better job, he &nbsp;<li><input id="q10" type="text"/><span></span></li>&nbsp; (ei edes harkitsisi) moving to Canada.
 </section>
 <section>
-5. I won't believe it until I&nbsp;<li><input id="q5" type="text"/><span></span></li>&nbsp; (see) it with my own eyes.
+6. I think I &nbsp;<li><input id="q11" type="text"/><span></span></li>&nbsp; (olisi pitänyt opiskella) harder at school so I &nbsp;<li><input id="q12" type="text"/><span></span></li>&nbsp; (ei täytyisi tehdä) this job right now.
 </section>
 <section>
-6. Your health &nbsp;<li><input id="q6" type="text"/><span></span></li>&nbsp; (improve) if you stopped smoking.
+7. If my friends &nbsp;<li><input id="q13" type="text"/><span></span></li>&nbsp; (olisivat menneet) to university, I &nbsp;<li><input id="q14" type="text"/><span></span></li>&nbsp; (olisin saattanut tehdä) the same. Peer pressure is my biggest weakness.
 </section>
-<section>
-7. We might move to Paris if my mother &nbsp;<li><input id="q7" type="text"/><span></span></li>&nbsp; (find) a job there.
-</section>
-<section>
-8. If you weren't so tall, you  &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; (wear) your father's clothes.
-</section>
-<section>
-9. If you &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (meet) a bear in the woods, you should play dead.
-</section>
-<section>
-10. Whose headphones could you have borrowed if you &nbsp;<li><input id="q10" type="text"/><span></span></li>&nbsp; (unohtaa) your headphones at home? </ol>
+</ol>
   
  <link rel="stylesheet" type="text/css" href="/css/kirjoita1.css"/>
 
@@ -55,16 +47,20 @@ Täydennä verbimuodot annetun vihjeen mukaan.
 
 <script>
 var answers = {
-  "q1": ["will be", "'ll be'"],
-  "q2": ["wins"],
-  "q3": ["voted"],
-  "q4": ["wouldn't ask", "would not ask"],
-  "q5": ["see"],
-  "q6": ["would improve"],
-  "q7": ["found"],
-  "q8": ["could wear"],
-  "q9": ["met"],
-  "q10": ["had forgotten", "had forgot"],
+  "q1": ["move"],
+  "q2": ["will pay"],
+  "q3": ["had been"],
+  "q4": ["could have taken"],
+  "q5": ["might travel"],
+  "q6": ["wasn't", "were not", "weren't", "was not"],
+  "q7": ["won't stay", "will not stay"],
+  "q8": ["doesn't get", "does not get"],
+  "q9": ["didn't need", "did not need"],
+  "q10": ["wouldn't even consider", "would not even consider"],
+  "q11": ["should have studied"],
+  "q12": ["wouldn't have to do", "would not have to do"],
+  "q13": ["had gone"],
+  "q14": ["might have done"]
 };
 
 function markAnswers() {
