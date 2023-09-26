@@ -14,7 +14,7 @@ Täydennä verbimuodot annetun vihjeen mukaan.
   <ol>
   
 <section>
-1. If you &nbsp;<li><input id="q1" type="text"/>&nbsp; (muuttaa) to another country, I &nbsp;<li><input id="q2" type="text"/><span></span></li>&nbsp; (maksaa) for the flight. Bye.
+1. If you &nbsp;<li><input id="q1" type="text"/>&nbsp; (muutat) to another country, I &nbsp;<li><input id="q2" type="text"/><span></span></li>&nbsp; (maksan) for the flight. Bye.
 </section>
 <section>
 2. If he&nbsp;<li><input id="q3" type="text"/><span></span></li>&nbsp; (olisi ollut) more careful with her car, she &nbsp;<li><input id="q4" type="text"/><span></span></li>&nbsp; (olisi voinut viedä) him to the party.
