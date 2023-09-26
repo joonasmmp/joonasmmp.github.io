@@ -5,49 +5,48 @@ draft: false
 type: page
 layout: tehtava
 ---
-
 {{< rawhtml >}}
 <link rel="stylesheet" type="text/css" href="/css/monivalinta2.css"/>
 <body class="dark:bg-warmgray-900">
 <div class="wrap">
   <div class="row">
   <section data-quiz-item>
-    <div class="question">I ______ you've started a new job selling farming equipment.</div>
+    <div class="question">1. I ______ you've started a new job selling farming equipment.</div>
     <div class="choices" data-choices='["hear","heard", "have heard", "had heard"]'></div>
     <p class="info">Virkkeen alun johdattelevat ilmaisut (hear, understand jne.) poikkeuksellisesti yleispreesensissä perfektin sijasta. </p>
   </section>
   <section data-quiz-item>
-    <div class="question">Every year, students ____ silly questions when the Sequence of Tenses is discussed on English lessons.</div>
+    <div class="question">2. Every year, students ____ silly questions when the Sequence of Tenses is discussed on English lessons.</div>
     <div class="choices" data-choices='["ask","are asking", "have asked", "have been asking"]'></div>
     <p class="info">Kun kerrotaan toistuvien tapahtumien (every year) aikaan meneillä olevista tekemisistä, käytetään poikkeuksellisesti kestopreesensiä yleispreesensin sijaan.</p>
    </section>
   </div>
   <div class="row">
   <section data-quiz-item>
-    <div class="question">I _____ my curriculum vitae in this letter and ____ to hearing from you again. (enclose = liittää [oheen])</div>
+    <div class="question">3. I _____ my curriculum vitae in this letter and ____ to hearing from you again. (enclose = liittää [oheen])</div>
     <div class="choices" data-choices='["enclose, look forward", "enclose, am looking forward", "am enclosing, look forward", "am enclosing, looking forawrd"]'></div>
     <p class="info">Tietyt kirjeenvaihtoon liittyvät ilmaisut aina yleispreesensissä. Kestomuodot (I am enclosing, I am looking forward to) toimisivat myös, mutta ovat ehdottomasti puhekielisempiä ja näin ollen muodolliseen kirjeenvaihtoon sopimattomia.</p>
   </section>
    <section data-quiz-item>
-    <div class="question">It doesn't matter how much you _____, the planet is doomed!</div> 
+    <div class="question">4. It doesn't matter how much you _____, the planet is doomed!</div> 
     <div class="choices" data-choices='["recycle", "are recycling", "will recycle"]'></div>
     <p class="info">Tietyissä ilmaisuissa, esim. in case, I bet, it doesn't matter, I don't care, I don't mind, käytetään yleispreesensiä, vaikka viitataankin tulevaisuuteen.</p>
   </section>
   </div>
    <div class="row">
   <section data-quiz-item>
-    <div class="question">You speak English much better than I _____.</div>
-    <div class="choices" data-choices='["expect", "exoected", "have expected", "had expected"]'></div>
+    <div class="question">5. You speak English much better than I _____.</div>
+    <div class="choices" data-choices='["expect", "expected", "have expected", "had expected"]'></div>
     <p class="info">Aikamuotoharmoniasta voidaan poiketa, jos kyseessä on uskomus, joka on juuri todistettu oikeaksi tai vääräksi.</p>
   </section>
    <section data-quiz-item>
-    <div class="question">This is the first time I _____ any problems with verb tenses.</div>
+    <div class="question">6. This is the first time I _____ any problems with verb tenses.</div>
     <div class="choices" data-choices='["have", "am having", "have had", "have been having"]'></div>
     <p class="info">Ilmauksissa this is the first/joku muu järjestysluku/best/worst time käytetään poikkeuksellisesti preesensin sijasta perfektiä, vaikka kyseessä olisikin parhaillaan käynnissä oleva tapahtuma.!</p>
   </section>
      <div class="row">
   <section data-quiz-item>
-    <div class="question">It's high time we ____ doing this stupid exercises and get on with the lesson!</div>
+    <div class="question">7. It's high time we ____ doing this stupid exercises and get on with the lesson!</div>
     <div class="choices" data-choices='["stop", "are stopping", "stopped", "will stop"]'></div>
     <p class="info">High time-ilmauksen yhteydessä käytetään poikkeuksellisesti imperfektiä, vaikka viitataankin nykyhetkeen.</p>
   </section>
