@@ -51,6 +51,7 @@ layout: tehtava
     <p class="info">High time-ilmauksen yhteydessä käytetään poikkeuksellisesti imperfektiä, vaikka viitataankin nykyhetkeen.</p>
   </section>
   </div>
+  </div>
 
 </div>
   <div id="emc-score"></div>
