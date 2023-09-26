@@ -29,7 +29,7 @@ Täydennä verbimuodot annetun vihjeen mukaan.
 5. I won't believe it until I&nbsp;<li><input id="q5" type="text"/><span></span></li>&nbsp; (see) it with my own eyes.
 </section>
 <section>
-6. Your health &nbsp;<li><input id="q6" type="text"/><span></span></li>&nbsp; (improve) if you stop smoking.
+6. Your health &nbsp;<li><input id="q6" type="text"/><span></span></li>&nbsp; (improve) if you stopped smoking.
 </section>
 <section>
 7. We might move to Paris if my mother &nbsp;<li><input id="q7" type="text"/><span></span></li>&nbsp; (find) a job there.
