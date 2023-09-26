@@ -24,7 +24,7 @@ layout: tehtava
   </div>
   <div class="row">
   <section data-quiz-item>
-    <div class="question">I _____ my curriculum vitae in this letter and ____ to hearing from you again. (enclose = liittää kylkeen)</div>
+    <div class="question">I _____ my curriculum vitae in this letter and ____ to hearing from you again. (enclose = liittää [oheen])</div>
     <div class="choices" data-choices='["enclose, look forward", "enclose, am looking forward", "am enclosing, look forward", "am enclosing, looking forawrd"]'></div>
     <p class="info">Tietyt kirjeenvaihtoon liittyvät ilmaisut aina yleispreesensissä. Kestomuodot (I am enclosing, I am looking forward to) toimisivat myös, mutta ovat ehdottomasti puhekielisempiä ja näin ollen muodolliseen kirjeenvaihtoon sopimattomia.</p>
   </section>
