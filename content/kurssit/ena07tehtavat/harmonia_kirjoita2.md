@@ -93,7 +93,7 @@ document.querySelectorAll("input").forEach(elem => elem.addEventListener('input'
 {{%accordion "Ehtolauseaikamuototaulukko" %}}
 | Päälause | Sivulause |
 |--------|--------|
-| <b>Futuuri</b>  |  Preesens  |
+| Futuuri  |  Preesens  |
 | I will help you | if I have time |
 |  |
 | 1. Konditionaali | Imperfekti | 
