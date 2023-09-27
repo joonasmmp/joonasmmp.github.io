@@ -94,3 +94,16 @@ document.querySelectorAll("input").forEach(elem => elem.addEventListener('input'
 
 </script>
 </rawhtml>
+
+{{%accordion "Vastaukset" %}}
+  "q1": ["could", "was able to play"],
+  "q2": ["had been able to find"],
+  "q3": ["could you pass"],
+  "q4": ["could have called"],
+  "q5": ["had to take"],
+  "q6": ["would you be able to help"],
+  "q7": ["must have been"],
+  "q8": ["can't have left", "cannot have left"],
+  "q9": ["must be"],
+  "q10": ["would never have been able to do", "would have never been able to do"],
+{{% /accordion%}}
