@@ -102,3 +102,20 @@ document.querySelectorAll("input").forEach(elem => elem.addEventListener('input'
 | **2. Konditionaali** | **Pluskvamperfekti** |
 | I would have helped you | if I had had time |
 {{% /accordion%}}
+
+{{%accordion "Vastaukset" %}}
+  "q1": ["move"],
+  "q2": ["will pay"],
+  "q3": ["had been"],
+  "q4": ["could have taken"],
+  "q5": ["might travel"],
+  "q6": ["wasn't", "were not", "weren't", "was not"],
+  "q7": ["won't stay", "will not stay"],
+  "q8": ["doesn't get", "does not get"],
+  "q9": ["didn't need", "did not need"],
+  "q10": ["wouldn't even consider", "would not even consider"],
+  "q11": ["should have studied"],
+  "q12": ["wouldn't have to do", "would not have to do"],
+  "q13": ["had gone"],
+  "q14": ["might have done"]
+{{% /accordion%}}

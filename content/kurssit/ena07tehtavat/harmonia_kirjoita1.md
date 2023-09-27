@@ -106,3 +106,16 @@ document.querySelectorAll("input").forEach(elem => elem.addEventListener('input'
 | **2. Konditionaali** | **Pluskvamperfekti** |
 | I would have helped you | if I had had time |
 {{% /accordion%}}
+
+{{%accordion "Vastaukset" %}}
+  "q1": ["will be", "'ll be'"],
+  "q2": ["wins"],
+  "q3": ["voted"],
+  "q4": ["wouldn't ask", "would not ask"],
+  "q5": ["see"],
+  "q6": ["would improve"],
+  "q7": ["found"],
+  "q8": ["could wear"],
+  "q9": ["met"],
+  "q10": ["had forgotten", "had forgot"],
+{{% /accordion%}}
