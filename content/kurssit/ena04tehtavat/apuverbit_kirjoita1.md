@@ -96,7 +96,7 @@ document.querySelectorAll("input").forEach(elem => elem.addEventListener('input'
 </rawhtml>
 
 {{%accordion "Vastaukset" %}}
-  "q1": ["could", "was able to play"],
+  "q1": ["could", "was able to"],
 
   "q2": ["had been able to find"],
 
@@ -113,6 +113,6 @@ document.querySelectorAll("input").forEach(elem => elem.addEventListener('input'
   "q8": ["can't have left", "cannot have left"],
 
   "q9": ["must be"],
-  
+
   "q10": ["would never have been able to do", "would have never been able to do"],
 {{% /accordion%}}
