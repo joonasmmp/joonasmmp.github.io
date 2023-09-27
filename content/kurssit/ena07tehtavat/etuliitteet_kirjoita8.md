@@ -7,7 +7,7 @@ type: page
 layout: tehtava
 ---
 
-Muodosta suomenkielisen sanan vastine valitsemalla yksi seuraavista lukuun etuliitteistä: ante-, fore-, pre-, post-, ex-, re-, sub-, super-, trans-, inter-, extra- 
+Muodosta suomenkielisen sanan vastine valitsemalla yksi seuraavista lukuun etuliitteistä: ante-, fore-, pre-, post-, ex-, re-, sub-, super-, trans-, inter-, extra-, mega-.
 {{< rawhtml >}}
 <div class="tehtava">
 <form autocomplete="off">
@@ -26,7 +26,7 @@ Muodosta suomenkielisen sanan vastine valitsemalla yksi seuraavista lukuun etuli
 4. Yli-inhimillinen = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q4" type="text"/><span></span></li>human
 </section>
 <section>
-5. Traumanjälkeinen  = &nbsp<br class="flex visible md:hidden lg:hidden">;<li><input id="q5" type="text"/><span></span></li>-traumatic
+5. Traumanjälkeinen  = <br class="flex visible md:hidden lg:hidden">;<li><input id="q5" type="text"/><span></span></li>-traumatic
 </section>
 <section>
 6. Ala-arvoinen = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q6" type="text"/><span></span></li>standard
