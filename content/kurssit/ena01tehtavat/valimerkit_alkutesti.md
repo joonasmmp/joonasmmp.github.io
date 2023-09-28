@@ -188,7 +188,7 @@ $(document).emc({
 Pilkut:
 1. Päälauseen jälkeen tulevaa sivulausetta ei eroteta pilkulla (päälause sivulause).
 2. Päälausetta edeltävät sivilauseet erotetaan pilkulla (sivulause, päälause.). 
-3. Irrralliset lisäykset, esim relatiivilauseet (who/which/that), lauseenvastikkeet tai lauseadverbiaalit (besides, however, in fact), erotetaan muusta lauseesta pilkuilla, tosin ei that-alkuisia relatiivilauseita.
+3. Irrralliset lisäykset, esim relatiivilauseet (who/which), lauseenvastikkeet tai lauseadverbiaalit (besides, however, in fact), erotetaan muusta lauseesta pilkuilla, tosin ei that-alkuisia relatiivilauseita.
 4. Pilkulla erotetaan myös rinnasteiset päälauseet (but, and, or) sekä luettelon eri osat.
 
 Yhdysviivat:

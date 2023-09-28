@@ -182,16 +182,3 @@ $(document).emc({
   key: ["2","1","2","1","2","2","2","1","2","2"]
 });</script>
 {{< /rawhtml >}}
-
-{{%accordion "Säännöt lyhyesti" %}}
-Pilkut:
-1. Päälauseen jälkeen tulevaa sivulausetta ei eroteta pilkulla (päälause sivulause).
-2. Päälausetta edeltävät sivilauseet erotetaan pilkulla (sivulause, päälause.). 
-3. Irrralliset lisäykset, esim relatiivilauseet (who/which/that), lauseenvastikkeet tai lauseadverbiaalit (besides, however, in fact), erotetaan muusta lauseesta pilkuilla, tosin ei that-alkuisia relatiivilauseita.
-4. Pilkulla erotetaan myös rinnasteiset päälauseet (but, and, or) sekä luettelon eri osat.
-
-Yhdysviivat:
-1. Käytetään moniosaisen adjektiivin lailla käytettävän sanayhdistelmän eteen silloin kun se edeltää substantiivia. Monesti nämä ovat mittaa ilmaisevia asioita (aika, ikä, hinta), mutta ei aina, esim. "a well-known fact".
-2. Ei yhdysviivoja silloin kun sana on itsenäinen ilman substantiivia, esim. "My grandma is 85 years old."
-3. Toisin kuin suomessa, yhdysviivoja ei käytetä yhdyssanoissa, joiden ensimmäinen osa on jokin nimi tai lyhennys, kuten TV show, New York, EU member state.
-{{% /accordion%}}
