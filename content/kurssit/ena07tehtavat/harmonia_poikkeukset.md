@@ -46,7 +46,7 @@ layout: tehtava
   </section>
      <div class="row">
   <section data-quiz-item>
-    <div class="question">7. It's high time we ____ doing this stupid exercises and get on with the lesson!</div>
+    <div class="question">7. It's high time we ____ doing these stupid exercises and get on with the lesson!</div>
     <div class="choices" data-choices='["stop", "are stopping", "stopped", "will stop"]'></div>
     <p class="info">High time-ilmauksen yhteydessä käytetään poikkeuksellisesti imperfektiä, vaikka viitataankin nykyhetkeen.</p>
   </section>
