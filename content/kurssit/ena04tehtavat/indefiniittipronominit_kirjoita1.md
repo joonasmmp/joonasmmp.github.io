@@ -14,7 +14,7 @@ Täydennä indefiniittipronominit annetun vihjeen mukaan.
   <ol>
   
 <section>
-1. Leaving for Las Vegas gets harder&nbsp;<li><input id="q1" type="text"/><span></span></li>&nbsp; (jokainen) every day.
+1. Leaving for Las Vegas gets harder&nbsp;<li><input id="q1" type="text"/><span></span></li>&nbsp; (jokainen) day.
 </section>
 <section>
 2. Tell me &nbsp;<li><input id="q2" type="text"/><span></span></li>&nbsp; (kaikki) that happened you the previous time you were there.
