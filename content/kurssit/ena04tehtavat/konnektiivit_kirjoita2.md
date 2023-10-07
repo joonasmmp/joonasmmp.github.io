@@ -164,7 +164,7 @@ on one hand,
 on (the) other hand,
 despite that,
 in spite of that,
-in reality,
+in reality
 
 Järjestys:
 first/firstly,
@@ -174,7 +174,7 @@ finally,
 previously,
 first and foremost,
 above all,
-last but not least,
+last but not least
 
 Korostus:
 especially,
