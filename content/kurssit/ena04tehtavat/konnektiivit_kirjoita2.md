@@ -89,3 +89,116 @@ document.querySelectorAll("input").forEach(elem => elem.addEventListener('input'
 
 </script>
 </rawhtml>
+
+{{%accordion "Lista linkkisanoista" %}}
+Lisäys tai vertailu:
+and,
+both – and,
+not only – but also,
+as well as,
+than,
+such as,
+as,
+not so – as / not as – as,
+as if / as though
+
+Vaihtoehto tai vastakohta:
+or,
+either – or,
+neither – nor,
+whether – or,
+but,
+or else / otherwise
+
+Seuraus tai selitys:
+so,
+(and) therefore / (and) that’s why
+
+Syy tai tarkoitus: 
+because / as / since ,
+so (that)
+
+Ehto:
+if,
+unless,
+as long as
+
+Aika:
+when,
+before,
+after,
+since,
+until/till,
+whenever,
+as/while,
+as soon as,
+once,
+now that,
+by the time
+
+Myönntytys:
+although / though / even though,
+even if
+
+Lisäys:
+furthermore,
+in addition (to this),
+also,
+besides
+
+Esimerkki:
+for example / for instance,
+in fact,
+actually,
+for example / for instance
+
+Seuraus:
+therefore,
+as a result
+
+Vastakkainen näkökulma:
+however,
+nevertheless,
+whereas/while,
+on one hand,
+on (the) other hand,
+despite that,
+in spite of that,
+in reality,
+
+Järjestys:
+first/firstly,
+second/secondly,
+third/thirdly,
+finally,
+previously,
+first and foremost,
+above all,
+last but not least,
+
+Korostus:
+especially,
+in particular,
+surprisingly,
+without a doubt,
+undoubtedly,
+especially,
+in particular,
+surprisingly
+
+Uudelleenmuotoilu:
+in other words,
+namely
+
+Yhteenveto:
+in short,
+to conclude / in conclusion,
+all in all,
+to sum up,
+in a nutshell
+
+Mielipide:
+in my opinion,
+to my mind
+
+{{% /accordion%}}
