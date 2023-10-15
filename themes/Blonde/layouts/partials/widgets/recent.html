@@ -1,7 +1,7 @@
 {{ $filteredPosts := where .Site.RegularPages "Type" "post" }}
 {{ $relatedPosts := $filteredPosts | first 5 }}
 {{- if $relatedPosts }}
-<div class="bg-white panel pb-5 dark:bg-warmgray-900">
+<div class="panel pb-5 dark:bg-warmgray-900">
     <p class="text-xl text-center text-gray-700 py-5 dark:text-gray-300">Uusimmat julkaisut</p>
     <div class="mx-6">
         {{ range $relatedPosts }}

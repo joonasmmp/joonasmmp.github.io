@@ -1,4 +1,4 @@
-<div class="bg-white panel pb-5 dark:bg-warmgray-900">
+<div class="panel pb-5 dark:bg-warmgray-900">
     <p class="text-xl text-center text-gray-700 py-3 px-3 dark:text-gray-300">Archives</p>
     {{ if eq .Site.Params.archive_dropdown "false" }}
     {{ range $name, $items := .Site.Taxonomies.archives }}
