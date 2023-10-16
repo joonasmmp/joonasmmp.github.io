@@ -1222,7 +1222,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-sininen {
   --tw-bg-opacity: 1;
-  background-color: rgb((0 118 161) / var(--tw-bg-opacity));
+  background-color: rgb(0 118 161) / var(--tw-bg-opacity));
 }
 
 .bg-gray-200 {
