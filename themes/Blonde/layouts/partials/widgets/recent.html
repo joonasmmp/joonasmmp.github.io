@@ -2,7 +2,7 @@
 {{ $relatedPosts := $filteredPosts | first 5 }}
 {{- if $relatedPosts }}
 <div class="panel pb-5 dark:bg-warmgray-900">
-    <p class="text-xl text-center text-gray-700 py-5 dark:text-gray-300">Uusimmat julkaisut</p>
+    <p class="text-xl text-center text-gray-700 py-5 dark:text-gray-300" style="font-size:175%;font-weight:300">Uusimmat julkaisut</p>
     <div class="mx-6">
         {{ range $relatedPosts }}
         <a href="{{ .RelPermalink }}" class="">

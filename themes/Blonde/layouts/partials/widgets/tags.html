@@ -1,6 +1,6 @@
 {{ if .Site.Taxonomies.tags }}
 <div class="panel dark:bg-warmgray-900">
-    <p class="text-xl text-center text-gray-700 py-3 pl-3 dark:text-gray-300">Tunnisteet</p>
+    <p class="text-xl text-center text-gray-700 py-3 pl-3 dark:text-gray-300" style="font-size:175%;font-weight:300">Tunnisteet</p>
     <div class="panel-block p-2">
         {{- $.Scratch.Set "myLimit" 0 }}
         {{- range $termName, $entries := .Site.Taxonomies.tags }}
