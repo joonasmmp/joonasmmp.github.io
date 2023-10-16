@@ -18,12 +18,12 @@
     </item>
     
     <item>
-      <title>Paritustehtävä joka ei toimi :(</title>
-      <link>https://joonasmmp.github.io/kurssit/ena06tehtavat/testi_testi/</link>
+      <title>Prepositioilmaisuja: Flashcard</title>
+      <link>https://joonasmmp.github.io/kurssit/ena06tehtavat/prepositioilmaisuja_flashcard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://joonasmmp.github.io/kurssit/ena06tehtavat/testi_testi/</guid>
-      <description>//Execute a JavaScript immediately after a page has been loadedwindow.onload = function() {//Data for terms and definitions. This can be stored in a separate .js file, in a JSON file or here in the main filevar data = {terms: [{index: 0, text: &#34;Koira&#34;}, {index: 1, text: &#34;Gorilla&#34;}, {index: 2, text: &#34;Riisi&#34;}, {index: 3, text: &#34;</description>
+      <guid>https://joonasmmp.github.io/kurssit/ena06tehtavat/prepositioilmaisuja_flashcard/</guid>
+      <description>välilyöntikäännä korttivaihda korttiaRsatunnainen kortti $(document).ready(function() {var currentQuestion = 0;var qbank = [[&#34;__ all - ollenkaan&#34;, &#34;at all - ollenkaan&#34;], [&#34;__ any rate - joka tapauksessa&#34;, &#34;at any rate - joka tapauksessa&#34;], [&#34;__ a discount - alennuksella&#34;, &#34;at a discount - alennuksella&#34;], [&#34;__ face value - sellaisenaan, suoralta kädeltä, (jättää) omaan arvoonsa&#34;</description>
     </item>
     
   </channel>
