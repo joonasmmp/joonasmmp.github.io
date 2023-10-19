@@ -56,10 +56,6 @@
     margin: 0 auto;
   }
   
-  .row.last {
-    border-bottom: 1px solid #eeeeee;
-  }
-  
   .dark section {
     background: #1E2022;
      color: #FFFFFF;
@@ -219,6 +215,10 @@
     letter-spacing: 3px;
     border: 1px solid #eeeeee;
   }
+
+  .dark .submit button {
+    border: 1px solid #1E2022;
+  }
   
   div#nappulat {
     margin-top: 1em;
@@ -240,7 +240,7 @@
   }
   
   .dark #emc-submit {
-    background: #000000
+    background: #1E2022
   }
   
   #emc-submit {
