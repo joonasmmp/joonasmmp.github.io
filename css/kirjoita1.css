@@ -54,7 +54,7 @@ form input {
 }
 
 .dark input {
-  background-color: #181a1b;
+  background-color: #1E2022;
   color: #FFFFFF;
   border-bottom: 1px solid white;
 }
@@ -89,7 +89,7 @@ form input {
     }
 
 .dark section {
-    background: #181a1b;
+    background: #1E2022;
      color: #FFFFFF;
      border: 1px solid #181a1b;
   }
