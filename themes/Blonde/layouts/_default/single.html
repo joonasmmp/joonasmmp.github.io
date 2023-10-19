@@ -3,9 +3,9 @@
 {{ define "main" }}
 <div class="grid grid-cols-3 gap-4">
     {{ if .Site.Params.widgets.display }}
-    <div class="bg-white col-span-3 lg:col-span-2 p-5 dark:bg-warmgray-900 dark:text-white">
+    <div class="bg-white col-span-3 lg:col-span-2 p-5 dark:bg-warmgray-800 dark:text-white">
         {{ else }}
-        <div class="bg-white col-span-3 p-5 dark:bg-warmgray-900 dark:text-white">
+        <div class="bg-white col-span-3 p-5 dark:bg-warmgray-800 dark:text-white">
             {{ end }}
             <h1 class="mb-1 text-4xl" style="text-align: center; text-transform: uppercase">{{.Title}}</h1>
             <div class="content prose md:prose-lg lg:prose-xl max-w-none dark:prose-invert py-1">{{.Content}}</div>
