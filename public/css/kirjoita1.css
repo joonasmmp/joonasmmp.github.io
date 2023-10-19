@@ -102,7 +102,8 @@ form input {
  }
 
 #hello{
-  background: url(/img/kansikuvat/kurssivalikot/kirjoitateht.jpg)
+  background: url(/img/kansikuvat/kurssivalikot/kirjoitateht.jpg);
+  border-radius: 0.5rem 0.5rem;
 }
 
 #hello h {
