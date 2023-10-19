@@ -92,7 +92,8 @@
   }
 
   #hello{
-    background: url(/img/kansikuvat/kurssivalikot/flashcard.jpg)
+    background: url(/img/kansikuvat/kurssivalikot/flashcard.jpg);
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
   }
   
   #hello h {
