@@ -61,7 +61,7 @@
   }
   
   .dark section {
-    background: #181a1b;
+    background: #1E2022;
      color: #FFFFFF;
   }
   
@@ -85,11 +85,11 @@
   }
   
   .dark section{
-    border: 1px solid #000000;
+    border: 1px solid #1E2022;
   }
   
   .dark section.item-incorrect {
-    background: #181a1b;
+    background: #1E2022;
   }
   
   
@@ -147,7 +147,7 @@
   
   .dark input[type="radio"] + label {
      background: #1f2937;
-     border: 1px solid #000000;
+     border: 1px solid #1e2022;
   }
   
   input[type="radio"] {
