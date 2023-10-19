@@ -61,8 +61,6 @@
      color: #FFFFFF;
   }
   
-  
-  
   section {
     position: relative;
     padding: 30px 20px;
@@ -144,6 +142,7 @@
   .dark input[type="radio"] + label {
      background: #1f2937;
      border: 1px solid #1e2022;
+     border-radius: 0.5rem;
   }
   
   input[type="radio"] {
@@ -151,6 +150,7 @@
     visibility: hidden;
     padding-left: 1em;
     padding-right: 1em;
+    border-radius: 0.5rem;
   }
   
   input[type="radio"] + label {
@@ -202,6 +202,7 @@
   
   .submit {
     padding-top: 1em;
+    border-radius: 0.5rem;
   }
   .submit button {
     display: block;
