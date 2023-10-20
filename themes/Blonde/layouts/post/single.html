@@ -30,7 +30,7 @@
                 <img class="py-4" style="align-items: center;justify-content: center;/* display:flex; */margin: auto;" src="{{ .Params.image | absURL }}">
                 {{ end }}
                 <div class="content prose md:prose-lg lg:prose-xl max-w-none dark:prose-invert mt-5" id="sisalto">{{.Content}}</div>
-                <aside id="meta" class="flex">
+                <aside id="meta">
                     {{ with .Params.tags }}
                      <div id="tags" class="flex" style="flex-wrap: wrap; justify-content: center;">
                         {{ range . }}
