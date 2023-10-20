@@ -32,7 +32,7 @@
                 <div class="content prose md:prose-lg lg:prose-xl max-w-none dark:prose-invert mt-5" id="sisalto">{{.Content}}</div>
                 <aside id="meta" class="flex">
                     {{ with .Params.tags }}
-                     <div id="tags" class="content-center flex">
+                     <div id="tags" class="flex" style="flex-wrap: wrap; justify-content: center;">
                         {{ range . }}
                         <span
                             class="inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-sininen hover:bg-sininen-2 text-white justify-center h-8 px-2 duration-200 rounded-md" style="padding-top:1.2em;padding-bottom:1.2em;align-items:center;"><a
@@ -70,7 +70,7 @@
         <div class="hidden lg:block lg:col-span-1" style="border-radius: 0.5rem; overflow: hidden;
         margin-bottom: 1.25em; height: fit-content;">
 
-<div class="panel mb-3 pb-5 dark:bg-warmgray-900 dark:text-gray-300" id="toc">
+<div class="panel bg-white mb-3 pb-5 dark:bg-warmgray-900 dark:text-gray-300" id="toc" style="border-radius: 0.5rem;">
     <p class="text-center text-xl text-center text-gray-700 py-5 dark:text-gray-300" style="font-weight:300; font-size:175%">Sisältö</p>
     <aside  style="font-family: 'Open Sans'" class="px-5">
         {{.TableOfContents}}
