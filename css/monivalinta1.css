@@ -60,6 +60,9 @@
     background: white;
     border: 0px;
     color: black;
+    width: -webkit-fill-available;
+    font-weight: 600;
+    font-size: larger;
   }
 
   .dark #resetbutton {
@@ -77,7 +80,7 @@
     }
 
   .dark #finalMessage {
-    background: #181A1B;
+    background: #1E2022;
     color:white;
     padding-bottom: 2em;
     text-align: center;
