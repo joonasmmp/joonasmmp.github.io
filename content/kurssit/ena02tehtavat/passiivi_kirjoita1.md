@@ -23,7 +23,7 @@ The new software &nbsp;<li><input id="q1" type="text"/><span></span></li>&nbsp; 
 - The software &nbsp;<li><input id="q6" type="text"/><span></span></li>&nbsp; (test) thoroughly by our quality assurance team. Any bugs found &nbsp;<li><input id="q7" type="text"/><span></span></li>&nbsp; (fix) promptly. 
 </section>
 <section>
-- And how &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; (be) the feedback after its release?
+- How &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; (the response, receive) after its release?
 </section>
 <section>
 - Overwhelmingly positive. The software &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (praise) for its simplicity and efficiency.
@@ -55,7 +55,7 @@ var answers = {
   "q5": ["was the software tested"],
   "q6": ["was tested"],
   "q7": ["were fixed"],
-  "q8": ["was"],
+  "q8": ["was the response received"],
   "q9": ["was praised"],
   "q10": ["are considered"],
   "q11": ["is developed"],
