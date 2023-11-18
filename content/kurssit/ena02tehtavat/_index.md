@@ -11,6 +11,7 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 ### Tulevan ajan ilmaiseminen
 
 ### Konditionaali ja ehtolauseet
+[1. Konditionaali: lopputesti]({{<ref "kondtionaali_lopputesti.mdt" >}})
 
 ### Passiivi
 [1. Passiivi: täydennä lauseet]({{<ref "passiivi_kirjoita1.mdt" >}})
