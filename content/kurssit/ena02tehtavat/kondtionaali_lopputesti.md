@@ -94,19 +94,6 @@ function showScores() {
   element.innerHTML = gameOverHTML;
 }
 
-function shuffleArray(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-}
-
-function Question(text, choices, answer) {
-  this.text = text;
-  this.choices = shuffleArray(choices);
-  this.answer = answer;
-}
-
 // create questions
 var questions = [
   new Question(
