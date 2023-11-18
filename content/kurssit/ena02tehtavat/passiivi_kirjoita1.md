@@ -14,7 +14,7 @@ Fill in the blanks with the correct form of the verb in passive voice.
   <ol>
   
 <section>
-The new software &nbsp;<li><input id="q1" type="text"/><span></span></li>&nbsp; (develop) by a small team of engineers. It &nbsp;<li><input id="q2" type="text"/><span></span></li>&nbsp; (design) to be user-friendly and efficient. The project &nbsp;<li><input id="q3" type="text"/><span></span></li>&nbsp; (not expect) to be completed so quickly. After all, it &nbsp;<li><input id="q4" type="text"/><span></span></li>&nbsp; (consider) a challenging task. 
+The new software &nbsp;<li><input id="q1" type="text"/><span></span></li>&nbsp; (develop) by a small team of engineers. It &nbsp;<li><input id="q2" type="text"/><span></span></li>&nbsp; (design) to be user-friendly and efficient. The project &nbsp;<li><input id="q3" type="text"/><span></span></li>&nbsp; (not expect) to be completed so quickly. After all, it &nbsp;<li><input id="q4" type="text"/><span></span></li>&nbsp; (consider) a challenging task.
 </section>
 <section>
 - How &nbsp;<li><input id="q5" type="text"/><span></span></li>&nbsp; (the software, test) before its release?
@@ -23,16 +23,16 @@ The new software &nbsp;<li><input id="q1" type="text"/><span></span></li>&nbsp; 
 - The software &nbsp;<li><input id="q6" type="text"/><span></span></li>&nbsp; (test) thoroughly by our quality assurance team. Any bugs found &nbsp;<li><input id="q7" type="text"/><span></span></li>&nbsp; (fix) promptly. 
 </section>
 <section>
-- How &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; (the response, receive) after its release?
+- And how &nbsp;<li><input id="q8" type="text"/><span></span></li>&nbsp; (the response, receive) after its release?
 </section>
 <section>
-- Overwhelmingly positive. The software &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (praise) for its simplicity and efficiency.
+- The feedback was overwhelmingly positive. The software &nbsp;<li><input id="q9" type="text"/><span></span></li>&nbsp; (praise) for its simplicity and efficiency. We were really happy over here.
 </section>
 <section>
 - What &nbsp;<li><input id="q10" type="text"/><span></span></li>&nbsp; (consider) the most important factors when a new software &nbsp;<li><input id="q11" type="text"/><span></span></li>&nbsp; (develop)?
 </section>
 <section>
-- Understanding the user's needs and creating a user-friendly interface. These factors &nbsp;<li><input id="q12" type="text"/><span></span></li>&nbsp; (not, should, ignore) during the development process.
+- Understanding the user's needs and creating a user-friendly interface. These factors &nbsp;<li><input id="q12" type="text"/><span></span></li>&nbsp; (not, should, ignore) during the development process. 
 </section>
 </ol>
   
