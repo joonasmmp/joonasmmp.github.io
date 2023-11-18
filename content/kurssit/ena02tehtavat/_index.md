@@ -13,7 +13,7 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 ### Konditionaali ja ehtolauseet
 
 ### Passiivi
-[1. Passiivi: täydennä lauseet]({{<ref "kokoavat_kirjoita1.mdt" >}})
+[1. Passiivi: täydennä lauseet]({{<ref "passiivi_kirjoita1.mdt" >}})
 
 ### Aikamuotoharmonia
 
