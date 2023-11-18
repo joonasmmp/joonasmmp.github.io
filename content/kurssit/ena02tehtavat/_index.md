@@ -8,7 +8,14 @@ layout: tehtavavalikko
 Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta tai ääh emmä tiiä.
 
 ## Kielioppi
-No en oo ehtiny vielä
+### Tulevan ajan ilmaiseminen
+
+### Konditionaali ja ehtolauseet
+
+### Passiivi
+[1. Passiivi: täydennä lauseet]({{<ref "kokoavat_kirjoita1.mdt" >}})
+
+### Aikamuotoharmonia
 
 ## Sanasto
 No ei ole vielä mittään
