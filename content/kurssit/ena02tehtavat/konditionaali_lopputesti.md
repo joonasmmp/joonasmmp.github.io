@@ -52,7 +52,8 @@ function startOver() {
   location.reload(true);
 }
 
-function Question(text, choices, answer) {  this.text = text;
+function Question(text, choices, answer) {
+  this.text = text;
   this.choices = choices;
   this.answer = answer;
 }
@@ -76,6 +77,8 @@ function populate() {
       element.innerHTML = choices[i];
       guess("btn" + i, choices[i]);
     }
+
+    showProgress();
   }
 }
 
@@ -84,15 +87,29 @@ function guess(id, guess) {
   button.onclick = function() {
     quiz.guess(guess);
     populate();
-  };
+  }
+}
+
+function showProgress() {
+  var currentQuestionNumber = quiz.questionIndex + 1;
+  var element = document.getElementById("progress");
+  element.innerHTML = "Question " + currentQuestionNumber + " of " + quiz.questions.length;
 }
 
 function showScores() {
-  var gameOverHTML = "<h1>Result</h1>";
-  gameOverHTML += "<h2 id='score'> Your scores: " + quiz.score + "</h2>";
+  var gameOverHTML = "<h1>Aivan mahtavaa!!</h1>";
+  gameOverHTML += "<br>Sait kaikki " + quiz.score + " kohtaa oikein!"
   var element = document.getElementById("quiz");
   element.innerHTML = gameOverHTML;
 }
+
+function displayFinalMessage() {
+  $("#buttons").empty();
+  $("#quiz").empty();
+  $("#quiz").append('<div id="finalMessage">Oh dear!<br><br>Nyt meni väärin niin että heilahti.<br>Mutta ei se haittaa, kokeile uudestaan!</div>');
+  $("#quiz").append('<button id="resetbutton">Takaisin alkuun</button>')
+  document.getElementById("resetbutton").onclick = (startOver);
+ }
 
 // create questions
 var questions = [
@@ -148,10 +165,12 @@ var questions = [
   )
 ];
 
-// create quiz
+$('.reset').click(startOver);
+
 var quiz = new Quiz(questions);
 
-// display quiz
 populate();
 </script>
+
 {{< /rawhtml >}}
+
