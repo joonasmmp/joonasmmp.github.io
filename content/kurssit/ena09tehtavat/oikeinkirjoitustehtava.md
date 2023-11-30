@@ -348,7 +348,7 @@ var answers = {
 function markAnswers() {
   $("input[type='text']").each(function() {
     console.log($.inArray(this.value, answers[this.id]));
-    if ($.inArray(this.value.toLowerCase().trim(), answers[this.id]) === -1) {
+    if ($.inArray(this.value.trim(), answers[this.id]) === -1) {
       $(this).parent()[0].setAttribute("class", "vaarin");
     } else {
       $(this).parent()[0].setAttribute("class", "oikein");
