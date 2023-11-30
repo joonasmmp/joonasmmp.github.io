@@ -11,4 +11,4 @@ Alla löydät tehtäviä ENA0x-kurssille
 esim testaus
 
 
-[Testiy]({{<ref "testiy.mdt" >}})
+[Testiy]({{<ref "oikeinkirjoitustehtava.mdt" >}})
