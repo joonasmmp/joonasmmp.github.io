@@ -7,7 +7,7 @@ type: page
 layout: tehtava
 ---
 
-Seuraavat sanat kirjoitetan usein väärin. Kirjoita ne oikein. Kiinnitä huomioita myös artikkeleihin ja isoihin alkukirjaimiin. Ylioppilaskoetyyliin sanojen on oltava täysin oikeassa muodossa ennen kuin kohta muuttuu vihreäksi.
+Seuraavat sanat kirjoitetaan usein väärin. Kirjoita ne oikein. Kiinnitä huomioita myös artikkeleihin ja isoihin alkukirjaimiin. Ylioppilaskoetyyliin sanojen on oltava täysin oikeassa muodossa ennen kuin kohta muuttuu vihreäksi.
 
 Voit tarkistaa oikeinkirjoituksen painamalla enter-näppäintä.
 
@@ -250,7 +250,7 @@ Voit tarkistaa oikeinkirjoituksen painamalla enter-näppäintä.
  <link rel="stylesheet" type="text/css" href="/css/kirjoita1.css"/>
 
 <div id="buttonWrapper">
-  <button type="submit">Submit</button>
+  <button type="submit" style="padding-top:1em;">Tarkista vastaukset</button>
 </div>
 
 </form>
