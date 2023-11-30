@@ -6,9 +6,6 @@ type: page
 layout: tehtavavalikko
 ---
 
-Alla löydät tehtäviä ENA0x-kurssille
+Alla löydät tehtäviä abikurssille.
 
-esim testaus
-
-
-[Testiy]({{<ref "oikeinkirjoitustehtava.mdt" >}})
+[Oikeinkirjoitustehtävä]({{<ref "oikeinkirjoitustehtava.mdt" >}})

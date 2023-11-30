@@ -1,5 +1,5 @@
 ---
-title: "9. Valitse oikea etuliite"
+title: "Yleisimmät kirjoitusvirheet"
 date: 2022-2-1
 draft: false
 weight: 89
@@ -7,16 +7,9 @@ type: page
 layout: tehtava
 ---
 
----
-title: "Finnish to English Translation Exercise"
-date: 2022-2-1
-draft: false
-weight: 89
-type: page
-layout: tehtava
----
+Seuraavat sanat kirjoitetan usein väärin. Kirjoita ne oikein. Kiinnitä huomioita myös artikkeleihin ja isoihin alkukirjaimiin. Ylioppilaskoetyyliin sanojen on oltava täysin oikeassa muodossa ennen kuin kohta muuttuu vihreäksi.
 
-Translate the Finnish word into English. Enter the English word in the input field.
+Voit tarkistaa oikeinkirjoituksen painamalla enter-näppäintä.
 
 {{< rawhtml >}}
 <div class="tehtava">
@@ -271,7 +264,7 @@ var answers = {
 "q3": ["hole"],
 "q4": ["whole"],
 "q5": ["Christmas Eve"],
-"q6": ["Finnish, a Finn"],
+"q6": ["Finnish","a Finn"],
 "q7": ["a Swedish speaking Finn"],
 "q8": ["finish"],
 "q9": ["Lapland"],
@@ -304,7 +297,7 @@ var answers = {
 "q36": ["the French Communist Party"],
 "q37": ["Aunt Lizzie"],
 "q38": ["God Almighty"],
-"q39": ["WWII, the Second World War"],
+"q39": ["WWII", "the Second World War"],
 "q40": ["effect"],
 "q41": ["affect"],
 "q42": ["beautiful"],
@@ -314,19 +307,19 @@ var answers = {
 "q46": ["develop"],
 "q47": ["surprise"],
 "q48": ["accommodation"],
-"q49": ["UN, the United Nations"],
+"q49": ["UN, the United Nations", "the UN"],
 "q50": ["interest"],
 "q51": ["wherever"],
 "q52": ["Lake Päijänne"],
 "q53": ["government"],
 "q54": ["the Bible"],
-"q55": ["jewellery"],
+"q55": ["jewellery", "jewelry"],
 "q56": ["immediately"],
 "q57": ["jealous"],
 "q58": ["the Red Cross"],
 "q59": ["quite"],
 "q60": ["quiet"],
-"q61": ["the Canary Islands, the Canaries"],
+"q61": ["the Canary Islands", "the Canaries"],
 "q62": ["successful"],
 "q63": ["succeed"],
 "q64": ["President Halonen"],
@@ -339,7 +332,7 @@ var answers = {
 "q71": ["loose"],
 "q72": ["lose"],
 "q73": ["the Middle Ages"],
-"q74": ["Jewish, a Jew"],
+"q74": ["Jewish", "a Jew"],
 "q75": ["especially"],
 "q76": ["environment"],
   
