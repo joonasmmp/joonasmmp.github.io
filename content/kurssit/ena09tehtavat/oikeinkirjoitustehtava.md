@@ -364,7 +364,7 @@ $("form").on("submit", function(e) {
 
 <style>
 .tehtava input[type="text"] {
-    width: 75px;
+    width: 300px;
     text-align: right;
 }
 </style>
