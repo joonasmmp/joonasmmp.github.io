@@ -29,6 +29,7 @@ Translate the Finnish word into English. Enter the English word in the input fie
 <section>
 2. ajatteli = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q2" type="text"/><span></span></li>
 </section>
+<section>
 3. reikä = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q3" type="text"/><span></span></li>
 </section>
 <section>
