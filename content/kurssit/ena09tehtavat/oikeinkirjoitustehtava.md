@@ -24,7 +24,7 @@ Translate the Finnish word into English. Enter the English word in the input fie
   <ol>
   
 <section>
-1. petti = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q1" type="text"/><span></span></li>
+1. opetti = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q1" type="text"/><span></span></li>
 </section>
 <section>
 2. ajatteli = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q2" type="text"/><span></span></li>
@@ -174,8 +174,8 @@ Translate the Finnish word into English. Enter the English word in the input fie
 50. kiinnostaa = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q50" type="text"/><span></span></li>
 </section>
 <section>
-51. Päijänne = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q51" type="text"/><span></span></li>
-</missä tahansa>
+51. missä tahansa = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q51" type="text"/><span></span></li>
+</section>
 <section>
 52. Päijänne = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q52" type="text"/><span></span></li>
 </section>
