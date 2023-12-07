@@ -1,7 +1,7 @@
 +++
 author = "PJMM"
 title = "Vuoden sanat 20223
-date = "2023-12-07"
+date = "2023-12-7"
 type = "post"
 tags = [
     "sekalaista",
@@ -12,6 +12,7 @@ categories = [
     "sekalaista",
 ]
 +++
+
 Vuosi 2023 jää, joten aika kerrata vuoden 2023 vuoden sanat. Nämähän ovat siis eri sanakirjapalveluiden valitsemia sanoja, jotka ovat olleet kyseisenä vuonna jollain tapaa ajankohtaisia tai merkityksellisiä. Vanhempia kirjoituksia voit lukea valitsemalla altaalta vuoden sanat-tägin, ja vielä vanhempia lukea läpi [Wikipediasta](https://en.wikipedia.org/wiki/Word_of_the_year)
 . 
 
