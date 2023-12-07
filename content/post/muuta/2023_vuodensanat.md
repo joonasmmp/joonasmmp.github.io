@@ -1,7 +1,7 @@
 +++
 author = "PJMM"
-title = "Vuoden sanat 20223
-date = "2023-12-7"
+title = "Vuoden sanat 2023"
+date = "2023-12-07"
 type = "post"
 tags = [
     "sekalaista",
