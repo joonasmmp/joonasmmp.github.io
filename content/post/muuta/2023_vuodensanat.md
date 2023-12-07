@@ -21,9 +21,10 @@ Ei mitään käsitystä mitä sana ’rizz’ tarkoittaa, joten katsotaan sanaki
 >Rizz is a colloquial word, defined as style, charm, or attractiveness; the ability to attract a romantic or sexual partner,"
 
 eli vapaasti suomeksi käännettynä tyyliä, charmia, viehätysvoimaa tai jotain ominaisuutta jolla pystyt hankkimaan itsellesi kumppanin/kumppaneita. 
-Sanakirjan mukaan sana olisi vedetty sanan ’charisma’ välistä, eli siellähän on cha-rizz-ma välissä, samalla tavalla kuin sana frige on vedetty sanan refridgerator välistä.
+Sanakirjan mukaan sana olisi vedetty sanan ’charisma’ välistä, eli siellähän on cha-rizz-ma välissä, samalla tavalla kuin sana fridge on vedetty sanan refridgerator välistä.
 
 Sana on levinnyt Twitchin ja TikTokin välityksellä, ja alun perin Twitchin kuninkaalta Kai Cenatilta. En tiiä yhtään kuka se on,  mutta joku uutisotsikko oli joskus, että hän on Twitchin kuningas. Nyt on boomer-olo itsellä. 
+
 Muita Oxford English Dictionaryn kunniamaininnan saaneita sanoja oli ’swiftie’ (Taylor Swiftin fani), ’situationship’ eli vähän niin kuin relationship mutta on aika monimutkaista eikä kuitenkaan parisuhde vaan you know, sekä ’ de-influencing’, joka toimii vastapainona influenssereille (mainostajille), jotka käskevät ostamaan jotakin tuotetta, niin de-influencingissa sanotaan että älkää ostako jotakin tuotetta. 
 
 ### Merriam-Webster: authentic
