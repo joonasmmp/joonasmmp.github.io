@@ -18,7 +18,7 @@ Vuosi 2023 jää, joten aika kerrata vuoden 2023 vuoden sanat. Nämähän ovat s
 
 ### Oxford English Dictionary: Rizz
 Ei mitään käsitystä mitä sana ’rizz’ tarkoittaa, joten katsotaan sanakirjasta.
->Rizz is a colloquial word, defined as style, charm, or attractiveness; the ability to attract a romantic or sexual partner,"
+>Rizz is a colloquial word, defined as style, charm, or attractiveness; the ability to attract a romantic or sexual partner
 
 eli vapaasti suomeksi käännettynä tyyliä, charmia, viehätysvoimaa tai jotain ominaisuutta jolla pystyt hankkimaan itsellesi kumppanin/kumppaneita. 
 Sanakirjan mukaan sana olisi vedetty sanan ’charisma’ välistä, eli siellähän on cha-rizz-ma välissä, samalla tavalla kuin sana fridge on vedetty sanan refridgerator välistä.
