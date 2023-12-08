@@ -37,4 +37,4 @@ Tekoäly mainittiin jo aiemmassa kappaleessa, ja mainitaan myös nyt. Vuoden san
 Muita kunniamainittuja sanoja oli ’implosion’ (kuten yllä), ennui (tylsistynyt, Wordlen vastaus 5. kesäkuuta 2023), grifter (huijari), GOAT (Greatest of All Time).
 
 ### Muita sanakirjoja
-Muissa sanakirjoissa tekoäly oli myös hyvin paljon pinnalla. Collins Dictionaryn vuoden sana oli ’AI’ (Artificial intelligence). Macquarie Dictionaryllä (Australiasta) ’generative AI’ sekä ’cozzie livs’ eli cost of living. Toisella australialaisella sanakirjalla (Australian National Dictionary Centre) vuoden sana oli ’Matilda’ (lempinimi Australian naisten jalkapallojoukkuueelle. Kesällä oli kotikisat):
+Muissa sanakirjoissa tekoäly oli myös hyvin paljon pinnalla. Collins Dictionaryn vuoden sana oli ’AI’ (Artificial intelligence). Macquarie Dictionaryllä (Australiasta) ’generative AI’ sekä ’cozzie livs’ eli cost of living. Toisella australialaisella sanakirjalla (Australian National Dictionary Centre) vuoden sana oli ’Matilda’ (lempinimi Australian naisten jalkapallojoukkuueelle. Kesällä oli kotikisat).
