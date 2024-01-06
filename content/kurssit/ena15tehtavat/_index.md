@@ -56,3 +56,16 @@ Aihe 3: It’s 3AM and you receive a text message that says DO NOT LOOK AT THE M
 [Lista adjektiiveista]({{<ref "adjektiivit_lista.mdt" >}})
 
 [Lista idiomeista]({{<ref "idiomit_lista.mdt" >}})
+
+
+{{< rawhtml >}}
+<style>
+#hello{
+    background: url(/img/kansikuvat/kurssivalikot/ena15.jpg)
+}
+
+#hello h {
+    font-size: 2.5em!important;
+}
+</style>
+{{< /rawhtml >}}
