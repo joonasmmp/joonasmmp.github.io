@@ -6,7 +6,7 @@ type: page
 layout: tehtavavalikko
 ---
 
-### Tehtävä 1.1: Kirje joulupukille
+## Tehtävä 1.1: Kirje joulupukille
 
 Kirjoita 700-1300 merkin mittainen kirje Joulupukille 
 Esitä kolme toivomusta, jotka ovat 
@@ -30,7 +30,7 @@ Dear Santa, … 
 * Yours faithfully, / Yours sincerely, / Regards, / Best regards, / any other phrase you might know 
 * Write the signature line and your name on separate lines! 
 
-### Tehtävä 1.2: Tuotepalautus
+## Tehtävä 1.2: Tuotepalautus
 
 Kirjoita vähintään 700-1300 merkin mittainen reklamaatio seuraavalla tehtävänannolla:  
 Olet saanut joululahjaksi jonkin esineen Harrodsin tavaratalosta, mutta syystä tai toisesta se ei sinulle kelpaakaan. Aloitat neuvottelun tilanteen korjaamiseksi asiakaspalvelun kanssa kirjeen muodossa. 
@@ -43,7 +43,7 @@ Mikä palautettavaksi haluamasi esine on? 
 * Lopeta kirjeesi kertomalla innolla odottavasi vastausta (esimerkiksi I am looking forward to hearing from you soon and hope we could reach a solution that is satisfactory to the both of us.)
 
 
-### Tehtävä 2: Kirjoitelman monipuolistaminen
+## Tehtävä 2: Kirjoitelman monipuolistaminen
 
 Kirjoita 700-1300 merkin kirjoitelma. Käytä kirjoitelmassa vähintään yhtä listan idiomeista sekä vähintään kahta listan adjektiivia. Käytä niitä niin, että ne ovat osa järkevää kokonaisuutta, eivätkö tunnu väkinäiseltä.
 
