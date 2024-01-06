@@ -47,13 +47,12 @@ Mikä palautettavaksi haluamasi esine on? 
 
 Kirjoita 700-1300 merkin kirjoitelma. Käytä kirjoitelmassa vähintään yhtä listan idiomeista sekä vähintään kahta listan adjektiivia. Käytä niitä niin, että ne ovat osa järkevää kokonaisuutta, eivätkö tunnu väkinäiseltä.
 
-[Lista adjektiiveista]({{<ref "adjektiivit_lista.mdt" >}})
-
-[Lista idiomeista]({{<ref "idiomit_lista.mdt" >}})
-
-
 Aihe 1: In front of you is a closed door. Why is it closed? What is behind it? What happens when you open it?
 
 Aihe 2: The colour orange reminds me of….
 
 Aihe 3: It’s 3AM and you receive a text message that says DO NOT LOOK AT THE MOON. What do you do?
+
+[Lista adjektiiveista]({{<ref "adjektiivit_lista.mdt" >}})
+
+[Lista idiomeista]({{<ref "idiomit_lista.mdt" >}})
