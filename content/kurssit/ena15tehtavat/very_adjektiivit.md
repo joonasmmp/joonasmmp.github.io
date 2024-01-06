@@ -17,7 +17,7 @@ Mikäli kirjoitelmassasi käyteään sanaa very, se on merkki siitä, että adje
   <ol>
   
 <section>
-1.very accurate = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q1" type="text"/><span></span></li>
+1. very accurate = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q1" type="text"/><span></span></li>
 </section>
 <section>
 2. very angry = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q2" type="text"/><span></span></li>
