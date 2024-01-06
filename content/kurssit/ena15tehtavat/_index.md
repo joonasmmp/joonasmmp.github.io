@@ -1,11 +1,11 @@
 ---
-title: "ENA9 - Abikurssi"
+title: "ENA15 - Jaksoviikko"
 date: 2021-04-26
 draft: false
 type: page
 layout: tehtavavalikko
 ---
 
-Alla löydät tehtäviä abikurssille.
+Alla löydät tehtäviä Jaksoviikolle.
 
-[Oikeinkirjoitustehtävä]({{<ref "oikeinkirjoitustehtava.mdt" >}})
+[Hienommat adjektiivit]({{<ref "very_adjektiivit.mdt" >}})

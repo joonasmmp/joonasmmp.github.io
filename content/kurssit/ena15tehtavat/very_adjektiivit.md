@@ -265,84 +265,84 @@ Mikäli kirjoitelmassasi käyteään sanaa very, se on merkki siitä, että adje
 
 <script>
 var answers = {
-"q1": ["sweltering"],
-"q2": ["colossal"],
-"q3": ["starving"],
-"q4": ["crucial"],
-"q5": ["captivating"],
-"q6": ["huge"],
-"q7": ["tiny"],
-"q8": ["lengthy/extensive"],
-"q9": ["slack"],
-"q10": ["cruel"],
-"q11": ["essential"],
-"q12": ["kind"],
-"q13": ["deafening"],
-"q14": ["frequent","frequently"],
-"q15": ["ancient"],
-"q16": ["archaic"],
-"q17": ["sluggish"],
-"q18": ["transparent"],
-"q19": ["ashen"],
-"q20": ["flawless"],
-"q21": ["beautiful"],
-"q22": ["rapid"],
-"q23": ["timid"],
-"q24": ["skeletal"],
-"q25": ["petite"],
-"q26": ["intelligent"],
-"q27": ["reeking","pungent"],
-"q28": ["sleek"],
-"q29": ["exceptional"],
-"q30": ["forceful"],
-"q31": ["idiotic"],
-"q32": ["certain"],
-"q33": ["gifted"],
-"q34": ["towering"],
-"q35": ["miniscule"],
-"q36": ["exhausted"],
-"q37": ["miserable"],
-"q38": ["eager"],
-"q39": ["distressed"],
-"q40": ["exact","precise"],
-"q41": ["furious"],
-"q42": ["awful"],
-"q43": ["gorgeous"],
-"q44": ["massive"],
-"q45": ["dull"],
-"q46": ["luminous"],
-"q47": ["serene"],
-"q48": ["cautious"],
-"q49": ["spotless","tidy","pure"],
-"q50": ["freezing"],
-"q51": ["vibrant"],
-"q52": ["perplexed"],
-"q53": ["perilous"],
-"q54": ["meticulous"],
-"q55": ["filthy"],
-"q56": ["arid"],
-"q57": ["tedious"],
-"q58": ["effortless"],
-"q59": ["desolate"],
-"q60": ["thrilling"],
-"q61": ["thrilled","exhilarated"],
-"q62": ["costly"],
-"q63": ["adorable"],
-"q64": ["swift"],
-"q65": ["lavish"],
-"q66": ["obese"],
-"q67": ["alarmed"],
-"q68": ["terrifying"],
-"q69": ["hilarious"],
-"q70": ["delighted","overjoyed"],
-"q71": ["excellent","superb"],
-"q72": ["terrific"],
-"q73": ["ecstatic"],
-"q74": ["difficult"],
-"q75": ["soaring"],
-"q76": ["hideous"],
-"q77": ["frail","feeble"],
-"q78": ["soaked"],
+"q1": ["exact","precise"],
+"q2": ["furious"],
+"q3": ["awful"],
+"q4": ["gorgeous"],
+"q5": ["massive"],
+"q6": ["dull"],
+"q7": ["luminous"],
+"q8": ["serene"],
+"q9": ["cautious"],
+"q10": ["spotless","tidy","pure"],
+"q11": ["freezing"],
+"q12": ["vibrant"],
+"q13": ["perplexed"],
+"q14": ["perilous"],
+"q15": ["meticulous"],
+"q16": ["filthy"],
+"q17": ["arid"],
+"q18": ["tedious"],
+"q19": ["effortless"],
+"q20": ["desolate"],
+"q21": ["thrilling"],
+"q22": ["thrilled","exhilarated"],
+"q23": ["costly"],
+"q24": ["adorable"],
+"q25": ["swift"],
+"q26": ["lavish"],
+"q27": ["obese"],
+"q28": ["alarmed"],
+"q29": ["terrifying"],
+"q30": ["hilarious"],
+"q31": ["delighted","overjoyed"],
+"q32": ["excellent","superb"],
+"q33": ["terrific"],
+"q34": ["ecstatic"],
+"q35": ["difficult"],
+"q36": ["soaring"],
+"q37": ["hideous"],
+"q38": ["frail","feeble"],
+"q39": ["soaked"],
+"q40": ["sweltering"],
+"q41": ["colossal"],
+"q42": ["starving"],
+"q43": ["crucial"],
+"q44": ["captivating"],
+"q45": ["huge"],
+"q46": ["tiny"],
+"q47": ["lengthy","extensive"],
+"q48": ["slack"],
+"q49": ["cruel"],
+"q50": ["essential"],
+"q51": ["kind"],
+"q52": ["deafening"],
+"q53": ["frequent","frequently"],
+"q54": ["ancient"],
+"q55": ["archaic"],
+"q56": ["sluggish"],
+"q57": ["transparent"],
+"q58": ["ashen"],
+"q59": ["flawless"],
+"q60": ["beautiful"],
+"q61": ["rapid"],
+"q62": ["timid"],
+"q63": ["skeletal"],
+"q64": ["petite"],
+"q65": ["intelligent"],
+"q66": ["reeking","pungent"],
+"q67": ["sleek"],
+"q68": ["exceptional"],
+"q69": ["forceful"],
+"q70": ["idiotic"],
+"q71": ["certain"],
+"q72": ["gifted"],
+"q73": ["towering"],
+"q74": ["miniscule"],
+"q75": ["exhausted"],
+"q76": ["miserable"],
+"q77": ["eager"],
+"q78": ["distressed"],
   
   };
 
@@ -370,3 +370,82 @@ $("form").on("submit", function(e) {
 }
 </style>
 </rawhtml>
+
+exact / precise
+furious
+awful
+gorgeous
+massive
+dull
+luminous
+serene
+cautious
+spotless / tidy /pure
+freezing
+vibrant
+perplexed
+perilous
+meticulous
+filthy
+arid
+tedious
+effortless
+desolate
+thrilling
+thrilled / exhilarated
+costly
+adorable
+swift
+lavish
+obese
+alarmed
+terrifying
+hilarious
+delighted/overjoyed
+excellent/superb
+terrific
+ecstatic
+difficult
+soaring
+hideous
+frail / feeble
+soaked
+sweltering
+colossal
+starving
+crucial
+captivating
+huge
+tiny
+lengthy/extensive
+slack
+cruel
+essential
+kind
+deafening
+frequent/frequently
+ancient
+archaic
+sluggish
+transparent
+ashen
+flawless
+beautiful
+rapid
+timid
+skeletal
+petite
+intelligent
+reeking/pungent
+sleek
+exceptional
+forceful
+idiotic
+certain
+gifted
+towering
+miniscule
+exhausted
+miserable
+eager
+distressed
