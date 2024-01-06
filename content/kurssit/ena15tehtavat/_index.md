@@ -9,3 +9,5 @@ layout: tehtavavalikko
 Alla löydät tehtäviä Jaksoviikolle.
 
 [Hienommat adjektiivit]({{<ref "very_adjektiivit.mdt" >}})
+
+[Idiomit]({{<ref "idiomit_tehtava.mdt" >}})
