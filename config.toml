@@ -142,6 +142,13 @@ darkmode = "light"
   identifier = "ena09tehtavat"
   weight = 9
   parent = "kurssit"
+
+  [[menu.main]]
+  name = "ENA 15 - Jaksoviikko"
+  url = "/kurssit/ena15tehtavat/"
+  identifier = "ena15tehtavat"
+  weight = 10
+  parent = "kurssit"
   
 [[menu.main]]
   name = "Ylioppilaskoe"
