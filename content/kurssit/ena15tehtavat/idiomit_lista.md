@@ -6,8 +6,6 @@ weight: 80
 type: page
 layout: ohje
 ---
-## Etuliitteet
-
 {{< rawhtml >}}
 <style>
 
