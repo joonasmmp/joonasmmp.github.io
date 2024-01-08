@@ -63,7 +63,7 @@ Aihe 3: It’s 3AM and you receive a text message that says DO NOT LOOK AT THE M
 
 ## Tehtävä 3: Kaunokirjallisen tekstin kääntäminen suomen kielelle
 
-Avaa osoitteessa urly.fi/3oVm tiedosto, joka sisältää avauskappaleen Dan Brownin kirjasta Da Vinci-koodi. Tehtävänäsi on kääntää kyseinen teksti englannista suomeksi. Palautus Turnitiniin sunnuntaihin mennessä.
+Avaa osoitteessa urly.fi/3oVo tiedosto, joka sisältää avauskappaleen Dan Brownin kirjasta Da Vinci-koodi. Tehtävänäsi on kääntää kyseinen teksti englannista suomeksi. Palautus Turnitiniin sunnuntaihin mennessä.
 
 Kiinnitä huomiota erityisesti sanavalintoihin. Niitä tässä harjoitellaan. Sekä suomeksi että englanniksi on hienoja sanoja, joita ei aina tule mieleen käyttää.
 
