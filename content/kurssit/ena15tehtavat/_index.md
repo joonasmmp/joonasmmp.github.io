@@ -61,6 +61,14 @@ Aihe 3: It’s 3AM and you receive a text message that says DO NOT LOOK AT THE M
 
 [Lista idiomeista]({{<ref "idiomit_lista.mdt" >}})
 
+## Tehtävä 3: Kaunoskirjallisen tekstin kääntäminen suomen kielelle
+
+Avaa [tästä linkistä](https://eduouka-my.sharepoint.com/:w:/g/personal/joonas_pelttari_eduouka_fi/Edxb7NyWyc5Oi1GJcbAPPu0BBfjQiD-iArDoaDXsxt8nlg?e=T8MuQi) tiedosto, joka sisältää avauskappaleen Dan Brownin kirjasta Da Vinci-koodi. Tehtävänäsi on kääntää kyseinen teksti englannista suomeksi. Palautus Turnitiniin sunnuntaihin mennessä.
+
+Kiinnitä huomiota erityisesti sanavalintoihin. Niitä tässä harjoitellaan. Sekä suomeksi että englanniksi on hienoja sanoja, joita ei aina tule mieleen käyttää.
+
+Vältä sanasta sanaan käännöstä. Englanti ja suomi ovat eri kieliä, ja niissä pätee eri säännöt esimerkiksi sananjärjestyksen kohdalla. Käännä siis ajatuksia, älä sanoja. Kääntämisen tarkoituksena on tuottaa mahdollisimman luonteva kohdekielinen versio lähdetekstistä. Tärkeintä käännöksessä on itse sisältö, seuraavana sanasto. Kolmas tärkeä asia on tyyli, eli tuo teksti ja sisältö esille sen näköisenä kuin alkuperäinen kirjoittaja on sen halunnut esittää.
+
 
 {{< rawhtml >}}
 <style>
