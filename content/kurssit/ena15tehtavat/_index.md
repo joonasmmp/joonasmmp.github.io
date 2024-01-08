@@ -36,7 +36,7 @@ Dear Santa, … 
 
 ## Tehtävä 1.2: Tuotepalautus
 
-Kirjoita vähintään 700-1300 merkin mittainen reklamaatio seuraavalla tehtävänannolla:  
+Kirjoita vähintään 500 merkin mittainen reklamaatio seuraavalla tehtävänannolla:  
 Olet saanut joululahjaksi jonkin esineen Harrodsin tavaratalosta, mutta syystä tai toisesta se ei sinulle kelpaakaan. Aloitat neuvottelun tilanteen korjaamiseksi asiakaspalvelun kanssa kirjeen muodossa. 
 
 Mikä palautettavaksi haluamasi esine on? 
