@@ -41,3 +41,16 @@ Mikä palautettavaksi haluamasi esine on? 
 * Esineessä on jokin ominaisuus, josta syystä se ei kelpaa. Väärä väri? Elektroniikassa jokin liitettävyyteen liittyvä ongelma? Väärä merkki? Keksi jotain mielenkiintoisempaa kuin että ei sovi sisustukseen. 
 * Ilmoita kohteliaasti pyyntösi tilanteen korjaamiseksi. Harrods on erittäin posh. Kohteliaisuudella tarkoitetaan konditionaalimuotojen suosimista (esimerkiksi I would be most grateful if you could see it possible to...) 
 * Lopeta kirjeesi kertomalla innolla odottavasi vastausta (esimerkiksi I am looking forward to hearing from you soon and hope we could reach a solution that is satisfactory to the both of us.)
+
+
+{{< rawhtml >}}
+<style>
+#hello{
+    background: url(/img/kansikuvat/kurssivalikot/ena15.jpg)
+}
+
+#hello h {
+    font-size: 2.5em!important;
+}
+</style>
+{{< /rawhtml >}}
