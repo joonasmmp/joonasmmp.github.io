@@ -69,6 +69,7 @@ Kiinnitä huomiota erityisesti sanavalintoihin. Niitä tässä harjoitellaan. Se
 
 Vältä sanasta sanaan käännöstä. Englanti ja suomi ovat eri kieliä, ja niissä pätee eri säännöt esimerkiksi sananjärjestyksen kohdalla. Käännä siis ajatuksia, älä sanoja. Kääntämisen tarkoituksena on tuottaa mahdollisimman luonteva kohdekielinen versio lähdetekstistä. Tärkeintä käännöksessä on itse sisältö, seuraavana sanasto. Kolmas tärkeä asia on tyyli, eli tuo teksti ja sisältö esille sen näköisenä kuin alkuperäinen kirjoittaja on sen halunnut esittää.
 
+"Pisteen paikka on pyhä. Jos kirjailija on laittanut tuohon kohtan pisteen, niin siihen pitää laittaa piste, eikä mitään muuta. Laita se takaisin." -Joku ammattikääntäjä yliopistolla saksa-suomi-kääntämisen kurssilla, en todellakaan muista nimeä, noin vuonna 2014.
 
 {{< rawhtml >}}
 <style>
