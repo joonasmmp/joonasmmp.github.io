@@ -7,7 +7,7 @@ type: page
 layout: tehtava
 ---
 
-Mikäli kirjoitelmassasi käyteään sanaa very, se on merkki siitä, että adjektiivisi on liian yksinkertainen. Tällöin voit käyttää alla olevaa listaa apunasi. Opettelemalla tarkempia (eksaktimpeja) adjektiiveja, voit ilmaista itseäsi tarkemmin ja syventyä aiheeseen. Lisäksi voit välttää toistoa.
+Mikäli kirjoitelmassasi käytetään sanaa very, se on merkki siitä, että adjektiivisi on liian yksinkertainen. Tällöin voit käyttää alla olevaa listaa apunasi. Opettelemalla tarkempia (eksaktimpeja) adjektiiveja, voit ilmaista itseäsi tarkemmin ja syventyä aiheeseen. Lisäksi voit välttää toistoa.
 
 {{< rawhtml >}}
 
@@ -245,10 +245,10 @@ Mikäli kirjoitelmassasi käyteään sanaa very, se on merkki siitä, että adje
 76. very unhappy = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q76" type="text"/><span></span></li>
 </section>
 <section>
-76. very willing = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q77" type="text"/><span></span></li>
+77. very willing = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q77" type="text"/><span></span></li>
 </section>
 <section>
-76. very worried = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q78" type="text"/><span></span></li>
+78. very worried = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q78" type="text"/><span></span></li>
 </section>
 
 </ol>

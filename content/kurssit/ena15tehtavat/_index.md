@@ -6,6 +6,10 @@ type: page
 layout: tehtavavalikko
 ---
 
+Turnitin-ohjeet 2024:
+Class ID: 42082043
+Key: jaksoviikko
+
 ## Tehtävä 1.1: Kirje joulupukille
 
 Kirjoita 700-1300 merkin mittainen kirje Joulupukille 
@@ -41,6 +45,21 @@ Mikä palautettavaksi haluamasi esine on? 
 * Esineessä on jokin ominaisuus, josta syystä se ei kelpaa. Väärä väri? Elektroniikassa jokin liitettävyyteen liittyvä ongelma? Väärä merkki? Keksi jotain mielenkiintoisempaa kuin että ei sovi sisustukseen. 
 * Ilmoita kohteliaasti pyyntösi tilanteen korjaamiseksi. Harrods on erittäin posh. Kohteliaisuudella tarkoitetaan konditionaalimuotojen suosimista (esimerkiksi I would be most grateful if you could see it possible to...) 
 * Lopeta kirjeesi kertomalla innolla odottavasi vastausta (esimerkiksi I am looking forward to hearing from you soon and hope we could reach a solution that is satisfactory to the both of us.)
+
+
+## Tehtävä 2: Kirjoitelman monipuolistaminen
+
+Kirjoita 700-1300 merkin kirjoitelma. Käytä kirjoitelmassa vähintään yhtä listan idiomeista sekä vähintään kahta listan adjektiivia. Käytä niitä niin, että ne ovat osa järkevää kokonaisuutta, eivätkö tunnu väkinäiseltä.
+
+Aihe 1: In front of you is a closed door. Why is it closed? What is behind it? What happens when you open it?
+
+Aihe 2: The colour orange reminds me of….
+
+Aihe 3: It’s 3AM and you receive a text message that says DO NOT LOOK AT THE MOON. What do you do?
+
+[Lista adjektiiveista]({{<ref "adjektiivit_lista.mdt" >}})
+
+[Lista idiomeista]({{<ref "idiomit_lista.mdt" >}})
 
 
 {{< rawhtml >}}
