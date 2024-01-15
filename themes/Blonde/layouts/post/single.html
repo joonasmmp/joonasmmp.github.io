@@ -71,6 +71,11 @@
         margin-bottom: 1.25em; height: fit-content;">
 
 <div class="panel bg-white mb-3 pb-5 dark:bg-warmgray-900 dark:text-gray-300" id="toc" style="border-radius: 0.5rem;">
+    <script>$(document).ready(function() {
+        if ($('#toc li').length === 0) {
+            $('#toc').css('display', 'none');
+        }
+    });</script>
     <p class="text-center text-xl text-center text-gray-700 py-5 dark:text-gray-300" style="font-weight:300; font-size:175%">Sisältö</p>
     <aside  style="font-family: 'Open Sans'" class="px-5">
         {{.TableOfContents}}
