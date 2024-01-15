@@ -38,6 +38,11 @@
         <div class="hidden lg:block lg:col-span-1" style="border-radius: 0.5rem; overflow: hidden;
         margin-bottom: 1.25em; height: fit-content;">
                 <div class="bg-white panel pb-5 dark:bg-warmgray-800 dark:text-gray-300" style="font-family: 'Open Sans'" id="toc">
+                    <script>$(document).ready(function() {
+                        if ($('#toc li').length === 0) {
+                            $('#toc').css('display', 'none');
+                        }
+                    });</script>
                     <p class="text-center text-xl text-center text-gray-700 py-5 dark:text-gray-300">Sisältö</p>
                     <aside class="px-5">
                         {{.TableOfContents}}
