@@ -6,7 +6,7 @@ type: page
 layout: tehtava
 ---
 
-Muunna epäsuoraan kerrontaan. Mikäli tehtävässä on mielestäsi useita vaihtoehtoja, valitse vaihtoehto, jossa aikamuotomuutoksen on tehty.
+Muunna epäsuoraan kerrontaan. Mikäli tehtävässä on mielestäsi useita vaihtoehtoja, valitse vaihtoehto, jossa aikamuotomuutokset on tehty.
 
 {{< rawhtml >}}
 <link rel="stylesheet" type="text/css" href="/css/monivalinta1.css"/>
