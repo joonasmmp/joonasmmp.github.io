@@ -95,10 +95,10 @@ window.onload = function() {
 
 },
 
-   ],
+    ],
     definitions: [{
          index: 0, text: 'aliado'
-    }, { index: 1, text: 'emboscada; acechar'
+    }, { index: 1, text: 'emboscada / acechar'
     }, { index: 2, text: 'municiones, suministros de munición'
     }, { index: 3, text: 'conflicto armado'
     }, { index: 4, text: 'armería'
