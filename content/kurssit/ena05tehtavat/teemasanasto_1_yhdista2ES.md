@@ -160,7 +160,6 @@ window.onload = function() {
     }, { index: 60, text: 'la Guardia Costera'
     }, { index: 61, text: 'la Armada'
     }, { index: 62, text: 'Cuerpo de Marines'
-    }],
 };
 
     ],
