@@ -142,7 +142,7 @@ window.onload = function() {
     }, { index: 42, text: 'tropas'
     }, { index: 43, text: 'guerra urbana'
     }, { index: 44, text: 'movimiento de resistencia'
-    }, { index: 45, text: 'asedio; sitiar'
+    }, { index: 45, text: 'asedio / sitiar'
     }, { index: 46, text: 'sufrir grandes pérdidas'
     }, { index: 47, text: 'hacer la guerra'
     }, { index: 48, text: 'guerra'
