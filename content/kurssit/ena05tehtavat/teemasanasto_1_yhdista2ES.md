@@ -1,5 +1,5 @@
 ---
-title: "Teema 1: Media - yhdistä sanat 2"
+title: "Teema 1: War & Peace - yhdistä sanat 2 ES"
 date: 2022-6-1
 draft: false
 type: page
