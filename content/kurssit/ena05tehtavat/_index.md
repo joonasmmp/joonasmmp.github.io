@@ -63,6 +63,10 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 
 [Teema 4: Information & Communication technology: yhdistä sanat - Loputon]({{<ref "teemasanasto_4_yhdista2.mdt" >}})
 
+### Tieteellinen kirjoittaminen
+
+[Tieteellinen kirjoittaminen: monivalinta 1]({{<ref "scientific_writing_1.mdt" >}})
+
 {{< rawhtml >}}
 <style>
 #hello{
