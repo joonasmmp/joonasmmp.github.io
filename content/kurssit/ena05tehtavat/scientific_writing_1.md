@@ -16,12 +16,12 @@ Choose the more scientific version in questions 1-3. In questions 4-12, complete
   <div class="row">
   <section data-quiz-item>
     <div class="question">Choose the more scientific version.</div>
-    <div class="choices" data-choices='["First, I took a banana from the deep-freezer. Then I superheated it to thirty thousand degrees Celsius for 0.001 seconds. Finally, I coated it with maple syrup and ate it.","First, a banan was taken from the deep-freezer. Then it was superheated to thirty thousand degrees Celsius for 0.001 seconds. Finally, it was coated with maple syrup and eaten."]'></div>
+    <div class="choices" data-choices='["First, I took a banana from the deep-freezer. Then I superheated it to thirty thousand degrees Celsius for 0.001 seconds. Finally, I coated it with maple syrup and ate it.","First, a banana was taken from the deep-freezer. Then it was superheated to thirty thousand degrees Celsius for 0.001 seconds. Finally, it was coated with maple syrup and eaten."]'></div>
     <p class="info">Passive voice is more formal.</p>
   </section>
   <section data-quiz-item>
     <div class="question">Choose the more scientific version.</div>
-    <div class="choices" data-choices='["You just pour hot water on the tea leaves, let it sleep for five minutes, and all is done!", "Hot water is poured on the tea leaves, after which the drink is left to steep for fives minutes."]'></div>
+    <div class="choices" data-choices='["You just pour hot water on the tea leaves, let it steep for five minutes, and it is ready.", "Hot water is poured on the tea leaves, after which the drink is left to steep for fives minutes."]'></div>
     <p class="info">Use proper passive voice, not the you-passive.</p>
    </section>
   </div>
