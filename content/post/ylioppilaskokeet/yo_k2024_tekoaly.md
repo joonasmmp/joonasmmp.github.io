@@ -13,9 +13,11 @@ categories = [
 ]
 +++
 
-{{< tekstioikealle >}} 
+{{< tekstioikealle >}}
+
 ## JPEL
 Englannin ylioppilaskokeessa on todennäköisesti aiheena tekoäly. Minkälaisia kirjoitelman aiheita kokeessa saattaisi esiintyä?
+
 {{< /tekstioikealle >}} 
 
 ## Copilot
