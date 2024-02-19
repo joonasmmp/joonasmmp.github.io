@@ -37,19 +37,19 @@ Voitko antaa jokaisesta aiheesta muutamia apukysymyksiä, joiden perusteella lä
 ## 💻 Copilot
 Tietenkin! Tässä on apukysymyksiä jokaiselle aiheelle:
 
-1. Tekoälyn vaikutus työelämään:
+**1. Tekoälyn vaikutus työelämään:**
 - Miten tekoäly vaikuttaa eri ammattialoihin ja työtehtäviin?
 - Millaisia uusia taitoja työntekijöiltä vaaditaan tekoälyn aikakaudella?
- -Kuinka automaatio ja tekoäly voivat parantaa työn tuottavuutta?
-2. Etiikka tekoälyn käytössä:
+- Kuinka automaatio ja tekoäly voivat parantaa työn tuottavuutta?
+**2. Etiikka tekoälyn käytössä:**
 - Miksi on tärkeää keskustella tekoälyn eettisistä kysymyksistä?
 - Millaisia riskejä liittyy tekoälyn tietosuojaan ja algoritmien läpinäkyvyyteen?
 - Kuinka voimme varmistaa vastuullisen tekoälyn käytön?
-3. Tekoäly terveydenhuollossa:
+**3. Tekoäly terveydenhuollossa:**
 - Miten tekoälyä voidaan hyödyntää sairauksien diagnosoinnissa?
 - Millaisia etuja ja haasteita liittyy tekoälyn käyttöön terveydenhuollossa?
 - Kuinka voimme varmistaa, että tekoäly tekee oikeita päätöksiä potilaiden hoidossa?
-4. Tekoäly ja ympäristö:
+**4. Tekoäly ja ympäristö:**
 - Miten tekoäly voi auttaa ilmastonmuutoksen torjunnassa?
 - Millaisia sovelluksia tekoälyllä voi olla luonnonvarojen kestävässä käytössä?
 - Kuinka voimme tasapainottaa tekoälyn hyödyt ja ympäristövaikutukset?
@@ -63,7 +63,7 @@ Voitko antaa jokaisesta aiheesta noin kymmenen tärkeää englanninkielistä san
 ## 💻 Copilot
 Tietenkin! Tässä on noin kymmenen englanninkielistä sanaa jokaisesta aiheesta:
 
-1. Tekoälyn vaikutus työelämään:
+**1. Tekoälyn vaikutus työelämään:**
 - Automation (automaatio)
 - Workforce (työvoima)
 - Skillset (osaaminen)
@@ -74,7 +74,7 @@ Tietenkin! Tässä on noin kymmenen englanninkielistä sanaa jokaisesta aiheesta
 - Human-AI collaboration (ihmisen ja tekoälyn yhteistyö)
 - Digital transformation (digitaalinen muutos)
 - Labor market trends (työmarkkinoiden trendit)
-2. Etiikka tekoälyn käytössä:
+**2. Etiikka tekoälyn käytössä:**
 - Ethics (etiikka)
 - Transparency (läpinäkyvyys)
 - Bias (vinouma)
@@ -85,7 +85,7 @@ Tietenkin! Tässä on noin kymmenen englanninkielistä sanaa jokaisesta aiheesta
 - Consent (suostumus)
 - Data protection (tietosuoja)
 - Ethical guidelines (eettiset ohjeet)
-3. Tekoäly terveydenhuollossa:
+**3. Tekoäly terveydenhuollossa:**
 - Diagnostics (diagnostiikka)
 - Treatment planning (hoitosuunnitelma)
 - Medical imaging (lääketieteellinen kuvantaminen)
@@ -96,7 +96,7 @@ Tietenkin! Tässä on noin kymmenen englanninkielistä sanaa jokaisesta aiheesta
 - Drug discovery (lääkekehitys)
 - Patient outcomes (potilaan tulokset)
 - Healthcare efficiency (terveydenhuollon tehokkuus)
-4. Tekoäly ja ympäristö:
+**4. Tekoäly ja ympäristö:**
 - Climate change (ilmastonmuutos)
 - Renewable energy (uusiutuva energia)
 - Carbon footprint (hiilijalanjälki)
