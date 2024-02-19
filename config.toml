@@ -244,3 +244,6 @@ archive = "archives"
 
   [services.twitter]
     disableInlineCSS = true
+
+[markup.goldmark.renderer]
+unsafe= true
