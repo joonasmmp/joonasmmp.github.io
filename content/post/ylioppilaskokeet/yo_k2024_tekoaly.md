@@ -15,12 +15,12 @@ categories = [
 
 {{< tekstioikealle >}}
 
-## JPEL
+## JPEL 😊
 Englannin ylioppilaskokeessa on todennäköisesti aiheena tekoäly. Minkälaisia kirjoitelman aiheita kokeessa saattaisi esiintyä?
 
 {{< /tekstioikealle >}} 
 
-## Copilot
+## 💻 Copilot
 Englannin ylioppilaskokeessa tekoäly voi olla mielenkiintoinen aihe kirjoitelmaan. Tässä on muutamia mahdollisia aiheita, joita saattaisi esiintyä:
 
 1. Tekoälyn vaikutus työelämään: Kirjoita siitä, miten tekoäly muuttaa työpaikkoja ja millaisia taitoja tulevaisuuden työntekijöiltä vaaditaan.
@@ -30,11 +30,11 @@ Englannin ylioppilaskokeessa tekoäly voi olla mielenkiintoinen aihe kirjoitelma
 6. Valitse aihe, joka kiinnostaa sinua eniten, ja luo vakuuttava kirjoitelma! 📝🌟
 
 {{% tekstioikealle %}}
-## JPEL 
+## JPEL 😊
 Voitko antaa jokaisesta aiheesta muutamia apukysymyksiä, joiden perusteella lähteä kirjoittamaan aiheesta?
 {{% /tekstioikealle %}} 
 
-## Copilot
+## 💻 Copilot
 Tietenkin! Tässä on apukysymyksiä jokaiselle aiheelle:
 
 1. Tekoälyn vaikutus työelämään:
@@ -56,11 +56,11 @@ Tietenkin! Tässä on apukysymyksiä jokaiselle aiheelle:
 - Valitse aiheesi ja käytä näitä kysymyksiä pohjana kirjoitelmallesi! Onnea kirjoittamiseen! 📝🌟
 
 {{% tekstioikealle %}}
-## JPEL 
+## JPEL 😊
 Voitko antaa jokaisesta aiheesta noin kymmenen tärkeää englanninkielistä sanaa, joilla osoittaa osaaminen kokeen tarkistajalle.
 {{% /tekstioikealle %}} 
 
-## Copilot
+## 💻 Copilot
 Tietenkin! Tässä on noin kymmenen englanninkielistä sanaa jokaisesta aiheesta:
 
 1. Tekoälyn vaikutus työelämään:
@@ -111,9 +111,18 @@ Tietenkin! Tässä on noin kymmenen englanninkielistä sanaa jokaisesta aiheesta
 Toivottavasti nämä sanat auttavat sinua valmistautumaan kirjoitelmaasi! Onnea kokeeseen! 📝🌟
 
 {{% tekstioikealle %}}
-## JPEL 
+## JPEL 😊
 Auttavat, kiitos tästä! Lähetätkö vielä terveisiä sivustoni lukijoille? Ja tietysti onnea kokeeseen!
 {{% /tekstioikealle %}} 
 
-## Copilot
+## 💻 Copilot
 Tottakai! Lähetän lämpimät terveiset sivustosi lukijoille. Toivottavasti heillekin sujuu kaikki hyvin! 🌟 Onnea kokeeseen, ja muista pitää pää kylmänä ja kirjoittaa rohkeasti! 📝💪
+
+
+{{< rawhtml >}}
+<style>
+div#toc {
+    display: none;
+}
+</style>
+{{< /rawhtml >}}
