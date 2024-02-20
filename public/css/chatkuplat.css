@@ -1,6 +1,6 @@
 div#kuplasend {
 background: #0B93F6;
-color: white;
+color: white !important;
 font-family: "Helvetica Neue", Helvetica, sans-serif;
 font-size: 20px;
 font-weight: normal;
@@ -20,7 +20,7 @@ padding:1.5em;
 
 div#kuplareceive {
 background: #E5E5EA;;
-color: black;
+color: black !important;
 font-family: "Helvetica Neue", Helvetica, sans-serif;
 font-size: 20px;
 font-weight: normal;
@@ -34,12 +34,4 @@ position: relative;
 padding: 10px 20px;
 border-radius: 25px;
 padding:1.5em;
-}
-
-div#kuplareceive:where(strong) {
-color: black !important;
-}
-
-div#kuplasend:where(strong) {
-color: white !important;
 }
