@@ -35,3 +35,11 @@ padding: 10px 20px;
 border-radius: 25px;
 padding:1.5em;
 }
+
+div#kuplareceive:where(strong) {
+color: black !important;
+}
+
+div#kuplasend:where(strong) {
+color: white !important;
+}
