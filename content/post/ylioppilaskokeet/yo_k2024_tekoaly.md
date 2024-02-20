@@ -20,7 +20,7 @@ Englannin ylioppilaskokeessa on todennäköisesti aiheena tekoäly. Minkälaisia
 
 {{< /kuplasend >}} 
 
-{{% kuplareceive %}}
+{{< kuplareceive >}}
 ## 💻 Copilot
 Englannin ylioppilaskokeessa tekoäly voi olla mielenkiintoinen aihe kirjoitelmaan. Tässä on muutamia mahdollisia aiheita, joita saattaisi esiintyä:
 
@@ -30,6 +30,7 @@ Englannin ylioppilaskokeessa tekoäly voi olla mielenkiintoinen aihe kirjoitelma
 5. Tekoäly ja ympäristö: Kirjoita siitä, miten tekoäly voi auttaa ympäristöongelmien ratkaisemisessa, esimerkiksi ilmastonmuutoksen torjunnassa tai luonnonvarojen kestävässä käytössä.
 
 Valitse aihe, joka kiinnostaa sinua eniten, ja luo vakuuttava kirjoitelma! 📝🌟
+{{< /kuplareceive >}}
 
 {{% kuplasend %}}
 ## JPEL 😊
