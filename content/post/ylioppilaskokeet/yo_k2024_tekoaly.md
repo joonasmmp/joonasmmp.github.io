@@ -142,4 +142,6 @@ div#toc {
     display: none;
 }
 </style>
+
+<link rel="stylesheet" type="text/css" href="/css/chatkuplat.css"/>
 {{< /rawhtml >}}
