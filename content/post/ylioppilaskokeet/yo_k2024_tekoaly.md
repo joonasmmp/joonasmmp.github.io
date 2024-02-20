@@ -16,7 +16,6 @@ categories = [
 {{< kuplasend >}}
 
 **JPEL 😊**
-
 Englannin ylioppilaskokeessa on todennäköisesti aiheena tekoäly. Minkälaisia kirjoitelman aiheita kokeessa saattaisi esiintyä?
 
 {{< /kuplasend >}} 
@@ -24,7 +23,6 @@ Englannin ylioppilaskokeessa on todennäköisesti aiheena tekoäly. Minkälaisia
 {{< kuplareceive >}}
 
 **💻 Copilot**
-
 Englannin ylioppilaskokeessa tekoäly voi olla mielenkiintoinen aihe kirjoitelmaan. Tässä on muutamia mahdollisia aiheita, joita saattaisi esiintyä:
 
 1. Tekoälyn vaikutus työelämään: Kirjoita siitä, miten tekoäly muuttaa työpaikkoja ja millaisia taitoja tulevaisuuden työntekijöiltä vaaditaan.
@@ -37,13 +35,11 @@ Valitse aihe, joka kiinnostaa sinua eniten, ja luo vakuuttava kirjoitelma! 📝�
 
 {{% kuplasend %}}
 **JPEL 😊**
-
 Voitko antaa jokaisesta aiheesta muutamia apukysymyksiä, joiden perusteella lähteä kirjoittamaan aiheesta?
 {{% /kuplasend %}} 
 
 {{% kuplareceive %}}
 **💻 Copilot**
-
 Tietenkin! Tässä on apukysymyksiä jokaiselle aiheelle:
 
 **1. Tekoälyn vaikutus työelämään:**
@@ -76,7 +72,6 @@ Voitko antaa jokaisesta aiheesta noin kymmenen tärkeää englanninkielistä san
 
 {{% kuplareceive %}}
 **💻 Copilot**
-
 Tietenkin! Tässä on noin kymmenen englanninkielistä sanaa jokaisesta aiheesta:
 
 **1. Tekoälyn vaikutus työelämään:**
@@ -132,13 +127,11 @@ Toivottavasti nämä sanat auttavat sinua valmistautumaan kirjoitelmaasi! Onnea 
 
 {{% kuplasend %}}
 **JPEL 😊**
-
 Auttavat, kiitos tästä! Lähetätkö vielä terveisiä sivustoni lukijoille? Ja tietysti onnea kokeeseen!
 {{% /kuplasend %}} 
 
 {{% kuplareceive %}}
 **💻 Copilot**
-
 Tottakai! Lähetän lämpimät terveiset sivustosi lukijoille. Toivottavasti heillekin sujuu kaikki hyvin! 🌟 Onnea kokeeseen, ja muista pitää pää kylmänä ja kirjoittaa rohkeasti! 📝💪
 {{% /kuplareceive %}}
 
