@@ -23,6 +23,7 @@ Englannin ylioppilaskokeessa on todennäköisesti aiheena tekoäly. Minkälaisia
 {{< kuplareceive >}}
 
 **💻 Copilot**
+
 Englannin ylioppilaskokeessa tekoäly voi olla mielenkiintoinen aihe kirjoitelmaan. Tässä on muutamia mahdollisia aiheita, joita saattaisi esiintyä:
 
 1. Tekoälyn vaikutus työelämään: Kirjoita siitä, miten tekoäly muuttaa työpaikkoja ja millaisia taitoja tulevaisuuden työntekijöiltä vaaditaan.
@@ -40,6 +41,7 @@ Voitko antaa jokaisesta aiheesta muutamia apukysymyksiä, joiden perusteella lä
 
 {{% kuplareceive %}}
 **💻 Copilot**
+
 Tietenkin! Tässä on apukysymyksiä jokaiselle aiheelle:
 
 **1. Tekoälyn vaikutus työelämään:**
@@ -72,6 +74,7 @@ Voitko antaa jokaisesta aiheesta noin kymmenen tärkeää englanninkielistä san
 
 {{% kuplareceive %}}
 **💻 Copilot**
+
 Tietenkin! Tässä on noin kymmenen englanninkielistä sanaa jokaisesta aiheesta:
 
 **1. Tekoälyn vaikutus työelämään:**
