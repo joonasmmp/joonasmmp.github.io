@@ -20,6 +20,7 @@ Englannin ylioppilaskokeessa on todennäköisesti aiheena tekoäly. Minkälaisia
 
 {{< /kuplasend >}} 
 
+{{% kuplareceive %}}
 ## 💻 Copilot
 Englannin ylioppilaskokeessa tekoäly voi olla mielenkiintoinen aihe kirjoitelmaan. Tässä on muutamia mahdollisia aiheita, joita saattaisi esiintyä:
 
@@ -30,12 +31,13 @@ Englannin ylioppilaskokeessa tekoäly voi olla mielenkiintoinen aihe kirjoitelma
 
 Valitse aihe, joka kiinnostaa sinua eniten, ja luo vakuuttava kirjoitelma! 📝🌟
 
-{{% tekstioikealle %}}
+{{% kuplasend %}}
 ## JPEL 😊
 Voitko antaa jokaisesta aiheesta muutamia apukysymyksiä, joiden perusteella lähteä kirjoittamaan aiheesta?
-{{% /tekstioikealle %}} 
+{{% /kuplasend %}} 
 
-## 💻 Copilot
+{{% kuplareceive %}}
+**💻 Copilot**
 Tietenkin! Tässä on apukysymyksiä jokaiselle aiheelle:
 
 **1. Tekoälyn vaikutus työelämään:**
@@ -59,12 +61,14 @@ Tietenkin! Tässä on apukysymyksiä jokaiselle aiheelle:
 - Kuinka voimme tasapainottaa tekoälyn hyödyt ja ympäristövaikutukset?
 
 Valitse aiheesi ja käytä näitä kysymyksiä pohjana kirjoitelmallesi! Onnea kirjoittamiseen! 📝🌟
+{{% /kuplareceive %}}
 
-{{% tekstioikealle %}}
+{{% kuplasend %}}
 ## JPEL 😊
 Voitko antaa jokaisesta aiheesta noin kymmenen tärkeää englanninkielistä sanaa, joilla osoittaa osaaminen kokeen tarkistajalle.
-{{% /tekstioikealle %}} 
+{{% /kuplasend %}} 
 
+{{% kuplareceive %}}
 ## 💻 Copilot
 Tietenkin! Tässä on noin kymmenen englanninkielistä sanaa jokaisesta aiheesta:
 
@@ -117,14 +121,17 @@ Tietenkin! Tässä on noin kymmenen englanninkielistä sanaa jokaisesta aiheesta
 - Natural resource management (luonnonvarojen hallinta)
 
 Toivottavasti nämä sanat auttavat sinua valmistautumaan kirjoitelmaasi! Onnea kokeeseen! 📝🌟
+{{% /kuplareceive %}}
 
-{{% tekstioikealle %}}
+{{% kuplasend %}}
 ## JPEL 😊
 Auttavat, kiitos tästä! Lähetätkö vielä terveisiä sivustoni lukijoille? Ja tietysti onnea kokeeseen!
-{{% /tekstioikealle %}} 
+{{% /kuplasend %}} 
 
+{{% kuplareceive %}}
 ## 💻 Copilot
 Tottakai! Lähetän lämpimät terveiset sivustosi lukijoille. Toivottavasti heillekin sujuu kaikki hyvin! 🌟 Onnea kokeeseen, ja muista pitää pää kylmänä ja kirjoittaa rohkeasti! 📝💪
+{{% /kuplareceive %}}
 
 
 {{< rawhtml >}}
