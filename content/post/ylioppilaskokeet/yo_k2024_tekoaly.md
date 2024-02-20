@@ -27,7 +27,8 @@ Englannin ylioppilaskokeessa tekoäly voi olla mielenkiintoinen aihe kirjoitelma
 2. Etiikka tekoälyn käytössä: Pohdi tekoälyn eettisiä kysymyksiä, kuten tietosuojaa, algoritmien läpinäkyvyyttä ja vastuullista tekoälyn käyttöä.
 3. Tekoäly terveydenhuollossa: Tutki, miten tekoälyä hyödynnetään sairauksien diagnosoinnissa, hoitoprosesseissa ja terveydenhuollon päätöksenteossa.
 5. Tekoäly ja ympäristö: Kirjoita siitä, miten tekoäly voi auttaa ympäristöongelmien ratkaisemisessa, esimerkiksi ilmastonmuutoksen torjunnassa tai luonnonvarojen kestävässä käytössä.
-6. Valitse aihe, joka kiinnostaa sinua eniten, ja luo vakuuttava kirjoitelma! 📝🌟
+
+Valitse aihe, joka kiinnostaa sinua eniten, ja luo vakuuttava kirjoitelma! 📝🌟
 
 {{% tekstioikealle %}}
 ## JPEL 😊
@@ -56,7 +57,8 @@ Tietenkin! Tässä on apukysymyksiä jokaiselle aiheelle:
 - Miten tekoäly voi auttaa ilmastonmuutoksen torjunnassa?
 - Millaisia sovelluksia tekoälyllä voi olla luonnonvarojen kestävässä käytössä?
 - Kuinka voimme tasapainottaa tekoälyn hyödyt ja ympäristövaikutukset?
-- Valitse aiheesi ja käytä näitä kysymyksiä pohjana kirjoitelmallesi! Onnea kirjoittamiseen! 📝🌟
+
+Valitse aiheesi ja käytä näitä kysymyksiä pohjana kirjoitelmallesi! Onnea kirjoittamiseen! 📝🌟
 
 {{% tekstioikealle %}}
 ## JPEL 😊
