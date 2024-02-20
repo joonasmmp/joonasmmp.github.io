@@ -35,3 +35,11 @@ padding: 10px 20px;
 border-radius: 25px;
 padding:1.5em;
 }
+
+div#kuplasend, strong {
+    color: white;
+}
+
+div#kuplareceive, strong {
+    color: black;
+}
