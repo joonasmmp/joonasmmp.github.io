@@ -16,6 +16,7 @@ categories = [
 {{< kuplasend >}}
 
 **JPEL 😊**
+
 Englannin ylioppilaskokeessa on todennäköisesti aiheena tekoäly. Minkälaisia kirjoitelman aiheita kokeessa saattaisi esiintyä?
 
 {{< /kuplasend >}} 
@@ -36,11 +37,13 @@ Valitse aihe, joka kiinnostaa sinua eniten, ja luo vakuuttava kirjoitelma! 📝�
 
 {{% kuplasend %}}
 **JPEL 😊**
+
 Voitko antaa jokaisesta aiheesta muutamia apukysymyksiä, joiden perusteella lähteä kirjoittamaan aiheesta?
 {{% /kuplasend %}} 
 
 {{% kuplareceive %}}
 **💻 Copilot**
+
 Tietenkin! Tässä on apukysymyksiä jokaiselle aiheelle:
 
 **1. Tekoälyn vaikutus työelämään:**
@@ -129,11 +132,13 @@ Toivottavasti nämä sanat auttavat sinua valmistautumaan kirjoitelmaasi! Onnea 
 
 {{% kuplasend %}}
 **JPEL 😊**
+
 Auttavat, kiitos tästä! Lähetätkö vielä terveisiä sivustoni lukijoille? Ja tietysti onnea kokeeseen!
 {{% /kuplasend %}} 
 
 {{% kuplareceive %}}
 **💻 Copilot**
+
 Tottakai! Lähetän lämpimät terveiset sivustosi lukijoille. Toivottavasti heillekin sujuu kaikki hyvin! 🌟 Onnea kokeeseen, ja muista pitää pää kylmänä ja kirjoittaa rohkeasti! 📝💪
 {{% /kuplareceive %}}
 
