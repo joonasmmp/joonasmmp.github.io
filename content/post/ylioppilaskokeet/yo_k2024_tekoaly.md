@@ -138,8 +138,10 @@ Auttavat, kiitos tästä! Lähetätkö vielä terveisiä sivustoni lukijoille? J
 Tottakai! Lähetän lämpimät terveiset sivustosi lukijoille. Toivottavasti heillekin sujuu kaikki hyvin! 🌟 Onnea kokeeseen, ja muista pitää pää kylmänä ja kirjoittaa rohkeasti! 📝💪
 {{% /kuplareceive %}}
 
+Päivitys kokeen jälkeen: yksikään näistä tärpeistä ei toteutunut. Näin tällä kertaa :(
 
 {{< rawhtml >}}
+
 <style>
 div#toc {
     display: none;
