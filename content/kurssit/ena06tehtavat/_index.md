@@ -13,7 +13,10 @@ Jatko-opintoja ja työelämää ja sellasta hei
 [Prepositioilmaisuja: Flashcard]({{<ref "prepositioilmaisuja_flashcard.mdt" >}})
 
 ## Sanastoa
-No ei ole vielä mittään
+### Elements-teemasanat
+[Teema 1: Education: yhdistä sanat]({{<ref "teemasanasto_1_yhdista2.mdt" >}})
+
+[Teema 2: Working life: yhdistä sanat]({{<ref "teemasanasto_2_yhdista2.mdt" >}})
 
 {{< rawhtml >}}
 <style>
