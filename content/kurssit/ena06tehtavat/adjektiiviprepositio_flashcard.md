@@ -55,7 +55,7 @@ $(document).ready(function() {
 ["anxious _____ = huolissaan, innoissaan", "anxious about = huolissaan, innoissaan"], 
 ["appreciated _____ = arvostettu", "appreciated for = arvostettu"], 
 ["ashamed _____ = häpeissään", "ashamed of = häpeissään"], 
-["associated _____ = liittynyt, "yhdistetty", associated with = liittynyt, yhdistetty"], 
+["associated _____ = liittynyt, yhdistetty", "associated with = liittynyt, yhdistetty"], 
 ["astonished _____ = hämmästynyt", "astonished at = hämmästynyt"], 
 ["attached _____ = liittynyt", "attached to = liittynyt"], 
 ["aware _____ = tietoinen", "aware of = tietoinen"], 
