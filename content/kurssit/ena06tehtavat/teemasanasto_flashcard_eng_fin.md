@@ -75,7 +75,7 @@ $(document).ready(function() {
 ["detention", "jälki-istunto"],
 ["discipline", "kuri"],
 ["distance learning", "etäopiskelu"],
-["drop out", "j"ättää koulu kesken"],
+["drop out", "jättää koulu kesken"],
 ["e-learning", "e-oppiminen"],
 ["expel", "erottaa (koulusta)"],
 ["extracurricular activities", "koulutuntien ulkopuolinen toiminta"],
