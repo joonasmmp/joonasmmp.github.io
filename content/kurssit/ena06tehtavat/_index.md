@@ -12,6 +12,8 @@ Jatko-opintoja ja työelämää ja sellasta hei
 
 [Fraasiverbit: Flashcard]({{<ref "fraasiverbit_flashcard.mdt" >}})
 
+[Adjektiivi + prepositio: Flashcard]({{<ref "adjektiiviprepositio_flashcard.mdt" >}})
+
 ## Sanastoa
 ### Elements-teemasanat
 [Teemasanastot: Flashcard ENG-FIN]({{<ref "teemasanasto_flashcard_eng_fin.mdt" >}})
