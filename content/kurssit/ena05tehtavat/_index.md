@@ -49,8 +49,6 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 
 [Teema 1: War & Peace: yhdistä sanat - Loputon]({{<ref "teemasanasto_1_yhdista2.mdt" >}})
 
-[Teema 1: War & Peace: yhdistä sanat - Spanish]({{<ref "teemasanasto_1_yhdista2ES.mdt" >}})
-
 [Teema 2: Science & Research: yhdistä sanat - 6/9/12]({{<ref "teemasanasto_2_yhdista1.mdt" >}})
 
 [Teema 2: Science & Research: yhdistä sanat - Loputon]({{<ref "teemasanasto_2_yhdista2.mdt" >}})
@@ -62,6 +60,15 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 [Teema 4: Information & Communication technology: yhdistä sanat - 6/9/12]({{<ref "teemasanasto_4_yhdista1.mdt" >}})
 
 [Teema 4: Information & Communication technology: yhdistä sanat - Loputon]({{<ref "teemasanasto_4_yhdista2.mdt" >}})
+
+### Vocabularios temáticos en español
+
+[Teema 1: War & Peace - Spanish]({{<ref "teemasanasto_1_yhdista2ES.mdt" >}})
+
+[Teema 2: Science & Research - Spanish]({{<ref "teemasanasto_2_yhdista2ES.mdt" >}})
+
+[Teema 3: Traffic - Spanish]({{<ref "teemasanasto_3_yhdista2ES.mdt" >}})
+
 
 ### Tieteellinen kirjoittaminen
 
