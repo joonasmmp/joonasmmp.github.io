@@ -403,7 +403,7 @@ document.getElementById("lisaa").addEventListener("click", function() {
         addCSS("div#tehtava li[data-index='" + a[h] + "']{display: flex;}")
 				h++;
         addCSS("div#tehtava li[data-index='" + a[h] + "']{display: flex;}")
-if(h>66){$("#kaikki").html("Kaikki lisätty jo!"); }      })
+if(h>66){$("#kaikki").html("Misión cumplida!"); }      })
   }
 
 var numero = 0;

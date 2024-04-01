@@ -10,7 +10,7 @@ layout: tehtava
 <link rel="stylesheet" type="text/css" href="/css/yhdistely.css"/>
 <div id="nappulat">
 <button id="lisaa">
-Lisää pareja
+agregar más pares
 </button>
 </div>
 <div id="kaikki"></div>
@@ -449,7 +449,7 @@ document.getElementById("lisaa").addEventListener("click", function() {
         addCSS("div#tehtava li[data-index='" + a[h] + "']{display: flex;}")
 				h++;
         addCSS("div#tehtava li[data-index='" + a[h] + "']{display: flex;}")
-if(h>80){$("#kaikki").html("Kaikki lisätty jo!"); }      })
+if(h>80){$("#kaikki").html("Misión cumplida!"); }      })
   }
 
 var numero = 0;

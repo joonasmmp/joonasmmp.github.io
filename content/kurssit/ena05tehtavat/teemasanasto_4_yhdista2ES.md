@@ -10,7 +10,7 @@ layout: tehtava
 <link rel="stylesheet" type="text/css" href="/css/yhdistely.css"/>
 <div id="nappulat">
 <button id="lisaa">
-Lisää pareja
+agregar más pares
 </button>
 </div>
 <div id="kaikki"></div>

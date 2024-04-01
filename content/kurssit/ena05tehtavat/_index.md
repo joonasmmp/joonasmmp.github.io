@@ -69,6 +69,7 @@ Tähän vaikka kurssin tavoitteet, aihealueet, rakenteet, yms. Jotain kuvausta t
 
 [Teema 3: Traffic - Spanish]({{<ref "teemasanasto_3_yhdista2ES.mdt" >}})
 
+[Teema 4: Information & Communication technology - Spanish]({{<ref "teemasanasto_4_yhdista2ES.mdt" >}})
 
 ### Tieteellinen kirjoittaminen
 
