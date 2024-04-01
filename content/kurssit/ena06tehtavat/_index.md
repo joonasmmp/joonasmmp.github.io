@@ -14,7 +14,9 @@ Jatko-opintoja ja työelämää ja sellasta hei
 
 ## Sanastoa
 ### Elements-teemasanat
-[Teemsanastot: Flashcard ENG-FIN]({{<ref "teemasanasto_flashcard_eng_fin.mdt" >}})
+[Teemasanastot: Flashcard ENG-FIN]({{<ref "teemasanasto_flashcard_eng_fin.mdt" >}})
+
+[Teemasanastot: Flashcard FIN-ENG]({{<ref "teemasanasto_flashcard_fin_eng.mdt" >}})
 
 [Teema 1: Education: yhdistä sanat]({{<ref "teemasanasto_1_yhdista2.mdt" >}})
 
