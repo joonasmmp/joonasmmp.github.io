@@ -302,11 +302,11 @@ $(document).ready(function() {
     beginActivity();
     })
     $("#teema2").on("mousedown", function(){
-    currentQuestion = 64;
+    currentQuestion = 78;
     beginActivity();
     })
     $("#teema3").on("mousedown", function(){
-    currentQuestion = 140;
+    currentQuestion = 173;
     beginActivity();
     })
 
