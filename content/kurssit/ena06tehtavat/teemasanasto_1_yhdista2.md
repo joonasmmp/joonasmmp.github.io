@@ -307,7 +307,7 @@ a = shufflee(a);
   //This function adds HTML elements and content to the specified container (UL).
   function createListHTML(list, container) {
     container.innerHTML = ""; //first, clean up any existing LI elements
-    for (var i = 0; i < 63; i++) {
+    for (var i = 0; i < 77; i++) {
       container.innerHTML = container.innerHTML + "<li data-index='" + list[i]["index"] + "'>" + "<span>" + list[i]["text"] + "</span>" + "</li>";
 
     }
