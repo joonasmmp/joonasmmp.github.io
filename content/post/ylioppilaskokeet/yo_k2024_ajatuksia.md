@@ -19,7 +19,7 @@ Yleisesti ottaen kokelaiden mielestä koe oli helppo. Nouseeko pisterajat kuuhun
 
 ## Tehtävä 2
 Mielestäni ei hirveästi epäselvyyksiä. Tietysti tuo viimeinen lause, eli 
->> There is no other profession in the country where it’s unacceptable for a woman with children, with young children, to work full time, and yet, actually, our version of working full time is to work three 12-hour days, which is 36 hours, which is anybody else’s full time anyway.
+> There is no other profession in the country where it’s unacceptable for a woman with children, with young children, to work full time, and yet, actually, our version of working full time is to work three 12-hour days, which is 36 hours, which is anybody else’s full time anyway.
 pistää aivan varmasti aivot solmuun. Itsekin piti lukea koko teksti useampaan kertaan, että ymmärsin merkityksen. Entä sitten huonolla äänenlaadulla ja ADHD-diagnoosilla? En tiedä. 
 
 ## Tehtävä 6
