@@ -7,10 +7,10 @@ layout: tehtavavalikko
 ---
 Jatko-opintoja ja työelämää ja sellasta hei 
 
-## Laskettavat ja ei-laskettavat substantiivit
+## Kielioppi
 [Lauseenvastikkeet: Kirjoita]({{<ref "lauseenvastikkeet_kirjoita.mdt" >}})
 
-[Prepositioilmaisuja: Flashcard]({{<ref "prepositioilmaisuja_flashcard.mdt" >}})
+[Fraasiverbit: Flashcard]({{<ref "fraasiverbit_flashcard.mdt" >}})
 
 ## Sanastoa
 ### Elements-teemasanat
