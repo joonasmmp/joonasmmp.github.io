@@ -328,11 +328,10 @@ window.onload = function() {
       92: 92,
       93: 93,
       94: 94,
-      95: 95,
     }
   };
     
-for (var a=[],i=0;i<96;++i) a[i]=i;
+for (var a=[],i=0;i<95;++i) a[i]=i;
 
 function shufflee(array) {
   var tmp, current, top = array.length;
@@ -361,7 +360,7 @@ a = shufflee(a);
   //This function adds HTML elements and content to the specified container (UL).
   function createListHTML(list, container) {
     container.innerHTML = ""; //first, clean up any existing LI elements
-    for (var i = 0; i < 96; i++) {
+    for (var i = 0; i < 95; i++) {
       container.innerHTML = container.innerHTML + "<li data-index='" + list[i]["index"] + "'>" + "<span>" + list[i]["text"] + "</span>" + "</li>";
 
     }
