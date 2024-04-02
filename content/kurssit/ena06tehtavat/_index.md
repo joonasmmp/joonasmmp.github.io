@@ -27,7 +27,7 @@ Jatko-opintoja ja työelämää ja sellasta hei
 
 [Teema 2: Working life: yhdistä sanat]({{<ref "teemasanasto_2_yhdista2.mdt" >}})
 
-[Teema 3: Business: yhdistä sanat]({{<ref "teemasanasto_2_yhdista2.mdt" >}})
+[Teema 3: Business: yhdistä sanat]({{<ref "teemasanasto_3_yhdista2.mdt" >}})
 
 {{< rawhtml >}}
 <style>
