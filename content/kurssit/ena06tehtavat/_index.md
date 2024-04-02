@@ -11,7 +11,7 @@ Jatko-opintoja ja työelämää ja sellasta hei
 
 ### Adjektiivit ja adverbit
 
-[Adjektiivit ja adverbit: Kirjoita 1]({{<ref "adjektiivitadverbit_kirjoita1.mdt" >}})
+[Adjektiivit ja adverbit: Kirjoita]({{<ref "adjektiivitadverbit_kirjoita1.mdt" >}})
 
 ### Lauseenvastikkeet
 [Lauseenvastikkeet: Kirjoita]({{<ref "lauseenvastikkeet_kirjoita.mdt" >}})
