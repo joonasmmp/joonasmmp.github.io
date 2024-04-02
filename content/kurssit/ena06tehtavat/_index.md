@@ -8,7 +8,15 @@ layout: tehtavavalikko
 Jatko-opintoja ja työelämää ja sellasta hei 
 
 ## Kielioppi
+
+### Adjektiivit ja adverbit
+
+[Adjektiivit ja adverbit: Kirjoita 1]({{<ref "adjektiivitadverbit_kirjoita1.mdt" >}})
+
+### Lauseenvastikkeet
 [Lauseenvastikkeet: Kirjoita]({{<ref "lauseenvastikkeet_kirjoita.mdt" >}})
+
+### Prepositioilmaisut
 
 [Fraasiverbit: Flashcard]({{<ref "fraasiverbit_flashcard.mdt" >}})
 
