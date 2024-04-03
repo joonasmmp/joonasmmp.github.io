@@ -115,3 +115,31 @@ document.querySelectorAll("input").forEach(elem => elem.addEventListener('input'
 
 </script>
 </rawhtml>
+
+{{%accordion "Vastaukset" %}}
+var answers = {
+  "q1": ["before applying"],
+
+  "q2": ["anxious to get away"],
+
+  "q3": ["standing by the lake"],
+
+  "q4": ["after unpacking his luggage", "having unpacked", "having unpacked his luggage", "after unpacking"],
+
+  "q5": ["though feeling tired"],
+
+  "q6": ["if possible", "were possible"],
+
+  "q7": ["if lucky"],
+
+  "q8": ["the weather being pleasant"],
+
+  "q9": ["built in the last century"],
+
+  "q10": ["getting a summer job"],
+
+  "q11": ["if not repaired at once", "not repaired at once"],
+  
+  "q12": ["being an old house"],
+};
+{{% /accordion%}}
