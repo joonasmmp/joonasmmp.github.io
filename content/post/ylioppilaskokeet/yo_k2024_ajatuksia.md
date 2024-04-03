@@ -50,3 +50,8 @@ Tämä oli monivalinta, mutta kirjoitan tästä silti. Eli tässä ensimmäistä
 Tää oli myös aika helppo, varsinkin kohta 13.2. 
 13.1 ongelmia tuotti se, jos laittoi vastaukseen mukaan fanit. Fanithan eivät olleet syyllisiä mellakoihin, vaan uhkapelaajat. Katsojat sanan annoin mennä, kunhan vedonlyönti oli mainittu, mutta fani on turhan tarkka sana siihen.
 13.2 ja miksei myös 13.1 ongelmia myös tuotti joukkueen nimi, nimittäin New South Wales. Se on siis eri asia kuin Wales, eli jos mainitsee Walesin, menee nollille. New South Wales on Australiassa. 
+
+## Kirjoitelmat
+Kirjoitelman otsikot oli suhteellisen helppoja. Ei mitään erittäin vaikeita, kun taas syksyllä en tykännyt oikeastaan mistään aiheesta, uskon että jokaiselle löytyi edes joku aihe josta kirjoittaa. Ehdottomasti parhaat kirjoitelmat sai tuosta vaikeasta aiheesta, eli kolmannesta muutoskuvauksesta. 
+
+Iso ongelma kuitenkin paljastui viimeisestä tehtävänannosta, eli huijaamispuheesta. Vaikka kuinka opiskelijoille painottaa sitä, että jos se on puhe, niin siinä on oltava puheen tunnusmerkit, eli aloitus, lopetus, yleisön huomiointi. Valitettavan suurella osalla nämä jäi puuttumaan, mikä tietysti otti pois helppoja pisteitä.
