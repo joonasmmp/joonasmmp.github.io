@@ -98,7 +98,7 @@ window.onload = function() {
 
     ],
     definitions: [{    
-}, { index: 0, text: 'tili'
+     index: 0, text: 'tili'
 }, { index: 1, text: 'pankkiautomaatti'
 }, { index: 2, text: 'saldo'
 }, { index: 3, text: 'budjetti, tulo- ja menoarvio'
@@ -404,7 +404,7 @@ document.getElementById("lisaa").addEventListener("click", function() {
         addCSS("div#tehtava li[data-index='" + a[h] + "']{display: flex;}")
 				h++;
         addCSS("div#tehtava li[data-index='" + a[h] + "']{display: flex;}")
-if(h>58){$("#kaikki").html("Kaikki lisätty jo!"); }      })
+if(h>60){$("#kaikki").html("Kaikki lisätty jo!"); }      })
   }
 
 var numero = 0;
