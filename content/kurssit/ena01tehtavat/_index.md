@@ -90,6 +90,9 @@ Yhteensä noin sadan epäsäännöllisen verbin taivutuksia. Älä vastaa väär
 
 [Teema 7: Family: yhdistä sanat - Loputon]({{<ref "teemasanasto_7_yhdista2.mdt" >}})
 
+### Muut tehtävät
+
+[Oppikirjasuunnistus]({{<ref "ena01_oppikirjasuunnistus.mdt" >}})
 
 {{< rawhtml >}}
 <style>
