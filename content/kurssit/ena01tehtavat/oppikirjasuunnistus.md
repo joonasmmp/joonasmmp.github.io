@@ -230,8 +230,8 @@ function checkAnswer() {
     if (correct) {
     questionsAsked++; //Increase questionsAsked
     if (questionsAsked >= questionOrder.length) {
-    $("#ques8").empty();
-    $("#ques8").append('<div id="finalMessage">Great success!<br><br>Aivan mahtavaa, oppikirjan käyttö sujuu paremmin kuin isolla osalla abiturienteista! Tästä on hyvä jatkaa.</div>');
+    $("#ques7").empty();
+    $("#ques7").append('<div id="finalMessage">Great success!<br><br>Aivan mahtavaa, oppikirjan käyttö sujuu paremmin kuin isolla osalla abiturienteista! Tästä on hyvä jatkaa.</div>');
     } else {
       hideAllExcept(questionOrder[questionsAsked]); // Start over at step 2
     }
