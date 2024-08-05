@@ -55,7 +55,7 @@ layout: tehtava
 <h2>Task 4</h2>
 <p>Ja taas oikea vastaus! Mennää seuraavaan kohtaan.</p>
 
-<p>Kielioppiosion löydät kirjan loppuosasta, osiosta Grammar. Mene kielioppiosioon ja etsi sieltä PASSIIVIN teoria, joko näköiskirjana tai ei. Ei Next level, vaan pelkkä passiivi. Sitä ei opetella vielä, mutta tehtävänäsi on löytää, mistä kielioppiteoria löytyy.</p>
+<p>Kielioppiosion löydät kirjan loppuosasta, osiosta Grammar. Mene kielioppiosioon ja etsi sieltä PASSIIVIN teoria, joko näköiskirjana tai ei. Ei opetella vielä passiivia, vaan tehtävänäsi on löytää mistä kielioppiteoria löytyy.</p>
 
 <p>Teoriaosiosta löydät kuvan, jossa on lentoja. Miltä portilta lento Berliiniin lähtee? Tai olisi pitänyt lähteä, näköjään se on peruttu.</p>
   <input type="text" name="answer4"/>
@@ -65,20 +65,20 @@ layout: tehtava
   <h2>Task 5</h2>
   <p>Liian helppoa! Sitten seuraavaan tehtävään.</p>
 
-<p>Etsitään tehtäviä. Ne on vähän hämmentävästi nimetty. Tekstien tehtävät yleensä muotoa 1.2, muut tehtävät saavat eteensä kirjaimen E, esim. E1.2. Kielioppitehtävissä eteen tulee G, esim G1.2. </p>
+<p>Etsitään tehtäviä. Ne on vähän hämmentävästi nimetty. Tekstien tehtävät ovat yleensä muotoa 1.2, eli ensimmäisen tekstin toinen tehtävä. Muut tehtävät saavat eteensä kirjaimen E, esim. E1.2. Kielioppitehtävissä eteen tulee G, esim G1.2 on ensimmäisen kielioppiosion toinen tehtävä. </p>
 
 <p> Etsi tehtävä "3.3 Find the phrase". Koska se on tehtävä 3.3, se on osa tekstiä 3. Missähän teemassa Teksti 3 on? Ei ainakaan osiossa Grammar, koska se ei ole kielioppia.</p>
 
-<p> Kirjoita alla olevaan taulukkoon tehtävän 3.3 kohdan 15 suomenkielinen vihje.</p>
+<p> Kirjoita alla olevaan vastauslaatikkoon tehtävän 3.3 kohdan 15 suomenkielinen vihje.</p>
 
 <input type="text" name="answer5"/>
 </div>
 
 <div id="ques6" class="ques">
   <h2>Task 6</h2>
-  <p>Sitten etsitään kielioppitehtäviä! Muistatko vielä, missä osiossa ne oli?</p>
-  <p>Etsi tehtävä G13.3 Kerro kuvasta.</p>
-  <p>Esimerkkilauseessa on sohva. Minkä värinen sohva? Kirjoita väri alla olevaan vastauskenttään.</p>
+  <p>Sitten etsitään kielioppitehtäviä! Muistatko vielä, missä osiossa ne olivatkaan?</p>
+  <p>Etsi tehtävä "G13.3 Kerro kuvasta".</p>
+  <p>Esimerkkilauseessa on sohva, mutta minkä värinen sohva? Kirjoita väri alla olevaan vastauskenttään.</p>
 
 <input type="text" name="answer6"/>
 </div>
@@ -186,7 +186,7 @@ input#submit {
 <script>
 window.onload = function() {
   var questionCnt = $("div.ques").length;
-  questionOrder = [0,1,2,3,4,5,6,7,8];
+  questionOrder = [0,1,2,3,4,5,6,7];
     questionsAsked = 0;
     hideAllExcept(questionOrder[questionsAsked]);
   
@@ -231,7 +231,7 @@ function checkAnswer() {
     questionsAsked++; //Increase questionsAsked
     if (questionsAsked >= questionOrder.length) {
     $("#ques8").empty();
-    $("#ques8").append('<div id="finalMessage">Great success!<br><br>Finally, the door opens and you get out.</div>');
+    $("#ques8").append('<div id="finalMessage">Great success!<br><br>Aivan mahtavaa, oppikirjan käyttö sujuu paremmin kuin isolla osalla abiturienteista! Tästä on hyvä jatkaa.</div>');
     } else {
       hideAllExcept(questionOrder[questionsAsked]); // Start over at step 2
     }
