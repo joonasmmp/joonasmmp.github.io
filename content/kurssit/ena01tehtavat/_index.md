@@ -92,7 +92,7 @@ Yhteensä noin sadan epäsäännöllisen verbin taivutuksia. Älä vastaa väär
 
 ### Muut tehtävät
 
-[Oppikirjasuunnistus]({{<ref "ena01_oppikirjasuunnistus.mdt" >}})
+[Oppikirjasuunnistus]({{<ref "oppikirjasuunnistus.mdt" >}})
 
 {{< rawhtml >}}
 <style>
