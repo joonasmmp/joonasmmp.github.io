@@ -16,7 +16,7 @@ layout: tehtava
 
 <p>Harjoitellaan SanomaPron Elements 1+2-oppikirjan käyttöä lyhyen oppikirjasuunnistuksen avulla.</p>
 
-<p>Saat eteesi tehtävän. Päästäksesi seuraavaan tehtävään, sinun on annettava tekstilaatikkoon oikea vastaus.</p>
+<p>Saat eteesi tehtävän. Päästäksesi seuraavaan tehtävään sinun on annettava tekstilaatikkoon oikea vastaus.</p>
 
 <p>Aloita kirjoittamalla tekstilaatikkoon 'start'.</p>
     <input type="text" name="answer0"/>
@@ -89,64 +89,8 @@ layout: tehtava
 
 <p>Avaa tehtävänanto. Sen tehtävälistassa on vain yksi tehtävä. Mikä tuon tehtävän nimi on? Kirjoita se alla olevaan vastauskenttään.</p>
 
-
-  <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-0lax">border</th>
-    <th class="tg-0lax">rebellion</th>
-    <th class="tg-0lax">ambush</th>
-    <th class="tg-0lax">combat</th>
-    <th class="tg-0lax">disarmament</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0lax">siege</td>
-    <td class="tg-0lax">negotiate</td>
-    <td class="tg-0lax">ethnic cleansing</td>
-    <td class="tg-0lax">guerilla war</td>
-    <td class="tg-0lax">weaponry</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">invade</td>
-    <td class="tg-0lax">retreat</td>
-    <td class="tg-0lax">armoury</td>
-    <td class="tg-0lax">infantry</td>
-    <td class="tg-0lax">regiment</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">trench</td>
-    <td class="tg-0lax">warfare</td>
-    <td class="tg-0lax">surrender</td>
-    <td class="tg-0lax">troops</td>
-    <td class="tg-0lax">occupation</td>
-  </tr>
-</tbody>
-</table>
-
    <input type="text" name="answer7"/>
 </div>
-
-<div id="ques8" class="ques">
-  <h2>Task 8</h2>
-  <p>You follow the map and find a metal box! But… it isn’t locked. There are papers, and they are blank except one. It says:</p>
-<p>Go to the door that leads to the waiting room.</p>
-<p>Outside the waiting room door you hear some noise. Suddenly, a low male voice asks you the following question:</p>
-<p>Name three professions that Galileo Galilei had during his life.</p>
-<p>P, E, A</p>
-    <input type="text" name="answer8"/>
-</div>
-
-<input type="submit" id="submit" value="Tarkista vastaus" />
 
 </form>
 
