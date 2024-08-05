@@ -92,6 +92,8 @@ layout: tehtava
    <input type="text" name="answer7"/>
 </div>
 
+<input type="submit" id="submit" value="Tarkista vastaus" />
+
 </form>
 
 <style>

@@ -78,11 +78,11 @@ Yhteensä noin sadan epäsäännöllisen verbin taivutuksia. Älä vastaa väär
 
 [Flashcard: FIN-ENG]({{<ref "teemasanasto_flashcard_fin_eng.mdt" >}})
 
-[Teema 1: Body parts: yhdistä sanat - Loputon]({{<ref "teemasanasto_1_yhdista2.mdt" >}})
+[Teema 1: Body parts: yhdistä sanat]({{<ref "teemasanasto_1_yhdista2.mdt" >}})
 
-[Teema 2: Health: yhdistä sanat - Loputon]({{<ref "teemasanasto_2_yhdista2.mdt" >}})
+[Teema 2: Health: yhdistä sanat]({{<ref "teemasanasto_2_yhdista2.mdt" >}})
 
-[Teema 7: Family: yhdistä sanat - Loputon]({{<ref "teemasanasto_7_yhdista2.mdt" >}})
+[Teema 7: Family: yhdistä sanat]({{<ref "teemasanasto_7_yhdista2.mdt" >}})
 
 ### Muut tehtävät
 
