@@ -9,13 +9,10 @@ layout: ohje
 ## Konsonanttiäänteet /p/ ja /b/
 - Molempien äänteiden muodostuminen bilabiaalinen, eli muodostuspaikkana toimii molemmat huulet. Muodostuminen alkaa huulien sulkemisella
 -	Ero suomeen: /p/:n ollessa painotetun tavun ensimmäinen äänne ja kun sitä seuraa vokaaliäänne, se vaatii vahvan puhalluksen (aspiraatio), aivan kuin perään lisättäisiin /h/-äänne -> put = /phut/.
--> Vertaa: pin/bin, pee/be, pet/bet, pie/bye 
--	Kun konsonanttiäännettä seuraa heti perään toinen, jätetään ensimmäinen aspirointi pois ja äännetään se jälkimmäisessä.
--> esim. ’roped’ tai ’ripe peaches’
+Vertaa: pin/bin, pee/be, pet/bet, pie/bye 
+-	Kun konsonanttiäännettä seuraa heti perään toinen, jätetään ensimmäinen aspirointi pois ja äännetään se jälkimmäisessä. esim. ’roped’ tai ’ripe peaches’
 -	Jos ensimmäinen aspirointi äännetään, ’ripe peaches’ voidaan helposti ymmärtää väärin, ’riper peaches’.
--	Englannin kielessä on joukko sanoja, joissa ’p’ ja ’b’ eivät äänny!
-
--> psychology, psychiatrist, pseudonym, pneumonia, receipt, debt, comb, limb, dumb.
+-	Englannin kielessä on joukko sanoja, joissa ’p’ ja ’b’ eivät äänny! esim. psychology, psychiatrist, pseudonym, pneumonia, receipt, debt, comb, limb, dumb.
 	
 ### Harjoitus 1. Voimakkaasti ääntyvä /p/
 pea, pie, paw, pale, pool; appear, support, apart, compose.

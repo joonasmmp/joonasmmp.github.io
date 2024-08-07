@@ -14,6 +14,10 @@ layout: tehtavavalikko
 
 [Konsonanttiäänteet /p/ ja /b/]({{<ref "fonetiikka_pb.mdt" >}})
 
+[Konsonanttiäänteet /k/ ja /g/]({{<ref "fonetiikka_kg.mdt" >}})
+
+[Konsonanttiäänteet /t/ ja /d/]({{<ref "fonetiikka_td.mdt" >}})
+
 
 {{< rawhtml >}}
 <style>
