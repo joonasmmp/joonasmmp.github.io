@@ -6,10 +6,10 @@ type: page
 layout: tehtavavalikko
 ---
 
-## Keskustelutehtiä
+## Keskustelutehtäviä
 [Keskustelugeneraattori]({{<ref "keskustelugeneraattori.mdt" >}})
 
-## Fonetiikkaa
+## Ääntämisharjoituksia
 
 [Konsonanttiäänteet /p/ ja /b/]({{<ref "fonetiikka_pb.mdt" >}})
 
