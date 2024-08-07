@@ -7,8 +7,7 @@ layout: tehtavavalikko
 ---
 
 ## Keskustelutehtiä
-
-
+[Keskustelugeneraattori]({{<ref "keskustelugeneraattori.mdt" >}})
 
 ## Fonetiikkaa
 
