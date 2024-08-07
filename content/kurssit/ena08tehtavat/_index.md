@@ -6,7 +6,13 @@ type: page
 layout: tehtavavalikko
 ---
 
-Alla löydät tehtäviä ENA08-kurssille. Tai no et löydä kun ei oo mitään hehehe.
+## Keskustelutehtiä
+
+
+
+## Fonetiikkaa
+
+[Konsonanttiäänteet /p/ ja /b/]({{<ref "fonetiikka_pb.mdt" >}})
 
 
 {{< rawhtml >}}
