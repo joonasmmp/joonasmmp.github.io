@@ -614,7 +614,7 @@ qbank = shufflee(qbank);
   }
   
   function seuraava() {
-    $("#buttonArea").append('<div id="nextButton">Seuraava</div>');
+    $("#buttonArea").append('<div id="nextButton">Uusi kysymys</div>');
     $("#nextButton").on("click", function() {
       if (currentQuestion < qbank.length) {
         currentQuestion++;
