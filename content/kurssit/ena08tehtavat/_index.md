@@ -18,6 +18,12 @@ layout: tehtavavalikko
 
 [Konsonanttiäänteet /t/ ja /d/]({{<ref "fonetiikka_td.mdt" >}})
 
+[Konsonanttiäänteet /f/ ja /v/]({{<ref "fonetiikka_fv.mdt" >}})
+
+[S-äänteet]({{<ref "fonetiikka_s.mdt" >}})
+
+[Affrikaatat /tʃ/ ja /dʒ/]({{<ref "fonetiikka_afrikaatat.mdt" >}})
+
 
 {{< rawhtml >}}
 <style>

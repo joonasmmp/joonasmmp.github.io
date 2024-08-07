@@ -1,5 +1,5 @@
 ---
-title: "Konsonanttiäänteet /k/ ja /g/"
+title: "Konsonanttiäänteet /t/ ja /d/"
 date: 2024-8-7
 draft: false
 type: page

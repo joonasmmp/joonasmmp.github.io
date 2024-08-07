@@ -41,7 +41,7 @@ struggle, frugal, gurgle, Google, giggle
 
 drag, rug, peg, wig, league, plague
 
-Harjoitus 3. Minimipareja ja muuta
+### Harjoitus 3. Minimipareja ja muuta
 
 coat- goat, came – game, crease – grease, crowned – ground
 
