@@ -690,6 +690,15 @@ qbank = shufflee(qbank);
     justify-content: center;
     align-items: center;
   }
+
+   #hello{
+    background: url(/img/kansikuvat/kurssivalikot/flashcard.jpg);
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+  }
+  
+  #hello h {
+    font-size: 2.5em!important;
+  }
   </style>
 
   {{< /rawhtml >}}
