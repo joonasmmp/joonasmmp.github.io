@@ -21,7 +21,7 @@ layout: tehtavavalikko
 
 [S-äänteet]({{<ref "fonetiikka_s.mdt" >}})
 
-[Affrikaatat /tʃ/ ja /dʒ/]({{<ref "fonetiikka_afrikaatat.mdt" >}})
+[Affrikaatat /tʃ/ ja /dʒ/]({{<ref "fonetiikka_affrikaatat" >}})
 
 
 {{< rawhtml >}}
