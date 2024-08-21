@@ -9,6 +9,8 @@ layout: tehtavavalikko
 ## Keskustelutehtäviä
 [Keskustelugeneraattori]({{<ref "keskustelugeneraattori.mdt" >}})
 
+[Movie pitch ideas]({{<ref "moviepitch.mdt" >}})
+
 ## Ääntämisharjoituksia
 
 [Konsonanttiäänteet /p/ ja /b/]({{<ref "fonetiikka_pb.mdt" >}})
