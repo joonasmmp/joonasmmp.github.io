@@ -54,7 +54,7 @@ search – surge; hedge – heads; age – aids
 
 badge – batch – bats – bash
 
-### arjoitus 4. Lauseita, jossa eri äänteitä
+### Harjoitus 4. Lauseita, jossa eri äänteitä
 Just for joke we mixed gin and ginger with the General’s jam.
 
 Georgina jumped for joy when she saw the jumble of cheap objects.

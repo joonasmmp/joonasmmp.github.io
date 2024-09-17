@@ -9,7 +9,7 @@ layout: ohje
 ## S-äänteet
 Suurin ongelma s-äänteissä on selvän eron tekeminen /s/ ja /z/ sekä /ʃ/ ja /ʒ/ äänteiden välillä, muuten ääntäminen onnistuu yleensä ongelmitta. 
 
-Huomaa, että ’s’ kirjain jää ääntämättä monissa sanoissa: island, islet, aisle, viscont, Carlisle, debris, Illinois.
+Huomaa, että ’s’ kirjain jää ääntämättä monissa sanoissa: island, islet, aisle, viscount, Carlisle, debris, Illinois.
 
 ### Voimakkaasti ääntyvä /s/
 sat, soup, soft, cease, sword, suit, silk, soap
