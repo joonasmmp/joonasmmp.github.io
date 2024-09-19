@@ -122,9 +122,9 @@ var questions = [
   new Question("Siellä on aina mukavaa", ["It always is fun there", "It is always fun there", "There is always fun"], "It is always fun there"),
   new Question("Syön harvoin kasviksia", ["I seldom eat vegetables", "I eat seldom vegetables", "I eat vegetables seldom"], "I seldom eat vegetables"),
   new Question("Käyn usein kalassa", ["I frequently go fishing", "I go frequently fishing", "Frequently go I fishing"], "I frequently go fishing"),
-  new Question("Teetkö normaalisti kotitehtäväsi?", ["D0 normally you do your homework?","Do you normally do your homework?", "Do you do normally your homework?"], "Do you normally do your homework?"),
+  new Question("Teetkö normaalisti kotitehtäväsi?", ["Do normally you do your homework?","Do you normally do your homework?", "Do you do normally your homework?"], "Do you normally do your homework?"),
   new Question("Tehtävä on melkein lopussa!", ["The exercise almost is finished!", "The exercise is almost finished!", "The exercise almost finished is!"], "The exercise is almost finished!"),
-  new Question("Tämä on todennäköisesti viimeinen kysymys", ["This probably is the final question", "This probably is the final question", "This is the final question probably"], "This probably is the final question"),
+  new Question("Tämä on todennäköisesti viimeinen kysymys", ["This probably is the final question", "This is probably the final question", "This is the final question probably"], "This is probably the final question"),
   new Question("Minä vain vitsailin, tehtävä ei lopu koskaan", ["I just was kidding, the exercise never ends", "I was just kidding, the exercise never ends", "I was just kidding, the exercise ends never"], "I was just kidding, the exercise never ends"),
 ];
 
