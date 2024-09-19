@@ -54,6 +54,9 @@ Yhteensä noin sadan epäsäännöllisen verbin taivutuksia. Älä vastaa väär
 
 ## Muut kielioppiasiat
 
+### Sanajärjestys
+[1. Liikkuvat määreet: Lopputesti]({{<ref "liikkuvat_alkutesti.mdt" >}})
+
 ### Muodolliset subjektit it ja there
 
 [1. Muodolliset subjektit: Alkutesti]({{<ref "there_it_alkutesti.mdt" >}})
