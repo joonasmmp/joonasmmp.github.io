@@ -118,7 +118,7 @@ var questions = [
   new Question("Oletko aina myöhässä?", ["Always are you late?", "Are always you late?", "Are you always late?"], "Are you always late?"),
   new Question("Oletko koskaan nähnyt kuuta?", ["Have ever you seen the moon?", "Have you ever seen the moon?", "Ever seen the moon have you?"], "Have you ever seen the moon?"),
   new Question("En aina pidä tenniksestä", ["I always don't like tennis", "I don't always like tennis", "I don't like always tennis"], "I don't always like tennis"),
-  new Question("Menen aina sinne", ["I go there always", "I go always there", "I always go there"], "I alway go there"),
+  new Question("Menen aina sinne", ["I go there always", "I go always there", "I always go there"], "I always go there"),
   new Question("Siellä on aina mukavaa", ["It always is fun there", "It is always fun there", "There is always fun"], "It is always fun there"),
   new Question("Syön harvoin kasviksia", ["I seldom eat vegetables", "I eat seldom vegetables", "I eat vegetables seldom"], "I seldom eat vegetables"),
   new Question("Käyn usein kalassa", ["I frequently go fishing", "I go frequently fishing", "Frequently go I fishing"], "I frequently go fishing"),
