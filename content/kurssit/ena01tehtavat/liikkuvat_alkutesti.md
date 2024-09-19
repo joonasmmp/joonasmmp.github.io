@@ -17,7 +17,7 @@ layout: tehtava
             <div class="buttons">
             <button id="btn0"><span id="choice0"></span></button> 
             <button id="btn1"><span id="choice1"></span></button>
-            <button id="btn2"><span id="choice1"></span></button>
+            <button id="btn2"><span id="choice2"></span></button>
 </div>
 
 </body>
