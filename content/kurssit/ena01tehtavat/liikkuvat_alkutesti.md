@@ -1,5 +1,5 @@
 ---
-title: "Isot alkukirjaimet: Lopputesti"
+title: "Liikkuvat määreet: Lopputesti"
 date: 2021-8-13
 draft: false
 type: page
@@ -17,6 +17,7 @@ layout: tehtava
             <div class="buttons">
             <button id="btn0"><span id="choice0"></span></button> 
             <button id="btn1"><span id="choice1"></span></button>
+            <button id="btn2"><span id="choice1"></span></button>
 </div>
 
 </body>
@@ -111,28 +112,20 @@ function displayFinalMessage() {
 
 // kysymykset tähän
 var questions = [
-  new Question("minä", ["i", "I",], "I"),
-  new Question("joulu", ["christmas", "Christmas"], "Christmas"),
-  new Question("tammikuu", ["january", "January"], "January"),
-  new Question("kesä", ["summer", "Summer"], "summer"),
-  new Question("sinä", ["you", "You"], "you"),
-  new Question("new york", ["New york", "New York"], "New York"),
-  new Question("grand canyon", ["the Grand canyon", "the Grand Canyon"], "the Grand Canyon"),
-  new Question("suomi", ["finland", "Finland"], "Finland"),
-  new Question("suomalainen", ["finnish", "Finnish"], "Finnish"),
-  new Question("kapkaupunki", ["Cape town", "Cape Town"], "Cape Town"),
-  new Question("uudenvuodenaatto", ["New Year's eve", "New Year's Eve"], "New Year's Eve"),
-  new Question("setä roger", ["uncle Roger", "Uncle Roger"], "Uncle Roger"),
-  new Question("täti jenny", ["aunt Jenny", "Aunt Jenny"], "Aunt Jenny"),
-  new Question("minun tätini", ["my aunt", "my Aunt"], "my aunt"),
-  new Question("prinssi harry", ["prince Harry", "Prince Harry"], "Prince Harry"),
-  new Question("toinen maailmansota", ["World war II", "World War II"], "World War II"),
-  new Question("juutalainen", ["jewish", "Jewish"], "Jewish"),
-  new Question("kristitty", ["christian", "Christian"], "Christian"),
-  new Question("muslimi", ["a muslim", "a Muslim"], "a Muslim"),
-  new Question("oulun yliopisto", ["Oulu university", "Oulu University"], "Oulu University"),
-  new Question("monte-criston kreivi", ["the Count of Monte Cristo", "The Count of Monte Cristo"], "The Count of Monte Cristo"),  
-  new Question("yhdysvallat", ["the United States of America", "the United States Of America"], "the United States of America"),
+  new Question("En ole koskaan syönyt tonnikalaa", ["I never have eaten tuna", "I have never eaten tuna", "I have eaten never tuna",], "I have never eaten tuna"),
+  new Question("En koskaan syö aamiaista", ["Never I eat breakfast", "I never eat breakfast", "I eat never breakfast"], "I never eat breakfast"),
+  new Question("Olen aina myöhässä", ["Always I am late", "I always am late", "I am always late"], "I am always late"),
+  new Question("Oletko aina myöhässä?", ["Always are you late?", "Are always you late?", "Are you always late?"], "Are you always late?"),
+  new Question("Oletko koskaan nähnyt kuuta?", ["Have ever you seen the moon?", "Have you ever seen the moon?", "Ever seen the moon have you?"], "Have you ever seen the moon?"),
+  new Question("En aina pidä tenniksestä", ["I always don't like tennis", "I don't always like tennis", "I don't like always tennis"], "I don't always like tennis"),
+  new Question("Menen aina sinne", ["I go there always", "I go always there", "I always go there"], "I alway go there"),
+  new Question("Siellä on aina mukavaa", ["It always is fun there", "It is always fun there", "There is always fun"], "It is always fun there"),
+  new Question("Syön harvoin kasviksia", ["I seldom eat vegetables", "I eat seldom vegetables", "I eat vegetables seldom"], "I seldom eat vegetables"),
+  new Question("Käyn usein kalassa", ["I frequently go fishing", "I go frequently fishing", "Frequently go I fishing"], "I frequently go fishing"),
+  new Question("Teetkö normaalisti kotitehtäväsi?", ["D0 normally you do your homework?","Do you normally do your homework?", "Do you do normally your homework?"], "Do you normally do your homework?"),
+  new Question("Tehtävä on melkein lopussa!", ["The exercise almost is finished!", "The exercise is almost finished!", "The exercise almost finished is!"], "The exercise is almost finished!"),
+  new Question("Tämä on todennäköisesti viimeinen kysymys", ["This probably is the final question", "This probably is the final question", "This is the final question probably"], "This probably is the final question"),
+  new Question("Minä vain vitsailin, tehtävä ei lopu koskaan", ["I just was kidding, the exercise never ends", "I was just kidding, the exercise never ends", "I was just kidding, the exercise ends never"], "I was just kidding, the exercise never ends"),
 ];
 
 $('.reset').click(startOver);
@@ -143,20 +136,3 @@ populate();
 </script>
 
 {{< /rawhtml >}}
-
-
-
-{{%accordion "Säännöt lyhyesti" %}}
-Isolla seuraavat:
-1. Ensimmäinen sana lauseessa.
-2. Erisnimet, mutta ei artikkelit ja prepositiot ellei ole teoksen nimi kyseessä.
-3. Sukulaisuutta, arvoa tai ammattia ilmaisevat sanat, jotka esiintyvät erisnimen yhteydessä.
-4. Maantieteelliset nimet, mutta ei ilmansuunnat, elleivät ole osa maantieteellistä nimeä, esim. "the North Pole".
-5. Tapahtumat, kaudet, juhlat, mutta ei vuodenajat.
-6. Uskontoa, kansallisuutta, kieltä, rotua, poliittista suuntausta ilmaisevat sanat, myös adjektiivit.
-7. Teoksen nimi, mutta ei artikkelit ja prepositiot, mutta ensimmäinen sana isolla, oli se mikä tahansa.
-8. Historialliset tapahtumat ja ajanjaksot.
-9. Laitokset, yhdistykset, yritykset, mutta ei artikkelit ja prepositiot.
-10. Minä, eli I, mutta ei muut pronominit.
-
-{{% /accordion%}}
