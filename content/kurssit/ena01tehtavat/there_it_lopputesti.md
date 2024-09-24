@@ -113,8 +113,8 @@ function displayFinalMessage() {
 
 // kysymykset tähän
 var questions = [
-  new Question("There ___ something wrong with him today.", ["is", "was", "were", "had been",], "is"),
-  new Question("There ___ a lot of people at the party.", ["is", "was", "were", "had been",], "were"),
+  new Question("There ___ something wrong with him, he has been acting weird the entire day..", ["is", "was", "were", "had been",], "is"),
+  new Question("There ___ a lot of people at the party last Friday.", ["is", "was", "were", "had been",], "were"),
   new Question("There ___ a lot of crime around here lately.", ["is", "was", "has been", "had been",], "has been"),
   new Question("There ___ a lot of crime around here last year.", ["is", "was", "has been", "had been",], "was"),
   new Question("There ___ a lot of crime around here in the 1990s.", ["is", "was", "has been", "had been",], "was"),
