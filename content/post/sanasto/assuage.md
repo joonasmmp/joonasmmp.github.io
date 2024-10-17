@@ -16,6 +16,7 @@ Sain vihdoin luettua Stormlight Archive-kirjasarjan kolmannen osan. Tuhannen kol
 ### Assuage eli lievittää, huojentaa
 
 >to lessen the intensity of (something that pains or distresses) (merriam-webster)
+
 >The letter assuaged her fears (Kirje lievitti hänen pelkojaan) (sanakirja.fi)
 
 Eli siis merkityksenä on huojentaa jotain joka aiheuttaa ahdistusta, esimerkiksi aistimuksia tai pelkoa, ahdistusta, epäilystä. 
@@ -27,6 +28,7 @@ Hyviä synonyymejä esim. ease, soften, alleviate, soothe, pacify.
 ### Mirth eli hilpeys, iloisuus
 
 >gladness or gaiety as shown by or accompanied with laughter (merriam-webster)
+
 >a shriek of mirth (ilon kiljahdus) (sanakirja.fi)
 
 Sana siis tarkoittaa iloisuutta, hilpeyttä, ja kaikkea iloista ja onnellista. 
