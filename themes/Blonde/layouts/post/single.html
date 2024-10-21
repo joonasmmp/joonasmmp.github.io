@@ -16,11 +16,11 @@
                                 {{ with .Params.categories }}
                                                                 <div id="categories">
                                     {{ range . }}
-                                    <h4 style="padding-bottom: 1.0em"><a class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center justify-center h-8 px-3" style="border-radius: 0.5rem;margin: 0.3em; margin-right:0.6em;" href='{{ "categories" | absURL}}/{{ . | urlize }}'>{{ . }}</a>-
+                                    <h4 style="padding-bottom: 1.0em"><span class="icon-menu"></span><a class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center justify-center h-8" style="border-radius: 0.5rem;margin: 0.3em; margin-right:0.6em;" href='{{ "categories" | absURL}}/{{ . | urlize }}'>{{ . }}</a>-
                                     {{ end }}
                                 
                                 {{ end }} 
-                            <span style="margin-left:0.6em"><span class="icon-create"></span>{{ .Date.Format "January 02, 2006" }}</span>
+                            <span><span class="icon-create"></span>{{ .Date.Format "January 02, 2006" }}</span>
                             </h4> </div>
                         </section>
                     </div>
