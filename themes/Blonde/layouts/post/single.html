@@ -20,7 +20,7 @@
                                     {{ end }}
                                 
                                 {{ end }} 
-                            <span style="margin-left:0.6em"><span class="icon-access_time"></span>{{ .Date.Format "January 02, 2006" }}</span>
+                            <span style="margin-left:0.6em"><span class="icon-calendar_edit"></span>{{ .Date.Format "January 02, 2006" }}</span>
                             </h4> </div>
                         </section>
                     </div>
@@ -68,7 +68,7 @@
         {{ if .Site.Params.widgets.display }}
         <div class="hidden lg:block lg:col-span-1" style="border-radius: 0.5rem; overflow: hidden;
         margin-bottom: 1.25em; height: fit-content;">
-                <div class="bg-white panel pb-5 dark:bg-warmgray-800 dark:text-gray-300" style="font-family: 'Open Sans'" id="toc">
+                <div class="bg-white panel pb-5 dark:bg-warmgray-900 dark:text-gray-300" style="font-family: 'Open Sans'" id="toc">
                     <script>$(document).ready(function() {
                         if ($('#toc li').length === 0) {
                             $('#toc').css('display', 'none');
