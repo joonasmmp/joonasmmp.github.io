@@ -16,11 +16,11 @@
                                 {{ with .Params.categories }}
                                                                 <div id="categories">
                                     {{ range . }}
-                                    <h4 style="text-align:center; padding-bottom: 1.0em"><a style="margin-right:0.6em;" href='{{ "categories" | absURL}}/{{ . | urlize }}'>{{ . }}</a>-
+                                    <h4 style="padding-bottom: 1.0em"><a style="margin-right:0.6em;" href='{{ "categories" | absURL}}/{{ . | urlize }}'>{{ . }}</a>-
                                     {{ end }}
                                 
                                 {{ end }} 
-                            <span style="margin-left:0.6em"><span class="access_time"></span>{{ .Date.Format "January 02, 2006" }}</span>
+                            <span style="margin-left:0.6em"><span class="icon-access_time"></span>{{ .Date.Format "January 02, 2006" }}</span>
                             </h4> </div>
                         </section>
                     </div>
