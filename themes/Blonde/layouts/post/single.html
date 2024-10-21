@@ -9,18 +9,18 @@
             {{ end }}
             <div class="bg-white dark:bg-warmgray-900 p-5 my-4" style="border-radius: 0.5em; overflow: hidden;
             margin-bottom: 1.25em; height: fit-content; font-family: 'Open Sans'">
-                <h1 class="mb-1 text-4xl" style="padding-left: 0.5em; padding-right: 0.5em; padding-top: 0.5em; text-align: center; text-transform: uppercase">{{.Title}}</h1>
+                <h1 class="mb-1 text-4xl" style="padding-right: 0.5em; padding-top: 0.5em; padding-bottom: 0.2em;">{{.Title}}</h1>
                 <aside id="meta">
                     <div>
                         <section>
                                 {{ with .Params.categories }}
                                                                 <div id="categories">
                                     {{ range . }}
-                                    <h4 style="text-align:center; padding-bottom: 1.0em"><a style="margin-right:0.6em; text-transform:uppercase" href='{{ "categories" | absURL}}/{{ . | urlize }}'>{{ . }}</a>-
+                                    <h4 style="text-align:center; padding-bottom: 1.0em"><a style="margin-right:0.6em;" href='{{ "categories" | absURL}}/{{ . | urlize }}'>{{ . }}</a>-
                                     {{ end }}
                                 
                                 {{ end }}
-                            <span style="margin-left:0.6em">{{ .Date.Format "January 02, 2006" }}</span>
+                            <span style="margin-left:0.6em">{{< kalenteri_ikoni >}} {{ .Date.Format "January 02, 2006" }}</span>
                             </h4> </div>
                         </section>
                     </div>
