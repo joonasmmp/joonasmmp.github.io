@@ -21,9 +21,9 @@
             {{ with .Params.categories }}
             <div id="categories">
 {{ range . }}
-<h4 class="text-sm text-gray-600 absolute items-center right-0 bottom-0 dark:text-gray-400" style="text-align:right;"><span style="margin.3em;" class="icon-menu"></span><a href='{{ "categories" | absURL}}/{{ . | urlize }}'>{{ . }}</a>
+<h4 class="text-sm text-gray-600 absolute items-center right-0 bottom-0 dark:text-gray-400" style="text-align:right;"><span style="margin:.1em;" class="icon-menu"></span><a href='{{ "categories" | absURL}}/{{ . | urlize }}'>{{ . }}</a>
 {{ end }}
 
-{{ end }}<span class="icon-create" style="margin.3em;"></span><time>{{ .Date.Format "January 02, 2006" }}</time></div>
+{{ end }}<span class="icon-create" style="margin:.1em;"></span><time>{{ .Date.Format "January 02, 2006" }}</time></div>
     </div>
 </div>
