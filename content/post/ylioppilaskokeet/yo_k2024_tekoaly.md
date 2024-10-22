@@ -140,6 +140,13 @@ Tottakai! Lähetän lämpimät terveiset sivustosi lukijoille. Toivottavasti hei
 
 Päivitys kokeen jälkeen: yksikään näistä tärpeistä ei toteutunut. Näin tällä kertaa :(
 
+Päivitys syksyllä 2024: NO NYT OLI!
+
+>16.4 Artificial Intelligence: Threat or Opportunity? 99 p.
+
+
+Artificial Intelligence has penetrated our culture in recent years. What are some of the uses of AI that you are familiar with, either through personal experience or the media? Do you see AI as a threat or a opportunity in these uses? Write your contribution to an online discussion.
+
 {{< rawhtml >}}
 
 <style>
