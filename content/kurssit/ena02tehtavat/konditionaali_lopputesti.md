@@ -115,53 +115,48 @@ function displayFinalMessage() {
 var questions = [
   new Question(
     "If you (work) harder, you (pass) the exam.",
-    ["worked, would pass", "work, will pass", "worked, passed", "work, pass"],
+    ["worked, passed", "work, would pass", "worked, would pass", "would work, would pass"],
     "worked, would pass"
   ),
   new Question(
     "If it (rain), we (stay) at home.",
-    ["rains, will stay", "rain, stay", "rained, would stay", "rains, stayed"],
+    ["rains, will stay", "rains, would stay", "rained, would stay", "rains, stayed"],
     "rains, will stay"
   ),
   new Question(
     "If she (study) regularly, she (not fail) the test.",
-    ["studies, will not fail", "studied, would not fail", "study, not fail", "studied, not failed"],
+    ["will study, will not fail", "studied, would not fail", "studies, will not fail", "studied, doesn't fail"],
     "studies, will not fail"
   ),
   new Question(
     "If they (arrive) early, they (get) good seats.",
-    ["arrive, will get", "arrived, would get", "arrive, get", "arrived, got"],
-    "arrive, will get"
+    ["would arrive, would get", "had arrived, would have", "arrive, get", "would arrive, would get"],
+    "had arrived, would have gotten"
   ),
   new Question(
     "If he (practice) more, he (become) a better player.",
-    ["practices, will become", "practiced, would become", "practice, become", "practiced, became"],
-    "practices, will become"
+    ["had practiced, would become", "practiced, would become", "would practice, would become", "practiced, will become"],
+    "practiced, would become"
   ),
   new Question(
     "If you (not hurry), we (miss) the bus.",
-    ["don't hurry, will miss", "didn't hurry, would miss", "not hurry, miss", "didn't hurry, missed"],
-    "don't hurry, will miss"
+    ["don't hurry, would miss", "didn't hurry, would miss", "hadn't hurried, would have missed", "hurried, would have missed"],
+    "hadn't hurried, would have missed"
   )
     new Question(
     "If you (save) money, you (buy) a new car.",
-    ["save, will buy", "saved, would buy", "save, buy", "saved, bought"],
-    "save, will buy"
+    ["save, will be able to buy", "saved, would have been able to buy", "saved, will be able to buy buy", "had saved, would be able to buy"],
+    "save, will be able to buy"
   ),
   new Question(
     "If it (not rain), we (go) to the park.",
-    ["doesn't rain, will go", "didn't rain, would go", "not rain, go", "didn't rain, went"],
+    ["doesn't rain, would go", "wouldn't rain, would go", "will not rain, will go", "doesn't rain, will go"],
     "doesn't rain, will go"
   ),
   new Question(
-    "If they (study), they (pass) the exam.",
-    ["study, will pass", "studied, would pass", "study, pass", "studied, passed"],
-    "study, will pass"
-  ),
-  new Question(
     "If she (not eat) too much, she (not feel) sick.",
-    ["doesn't eat, won't feel", "didn't eat, wouldn't feel", "not eat, not feel", "didn't eat, didn't feel"],
-    "doesn't eat, won't feel"
+    ["hadn't eaten, would not feel", "wouldn't have eaten, would not feel", "hadn't eaten, wouldn't have felt", "didn't eat, won't feel"],
+    "hadn't eaten, wouldn't have felt"
   )
 ];
 
