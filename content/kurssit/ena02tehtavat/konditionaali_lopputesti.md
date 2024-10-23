@@ -6,6 +6,7 @@ type: page
 layout: tehtava
 ---
 
+
 <!-- raw html -->
 {{< rawhtml >}}
 <link rel="stylesheet" type="text/css" href="/css/monivalinta1.css"/>
@@ -17,8 +18,6 @@ layout: tehtava
             <div class="buttons">
             <button id="btn0"><span id="choice0"></span></button> 
             <button id="btn1"><span id="choice1"></span></button>
-            <button id="btn2"><span id="choice2"></span></button>
-            <button id="btn3"><span id="choice3"></span></button>
 </div>
 
 </body>
@@ -111,12 +110,12 @@ function displayFinalMessage() {
   document.getElementById("resetbutton").onclick = (startOver);
  }
 
-// create questions
+// kysymykset tähän
 var questions = [
   new Question(
     "If you (work) harder, you (pass) the exam.",
-    ["worked, passed", "work, would pass", "worked, would pass", "would work, would pass"],
-    "worked, would pass"
+    ["worked, passed", "work, would pass", "worked, would pass", "had worked, would have passed"],
+    "had worked, would have passed"
   ),
   new Question(
     "If it (rain), we (stay) at home.",
