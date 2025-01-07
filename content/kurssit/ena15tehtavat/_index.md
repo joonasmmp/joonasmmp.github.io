@@ -75,53 +75,84 @@ Vältä sanasta sanaan käännöstä. Englanti ja suomi ovat eri kieliä, ja nii
 Alla vinkkejä käännöstyöhön yleisellä tasolla:
 
 1. **Merkityksen ja sävyn säilyttäminen**
-   - **Konteksti ja vivahteet**: Kaunokirjallisessa tekstissä sanojen merkitys voi olla monikerroksinen. Kääntäjän tehtävänä on tavoittaa paitsi tekstin pintamerkitys myös sen kulttuuriset, historialliset ja tunteelliset sävyt.
-   - **Tyyli ja tunnelma**: Mieti, miten alkuperäisen tekstin tyyli (esim. runollisuus, arkisuus, huumori) välittyy suomeksi.
+- **Konteksti ja vivahteet**: Kaunokirjallisessa tekstissä sanojen merkitys voi olla monikerroksinen. Kääntäjän tehtävänä on tavoittaa paitsi tekstin pintamerkitys myös sen kulttuuriset, historialliset ja tunteelliset sävyt.
+- **Tyyli ja tunnelma**: Mieti, miten alkuperäisen tekstin tyyli (esim. runollisuus, arkisuus, huumori) välittyy suomeksi.
 
 2. **Kulttuuriset erot**
-   - **Kulttuurisidonnaiset ilmaisut**: Joitakin ilmauksia ei voi kääntää suoraan. Esimerkiksi sanonnat tai idiomit saattavat vaatia luovan ratkaisun, joka säilyttää alkuperäisen ajatuksen mutta tuntuu luonnolliselta suomeksi.
-   - **Nimet ja paikannimet**: Pohdi, kannattaako erisnimet tai paikannimet jättää alkuperäisessä muodossaan vai mukauttaa suomalaiseen kontekstiin (esim. “Big Ben” ei yleensä tarvitse käännöstä, mutta "the White House" käännetään "Valkoinen talo").
+- **Kulttuurisidonnaiset ilmaisut**: Joitakin ilmauksia ei voi kääntää suoraan. Esimerkiksi sanonnat tai idiomit saattavat vaatia luovan ratkaisun, joka säilyttää alkuperäisen ajatuksen mutta tuntuu luonnolliselta suomeksi.
+- **Nimet ja paikannimet**: Pohdi, kannattaako erisnimet tai paikannimet jättää alkuperäisessä muodossaan vai mukauttaa suomalaiseen kontekstiin (esim. “Big Ben” ei yleensä tarvitse käännöstä, mutta "the White House" käännetään "Valkoinen talo").
 
 3. **Tekstin rytmi ja ääni**
-   - **Lauseen rytmi**: Kirjailijan lauserakenteet ja tekstin rytmi ovat usein tärkeä osa kaunokirjallisuuden estetiikkaa. Suomennoksessa kannattaa pyrkiä säilyttämään samankaltainen vaikutelma.
-   - **Henkilöhahmojen ääni**: Mieti, miten hahmojen puhetyyli ja persoonallisuus välittyvät käännöksessä. Onko heidän käyttämänsä kieli esimerkiksi muodollista, murteellista vai nuorekasta?
+- **Lauseen rytmi**: Kirjailijan lauserakenteet ja tekstin rytmi ovat usein tärkeä osa kaunokirjallisuuden estetiikkaa. Suomennoksessa kannattaa pyrkiä säilyttämään samankaltainen vaikutelma.
+- **Henkilöhahmojen ääni**: Mieti, miten hahmojen puhetyyli ja persoonallisuus välittyvät käännöksessä. Onko heidän käyttämänsä kieli esimerkiksi muodollista, murteellista vai nuorekasta?
 
 4. **Sanaston valinta**
-   - **Sanojen rekisteri**: Valitse sanoja, jotka sopivat tekstin tyylilajiin ja aikakauteen. Esimerkiksi historiallisessa romaanissa voi käyttää hieman vanhahtavaa sanastoa, mutta modernissa tekstissä se tuntuu epäluontevalta.
-   - **Synonyymit ja toisto**: Huomioi, milloin alkuperäinen teksti toistaa tiettyä sanaa tarkoituksella ja milloin suomeksi on parempi käyttää synonyymejä tai muuttaa rakenteita.
+- **Sanojen rekisteri**: Valitse sanoja, jotka sopivat tekstin tyylilajiin ja aikakauteen. Esimerkiksi historiallisessa romaanissa voi käyttää hieman vanhahtavaa sanastoa, mutta modernissa tekstissä se tuntuu epäluontevalta.
+- **Synonyymit ja toisto**: Huomioi, milloin alkuperäinen teksti toistaa tiettyä sanaa tarkoituksella ja milloin suomeksi on parempi käyttää synonyymejä tai muuttaa rakenteita.
 
 5. **Suomen kielen erityispiirteet**
-   - **Lausejärjestys**: Suomen kieli sallii joustavampaa sanajärjestystä kuin englanti, joten käännöksessä voi olla tarpeen muuttaa lauserakenteita, jotta ne tuntuvat luonnollisilta.
-   - **Kuvailu ja täsmällisyys**: Suomi voi vaatia tarkempaa kuvailua joissakin kohdissa, koska se ei käytä yhtä laajasti pronomineja tai epämääräisiä ilmauksia kuin englanti.
+- **Lausejärjestys**: Suomen kieli sallii joustavampaa sanajärjestystä kuin englanti, joten käännöksessä voi olla tarpeen muuttaa lauserakenteita, jotta ne tuntuvat luonnollisilta.
+- **Kuvailu ja täsmällisyys**: Suomi voi vaatia tarkempaa kuvailua joissakin kohdissa, koska se ei käytä yhtä laajasti pronomineja tai epämääräisiä ilmauksia kuin englanti.
 
 6. **Luovuus ja uskollisuus**
-   - **Tarkkuus vs. luovuus**: On tärkeää olla uskollinen alkuperäiselle tekstille, mutta yhtä tärkeää on löytää käännöksenä ratkaisuita, jotka toimivat suomeksi. Joskus tämä tarkoittaa sananmukaisuudesta luopumista.
-   - **Kääntäjä kirjailijana**: Kääntäjä on omalla tavallaan myös kirjailija, joka tulkitsee ja luo tekstin uudelleen toisella kielellä.
+- **Tarkkuus vs. luovuus**: On tärkeää olla uskollinen alkuperäiselle tekstille, mutta yhtä tärkeää on löytää käännöksenä ratkaisuita, jotka toimivat suomeksi. Joskus tämä tarkoittaa sananmukaisuudesta luopumista.
+- **Kääntäjä kirjailijana**: Kääntäjä on omalla tavallaan myös kirjailija, joka tulkitsee ja luo tekstin uudelleen toisella kielellä.
 
 7. **Testilukeminen ja hienosäätö**
-   - **Luettavuus**: Käännöstä kannattaa lukea ääneen tai antaa jonkun muun luettavaksi, jotta huomaat mahdolliset kömpelyydet tai kohtia, jotka eivät tunnu luonnollisilta.
-   - **Itsekriittisyys**: Tarkista erityisesti ne kohdat, joissa olet joutunut tekemään vaikeita päätöksiä. Voisiko jokin toinen ratkaisu toimia paremmin?
+- **Luettavuus**: Käännöstä kannattaa lukea ääneen tai antaa jonkun muun luettavaksi, jotta huomaat mahdolliset kömpelyydet tai kohtia, jotka eivät tunnu luonnollisilta.
+- **Itsekriittisyys**: Tarkista erityisesti ne kohdat, joissa olet joutunut tekemään vaikeita päätöksiä. Voisiko jokin toinen ratkaisu toimia paremmin?
 
 Kiinnitä teoksessa huomiota erityisesti seuraaviin asioihin:
 
-1. **Jännityksen säilyttäminen**
+**1. Jännityksen säilyttäminen**
 - Dan Brownin tyyli on napakka ja nopeatempoinen. Pyri säilyttämään suomenkielisessä käännöksessä sama jäntevyys. Vältä liiallista selittelyä tai monimutkaisia rakenteita.
 - Kohottava tunnelma: Avaus rakentaa intensiivistä ja melkein elokuvallista tunnelmaa. Kiinnitä huomiota siihen, miten lauseiden rytmi ja sanavalinnat voivat ylläpitää tätä.
-2. **Teknisten ja kulttuuristen termien kääntäminen**
+**2. Teknisten ja kulttuuristen termien kääntäminen**
 -  Historialliset ja taiteelliset viittaukset: Teksti sisältää kulttuurisia ja historiallisia yksityiskohtia (esim. Louvren sijainti, symboliikan teemat). Nämä kannattaa jättää tunnistettaviksi suomeksi, mutta voit miettiä, tarvitseeko jokin kohta lisätarkkuutta, jotta suomalainen lukija ymmärtää sen.
 - Tekniset termit ja nimikkeet: Avauskappaleessa mainitaan Louvren kuraattori ja muita virallisia termejä. Varmista, että nämä sopivat suomen kieleen ja tuntuvat asiantuntevilta.
-3. **Visuaalisuuden välittäminen**
+**3. Visuaalisuuden välittäminen**
 - Kuvailevat yksityiskohdat: Brown käyttää paljon visuaalisia ja dramaattisia yksityiskohtia (esim. kuoleva kuraattori jättämässä viimeisiä viestejään). Pyri kääntämään ne niin, että suomenkielinen lukija näkee kohtauksen mielessään yhtä elävästi.
 - Symbolismi: Symboliikka on keskeistä tarinassa. Huomioi, miten alkuperäinen teksti viittaa symboleihin ja mysteereihin, ja pidä nämä sävyt mukana.
-4. **Henkilöhahmojen sisäinen maailma**
+**4. Henkilöhahmojen sisäinen maailma**
 - Kuraattorin viimeiset ajatukset: Avauskappaleessa kuvataan päähenkilön (kuraattori Jacques Saunièren) sisäistä kamppailua ja epätoivoa. Tämä vaatii tarkkaa työtä, jotta emotionaalinen lataus säilyy suomeksi.
-5. **Dan Brownin tyyli**
+**5. Dan Brownin tyyli**
 - Lyhyet lauseet ja iskevyys: Brown käyttää usein lyhyitä lauseita, jotka luovat intensiteettiä. Pyri pitämään sama tyyli suomenkielisessä käännöksessä.
 - Kerronnan selkeys: Brownin kieli on suunnattu laajalle yleisölle, joten käännöksen tulisi olla selkeää ja helposti ymmärrettävää, mutta samalla tunnelmallista.
-6. **Erikoiset kielikuvat ja sanavalinnat**
+**6. Erikoiset kielikuvat ja sanavalinnat**
 - Jos tekstissä on erityisiä englannin kielikuvia tai ilmauksia, joita on vaikea kääntää suoraan, mieti, voitko käyttää luovempaa ratkaisua. Esimerkiksi kuolemaa, tuskaa tai kiirettä kuvaavat ilmaisut voivat vaatia suomessa hieman muotoilua, jotta ne tuntuvat luonnollisilta mutta yhtä dramaattisilta.
-7. **Toisto ja painotus**
+**7. Toisto ja painotus**
 - Brown käyttää usein toistoa tehokeinona (esim. tiettyjen termien tai yksityiskohtien alleviivaaminen). Pidä huolta, että tämä toisto säilyy käännöksessä, ellei se kuulosta kömpelöltä suomeksi.
+
+Otetaan vaikka esimerkiksi seuraava lause:
+
+>"Blood pounded in his skull as he staggered down the hallway."
+
+Sanastovaihtoehdot:
+- **Blood pounded**: _sykki, jyskytti, hakkasi, kohisi, tykytti, pauhasi_
+- **Skull**: _kallo, pää, ohimot_
+- **Staggered**: _hoippui, kompuroi, horjui, nilkutti, laahusti_
+- **Hallway**: _käytävä, aula, halli, kapea tila, kuja
+_
+
+1. Selkeä ja täsmällinen:
+- "Veri hakkasi hänen kallossaan, kun hän hoippui käytävällä."
+
+2. Kuvailu ja tunnelma korostettuna:
+- "Hänen kallossaan jyskytti, kun hän kompuroi eteenpäin hämärää käytävää pitkin."
+
+3. Dynaamisempi ja toiminnallisempi:
+- "Veri tykytti hänen päässään, kun hän horjui pitkin aulan kapeaa käytävää."
+
+4. Runollisempi ja dramaattisempi:
+- "Päätä hakkaava syke kaikui hänen kallossaan, kun hän horjui kohti käytävän varjoja."
+
+5. Vapaampi ja visuaalinen:
+- "Hänen ohimoillaan jyskytti, kun hän laahusti kohti käytävän kaukaista päätä."
+
+6. Elokuvamainen ja jännitteinen:
+- "Veri pauhasi hänen kallossaan, kun hän horjui epävakaasti pitkin kapeaa hallia."
+
+
 
 
 {{< rawhtml >}}
