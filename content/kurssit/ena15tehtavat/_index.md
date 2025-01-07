@@ -50,8 +50,6 @@ Mikä palautettavaksi haluamasi esine on? 
 
 ## Tehtävä 2: Kirjoitelman monipuolistaminen
 
-## Tehtävä 2: Kirjoitelman monipuolistaminen
-
 Kirjoita 700-1300 merkin kirjoitelma. Käytä kirjoitelmassa vähintään yhtä listan idiomeista sekä vähintään kahta listan adjektiivia. Käytä niitä niin, että ne ovat osa järkevää kokonaisuutta, eivätkö tunnu väkinäiseltä.
 
 Aihe 1: In front of you is a closed door. Why is it closed? What is behind it? What happens when you open it?
