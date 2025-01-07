@@ -84,17 +84,35 @@ Aihe 3: It’s 3AM and you receive a text message that says DO NOT LOOK AT THE M
 
 Avaa osoitteessa urly.fi/3oVo tiedosto, joka sisältää avauskappaleen Dan Brownin kirjasta Da Vinci-koodi. Tehtävänäsi on kääntää kyseinen teksti englannista suomeksi. Palautus Turnitiniin sunnuntaihin mennessä.
 
-Kiinnitä huomiota erityisesti sanavalintoihin. Niitä tässä harjoitellaan. Sekä suomeksi että englanniksi on hienoja sanoja, joita ei aina tule mieleen käyttää.
-
 Vältä sanasta sanaan käännöstä. Englanti ja suomi ovat eri kieliä, ja niissä pätee eri säännöt esimerkiksi sananjärjestyksen kohdalla. Käännä siis ajatuksia, älä sanoja. Kääntämisen tarkoituksena on tuottaa mahdollisimman luonteva kohdekielinen versio lähdetekstistä. Tärkeintä käännöksessä on itse sisältö, seuraavana sanasto. Kolmas tärkeä asia on tyyli, eli tuo teksti ja sisältö esille sen näköisenä kuin alkuperäinen kirjoittaja on sen halunnut esittää.
 
-"Pisteen paikka on pyhä. Jos kirjailija on laittanut tuohon kohtan pisteen, niin siihen pitää laittaa piste, eikä mitään muuta. Laita se takaisin." -Joku ammattikääntäjä yliopistolla saksa-suomi-kääntämisen kurssilla, en todellakaan muista nimeä, noin vuonna 2014.
+### 1. **Merkityksen ja sävyn säilyttäminen**
+   - **Konteksti ja vivahteet**: Kaunokirjallisessa tekstissä sanojen merkitys voi olla monikerroksinen. Kääntäjän tehtävänä on tavoittaa paitsi tekstin pintamerkitys myös sen kulttuuriset, historialliset ja tunteelliset sävyt.
+   - **Tyyli ja tunnelma**: Mieti, miten alkuperäisen tekstin tyyli (esim. runollisuus, arkisuus, huumori) välittyy suomeksi.
 
-Open urly.fi/3oVo and open the file that contains the opening paragraph of Dan Brown's book The Da Vinci Code. Your task is to translate the text from English to Finnish or your other first language. Submit to Turnitin by Sunday.
+### 2. **Kulttuuriset erot**
+   - **Kulttuurisidonnaiset ilmaisut**: Joitakin ilmauksia ei voi kääntää suoraan. Esimerkiksi sanonnat tai idiomit saattavat vaatia luovan ratkaisun, joka säilyttää alkuperäisen ajatuksen mutta tuntuu luonnolliselta suomeksi.
+   - **Nimet ja paikannimet**: Pohdi, kannattaako erisnimet tai paikannimet jättää alkuperäisessä muodossaan vai mukauttaa suomalaiseen kontekstiin (esim. “Big Ben” ei yleensä tarvitse käännöstä, mutta "the White House" käännetään "Valkoinen talo").
 
-Pay attention to word choices. Those are what we are practicing here. Both in English and Finnish and probably Thai as well there are beautiful words that are not always the first ones that come to mind.
+### 3. **Tekstin rytmi ja ääni**
+   - **Lauseen rytmi**: Kirjailijan lauserakenteet ja tekstin rytmi ovat usein tärkeä osa kaunokirjallisuuden estetiikkaa. Suomennoksessa kannattaa pyrkiä säilyttämään samankaltainen vaikutelma.
+   - **Henkilöhahmojen ääni**: Mieti, miten hahmojen puhetyyli ja persoonallisuus välittyvät käännöksessä. Onko heidän käyttämänsä kieli esimerkiksi muodollista, murteellista vai nuorekasta?
 
-Avoid word for word translation. English and Finnish and probably Thai as well are different languages, and they have different rules for example when it comes to word order. So translate thoughts, not words. The purpose of translation is to produce a natural version of the source text in the target language. The most important thing in translation is the content, the second most important thing is vocabulary. The third most important thing is style, so bring out the text and content as the original author wanted to present it.
+### 4. **Sanaston valinta**
+   - **Sanojen rekisteri**: Valitse sanoja, jotka sopivat tekstin tyylilajiin ja aikakauteen. Esimerkiksi historiallisessa romaanissa voi käyttää hieman vanhahtavaa sanastoa, mutta modernissa tekstissä se tuntuu epäluontevalta.
+   - **Synonyymit ja toisto**: Huomioi, milloin alkuperäinen teksti toistaa tiettyä sanaa tarkoituksella ja milloin suomeksi on parempi käyttää synonyymejä tai muuttaa rakenteita.
+
+### 5. **Suomen kielen erityispiirteet**
+   - **Lausejärjestys**: Suomen kieli sallii joustavampaa sanajärjestystä kuin englanti, joten käännöksessä voi olla tarpeen muuttaa lauserakenteita, jotta ne tuntuvat luonnollisilta.
+   - **Kuvailu ja täsmällisyys**: Suomi voi vaatia tarkempaa kuvailua joissakin kohdissa, koska se ei käytä yhtä laajasti pronomineja tai epämääräisiä ilmauksia kuin englanti.
+
+### 6. **Luovuus ja uskollisuus**
+   - **Tarkkuus vs. luovuus**: On tärkeää olla uskollinen alkuperäiselle tekstille, mutta yhtä tärkeää on löytää käännöksenä ratkaisuita, jotka toimivat suomeksi. Joskus tämä tarkoittaa sananmukaisuudesta luopumista.
+   - **Kääntäjä kirjailijana**: Kääntäjä on omalla tavallaan myös kirjailija, joka tulkitsee ja luo tekstin uudelleen toisella kielellä.
+
+### 7. **Testilukeminen ja hienosäätö**
+   - **Luettavuus**: Käännöstä kannattaa lukea ääneen tai antaa jonkun muun luettavaksi, jotta huomaat mahdolliset kömpelyydet tai kohtia, jotka eivät tunnu luonnollisilta.
+   - **Itsekriittisyys**: Tarkista erityisesti ne kohdat, joissa olet joutunut tekemään vaikeita päätöksiä. Voisiko jokin toinen ratkaisu toimia paremmin?
 
 {{< rawhtml >}}
 <style>
