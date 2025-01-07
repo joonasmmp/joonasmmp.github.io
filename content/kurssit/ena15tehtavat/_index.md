@@ -104,18 +104,18 @@ Kiinnitä teoksessa huomiota erityisesti seuraaviin asioihin:
 
 1. **Jännityksen säilyttäminen**
 - Dan Brownin tyyli on napakka ja nopeatempoinen. Pyri säilyttämään suomenkielisessä käännöksessä sama jäntevyys. Vältä liiallista selittelyä tai monimutkaisia rakenteita.
-Kohottava tunnelma: Avaus rakentaa intensiivistä ja melkein elokuvallista tunnelmaa. Kiinnitä huomiota siihen, miten lauseiden rytmi ja sanavalinnat voivat ylläpitää tätä.
+- Kohottava tunnelma: Avaus rakentaa intensiivistä ja melkein elokuvallista tunnelmaa. Kiinnitä huomiota siihen, miten lauseiden rytmi ja sanavalinnat voivat ylläpitää tätä.
 2. **Teknisten ja kulttuuristen termien kääntäminen**
 -  Historialliset ja taiteelliset viittaukset: Teksti sisältää kulttuurisia ja historiallisia yksityiskohtia (esim. Louvren sijainti, symboliikan teemat). Nämä kannattaa jättää tunnistettaviksi suomeksi, mutta voit miettiä, tarvitseeko jokin kohta lisätarkkuutta, jotta suomalainen lukija ymmärtää sen.
-Tekniset termit ja nimikkeet: Avauskappaleessa mainitaan Louvren kuraattori ja muita virallisia termejä. Varmista, että nämä sopivat suomen kieleen ja tuntuvat asiantuntevilta.
+- Tekniset termit ja nimikkeet: Avauskappaleessa mainitaan Louvren kuraattori ja muita virallisia termejä. Varmista, että nämä sopivat suomen kieleen ja tuntuvat asiantuntevilta.
 3. **Visuaalisuuden välittäminen**
 - Kuvailevat yksityiskohdat: Brown käyttää paljon visuaalisia ja dramaattisia yksityiskohtia (esim. kuoleva kuraattori jättämässä viimeisiä viestejään). Pyri kääntämään ne niin, että suomenkielinen lukija näkee kohtauksen mielessään yhtä elävästi.
-Symbolismi: Symboliikka on keskeistä tarinassa. Huomioi, miten alkuperäinen teksti viittaa symboleihin ja mysteereihin, ja pidä nämä sävyt mukana.
+- Symbolismi: Symboliikka on keskeistä tarinassa. Huomioi, miten alkuperäinen teksti viittaa symboleihin ja mysteereihin, ja pidä nämä sävyt mukana.
 4. **Henkilöhahmojen sisäinen maailma**
 - Kuraattorin viimeiset ajatukset: Avauskappaleessa kuvataan päähenkilön (kuraattori Jacques Saunièren) sisäistä kamppailua ja epätoivoa. Tämä vaatii tarkkaa työtä, jotta emotionaalinen lataus säilyy suomeksi.
 5. **Dan Brownin tyyli**
 - Lyhyet lauseet ja iskevyys: Brown käyttää usein lyhyitä lauseita, jotka luovat intensiteettiä. Pyri pitämään sama tyyli suomenkielisessä käännöksessä.
-Kerronnan selkeys: Brownin kieli on suunnattu laajalle yleisölle, joten käännöksen tulisi olla selkeää ja helposti ymmärrettävää, mutta samalla tunnelmallista.
+- Kerronnan selkeys: Brownin kieli on suunnattu laajalle yleisölle, joten käännöksen tulisi olla selkeää ja helposti ymmärrettävää, mutta samalla tunnelmallista.
 6. **Erikoiset kielikuvat ja sanavalinnat**
 - Jos tekstissä on erityisiä englannin kielikuvia tai ilmauksia, joita on vaikea kääntää suoraan, mieti, voitko käyttää luovempaa ratkaisua. Esimerkiksi kuolemaa, tuskaa tai kiirettä kuvaavat ilmaisut voivat vaatia suomessa hieman muotoilua, jotta ne tuntuvat luonnollisilta mutta yhtä dramaattisilta.
 7. **Toisto ja painotus**
