@@ -250,7 +250,12 @@ Mikäli kirjoitelmassasi käytetään sanaa very, se on merkki siitä, että adj
 <section>
 78. very worried = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q78" type="text"/><span></span></li>
 </section>
-
+<section>
+79. very simple = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q79" type="text"/><span></span></li>
+</section>
+<section>
+80. very rare = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q80" type="text"/><span></span></li>
+</section>
 </ol>
   
  <link rel="stylesheet" type="text/css" href="/css/kirjoita1.css"/>
@@ -278,7 +283,7 @@ var answers = {
 "q11": ["freezing"],
 "q12": ["vibrant"],
 "q13": ["perplexed"],
-"q14": ["perilous"],
+"q14": ["perilous", "hazardous"],
 "q15": ["meticulous"],
 "q16": ["filthy"],
 "q17": ["arid"],
@@ -304,10 +309,10 @@ var answers = {
 "q37": ["hideous"],
 "q38": ["frail","feeble"],
 "q39": ["soaked"],
-"q40": ["sweltering"],
+"q40": ["sweltering", "scorching"],
 "q41": ["colossal"],
 "q42": ["starving"],
-"q43": ["crucial"],
+"q43": ["crucial", "critical"],
 "q44": ["captivating"],
 "q45": ["huge"],
 "q46": ["tiny"],
@@ -343,6 +348,8 @@ var answers = {
 "q76": ["miserable"],
 "q77": ["eager"],
 "q78": ["distressed"],
+"q79": ["basic", "elementary"],
+"q80": ["unique", "uncommon"],
   
   };
 

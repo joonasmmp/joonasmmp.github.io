@@ -31,7 +31,7 @@ layout: ohje
 | very cold | freezing |
 | very colourful | vibrant |
 | very confused | perplexed |
-| very dangerous | perilous |
+| very dangerous | perilous / hazardous |
 | very detailed | meticulous |
 | very dirty | filthy |
 | very dry | arid |
@@ -57,10 +57,10 @@ layout: ohje
 | very ugly | hideous |
 | very weak | frail / feeble |
 | very wet | soaked |
-| very hot | sweltering |
+| very hot | sweltering / scorching |
 | very huge | colossal |
 | very hungry | starving |
-| very important | crucial |
+| very important | crucial / critical |
 | very interesting | captivating |
 | very large | huge |
 | very little | tiny |
@@ -72,14 +72,17 @@ layout: ohje
 | very noisy | deafening |
 | very often | frequent/frequently |
 | very old | ancient |
-| very old-fashioned | archaic |
+| very old-fashioned | archaic / obsolete |
 | very slow | sluggish |
 | very open | transparent |
 | very pale | ashen |
 | very perfect | flawless |
 | very pretty | beautiful |
 | very quick | rapid |
+| very rare | unique / uncommon |
+| very rich | wealthy / affluent |
 | very shy | timid |
+| very simple | basic / elementary |
 | very skinny | skeletal |
 | very small | petite |
 | very smart | intelligent |
