@@ -1,7 +1,7 @@
 +++
 author = "PJMM"
 title = "Vuoden sanat 2024"
-date = "2025-1-21"
+date = "2025-01-21"
 type = "post"
 tags = [
     "sekalaista",
@@ -33,7 +33,7 @@ Muita potentiaalisten voittajien listalle päätyneet sanat olivat demure (rauha
 
 ### Merriam-Webster: polarization
 
->“division into two sharply distinct opposites; especially, a state in which the opinions, beliefs, or interests of a group or society no longer range along a continuum but become concentrated at opposing extremes.”
+>division into two sharply distinct opposites; especially, a state in which the opinions, beliefs, or interests of a group or society no longer range along a continuum but become concentrated at opposing extremes.
 
 Polarisaatio on kasvanut ei ainoastaan Yhdysvalloissa, mutta myös Euroopassa ja Suomessa. Polarisaatio siis tarkoittaa tässä yhteydessä sitä, että yhteiskunta jakaantuu yhtä enemmän ääripäihin. Polar siis tulee latinan sanasta polaris, joka tarkoittaa maailman napoja. 
 
