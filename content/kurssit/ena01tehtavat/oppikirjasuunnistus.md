@@ -14,7 +14,7 @@ layout: tehtava
   <h2>Introduction</h2>
   <p>Digikirja voi olla teille uusi ja hämmentävä kokemus. Ne voivat olla hämmentävä kokemus myös niitä paljon käyttäneille, sillä käyttöliittymä on sekava. Alussa se oli vielä sekavampi.</p>
 
-<p>Harjoitellaan SanomaPron Elements 1+2-oppikirjan käyttöä lyhyen oppikirjasuunnistuksen avulla.</p>
+<p>Harjoitellaan Otavan New Insights 1+2 käyttöä lyhyen oppikirjasuunnistuksen avulla.</p>
 
 <p>Saat eteesi tehtävän. Päästäksesi seuraavaan tehtävään sinun on annettava tekstilaatikkoon oikea vastaus.</p>
 
@@ -35,7 +35,7 @@ layout: tehtava
   <h2>Task 2</h2>
   <p>Aivan mahtavaa! Yritä olla unohtamatta, mistä kurssisuunnitelma löytyy. Se on erittäin yleistä.</p>
 
-  <p>Seuraavaksi etsitään tekstejä. Mene Teemaan 1 ja etsi sieltä oppikirjan ensimmäinen teksti, Text 1. Kirjoita alla olevaan laatikoon tuon kyseisen tekstin otsikko.</p>
+  <p>Seuraavaksi etsitään tekstejä. Mene kirjaan ja etsi sieltä oppikirjan viides teksti, Text 5. Kirjoita alla olevaan laatikoon tuon kyseisen tekstin otsikko.</p>
 
 <input type="text" name="answer2"/>
  </div>
@@ -44,9 +44,9 @@ layout: tehtava
   <h2>Task 3</h2>
   <p>Erinomaista työtä! Oletko varma, ettet ole käyttänyt digikirjaa aiemmin?</p>
 
-<p>Tekstien lisäksi opiskellaan teemasanastoja. Teemassa 1 on myös teemasanasto, aiheena ruumiinosat.</p>
+<p>Tekstien lisäksi opiskellaan teemasanastoja, ne tunnetaan nimellä Glossary. Ensimmäisillä kursseilla niitä on kuitenkin todella vähän, ainoastaan kappaleessa 15. Etsi kappaleesta 15 matkustusteemasanasto.</p>
 
-<p>Kirjoita alla olevaan tekstilaatikkoon ensimmäisen teemasanaston listan viimeisen sanan suomenkielinen versio.</p>
+<p>Kirjoita alla olevaan tekstilaatikkoon teemasanaston listan viimeisen sanan suomenkielinen versio.</p>
 
 <input type="text" name="answer3"/>
 </div>
@@ -55,9 +55,9 @@ layout: tehtava
 <h2>Task 4</h2>
 <p>Ja taas oikea vastaus! Mennää seuraavaan kohtaan.</p>
 
-<p>Kielioppiosion löydät kirjan loppuosasta, osiosta Grammar. Mene kielioppiosioon ja etsi sieltä PASSIIVIN teoria, joko näköiskirjana tai ei. Ei opetella vielä passiivia, vaan tehtävänäsi on löytää mistä kielioppiteoria löytyy.</p>
+<p>Kielioppiosion löydät kirjan loppuosasta, osiosta Grammar. Mene kielioppiosioon ja etsi sieltä PERFEKTIN teoria, kohdasta Grammar Module 1. Ei opetella vielä passiivia, vaan tehtävänäsi on löytää mistä kielioppiteoria löytyy.</p>
 
-<p>Teoriaosiosta löydät kuvan, jossa on lentoja. Miltä portilta lento Berliiniin lähtee? Tai olisi pitänyt lähteä, näköjään se on peruttu.</p>
+<p>Valitse kohta 6.1 Yleisperfekti ja katso sen esimerkkilauseita. Kuka on vahannut mopoautonsa?</p>
   <input type="text" name="answer4"/>
 </div>
 
@@ -65,11 +65,11 @@ layout: tehtava
   <h2>Task 5</h2>
   <p>Liian helppoa! Sitten seuraavaan tehtävään.</p>
 
-<p>Etsitään tehtäviä. Ne on vähän hämmentävästi nimetty. Tekstien tehtävät ovat yleensä muotoa 1.2, eli ensimmäisen tekstin toinen tehtävä. Muut tehtävät saavat eteensä kirjaimen E, esim. E1.2. Kielioppitehtävissä eteen tulee G, esim G1.2 on ensimmäisen kielioppiosion toinen tehtävä. </p>
+<p>Etsitään tehtäviä. Ne on vähän hämmentävästi nimetty. Tekstien tehtävät ovat yleensä muotoa 1b, eli ensimmäisen tekstin toinen tehtävä.</p>
 
-<p> Etsi tehtävä "3.3 Find the phrase". Koska se on tehtävä 3.3, se on osa tekstiä 3. Missähän teemassa Teksti 3 on? Ei ainakaan osiossa Grammar, koska se ei ole kielioppia.</p>
+<p> Etsi tehtävä 9b: Spot the phrase. Koska se on tehtävä 9b, se on osa tekstiä 9, tarkemmin ottaen sen toinen tehtävä</p>
 
-<p> Kirjoita alla olevaan vastauslaatikkoon tehtävän 3.3 kohdan 15 suomenkielinen vihje.</p>
+<p> Kirjoita alla olevaan vastauslaatikkoon tehtävän 9b kohdan 5 suomenkielinen vihje.</p>
 
 <input type="text" name="answer5"/>
 </div>
@@ -77,19 +77,10 @@ layout: tehtava
 <div id="ques6" class="ques">
   <h2>Task 6</h2>
   <p>Sitten etsitään kielioppitehtäviä! Muistatko vielä, missä osiossa ne olivatkaan?</p>
-  <p>Etsi tehtävä "G13.3 Kerro kuvasta".</p>
-  <p>Esimerkkilauseessa on sohva, mutta minkä värinen sohva? Kirjoita väri alla olevaan vastauskenttään.</p>
+  <p>Kielioppitehtävät menee vähän hämärämmin, sillä niillä on vain tylsä numero jostai ei voi päätellä missä kohtaa se tehtävä on..</p>
+  <p>Etsi tehtävä 41. Sen verran annan vihjeenä, että se on Grammar Module 1 loppuosassa. Kirjoita vastauslaatikkoon tehtävän 41 kohdan 21 suomenkielinen vihje.</p>
 
 <input type="text" name="answer6"/>
-</div>
-
-<div id="ques7" class="ques">
-  <h2>Task 7</h2>
-<p> Erinomaista. Kuten huomaat, joskus tehtävät on vähän vaikea löytää. Opettajilla on kuitenkin keinonsa helpottaa tehtävien löytämistä, nimittäin tehtävänannot. Teille on tehty valmiiksi yksi tehtävänanto, löydät sen vasemmasta palkista kohdasta tehtävänannot. 
-
-<p>Avaa tehtävänanto. Sen tehtävälistassa on vain yksi tehtävä. Mikä tuon tehtävän nimi on? Kirjoita se alla olevaan vastauskenttään.</p>
-
-   <input type="text" name="answer7"/>
 </div>
 
 <input type="submit" id="submit" value="Tarkista vastaus" />
@@ -202,12 +193,11 @@ function hideAllExcept(question) {
 var answers = [
   ["start"],
   ["passiivi", "g9: passiivi"],
-  ["the power of a pose"],
-  ["vyötärö"],
-  ["9", "09", "yhdeksän", "nine"],
-  ["ilmeisesti"],
-  ["vihreä", "green"],
-  ["theme start 1"],
+  ["my first apartment"],
+  ["merimatka"],
+  ["jim"],
+  ["se osuu hermoon"],
+  ["oli"],
 ];
 
 // == Used for Task 4: Triggered by the link, checks an answer ==
