@@ -197,7 +197,7 @@ var answers = [
   ["merimatka"],
   ["jim"],
   ["se osuu hermoon"],
-  ["oli"],
+  ["otti"],
 ];
 
 // == Used for Task 4: Triggered by the link, checks an answer ==
