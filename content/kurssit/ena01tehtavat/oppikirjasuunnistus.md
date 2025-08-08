@@ -1,5 +1,5 @@
 ---
-title: "Oppikirjasuunnistus Elements 1+2"
+title: "Oppikirjasuunnistus New Insights 1+2"
 date: 2022-2-1
 weight: 100
 draft: false
@@ -177,7 +177,7 @@ input#submit {
 <script>
 window.onload = function() {
   var questionCnt = $("div.ques").length;
-  questionOrder = [0,1,2,3,4,5,6,7];
+  questionOrder = [0,1,2,3,4,5,6];
     questionsAsked = 0;
     hideAllExcept(questionOrder[questionsAsked]);
   
