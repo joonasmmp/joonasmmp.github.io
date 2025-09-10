@@ -6,19 +6,14 @@ type: page
 layout: ohje
 ---
 
-Muodostuvat kirjainyhdistelmästä ’th’
-Ei kuitenkaan missään nimessä muodosteta äänteistä t ja h, vaan on ihan oma äänteensä. Eikä myöskään pelkkä t tai d. Älkää olko laiskoja. 
-Muodostaminen: kieli koskettaa kevyesti ylähampaiden alareunaa ja ilmavirta menee siitä välistä
-Kielen asema tärkeä! Liian takana niin θ muuttuu t:ksi ja ð muuttuu d:ksi, ja se tuottaa ongelmia. 
+ 
 
 
 ## Konsonanttiäänteet /θ/ ja /ð/
-- Molempien äänteiden muodostuminen bilabiaalinen, eli muodostuspaikkana toimii molemmat huulet. Muodostuminen alkaa huulien sulkemisella
--	Ero suomeen: /p/:n ollessa painotetun tavun ensimmäinen äänne ja kun sitä seuraa vokaaliäänne, se vaatii vahvan puhalluksen (aspiraatio), aivan kuin perään lisättäisiin /h/-äänne -> put = /phut/.
-Vertaa: pin/bin, pee/be, pet/bet, pie/bye 
--	Kun konsonanttiäännettä seuraa heti perään toinen, jätetään ensimmäinen aspirointi pois ja äännetään se jälkimmäisessä. esim. ’roped’ tai ’ripe peaches’
--	Jos ensimmäinen aspirointi äännetään, ’ripe peaches’ voidaan helposti ymmärtää väärin, ’riper peaches’.
--	Englannin kielessä on joukko sanoja, joissa ’p’ ja ’b’ eivät äänny! esim. psychology, psychiatrist, pseudonym, pneumonia, receipt, debt, comb, limb, dumb.
+Muodostuvat kirjainyhdistelmästä ’th’
+Ei kuitenkaan missään nimessä muodosteta äänteistä t ja h, vaan on ihan oma äänteensä. Eikä myöskään pelkkä t tai d. Älkää olko laiskoja. 
+Muodostaminen: kieli koskettaa kevyesti ylähampaiden alareunaa ja ilmavirta menee siitä välistä
+Kielen asema tärkeä! Liian takana niin θ muuttuu t:ksi ja ð muuttuu d:ksi, ja se tuottaa ongelmia.
 	
 ### Harjoitus 1. Voimakkaasti ääntyvä θ
 third, think, thief, thanks, theatre
