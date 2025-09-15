@@ -35,7 +35,7 @@ major, enjoy, majestic, adjacent
 
 margin, agenda, region, regicide, danger, sausage
 
-edgy, dodger, midget, bludgeon
+edgy, dodger, bludgeon
 
 huge, village, wage, large, arrange, Stonehenge
 
