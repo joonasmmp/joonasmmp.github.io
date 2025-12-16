@@ -36,6 +36,7 @@ Muita ehdokkaita olivat gerrymander, eli vaalipiirien uudelleenjakamista Yhdysva
 
 ### Cambridge Dictionary: parasocial
 >involving or relating to a connection that someone feels between themselves and a famous person they do not know, a character in a book, film, TV series, etc., or an artificial intelligence  .
+
 Eli siis kreikan sana para, vieressä, ja sosiaalinen. Vanha sana, käytetty jo 1956 kuvaamaan sitä, miten massamedian kautta ihmisille ajateltiin tulevan syvempiä ja merkityksellisempiä yhteyksiä esiintyjien kanssa. Sana tarkoittaa siis yhteyttä henkilön ja jonkun toisen henkilön välillä, mutta sillä erotuksella, että toinen henkilö on julkisuuden henkilö joka todennäköisesti ei ole edes tietoinen siitä toisesta osapuolesta, tai jopa täysin kuvitteellinen.
 Ilmeisesti sai suurempaa suosiota kesäkuussa, kun iShowSpeedin blokkaama pakkomielteinen fani kutsui itseään iShowSpeedin parasosiaaliseksi numero yksi. Heti perään heinäkuussa sana oli monien kriittisten asiantuntijoiden käytössä, kun Twitterin tekoälybotissa Grokissa pystyi tekemään itselleen animekumppaneita. 
 
