@@ -334,7 +334,7 @@ nextBtn.addEventListener("click", function () {
 
 /* Aktiivinen tila */
 #next:not(:disabled) {
-  background-color: #00A86B:
+  background-color: #00A86B;
   color: #fff;
   cursor: pointer;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
