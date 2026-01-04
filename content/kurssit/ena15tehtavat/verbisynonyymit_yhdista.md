@@ -57,28 +57,28 @@ window.onload = function () {
 
     {
       terms: [
-        { index: 0, text: "TERM A" },
-        { index: 1, text: "TERM B" },
-        { index: 2, text: "TERM C" },
-        { index: 3, text: "TERM D" },
-        { index: 4, text: "TERM E" },
-        { index: 5, text: "TERM F" },
-        { index: 6, text: "TERM G" },
-        { index: 7, text: "TERM H" },
-        { index: 8, text: "TERM I" },
-        { index: 9, text: "TERM J" }
+        { index: 0, text: "say quietly" },
+        { index: 1, text: "say angrily and loudly" },
+        { index: 2, text: "say in a shaking voice" },
+        { index: 3, text: "say happily and excitedly" },
+        { index: 4, text: "say in an annoyed way" },
+        { index: 5, text: "say officially/formally" },
+        { index: 6, text: "say in response/back" },
+        { index: 7, text: "say unclearly with mouth closed" },
+        { index: 8, text: "say in a complaining way" },
+        { index: 9, text: "say nervously and unclearly" }
       ],
       definitions: [
-        { index: 0, text: "DEF A" },
-        { index: 1, text: "DEF B" },
-        { index: 2, text: "DEF C" },
-        { index: 3, text: "DEF D" },
-        { index: 4, text: "DEF E" },
-        { index: 5, text: "DEF F" },
-        { index: 6, text: "DEF G" },
-        { index: 7, text: "DEF H" },
-        { index: 8, text: "DEF I" },
-        { index: 9, text: "DEF J" }
+        { index: 0, text: "whisper" },
+        { index: 1, text: "roar" },
+        { index: 2, text: "tremble" },
+        { index: 3, text: "exclaim" },
+        { index: 4, text: "snap" },
+        { index: 5, text: "announce" },
+        { index: 6, text: "retort" },
+        { index: 7, text: "mumble" },
+        { index: 8, text: "whine" },
+        { index: 9, text: "stammer" }
       ],
       pairs: { 0:0,1:1,2:2,3:3,4:4,5:5,6:6,7:7,8:8,9:9 }
     },
