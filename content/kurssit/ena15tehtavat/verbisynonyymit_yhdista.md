@@ -291,17 +291,18 @@ window.onload = function () {
     }
   });
 
-  nextBtn.addEventListener("click", function () {
-    currentTask++;
-      if (currentTask >= tehtavat.length) {
-        info.textContent = "Kaikki tehtävät tehty 🎉";
-        nextBtn.disabled = true;
-        nextBtn.style.display = "none"; // 👈 TÄMÄ LISÄYS
-  return;
-}
-    }
-    loadTask();
-  });
+nextBtn.addEventListener("click", function () {
+  currentTask++;
+
+  if (currentTask >= tehtavat.length) {
+    info.textContent = "Kaikki tehtävät tehty 🎉";
+    nextBtn.disabled = true;
+    nextBtn.style.display = "none";
+    return;
+  }
+
+  loadTask();
+});
 
   /* ===============================
      KÄYNNISTYS
