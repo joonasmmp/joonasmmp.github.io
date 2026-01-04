@@ -111,6 +111,67 @@ window.onload = function () {
 
       pairs: { 0:0,1:1,2:2,3:3,4:4,5:5,6:6,7:7,8:8,9:9 }
     },
+
+   {
+      terms: [
+        { index: 0, text: "look quickly" },
+        { index: 1, text: "look steadily and intensely" },
+        { index: 2, text: "look angrily" },
+        { index: 3, text: "look in wonder/amazement" },
+        { index: 4, text: "look secretly/quickly" },
+        { index: 5, text: "look with half-closed eyes" },
+        { index: 6, text: "look lovingly or admiringly" },
+        { index: 7, text: "look carefully to find details" },
+        { index: 8, text: "look with wide eyes (shock)" },
+        { index: 9, text: "look briefly and secretly" }
+      ],
+      definitions: [
+        { index: 0, text: "glance" },
+        { index: 1, text: "stare" },
+        { index: 2, text: "glare" },
+        { index: 3, text: "marvel" },
+        { index: 4, text: "peek" },
+        { index: 5, text: "squint" },
+        { index: 6, text: "gaze" },
+        { index: 7, text: "scrutinize" },
+        { index: 8, text: "gape" },
+        { index: 9, text: "glimpse" }
+      ],
+
+      pairs: { 0:0,1:1,2:2,3:3,4:4,5:5,6:6,7:7,8:8,9:9 }
+    },
+
+   {
+      terms: [
+        { index: 0, text: "eat quickly and hungrily" },
+        { index: 1, text: "drink in small amounts" },
+        { index: 2, text: "eat noisily" },
+        { index: 3, text: "drink quickly and eagerly" },
+        { index: 4, text: "eat small amounts slowly" },
+        { index: 5, text: "chew noisily" },
+        { index: 6, text: "drink all of it" },
+        { index: 7, text: "eat small bites of" },
+        { index: 8, text: "swallow quickly without chewing" },
+        { index: 9, text: "drink in large amounts" }
+      ],
+      definitions: [
+        { index: 0, text: "devour" },
+        { index: 1, text: "sip" },
+        { index: 2, text: "slurp" },
+        { index: 3, text: "gulp" },
+        { index: 4, text: "nibble" },
+        { index: 5, text: "munch" },
+        { index: 6, text: "drain" },
+        { index: 7, text: "sample" },
+        { index: 8, text: "wolf down" },
+        { index: 9, text: "guzzle" }
+      ],
+
+
+      pairs: { 0:0,1:1,2:2,3:3,4:4,5:5,6:6,7:7,8:8,9:9 }
+    },
+
+
   ];
 
   /* ===============================
@@ -232,10 +293,12 @@ window.onload = function () {
 
   nextBtn.addEventListener("click", function () {
     currentTask++;
-    if (currentTask >= tehtavat.length) {
-      info.textContent = "Kaikki tehtävät tehty 🎉";
-      nextBtn.disabled = true;
-      return;
+      if (currentTask >= tehtavat.length) {
+        info.textContent = "Kaikki tehtävät tehty 🎉";
+        nextBtn.disabled = true;
+        nextBtn.style.display = "none"; // 👈 TÄMÄ LISÄYS
+  return;
+}
     }
     loadTask();
   });
@@ -265,6 +328,7 @@ window.onload = function () {
   color: #666;
   cursor: not-allowed;
   transition: all 0.3s ease;
+  transition: opacity 0.3s ease;
 }
 
 /* Aktiivinen tila */
