@@ -88,81 +88,113 @@ window.onload = function () {
     }
   ];
 
-  // ===== MUUTTUJAT =====
+  /* ===============================
+     MUUTTUJAT
+     =============================== */
+
   var currentTask = 0;
   var selectedTerm = null;
   var selectedDef = null;
   var correctCount = 0;
+  var numero = 0; // order-laskuri oikein yhdistetyille
 
-  var termsContainer = document.querySelector("#terms");
-  var defsContainer = document.querySelector("#defs");
+  var termsContainer = document.getElementById("terms");
+  var defsContainer = document.getElementById("defs");
   var nextBtn = document.getElementById("next");
   var info = document.getElementById("info");
 
-  // ===== APUTOIMINNOT =====
+  /* ===============================
+     APUTOIMINNOT
+     =============================== */
+
   function isMatch(termIndex, defIndex) {
     return tehtavat[currentTask].pairs[termIndex] === defIndex;
   }
 
   function shuffle(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
+    var currentIndex = array.length, temporaryValue, randomIndex;
+    while (currentIndex !== 0) {
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
     }
     return array;
   }
 
   function createListHTML(list, container) {
     container.innerHTML = "";
-    list.forEach(item => {
+    for (var i = 0; i < list.length; i++) {
       container.innerHTML +=
-        "<li data-index='" + item.index + "'><span>" +
-        item.text + "</span></li>";
-    });
+        "<li data-index='" + list[i].index + "'>" +
+        "<span>" + list[i].text + "</span></li>";
+    }
   }
 
   function loadTask() {
     selectedTerm = null;
     selectedDef = null;
     correctCount = 0;
+    numero = 0;
     nextBtn.disabled = true;
-    info.textContent = "Tehtävä " + (currentTask + 1) + " / " + tehtavat.length;
+
+    info.textContent =
+      "Tehtävä " + (currentTask + 1) + " / " + tehtavat.length;
 
     var data = tehtavat[currentTask];
     createListHTML(shuffle([...data.terms]), termsContainer);
     createListHTML(shuffle([...data.definitions]), defsContainer);
   }
 
-  // ===== EVENTIT =====
+  /* ===============================
+     EVENTIT
+     =============================== */
+
   termsContainer.addEventListener("click", function (e) {
     var target = e.target.parentNode;
-    if (target.className === "score") return;
+    if (!target || target.className === "score") return;
 
-    selectedTerm = Number(target.dataset.index);
-    document.querySelectorAll("#terms li").forEach(li => li.removeAttribute("data-selected"));
+    document
+      .querySelectorAll("#terms li")
+      .forEach(li => li.removeAttribute("data-selected"));
+
+    selectedTerm = Number(target.getAttribute("data-index"));
     target.setAttribute("data-selected", true);
   });
 
   defsContainer.addEventListener("click", function (e) {
     var target = e.target.parentNode;
-    if (target.className === "score") return;
+    if (!target || target.className === "score") return;
 
-    selectedDef = Number(target.dataset.index);
-    document.querySelectorAll("#defs li").forEach(li => li.removeAttribute("data-selected"));
+    document
+      .querySelectorAll("#defs li")
+      .forEach(li => li.removeAttribute("data-selected"));
+
+    selectedDef = Number(target.getAttribute("data-index"));
     target.setAttribute("data-selected", true);
 
-    if (selectedTerm !== null) {
-      var term = termsContainer.querySelector("[data-index='" + selectedTerm + "']");
-      var def = defsContainer.querySelector("[data-index='" + selectedDef + "']");
+    if (selectedTerm !== null && selectedDef !== null) {
+      var term = termsContainer.querySelector(
+        "[data-index='" + selectedTerm + "']"
+      );
+      var def = defsContainer.querySelector(
+        "[data-index='" + selectedDef + "']"
+      );
 
       if (isMatch(selectedTerm, selectedDef)) {
         term.className = "score";
         def.className = "score";
+
+        numero++;
+        term.style.order = numero;
+        def.style.order = numero;
+
         correctCount++;
 
         if (correctCount === tehtavat[currentTask].terms.length) {
           nextBtn.disabled = false;
-          info.textContent = "Hienoa! Kaikki oikein 👍";
+          info.textContent = "Hienoa! Kaikki parit oikein 👍";
         }
       }
 
@@ -183,8 +215,12 @@ window.onload = function () {
     loadTask();
   });
 
-  // ===== KÄYNNISTYS =====
+  /* ===============================
+     KÄYNNISTYS
+     =============================== */
+
   loadTask();
 };
+</script>
 </script>
 {{< /rawhtml >}}
