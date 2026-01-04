@@ -23,6 +23,8 @@ layout: tehtava
 <script>
 window.onload = function () {
 
+ var tehtavat = [
+
   // ===== EXERCISE 1F: Holding/Touching Verbs =====
   {
     terms: [
