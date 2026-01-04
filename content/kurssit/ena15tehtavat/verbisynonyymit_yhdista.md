@@ -145,7 +145,7 @@ window.onload = function () {
       terms: [
         { index: 0, text: "eat quickly and hungrily" },
         { index: 1, text: "drink in small amounts" },
-        { index: 2, text: "eat noisily" },
+        { index: 2, text: "eat or drink with a sucking noise" },
         { index: 3, text: "drink quickly and eagerly" },
         { index: 4, text: "eat small amounts slowly" },
         { index: 5, text: "chew noisily" },
