@@ -83,11 +83,34 @@ window.onload = function () {
       pairs: { 0:0,1:1,2:2,3:3,4:4,5:5,6:6,7:7,8:8,9:9 }
     },
 
-    {
-      terms: Array.from({ length: 10 }, (_, i) => ({ index: i, text: "TERM " + (i + 1) })),
-      definitions: Array.from({ length: 10 }, (_, i) => ({ index: i, text: "DEF " + (i + 1) })),
+   {
+      terms: [
+        { index: 0, text: "think deeply and carefully" },
+        { index: 1, text: "think about memories" },
+        { index: 2, text: "suddenly understand" },
+        { index: 3, text: "think that something is true" },
+        { index: 4, text: "think about something constantly" },
+        { index: 5, text: "think and work out logically" },
+        { index: 6, text: "guess or think (uncertain)" },
+        { index: 7, text: "wonder and ask yourself" },
+        { index: 8, text: "think hard to remember" },
+        { index: 9, text: "imagine or create in mind" }
+      ],
+      definitions: [
+        { index: 0, text: "ponder" },
+        { index: 1, text: "recall" },
+        { index: 2, text: "realize" },
+        { index: 3, text: "believe" },
+        { index: 4, text: "obsess" },
+        { index: 5, text: "deduce" },
+        { index: 6, text: "suspect" },
+        { index: 7, text: "question" },
+        { index: 8, text: "recollect" },
+        { index: 9, text: "envision" }
+      ],
+
       pairs: { 0:0,1:1,2:2,3:3,4:4,5:5,6:6,7:7,8:8,9:9 }
-    }
+    },
   ];
 
   /* ===============================
@@ -236,8 +259,7 @@ window.onload = function () {
 #next {
   padding: 0.8rem 2.2rem;
   font-size: 1.1rem;
-  font-weight: 600;
-  border-radius: 6px;
+   border-radius: 6px;
   border: none;
   background-color: #ccc;
   color: #666;
@@ -247,7 +269,7 @@ window.onload = function () {
 
 /* Aktiivinen tila */
 #next:not(:disabled) {
-  background-color: #2563eb; /* sininen */
+  background-color: #00A86B
   color: #fff;
   cursor: pointer;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
