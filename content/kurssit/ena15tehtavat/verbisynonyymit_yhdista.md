@@ -278,11 +278,15 @@ window.onload = function () {
 
         correctCount++;
 
-        if (correctCount === tehtavat[currentTask].terms.length) {
-          nextBtn.disabled = false;
-          info.textContent = "Hienoa! Kaikki parit oikein 👍";
-        }
-      }
+if (correctCount === tehtavat[currentTask].terms.length) {
+  if (currentTask === tehtavat.length - 1) {
+    info.textContent = "Kaikki tehtävät tehty 🎉";
+    nextBtn.style.display = "none"; // 👈 nappi katoaa heti
+  } else {
+    nextBtn.disabled = false;
+    info.textContent = "Hienoa! Kaikki parit oikein 👍";
+  }
+}
 
       term.removeAttribute("data-selected");
       def.removeAttribute("data-selected");
