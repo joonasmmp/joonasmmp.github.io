@@ -17,7 +17,7 @@ layout: tehtava
 <div class="next-wrapper">
   <button id="next" disabled>Seuraava tehtävä</button>
   </div>
-<p id="info"></p>
+<p id="info" style="text-align:center;"></p>
 
 
 <script>
