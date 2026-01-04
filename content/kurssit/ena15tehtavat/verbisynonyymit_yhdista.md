@@ -14,7 +14,9 @@ layout: tehtava
   <div><ul id="defs"></ul></div>
 </div>
 
-<button id="next" disabled>Seuraava tehtävä</button>
+<div class="next-wrapper">
+  <button id="next" disabled>Seuraava tehtävä</button>
+  </div>
 <p id="info"></p>
 
 
@@ -222,5 +224,46 @@ window.onload = function () {
   loadTask();
 };
 </script>
-</script>
+
+<style>
+  .next-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+/* Perustila */
+#next {
+  padding: 0.8rem 2.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  border: none;
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+  transition: all 0.3s ease;
+}
+
+/* Aktiivinen tila */
+#next:not(:disabled) {
+  background-color: #2563eb; /* sininen */
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Hover vain kun aktiivinen */
+#next:not(:disabled):hover {
+  background-color: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+/* Pieni painallusefekti */
+#next:not(:disabled):active {
+  transform: translateY(0);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+</style>
+
 {{< /rawhtml >}}
