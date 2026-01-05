@@ -117,14 +117,14 @@ window.onload = function () {
     terms: [
       { index: 0, text: "make a high sharp sound" },
       { index: 1, text: "make a loud deep sound" },
-      { index: 2, text: "make a continuous sound" },
+      { index: 2, text: "make a low continuous constant sound" },
       { index: 3, text: "ring loudly and repeatedly" },
       { index: 4, text: "make a soft continuous sound" },
       { index: 5, text: "make a loud sudden sound" },
       { index: 6, text: "make a sharp cracking sound" },
       { index: 7, text: "make a light ringing sound" },
       { index: 8, text: "make noise hitting together" },
-      { index: 9, text: "make a low continuous sound" }
+      { index: 9, text: "make a low continuous varying sound" }
     ],
     definitions: [
       { index: 0, text: "screech" },
