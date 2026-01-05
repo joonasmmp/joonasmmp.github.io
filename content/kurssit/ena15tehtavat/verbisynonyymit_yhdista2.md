@@ -280,7 +280,7 @@ window.onload = function () {
         if (correctCount === tehtavat[currentTask].terms.length) {
           // Viimeinen tehtävä
           if (currentTask === tehtavat.length - 1) {
-            info.textContent = "Kaikki tehtävät tehty 🎉";
+            info.innerHTML = 'Kaikki tehtävät tehty! 👍<br><a href="https://joonasmmp.github.io/kurssit/ena15tehtavat/verbisynonyymit_kirjoita1/" class="success-link">Siirry seuraavaan tehtävään!</a>';
             nextBtn.style.display = "none"; // nappi katoaa heti
           } else {
             nextBtn.disabled = false;
@@ -288,6 +288,7 @@ window.onload = function () {
           }
         }
       }
+
 
       term.removeAttribute("data-selected");
       def.removeAttribute("data-selected");
