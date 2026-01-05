@@ -214,6 +214,13 @@ loadTask();
 #next:not(:disabled):hover {
   background-color: #1d4ed8;
 }
+
+.tehtava form::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 </style>
 
 </rawhtml>
