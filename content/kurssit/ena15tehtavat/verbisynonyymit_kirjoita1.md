@@ -78,6 +78,7 @@ const info = document.getElementById("info");
 const instructionEl = document.getElementById("instruction");
 
 function loadTask() {
+  checkedOnce = false;
   ol.innerHTML = "";
   nextBtn.disabled = true;
   nextBtn.style.display = "inline-block";
@@ -105,11 +106,34 @@ function loadTask() {
     ol.appendChild(li);
   });
 
-  enableSmartResize();
+function enableSmartResize() {
+  const measure = document.createElement("span");
+  measure.style.position = "absolute";
+  measure.style.left = "-9999px";
+  measure.style.whiteSpace = "pre";
+  document.body.appendChild(measure);
+
+  document.querySelectorAll("input[data-resize]").forEach(input => {
+    input.addEventListener("input", function () {
+      measure.textContent = this.value || "";
+      if (measure.offsetWidth > this.offsetWidth) {
+        this.style.width = measure.offsetWidth + "px";
+      }
+
+      if (checkedOnce) {
+        const li = this.closest("li");
+        li.classList.remove("oikein", "vaarin");
+      }
+    });
+  });
 }
 
+}
+
+let checkedOnce = false;
 
 function checkAnswers() {
+  checkedOnce = true;
   let correct = 0;
 
   tehtavat[currentTask].answers.forEach((ans, i) => {
@@ -119,8 +143,7 @@ function checkAnswers() {
     li.classList.remove("oikein", "vaarin");
 
     if (input.value.trim() === "") {
-      li.classList.add("vaarin");
-      return;
+      return; // ei väriä jos tyhjä
     }
 
     if (input.value.toLowerCase().trim() === ans) {
@@ -141,6 +164,7 @@ function checkAnswers() {
     }
   }
 }
+
 
 form.addEventListener("submit", function (e) {
   e.preventDefault();
