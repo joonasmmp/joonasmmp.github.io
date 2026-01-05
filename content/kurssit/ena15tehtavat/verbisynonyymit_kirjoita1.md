@@ -1,5 +1,5 @@
 ---
-title: "1. Mikä paikan prepositio?"
+title: "Verbisynonyymit: Kirjoita"
 date: 2022-2-1
 weight: 42
 draft: false
@@ -35,16 +35,16 @@ Täydennä annettuja lauseita prepositioilla in/on/at.
 var tehtavat = [
 
   {
-    instruction: "Replace the underlined phrases with ONE strong verb from the box.",
+    instruction: "Replace the underlined phrases with a strong verb from the following: creep, limp, storm, tiptoe, dart, stroll, wander, march.",
     sentences: [
       "The angry manager ___ out of the meeting. (walked quickly and angrily)",
-      "The children ___ past their sleeping father. (tiptoed)",
+      "The children ___ past their sleeping father. (walked quietly on their toes)",
       "The mouse ___ across the kitchen floor. (moved quickly)",
       "On Sunday afternoon, we ___ through the park. (walked in a relaxed way)",
       "The injured player ___ off the field. (walked with difficulty)",
       "The soldiers ___ toward the parade ground. (walked in formation)",
       "The burglar ___ through the dark house. (moved quietly and carefully)",
-      "The tourists ___ around the old city. (wandered)"
+      "The tourists ___ around the old city. (walked without a clear direction)"
     ],
     answers: [
       "stormed",
@@ -59,21 +59,18 @@ var tehtavat = [
   },
 
   {
-    instruction: "Replace 'said' with a more descriptive verb. Consider the emotion and manner of speaking.",
+    instruction: "Replace 'said' with a more descriptive verb. Consider the emotion and manner of speaking. Use the following verbs: enquire, retort, stammer, whisper, bellow, declare, announce, sneer.",
     sentences: [
-      "\"I can't believe you did that!\" she said.",
-      "\"Please don't go,\" he said quietly.",
-      "\"The answer is obviously 42,\" the teacher said.",
-      "\"That's not true at all!\" Maria said in response.",
-      "\"I... I don't know what to say,\" Tom said nervously.",
-      "\"Get out of my house!\" Mr. Brown said loudly.",
-      "\"Well, actually, I think you're wrong,\" she said smugly.",
-      "\"The meeting starts at 3 PM,\" the secretary said officially.",
-      "\"Wow! That's amazing!\" the child said excitedly.",
-      "\"Could you possibly help me?\" she said politely."
+      "\"Please don't go,\" he ___ (said quietly).",
+      "\"The answer is obviously 67,\" the teacher ___ (said firmly).",
+      "\"That's not true at all!\" Maria ___ (said in response).",
+      "\"I... I don't know what to say,\" Tom ___  (said nervously).",
+      "\"Get out of my house!\" Mr. Brown ___ (said very loudly).",
+      "\"Well, actually, I think you're wrong,\" she ___  (said smugly).",
+      "\"The meeting starts at 3 PM,\" the secretary ___ (said officially).",
+      "\"Could you possibly help me?\" she ___ (asked politely)."
     ],
     answers: [
-      "exclaimed",
       "whispered",
       "declared",
       "retorted",
@@ -81,36 +78,31 @@ var tehtavat = [
       "bellowed",
       "sneered",
       "announced",
-      "roared",
-      "inquired"
+      "enquired"
     ]
   },
 
   {
     instruction: "Instead of using an adjective + verb, use a powerful verb that shows the emotion or manner.",
     sentences: [
-      "She looked angrily at him.",
-      "He ate hungrily.",
-      "They left quickly.",
-      "She touched it carefully.",
-      "He spoke boringly for hours.",
-      "The water moved violently.",
-      "She smiled widely.",
-      "He took it eagerly.",
-      "The cat moved gracefully.",
-      "She fell clumsily."
+      "She ___ at him after his comments. (looked angrily)",
+      "He ___ his lunch. (ate hungrily)",
+      "They ___ the venue after the ceremony. (leave quickly)",
+      "She ___ the money (took quickly).",
+      "After the lesson the teached ___ in the empty classroom (cried quietly)",
+      "James ___ up the stairs. (walked heavily)",
+      "The students ___ when the teacher made a mistake. (laughed quietly)",
+      "Being late for class, Jorma ___ down the stairs. (moved gracefully and effortlessly).",
     ],
     answers: [
       "glared",
       "devoured",
       "fled",
-      "caressed",
-      "droned",
-      "churned",
-      "beamed",
+      "snatched",
+      "sobbed",
+      "stomped",
       "seized",
       "glided",
-      "stumbled"
     ]
   }
 

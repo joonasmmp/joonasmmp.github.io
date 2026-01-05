@@ -1,5 +1,5 @@
 ---
-title: "Paljoussanat: yhdistä termit"
+title: "Verbisynonyymit: yhdistä termit 1"
 date: 2022-6-1
 weight: 11
 draft: false
