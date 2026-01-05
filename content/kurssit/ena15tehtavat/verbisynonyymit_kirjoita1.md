@@ -96,10 +96,8 @@ function loadTask() {
     const input = document.createElement("input");
     input.type = "text";
     input.id = "q" + i;
+    input.dataset.resize = "true"
     section.appendChild(input);
-
-    const span = document.createElement("span");
-    section.appendChild(span);
 
     section.appendChild(document.createTextNode(parts[1]));
 
