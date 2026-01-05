@@ -24,7 +24,7 @@ layout: tehtava
   <div class="next-wrapper">
     <button id="next" disabled>Seuraava tehtävä</button>
     <p id="finished-msg" style="display:none; text-align:center; font-weight:600; margin-top:1.5rem;">
-      Hienoa! <a href="https://joonasmmp.github.io/kurssit/ena15tehtavat/verbisynonyymit_kirjoita2/" target="_blank">Siirry seuraavaan tehtävään!</a>
+      Hienoa! <a href="https://joonasmmp.github.io/kurssit/ena15tehtavat/verbisynonyymit_kirjoita2/">Siirry seuraavaan tehtävään!</a>
     </p>
   </div>
 
@@ -68,7 +68,7 @@ var tehtavat = [
       "\"I... I don't know what to say,\" Tom ___  (said nervously).",
       "\"Get out of my house!\" Mr. Brown ___ (said very loudly).",
       "\"Well, actually, I think you're wrong,\" she ___  (said smugly).",
-      "\"The meeting starts at 3 PM,\" the secretary ___ (said officially).",
+      "\"The meeting starts now,\" the secretary ___ (said officially).",
       "\"Could you possibly help me?\" she ___ (asked politely)."
     ],
     answers: [

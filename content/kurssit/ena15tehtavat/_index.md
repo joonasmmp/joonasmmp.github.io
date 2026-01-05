@@ -6,13 +6,27 @@ type: page
 layout: tehtavavalikko
 ---
 
-Turnitin-ohjeet 2025:
-Class ID: 46880510
+Turnitin-ohjeet 2026:
+Class ID: 51370892
 Key: jaksoviikko
 
-turnitin.com
+## Tehtävä 1: Kirjoitelman monipuolistaminen
 
-## Tehtävä 1.1: Kirje joulupukille
+[Very adjektiivit]({{<ref "very_adjektiivit.mdt" >}})
+
+[Lista adjektiiveista]({{<ref "adjektiivit_lista.mdt" >}})
+
+[Lista idiomeista]({{<ref "idiomit_lista.mdt" >}})
+
+[Verbisynonyymit: Yhdistä]({{<ref "verbisynonyymit_yhdista.mdt" >}})
+
+[Verbisynonyymit: Yhdistä 2]({{<ref "verbisynonyymit_yhdista2.mdt" >}})
+
+[Verbisynonyymit: Kirjoita ]({{<ref "verbisynonyymit_kirjoita1.mdt" >}})
+
+[Verbisynonyymit: Kirjoita ]({{<ref "verbisynonyymit_kirjoita2.mdt" >}})
+
+## Tehtävä 2.1: Kirje joulupukille
 
 Kirjoita 700-1300 merkin mittainen kirje Joulupukille.
 Esitä kolme toivomusta, jotka ovat 
@@ -36,7 +50,7 @@ Dear Santa, … 
 * Yours faithfully, / Yours sincerely, / Regards, / Best regards, / any other phrase you might know 
 * Write the signature line and your name on separate lines! 
 
-## Tehtävä 1.2: Tuotepalautus
+## Tehtävä 2.2: Tuotepalautus
 
 Kirjoita vähintään 700 merkin mittainen reklamaatio seuraavalla tehtävänannolla:  
 Olet saanut joululahjaksi rikkaalta sedältäsi (jota et ole koskaan tavannut ja johon et voi ottaa yhteyttä) jonkin esineen Harrodsin tavaratalosta, mutta syystä tai toisesta se ei sinulle kelpaakaan. Aloitat neuvottelun tilanteen korjaamiseksi asiakaspalvelun kanssa kirjeen muodossa saadaksesi joko korvaavan tuotteen tai rahat ostoksesta. 
@@ -47,24 +61,6 @@ Mikä palautettavaksi haluamasi esine on? 
 * Esineessä on jokin ominaisuus, josta syystä se ei kelpaa. Väärä väri? Elektroniikassa jokin liitettävyyteen liittyvä ongelma? Väärä merkki? Keksi jotain mielenkiintoisempaa kuin että ei sovi sisustukseen. 
 * Ilmoita kohteliaasti pyyntösi tilanteen korjaamiseksi. Harrods on erittäin posh. Kohteliaisuudella tarkoitetaan konditionaalimuotojen suosimista (esimerkiksi I would be most grateful if you could see it possible to...) 
 * Lopeta kirjeesi kertomalla innolla odottavasi vastausta (esimerkiksi I am looking forward to hearing from you soon and hope we could reach a solution that is satisfactory to the both of us.)
-
-## Tehtävä 2: Kirjoitelman monipuolistaminen
-
-Kirjoita 700-1300 merkin kirjoitelma. Käytä kirjoitelmassa vähintään yhtä listan idiomeista sekä vähintään kahta listan adjektiivia. Käytä niitä niin, että ne ovat osa järkevää kokonaisuutta, eivätkö tunnu väkinäiseltä.
-
-Aihe 1: In front of you is a closed door. Why is it closed? What is behind it? What happens when you open it?
-
-Aihe 2: The colour orange reminds me of….
-
-Aihe 3: A letter arrives, addressed to someone who doesn't live here anymore.
-
-Aihe 4: There's a garden that blooms, even in the middle of winter.
-
-Aihe 5: Every time you open a drawer, something new is inside.
-
-[Lista adjektiiveista]({{<ref "adjektiivit_lista.mdt" >}})
-
-[Lista idiomeista]({{<ref "idiomit_lista.mdt" >}})
 
 ## Tehtävä 3: Kaunokirjallisen tekstin kääntäminen suomen kielelle
 
