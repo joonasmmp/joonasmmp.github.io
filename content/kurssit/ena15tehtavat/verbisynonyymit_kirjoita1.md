@@ -31,11 +31,8 @@ Täydennä annettuja lauseita prepositioilla in/on/at.
 
 </div>
 
-
-
 <script>
-
-var tehtavat = [
+const tehtavat = [
   {
     instruction: "Täydennä lauseet oikealla prepositiolla (in / on / at).",
     sentences: [
@@ -51,22 +48,6 @@ var tehtavat = [
       "He had to sit ___ the floor."
     ],
     answers: ["on","at","in","on","on","in","at","at","in","on"]
-  },
-  {
-    instruction: "Täydennä lauseet oikealla prepositiolla (in / on / at).",
-    sentences: [
-      "She arrived ___ the airport early.",
-      "I left my keys ___ the table.",
-      "They live ___ Helsinki.",
-      "Meet me ___ noon.",
-      "There’s a cat ___ the roof.",
-      "He works ___ an office.",
-      "We met ___ the bus stop.",
-      "The painting is ___ the wall.",
-      "She sat ___ the chair.",
-      "He was born ___ 1999."
-    ],
-    answers: ["at","on","in","at","on","in","at","on","on","in"]
   }
 ];
 
@@ -83,58 +64,32 @@ function loadTask() {
   checkedOnce = false;
   ol.innerHTML = "";
   nextBtn.disabled = true;
-  nextBtn.style.display = "inline-block";
 
   const task = tehtavat[currentTask];
   instructionEl.textContent = task.instruction;
-  info.textContent = "Tehtävä " + (currentTask + 1) + " / " + tehtavat.length;
+  info.textContent = `Tehtävä ${currentTask + 1} / ${tehtavat.length}`;
 
   task.sentences.forEach((sentence, i) => {
     const li = document.createElement("li");
-    const section = document.createElement("section");
     const parts = sentence.split("___");
 
-    section.appendChild(document.createTextNode(parts[0]));
+    li.innerHTML = `
+      ${parts[0]}
+      <input type="text" id="q${i}" autocomplete="off">
+      ${parts[1]}
+    `;
 
-    const input = document.createElement("input");
-    input.type = "text";
-    input.id = "q" + i;
-    li.appendChild(section);
-    section.appendChild(input);
-
-    const span = document.createElement("span");
-    section.appendChild(span);
-
-    section.appendChild(document.createTextNode(parts[1]));
-
-    li.appendChild(section);
     ol.appendChild(li);
   });
 
-  enableSmartResize();
+  attachInputListeners();
 }
 
-function enableSmartResize() {
-  const measure = document.createElement("span");
-  measure.style.position = "absolute";
-  measure.style.left = "-9999px";
-  measure.style.whiteSpace = "pre";
-  document.body.appendChild(measure);
-
-  document.querySelectorAll(".tehtava input[type=text]").forEach(input => {
-    const span = input.nextElementSibling;
-
-    input.addEventListener("input", function () {
-      // Poista väri kirjoitettaessa
+function attachInputListeners() {
+  document.querySelectorAll("#task-list input").forEach(input => {
+    input.addEventListener("input", () => {
       if (checkedOnce) {
-        const li = this.closest("li");
-        li.classList.remove("oikein", "vaarin");
-      }
-
-      // Älykäs resize
-      measure.textContent = this.value || "";
-      if (measure.offsetWidth > this.offsetWidth) {
-        this.style.width = measure.offsetWidth + "px";
+        input.classList.remove("oikein", "vaarin");
       }
     });
   });
@@ -147,98 +102,103 @@ function checkAnswers() {
 
   task.answers.forEach((ans, i) => {
     const input = document.getElementById("q" + i);
-    const li = input.closest("li");
+    input.classList.remove("oikein", "vaarin");
 
-    li.classList.remove("oikein", "vaarin");
-
-    if (input.value.trim() === "") return; // tyhjä ei muuta väriä
+    if (input.value.trim() === "") return;
 
     if (input.value.toLowerCase().trim() === ans) {
-      li.classList.add("oikein");
+      input.classList.add("oikein");
       correct++;
     } else {
-      li.classList.add("vaarin");
+      input.classList.add("vaarin");
     }
   });
 
   if (correct === task.answers.length) {
-    if (currentTask === tehtavat.length - 1) {
-      info.textContent = "Kaikki tehtävät tehty 🎉";
-      nextBtn.style.display = "none";
-    } else {
-      info.textContent = "Hienoa! Kaikki oikein 👍";
-      nextBtn.disabled = false;
-    }
+    info.textContent = "Hienoa! Kaikki oikein 👍";
+    nextBtn.disabled = false;
   }
 }
 
-// Estä sivun lataaminen ja tarkista vastaukset
-form.addEventListener("submit", function(e) {
-  e.preventDefault();
+form.addEventListener("submit", e => {
+  e.preventDefault(); // 🔴 TÄMÄ ESTÄÄ SIVUN PÄIVITYKSEN
   checkAnswers();
 });
 
-// Seuraava tehtävä
-nextBtn.addEventListener("click", function() {
+nextBtn.addEventListener("click", () => {
   currentTask++;
   loadTask();
 });
 
-// Lataa ensimmäinen tehtävä
 loadTask();
 </script>
 
 <style>
-.instruction {
-  font-size: 1.1rem;
-  font-weight: 500;
-  text-align: center;
-  margin-bottom: 0.8rem;
-  padding: 0.6rem 1rem;
-  background: #f1f5f9;
-  border-left: 4px solid #2563eb;
-  border-radius: 4px;
+#task-list {
+  list-style: decimal;
+  padding-left: 1.5rem;
 }
 
-.task-info {
+#task-list li {
+  margin-bottom: 0.8rem;
+}
+
+#task-list input {
+  min-width: 3ch;
+  padding: 0.2rem 0.4rem;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin: 0 0.3rem;
+  transition: background 0.2s, border 0.2s;
+}
+
+/* OIKEIN */
+#task-list input.oikein {
+  background: #dcfce7;
+  border-color: #16a34a;
+}
+
+/* VÄÄRIN */
+#task-list input.vaarin {
+  background: #fee2e2;
+  border-color: #dc2626;
+}
+
+/* Ohjeteksti */
+#instruction {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+/* Tehtävä x/y */
+#info {
   text-align: center;
   font-weight: 600;
   margin-bottom: 1rem;
 }
 
+/* Seuraava-nappi */
 .next-wrapper {
   display: flex;
   justify-content: center;
-  margin: 2rem 0;
+  margin-top: 2rem;
 }
 
 #next {
-  padding: 0.7rem 2rem;
-  font-size: 1.05rem;
+  padding: 0.6rem 1.8rem;
   border-radius: 6px;
   border: none;
-  background-color: #ccc;
-  color: #666;
-  cursor: not-allowed;
-  transition: all 0.3s ease;
+  background: #ccc;
+  color: #555;
 }
 
 #next:not(:disabled) {
-  background-color: #00a86b;
+  background: #16a34a;
   color: #fff;
   cursor: pointer;
 }
-
-#next:not(:disabled):hover {
-  background-color: #1d4ed8;
-}
-
-.tehtava form::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
 </style>
 
 </rawhtml>
