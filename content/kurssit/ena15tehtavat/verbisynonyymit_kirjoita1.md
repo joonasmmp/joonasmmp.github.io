@@ -34,6 +34,7 @@ Täydennä annettuja lauseita prepositioilla in/on/at.
 
 
 <script>
+
 var tehtavat = [
   {
     instruction: "Täydennä lauseet oikealla prepositiolla (in / on / at).",
@@ -51,7 +52,6 @@ var tehtavat = [
     ],
     answers: ["on","at","in","on","on","in","at","at","in","on"]
   },
-
   {
     instruction: "Täydennä lauseet oikealla prepositiolla (in / on / at).",
     sentences: [
@@ -71,6 +71,8 @@ var tehtavat = [
 ];
 
 let currentTask = 0;
+let checkedOnce = false;
+
 const ol = document.getElementById("task-list");
 const form = document.querySelector("form");
 const nextBtn = document.getElementById("next");
@@ -83,13 +85,13 @@ function loadTask() {
   nextBtn.disabled = true;
   nextBtn.style.display = "inline-block";
 
-  instructionEl.textContent = tehtavat[currentTask].instruction;
+  const task = tehtavat[currentTask];
+  instructionEl.textContent = task.instruction;
   info.textContent = "Tehtävä " + (currentTask + 1) + " / " + tehtavat.length;
 
-  tehtavat[currentTask].sentences.forEach((sentence, i) => {
+  task.sentences.forEach((sentence, i) => {
     const li = document.createElement("li");
     const section = document.createElement("section");
-
     const parts = sentence.split("___");
 
     section.appendChild(document.createTextNode(parts[0]));
@@ -100,7 +102,7 @@ function loadTask() {
     li.appendChild(section);
     section.appendChild(input);
 
-    const span = document.createElement("span"); // mittaus-span
+    const span = document.createElement("span");
     section.appendChild(span);
 
     section.appendChild(document.createTextNode(parts[1]));
@@ -109,10 +111,8 @@ function loadTask() {
     ol.appendChild(li);
   });
 
-  enableSmartResize(); // KUTSUTAAN TÄÄLLÄ
+  enableSmartResize();
 }
-
-let checkedOnce = false;
 
 function enableSmartResize() {
   const measure = document.createElement("span");
@@ -122,10 +122,10 @@ function enableSmartResize() {
   document.body.appendChild(measure);
 
   document.querySelectorAll(".tehtava input[type=text]").forEach(input => {
-    const span = input.nextElementSibling; // span inputin perässä
+    const span = input.nextElementSibling;
 
     input.addEventListener("input", function () {
-      // Poista väri jos kirjoitetaan
+      // Poista väri kirjoitettaessa
       if (checkedOnce) {
         const li = this.closest("li");
         li.classList.remove("oikein", "vaarin");
@@ -140,7 +140,51 @@ function enableSmartResize() {
   });
 }
 
+function checkAnswers() {
+  checkedOnce = true;
+  let correct = 0;
+  const task = tehtavat[currentTask];
 
+  task.answers.forEach((ans, i) => {
+    const input = document.getElementById("q" + i);
+    const li = input.closest("li");
+
+    li.classList.remove("oikein", "vaarin");
+
+    if (input.value.trim() === "") return; // tyhjä ei muuta väriä
+
+    if (input.value.toLowerCase().trim() === ans) {
+      li.classList.add("oikein");
+      correct++;
+    } else {
+      li.classList.add("vaarin");
+    }
+  });
+
+  if (correct === task.answers.length) {
+    if (currentTask === tehtavat.length - 1) {
+      info.textContent = "Kaikki tehtävät tehty 🎉";
+      nextBtn.style.display = "none";
+    } else {
+      info.textContent = "Hienoa! Kaikki oikein 👍";
+      nextBtn.disabled = false;
+    }
+  }
+}
+
+// Estä sivun lataaminen ja tarkista vastaukset
+form.addEventListener("submit", function(e) {
+  e.preventDefault();
+  checkAnswers();
+});
+
+// Seuraava tehtävä
+nextBtn.addEventListener("click", function() {
+  currentTask++;
+  loadTask();
+});
+
+// Lataa ensimmäinen tehtävä
 loadTask();
 </script>
 
