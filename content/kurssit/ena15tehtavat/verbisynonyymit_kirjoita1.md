@@ -97,14 +97,22 @@ function loadTask() {
     const input = document.createElement("input");
     input.type = "text";
     input.id = "q" + i;
-    input.dataset.resize = "true"
+    li.appendChild(section);
     section.appendChild(input);
+
+    const span = document.createElement("span"); // mittaus-span
+    section.appendChild(span);
 
     section.appendChild(document.createTextNode(parts[1]));
 
     li.appendChild(section);
     ol.appendChild(li);
   });
+
+  enableSmartResize(); // KUTSUTAAN TÄÄLLÄ
+}
+
+let checkedOnce = false;
 
 function enableSmartResize() {
   const measure = document.createElement("span");
@@ -113,83 +121,25 @@ function enableSmartResize() {
   measure.style.whiteSpace = "pre";
   document.body.appendChild(measure);
 
-  document.querySelectorAll("input[data-resize]").forEach(input => {
-    input.addEventListener("input", function () {
-      measure.textContent = this.value || "";
-      if (measure.offsetWidth > this.offsetWidth) {
-        this.style.width = measure.offsetWidth + "px";
-      }
+  document.querySelectorAll(".tehtava input[type=text]").forEach(input => {
+    const span = input.nextElementSibling; // span inputin perässä
 
+    input.addEventListener("input", function () {
+      // Poista väri jos kirjoitetaan
       if (checkedOnce) {
         const li = this.closest("li");
         li.classList.remove("oikein", "vaarin");
       }
-    });
-  });
-}
 
-}
-
-let checkedOnce = false;
-
-function checkAnswers() {
-  checkedOnce = true;
-  let correct = 0;
-
-  tehtavat[currentTask].answers.forEach((ans, i) => {
-    const input = document.getElementById("q" + i);
-    const li = input.closest("li");
-
-    li.classList.remove("oikein", "vaarin");
-
-    if (input.value.trim() === "") {
-      return; // ei väriä jos tyhjä
-    }
-
-    if (input.value.toLowerCase().trim() === ans) {
-      li.classList.add("oikein");
-      correct++;
-    } else {
-      li.classList.add("vaarin");
-    }
-  });
-
-  if (correct === tehtavat[currentTask].answers.length) {
-    if (currentTask === tehtavat.length - 1) {
-      info.textContent = "Kaikki tehtävät tehty 🎉";
-      nextBtn.style.display = "none";
-    } else {
-      info.textContent = "Hienoa! Kaikki oikein 👍";
-      nextBtn.disabled = false;
-    }
-  }
-}
-
-
-form.addEventListener("submit", function (e) {
-  e.preventDefault();
-  checkAnswers();
-});
-
-nextBtn.addEventListener("click", function () {
-  currentTask++;
-  loadTask();
-});
-
-/* ===== INPUT-LEVEYS: EI NYKIMISTÄ ===== */
-function enableSmartResize() {
-  document.querySelectorAll(".tehtava input[type=text]").forEach(input => {
-    const span = input.nextElementSibling;
-
-    input.addEventListener("input", function () {
-      span.textContent = this.value || "";
-
-      if (span.offsetWidth > this.offsetWidth) {
-        this.style.width = span.offsetWidth + "px";
+      // Älykäs resize
+      measure.textContent = this.value || "";
+      if (measure.offsetWidth > this.offsetWidth) {
+        this.style.width = measure.offsetWidth + "px";
       }
     });
   });
 }
+
 
 loadTask();
 </script>
