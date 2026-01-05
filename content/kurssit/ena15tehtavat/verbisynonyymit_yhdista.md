@@ -6,6 +6,8 @@ draft: false
 type: page
 layout: tehtava
 ---
+Yhdistä sanat selityksiinsä.
+
 {{< rawhtml >}}
 <link rel="stylesheet" type="text/css" href="/css/yhdistely.css"/>
 
@@ -286,7 +288,8 @@ window.onload = function () {
             nextBtn.style.display = "none"; // nappi katoaa heti
           } else {
             nextBtn.disabled = false;
-            info.textContent = "Hienoa! Kaikki parit oikein 👍";
+            info.innerHTML = 'Hienoa! Kaikki parit oikein 👍<br><a href="verbisynonyymit_yhdista2/" class="success-link">Siirry seuraavaan tehtävään!</a>';
+
           }
         }
       }
