@@ -34,9 +34,9 @@ Täydennä annettuja lauseita prepositioilla in/on/at.
 
 
 <script>
-
 var tehtavat = [
   {
+    instruction: "Täydennä lauseet oikealla prepositiolla (in / on / at).",
     sentences: [
       "He had a Nicolas Cage poster hanging ___ the wall.",
       "Let's meet ___ the corner of Kauppurienkatu and Ratakatu.",
@@ -55,18 +55,18 @@ var tehtavat = [
   {
     instruction: "Täydennä lauseet oikealla prepositiolla (in / on / at).",
     sentences: [
-      "He had a Nicolas Cage poster hanging ___ the wall.",
-      "Let's meet ___ the corner of Kauppurienkatu and Ratakatu.",
-      "Is that man with his hands ___ his pockets following us?",
-      "Which page is this exercise ___?",
-      "I live ___ the first floor, welcome!",
-      "I wish I lived ___ the countryside.",
-      "___ the border I started having second thoughts.",
-      "That spooky house ___ the end of the road.",
-      "You can see stars ___ the night sky.",
-      "He had to sit ___ the floor."
+      "She arrived ___ the airport early.",
+      "I left my keys ___ the table.",
+      "They live ___ Helsinki.",
+      "Meet me ___ noon.",
+      "There’s a cat ___ the roof.",
+      "He works ___ an office.",
+      "We met ___ the bus stop.",
+      "The painting is ___ the wall.",
+      "She sat ___ the chair.",
+      "He was born ___ 1999."
     ],
-    answers: ["on","at","in","on","on","in","at","at","in","on"]
+    answers: ["at","on","in","at","on","in","at","on","on","in"]
   }
 ];
 
@@ -80,17 +80,22 @@ const instructionEl = document.getElementById("instruction");
 function loadTask() {
   ol.innerHTML = "";
   nextBtn.disabled = true;
+  nextBtn.style.display = "inline-block";
 
   instructionEl.textContent = tehtavat[currentTask].instruction;
   info.textContent = "Tehtävä " + (currentTask + 1) + " / " + tehtavat.length;
 
   tehtavat[currentTask].sentences.forEach((sentence, i) => {
+    const li = document.createElement("li");
+
     const section = document.createElement("section");
     section.innerHTML = sentence.replace(
       "___",
-      `<li><input type="text" id="q${i}"/><span></span></li>`
+      `<input type="text" id="q${i}"/><span></span>`
     );
-    ol.appendChild(section);
+
+    li.appendChild(section);
+    ol.appendChild(li);
   });
 
   enableSmartResize();
@@ -101,7 +106,7 @@ function checkAnswers() {
 
   tehtavat[currentTask].answers.forEach((ans, i) => {
     const input = document.getElementById("q" + i);
-    const li = input.parentElement;
+    const li = input.closest("li");
 
     li.classList.remove("oikein", "vaarin");
 
@@ -139,7 +144,7 @@ nextBtn.addEventListener("click", function () {
   loadTask();
 });
 
-/* ========= LEVEYDEN HALLINTA ========= */
+/* ===== INPUT-LEVEYS: EI NYKIMISTÄ ===== */
 function enableSmartResize() {
   document.querySelectorAll(".tehtava input[type=text]").forEach(input => {
     const span = input.nextElementSibling;
