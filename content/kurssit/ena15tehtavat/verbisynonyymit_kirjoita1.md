@@ -229,10 +229,9 @@ loadTask();
 #submit {
   padding: 0.7rem 2.2rem;
   font-size: 1.05rem;
-  font-weight: 600;
-  border-radius: 999px; /* pillimäinen */
+  border-radius: 10px;
   border: none;
-  background: linear-gradient(135deg, #93c5fd, #1d4ed8);
+  background: linear-gradient(135deg, #4c545f, #1F2937);
   color: #ffffff;
   cursor: pointer;
   box-shadow: 0 6px 16px rgba(37, 99, 235, 0.25);
