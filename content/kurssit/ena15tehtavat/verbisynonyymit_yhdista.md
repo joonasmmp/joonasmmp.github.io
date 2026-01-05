@@ -6,7 +6,7 @@ draft: false
 type: page
 layout: tehtava
 ---
-Yhdistä sanat selityksiinsä.
+Yhdistä sanat selityksiinsä
 
 {{< rawhtml >}}
 <link rel="stylesheet" type="text/css" href="/css/yhdistely.css"/>
@@ -284,12 +284,11 @@ window.onload = function () {
         if (correctCount === tehtavat[currentTask].terms.length) {
           // Viimeinen tehtävä
           if (currentTask === tehtavat.length - 1) {
-            info.textContent = "Kaikki tehtävät tehty 🎉";
+            info.innerHTML = 'Kaikki tehtävät tehty! 👍<br><a href="https://joonasmmp.github.io/kurssit/ena15tehtavat/verbisynonyymit_yhdista2/" class="success-link">Siirry seuraavaan tehtävään!</a>';
             nextBtn.style.display = "none"; // nappi katoaa heti
           } else {
             nextBtn.disabled = false;
-            info.innerHTML = 'Hienoa! Kaikki parit oikein 👍<br><a href="/verbisynonyymit_yhdista2/" class="success-link">Siirry seuraavaan tehtävään!</a>';
-
+            info.textContent = "Hienoa! Kaikki parit oikein 👍";
           }
         }
       }
