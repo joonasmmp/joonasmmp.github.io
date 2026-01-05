@@ -349,6 +349,14 @@ loadTask();
   border-bottom: 1px solid #FFFFFF;
 }
 
+#hello{
+  background: url(/img/kansikuvat/kurssivalikot/kirjoitateht.jpg);
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+
+#hello h {
+  font-size: 2.5em!important;
+}
 
 </style>
 
