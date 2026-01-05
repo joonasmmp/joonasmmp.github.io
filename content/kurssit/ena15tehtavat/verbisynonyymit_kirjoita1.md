@@ -190,8 +190,13 @@ loadTask();
   padding: 0.6rem 1.8rem;
   border-radius: 6px;
   border: none;
-  background: #ccc;
+  background: #e9e9e9;
   color: #555;
+}
+
+.dark #next {
+  background: #292929;
+  color: ##1a1a1a;
 }
 
 #next:not(:disabled) {
@@ -241,9 +246,18 @@ loadTask();
 
 /* Dark mode */
 .dark #submit {
-  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  background: linear-gradient(135deg, #0076AI, #2563eb);
   box-shadow: 0 6px 16px rgba(59, 130, 246, 0.35);
 }
+
+/* ===== DARK MODE KORJAUS: tehtävän inputit ===== */
+
+.dark .tehtava input[type="text"] {
+  background-color: #1E2022;
+  color: #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+}
+
 
 </style>
 
