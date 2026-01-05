@@ -133,7 +133,7 @@ Sanastovaihtoehdot:
 - **Blood pounded**: _sykki, jyskytti, hakkasi, kohisi, tykytti, pauhasi_
 - **Skull**: _kallo, pää, ohimot_
 - **Staggered**: _hoippui, kompuroi, horjui, nilkutti, laahusti_
-- **Hallway**: _käytävä, aula, halli, kapea tila, kuja
+- **Hallway**: _käytävä, aula, halli, kapea tila, kuja_
 _
 
 **1. Selkeä ja täsmällinen:**
