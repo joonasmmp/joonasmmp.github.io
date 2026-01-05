@@ -194,7 +194,7 @@ nextBtn.addEventListener("click", function () {
     finishedMsg.style.marginTop = "1.5rem";
 
     finishedMsg.innerHTML =
-      'Kaikki tehtävät tehty! <a href="https://joonasmmp.github.io/kurssit/ena15tehtavat/verbisynonyymit_yhdista2/" target="_blank">Siirry seuraavaan tehtävään</a>';
+      'Kaikki tehtävät tehty! <a href="https://joonasmmp.github.io/kurssit/ena15tehtavat/verbisynonyymit_kirjoita2/" target="_blank">Siirry seuraavaan tehtävään</a>';
 
     nextBtn.parentNode.appendChild(finishedMsg);
 
