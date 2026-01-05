@@ -24,7 +24,7 @@ layout: tehtava
   <div class="next-wrapper">
     <button id="next" disabled>Seuraava tehtävä</button>
     <p id="finished-msg" style="display:none; text-align:center; font-weight:600; margin-top:1.5rem;">
-      Hienoa! <a href="https://joonasmmp.github.io/kurssit/ena15tehtavat/verbisynonyymit_yhdista2/" target="_blank">Siirry seuraavaan tehtävään</a>
+      Hienoa! <a href="https://joonasmmp.github.io/kurssit/ena15tehtavat/verbisynonyymit_kirjoita2/" target="_blank">Siirry seuraavaan tehtävään!</a>
     </p>
   </div>
 
@@ -90,8 +90,8 @@ var tehtavat = [
       "He ___ his lunch (ate hungrily).",
       "They ___ the venue after the ceremony (leave quickly)",
       "She ___ the money (took quickly).",
-      "After the lesson the teached ___ in the empty classroom (cried quietly).",
-      "James ___ up the stairs (walked heavily).",
+      "After the lesson, the teacher ___ in the empty classroom (cried quietly).",
+      "James ___ into the room because he was super angry. (walked heavily).",
       "The students ___ when the teacher made a mistake (laughed quietly).",
       "Late for class, Jorma ___ down the stairs (moved gracefully and effortlessly).",
     ],
