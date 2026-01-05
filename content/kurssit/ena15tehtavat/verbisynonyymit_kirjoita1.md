@@ -32,23 +32,88 @@ Täydennä annettuja lauseita prepositioilla in/on/at.
 </div>
 
 <script>
-const tehtavat = [
+var tehtavat = [
+
   {
-    instruction: "Täydennä lauseet oikealla prepositiolla (in / on / at).",
+    instruction: "Replace the underlined phrases with ONE strong verb from the box.",
     sentences: [
-      "He had a Nicolas Cage poster hanging ___ the wall.",
-      "Let's meet ___ the corner of Kauppurienkatu and Ratakatu.",
-      "Is that man with his hands ___ his pockets following us?",
-      "Which page is this exercise ___?",
-      "I live ___ the first floor, welcome!",
-      "I wish I lived ___ the countryside.",
-      "___ the border I started having second thoughts.",
-      "That spooky house ___ the end of the road.",
-      "You can see stars ___ the night sky.",
-      "He had to sit ___ the floor."
+      "The angry manager ___ out of the meeting. (walked quickly and angrily)",
+      "The children ___ past their sleeping father. (tiptoed)",
+      "The mouse ___ across the kitchen floor. (moved quickly)",
+      "On Sunday afternoon, we ___ through the park. (walked in a relaxed way)",
+      "The injured player ___ off the field. (walked with difficulty)",
+      "The soldiers ___ toward the parade ground. (walked in formation)",
+      "The burglar ___ through the dark house. (moved quietly and carefully)",
+      "The tourists ___ around the old city. (wandered)"
     ],
-    answers: ["on","at","in","on","on","in","at","at","in","on"]
+    answers: [
+      "stormed",
+      "tiptoed",
+      "darted",
+      "strolled",
+      "limped",
+      "marched",
+      "crept",
+      "wandered"
+    ]
+  },
+
+  {
+    instruction: "Replace 'said' with a more descriptive verb. Consider the emotion and manner of speaking.",
+    sentences: [
+      "\"I can't believe you did that!\" she said.",
+      "\"Please don't go,\" he said quietly.",
+      "\"The answer is obviously 42,\" the teacher said.",
+      "\"That's not true at all!\" Maria said in response.",
+      "\"I... I don't know what to say,\" Tom said nervously.",
+      "\"Get out of my house!\" Mr. Brown said loudly.",
+      "\"Well, actually, I think you're wrong,\" she said smugly.",
+      "\"The meeting starts at 3 PM,\" the secretary said officially.",
+      "\"Wow! That's amazing!\" the child said excitedly.",
+      "\"Could you possibly help me?\" she said politely."
+    ],
+    answers: [
+      "exclaimed",
+      "whispered",
+      "declared",
+      "retorted",
+      "stammered",
+      "bellowed",
+      "sneered",
+      "announced",
+      "roared",
+      "inquired"
+    ]
+  },
+
+  {
+    instruction: "Instead of using an adjective + verb, use a powerful verb that shows the emotion or manner.",
+    sentences: [
+      "She looked angrily at him.",
+      "He ate hungrily.",
+      "They left quickly.",
+      "She touched it carefully.",
+      "He spoke boringly for hours.",
+      "The water moved violently.",
+      "She smiled widely.",
+      "He took it eagerly.",
+      "The cat moved gracefully.",
+      "She fell clumsily."
+    ],
+    answers: [
+      "glared",
+      "devoured",
+      "fled",
+      "caressed",
+      "droned",
+      "churned",
+      "beamed",
+      "seized",
+      "glided",
+      "stumbled"
+    ]
   }
+
 ];
 
 let currentTask = 0;
