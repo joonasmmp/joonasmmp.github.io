@@ -13,22 +13,18 @@ Täydennä annettuja lauseita prepositioilla in/on/at.
 
 <div class="tehtava">
 
-  <!-- OHJE -->
-  <p id="instruction" class="instruction"></p>
+  <p id="instruction"></p>
+  <p id="info"></p>
 
-  <!-- TEHTÄVÄINFO -->
-  <p id="info" class="task-info"></p>
-
-  <!-- TEHTÄVÄLOMAKE -->
   <form autocomplete="off">
     <ol id="task-list"></ol>
 
     <div id="buttonWrapper">
       <input type="submit" id="submit" value="Tarkista vastaukset" />
     </div>
+
   </form>
 
-  <!-- SEURAAVA TEHTÄVÄ -->
   <div class="next-wrapper">
     <button id="next" disabled>Seuraava tehtävä</button>
   </div>
@@ -36,7 +32,10 @@ Täydennä annettuja lauseita prepositioilla in/on/at.
 </div>
 
 
-<script>var tehtavat = [
+
+<script>
+
+var tehtavat = [
   {
     sentences: [
       "He had a Nicolas Cage poster hanging ___ the wall.",
@@ -54,53 +53,48 @@ Täydennä annettuja lauseita prepositioilla in/on/at.
   },
 
   {
+    instruction: "Täydennä lauseet oikealla prepositiolla (in / on / at).",
     sentences: [
-      "She arrived ___ the airport early.",
-      "I left my keys ___ the table.",
-      "They live ___ Helsinki.",
-      "Meet me ___ noon.",
-      "There’s a cat ___ the roof.",
-      "He works ___ an office.",
-      "We met ___ the bus stop.",
-      "The painting is ___ the wall.",
-      "She sat ___ the chair.",
-      "He was born ___ 1999."
+      "He had a Nicolas Cage poster hanging ___ the wall.",
+      "Let's meet ___ the corner of Kauppurienkatu and Ratakatu.",
+      "Is that man with his hands ___ his pockets following us?",
+      "Which page is this exercise ___?",
+      "I live ___ the first floor, welcome!",
+      "I wish I lived ___ the countryside.",
+      "___ the border I started having second thoughts.",
+      "That spooky house ___ the end of the road.",
+      "You can see stars ___ the night sky.",
+      "He had to sit ___ the floor."
     ],
-    answers: ["at","on","in","at","on","in","at","on","on","in"]
+    answers: ["on","at","in","on","on","in","at","at","in","on"]
   }
 ];
 
-
-
-
 let currentTask = 0;
+const ol = document.getElementById("task-list");
 const form = document.querySelector("form");
-const ol = document.querySelector("ol");
 const nextBtn = document.getElementById("next");
 const info = document.getElementById("info");
+const instructionEl = document.getElementById("instruction");
 
 function loadTask() {
-  const instructionEl = document.getElementById("instruction");
   ol.innerHTML = "";
   nextBtn.disabled = true;
 
   instructionEl.textContent = tehtavat[currentTask].instruction;
-
-  info.textContent =
-    "Tehtävä " + (currentTask + 1) + " / " + tehtavat.length;
+  info.textContent = "Tehtävä " + (currentTask + 1) + " / " + tehtavat.length;
 
   tehtavat[currentTask].sentences.forEach((sentence, i) => {
-    const li = document.createElement("li");
-    li.innerHTML = sentence.replace(
+    const section = document.createElement("section");
+    section.innerHTML = sentence.replace(
       "___",
-      `<input type="text" id="q${i}"><span></span>`
+      `<li><input type="text" id="q${i}"/><span></span></li>`
     );
-    ol.appendChild(li);
+    ol.appendChild(section);
   });
 
-  enableAutoResize();
+  enableSmartResize();
 }
-
 
 function checkAnswers() {
   let correct = 0;
@@ -109,21 +103,28 @@ function checkAnswers() {
     const input = document.getElementById("q" + i);
     const li = input.parentElement;
 
+    li.classList.remove("oikein", "vaarin");
+
+    if (input.value.trim() === "") {
+      li.classList.add("vaarin");
+      return;
+    }
+
     if (input.value.toLowerCase().trim() === ans) {
-      li.className = "oikein";
+      li.classList.add("oikein");
       correct++;
     } else {
-      li.className = "vaarin";
+      li.classList.add("vaarin");
     }
   });
 
-  if (correct === 10) {
+  if (correct === tehtavat[currentTask].answers.length) {
     if (currentTask === tehtavat.length - 1) {
       info.textContent = "Kaikki tehtävät tehty 🎉";
       nextBtn.style.display = "none";
     } else {
-      nextBtn.disabled = false;
       info.textContent = "Hienoa! Kaikki oikein 👍";
+      nextBtn.disabled = false;
     }
   }
 }
@@ -138,23 +139,23 @@ nextBtn.addEventListener("click", function () {
   loadTask();
 });
 
-function enableAutoResize() {
-  document.querySelectorAll("input").forEach(input => {
-    const span = document.createElement("span");
-    span.style.visibility = "hidden";
-    span.style.whiteSpace = "pre";
-    input.after(span);
+/* ========= LEVEYDEN HALLINTA ========= */
+function enableSmartResize() {
+  document.querySelectorAll(".tehtava input[type=text]").forEach(input => {
+    const span = input.nextElementSibling;
 
     input.addEventListener("input", function () {
       span.textContent = this.value || "";
-      this.style.width = span.offsetWidth + 10 + "px";
+
+      if (span.offsetWidth > this.offsetWidth) {
+        this.style.width = span.offsetWidth + "px";
+      }
     });
   });
 }
 
 loadTask();
 </script>
-
 
 <style>
 .instruction {
