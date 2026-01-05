@@ -6,9 +6,6 @@ draft: false
 type: page
 layout: tehtava
 ---
-
-Täydennä annettuja lauseita prepositioilla in/on/at. 
-
 {{< rawhtml >}}
 
 <div class="tehtava">

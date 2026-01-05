@@ -358,6 +358,7 @@ nextBtn.addEventListener("click", function () {
   transform: translateY(0);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+
 </style>
 
 {{< /rawhtml >}}
