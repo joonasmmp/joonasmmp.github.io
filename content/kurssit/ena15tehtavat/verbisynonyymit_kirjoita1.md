@@ -159,10 +159,23 @@ loadTask();
   border-color: #16a34a;
 }
 
+.dark #task-list input.oikein {
+  background: #dcfce7;
+  border-color: #16a34a;
+  color: #374151;
+}
+
+
 /* VÄÄRIN */
 #task-list input.vaarin {
   background: #fee2e2;
   border-color: #dc2626;
+}
+
+.dark #task-list input.vaarin {
+  background: #fee2e2;
+  border-color: #dc2626;
+  color: #374151;
 }
 
 /* Ohjeteksti */
@@ -219,7 +232,7 @@ loadTask();
   font-weight: 600;
   border-radius: 999px; /* pillimäinen */
   border: none;
-  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  background: linear-gradient(135deg, #93c5fd, #1d4ed8);
   color: #ffffff;
   cursor: pointer;
   box-shadow: 0 6px 16px rgba(37, 99, 235, 0.25);
