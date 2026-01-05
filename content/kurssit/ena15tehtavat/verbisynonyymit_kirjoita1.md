@@ -19,20 +19,14 @@ layout: tehtava
     <div id="buttonWrapper">
       <input type="submit" id="submit" value="Tarkista vastaukset" />
     </div>
-
   </form>
 
   <div class="next-wrapper">
     <button id="next" disabled>Seuraava tehtävä</button>
+    <p id="finished-msg" style="display:none; text-align:center; font-weight:600; margin-top:1.5rem;">
+      Hienoa! <a href="https://joonasmmp.github.io/kurssit/ena15tehtavat/verbisynonyymit_yhdista2/" target="_blank">Siirry seuraavaan tehtävään</a>
+    </p>
   </div>
-
-  <div class="next-wrapper">
-  <button id="next" disabled>Seuraava tehtävä</button>
-  <p id="finished-msg" style="display:none; text-align:center; font-weight:600; margin-top:1.5rem;">
-    Hienoa! <a href="https://joonasmmp.github.io/kurssit/ena15tehtavat/verbisynonyymit_kirjoita2/">Siirry seuraavaan tehtävään!</a>
-  </p>
-</div>
-
 
 </div>
 
@@ -123,54 +117,65 @@ const form = document.querySelector("form");
 const nextBtn = document.getElementById("next");
 const info = document.getElementById("info");
 const instructionEl = document.getElementById("instruction");
+const finishedMsg = document.getElementById("finished-msg");
 
 function loadTask() {
   checkedOnce = false;
   ol.innerHTML = "";
   nextBtn.disabled = true;
+  nextBtn.style.display = "inline-block";
+  finishedMsg.style.display = "none";
 
-  const task = tehtavat[currentTask];
-  instructionEl.textContent = task.instruction;
-  info.textContent = `Tehtävä ${currentTask + 1} / ${tehtavat.length}`;
+  instructionEl.textContent = tehtavat[currentTask].instruction;
+  info.textContent = "Tehtävä " + (currentTask + 1) + " / " + tehtavat.length;
 
-  task.sentences.forEach((sentence, i) => {
+  tehtavat[currentTask].sentences.forEach((sentence, i) => {
     const li = document.createElement("li");
+    const section = document.createElement("section");
+
     const parts = sentence.split("___");
+    section.appendChild(document.createTextNode(parts[0]));
 
-    li.innerHTML = `
-      ${parts[0]}
-      <input type="text" id="q${i}" autocomplete="off">
-      ${parts[1]}
-    `;
+    const input = document.createElement("input");
+    input.type = "text";
+    input.id = "q" + i;
+    section.appendChild(input);
 
+    const span = document.createElement("span"); // smart resize
+    section.appendChild(span);
+
+    section.appendChild(document.createTextNode(parts[1]));
+    li.appendChild(section);
     ol.appendChild(li);
-  });
 
-  attachInputListeners();
-  enableSmartResize();
-}
-
-function attachInputListeners() {
-  document.querySelectorAll("#task-list input").forEach(input => {
-    input.addEventListener("input", () => {
+    // Poista värit kun kirjoittaa uudestaan
+    input.addEventListener("input", function() {
       if (checkedOnce) {
-        input.classList.remove("oikein", "vaarin");
+        li.classList.remove("oikein","vaarin");
       }
+      smartResize(input, span);
     });
   });
+}
+
+function smartResize(input, span) {
+  span.textContent = input.value || "";
+  if (span.offsetWidth > input.offsetWidth) {
+    input.style.width = span.offsetWidth + "px";
+  }
 }
 
 function checkAnswers() {
   checkedOnce = true;
   let correct = 0;
 
-  tehtavat[currentTask].answers.forEach((ans, i) => {
-    const input = document.getElementById("q" + i);
+  tehtavat[currentTask].answers.forEach((ans,i) => {
+    const input = document.getElementById("q"+i);
     const li = input.closest("li");
 
-    li.classList.remove("oikein", "vaarin");
+    li.classList.remove("oikein","vaarin");
 
-    if (input.value.trim() === "") return; // tyhjä ei väriä
+    if (input.value.trim() === "") return;
 
     if (input.value.toLowerCase().trim() === ans) {
       li.classList.add("oikein");
@@ -183,10 +188,8 @@ function checkAnswers() {
   if (correct === tehtavat[currentTask].answers.length) {
     if (currentTask === tehtavat.length - 1) {
       info.textContent = "Kaikki tehtävät tehty 🎉";
-
-      nextBtn.style.display = "none"; // piilota seuraava-nappi
-      document.getElementById("finished-msg").style.display = "block"; // näytä hyperlinkki
-
+      nextBtn.style.display = "none";
+      finishedMsg.style.display = "block";
     } else {
       info.textContent = "Hienoa! Kaikki oikein 👍";
       nextBtn.disabled = false;
@@ -194,61 +197,27 @@ function checkAnswers() {
   }
 }
 
-form.addEventListener("submit", e => {
-  e.preventDefault(); // 🔴 TÄMÄ ESTÄÄ SIVUN PÄIVITYKSEN
+form.addEventListener("submit", function(e){
+  e.preventDefault();
   checkAnswers();
 });
 
-nextBtn.addEventListener("click", function () {
+nextBtn.addEventListener("click", function(){
   currentTask++;
-
-  if (currentTask >= tehtavat.length) {
-    // Poistetaan nappi
-    nextBtn.style.display = "none";
-
-    // Luodaan teksti hyperlinkillä
-    const finishedMsg = document.createElement("p");
-    finishedMsg.style.textAlign = "center";
-    finishedMsg.style.fontWeight = "600";
-    finishedMsg.style.marginTop = "1.5rem";
-
-    finishedMsg.innerHTML =
-      'Kaikki tehtävät tehty! <a href="https://joonasmmp.github.io/kurssit/ena15tehtavat/verbisynonyymit_kirjoita2/" target="_blank">Siirry seuraavaan tehtävään</a>';
-
-    nextBtn.parentNode.appendChild(finishedMsg);
-
-    return; // Ei ladata uutta tehtävää
-  }
-
-  // Muuten ladataan seuraava tehtävä
   loadTask();
 });
 
+// smart resize
 function enableSmartResize() {
-  const measure = document.createElement("span");
-  measure.style.position = "absolute";
-  measure.style.left = "-9999px";
-  measure.style.whiteSpace = "pre";
-  measure.style.fontSize = "inherit";
-  measure.style.fontFamily = "inherit";
-
-  document.body.appendChild(measure);
-
-  document.querySelectorAll(".tehtava input[type='text']").forEach(input => {
-    const startWidth = input.offsetWidth;
-
-    input.addEventListener("input", function () {
-      measure.textContent = this.value || "";
-      const neededWidth = measure.offsetWidth + 10;
-
-      if (neededWidth > this.offsetWidth) {
-        this.style.width = neededWidth + "px";
-      }
-    });
+  document.querySelectorAll(".tehtava input[type=text]").forEach(input => {
+    const span = input.nextElementSibling;
+    input.addEventListener("input", () => smartResize(input, span));
   });
 }
 
 loadTask();
+enableSmartResize();
+</script>
 </script>
 
 <style>
