@@ -129,38 +129,45 @@ function loadTask() {
   instructionEl.textContent = tehtavat[currentTask].instruction;
   info.textContent = "Tehtävä " + (currentTask + 1) + " / " + tehtavat.length;
 
-  tehtavat[currentTask].sentences.forEach((sentence, i) => {
+  tehtavat[currentTask].sentences.forEach((sentence,i) => {
     const li = document.createElement("li");
-    const section = document.createElement("section");
+    li.style.position = "relative"; // tarvitaan smart-resize spanille
 
+    const section = document.createElement("section");
     const parts = sentence.split("___");
     section.appendChild(document.createTextNode(parts[0]));
 
     const input = document.createElement("input");
     input.type = "text";
-    input.id = "q" + i;
+    input.id = "q"+i;
     section.appendChild(input);
 
-    const span = document.createElement("span"); // smart resize
+    const span = document.createElement("span"); // smart resize mittaus
     section.appendChild(span);
 
     section.appendChild(document.createTextNode(parts[1]));
     li.appendChild(section);
     ol.appendChild(li);
 
-    // Poista värit kun kirjoittaa uudestaan
-    input.addEventListener("input", function() {
-      if (checkedOnce) {
+    // Poista väri kun kirjoitetaan uudelleen
+    input.addEventListener("input", function(){
+      if(checkedOnce) {
         li.classList.remove("oikein","vaarin");
       }
       smartResize(input, span);
     });
+
+    // Alkuperäinen leveys
+    input.style.width = "6em";
+    span.style.position = "absolute";
+    span.style.left = "-9999px";
+    span.style.whiteSpace = "pre";
   });
 }
 
 function smartResize(input, span) {
   span.textContent = input.value || "";
-  if (span.offsetWidth > input.offsetWidth) {
+  if(span.offsetWidth > input.offsetWidth) {
     input.style.width = span.offsetWidth + "px";
   }
 }
@@ -169,15 +176,15 @@ function checkAnswers() {
   checkedOnce = true;
   let correct = 0;
 
-  tehtavat[currentTask].answers.forEach((ans,i) => {
+  tehtavat[currentTask].answers.forEach((ans,i)=>{
     const input = document.getElementById("q"+i);
     const li = input.closest("li");
 
     li.classList.remove("oikein","vaarin");
 
-    if (input.value.trim() === "") return;
+    if(input.value.trim() === "") return;
 
-    if (input.value.toLowerCase().trim() === ans) {
+    if(input.value.toLowerCase().trim() === ans) {
       li.classList.add("oikein");
       correct++;
     } else {
@@ -185,11 +192,11 @@ function checkAnswers() {
     }
   });
 
-  if (correct === tehtavat[currentTask].answers.length) {
-    if (currentTask === tehtavat.length - 1) {
+  if(correct === tehtavat[currentTask].answers.length){
+    if(currentTask === tehtavat.length-1){
       info.textContent = "Kaikki tehtävät tehty 🎉";
       nextBtn.style.display = "none";
-      finishedMsg.style.display = "block";
+      finishedMsg.style.display = "block"; // hyperlinkki näkyviin
     } else {
       info.textContent = "Hienoa! Kaikki oikein 👍";
       nextBtn.disabled = false;
@@ -207,17 +214,7 @@ nextBtn.addEventListener("click", function(){
   loadTask();
 });
 
-// smart resize
-function enableSmartResize() {
-  document.querySelectorAll(".tehtava input[type=text]").forEach(input => {
-    const span = input.nextElementSibling;
-    input.addEventListener("input", () => smartResize(input, span));
-  });
-}
-
 loadTask();
-enableSmartResize();
-</script>
 </script>
 
 <style>
