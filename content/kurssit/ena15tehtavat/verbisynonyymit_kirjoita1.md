@@ -86,8 +86,8 @@ var tehtavat = [
       "He ___ his lunch (ate hungrily).",
       "They ___ the venue after the ceremony (leave quickly)",
       "She ___ the money (took quickly).",
-      "After the lesson the teached ___ in the empty classroom (cried quietly).",
-      "James ___ up the stairs (walked heavily).",
+      "After the lesson, the teacher ___ in the empty classroom (cried quietly).",
+      "James ___ into the classroom because he was super angry. (walked heavily).",
       "The students ___ when the teacher made a mistake (laughed quietly).",
       "Late for class, Jorma ___ down the stairs (moved gracefully and effortlessly).",
     ],
@@ -153,57 +153,50 @@ function attachInputListeners() {
 function checkAnswers() {
   checkedOnce = true;
   let correct = 0;
-  const task = tehtavat[currentTask];
 
-  task.answers.forEach((ans, i) => {
+  tehtavat[currentTask].answers.forEach((ans, i) => {
     const input = document.getElementById("q" + i);
-    input.classList.remove("oikein", "vaarin");
+    const li = input.closest("li");
 
-    if (input.value.trim() === "") return;
+    li.classList.remove("oikein", "vaarin");
+
+    if (input.value.trim() === "") {
+      return; // ei väriä jos tyhjä
+    }
 
     if (input.value.toLowerCase().trim() === ans) {
-      input.classList.add("oikein");
+      li.classList.add("oikein");
       correct++;
     } else {
-      input.classList.add("vaarin");
+      li.classList.add("vaarin");
     }
   });
 
-  if (correct === task.answers.length) {
-    info.textContent = "Hienoa! Kaikki oikein 👍";
-    nextBtn.disabled = false;
+  if (correct === tehtavat[currentTask].answers.length) {
+    if (currentTask === tehtavat.length - 1) {
+      info.textContent = "Kaikki tehtävät tehty 🎉";
+
+      // Piilotetaan nappi
+      nextBtn.style.display = "none";
+
+      // Luodaan hyperlink-teksti automaattisesti
+      const finishedMsg = document.createElement("p");
+      finishedMsg.style.textAlign = "center";
+      finishedMsg.style.fontWeight = "600";
+      finishedMsg.style.marginTop = "1.5rem";
+
+      finishedMsg.innerHTML =
+        'Hienoa! <a href="https://joonasmmp.github.io/kurssit/ena15tehtavat/verbisynonyymit_kirjoita2/">Siirry seuraavaan tehtävään!</a>';
+
+      nextBtn.parentNode.appendChild(finishedMsg);
+
+    } else {
+      info.textContent = "Hienoa! Kaikki oikein 👍";
+      nextBtn.disabled = false;
+    }
   }
 }
 
-form.addEventListener("submit", e => {
-  e.preventDefault(); // 🔴 TÄMÄ ESTÄÄ SIVUN PÄIVITYKSEN
-  checkAnswers();
-});
-
-nextBtn.addEventListener("click", function () {
-  currentTask++;
-
-  if (currentTask >= tehtavat.length) {
-    // Poistetaan nappi
-    nextBtn.style.display = "none";
-
-    // Luodaan teksti hyperlinkillä
-    const finishedMsg = document.createElement("p");
-    finishedMsg.style.textAlign = "center";
-    finishedMsg.style.fontWeight = "600";
-    finishedMsg.style.marginTop = "1.5rem";
-
-    finishedMsg.innerHTML =
-      'Kaikki tehtävät tehty! <a href="https://joonasmmp.github.io/kurssit/ena15tehtavat/verbisynonyymit_kirjoita2/" target="_blank">Siirry seuraavaan tehtävään</a>';
-
-    nextBtn.parentNode.appendChild(finishedMsg);
-
-    return; // Ei ladata uutta tehtävää
-  }
-
-  // Muuten ladataan seuraava tehtävä
-  loadTask();
-});
 
 function enableSmartResize() {
   const measure = document.createElement("span");
