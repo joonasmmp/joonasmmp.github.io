@@ -6,7 +6,6 @@ draft: false
 type: page
 layout: tehtava
 ---
-{{< rawhtml >}}
 
 Choose one of the ten topics below and write a short story of at least 300 characters. Use the idioms, adjectives and verbs you've learned today. Avoid adjectives such as good, bad, happy, angry and verbs like walk, go, say, look, get and take. 
 
@@ -30,6 +29,8 @@ Choose one of the ten topics below and write a short story of at least 300 chara
 
 10. You find a lost puppy in the park and try to help it.
 
+
+{{< rawhtml >}}
 
 <div class="tehtava">
 
