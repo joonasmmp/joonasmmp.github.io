@@ -178,17 +178,17 @@ function checkAnswers() {
 
   tehtavat[currentTask].answers.forEach((ans,i)=>{
     const input = document.getElementById("q"+i);
-    const li = input.closest("li");
 
-    li.classList.remove("oikein","vaarin");
+    // Poistetaan aiemmat luokat
+    input.classList.remove("oikein","vaarin");
 
     if(input.value.trim() === "") return;
 
     if(input.value.toLowerCase().trim() === ans) {
-      li.classList.add("oikein");
+      input.classList.add("oikein");
       correct++;
     } else {
-      li.classList.add("vaarin");
+      input.classList.add("vaarin");
     }
   });
 
@@ -215,7 +215,7 @@ nextBtn.addEventListener("click", function(){
 });
 
 loadTask();
-</script>
+ </script>
 
 <style>
 #task-list {
