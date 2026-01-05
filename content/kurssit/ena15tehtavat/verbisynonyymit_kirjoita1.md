@@ -199,6 +199,52 @@ loadTask();
   color: #fff;
   cursor: pointer;
 }
+
+/* ===== Tarkista vastaukset -painike ===== */
+
+#buttonWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+#submit {
+  padding: 0.7rem 2.2rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  border-radius: 999px; /* pillimäinen */
+  border: none;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.25);
+  transition: all 0.25s ease;
+}
+
+/* Hover */
+#submit:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(37, 99, 235, 0.35);
+}
+
+/* Active (klikattaessa) */
+#submit:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.25);
+}
+
+/* Focus (näppäimistö) */
+#submit:focus-visible {
+  outline: 3px solid #93c5fd;
+  outline-offset: 3px;
+}
+
+/* Dark mode */
+.dark #submit {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  box-shadow: 0 6px 16px rgba(59, 130, 246, 0.35);
+}
+
 </style>
 
 </rawhtml>
