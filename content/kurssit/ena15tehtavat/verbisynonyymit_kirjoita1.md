@@ -170,7 +170,7 @@ function checkAnswers() {
   });
 
   if (correct === task.answers.length) {
-    info.innerHTML = 'Kaikki tehtävät tehty! 👍<br><a href="https://joonasmmp.github.io/kurssit/ena15tehtavat/verbisynonyymit_kirjoita2/" class="success-link">Siirry seuraavaan tehtävään!</a>';
+    info.textContent = "Hienoa! Kaikki oikein 👍";
     nextBtn.disabled = false;
   }
 }
@@ -180,8 +180,28 @@ form.addEventListener("submit", e => {
   checkAnswers();
 });
 
-nextBtn.addEventListener("click", () => {
+nextBtn.addEventListener("click", function () {
   currentTask++;
+
+  if (currentTask >= tehtavat.length) {
+    // Poistetaan nappi
+    nextBtn.style.display = "none";
+
+    // Luodaan teksti hyperlinkillä
+    const finishedMsg = document.createElement("p");
+    finishedMsg.style.textAlign = "center";
+    finishedMsg.style.fontWeight = "600";
+    finishedMsg.style.marginTop = "1.5rem";
+
+    finishedMsg.innerHTML =
+      'Kaikki tehtävät tehty! <a href="https://joonasmmp.github.io/kurssit/ena15tehtavat/verbisynonyymit_yhdista2/" target="_blank">Siirry seuraavaan tehtävään</a>';
+
+    nextBtn.parentNode.appendChild(finishedMsg);
+
+    return; // Ei ladata uutta tehtävää
+  }
+
+  // Muuten ladataan seuraava tehtävä
   loadTask();
 });
 
