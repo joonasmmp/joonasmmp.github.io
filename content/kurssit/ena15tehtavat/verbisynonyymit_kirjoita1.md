@@ -118,56 +118,33 @@ function loadTask() {
   checkedOnce = false;
   ol.innerHTML = "";
   nextBtn.disabled = true;
-  nextBtn.style.display = "inline-block";
 
-  instructionEl.textContent = tehtavat[currentTask].instruction;
-  info.textContent = "Tehtävä " + (currentTask + 1) + " / " + tehtavat.length;
+  const task = tehtavat[currentTask];
+  instructionEl.textContent = task.instruction;
+  info.textContent = `Tehtävä ${currentTask + 1} / ${tehtavat.length}`;
 
-  tehtavat[currentTask].sentences.forEach((sentence, i) => {
+  task.sentences.forEach((sentence, i) => {
     const li = document.createElement("li");
-    const section = document.createElement("section");
-
     const parts = sentence.split("___");
 
-    section.appendChild(document.createTextNode(parts[0]));
+    li.innerHTML = `
+      ${parts[0]}
+      <input type="text" id="q${i}" autocomplete="off">
+      ${parts[1]}
+    `;
 
-    const input = document.createElement("input");
-    input.type = "text";
-    input.id = "q" + i;
-    input.dataset.resize = "true";
-    section.appendChild(input);
-
-    const span = document.createElement("span"); // resize mitta
-    section.appendChild(span);
-
-    section.appendChild(document.createTextNode(parts[1]));
-
-    li.appendChild(section);
     ol.appendChild(li);
   });
 
+  attachInputListeners();
   enableSmartResize();
 }
 
-function enableSmartResize() {
-  const measure = document.createElement("span");
-  measure.style.position = "absolute";
-  measure.style.left = "-9999px";
-  measure.style.whiteSpace = "pre";
-  document.body.appendChild(measure);
-
-  document.querySelectorAll("input[data-resize]").forEach(input => {
-    input.addEventListener("input", function () {
-      // resize
-      measure.textContent = this.value || "";
-      if (measure.offsetWidth > this.offsetWidth) {
-        this.style.width = measure.offsetWidth + "px";
-      }
-
-      // poista värit kun kirjoitetaan
+function attachInputListeners() {
+  document.querySelectorAll("#task-list input").forEach(input => {
+    input.addEventListener("input", () => {
       if (checkedOnce) {
-        const li = this.closest("li");
-        li.classList.remove("oikein", "vaarin");
+        input.classList.remove("oikein", "vaarin");
       }
     });
   });
@@ -197,15 +174,14 @@ function checkAnswers() {
     if (currentTask === tehtavat.length - 1) {
       info.textContent = "Kaikki tehtävät tehty 🎉";
 
-      // Piilota napit
+      // Piilota seuraava-nappi
       nextBtn.style.display = "none";
 
-      // Lisää automaattinen hyperlink-teksti
+      // Lisää automaattinen hyperlinkki
       const finishedMsg = document.createElement("p");
       finishedMsg.style.textAlign = "center";
       finishedMsg.style.fontWeight = "600";
       finishedMsg.style.marginTop = "1.5rem";
-
       finishedMsg.innerHTML =
         'Hienoa! <a href="https://joonasmmp.github.io/kurssit/ena15tehtavat/verbisynonyymit_kirjoita2/">Siirry seuraavaan tehtävään</a>';
 
@@ -218,15 +194,59 @@ function checkAnswers() {
   }
 }
 
-form.addEventListener("submit", function(e) {
-  e.preventDefault();
+form.addEventListener("submit", e => {
+  e.preventDefault(); // 🔴 TÄMÄ ESTÄÄ SIVUN PÄIVITYKSEN
   checkAnswers();
 });
 
-nextBtn.addEventListener("click", function() {
+nextBtn.addEventListener("click", function () {
   currentTask++;
+
+  if (currentTask >= tehtavat.length) {
+    // Poistetaan nappi
+    nextBtn.style.display = "none";
+
+    // Luodaan teksti hyperlinkillä
+    const finishedMsg = document.createElement("p");
+    finishedMsg.style.textAlign = "center";
+    finishedMsg.style.fontWeight = "600";
+    finishedMsg.style.marginTop = "1.5rem";
+
+    finishedMsg.innerHTML =
+      'Kaikki tehtävät tehty! <a href="https://joonasmmp.github.io/kurssit/ena15tehtavat/verbisynonyymit_kirjoita2/" target="_blank">Siirry seuraavaan tehtävään</a>';
+
+    nextBtn.parentNode.appendChild(finishedMsg);
+
+    return; // Ei ladata uutta tehtävää
+  }
+
+  // Muuten ladataan seuraava tehtävä
   loadTask();
 });
+
+function enableSmartResize() {
+  const measure = document.createElement("span");
+  measure.style.position = "absolute";
+  measure.style.left = "-9999px";
+  measure.style.whiteSpace = "pre";
+  measure.style.fontSize = "inherit";
+  measure.style.fontFamily = "inherit";
+
+  document.body.appendChild(measure);
+
+  document.querySelectorAll(".tehtava input[type='text']").forEach(input => {
+    const startWidth = input.offsetWidth;
+
+    input.addEventListener("input", function () {
+      measure.textContent = this.value || "";
+      const neededWidth = measure.offsetWidth + 10;
+
+      if (neededWidth > this.offsetWidth) {
+        this.style.width = neededWidth + "px";
+      }
+    });
+  });
+}
 
 loadTask();
 </script>
