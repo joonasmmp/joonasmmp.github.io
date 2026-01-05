@@ -87,12 +87,21 @@ function loadTask() {
 
   tehtavat[currentTask].sentences.forEach((sentence, i) => {
     const li = document.createElement("li");
-
     const section = document.createElement("section");
-    section.innerHTML = sentence.replace(
-      "___",
-      `<input type="text" id="q${i}"/><span></span>`
-    );
+
+    const parts = sentence.split("___");
+
+    section.appendChild(document.createTextNode(parts[0]));
+
+    const input = document.createElement("input");
+    input.type = "text";
+    input.id = "q" + i;
+    section.appendChild(input);
+
+    const span = document.createElement("span");
+    section.appendChild(span);
+
+    section.appendChild(document.createTextNode(parts[1]));
 
     li.appendChild(section);
     ol.appendChild(li);
@@ -100,6 +109,7 @@ function loadTask() {
 
   enableSmartResize();
 }
+
 
 function checkAnswers() {
   let correct = 0;
