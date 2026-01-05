@@ -24,7 +24,7 @@ Key: jaksoviikko
 
 [Verbisynonyymit: Kirjoita ]({{<ref "verbisynonyymit_kirjoita1.mdt" >}})
 
-[Verbisynonyymit: Kirjoita ]({{<ref "verbisynonyymit_kirjoita2.mdt" >}})
+[Verbisynonyymit: Kirjoita 2]({{<ref "verbisynonyymit_kirjoita2.mdt" >}})
 
 ## Tehtävä 2.1: Kirje joulupukille
 

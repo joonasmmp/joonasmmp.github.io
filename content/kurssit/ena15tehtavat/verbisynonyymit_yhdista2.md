@@ -6,6 +6,7 @@ draft: false
 type: page
 layout: tehtava
 ---
+Yhdistä sanat selityksiinsä
 {{< rawhtml >}}
 <link rel="stylesheet" type="text/css" href="/css/yhdistely.css"/>
 
