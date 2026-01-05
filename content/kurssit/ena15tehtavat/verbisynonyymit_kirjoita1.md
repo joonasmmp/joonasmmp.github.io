@@ -83,6 +83,7 @@ function loadTask() {
   });
 
   attachInputListeners();
+  enableSmartResize();
 }
 
 function attachInputListeners() {
@@ -129,6 +130,30 @@ nextBtn.addEventListener("click", () => {
   currentTask++;
   loadTask();
 });
+
+function enableSmartResize() {
+  const measure = document.createElement("span");
+  measure.style.position = "absolute";
+  measure.style.left = "-9999px";
+  measure.style.whiteSpace = "pre";
+  measure.style.fontSize = "inherit";
+  measure.style.fontFamily = "inherit";
+
+  document.body.appendChild(measure);
+
+  document.querySelectorAll(".tehtava input[type='text']").forEach(input => {
+    const startWidth = input.offsetWidth;
+
+    input.addEventListener("input", function () {
+      measure.textContent = this.value || "";
+      const neededWidth = measure.offsetWidth + 10;
+
+      if (neededWidth > this.offsetWidth) {
+        this.style.width = neededWidth + "px";
+      }
+    });
+  });
+}
 
 loadTask();
 </script>
