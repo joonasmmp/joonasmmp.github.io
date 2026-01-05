@@ -170,7 +170,7 @@ function checkAnswers() {
   });
 
   if (correct === task.answers.length) {
-    info.textContent = "Hienoa! Kaikki oikein 👍";
+    info.innerHTML = 'Kaikki tehtävät tehty! 👍<br><a href="https://joonasmmp.github.io/kurssit/ena15tehtavat/verbisynonyymit_kirjoita2/" class="success-link">Siirry seuraavaan tehtävään!</a>';
     nextBtn.disabled = false;
   }
 }
