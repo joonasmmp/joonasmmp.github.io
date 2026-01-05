@@ -26,7 +26,17 @@ layout: tehtava
     <button id="next" disabled>Seuraava tehtävä</button>
   </div>
 
+  <div class="next-wrapper">
+  <button id="next" disabled>Seuraava tehtävä</button>
+  <p id="finished-msg" style="display:none; text-align:center; font-weight:600; margin-top:1.5rem;">
+    Hienoa! <a href="https://joonasmmp.github.io/kurssit/ena15tehtavat/verbisynonyymit_kirjoita2/">Siirry seuraavaan tehtävään!</a>
+  </p>
 </div>
+
+
+</div>
+
+
 
 <script>
 var tehtavat = [
@@ -160,7 +170,7 @@ function checkAnswers() {
 
     li.classList.remove("oikein", "vaarin");
 
-    if (input.value.trim() === "") return; // tyhjä ei saa väriä
+    if (input.value.trim() === "") return; // tyhjä ei väriä
 
     if (input.value.toLowerCase().trim() === ans) {
       li.classList.add("oikein");
@@ -174,18 +184,8 @@ function checkAnswers() {
     if (currentTask === tehtavat.length - 1) {
       info.textContent = "Kaikki tehtävät tehty 🎉";
 
-      // Piilota seuraava-nappi
-      nextBtn.style.display = "none";
-
-      // Lisää automaattinen hyperlinkki
-      const finishedMsg = document.createElement("p");
-      finishedMsg.style.textAlign = "center";
-      finishedMsg.style.fontWeight = "600";
-      finishedMsg.style.marginTop = "1.5rem";
-      finishedMsg.innerHTML =
-        'Hienoa! <a href="https://joonasmmp.github.io/kurssit/ena15tehtavat/verbisynonyymit_kirjoita2/">Siirry seuraavaan tehtävään</a>';
-
-      nextBtn.parentNode.appendChild(finishedMsg);
+      nextBtn.style.display = "none"; // piilota seuraava-nappi
+      document.getElementById("finished-msg").style.display = "block"; // näytä hyperlinkki
 
     } else {
       info.textContent = "Hienoa! Kaikki oikein 👍";
