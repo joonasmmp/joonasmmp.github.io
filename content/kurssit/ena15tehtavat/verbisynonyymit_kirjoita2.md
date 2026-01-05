@@ -10,23 +10,14 @@ layout: tehtava
 Choose one of the ten topics below and write a short story of at least 300 characters. Use the idioms, adjectives and verbs you've learned today. Avoid adjectives such as good, bad, happy, angry and verbs like walk, go, say, look, get and take. 
 
 1. You overslept and need to rush to school for an important exam.
-
 2. You're at a family dinner and an argument breaks out between two relatives.
-
 3. You're home alone at night and hear a strange noise downstairs.
-
 4. You're waiting for important exam results and finally receive them.
-
 5. You're trying to cook dinner but everything goes wrong.
-
 6. You witness a minor car accident on the street.
-
 7. You're lost in a new city and trying to find your way back to your hotel.
-
-8. Your best friend tells you some shocking news at lunch.
-
-9. You're on a first date at a restaurant and it's going badly.
-
+8. Your best friend tells you some shocking news at lunch in the school cafeteria.
+9. You're on a date with your Swedish teacher and it's going badly. Very badly.
 10. You find a lost puppy in the park and try to help it.
 
 
