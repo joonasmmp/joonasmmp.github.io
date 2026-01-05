@@ -82,14 +82,14 @@ var tehtavat = [
   {
     instruction: "Instead of using an adjective + verb, use a powerful verb that shows the emotion or manner. Use following verbs: glide, stomp, snatch, devour, glare, flee, sob, chuckle.",
     sentences: [
-      "She ___ at him after his comments. (looked angrily)",
-      "He ___ his lunch. (ate hungrily)",
-      "They ___ the venue after the ceremony. (leave quickly)",
+      "She ___ at him after his comments (looked angrily).",
+      "He ___ his lunch (ate hungrily).",
+      "They ___ the venue after the ceremony (leave quickly)",
       "She ___ the money (took quickly).",
-      "After the lesson the teached ___ in the empty classroom (cried quietly)",
-      "James ___ up the stairs. (walked heavily)",
-      "The students ___ when the teacher made a mistake. (laughed quietly)",
-      "Late for class, Jorma ___ down the stairs. (moved gracefully and effortlessly).",
+      "After the lesson the teached ___ in the empty classroom (cried quietly).",
+      "James ___ up the stairs (walked heavily).",
+      "The students ___ when the teacher made a mistake (laughed quietly).",
+      "Late for class, Jorma ___ down the stairs (moved gracefully and effortlessly).",
     ],
     answers: [
       "glared",
@@ -98,7 +98,7 @@ var tehtavat = [
       "snatched",
       "sobbed",
       "stomped",
-      "chucked",
+      "chuckled",
       "glided",
     ]
   }
