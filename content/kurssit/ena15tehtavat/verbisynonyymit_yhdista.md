@@ -9,23 +9,31 @@ layout: tehtava
 Yhdistä sanat selityksiinsä
 
 {{< rawhtml >}}
-<link rel="stylesheet" type="text/css" href="/css/yhdistely.css"/>
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="/css/yhdistely_uusittu.css"/>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verbisynonyymit: yhdistä termit</title>
+</head>
+<body>
 
-<div id="tehtava" class="grid grid-cols-2">
+<div id="tehtava">
   <div><ul id="terms"></ul></div>
   <div><ul id="defs"></ul></div>
 </div>
 
 <div class="next-wrapper">
   <button id="next" disabled>Seuraava tehtävä</button>
-  </div>
-<p id="info" style="text-align:center;"></p>
+</div>
 
+<p id="info"></p>
 
 <script>
 window.onload = function () {
 
-  // ===== TEHTÄVÄDATA (3 tehtävää, 10 termiä) =====
+// ===== TEHTÄVÄDATA (3 tehtävää, 10 termiä) =====
   var tehtavat = [
     {
       terms: [
@@ -172,52 +180,126 @@ window.onload = function () {
 
       pairs: { 0:0,1:1,2:2,3:3,4:4,5:5,6:6,7:7,8:8,9:9 }
     },
-
-
   ];
-
-  /* ===============================
-     MUUTTUJAT
-     =============================== */
 
   var currentTask = 0;
   var selectedTerm = null;
   var selectedDef = null;
   var correctCount = 0;
-  var numero = 0; // order-laskuri oikein yhdistetyille
+  var numero = 0;
 
   var termsContainer = document.getElementById("terms");
   var defsContainer = document.getElementById("defs");
   var nextBtn = document.getElementById("next");
   var info = document.getElementById("info");
 
-  /* ===============================
-     APUTOIMINNOT
-     =============================== */
-
   function isMatch(termIndex, defIndex) {
     return tehtavat[currentTask].pairs[termIndex] === defIndex;
   }
 
   function shuffle(array) {
-    var currentIndex = array.length, temporaryValue, randomIndex;
-    while (currentIndex !== 0) {
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex--;
-      temporaryValue = array[currentIndex];
-      array[currentIndex] = array[randomIndex];
-      array[randomIndex] = temporaryValue;
+    var arr = [...array];
+    for (var i = arr.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
     }
-    return array;
+    return arr;
   }
 
   function createListHTML(list, container) {
     container.innerHTML = "";
-    for (var i = 0; i < list.length; i++) {
-      container.innerHTML +=
-        "<li data-index='" + list[i].index + "'>" +
-        "<span>" + list[i].text + "</span></li>";
+    list.forEach(item => {
+      var li = document.createElement("li");
+      li.setAttribute("data-index", item.index);
+      li.textContent = item.text;
+      container.appendChild(li);
+    });
+  }
+
+  function clearSelection() {
+    document.querySelectorAll("li[data-selected]").forEach(li => {
+      li.removeAttribute("data-selected");
+    });
+  }
+
+  function checkMatch() {
+    if (selectedTerm === null || selectedDef === null) return;
+
+    var termEl = termsContainer.querySelector("[data-index='" + selectedTerm + "']");
+    var defEl = defsContainer.querySelector("[data-index='" + selectedDef + "']");
+
+    if (isMatch(selectedTerm, selectedDef)) {
+      termEl.className = "score";
+      defEl.className = "score";
+      
+      numero++;
+      termEl.style.order = numero;
+      defEl.style.order = numero;
+
+      correctCount++;
+
+      if (correctCount === tehtavat[currentTask].terms.length) {
+        if (currentTask === tehtavat.length - 1) {
+          info.innerHTML = 'Kaikki tehtävät tehty! 👍<br><a href="https://joonasmmp.github.io/kurssit/ena15tehtavat/verbisynonyymit_yhdista2" class="success-link">Siirry seuraavaan tehtävään!</a>';
+          nextBtn.style.display = "none";
+        } else {
+          nextBtn.disabled = false;
+          info.textContent = "Hienoa! Kaikki parit oikein 👍";
+        }
+      }
     }
+
+    clearSelection();
+    selectedTerm = null;
+    selectedDef = null;
+  }
+
+  function handleTermClick(e) {
+    var target = e.target;
+    if (target.tagName !== "LI" || target.className === "score") return;
+
+    var index = Number(target.getAttribute("data-index"));
+    
+    // Jos sama termi klikataan uudelleen, poistetaan valinta
+    if (selectedTerm === index) {
+      selectedTerm = null;
+      target.removeAttribute("data-selected");
+      return;
+    }
+
+    // Poistetaan vanhat valinnat termipuolelta
+    document.querySelectorAll("#terms li[data-selected]").forEach(li => {
+      li.removeAttribute("data-selected");
+    });
+
+    selectedTerm = index;
+    target.setAttribute("data-selected", "true");
+
+    checkMatch();
+  }
+
+  function handleDefClick(e) {
+    var target = e.target;
+    if (target.tagName !== "LI" || target.className === "score") return;
+
+    var index = Number(target.getAttribute("data-index"));
+    
+    // Jos sama määritelmä klikataan uudelleen, poistetaan valinta
+    if (selectedDef === index) {
+      selectedDef = null;
+      target.removeAttribute("data-selected");
+      return;
+    }
+
+    // Poistetaan vanhat valinnat määritelmäpuolelta
+    document.querySelectorAll("#defs li[data-selected]").forEach(li => {
+      li.removeAttribute("data-selected");
+    });
+
+    selectedDef = index;
+    target.setAttribute("data-selected", "true");
+
+    checkMatch();
   }
 
   function loadTask() {
@@ -227,140 +309,32 @@ window.onload = function () {
     numero = 0;
     nextBtn.disabled = true;
 
-    info.textContent =
-      "Tehtävä " + (currentTask + 1) + " / " + tehtavat.length;
+    info.textContent = "Tehtävä " + (currentTask + 1) + " / " + tehtavat.length;
 
     var data = tehtavat[currentTask];
-    createListHTML(shuffle([...data.terms]), termsContainer);
-    createListHTML(shuffle([...data.definitions]), defsContainer);
+    createListHTML(shuffle(data.terms), termsContainer);
+    createListHTML(shuffle(data.definitions), defsContainer);
+
+    // Lisätään event listenerit
+    termsContainer.removeEventListener("click", handleTermClick);
+    defsContainer.removeEventListener("click", handleDefClick);
+    termsContainer.addEventListener("click", handleTermClick);
+    defsContainer.addEventListener("click", handleDefClick);
   }
 
-  /* ===============================
-     EVENTIT
-     =============================== */
-
-  termsContainer.addEventListener("click", function (e) {
-    var target = e.target.parentNode;
-    if (!target || target.className === "score") return;
-
-    document
-      .querySelectorAll("#terms li")
-      .forEach(li => li.removeAttribute("data-selected"));
-
-    selectedTerm = Number(target.getAttribute("data-index"));
-    target.setAttribute("data-selected", true);
-  });
-
-  defsContainer.addEventListener("click", function (e) {
-    var target = e.target.parentNode;
-    if (!target || target.className === "score") return;
-
-    document
-      .querySelectorAll("#defs li")
-      .forEach(li => li.removeAttribute("data-selected"));
-
-    selectedDef = Number(target.getAttribute("data-index"));
-    target.setAttribute("data-selected", true);
-
-    if (selectedTerm !== null && selectedDef !== null) {
-      var term = termsContainer.querySelector(
-        "[data-index='" + selectedTerm + "']"
-      );
-      var def = defsContainer.querySelector(
-        "[data-index='" + selectedDef + "']"
-      );
-
-      if (isMatch(selectedTerm, selectedDef)) {
-        term.className = "score";
-        def.className = "score";
-
-        numero++;
-        term.style.order = numero;
-        def.style.order = numero;
-
-        correctCount++;
-
-        // ===== TÄRKEÄ LOGIIKKA =====
-        if (correctCount === tehtavat[currentTask].terms.length) {
-          // Viimeinen tehtävä
-          if (currentTask === tehtavat.length - 1) {
-            info.innerHTML = 'Kaikki tehtävät tehty! 👍<br><a href="https://joonasmmp.github.io/kurssit/ena15tehtavat/verbisynonyymit_yhdista2/" class="success-link">Siirry seuraavaan tehtävään!</a>';
-            nextBtn.style.display = "none"; // nappi katoaa heti
-          } else {
-            nextBtn.disabled = false;
-            info.textContent = "Hienoa! Kaikki parit oikein 👍";
-          }
-        }
-      }
-
-      term.removeAttribute("data-selected");
-      def.removeAttribute("data-selected");
-      selectedTerm = null;
-      selectedDef = null;
+  nextBtn.addEventListener("click", function () {
+    currentTask++;
+    if (currentTask >= tehtavat.length) {
+      info.textContent = "Kaikki tehtävät tehty 🎉";
+      nextBtn.disabled = true;
+      nextBtn.style.display = "none";
+      return;
     }
+    loadTask();
   });
-
-nextBtn.addEventListener("click", function () {
-  currentTask++;
-
-  if (currentTask >= tehtavat.length) {
-    info.textContent = "Kaikki tehtävät tehty 🎉";
-    nextBtn.disabled = true;
-    nextBtn.style.display = "none";
-    return;
-  }
-
-  loadTask();
-});
-
-  /* ===============================
-     KÄYNNISTYS
-     =============================== */
 
   loadTask();
 };
 </script>
-
-<style>
-  .next-wrapper {
-  display: flex;
-  justify-content: center;
-  margin: 2rem 0;
-}
-
-/* Perustila */
-#next {
-  padding: 0.8rem 2.2rem;
-  font-size: 1.1rem;
-   border-radius: 6px;
-  border: none;
-  background-color: #ccc;
-  color: #666;
-  cursor: not-allowed;
-  transition: all 0.3s ease;
-  transition: opacity 0.3s ease;
-}
-
-/* Aktiivinen tila */
-#next:not(:disabled) {
-  background-color: #00A86B;
-  color: #fff;
-  cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-}
-
-/* Hover vain kun aktiivinen */
-#next:not(:disabled):hover {
-  background-color: #1d4ed8;
-  transform: translateY(-2px);
-}
-
-/* Pieni painallusefekti */
-#next:not(:disabled):active {
-  transform: translateY(0);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-</style>
 
 {{< /rawhtml >}}
