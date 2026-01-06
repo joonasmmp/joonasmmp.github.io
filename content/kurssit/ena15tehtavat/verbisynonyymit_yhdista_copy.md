@@ -19,8 +19,6 @@ Yhdistä sanat selityksiinsä
 </head>
 <body>
 
-<h1>Yhdistä sanat selityksiinsä</h1>
-
 <div id="tehtava">
   <div><ul id="terms"></ul></div>
   <div><ul id="defs"></ul></div>
