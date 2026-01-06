@@ -41,10 +41,10 @@ window.onload = function () {
       { index: 0, text: "hold very tightly" },
       { index: 1, text: "touch gently and lovingly" },
       { index: 2, text: "take quickly and roughly" },
-      { index: 3, text: "hold firmly" },
+      { index: 3, text: "take and hold firmly" },
       { index: 4, text: "touch lightly" },
       { index: 5, text: "pull suddenly and hard" },
-      { index: 6, text: "hold and squeeze" },
+      { index: 6, text: "hold and press firmly" },
       { index: 7, text: "touch softly (like petting)" },
       { index: 8, text: "take and hold protectively" },
       { index: 9, text: "push gently and repeatedly" }
@@ -67,7 +67,7 @@ window.onload = function () {
   // ===== EXERCISE 1G: Emotion/Reaction Verbs =====
   {
     terms: [
-      { index: 0, text: "smile widely" },
+      { index: 0, text: "smile widely with delight" },
       { index: 1, text: "cry loudly" },
       { index: 2, text: "laugh quietly" },
       { index: 3, text: "shake with fear" },

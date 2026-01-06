@@ -40,7 +40,7 @@ window.onload = function () {
         { index: 0, text: "walk slowly and tiredly" },
         { index: 1, text: "walk in a relaxed way" },
         { index: 2, text: "run very fast" },
-        { index: 3, text: "move quickly and suddenl" },
+        { index: 3, text: "move quickly and suddenly" },
         { index: 4, text: "walk quietly on toes" },
         { index: 5, text: "walk with difficulty" },
         { index: 6, text: "walk without direction" },
