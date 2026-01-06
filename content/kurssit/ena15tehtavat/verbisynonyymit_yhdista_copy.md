@@ -35,151 +35,153 @@ Yhdistä sanat selityksiinsä
 <script>
 window.onload = function () {
 
+// ===== TEHTÄVÄDATA (3 tehtävää, 10 termiä) =====
   var tehtavat = [
-    // ===== EXERCISE 1F: Holding/Touching Verbs =====
     {
       terms: [
-        { index: 0, text: "hold very tightly" },
-        { index: 1, text: "touch gently and lovingly" },
-        { index: 2, text: "take quickly and roughly" },
-        { index: 3, text: "hold firmly" },
-        { index: 4, text: "touch lightly" },
-        { index: 5, text: "pull suddenly and hard" },
-        { index: 6, text: "hold and squeeze" },
-        { index: 7, text: "touch softly (like petting)" },
-        { index: 8, text: "take and hold protectively" },
-        { index: 9, text: "push gently and repeatedly" }
+        { index: 0, text: "walk slowly and tiredly" },
+        { index: 1, text: "walk in a relaxed way" },
+        { index: 2, text: "run very fast" },
+        { index: 3, text: "move quickly and suddenl" },
+        { index: 4, text: "walk quietly on toes" },
+        { index: 5, text: "walk with difficulty" },
+        { index: 6, text: "walk without direction" },
+        { index: 7, text: "move quietly and carefully" },
+        { index: 8, text: "walk heavily and noisily" },
+        { index: 9, text: "jump around playfully" }
       ],
       definitions: [
-        { index: 0, text: "clutch" },
-        { index: 1, text: "caress" },
-        { index: 2, text: "snatch" },
-        { index: 3, text: "grasp" },
-        { index: 4, text: "brush" },
-        { index: 5, text: "yank" },
-        { index: 6, text: "squeeze" },
-        { index: 7, text: "stroke" },
-        { index: 8, text: "cradle" },
-        { index: 9, text: "nudge" }
+        { index: 0, text: "trudge" },
+        { index: 1, text: "stroll" },
+        { index: 2, text: "sprint" },
+        { index: 3, text: "dart" },
+        { index: 4, text: "tiptoe" },
+        { index: 5, text: "limp" },
+        { index: 6, text: "wander" },
+        { index: 7, text: "creep" },
+        { index: 8, text: "stomp" },
+        { index: 9, text: "frolic" }
       ],
-      pairs: { 0:0,1:1,2:2,3:3,4:4,5:5,6:6,7:7,8:8,9:9 }
+      pairs: {
+        0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9
+      }
     },
 
-    // ===== EXERCISE 1G: Emotion/Reaction Verbs =====
     {
       terms: [
-        { index: 0, text: "smile widely" },
-        { index: 1, text: "cry loudly" },
-        { index: 2, text: "laugh quietly" },
-        { index: 3, text: "shake with fear" },
-        { index: 4, text: "breathe out in relief" },
-        { index: 5, text: "become red (embarrassed)" },
-        { index: 6, text: "shake with cold" },
-        { index: 7, text: "cry quietly" },
-        { index: 8, text: "laugh loudly" },
-        { index: 9, text: "smile in a mean way" }
+        { index: 0, text: "say quietly" },
+        { index: 1, text: "say angrily and loudly" },
+        { index: 2, text: "say in a shaking voice" },
+        { index: 3, text: "say happily and excitedly" },
+        { index: 4, text: "say in an annoyed way" },
+        { index: 5, text: "say officially/formally" },
+        { index: 6, text: "say in response/back" },
+        { index: 7, text: "say unclearly with mouth closed" },
+        { index: 8, text: "say in a complaining way" },
+        { index: 9, text: "say nervously and unclearly" }
       ],
       definitions: [
-        { index: 0, text: "beam" },
-        { index: 1, text: "wail" },
-        { index: 2, text: "chuckle" },
-        { index: 3, text: "tremble" },
-        { index: 4, text: "sigh" },
-        { index: 5, text: "blush" },
-        { index: 6, text: "shiver" },
-        { index: 7, text: "sob" },
-        { index: 8, text: "roar" },
-        { index: 9, text: "smirk" }
-      ],
-      pairs: { 0:0,1:1,2:2,3:3,4:4,5:5,6:6,7:7,8:8,9:9 }
-    },
-
-    // ===== EXERCISE 1H: Destruction/Force Verbs =====
-    {
-      terms: [
-        { index: 0, text: "break into small pieces" },
-        { index: 1, text: "break completely/violently" },
-        { index: 2, text: "hit hard repeatedly" },
-        { index: 3, text: "throw violently" },
-        { index: 4, text: "break with a loud noise" },
-        { index: 5, text: "tear into pieces" },
-        { index: 6, text: "press and break" },
-        { index: 7, text: "cut roughly" },
-        { index: 8, text: "hit and break through" },
-        { index: 9, text: "burn completely" }
-      ],
-      definitions: [
-        { index: 0, text: "shatter" },
-        { index: 1, text: "smash" },
-        { index: 2, text: "pound" },
-        { index: 3, text: "hurl" },
-        { index: 4, text: "crack" },
-        { index: 5, text: "rip" },
-        { index: 6, text: "crush" },
-        { index: 7, text: "hack" },
-        { index: 8, text: "demolish" },
-        { index: 9, text: "incinerate" }
-      ],
-      pairs: { 0:0,1:1,2:2,3:3,4:4,5:5,6:6,7:7,8:8,9:9 }
-    },
-
-    // ===== EXERCISE 1I: Sound Verbs =====
-    {
-      terms: [
-        { index: 0, text: "make a high sharp sound" },
-        { index: 1, text: "make a loud deep sound" },
-        { index: 2, text: "make a low continuous constant sound" },
-        { index: 3, text: "ring loudly and repeatedly" },
-        { index: 4, text: "make a soft continuous sound" },
-        { index: 5, text: "make a loud sudden sound" },
-        { index: 6, text: "make a sharp cracking sound" },
-        { index: 7, text: "make a light ringing sound" },
-        { index: 8, text: "make noise hitting together" },
-        { index: 9, text: "make a low continuous varying sound" }
-      ],
-      definitions: [
-        { index: 0, text: "screech" },
+        { index: 0, text: "whisper" },
         { index: 1, text: "roar" },
-        { index: 2, text: "hum" },
-        { index: 3, text: "clang" },
-        { index: 4, text: "murmur" },
-        { index: 5, text: "bang" },
-        { index: 6, text: "snap" },
-        { index: 7, text: "tinkle" },
-        { index: 8, text: "clatter" },
-        { index: 9, text: "rumble" }
+        { index: 2, text: "tremble" },
+        { index: 3, text: "exclaim" },
+        { index: 4, text: "snap" },
+        { index: 5, text: "announce" },
+        { index: 6, text: "retort" },
+        { index: 7, text: "mumble" },
+        { index: 8, text: "whine" },
+        { index: 9, text: "stammer" }
       ],
       pairs: { 0:0,1:1,2:2,3:3,4:4,5:5,6:6,7:7,8:8,9:9 }
     },
 
-    // ===== EXERCISE 1J: Weather/Nature Verbs =====
-    {
+   {
       terms: [
-        { index: 0, text: "rain lightly" },
-        { index: 1, text: "rain very hard" },
-        { index: 2, text: "shine brightly (sun)" },
-        { index: 3, text: "blow strongly (wind)" },
-        { index: 4, text: "flow quickly (water)" },
-        { index: 5, text: "move in waves (water)" },
-        { index: 6, text: "fall as snow lightly" },
-        { index: 7, text: "shake and move (earthquake)" },
-        { index: 8, text: "burn with flames" },
-        { index: 9, text: "blow in sudden gusts" }
+        { index: 0, text: "think deeply and carefully" },
+        { index: 1, text: "think about memories" },
+        { index: 2, text: "suddenly understand" },
+        { index: 3, text: "think that something is true" },
+        { index: 4, text: "think about something constantly" },
+        { index: 5, text: "think and work out logically" },
+        { index: 6, text: "guess or think (uncertain)" },
+        { index: 7, text: "wonder and ask yourself" },
+        { index: 8, text: "think hard to remember" },
+        { index: 9, text: "imagine or create in mind" }
       ],
       definitions: [
-        { index: 0, text: "drizzle" },
-        { index: 1, text: "pour" },
-        { index: 2, text: "blaze" },
-        { index: 3, text: "gust" },
-        { index: 4, text: "surge" },
-        { index: 5, text: "ripple" },
-        { index: 6, text: "flutter" },
-        { index: 7, text: "tremble" },
-        { index: 8, text: "rage" },
-        { index: 9, text: "buffet" }
+        { index: 0, text: "ponder" },
+        { index: 1, text: "recall" },
+        { index: 2, text: "realize" },
+        { index: 3, text: "believe" },
+        { index: 4, text: "obsess" },
+        { index: 5, text: "deduce" },
+        { index: 6, text: "suspect" },
+        { index: 7, text: "question" },
+        { index: 8, text: "recollect" },
+        { index: 9, text: "envision" }
       ],
+
       pairs: { 0:0,1:1,2:2,3:3,4:4,5:5,6:6,7:7,8:8,9:9 }
-    }
+    },
+
+   {
+      terms: [
+        { index: 0, text: "look quickly" },
+        { index: 1, text: "look steadily and intensely" },
+        { index: 2, text: "look angrily" },
+        { index: 3, text: "look in wonder/amazement" },
+        { index: 4, text: "look secretly/quickly" },
+        { index: 5, text: "look with half-closed eyes" },
+        { index: 6, text: "look lovingly or admiringly" },
+        { index: 7, text: "look carefully to find details" },
+        { index: 8, text: "look with wide eyes (shock)" },
+        { index: 9, text: "look briefly and secretly" }
+      ],
+      definitions: [
+        { index: 0, text: "glance" },
+        { index: 1, text: "stare" },
+        { index: 2, text: "glare" },
+        { index: 3, text: "marvel" },
+        { index: 4, text: "peek" },
+        { index: 5, text: "squint" },
+        { index: 6, text: "gaze" },
+        { index: 7, text: "scrutinize" },
+        { index: 8, text: "gape" },
+        { index: 9, text: "glimpse" }
+      ],
+
+      pairs: { 0:0,1:1,2:2,3:3,4:4,5:5,6:6,7:7,8:8,9:9 }
+    },
+
+   {
+      terms: [
+        { index: 0, text: "eat quickly and hungrily" },
+        { index: 1, text: "drink in small amounts" },
+        { index: 2, text: "eat or drink with a sucking noise" },
+        { index: 3, text: "drink quickly and eagerly" },
+        { index: 4, text: "eat small amounts slowly" },
+        { index: 5, text: "chew noisily" },
+        { index: 6, text: "drink all of it" },
+        { index: 7, text: "eat small bites of" },
+        { index: 8, text: "swallow quickly without chewing" },
+        { index: 9, text: "drink in large amounts" }
+      ],
+      definitions: [
+        { index: 0, text: "devour" },
+        { index: 1, text: "sip" },
+        { index: 2, text: "slurp" },
+        { index: 3, text: "gulp" },
+        { index: 4, text: "nibble" },
+        { index: 5, text: "munch" },
+        { index: 6, text: "drain" },
+        { index: 7, text: "sample" },
+        { index: 8, text: "wolf down" },
+        { index: 9, text: "guzzle" }
+      ],
+
+
+      pairs: { 0:0,1:1,2:2,3:3,4:4,5:5,6:6,7:7,8:8,9:9 }
+    },
   ];
 
   var currentTask = 0;
