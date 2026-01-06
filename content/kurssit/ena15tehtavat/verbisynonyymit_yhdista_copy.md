@@ -10,6 +10,7 @@ Yhdistä sanat selityksiinsä
 
 {{< rawhtml >}}
 <!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="/css/yhdistely_uusittu.css"/>
 <html lang="fi">
 <head>
   <meta charset="UTF-8">
