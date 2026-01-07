@@ -48,10 +48,10 @@ layout: ohje
 | very frightened | alarmed |
 | very frightening | terrifying |
 | very funny | hilarious |
-| very glad | delighted/overjoyed |
+| very glad | delighted/overjoyed/pleased |
 | very good | excellent/superb |
 | very great | terrific |
-| very happy | ecstatic |
+| very happy | ecstatic/thrilled/euphoric |
 | very hard | difficult |
 | very high | soaring |
 | very ugly | hideous |
@@ -79,7 +79,7 @@ layout: ohje
 | very perfect | flawless |
 | very pretty | beautiful |
 | very quick | rapid |
-| very rare | unique / uncommon |
+| very rare | unique / uncommon / extraordinary |
 | very rich | wealthy / affluent |
 | very shy | timid |
 | very simple | basic / elementary |
@@ -92,7 +92,7 @@ layout: ohje
 | very strong | forceful |
 | very stupid | idiotic |
 | very sure | certain |
-| very talented | gifted |
+| very talented | gifted/natural|
 | very tall | towering |
 | very tiny | miniscule |
 | very tired | exhausted |
