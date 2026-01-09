@@ -131,7 +131,7 @@ Mikäli kirjoitelmassasi käytetään sanaa very, se on merkki siitä, että adj
 38. very weak = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q38" type="text"/><span></span></li>
 </section>
 <section>
-39. tvery wet = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q39" type="text"/><span></span></li>
+39. very wet = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q39" type="text"/><span></span></li>
 </section>
 <section>
 40. very hot = &nbsp;<br class="flex visible md:hidden lg:hidden"><li><input id="q40" type="text"/><span></span></li>
