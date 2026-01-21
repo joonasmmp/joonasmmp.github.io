@@ -58,7 +58,7 @@ Kirjoita koko sana sillä saatat joutua muuttamaan kantasanaa.
 
 <script>
 var answers = {
-  "q1": ["lenghten"],
+  "q1": ["lengthen"],
   "q2": ["simplify"],
   "q3": ["chlorinate"],
   "q4": ["harden"],
