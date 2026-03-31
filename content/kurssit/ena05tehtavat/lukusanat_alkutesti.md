@@ -62,7 +62,7 @@ layout: tehtava
    <div class="row last">
    <section data-quiz-item>
     <div class="question">Kaksi viidesosaa</div>
-    <div class="choices" data-choices='["Two fives", "two fifths", "two-fifths", "two-fives"]'></div>
+    <div class="choices" data-choices='["Two fives", "two-fifths", "two-fifties", "two-fives"]'></div>
     <p class="info">Two-fifths olisi myös oikein mutta niin harvinainen kirjoitusasu että ei oteta sitä nyt tähän.</p>
   </section>
   <section data-quiz-item>
@@ -181,6 +181,6 @@ layout: tehtava
  
  
 $(document).emc({
-  key: ["2","3", "4","2","3","4","1","4","3","2","2"]
+  key: ["2","4","2","3","4","1","4","3","2","2"]
 });</script>
 {{< /rawhtml >}}
