@@ -16,23 +16,25 @@ layout: ohje
 </style>
 {{< /rawhtml >}}
 
-Alla listattuna isoimmat erot brittiläisen aksentin (Received Pronunciation, RP) ja amerikkalaisen aksentin (General American, GA) välillä
+Alla listattuna isoimmat erot brittiläisen aksentin (Received Pronunciation, RP) ja amerikkalaisen aksentin (General American, GA) välillä. 
 
 
 ### 1. The R sound
 
-RP: /r/ ei yleensä kuulu vokaalin jälkeen sanan lopussa.
+RP: /r/ ei yleensä äännet vokaalin jälkeen sanan lopussa.
 
 | Sana | RP | 	GA |
 |-----|------|------|
 | car | /kɑ:/ | /kɑ:r/ |
 | hard | /hɑ:d/ | /hɑ:rd/ |
 | water | /wɔ:tə/ | /wɔ:dər/ |
+| butter | /batə/ | /badər/ | 
 
+Monissa ääntämisohjeissa saatat myös huomata merkin /ɚ/, eli r-colored schwa, joka on schwan (/ə/) ja amerikkalaisen r-äänteen yhdistelmämerkki.
 
 ### 2. The T sound
 
-Amerikanenglannissa /t/ muuttuu usein pehmeäksi d-äänteeksi, kun se on vokaalien välissä.
+Amerikanenglannissa /t/ muuttuu usein pehmeäksi d-äänteeksi, kun se on vokaalien välissä. Äänne muodostetaan näpäyttämällä nopeasti ja kevyesti suulaen kattoa kielellä ilman erillistä ilmavirtaa (vrt. /t/).
 
 | Sana | RP | 	GA |
 |-----|------|------|
@@ -40,7 +42,7 @@ Amerikanenglannissa /t/ muuttuu usein pehmeäksi d-äänteeksi, kun se on vokaal
 | water | /wɔ:tə/ | /wɔ:dər/ |
 | city | /sɪti/ | /sɪdi/ |
 
-Tätä ilmiötä kutsutaan flappingiksi. Tässä yksinkertaistetaan se /t/ → /d/ -muutokseksi.
+Tätä ilmiötä kutsutaan flappingiksi. Tässä yksinkertaistetaan se /t/ → /d/ -muutokseksi, vaikka virallinen merkki on /ɾ/.
 
 
 ### 3. The A sound in words like dance
@@ -51,7 +53,7 @@ Monissa sanoissa RP:llä on pitkä /ɑ:/, kun taas amerikanenglannissa on /æ/.
 |-----|------|------|
 | dance	| /dɑ:ns/	| /dæns/ |
 | class	| /klɑ:s/	| /klæs/ |
-| ask	| /ɑ:sk/| /æsk/ |
+| ask	| /ɑ:sk/    | /æsk/ |
 | can't	| /kɑ:nt/	| /kænt/ |
 | last	| /lɑ:st/	| /læst/ |
 
@@ -61,16 +63,19 @@ Monissa sanoissa RP:llä on pitkä /ɑ:/, kun taas amerikanenglannissa on /æ/.
 RP:ssä esiintyy usein /ɒ/, jossa amerikanenglannissa on erilainen vokaali.
 
 
-|sana | RP | GA |
+| Sana | RP | GA |
 |--|--|--|
 | hot | /hɒt/ | /hɑ:t/ |
 | stop | /stɒp/ | /stɑ:p/ |
-| lot | /lɒt/ | /lɑ:t/ |
+| not | /nɒt/ | /nɑ:t/ |
 
-Amerikkalainen vokaali voi vaihdella puhujan ja alueen mukaan.
+Amerikkalainen vokaali voi vaihdella puhujan ja alueen mukaan, kuten vokaalit yleensäkin.
 
 ### 5. The GO sound
-|sana | RP | GA |
+
+Äänne on diftongi eli vokaali, joka liukuu yhdestä äänteestä kohti toista. RP:ssä äänne alkaa keskeltä suuta (ə), kun taas GA:ssa taaempaa ja avoimempaa, äänteestä /o/.
+
+| Sana | RP | GA |
 |--|--|--|
 | go |  /gəʊ/ | /goʊ/ |
 | home | /həʊm/ | /hoʊm/ |
