@@ -27,6 +27,8 @@ layout: tehtavavalikko
 
 [Affrikaatat /tʃ/ ja /dʒ/]({{<ref "fonetiikka_affrikaatat" >}})
 
+[Britti- ja amerikanaksentin erot]({{<ref "aksenttitehtava" >}})
+
 
 {{< rawhtml >}}
 <style>
