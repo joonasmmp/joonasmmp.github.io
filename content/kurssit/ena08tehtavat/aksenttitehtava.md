@@ -16,7 +16,7 @@ layout: ohje
 </style>
 {{< /rawhtml >}}
 
-Alla listattuna isoimmat erot brittiläisen aksentin (received pronunciation, RP) ja amerikkalaisen aksentin (general american, GA) välillä
+Alla listattuna isoimmat erot brittiläisen aksentin (Received Pronunciation, RP) ja amerikkalaisen aksentin (General American, GA) välillä
 
 ### 1. The R sound
 
@@ -41,18 +41,21 @@ water → /wɔ:dər/
 Amerikanenglannissa /t/ muuttuu usein pehmeäksi d-äänteeksi, kun se on vokaalien välissä.
 
 city
+
 RP → /sɪti/
 
 GA → /sɪdi/
 
 
 better
+
 RP → /betə/
 
 GA → /bedər/
 
 
 water
+
 RP → /wɔ:tə/
 
 GA → /wɔ:dər/
@@ -77,34 +80,37 @@ Monissa sanoissa RP:llä on pitkä /ɑ:/, kun taas amerikanenglannissa on /æ/.
 RP:ssä esiintyy usein /ɒ/, jossa amerikanenglannissa on erilainen vokaali.
 
 hot
+
 RP → /hɒt/
 GA → /hɑ:t/
 
 
 stop
+
 RP → /stɒp/
 GA → /stɑ:p/
 
 
 lot
+
 RP → /lɒt/
 GA → /lɑ:t/
 
 Amerikkalainen vokaali voi vaihdella puhujan ja alueen mukaan.
 
 ## 5. The GO sound
-go
-
-RP → /gəʊ/
-GA → /goʊ/
+| go | RP → /gəʊ/ | GA → /goʊ/ |
+|--|--|--|
 
 
 home
+
 RP → /həʊm/
 GA → /hoʊm/
 
 
 phone
+
 RP → /fəʊn/
 GA → /foʊn/
 
