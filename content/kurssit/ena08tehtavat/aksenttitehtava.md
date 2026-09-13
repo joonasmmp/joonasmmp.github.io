@@ -101,18 +101,8 @@ Amerikkalainen vokaali voi vaihdella puhujan ja alueen mukaan.
 ## 5. The GO sound
 | go | RP → /gəʊ/ | GA → /goʊ/ |
 |--|--|--|
-
-
-home
-
-RP → /həʊm/
-GA → /hoʊm/
-
-
-phone
-
-RP → /fəʊn/
-GA → /foʊn/
+| home | RP → /həʊm/ | GA → /hoʊm/ |
+| phone | RP → /fəʊn/ | GA → /foʊn/ |
 
 
 ### Harjoitustehtävä 
