@@ -18,49 +18,30 @@ layout: ohje
 
 Alla listattuna isoimmat erot brittiläisen aksentin (Received Pronunciation, RP) ja amerikkalaisen aksentin (General American, GA) välillä
 
+
 ### 1. The R sound
 
 RP: /r/ ei yleensä kuulu vokaalin jälkeen sanan lopussa.
 
-car → /kɑ:/
+| Sana | RP | 	GA |
+|-----|------|------|
+| car | /kɑ:/ | /kɑ:r/ |
+| hard | /hɑ:d/ | /hɑ:rd/ |
+| water | /wɔ:tə/ | /wɔ:dər/ |
 
-hard → /hɑ:d/
-
-water → /wɔ:tə/
-
-General American: /r/ yleensä äännetään.
-
-car → /kɑ:r/
-
-hard → /hɑ:rd/
-
-water → /wɔ:dər/
 
 ### 2. The T sound
 
 Amerikanenglannissa /t/ muuttuu usein pehmeäksi d-äänteeksi, kun se on vokaalien välissä.
 
-city
-
-RP → /sɪti/
-
-GA → /sɪdi/
-
-
-better
-
-RP → /betə/
-
-GA → /bedər/
-
-
-water
-
-RP → /wɔ:tə/
-
-GA → /wɔ:dər/
+| Sana | RP | 	GA |
+|-----|------|------|
+| better | /betə/ | /bedər/ |
+| water | /wɔ:tə/ | /wɔ:dər/ |
+| city | /sɪti/ | /sɪdi/ |
 
 Tätä ilmiötä kutsutaan flappingiksi. Tässä yksinkertaistetaan se /t/ → /d/ -muutokseksi.
+
 
 ### 3. The A sound in words like dance
 
@@ -79,30 +60,21 @@ Monissa sanoissa RP:llä on pitkä /ɑ:/, kun taas amerikanenglannissa on /æ/.
 
 RP:ssä esiintyy usein /ɒ/, jossa amerikanenglannissa on erilainen vokaali.
 
-hot
 
-RP → /hɒt/
-GA → /hɑ:t/
-
-
-stop
-
-RP → /stɒp/
-GA → /stɑ:p/
-
-
-lot
-
-RP → /lɒt/
-GA → /lɑ:t/
+|sana | RP | GA |
+|--|--|--|
+| hot | /hɒt/ | /hɑ:t/ |
+| stop | /stɒp/ | /stɑ:p/ |
+| lot | /lɒt/ | /lɑ:t/ |
 
 Amerikkalainen vokaali voi vaihdella puhujan ja alueen mukaan.
 
-## 5. The GO sound
-| go | RP → /gəʊ/ | GA → /goʊ/ |
+### 5. The GO sound
+|sana | RP | GA |
 |--|--|--|
-| home | RP → /həʊm/ | GA → /hoʊm/ |
-| phone | RP → /fəʊn/ | GA → /foʊn/ |
+| go |  /gəʊ/ | /goʊ/ |
+| home | /həʊm/ | /hoʊm/ |
+| phone | /fəʊn/ | /foʊn/ |
 
 
 ### Harjoitustehtävä 
