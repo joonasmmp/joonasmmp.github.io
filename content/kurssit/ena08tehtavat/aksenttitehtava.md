@@ -23,13 +23,17 @@ Alla listattuna isoimmat erot brittiläisen aksentin (received pronunciation, RP
 RP: /r/ ei yleensä kuulu vokaalin jälkeen sanan lopussa.
 
 car → /kɑ:/
+
 hard → /hɑ:d/
+
 water → /wɔ:tə/
 
 General American: /r/ yleensä äännetään.
 
 car → /kɑ:r/
+
 hard → /hɑ:rd/
+
 water → /wɔ:dər/
 
 ### 2. The T sound
@@ -38,16 +42,19 @@ Amerikanenglannissa /t/ muuttuu usein pehmeäksi d-äänteeksi, kun se on vokaal
 
 city
 RP → /sɪti/
+
 GA → /sɪdi/
 
 
 better
 RP → /betə/
+
 GA → /bedər/
 
 
 water
 RP → /wɔ:tə/
+
 GA → /wɔ:dər/
 
 Tätä ilmiötä kutsutaan flappingiksi. Tässä yksinkertaistetaan se /t/ → /d/ -muutokseksi.
