@@ -25,7 +25,9 @@ layout: tehtavavalikko
 
 [S-äänteet]({{<ref "fonetiikka_s.mdt" >}})
 
-[Affrikaatat /tʃ/ ja /dʒ/]({{<ref "fonetiikka_affrikaatat" >}})
+[Affrikaatat /tʃ/ ja /dʒ/]({{<ref "fonetiikka_affrikaatat.mdt" >}})
+
+[Britti- ja amerikanaksentin erot]({{<ref "aksenttitehtava.mdt" >}})
 
 
 {{< rawhtml >}}
