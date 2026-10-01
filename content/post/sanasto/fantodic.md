@@ -1,7 +1,7 @@
 +++
 author = "PJMM"
 title = "Fantodic, nebulous, epithet, mendacious, beleaguered, deference, verdant, convalesce, acquiesce, subsume"
-date = "2026-10-1"
+date = "2026-10-01"
 type = "post"
 tags = [
     "etymologia",
