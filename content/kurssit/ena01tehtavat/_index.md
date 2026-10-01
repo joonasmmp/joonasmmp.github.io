@@ -66,25 +66,6 @@ Yhteensä noin sadan epäsäännöllisen verbin taivutuksia. Älä vastaa väär
 
 [1. Persoonapronominit: Alkutesti]({{<ref "persoonapronominit_alkutesti.mdt" >}})
 
-### Välimerkit
-
-[1. Välimerkit: Alkutesti]({{<ref "valimerkit_alkutesti.mdt" >}})
-
-### Isot alkukirjaimet
-
-[1. Isot alkukirjaimet: Lopputesti]({{<ref "alkukirjaimet_lopputesti.mdt" >}})
-
-## Sanastoa
-
-[Flashcard: ENG-FIN]({{<ref "teemasanasto_flashcard_eng_fin.mdt" >}})
-
-[Flashcard: FIN-ENG]({{<ref "teemasanasto_flashcard_fin_eng.mdt" >}})
-
-[Teema 1: Body parts: yhdistä sanat]({{<ref "teemasanasto_1_yhdista2.mdt" >}})
-
-[Teema 2: Health: yhdistä sanat]({{<ref "teemasanasto_2_yhdista2.mdt" >}})
-
-[Teema 7: Family: yhdistä sanat]({{<ref "teemasanasto_7_yhdista2.mdt" >}})
 
 ### Muut tehtävät
 
